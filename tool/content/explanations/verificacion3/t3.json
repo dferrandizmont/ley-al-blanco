@@ -1,0 +1,49 @@
+[
+  {
+    "id": "t3-019",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 39.1 RD 137/1993: «Los envíos habrán de hacerse por ferrocarril o por empresas de transportes marítimas, aéreas o terrestres, debiendo efectuarse a través de empresas de seguridad siempre que excedan de 25 armas cortas o 50 armas largas»; el art. 39.4 prohíbe enviarlas con cartuchería. Correcto."
+  },
+  {
+    "id": "t3-022",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 39.1 RD 137/1993 (medios de envío) y art. 26.3: la guía de pertenencia «deberá ser sustituido por una guía de circulación ... cuando el propietario del arma que desee repararla resida en localidad distinta a la del armero y no la lleve personalmente». Correcto."
+  },
+  {
+    "id": "t3-023",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 42.2 RD 137/1993: «Al particular que desee adquirir una escopeta en localidad distinta a la de su residencia, la Intervención ... podrá expedir ... una guía de circulación»; art. 53.2: si la entrega es en otra localidad, los trámites los hace «la Intervención de Armas correspondiente al lugar en que hayan de recogerla». Interpretación razonable; la explicación no afirma una prohibición literal."
+  },
+  {
+    "id": "t3-026",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 42.2 RD 137/1993 (guía de circulación al particular solo para escopetas); art. 39.1 (envío por empresas de transportes); art. 31.1 (la guía de circulación ampara el traslado «sin guía de pertenencia»). Correcto."
+  },
+  {
+    "id": "t3-036",
+    "verdict": "corregir",
+    "problems": [
+      "«No se pierde la propiedad del arma» es demasiado absoluto: el art. 90.5 manda depositar el arma y seguir el destino del art. 165, que obliga a venderla a alguien con licencia o inutilizarla y, si pasado un año no se hace, permite destruirla. Además contradice lo que la app explica en t6-051 y t6-061."
+    ],
+    "suggested_explanation": "Además de anular la guía, no pasar la revista se castiga con multa y retirada de las armas, y para imponer esa sanción hay que abrir un expediente sancionador. La propiedad no se pierde sin más: el arma queda depositada y puedes venderla a alguien con licencia o inutilizarla.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.5 RD 137/1993: «Sin perjuicio de lo dispuesto en el artículo 157, ... será causa de anulación y retirada de la guía de pertenencia, debiendo quedar el arma depositada y seguirse el destino establecido en el artículo 165»; art. 157.b: «La omisión de las revistas ... Con multa ... y retirada de las armas»; art. 165.2: «El interesado podrá enajenar las armas a personas provistas de la licencia ... o proceder a su inutilización ... pasado el plazo de un año desde su depósito ... la Dirección General de la Guardia Civil podrá llevar a cabo su destrucción»."
+  }
+]

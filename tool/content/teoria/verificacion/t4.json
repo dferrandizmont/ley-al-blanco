@@ -1,0 +1,34 @@
+{
+  "id": "t4",
+  "verdict": "corregir",
+  "issues": [
+    {
+      "section": "Vigencia, visado y revocación",
+      "block_index": 3,
+      "problem": "El recuadro dice «desde los 67, visado a los tres». El art. 104.1 habla de licencias expedidas a «mayores de sesenta y siete años»; la tabla de la misma sección dice bien «más de 67» y las explicaciones de t4-057 a t4-060 dicen «mayores de 67». «Desde los 67» incluye a quien tiene 67 y contradice la tabla de arriba.",
+      "fix": "Lo que más cae: cinco años; mayores de 67, visado a los tres; tres meses de autorización temporal."
+    },
+    {
+      "section": "summary",
+      "block_index": null,
+      "problem": "Mismo problema en el resumen: «el visado desde los 67» frente a «mayores de sesenta y siete años» del art. 104.1 y a la tabla del propio documento.",
+      "fix": "Qué documento lleva cada arma, quién puede tener licencia, cuánto dura, los menores y los viajes por la Unión Europea. Lo que más cae: los números de la D y la E, los cinco años, el visado de los mayores de 67 y las edades de los menores."
+    }
+  ],
+  "evidence": [
+    "Art. 100.1-2 RD 137/1993: licencia D para 2.ª 2, una sola, cinco años, hasta cinco armas. Art. 100.3: la concede el Jefe de la Comandancia. Art. 100.6: miras telescópicas de caza mayor solo con licencia D.",
+    "Art. 101.1-3: licencia E para 3.ª y 7.ª 2 y 3; máximo seis escopetas o seis largas rayadas de tiro deportivo y doce en total; una sola, cinco años; la concede el Jefe de la Comandancia.",
+    "Art. 105.1-2: tarjetas de armas por los alcaldes para 4.ª; tarjeta B ilimitada y permanente para 4.ª 2; tarjeta A hasta seis armas y cinco años para 4.ª 1 (t4-038).",
+    "Art. 96.9: armas combinadas, documentación según el componente más peligroso (t4-010). Art. 6.1.c: armas de fuego automáticas son de guerra, prohibidas a particulares (t4-001). Art. 107.b: prohibido el uso de las armas inscritas en el Libro-Registro de coleccionista (t4-006).",
+    "Art. 102.1: licencias solo a españoles y extranjeros residentes en España mayores de edad (t4-002, t4-051, t4-054). Art. 102.2: pruebas sobre conocimiento de las armas, cuidado y conservación y manejo (t4-066). Art. 110.9: españoles residentes en el extranjero pueden adquirir, tener y usar armas de caza con las normas de los residentes (t4-005).",
+    "Art. 97.1: antecedentes penales, fotocopia de DNI o tarjeta de residencia e informe de aptitudes psicofísicas. El aviso del documento coincide con el de t4-068 en explanations/t4.json (único aviso del tema). Art. 97.2: la dedicación a la caza se acredita con licencia de caza o tarjeta federativa (t4-042, t4-043, t4-069). No existe certificado del alcalde (t4-070).",
+    "Disp. final única RD 137/1993: silencio desestimatorio a los tres meses (t4-061).",
+    "Art. 103: autorización temporal de tres meses al pedir la renovación, recogiendo la licencia próxima a caducar; la expide la Intervención (t4-014 a t4-017). Art. 145.2: autorización temporal durante la tramitación si se pierde o roban la licencia o la guía (t4-013). Art. 145.1: pérdida o robo del arma, aviso inmediato y entrega de la guía (t4-012).",
+    "Art. 104.1 (RD 726/2020): licencias expedidas a mayores de sesenta y siete años se visan a los tres años de su expedición (t4-057 a t4-060). Art. 97.5: vigencia condicionada al mantenimiento de los requisitos, comprobable en cualquier momento, con revocación (t4-062, t4-064, t4-065). Art. 158.2: retirada de licencia no superior a dos años (t4-063).",
+    "Art. 88: guía de pertenencia para 1.ª, 2.ª, 3.ª, 6.ª, 7.ª 1-4 y 8.ª; cada arma con su guía (t4-018 a t4-023, t4-027). Art. 89.1-2: la expiden las Intervenciones; DNI, datos del propietario y de la licencia, reseña completa; acompaña al arma en uso, depósito y transporte (t4-024, t4-028, t4-067). Art. 3: arcos 7.ª 5 y pistolas lanzabengalas 7.ª 6, fuera del art. 88 (t4-025, t4-026).",
+    "Art. 109.1-4: 16-18 años para largas rayadas de caza mayor o 3.ª 1 (caza o tiro junior); 14-18 para 3.ª 2 (caza) y 3.ª 2 y 3 (competiciones junior); uso, no posesión; supervisión de adulto con licencia D, E o F comprometido a acompañar y vigilar en cada cacería o acto deportivo; validez hasta la mayoría de edad; concede el Director General de la Guardia Civil; solicitud firmada por el menor y quien ejerce la patria potestad o tutela (t4-046 a t4-050, t4-055).",
+    "Art. 112.2 y 113.1: Tarjeta Europea obligatoria para residentes en España que viajen a otro país de la UE; la expide la Dirección General de la Guardia Civil; cinco años máximo, prorrogable mientras se mantenga la titularidad; constan las armas que posea y utilice el titular; se lleva siempre consigo (t4-039 a t4-041, t4-044, t4-045).",
+    "Banco: las 70 preguntas t4-001..t4-070 tratan licencias, requisitos, vigencia, guía de pertenencia, menores y Tarjeta Europea; todas quedan cubiertas por alguna sección.",
+    "Forma: sin exclamaciones ni emojis, párrafos < 400 caracteres, celdas < 60 caracteres, cada sección con artículos."
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "id": "t7",
+  "tema": 7,
+  "title": "Armas de colección, definiciones, historia, calibres y munición",
+  "summary": "Armas antiguas, reproducciones y réplicas, coleccionistas, munición e inutilización. Lo más preguntado son las definiciones del art. 2 y las cifras de uso y custodia de las reproducciones.",
+  "sections": [
+    {
+      "title": "Armas antiguas, históricas y artísticas",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Definiciones del art. 2",
+          "headers": [
+            "Término",
+            "Qué es"
+          ],
+          "rows": [
+            [
+              "Arma antigua",
+              "Modelo o año de fabricación anterior al 1-1-1890"
+            ],
+            [
+              "Arma histórica",
+              "Ligada a un hecho o personaje histórico relevante"
+            ],
+            [
+              "Arma artística",
+              "Ornamentación especial por materiales nobles o diseño"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Van en la 6.ª categoría. La 6.ª.2 recoge las anteriores al 1 de enero de 1890 y sus reproducciones y réplicas, salvo que puedan disparar munición de armas de guerra o prohibidas. Las de avancarga, en general, son 6.ª.4."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: la fecha es el 1 de enero de 1890; si dicen 1899, es falso. La antigüedad la fija el Ministerio de Defensa, no la Guardia Civil."
+        }
+      ],
+      "articles": [
+        "Art. 2 RD 137/1993",
+        "Art. 3 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Reproducciones, réplicas y coleccionistas",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Término",
+            "Qué es"
+          ],
+          "rows": [
+            [
+              "Reproducción",
+              "Copia de un original con todas sus aptitudes y usos"
+            ],
+            [
+              "Réplica o imitación",
+              "Objeto que por su aspecto puede confundirse con un arma"
+            ],
+            [
+              "Coleccionista",
+              "Reúne y conserva armas, componentes esenciales o munición"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "La reproducción funciona igual que el original; la réplica o imitación del art. 2 solo se le parece por fuera, aunque no pueda transformarse en un arma. Ojo: la 6.ª.2 y la Orden INT/2202/2014 llaman «reproducciones o réplicas» a las copias que sí funcionan. Para ser coleccionista basta con reunir componentes esenciales con fines históricos, culturales o técnicos y estar autorizado."
+        },
+        {
+          "type": "p",
+          "text": "Si solo quieres tenerlas, sin usarlas, se inscriben en un Libro-Registro diligenciado por la Intervención de Armas. Esas armas no se pueden usar, y para trasladarlas hace falta una guía especial para cada traslado."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: para solo poseer, Libro-Registro de coleccionista; para trasladar, guía especial; para usar, certificado del banco de pruebas y autorización especial."
+        }
+      ],
+      "articles": [
+        "Art. 2 RD 137/1993",
+        "Art. 107 RD 137/1993",
+        "Art. 3 Orden INT/2202/2014"
+      ]
+    },
+    {
+      "title": "Uso, munición y custodia de las reproducciones",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Como regla, usar reproducciones de armas antiguas está prohibido. Excepcionalmente se pueden disparar en campos, galerías o polígonos de tiro controlados para prácticas (el art. 107.c cita también los terrenos cinegéticos controlados), con autorización especial, que vale 5 años."
+        },
+        {
+          "type": "p",
+          "text": "Las de avancarga y las demás de la 6.ª.2 necesitan además un certificado de un banco oficial de pruebas para cada arma. Una autorización especial puede amparar un número ilimitado de ellas."
+        },
+        {
+          "type": "table",
+          "caption": "Cifras que pregunta el examen",
+          "headers": [
+            "Asunto",
+            "Qué dice la norma"
+          ],
+          "rows": [
+            [
+              "Munición",
+              "Solo con pólvora negra y del calibre del original"
+            ],
+            [
+              "Compra, arma corta",
+              "100 cartuchos al año por arma"
+            ],
+            [
+              "Depósito, arma larga rayada",
+              "En ningún caso más de 200 cartuchos"
+            ],
+            [
+              "Guarda en casa, arma corta",
+              "Completa, en caja fuerte o armero clase III"
+            ],
+            [
+              "Guarda en casa, arma larga",
+              "Completa o sus cierres o piezas, clase I"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Las clases son las de la norma UNE EN 1143-1. Los cupos de cartuchos son los generales, porque la munición sigue el régimen del arma a la que se destina."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: arma corta, 100 al año (150 es el depósito); arma larga rayada, 200 en depósito (1.000 es la compra anual). Clase III para cortas, clase I para largas."
+        }
+      ],
+      "articles": [
+        "Art. 7 Orden INT/2202/2014",
+        "Art. 9 Orden INT/2202/2014",
+        "Art. 11 Orden INT/2202/2014",
+        "Art. 107 RD 137/1993",
+        "Apdo. 1.º Resolución DGGC 27-3-2015",
+        "Art. 136 RD 989/2015",
+        "Art. 1 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Munición, inutilización y otras definiciones",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Término",
+            "Qué es"
+          ],
+          "rows": [
+            [
+              "Munición",
+              "Cartucho completo o sus componentes, vaina incluida"
+            ],
+            [
+              "Bala explosiva",
+              "Munición militar con carga que explota al impactar"
+            ],
+            [
+              "Arma inutilizada",
+              "Todos sus componentes esenciales inservibles para siempre"
+            ],
+            [
+              "Desmilitarización",
+              "Transformar en civil o desbaratar un arma de guerra"
+            ],
+            [
+              "Arma de un solo tiro",
+              "Sin depósito; se carga a mano antes de cada disparo"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "No basta con inutilizar uno o dos componentes: tienen que quedar todos inservibles y sin posibilidad de reactivar el arma (ITC 2). Con su certificado, se pueden tener en casa sin límite de número."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: la vaina forma parte de la munición; la bala explosiva es de uso militar; la desmilitarización está definida en la norma; y un arma de un solo tiro no puede llevar cargador."
+        }
+      ],
+      "articles": [
+        "Art. 2 RD 137/1993",
+        "Art. 108 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Armas retiradas por la Ley de Caza",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Si se retira un arma por infracción de la Ley de Caza y se acuerda devolverla, queda a disposición del titular un mes desde la notificación. Después, la Guardia Civil puede destruirla, salvo las de valor histórico acreditado, que se subastan o se venden a museos."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: un mes a disposición del titular y, si no la recoge, destrucción. Por eso valen las dos afirmaciones."
+        }
+      ],
+      "articles": [
+        "Art. 167 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Un poco de historia",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tres preguntas son de historia y no tienen artículo detrás. Apréndelas como las da el cuestionario:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cartucho de percusión central: de 1868 en adelante.",
+            "Primer ejército dotado con revólveres: el norteamericano.",
+            "Primera arma de repetición con cartucho metálico reglamentaria en el Ejército español: el revólver Lefaucheux («Lafaucheaux» en el cuestionario)."
+          ]
+        }
+      ],
+      "articles": []
+    }
+  ],
+  "related_questions": [
+    "t7-001",
+    "t7-002",
+    "t7-003",
+    "t7-004",
+    "t7-005",
+    "t7-006",
+    "t7-007",
+    "t7-008",
+    "t7-009",
+    "t7-010",
+    "t7-011",
+    "t7-012",
+    "t7-013",
+    "t7-014",
+    "t7-015",
+    "t7-016",
+    "t7-017",
+    "t7-018",
+    "t7-019",
+    "t7-020",
+    "t7-021",
+    "t7-022"
+  ],
+  "confidence": "media",
+  "sources": [
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 1"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 2"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 3"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 107"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 108"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 167"
+    },
+    {
+      "norma": "BOE-A-2014-12249",
+      "ref": "art. 3"
+    },
+    {
+      "norma": "BOE-A-2014-12249",
+      "ref": "art. 7"
+    },
+    {
+      "norma": "BOE-A-2014-12249",
+      "ref": "art. 9"
+    },
+    {
+      "norma": "BOE-A-2014-12249",
+      "ref": "art. 11"
+    },
+    {
+      "norma": "BOE-A-2015-3779",
+      "ref": "Primero"
+    },
+    {
+      "norma": "BOE-A-2015-12054",
+      "ref": "art. 136"
+    }
+  ],
+  "review_notes": "Sección «Un poco de historia» sin artículo (t7-013..015, cultura general, sin base en el corpus): se presenta como lo que da por bueno el cuestionario; revisar redacción y la grafía Lefaucheux. Sin avisos: ninguna respuesta de t7 choca con la norma vigente (t7-001: 1899 es la trampa, art. 2.2 y 3 dicen 1890), coherente con explanations/t7.json, que no tiene notices. Matices: (1) art. 107.c RD 137/1993 permite también terrenos cinegéticos controlados, pero la Orden INT/2202/2014 art. 7 (base de t7-007) solo cita campos, galerías o polígonos para prácticas; se sigue la Orden. (2) Art. 136 RD 989/2015 no menciona reproducciones ni coleccionistas: se aplica por el art. 1.3 RD 137/1993, igual que en las explicaciones de t7-011/012. (3) Validez de 5 años de la autorización especial: Orden INT/2202/2014 art. 9.1. Confianza media por la sección de historia; el resto tiene artículo explícito. Verificado por Fable el 19-oct-2026; correcciones aplicadas.",
+  "reviewed": false
+}

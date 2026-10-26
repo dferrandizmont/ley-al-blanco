@@ -1,0 +1,1819 @@
+{
+  "edition": "GC-2020-11",
+  "retrieved": "2026-10-18",
+  "question_count": 423,
+  "per_tema": {
+    "1": 68,
+    "2": 67,
+    "3": 66,
+    "4": 70,
+    "5": 66,
+    "6": 64,
+    "7": 22
+  },
+  "errors": 0,
+  "warnings": 5,
+  "checks": [
+    {
+      "id": "preguntas_por_tema",
+      "title": "Preguntas por tema (analizadas / maximo / esperadas)",
+      "level": "OK",
+      "summary": "423 preguntas en total",
+      "details": [],
+      "data": [
+        {
+          "fuente": "tema1.pdf (texto)",
+          "analizadas": 68,
+          "numero_maximo": 68,
+          "esperadas": 68
+        },
+        {
+          "fuente": "tema1r.pdf (texto)",
+          "analizadas": 68,
+          "numero_maximo": 68,
+          "esperadas": 68
+        },
+        {
+          "fuente": "tema1.pdf (negrita)",
+          "analizadas": 68,
+          "numero_maximo": 68,
+          "esperadas": 68
+        },
+        {
+          "fuente": "tema1r.pdf (negrita)",
+          "analizadas": 68,
+          "numero_maximo": 68,
+          "esperadas": 68
+        },
+        {
+          "fuente": "tema2.pdf (texto)",
+          "analizadas": 67,
+          "numero_maximo": 67,
+          "esperadas": 67
+        },
+        {
+          "fuente": "tema2r.pdf (texto)",
+          "analizadas": 67,
+          "numero_maximo": 67,
+          "esperadas": 67
+        },
+        {
+          "fuente": "tema2.pdf (negrita)",
+          "analizadas": 67,
+          "numero_maximo": 67,
+          "esperadas": 67
+        },
+        {
+          "fuente": "tema2r.pdf (negrita)",
+          "analizadas": 67,
+          "numero_maximo": 67,
+          "esperadas": 67
+        },
+        {
+          "fuente": "tema3.pdf (texto)",
+          "analizadas": 66,
+          "numero_maximo": 66,
+          "esperadas": 66
+        },
+        {
+          "fuente": "tema3r.pdf (texto)",
+          "analizadas": 66,
+          "numero_maximo": 66,
+          "esperadas": 66
+        },
+        {
+          "fuente": "tema3.pdf (negrita)",
+          "analizadas": 66,
+          "numero_maximo": 66,
+          "esperadas": 66
+        },
+        {
+          "fuente": "tema3r.pdf (negrita)",
+          "analizadas": 66,
+          "numero_maximo": 66,
+          "esperadas": 66
+        },
+        {
+          "fuente": "tema4.pdf (texto)",
+          "analizadas": 70,
+          "numero_maximo": 70,
+          "esperadas": 70
+        },
+        {
+          "fuente": "tema4r.pdf (texto)",
+          "analizadas": 70,
+          "numero_maximo": 70,
+          "esperadas": 70
+        },
+        {
+          "fuente": "tema4.pdf (negrita)",
+          "analizadas": 70,
+          "numero_maximo": 70,
+          "esperadas": 70
+        },
+        {
+          "fuente": "tema4r.pdf (negrita)",
+          "analizadas": 70,
+          "numero_maximo": 70,
+          "esperadas": 70
+        },
+        {
+          "fuente": "tema5.pdf (texto)",
+          "analizadas": 66,
+          "numero_maximo": 66,
+          "esperadas": 66
+        },
+        {
+          "fuente": "tema5r.pdf (texto)",
+          "analizadas": 66,
+          "numero_maximo": 66,
+          "esperadas": 66
+        },
+        {
+          "fuente": "tema5.pdf (negrita)",
+          "analizadas": 66,
+          "numero_maximo": 66,
+          "esperadas": 66
+        },
+        {
+          "fuente": "tema5r.pdf (negrita)",
+          "analizadas": 66,
+          "numero_maximo": 66,
+          "esperadas": 66
+        },
+        {
+          "fuente": "tema6.pdf (texto)",
+          "analizadas": 64,
+          "numero_maximo": 64,
+          "esperadas": 64
+        },
+        {
+          "fuente": "tema6r.pdf (texto)",
+          "analizadas": 64,
+          "numero_maximo": 64,
+          "esperadas": 64
+        },
+        {
+          "fuente": "tema6.pdf (negrita)",
+          "analizadas": 64,
+          "numero_maximo": 64,
+          "esperadas": 64
+        },
+        {
+          "fuente": "tema6r.pdf (negrita)",
+          "analizadas": 64,
+          "numero_maximo": 64,
+          "esperadas": 64
+        },
+        {
+          "fuente": "tema7.pdf (texto)",
+          "analizadas": 22,
+          "numero_maximo": 22,
+          "esperadas": 22
+        },
+        {
+          "fuente": "tema7r.pdf (texto)",
+          "analizadas": 22,
+          "numero_maximo": 22,
+          "esperadas": 22
+        },
+        {
+          "fuente": "tema7.pdf (negrita)",
+          "analizadas": 22,
+          "numero_maximo": 22,
+          "esperadas": 22
+        },
+        {
+          "fuente": "tema7r.pdf (negrita)",
+          "analizadas": 22,
+          "numero_maximo": 22,
+          "esperadas": 22
+        }
+      ]
+    },
+    {
+      "id": "numeracion",
+      "title": "Numeracion continua 1..n sin huecos ni duplicados",
+      "level": "OK",
+      "summary": "OK",
+      "details": []
+    },
+    {
+      "id": "tres_opciones",
+      "title": "Exactamente 3 opciones no vacias por pregunta",
+      "level": "OK",
+      "summary": "OK",
+      "details": []
+    },
+    {
+      "id": "una_negrita",
+      "title": "Exactamente 1 opcion correcta (negrita) por pregunta en temaNr",
+      "level": "OK",
+      "summary": "OK",
+      "details": []
+    },
+    {
+      "id": "sin_negrita_en_preguntas",
+      "title": "El PDF de preguntas (temaN) no contiene opciones en negrita",
+      "level": "OK",
+      "summary": "OK",
+      "details": []
+    },
+    {
+      "id": "alineacion_texto_negrita",
+      "title": "Alineacion pdftotext <-> PyMuPDF en temaNr (mismas preguntas y misma extension por opcion)",
+      "level": "OK",
+      "summary": "OK",
+      "details": []
+    },
+    {
+      "id": "respuesta_presente",
+      "title": "Toda pregunta tiene una respuesta oficial valida",
+      "level": "OK",
+      "summary": "OK",
+      "details": []
+    },
+    {
+      "id": "ids_duplicados",
+      "title": "Ids duplicados exactos",
+      "level": "OK",
+      "summary": "OK",
+      "details": []
+    },
+    {
+      "id": "enunciados_duplicados",
+      "title": "Enunciados duplicados tras normalizar (dentro y entre temas)",
+      "level": "WARN",
+      "summary": "7 pares (0 duplicados reales, 0 conflicto de respuesta, 7 mismo enunciado con opciones distintas)",
+      "details": [
+        "t2-015 <-> t2-016: mismo enunciado con opciones distintas (conflictivo/posible pregunta distinta)",
+        "t2-019 <-> t2-021: mismo enunciado con opciones distintas (conflictivo/posible pregunta distinta)",
+        "t2-020 <-> t2-023: mismo enunciado con opciones distintas (conflictivo/posible pregunta distinta)",
+        "t2-053 <-> t2-057: mismo enunciado con opciones distintas (conflictivo/posible pregunta distinta)",
+        "t2-066 <-> t2-067: mismo enunciado con opciones distintas (conflictivo/posible pregunta distinta)",
+        "t4-025 <-> t4-026: mismo enunciado con opciones distintas (conflictivo/posible pregunta distinta)",
+        "t6-056 <-> t6-057: mismo enunciado con opciones distintas (conflictivo/posible pregunta distinta)"
+      ],
+      "data": [
+        {
+          "a": "t2-015",
+          "b": "t2-016",
+          "tipo": "conflicto_opciones",
+          "mismo_orden_opciones": false,
+          "stem": "Además de las armas de fuego largas rayadas para vigilancia y guardería, ¿qué otras armas están incluidas en la 2ª categoría?:"
+        },
+        {
+          "a": "t2-019",
+          "b": "t2-021",
+          "tipo": "conflicto_opciones",
+          "mismo_orden_opciones": false,
+          "stem": "¿Cuál de las siguientes armas pertenece a la 2ª categoría?"
+        },
+        {
+          "a": "t2-020",
+          "b": "t2-023",
+          "tipo": "conflicto_opciones",
+          "mismo_orden_opciones": false,
+          "stem": "¿Cuál de las siguientes armas pertenece a la 3ª categoría?"
+        },
+        {
+          "a": "t2-053",
+          "b": "t2-057",
+          "tipo": "conflicto_opciones",
+          "mismo_orden_opciones": false,
+          "stem": "De las armas blancas que se detallan, ¿cuáles están prohibidas?"
+        },
+        {
+          "a": "t2-066",
+          "b": "t2-067",
+          "tipo": "conflicto_opciones",
+          "mismo_orden_opciones": false,
+          "stem": "De los tipos de cartuchería que se citan, ¿cuál está prohibida a particulares?"
+        },
+        {
+          "a": "t4-025",
+          "b": "t4-026",
+          "tipo": "conflicto_opciones",
+          "mismo_orden_opciones": false,
+          "stem": "Señale, entre las siguientes, el arma exceptuada de estar amparada con guía de pertenencia:"
+        },
+        {
+          "a": "t6-056",
+          "b": "t6-057",
+          "tipo": "conflicto_opciones",
+          "mismo_orden_opciones": false,
+          "stem": "Señale el plazo de que disponen los/las herederos/as del/de la titular de una escopeta para depositarla en la Intervención de Armas y Explosivos en caso de fallecimiento del/de la titular:"
+        }
+      ]
+    },
+    {
+      "id": "discrepancias_temaN_temaNr",
+      "title": "Discrepancias de texto entre temaN y temaNr (diff por palabras: [-temaN-] {+temaNr+})",
+      "level": "OK",
+      "summary": "OK",
+      "details": [],
+      "data": []
+    },
+    {
+      "id": "negrita_parcial",
+      "title": "Respuestas con negrita parcial (letra sola, texto solo o parcial)",
+      "level": "WARN",
+      "summary": "22 preguntas",
+      "details": [
+        "t4-001: solo el texto en negrita",
+        "t4-005: solo el texto en negrita",
+        "t4-006: solo el texto en negrita",
+        "t4-043: solo el texto en negrita",
+        "t5-001: solo el texto en negrita",
+        "t5-003: solo el texto en negrita",
+        "t5-005: solo el texto en negrita",
+        "t5-006: solo el texto en negrita",
+        "t5-007: solo el texto en negrita",
+        "t5-008: solo el texto en negrita",
+        "t5-009: solo el texto en negrita",
+        "t5-010: solo el texto en negrita",
+        "t5-011: solo el texto en negrita",
+        "t5-012: solo el texto en negrita",
+        "t5-017: solo el texto en negrita",
+        "t5-048: solo el texto en negrita",
+        "t5-049: solo el texto en negrita",
+        "t5-050: solo el texto en negrita",
+        "t5-051: solo el texto en negrita",
+        "t5-061: solo el texto en negrita",
+        "t5-064: solo el texto en negrita",
+        "t5-065: solo el texto en negrita"
+      ],
+      "data": [
+        {
+          "id": "t4-001",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t4-005",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t4-006",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t4-043",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-001",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-003",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-005",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-006",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-007",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-008",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-009",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-010",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-011",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-012",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-017",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-048",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-049",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-050",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-051",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-061",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-064",
+          "tipo": "text_only"
+        },
+        {
+          "id": "t5-065",
+          "tipo": "text_only"
+        }
+      ]
+    },
+    {
+      "id": "distribucion_respuestas",
+      "title": "Distribucion de respuestas correctas por tema (A/B/C)",
+      "level": "OK",
+      "summary": "tabla informativa",
+      "details": [],
+      "data": [
+        {
+          "tema": 1,
+          "total": 68,
+          "A": 28,
+          "B": 20,
+          "C": 20,
+          "sin_respuesta": 0
+        },
+        {
+          "tema": 2,
+          "total": 67,
+          "A": 29,
+          "B": 17,
+          "C": 21,
+          "sin_respuesta": 0
+        },
+        {
+          "tema": 3,
+          "total": 66,
+          "A": 22,
+          "B": 22,
+          "C": 22,
+          "sin_respuesta": 0
+        },
+        {
+          "tema": 4,
+          "total": 70,
+          "A": 21,
+          "B": 17,
+          "C": 32,
+          "sin_respuesta": 0
+        },
+        {
+          "tema": 5,
+          "total": 66,
+          "A": 47,
+          "B": 8,
+          "C": 11,
+          "sin_respuesta": 0
+        },
+        {
+          "tema": 6,
+          "total": 64,
+          "A": 17,
+          "B": 26,
+          "C": 21,
+          "sin_respuesta": 0
+        },
+        {
+          "tema": 7,
+          "total": 22,
+          "A": 7,
+          "B": 9,
+          "C": 6,
+          "sin_respuesta": 0
+        },
+        {
+          "tema": "total",
+          "total": 423,
+          "A": 171,
+          "B": 119,
+          "C": 133,
+          "sin_respuesta": 0
+        }
+      ]
+    },
+    {
+      "id": "caracteres",
+      "title": "Caracteres no ASCII presentes y caracteres invalidos (U+FFFD, control)",
+      "level": "OK",
+      "summary": "OK",
+      "details": [],
+      "data": [
+        {
+          "caracter": "ª",
+          "codepoint": "U+00AA",
+          "nombre": "FEMININE ORDINAL INDICATOR",
+          "apariciones": 124
+        },
+        {
+          "caracter": "´",
+          "codepoint": "U+00B4",
+          "nombre": "ACUTE ACCENT",
+          "apariciones": 17
+        },
+        {
+          "caracter": "º",
+          "codepoint": "U+00BA",
+          "nombre": "MASCULINE ORDINAL INDICATOR",
+          "apariciones": 1
+        },
+        {
+          "caracter": "¿",
+          "codepoint": "U+00BF",
+          "nombre": "INVERTED QUESTION MARK",
+          "apariciones": 364
+        },
+        {
+          "caracter": "É",
+          "codepoint": "U+00C9",
+          "nombre": "LATIN CAPITAL LETTER E WITH ACUTE",
+          "apariciones": 1
+        },
+        {
+          "caracter": "Í",
+          "codepoint": "U+00CD",
+          "nombre": "LATIN CAPITAL LETTER I WITH ACUTE",
+          "apariciones": 28
+        },
+        {
+          "caracter": "Ú",
+          "codepoint": "U+00DA",
+          "nombre": "LATIN CAPITAL LETTER U WITH ACUTE",
+          "apariciones": 4
+        },
+        {
+          "caracter": "á",
+          "codepoint": "U+00E1",
+          "nombre": "LATIN SMALL LETTER A WITH ACUTE",
+          "apariciones": 462
+        },
+        {
+          "caracter": "é",
+          "codepoint": "U+00E9",
+          "nombre": "LATIN SMALL LETTER E WITH ACUTE",
+          "apariciones": 364
+        },
+        {
+          "caracter": "í",
+          "codepoint": "U+00ED",
+          "nombre": "LATIN SMALL LETTER I WITH ACUTE",
+          "apariciones": 473
+        },
+        {
+          "caracter": "ñ",
+          "codepoint": "U+00F1",
+          "nombre": "LATIN SMALL LETTER N WITH TILDE",
+          "apariciones": 202
+        },
+        {
+          "caracter": "ó",
+          "codepoint": "U+00F3",
+          "nombre": "LATIN SMALL LETTER O WITH ACUTE",
+          "apariciones": 832
+        },
+        {
+          "caracter": "ú",
+          "codepoint": "U+00FA",
+          "nombre": "LATIN SMALL LETTER U WITH ACUTE",
+          "apariciones": 91
+        },
+        {
+          "caracter": "ü",
+          "codepoint": "U+00FC",
+          "nombre": "LATIN SMALL LETTER U WITH DIAERESIS",
+          "apariciones": 1
+        },
+        {
+          "caracter": "“",
+          "codepoint": "U+201C",
+          "nombre": "LEFT DOUBLE QUOTATION MARK",
+          "apariciones": 138
+        },
+        {
+          "caracter": "”",
+          "codepoint": "U+201D",
+          "nombre": "RIGHT DOUBLE QUOTATION MARK",
+          "apariciones": 137
+        },
+        {
+          "caracter": "…",
+          "codepoint": "U+2026",
+          "nombre": "HORIZONTAL ELLIPSIS",
+          "apariciones": 1
+        }
+      ]
+    },
+    {
+      "id": "inicios_raros",
+      "title": "Textos que empiezan por un caracter no alfanumerico (posibles erratas de origen)",
+      "level": "WARN",
+      "summary": "1 textos",
+      "details": [
+        "t2-048 [opcion A]: empieza por '.': '.Las armas de fuego que sean resultado de modificar sustanci'"
+      ]
+    },
+    {
+      "id": "lineas_ignoradas",
+      "title": "Lineas ignoradas por el analizador (titulos, vinetas...) y avisos de formato",
+      "level": "WARN",
+      "summary": "96 lineas ignoradas, 2 avisos",
+      "details": [
+        "tema6 [temaN] linea 390: texto tras linea en blanco dentro de la pregunta 64 (opciones=0); se trata como continuacion: 'que haya transcurrido un año depositada?'",
+        "tema6 [temaNr] linea 391: texto tras linea en blanco dentro de la pregunta 64 (opciones=0); se trata como continuacion: 'que haya transcurrido un año depositada?'"
+      ],
+      "data": [
+        {
+          "tema": 1,
+          "doc": "temaN",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA I"
+        },
+        {
+          "tema": 1,
+          "doc": "temaN",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "FUNCIONAMIENTO DE LAS ARMAS"
+        },
+        {
+          "tema": 1,
+          "doc": "temaN",
+          "linea": 5,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "• PIEZAS FUNDAMENTALES Y MECANISMOS DE DISPARO Y SEGURIDAD."
+        },
+        {
+          "tema": 1,
+          "doc": "temaN",
+          "linea": 6,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "• CONSERVACIÓN Y LIMPIEZA DE LAS ARMAS."
+        },
+        {
+          "tema": 1,
+          "doc": "temaN",
+          "linea": 7,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "• MEDIDAS DE SEGURIDAD A ADOPTAR EN LA TENENCIA DE LAS ARMAS."
+        },
+        {
+          "tema": 1,
+          "doc": "temaN",
+          "linea": 222,
+          "pagina": 6,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "PIEZAS FUNDAMENTALES Y MECANISMOS DE DISPARO Y SEGURIDAD"
+        },
+        {
+          "tema": 1,
+          "doc": "temaN",
+          "linea": 292,
+          "pagina": 7,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "CONSERVACIÓN Y LIMPIEZA DE LAS ARMAS"
+        },
+        {
+          "tema": 1,
+          "doc": "temaN",
+          "linea": 315,
+          "pagina": 8,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "MEDIDAS DE SEGURIDAD A ADOPTAR EN LA TENENCIA DE LAS ARMAS"
+        },
+        {
+          "tema": 1,
+          "doc": "temaNr",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA I"
+        },
+        {
+          "tema": 1,
+          "doc": "temaNr",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "FUNCIONAMIENTO DE LAS ARMAS"
+        },
+        {
+          "tema": 1,
+          "doc": "temaNr",
+          "linea": 5,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "• PIEZAS FUNDAMENTALES Y MECANISMOS DE DISPARO Y SEGURIDAD."
+        },
+        {
+          "tema": 1,
+          "doc": "temaNr",
+          "linea": 6,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "• CONSERVACIÓN Y LIMPIEZA DE LAS ARMAS."
+        },
+        {
+          "tema": 1,
+          "doc": "temaNr",
+          "linea": 7,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "• MEDIDAS DE SEGURIDAD A ADOPTAR EN LA TENENCIA DE LAS ARMAS."
+        },
+        {
+          "tema": 1,
+          "doc": "temaNr",
+          "linea": 222,
+          "pagina": 6,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "PIEZAS FUNDAMENTALES Y MECANISMOS DE DISPARO Y SEGURIDAD"
+        },
+        {
+          "tema": 1,
+          "doc": "temaNr",
+          "linea": 292,
+          "pagina": 7,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "CONSERVACIÓN Y LIMPIEZA DE LAS ARMAS"
+        },
+        {
+          "tema": 1,
+          "doc": "temaNr",
+          "linea": 315,
+          "pagina": 8,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "MEDIDAS DE SEGURIDAD A ADOPTAR EN LA TENENCIA DE LAS ARMAS"
+        },
+        {
+          "tema": 2,
+          "doc": "temaN",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA II"
+        },
+        {
+          "tema": 2,
+          "doc": "temaN",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "CATEGORÍA DE LAS ARMAS SEGÚN EL VIGENTE REGLAMENTO DE ARMAS"
+        },
+        {
+          "tema": 2,
+          "doc": "temaN",
+          "linea": 4,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "ARMAS SEMIAUTOMÁTICAS, ARMAS DE REPETICIÓN, ARMAS PROHIBIDAS"
+        },
+        {
+          "tema": 2,
+          "doc": "temaN",
+          "linea": 6,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "CATEGORÍA DE LAS ARMAS SEGÚN EL VIGENTE REGLAMENTO DE ARMAS"
+        },
+        {
+          "tema": 2,
+          "doc": "temaN",
+          "linea": 213,
+          "pagina": 5,
+          "motivo": "tras_blanco_con_opciones_completas",
+          "adyacente_a_pregunta": false,
+          "texto": "ARMAS SEMIAUTOMÁTICAS, ARMAS DE REPETICIÓN, ARMAS PROHIBIDAS"
+        },
+        {
+          "tema": 2,
+          "doc": "temaNr",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA II"
+        },
+        {
+          "tema": 2,
+          "doc": "temaNr",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "CATEGORÍA DE LAS ARMAS SEGÚN EL VIGENTE REGLAMENTO DE ARMAS"
+        },
+        {
+          "tema": 2,
+          "doc": "temaNr",
+          "linea": 4,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "ARMAS SEMIAUTOMÁTICAS, ARMAS DE REPETICIÓN, ARMAS PROHIBIDAS"
+        },
+        {
+          "tema": 2,
+          "doc": "temaNr",
+          "linea": 6,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "CATEGORÍA DE LAS ARMAS SEGÚN EL VIGENTE REGLAMENTO DE ARMAS"
+        },
+        {
+          "tema": 2,
+          "doc": "temaNr",
+          "linea": 214,
+          "pagina": 5,
+          "motivo": "tras_blanco_con_opciones_completas",
+          "adyacente_a_pregunta": false,
+          "texto": "ARMAS SEMIAUTOMÁTICAS, ARMAS DE REPETICIÓN, ARMAS PROHIBIDAS"
+        },
+        {
+          "tema": 3,
+          "doc": "temaN",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA III"
+        },
+        {
+          "tema": 3,
+          "doc": "temaN",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "CIRCULACIÓN DE ARMAS"
+        },
+        {
+          "tema": 3,
+          "doc": "temaN",
+          "linea": 5,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "REVISTA DE ARMAS"
+        },
+        {
+          "tema": 3,
+          "doc": "temaN",
+          "linea": 7,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TRANSFERENCIAS DE ARMAS"
+        },
+        {
+          "tema": 3,
+          "doc": "temaN",
+          "linea": 180,
+          "pagina": 4,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "REVISTA DE ARMAS"
+        },
+        {
+          "tema": 3,
+          "doc": "temaNr",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA III"
+        },
+        {
+          "tema": 3,
+          "doc": "temaNr",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "CIRCULACIÓN DE ARMAS"
+        },
+        {
+          "tema": 3,
+          "doc": "temaNr",
+          "linea": 4,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "REVISTA DE ARMAS"
+        },
+        {
+          "tema": 3,
+          "doc": "temaNr",
+          "linea": 6,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TRANSFERENCIAS DE ARMAS"
+        },
+        {
+          "tema": 3,
+          "doc": "temaNr",
+          "linea": 179,
+          "pagina": 4,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "REVISTA DE ARMAS"
+        },
+        {
+          "tema": 4,
+          "doc": "temaN",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA IV"
+        },
+        {
+          "tema": 4,
+          "doc": "temaN",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "DOCUMENTACIÓN PARA LA TENENCIA Y USO DE ARMAS"
+        },
+        {
+          "tema": 4,
+          "doc": "temaN",
+          "linea": 5,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "• CONDICIONES GENERALES PARA LA OBTENCIÓN DE LICENCIAS Y TARJERAS"
+        },
+        {
+          "tema": 4,
+          "doc": "temaN",
+          "linea": 6,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "EUROPEAS DE ARMAS DE FUEGO."
+        },
+        {
+          "tema": 4,
+          "doc": "temaN",
+          "linea": 8,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "• TRAMITES DE LAS SOLICITUDES."
+        },
+        {
+          "tema": 4,
+          "doc": "temaN",
+          "linea": 10,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "DOCUMENTACIÓN PARA LA TENENCIA Y USO DE ARMAS"
+        },
+        {
+          "tema": 4,
+          "doc": "temaN",
+          "linea": 257,
+          "pagina": 6,
+          "motivo": "tras_blanco_con_opciones_completas",
+          "adyacente_a_pregunta": false,
+          "texto": "CONDICIONES GENERALES PARA LA OBTENCIÓN DE LICENCIAS Y TARJETAS"
+        },
+        {
+          "tema": 4,
+          "doc": "temaN",
+          "linea": 258,
+          "pagina": 6,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "EUROPEAS DE ARMAS DE FUEGO."
+        },
+        {
+          "tema": 4,
+          "doc": "temaN",
+          "linea": 361,
+          "pagina": 8,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "Plazo para la resolución de la solicitud."
+        },
+        {
+          "tema": 4,
+          "doc": "temaN",
+          "linea": 392,
+          "pagina": 8,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TRÁMITE DE LAS SOLICITUDES"
+        },
+        {
+          "tema": 4,
+          "doc": "temaNr",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA IV"
+        },
+        {
+          "tema": 4,
+          "doc": "temaNr",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "DOCUMENTACIÓN PARA LA TENENCIA Y USO DE ARMAS"
+        },
+        {
+          "tema": 4,
+          "doc": "temaNr",
+          "linea": 5,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "• CONDICIONES GENERALES PARA LA OBTENCIÓN DE LICENCIAS Y TARJERAS"
+        },
+        {
+          "tema": 4,
+          "doc": "temaNr",
+          "linea": 6,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "EUROPEAS DE ARMAS DE FUEGO."
+        },
+        {
+          "tema": 4,
+          "doc": "temaNr",
+          "linea": 8,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "• TRAMITES DE LAS SOLICITUDES."
+        },
+        {
+          "tema": 4,
+          "doc": "temaNr",
+          "linea": 10,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "DOCUMENTACIÓN PARA LA TENENCIA Y USO DE ARMAS"
+        },
+        {
+          "tema": 4,
+          "doc": "temaNr",
+          "linea": 259,
+          "pagina": 6,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "CONDICIONES GENERALES PARA LA OBTENCIÓN DE LICENCIAS Y TARJETAS"
+        },
+        {
+          "tema": 4,
+          "doc": "temaNr",
+          "linea": 260,
+          "pagina": 6,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "EUROPEAS DE ARMAS DE FUEGO."
+        },
+        {
+          "tema": 4,
+          "doc": "temaNr",
+          "linea": 363,
+          "pagina": 8,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "Plazo para la resolución de la solicitud."
+        },
+        {
+          "tema": 4,
+          "doc": "temaNr",
+          "linea": 394,
+          "pagina": 8,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TRÁMITE DE LAS SOLICITUDES"
+        },
+        {
+          "tema": 5,
+          "doc": "temaN",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA V"
+        },
+        {
+          "tema": 5,
+          "doc": "temaN",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "RÉGIMEN SANCIONADOR"
+        },
+        {
+          "tema": 5,
+          "doc": "temaN",
+          "linea": 4,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "INFRACCIONES MUY GRAVES, GRAVES Y LEVES"
+        },
+        {
+          "tema": 5,
+          "doc": "temaN",
+          "linea": 5,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "RETIRADA DE LAS ARMAS"
+        },
+        {
+          "tema": 5,
+          "doc": "temaN",
+          "linea": 7,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "RÉGIMEN SANCIONADOR."
+        },
+        {
+          "tema": 5,
+          "doc": "temaN",
+          "linea": 84,
+          "pagina": 2,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "INFRACCIONES MUY GRAVES, GRAVES Y LEVES."
+        },
+        {
+          "tema": 5,
+          "doc": "temaN",
+          "linea": 126,
+          "pagina": 3,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "INFRACCIONES GRAVES: TIPOS Y SANCIONES."
+        },
+        {
+          "tema": 5,
+          "doc": "temaNr",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA V"
+        },
+        {
+          "tema": 5,
+          "doc": "temaNr",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "RÉGIMEN SANCIONADOR"
+        },
+        {
+          "tema": 5,
+          "doc": "temaNr",
+          "linea": 4,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "INFRACCIONES MUY GRAVES, GRAVES Y LEVES"
+        },
+        {
+          "tema": 5,
+          "doc": "temaNr",
+          "linea": 5,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "RETIRADA DE LAS ARMAS"
+        },
+        {
+          "tema": 5,
+          "doc": "temaNr",
+          "linea": 7,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "RÉGIMEN SANCIONADOR."
+        },
+        {
+          "tema": 5,
+          "doc": "temaNr",
+          "linea": 84,
+          "pagina": 2,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "INFRACCIONES MUY GRAVES, GRAVES Y LEVES."
+        },
+        {
+          "tema": 5,
+          "doc": "temaNr",
+          "linea": 126,
+          "pagina": 3,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "INFRACCIONES GRAVES: TIPOS Y SANCIONES."
+        },
+        {
+          "tema": 6,
+          "doc": "temaN",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA VI"
+        },
+        {
+          "tema": 6,
+          "doc": "temaN",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "REPARACIÓN DE ARMAS"
+        },
+        {
+          "tema": 6,
+          "doc": "temaN",
+          "linea": 4,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "PRUEBA DE ARMAS"
+        },
+        {
+          "tema": 6,
+          "doc": "temaN",
+          "linea": 5,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "DEPOSITO DE ARMAS"
+        },
+        {
+          "tema": 6,
+          "doc": "temaN",
+          "linea": 7,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "REPARACIÓN DE ARMAS."
+        },
+        {
+          "tema": 6,
+          "doc": "temaNr",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA VI"
+        },
+        {
+          "tema": 6,
+          "doc": "temaNr",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "REPARACIÓN DE ARMAS"
+        },
+        {
+          "tema": 6,
+          "doc": "temaNr",
+          "linea": 4,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "PRUEBA DE ARMAS"
+        },
+        {
+          "tema": 6,
+          "doc": "temaNr",
+          "linea": 5,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "DEPOSITO DE ARMAS"
+        },
+        {
+          "tema": 6,
+          "doc": "temaNr",
+          "linea": 7,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "REPARACIÓN DE ARMAS."
+        },
+        {
+          "tema": 7,
+          "doc": "temaN",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA VII"
+        },
+        {
+          "tema": 7,
+          "doc": "temaN",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "ARMAS DE COLECCIÓN."
+        },
+        {
+          "tema": 7,
+          "doc": "temaN",
+          "linea": 4,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "DEFINICIONES DEL ARTÍCULO 2 DEL REGLAMENTO DE ARMAS Y ARTÍCULO 107."
+        },
+        {
+          "tema": 7,
+          "doc": "temaN",
+          "linea": 6,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "HISTORIA DE LAS ARMAS DE FUEGO, CALIBRES, MUNICIÓN Y PÓLVORA."
+        },
+        {
+          "tema": 7,
+          "doc": "temaN",
+          "linea": 8,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "ARMAS DE COLECCIÓN."
+        },
+        {
+          "tema": 7,
+          "doc": "temaN",
+          "linea": 60,
+          "pagina": 2,
+          "motivo": "tras_blanco_con_opciones_completas",
+          "adyacente_a_pregunta": false,
+          "texto": "DEFINICIONES DEL ARTÍCULO 2 DEL REGLAMENTO DE ARMAS Y ARTÍCULO 107."
+        },
+        {
+          "tema": 7,
+          "doc": "temaN",
+          "linea": 62,
+          "pagina": 2,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "Reproducción."
+        },
+        {
+          "tema": 7,
+          "doc": "temaN",
+          "linea": 76,
+          "pagina": 2,
+          "motivo": "tras_blanco_con_opciones_completas",
+          "adyacente_a_pregunta": false,
+          "texto": "HISTORIA DE LAS ARMAS DE FUEGO, CALIBRES, MUNICIÓN Y PÓLVORA."
+        },
+        {
+          "tema": 7,
+          "doc": "temaNr",
+          "linea": 1,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "TEMA VII"
+        },
+        {
+          "tema": 7,
+          "doc": "temaNr",
+          "linea": 3,
+          "pagina": 1,
+          "motivo": "sangria_fuera_de_rango",
+          "adyacente_a_pregunta": false,
+          "texto": "ARMAS DE COLECCIÓN."
+        },
+        {
+          "tema": 7,
+          "doc": "temaNr",
+          "linea": 4,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "DEFINICIONES DEL ARTÍCULO 2 DEL REGLAMENTO DE ARMAS Y ARTÍCULO 107."
+        },
+        {
+          "tema": 7,
+          "doc": "temaNr",
+          "linea": 6,
+          "pagina": 1,
+          "motivo": "fuera_de_pregunta",
+          "adyacente_a_pregunta": false,
+          "texto": "HISTORIA DE LAS ARMAS DE FUEGO, CALIBRES, MUNICIÓN Y PÓLVORA."
+        },
+        {
+          "tema": 7,
+          "doc": "temaNr",
+          "linea": 8,
+          "pagina": 1,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "ARMAS DE COLECCIÓN."
+        },
+        {
+          "tema": 7,
+          "doc": "temaNr",
+          "linea": 60,
+          "pagina": 2,
+          "motivo": "tras_blanco_con_opciones_completas",
+          "adyacente_a_pregunta": false,
+          "texto": "DEFINICIONES DEL ARTÍCULO 2 DEL REGLAMENTO DE ARMAS Y ARTÍCULO 107."
+        },
+        {
+          "tema": 7,
+          "doc": "temaNr",
+          "linea": 62,
+          "pagina": 2,
+          "motivo": "col0_no_cabecera",
+          "adyacente_a_pregunta": false,
+          "texto": "Reproducción."
+        },
+        {
+          "tema": 7,
+          "doc": "temaNr",
+          "linea": 77,
+          "pagina": 2,
+          "motivo": "tras_blanco_con_opciones_completas",
+          "adyacente_a_pregunta": false,
+          "texto": "HISTORIA DE LAS ARMAS DE FUEGO, CALIBRES, MUNICIÓN Y PÓLVORA."
+        }
+      ]
+    },
+    {
+      "id": "fechas_pdf",
+      "title": "Fechas de creacion de los PDF (metadatos)",
+      "level": "WARN",
+      "summary": "fechas distintas entre PDF: 2020-11-04, 2020-12-11",
+      "details": [
+        "tema 1: tema1_es.pdf creado 2020-11-04; tema1r_es.pdf creado 2020-11-04",
+        "tema 2: tema2_es.pdf creado 2020-12-11; tema2r_es.pdf creado 2020-12-11",
+        "tema 3: tema3_es.pdf creado 2020-11-04; tema3r_es.pdf creado 2020-11-04",
+        "tema 4: tema4_es.pdf creado 2020-11-04; tema4r_es.pdf creado 2020-11-04",
+        "tema 5: tema5_es.pdf creado 2020-11-04; tema5r_es.pdf creado 2020-11-04",
+        "tema 6: tema6_es.pdf creado 2020-11-04; tema6r_es.pdf creado 2020-11-04",
+        "tema 7: tema7_es.pdf creado 2020-11-04; tema7r_es.pdf creado 2020-11-04"
+      ]
+    },
+    {
+      "id": "sha256",
+      "title": "SHA-256 de los 14 PDF",
+      "level": "OK",
+      "summary": "14 ficheros",
+      "details": [],
+      "data": [
+        {
+          "fichero": "tema1_es.pdf",
+          "sha256": "f0cf53b1d0c1f538b146583195d0d66081776f4a08e27705757c80d66f07c2a9"
+        },
+        {
+          "fichero": "tema1r_es.pdf",
+          "sha256": "092efb3fece6457ff1b5a4f874c0acc9ec9a7d042c44c712c9e2c7db8cd50e9a"
+        },
+        {
+          "fichero": "tema2_es.pdf",
+          "sha256": "71184843ba33adf04625f46feec0a129e6f4a0954028ac832461130a8edd4e12"
+        },
+        {
+          "fichero": "tema2r_es.pdf",
+          "sha256": "72add823daa91a76e1db488ca10c5994445797c99decca3b1e8107995e96e975"
+        },
+        {
+          "fichero": "tema3_es.pdf",
+          "sha256": "430d7a83540ca84f5c13c5681731d1ba59fdba66c50b52b2bb59cf5a3340f5c3"
+        },
+        {
+          "fichero": "tema3r_es.pdf",
+          "sha256": "86a2f3c2d98cd2a19fb900c5f63dedff420ec1584997088ac2c64ac3cf6cacd9"
+        },
+        {
+          "fichero": "tema4_es.pdf",
+          "sha256": "5ea6df650c49e936fc8af30c254ef5429396e0e9c2e6a0ac0748ff69d51ee45e"
+        },
+        {
+          "fichero": "tema4r_es.pdf",
+          "sha256": "5bd9055c49a4184853fe07c7f95b460828af1fa24d9251f8c68f618485f54ecb"
+        },
+        {
+          "fichero": "tema5_es.pdf",
+          "sha256": "dbd397e4db988540dc44487abb62d7e83b64cd833efe760ec53f95c28405dec3"
+        },
+        {
+          "fichero": "tema5r_es.pdf",
+          "sha256": "188e13e6a096a8f466507aea5b82fd859ab2b844db2226d3930022776452e641"
+        },
+        {
+          "fichero": "tema6_es.pdf",
+          "sha256": "7429f6b7cec6bab43f29e877320728557e7a0eaf7c4d0515ce679883addf3360"
+        },
+        {
+          "fichero": "tema6r_es.pdf",
+          "sha256": "b2c3567afd2bb9c9b76d8c0def64d4e37ff451176c566985a8045128570c3128"
+        },
+        {
+          "fichero": "tema7_es.pdf",
+          "sha256": "f21c6af5e2bc960a6d995fe6ee594b85d1760bea134dee139eab5f50771a9d50"
+        },
+        {
+          "fichero": "tema7r_es.pdf",
+          "sha256": "2ae987ea1c2bfc68cdbca9f2677d4dd53b2f7926063fc0c0a848bd09087be623"
+        }
+      ]
+    },
+    {
+      "id": "explicaciones",
+      "title": "Explicaciones",
+      "level": "OK",
+      "summary": "423/423 preguntas con explicacion, 0 revisadas, 12 avisos, 2 de confianza baja",
+      "details": [],
+      "data": {
+        "cobertura": [
+          {
+            "tema": 1,
+            "con_explicacion": 68,
+            "total": 68,
+            "cobertura": "68/68",
+            "revisadas": 0,
+            "con_aviso": 2
+          },
+          {
+            "tema": 2,
+            "con_explicacion": 67,
+            "total": 67,
+            "cobertura": "67/67",
+            "revisadas": 0,
+            "con_aviso": 0
+          },
+          {
+            "tema": 3,
+            "con_explicacion": 66,
+            "total": 66,
+            "cobertura": "66/66",
+            "revisadas": 0,
+            "con_aviso": 0
+          },
+          {
+            "tema": 4,
+            "con_explicacion": 70,
+            "total": 70,
+            "cobertura": "70/70",
+            "revisadas": 0,
+            "con_aviso": 1
+          },
+          {
+            "tema": 5,
+            "con_explicacion": 66,
+            "total": 66,
+            "cobertura": "66/66",
+            "revisadas": 0,
+            "con_aviso": 9
+          },
+          {
+            "tema": 6,
+            "con_explicacion": 64,
+            "total": 64,
+            "cobertura": "64/64",
+            "revisadas": 0,
+            "con_aviso": 0
+          },
+          {
+            "tema": 7,
+            "con_explicacion": 22,
+            "total": 22,
+            "cobertura": "22/22",
+            "revisadas": 0,
+            "con_aviso": 0
+          },
+          {
+            "tema": "total",
+            "con_explicacion": 423,
+            "total": 423,
+            "cobertura": "423/423",
+            "revisadas": 0,
+            "con_aviso": 12
+          }
+        ],
+        "confianza": {
+          "alta": 352,
+          "media": 69,
+          "baja": 2
+        },
+        "avisos": [
+          {
+            "id": "t1-045",
+            "notice": "Ojo: el cuestionario da por buenas la báscula y el cañón. El art. 1.2 del Reglamento las llama hoy «componentes esenciales» y para armas largas da una lista más amplia: también el cajón de mecanismos y el cierre o su bloqueo.",
+            "flags": [
+              "discrepancia_norma"
+            ]
+          },
+          {
+            "id": "t1-046",
+            "notice": "Ojo: el cuestionario da por buenos el cerrojo y el cañón. El art. 1.2 del Reglamento los llama hoy «componentes esenciales» y para armas largas da una lista más amplia: también el cajón de mecanismos y el cierre o su bloqueo.",
+            "flags": [
+              "discrepancia_norma"
+            ]
+          },
+          {
+            "id": "t4-068",
+            "notice": "Ojo: el cuestionario da por buena solo la A. El art. 97.1 también pide fotocopia del DNI o de la tarjeta de residencia (cotejada y devuelta), así que la C recoge todo lo que exige la norma.",
+            "flags": [
+              "discrepancia_norma"
+            ]
+          },
+          {
+            "id": "t5-005",
+            "notice": "Ojo: el cuestionario da por buenos 3 meses, plazo de la Ley Orgánica 1/1992, ya derogada. Con la Ley Orgánica 4/2015 vigente, el art. 38.1 dice que las infracciones leves prescriben a los seis meses.",
+            "flags": [
+              "discrepancia_norma"
+            ]
+          },
+          {
+            "id": "t5-010",
+            "notice": "Ojo: el cuestionario da por buenos 4 años, plazo de la Ley Orgánica 1/1992, ya derogada. Con la Ley Orgánica 4/2015 vigente, el art. 40.1 dice que las sanciones por infracciones muy graves prescriben a los tres años.",
+            "flags": [
+              "discrepancia_norma"
+            ]
+          },
+          {
+            "id": "t5-013",
+            "notice": "Ojo: el cuestionario da por buena «muy grave», como dice el art. 155 del Reglamento de Armas. La Ley Orgánica 4/2015 vigente, que está por encima del Reglamento, considera esta conducta grave (art. 36.12) y solo muy grave si causa perjuicios muy graves (art. 35.2).",
+            "flags": [
+              "discrepancia_norma"
+            ]
+          },
+          {
+            "id": "t5-014",
+            "notice": "Ojo: el cuestionario da por buena «muy grave», como dice el art. 155 del Reglamento de Armas. La Ley Orgánica 4/2015 vigente, que está por encima del Reglamento, considera esta conducta grave (art. 36.12) y solo muy grave si causa perjuicios muy graves (art. 35.2).",
+            "flags": [
+              "discrepancia_norma"
+            ]
+          },
+          {
+            "id": "t5-015",
+            "notice": "Ojo: el cuestionario da por buena «muy grave», como dice el art. 155 del Reglamento de Armas. La Ley Orgánica 4/2015 vigente, que está por encima del Reglamento, considera esta conducta grave (art. 36.12) y solo muy grave si causa perjuicios muy graves (art. 35.2).",
+            "flags": [
+              "discrepancia_norma"
+            ]
+          },
+          {
+            "id": "t5-016",
+            "notice": "Ojo: el cuestionario da por buena «muy grave», como dice el art. 155 del Reglamento de Armas. La Ley Orgánica 4/2015 vigente, que está por encima del Reglamento, considera esta conducta grave (art. 36.12) y solo muy grave si causa perjuicios muy graves (art. 35.2).",
+            "flags": [
+              "discrepancia_norma"
+            ]
+          },
+          {
+            "id": "t5-018",
+            "notice": "Ojo: el cuestionario da por buena la horquilla del Reglamento de Armas (30.050,61 a 601.012,10 euros), heredada de la Ley Orgánica 1/1992, ya derogada. La Ley Orgánica 4/2015 vigente, en su art. 39.1, fija para las muy graves de 30.001 a 600.000 euros.",
+            "flags": [
+              "discrepancia_norma"
+            ]
+          },
+          {
+            "id": "t5-052",
+            "notice": "Ojo: el cuestionario da por buena la horquilla del Reglamento de Armas (300,51 a 30.050,61 euros), heredada de la Ley Orgánica 1/1992, ya derogada. La Ley Orgánica 4/2015 vigente, en su art. 39.1, fija para las graves de 601 a 30.000 euros.",
+            "flags": [
+              "discrepancia_norma"
+            ]
+          },
+          {
+            "id": "t5-062",
+            "notice": "Ojo: el cuestionario da por buena la multa de hasta 300,51 euros, que viene de la Ley Orgánica 1/1992, ya derogada. Con la Ley Orgánica 4/2015 vigente, el art. 39.1 fija para las leves de 100 a 600 euros.",
+            "flags": [
+              "discrepancia_norma"
+            ]
+          }
+        ],
+        "confianza_baja": [
+          {
+            "id": "t2-046",
+            "review_notes": "Sin base en el corpus para la condición «bala expansiva y rifle de repetición» ni para la mención a .308 Win / 7,62x39. Arts. 6.1.b y 6.1.c y 2.33 (definición de bala expansiva) solo la cubren de forma indirecta. Necesita fuente (resolución o criterio de la DGGC/Defensa) o revisión experta. | Corregido tras verificación (Fable): Sin artículo y sin flag sin_articulo (el borrador lleva flags vacío).; La explicación no explica el porqué: solo dice «el cuestionario admite». Conviene apoyar la lógica en lo que sí dice el corpus: automáticas = guerra (art. 6.1.c), calibres de guerra los fija Defensa (art. 6.1.b), y la bala expansiva no está entre las municiones prohibidas (art. 5.1.l), a diferencia de perforantes/explosivas/incendiarias, de uso militar (art. 2.30-32).; El corpus no contiene ninguna norma que diga que esos calibres se puedan usar en caza mayor con bala expansiva y arma de repetición; article null es correcto."
+          },
+          {
+            "id": "t7-013",
+            "review_notes": "Historia sin base legal: el corpus BOE (incluidas las normas añadidas: Orden INT/2202/2014, RD 989/2015, Resolución 2015) no contiene fechas de la evolución del cartucho; buscar.py '1868' y 'percusion central' no da nada pertinente. Hubo cartuchos de percusión central antes de 1868 (cebos Boxer/Berdan hacia 1866), así que la fecha se atribuye al temario y no se afirma como hecho. Revisar con fuente histórica fiable."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cifras",
+      "title": "Cifras y plazos",
+      "level": "OK",
+      "summary": "76 preguntas con el flag `cifras` (74 por heuristica, 3 incluidas y 1 excluidas a mano)",
+      "details": [],
+      "data": {
+        "por_tema": [
+          {
+            "tema": "1",
+            "total": 68,
+            "cifras": 0
+          },
+          {
+            "tema": "2",
+            "total": 67,
+            "cifras": 14
+          },
+          {
+            "tema": "3",
+            "total": 66,
+            "cifras": 13
+          },
+          {
+            "tema": "4",
+            "total": 70,
+            "cifras": 26
+          },
+          {
+            "tema": "5",
+            "total": 66,
+            "cifras": 12
+          },
+          {
+            "tema": "6",
+            "total": 64,
+            "cifras": 7
+          },
+          {
+            "tema": "7",
+            "total": 22,
+            "cifras": 4
+          }
+        ],
+        "heuristica": 74,
+        "total": 76,
+        "incluidas_a_mano": [
+          "t2-020",
+          "t5-066",
+          "t6-041"
+        ],
+        "excluidas_a_mano": [
+          "t7-006"
+        ]
+      }
+    }
+  ]
+}

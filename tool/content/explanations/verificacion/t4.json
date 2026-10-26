@@ -1,0 +1,635 @@
+[
+  {
+    "id": "t4-001",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 6.1.c RD 137/1993: «Se consideran armas de guerra, quedando en consecuencia prohibidos su adquisición, tenencia y uso por particulares: ... c) Armas de fuego automáticas.»"
+  },
+  {
+    "id": "t4-002",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 102.1 RD 137/1993: «Las licencias para armas de las categorías 1.ª, 2.ª y 3.ª solamente podrán ser expedidas a ... mayores de edad»; art. 109.1-2: autorización especial de uso para menores de 16/14 a 18."
+  },
+  {
+    "id": "t4-003",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 100.2 RD 137/1993: «Nadie podrá poseer más de una licencia D, que tendrá cinco años de validez y autorizará para llevar y usar hasta cinco armas de la categoría 2.ª, 2.»"
+  },
+  {
+    "id": "t4-004",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 89.2 RD 137/1993: la guía «la acompañará siempre, en los casos de uso, depósito y transporte»; art. 100.1: 2.ª.2 «deberán obtener previamente licencia D»; art. 96.6: 4.ª tarjeta de armas."
+  },
+  {
+    "id": "t4-005",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 110.9 RD 137/1993: «los españoles residentes en el extranjero, que se encuentren transitoriamente en España, podrán adquirir, tener y usar armas de caza, dando cumplimiento a las normas ... para los españoles residentes en España»; art. 96.1: comunicación al Estado UE de residencia."
+  },
+  {
+    "id": "t4-006",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 107.b RD 137/1993: «Queda prohibido el uso de las armas inscritas en dicho Registro. Para la circulación y transporte será necesaria una guía especial»."
+  },
+  {
+    "id": "t4-007",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 101.1 RD 137/1993: «Las armas de las categorías 3.ª y 7.ª, 2 y 3, precisarán una licencia E»; art. 3 3.ª.2 escopetas; art. 96.6 tarjeta para 4.ª."
+  },
+  {
+    "id": "t4-008",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 100.6 RD 137/1993: alzas o miras telescópicas «solamente se permitirán a las personas que acrediten poseer licencia D ... ante los establecimientos de venta, los cuales deberán comunicarlo a la Intervención de Armas»."
+  },
+  {
+    "id": "t4-009",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 102.1 RD 137/1993 (mayores de edad); art. 100.1 (2.ª.2 licencia D); art. 109.1: 16-18 «podrán utilizar ... pero no poseer ni llevar dentro de las poblaciones, armas largas rayadas para caza mayor»."
+  },
+  {
+    "id": "t4-010",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 96.9 RD 137/1993: armas combinadas «se tendrá en cuenta, a efectos de documentación, el arma componente de mayor peligrosidad y habrá de obtenerse la autorización ... correspondiente a las armas que precisen mayores garantías»."
+  },
+  {
+    "id": "t4-011",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 96.4 RD 137/1993: «c) La licencia D de arma larga rayada para caza mayor. d) Los poseedores de armas de las categorías 3.ª y 7.ª, 2 y 3, precisarán licencia de armas E.»"
+  },
+  {
+    "id": "t4-012",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 145.1 RD 137/1993: pérdida, destrucción, robo o sustracción de armas 1.ª-3.ª: «dar cuenta inmediata ... a la Intervención de Armas ... con entrega de la guía de pertenencia»; «éste conservará su licencia»."
+  },
+  {
+    "id": "t4-013",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 145.2 RD 137/1993: perdidas las licencias o guías, la Intervención «podrá extender autorización temporal de uso de armas, válida durante la tramitación del procedimiento, o exigir el inmediato depósito de las armas»."
+  },
+  {
+    "id": "t4-014",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 103 RD 137/1993: Intervenciones «podrán expedir a los solicitantes autorizaciones temporales de uso de dichas armas, cuyo plazo de validez será de tres meses, recogiéndoles al propio tiempo las licencias próximas a caducar»."
+  },
+  {
+    "id": "t4-015",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 103 RD 137/1993: titulares de licencias «próximas a caducar» que «soliciten su nueva concesión»; «autorizaciones temporales de uso ... plazo de validez será de tres meses»."
+  },
+  {
+    "id": "t4-016",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 103 RD 137/1993: «cuyo plazo de validez será de tres meses»."
+  },
+  {
+    "id": "t4-017",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 103 RD 137/1993: «las Intervenciones de Armas de la Guardia Civil que reciban las solicitudes ... podrán expedir ... autorizaciones temporales de uso»."
+  },
+  {
+    "id": "t4-018",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 88 RD 137/1993: «Para la tenencia de las armas de las categorías 1.ª, 2.ª, 3.ª, 6.ª, 7.ª, 1, 2, 3, 4 y 8.ª, cada arma habrá de estar documentada con su correspondiente guía de pertenencia.»"
+  },
+  {
+    "id": "t4-019",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 88 RD 137/1993 (3.ª incluida); art. 96.4.c licencia D para arma larga rayada de caza mayor."
+  },
+  {
+    "id": "t4-020",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 3 RD 137/1993 3.ª.3: «Armas accionadas por aire u otro gas comprimido ... energía cinética del proyectil en boca exceda de 24,2 julios»; art. 88: 3.ª con guía de pertenencia; art. 96.6: 4.ª tarjeta."
+  },
+  {
+    "id": "t4-021",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 88 RD 137/1993: «7.ª, 1, 2, 3, 4» con guía; art. 101.1: «3.ª y 7.ª, 2 y 3, precisarán una licencia E»."
+  },
+  {
+    "id": "t4-022",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 88 RD 137/1993 (7.ª.3); art. 89.1: «Las guías de pertenencia de las armas de fuego para lanzar cabos las expedirán las Comandancias de la Guardia Civil, previo informe de las Comandancias de Marina»."
+  },
+  {
+    "id": "t4-023",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 88 RD 137/1993: «cada arma habrá de estar documentada con su correspondiente guía»; art. 89.4: «En la misma guía del arma se reseñarán ... los cañones, tambores, calibres y subcalibres intercambiables»."
+  },
+  {
+    "id": "t4-024",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 89.2 RD 137/1993: «la acompañará siempre, en los casos de uso, depósito y transporte»."
+  },
+  {
+    "id": "t4-025",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 88 RD 137/1993: categorías «1.ª, 2.ª, 3.ª, 6.ª, 7.ª, 1, 2, 3, 4 y 8.ª»; art. 3: 7.ª.5 «Los arcos»."
+  },
+  {
+    "id": "t4-026",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 3 RD 137/1993: 7.ª.6 «Armas de alarma y señales y pistolas lanzabengalas», 7.ª.1 inyección anestésica, 7.ª.3 lanzar cabos; art. 88 solo incluye 7.ª 1-4."
+  },
+  {
+    "id": "t4-027",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 88 RD 137/1993: «cada arma habrá de estar documentada con su correspondiente guía de pertenencia»."
+  },
+  {
+    "id": "t4-028",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 89.2 RD 137/1993: «se harán constar el número del documento nacional de identidad ... y los datos personales del propietario ..., así como los de la licencia correspondiente; contendrá una reseña completa del arma»."
+  },
+  {
+    "id": "t4-029",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 100.1 RD 137/1993: «Quienes precisen armas de la categoría 2.ª, 2, deberán obtener previamente licencia D»; art. 96.4.d (E) y 96.5 (F, concurso tiro deportivo)."
+  },
+  {
+    "id": "t4-030",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 3 RD 137/1993 2.ª.2: «También comprende los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos»; art. 100.1: 2.ª.2 licencia D."
+  },
+  {
+    "id": "t4-031",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 96.4 RD 137/1993: «c) La licencia D de arma larga rayada para caza mayor. d) ... 3.ª y 7.ª, 2 y 3, precisarán licencia de armas E.»"
+  },
+  {
+    "id": "t4-032",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 3 RD 137/1993 3.ª.1 (largas rayadas 5,6 mm percusión anular); art. 101.1: «Las armas de las categorías 3.ª ... precisarán una licencia E»."
+  },
+  {
+    "id": "t4-033",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 3 RD 137/1993 7.ª.2 «Las ballestas»; art. 101.1: «3.ª y 7.ª, 2 y 3, precisarán una licencia E de armas, que autorizará para poseer, llevar y usar»."
+  },
+  {
+    "id": "t4-034",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 101.1 RD 137/1993: «Las armas de las categorías 3.ª y 7.ª, 2 y 3, precisarán una licencia E»; art. 3 (3.ª.1-3, 7.ª.2-3); art. 96.6 (4.ª tarjeta)."
+  },
+  {
+    "id": "t4-035",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 101.1 RD 137/1993: «Su número no excederá de seis escopetas o de seis armas largas rayadas para tiro deportivo, ni de doce armas en total.»"
+  },
+  {
+    "id": "t4-036",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 101.1 RD 137/1993: «no excederá de seis escopetas ... ni de doce armas en total»."
+  },
+  {
+    "id": "t4-037",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 101.1 RD 137/1993: «seis armas largas rayadas para tiro deportivo, ni de doce armas en total»; art. 100.2: D «hasta cinco armas»."
+  },
+  {
+    "id": "t4-038",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 105.1 RD 137/1993: «Las tarjetas de armas serán concedidas ... por los Alcaldes»; art. 3 4.ª (carabinas de aire comprimido); art. 100.2: D solo 2.ª.2."
+  },
+  {
+    "id": "t4-039",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 112.2 RD 137/1993: «los españoles y extranjeros residentes en España que se desplacen a otro país de la Unión Europea deberán estar en posesión de la Tarjeta Europea de Armas de Fuego»."
+  },
+  {
+    "id": "t4-040",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 113.1 RD 137/1993: «Será válida por un período máximo de cinco años, que podrá prorrogarse mientras se mantenga la titularidad de las armas que ampare.»"
+  },
+  {
+    "id": "t4-041",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 113.1 RD 137/1993: «se harán constar en ella el arma o las armas de fuego que posea y utilice el titular de la Tarjeta, incluyendo la categoría ... Se mencionarán en la Tarjeta los cambios ... así como la pérdida o robo»."
+  },
+  {
+    "id": "t4-042",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 97.2 RD 137/1993: dedicación real a la caza o deportes «podrá ser acreditada por los solicitantes mediante exhibición de las correspondientes licencias de caza y tarjetas federativas en vigor»."
+  },
+  {
+    "id": "t4-043",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 97.2 RD 137/1993: «mediante exhibición de las correspondientes licencias de caza y tarjetas federativas en vigor»."
+  },
+  {
+    "id": "t4-044",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 113.1 RD 137/1993: «expedida ... por la Dirección General de la Guardia Civil, a los residentes en España que estén debidamente documentados»."
+  },
+  {
+    "id": "t4-045",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 113.1 RD 137/1993: «podrá prorrogarse mientras se mantenga la titularidad de las armas que ampare»."
+  },
+  {
+    "id": "t4-046",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 109.3 RD 137/1993: «tendrán validez hasta la mayoría de edad de sus titulares, sin necesidad de obtener renovaciones»."
+  },
+  {
+    "id": "t4-047",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 109.1 RD 137/1993: «mayores de dieciséis años y menores de dieciocho, podrán utilizar ... pero no poseer ..., armas largas rayadas para caza mayor o, en su caso, de la categoría 3.ª 1»."
+  },
+  {
+    "id": "t4-048",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 109.2 RD 137/1993: «los mayores de catorce años y menores de dieciocho podrán utilizar las armas de la categoría 3.ª, 2, para la caza y las de la categoría 3.ª, 2 y 3, para competiciones deportivas»."
+  },
+  {
+    "id": "t4-049",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 109.1 RD 137/1993: «sometidos a la supervisión de un adulto titular de licencia de armas D, E o F, que previamente se hayan comprometido a acompañarlos y vigilarlos en cada cacería o acto deportivo»."
+  },
+  {
+    "id": "t4-050",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 109.1 RD 137/1993: «comprometido a acompañarlos y vigilarlos en cada cacería o acto deportivo, y asuman la responsabilidad de su adecuado almacenamiento»."
+  },
+  {
+    "id": "t4-051",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 102.1 RD 137/1993 (licencias solo a mayores de edad); art. 109.2: menores «podrán utilizar las armas de la categoría 3.ª, 2» con autorización especial, no poseer."
+  },
+  {
+    "id": "t4-052",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 100.2 RD 137/1993: licencia D «tendrá cinco años de validez»; art. 104.1: visado solo «las expedidas a mayores de sesenta y siete años»."
+  },
+  {
+    "id": "t4-053",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 101.2 RD 137/1993: licencia E «tendrá cinco años de validez»; art. 104.1: visado a mayores de 67."
+  },
+  {
+    "id": "t4-054",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 102.1 RD 137/1993: licencias 1.ª-3.ª «solamente podrán ser expedidas a ... mayores de edad»; art. 109: autorización especial de uso para menores."
+  },
+  {
+    "id": "t4-055",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 109.4 RD 137/1993: solicitudes «suscritas por éste y por la persona que ejerce la patria potestad o la tutela»; 109.4.d autorización «responsabilizándose de su actuación»."
+  },
+  {
+    "id": "t4-056",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 101.2 RD 137/1993 (cinco años); art. 104.1 (mayores de 67) y NOTA: redacción anterior «mayores de sesenta años ... visadas cada dos años», modificada por RD 726/2020."
+  },
+  {
+    "id": "t4-057",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 104.1 RD 137/1993: «las expedidas a mayores de sesenta y siete años necesitarán ser visadas a los tres años desde la fecha de su expedición ..., previa presentación del informe de aptitud psicofísica favorable»; art. 100.2 cinco años."
+  },
+  {
+    "id": "t4-058",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 104.1 RD 137/1993 (visado a los tres años, mayores de 67, informe de aptitud); art. 101.2 (E cinco años)."
+  },
+  {
+    "id": "t4-059",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 104.1 RD 137/1993: «visadas a los tres años desde la fecha de su expedición por la Intervención de Armas y Explosivos, previa presentación del informe de aptitud psicofísica favorable»; art. 100.2."
+  },
+  {
+    "id": "t4-060",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 104.1 RD 137/1993: «las expedidas a mayores de sesenta y siete años»; NOTA: redacción anterior «mayores de sesenta años» (RD 726/2020)."
+  },
+  {
+    "id": "t4-061",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Disp. final única RD 137/1993: solicitudes «se considerarán desestimadas ... si no recaen sobre ellas resoluciones expresas dentro del plazo de tres meses y de la ampliación del mismo, en su caso, ... sin perjuicio de la obligación ... de resolver expresamente»."
+  },
+  {
+    "id": "t4-062",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 97.5 RD 137/1993: vigencia «condicionada al mantenimiento de todos los requisitos exigibles ..., procediendo a su revocación o extinción en caso contrario»."
+  },
+  {
+    "id": "t4-063",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 158.2 RD 137/1993: «La retirada de las licencias ... supone la revocación de los mismos; constituirá impedimento para su renovación durante el tiempo, no superior a dos años, ... e implicará el depósito obligatorio de las armas.»"
+  },
+  {
+    "id": "t4-064",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 97.5 RD 137/1993: «pudiendo los órganos competentes para su expedición comprobar en cualquier momento tal mantenimiento»."
+  },
+  {
+    "id": "t4-065",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 97.5 RD 137/1993: «La vigencia de las licencias ... está condicionada al mantenimiento de todos los requisitos exigibles con arreglo a lo dispuesto en este Reglamento»."
+  },
+  {
+    "id": "t4-066",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 102.2 RD 137/1993: pruebas «sobre conocimiento de las armas, su cuidado y conservación y sobre habilidad para su manejo y utilización. En todo caso, se podá exigir la acreditación del conocimiento del presente Reglamento»."
+  },
+  {
+    "id": "t4-067",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 89.1 RD 137/1993: «Las guías de pertenencia serán expedidas a los titulares de las armas por las Intervenciones de Armas, excepto ... lanzar cabos las expedirán las Comandancias de la Guardia Civil»."
+  },
+  {
+    "id": "t4-068",
+    "verdict": "corregir",
+    "problems": [
+      "La explicación no justifica por qué el cuestionario no cuenta la fotocopia del DNI (opciones B/C): según el art. 97.1.b se coteja con el original y se devuelve, así que no queda unida al expediente.",
+      "El aviso es correcto en el fondo (el art. 97.1 exige los tres documentos), pero conviene mencionar el cotejo y devolución para que no parezca un simple error del examen."
+    ],
+    "suggested_explanation": "Con la solicitud de licencia D se presentan el certificado de antecedentes penales en vigor y el informe de aptitudes psicofísicas. La fotocopia del DNI también se aporta, pero se coteja con el original y se devuelve, y por eso el cuestionario no la cuenta entre los documentos que se unen.",
+    "suggested_article": "Art. 97.1 RD 137/1993",
+    "suggested_notice": "Ojo: el cuestionario da por buena solo la A. El art. 97.1 también pide fotocopia del DNI o de la tarjeta de residencia (cotejada y devuelta), así que la C recoge todo lo que exige la norma.",
+    "evidence": "Art. 97.1 RD 137/1993: «a) Certificado de antecedentes penales en vigor. b) Fotocopia del documento nacional de identidad en vigor o ... tarjeta de autorización de residencia, que será cotejada con su original y devuelta al interesado. c) Informe de las aptitudes psicofísicas.»"
+  },
+  {
+    "id": "t4-069",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 97.1 RD 137/1993 (penales, DNI, informe psicofísico); art. 97.2: licencias E 3.ª.2 «dedicación real ... acreditada ... mediante exhibición de las correspondientes licencias de caza y tarjetas federativas»."
+  },
+  {
+    "id": "t4-070",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 97.1 RD 137/1993: a) antecedentes penales, b) fotocopia DNI/residencia, c) informe de aptitudes psicofísicas; ningún certificado del alcalde."
+  }
+]

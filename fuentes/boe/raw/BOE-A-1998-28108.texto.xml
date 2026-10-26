@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-1998-28108" fecha_publicacion="19981205" fecha_vigencia="19981206">
+          <p class="textoCompleto">Incluye corrección de errores publicada en BOE núm. 43, de 19 de febrero de 1999. <a class="refPost">Ref. BOE-A-1999-4182</a>.</p>
+        </version>
+        <version id_norma="BOE-A-2025-387" fecha_publicacion="20250108" fecha_vigencia="20250109">
+          <p class="siempreSeVe">Norma derogada, con efectos de 9 de enero de 2025, por la disposición derogatoria única de la Resolución de 4 de diciembre de 2024. <a class="refPost">Ref. BOE-A-2025-387</a></p>
+          <p class="textoCompleto">Incluye corrección de errores publicada en BOE núm. 43, de 19 de febrero de 1999. <a class="refPost">Ref. BOE-A-1999-4182</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1998-28108" fecha_publicacion="19981205" fecha_vigencia="19981206">
+          <p class="parrafo">La publicación en el «Boletín Oficial del Estado» número 96, de 22 de abril de 1998, de la norma UNE EN 1143-1 sobre medidas de seguridad en cajas fuertes, puertas y cámaras acorazadas, ha originado la anulación entre otras de las normas españolas UNE 108-110-87 y UNE 108-112-87, que se tomaban como referencia para establecer las características técnicas que en relación con la seguridad deben reunir las cajas fuertes para guardar armas y piezas esenciales de las mismas en domicilios particulares.</p>
+          <p class="parrafo">Con el fin de actualizar la determinación de las características técnicas que, en relación con la seguridad, deben reunir las cajas fuertes y armarios o armeros autorizados para guardar las armas en domicilios particulares, para dar cumplimiento a lo dispuesto en el Reglamento de Armas, esta Dirección General ha dispuesto:</p>
+        </version>
+      </bloque>
+      <bloque id="primero" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-1998-28108" fecha_publicacion="19981205" fecha_vigencia="19981206">
+          <p class="articulo">Primero.</p>
+          <p class="parrafo">Las cajas fuertes y armarios o armeros a que se refiere el artículo 100.5.a) del Reglamento de Armas, aprobado por Real Decreto 137/1993, de 29 de enero, para guardar las armas de fuego largas rayadas y los cañones comprendidos en la categoría 2.ª 2, en domicilios particulares, deberán reunir, al menos, el grado de seguridad clase I establecido en la tabla 1 de la norma UNE EN 1143-1, o el grado de seguridad A que se establecía en el punto 5.1.2 de la UNE 108-110-87.</p>
+        </version>
+      </bloque>
+      <bloque id="segundo" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-1998-28108" fecha_publicacion="19981205" fecha_vigencia="19981206">
+          <p class="articulo">Segundo.</p>
+          <p class="parrafo">Las cajas fuertes a que se refiere el artículo 133.2.b) del citado Reglamento de Armas para guardar los cierres o las piezas esenciales de las armas amparadas por licencia F, en domicilios particulares, deberán reunir, al menos, el grado de seguridad clase III establecido en la tabla 1 de la norma UNE EN 1143-1, o el grado de seguridad C que se establecía en el punto 5.1.2 de la UNE 108-110-87.</p>
+          <p class="parrafo_2">Los grados de seguridad especificados en los apartados primero y segundo anteriores, deberán acreditarse mediante certificación expedida por entidad autorizada al efecto por el Ministerio de Industria y Energía.</p>
+          <p class="parrafo">Los grados de seguridad A y C que establecían el punto 5.1.2 de la norma UNE 108-110-87, determinaban la capacidad de poder superar los correspondientes ensayos con los equipos de herramientas E-1 (llaves y ganzúas, pinzas, punzones, picos, tenazas, mazos, palancas, útiles, degarradores manuales y escoplos) en un tiempo de quince minutos y el equipo E-2 (llaves y ganzúas, pinzas, punzones, picos, tenazas, mazos, palancas, útiles desgarradores manuales y escoplos, martillo percutor y taladro portátil) en un tiempo de treinta minutos respectivamente.</p>
+          <p class="parrafo">Los grados de seguridad clase I y clase III establecidos en la tabla 1 de la norma UNE EN 1143-1, determinan la capacidad de poder superar los correspondientes ensayos de 30 unidades de resistencia (RU: Resistencia al robo resultante de un minuto de uso de una herramienta de coeficiente 1 y valor de base 0), para un acceso parcial y de 50 RU para acceso total y de 80 RU para un acceso parcial y de 120 RU para acceso total, respectivamente.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado conforme a la corrección de errores publicada en BOE núm. 43, de 19 de febrero de 1999. <a class="refPost">Ref. BOE-A-1998-28108</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria">
+        <version id_norma="BOE-A-1998-28108" fecha_publicacion="19981205" fecha_vigencia="19981206">
+          <p class="articulo">Disposición transitoria.</p>
+          <p class="parrafo">Todas las empresas que hasta la fecha dispusieran de la correspondiente certificación expedida por una entidad autorizada por el Ministerio de Industria y Energía, acreditativa del grado de seguridad de sus productos, relacionados con lo especificado en la presente Resolución, dispondrán del plazo de un año para adecuar dicha certificación a lo establecido en la norma UNE EN 1143-1.</p>
+          <p class="parrafo">Su no actualización en el plazo fijado, producirá la anulación del reconocimiento de adecuación que se posea.</p>
+          <blockquote>
+            <p class="nota_pie">Redactada conforme a la corrección de errores publicada en BOE núm. 43, de 19 de febrero de 1999. <a class="refPost">Ref. BOE-A-1999-4182</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria">
+        <version id_norma="BOE-A-1998-28108" fecha_publicacion="19981205" fecha_vigencia="19981206">
+          <p class="articulo">Disposición derogatoria.</p>
+          <p class="parrafo">A la entrada en vigor de la presente Resolución quedará derogada la Resolución de 16 de junio de 1995 de la Dirección General de la Guardia Civil, por la que se determinan las medidas de seguridad mínimas que deben reunir las cajas fuertes y armarios para guardar armas en domicilios particulares.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final">
+        <version id_norma="BOE-A-1998-28108" fecha_publicacion="19981205" fecha_vigencia="19981206">
+          <p class="articulo">Disposición final.</p>
+          <p class="parrafo">La presente Resolución entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1998-28108" fecha_publicacion="19981205" fecha_vigencia="19981206">
+          <p class="parrafo_2">Madrid, 26 de noviembre de 1998.—El Director general, Santiago López Valdivielso.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

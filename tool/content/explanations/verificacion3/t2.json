@@ -1,0 +1,79 @@
+[
+  {
+    "id": "t2-001",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 3 RD 137/1993: «teniendo en cuenta sus características, grado de peligrosidad y destino o utilización». La explicación no afirma lo de «la licencia que la ampare» de la opción B; correcto."
+  },
+  {
+    "id": "t2-021",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 3 RD 137/1993: 2.ª cat. 2 «Armas de fuego largas rayadas: Se comprenden aquellas armas utilizables para caza mayor»; escopetas en la 3.ª cat. 2; ballestas en la 7.ª cat. 2. El paréntesis «(las de caza mayor)» evita confundirlas con las del .22 de la 3.ª, 1."
+  },
+  {
+    "id": "t2-045",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 6.1 RD 137/1993: «Se consideran armas de guerra, quedando en consecuencia prohibidos su adquisición, tenencia y uso por particulares». Las salvedades del corpus (art. 6.3 empresas de seguridad privada; art. 143 préstamo a la Federación de Tiro Olímpico; art. 108.5 armas de guerra inutilizadas) no son autorizaciones a particulares de armas de guerra operativas."
+  },
+  {
+    "id": "t2-046",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin base en el corpus para la condición «bala expansiva y rifle de repetición»: art. 6.1.b («calibres sean considerados por el Ministerio de Defensa como de guerra»), 6.1.c («Armas de fuego automáticas») y 5.1.l (prohíbe solo balas «perforantes, explosivas o incendiarias») la cubren de forma indirecta. La explicación es honesta («El Reglamento no regula este caso», «El cuestionario admite») y no afirma nada falso; article null y confianza baja son correctos. Necesita revisión humana igualmente."
+  },
+  {
+    "id": "t2-047",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 4.1.f RD 137/1993: «los puñales de cualquier clase»; art. 5.1.k: «Los silenciadores adaptables a armas de fuego», prohibidos «salvo por funcionarios especialmente habilitados». Correcto."
+  },
+  {
+    "id": "t2-048",
+    "verdict": "corregir",
+    "problems": [
+      "«solo se restringe si el arma queda por debajo de 60 cm» rebaja lo que dice la norma: en ese caso el arma está prohibida (art. 5.1.f), con la única excepción de los funcionarios habilitados. Además choca con t2-047, donde un objeto del mismo art. 5 (silenciadores) se presenta como prohibido.",
+      "«no está en esa lista» puede leerse como que una culata plegable nunca es problema; falta la condición exacta (que el arma larga pueda reducirse a menos de 60 cm sin perder funcionalidad)."
+    ],
+    "suggested_explanation": "Un arma modificada de forma sustancial sin la autorización reglamentaria es un arma prohibida. Una culata plegable, por sí sola, no: solo está prohibida, salvo para funcionarios habilitados, si permite que el arma larga quede por debajo de 60 cm sin perder funcionalidad.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 4.1.a RD 137/1993: «Las armas de fuego que sean resultado de una fabricación ilícita o de modificar sustancialmente las características de fabricación u origen de otras armas, sin la reglamentaria autorización»; art. 5.1: «Queda prohibida la publicidad, compraventa, tenencia y uso, salvo por funcionarios especialmente habilitados ... f) Las armas de fuego largas que puedan reducirse a una longitud de menos de 60 cm sin perder funcionalidad por medio de una culata plegable, telescópica o eliminable»."
+  },
+  {
+    "id": "t2-053",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 4.1.f RD 137/1993 (puñales prohibidos) y art. 5.3: «Queda prohibido el uso por particulares de cuchillos, machetes y demás armas blancas que formen parte de armamentos debidamente aprobados por autoridades u organismos competentes». Correcto."
+  },
+  {
+    "id": "t2-055",
+    "verdict": "corregir",
+    "problems": [
+      "«Ninguna norma prohíbe» es una afirmación universal que el corpus no permite sostener (contiene el Reglamento y la Ley de caza de 1970, no las normas autonómicas de caza). Basta con decir que el Reglamento no lo prohíbe."
+    ],
+    "suggested_explanation": "El Reglamento no prohíbe montar una mira telescópica en una escopeta u otra arma de la 3.ª, 2. Lo único que limita es la adquisición, tenencia y uso de las miras adaptables a armas de caza mayor, que reserva a quien tenga licencia D.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 100.6 RD 137/1993: «La adquisición, tenencia y uso de las alzas o miras telescópicas o artificios adaptables a las armas de caza mayor para aumentar su eficacia, solamente se permitirán a las personas que acrediten poseer licencia D». Búsqueda «telescop»/«miras»/«visor» en el corpus: solo arts. 5 y 100 del Reglamento; ninguna prohibición para la 3.ª, 2."
+  }
+]

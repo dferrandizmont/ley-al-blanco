@@ -1,0 +1,28 @@
+# Python (tool/content)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Editors / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.jks
+*.keystore
+key.properties
+
+# Gradle outputs
+app/android/build/
+
+# Golden diffs written by flutter test when a golden fails
+app/test/goldens/failures/
+
+# Sitio legal: copia rellenada (se genera con web/legal/rellenar.py)
+web/legal/dist/
+store/status.html

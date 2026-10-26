@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219132601">
+  <metadatos>
+    <identificador>BOE-A-2009-17245</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="7320">Ministerio del Interior</departamento>
+    <rango codigo="1340">Real Decreto</rango>
+    <fecha_disposicion>20091030</fecha_disposicion>
+    <numero_oficial>1628/2009</numero_oficial>
+    <titulo>Real Decreto 1628/2009, de 30 de octubre, por el que se modifican determinados preceptos del Reglamento de Seguridad Privada, aprobado por Real Decreto 2364/1994, de 9 de diciembre, y del Reglamento de Armas, aprobado por Real Decreto 137/1993, de 29 de enero.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20091031</fecha_publicacion>
+    <diario_numero>263</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>90892</pagina_inicial>
+    <pagina_final>90895</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2009/10/31/pdfs/BOE-A-2009-17245.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan>/boe_catalan/dias/2009/10/31/pdfs/BOE-A-2009-17245-C.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego>/boe_gallego/dias/2009/10/31/pdfs/BOE-A-2009-17245-G.pdf</url_pdf_gallego>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20091031</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/rd/2009/10/30/1628</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2009/10/30/1628">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-17245</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-30</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1628</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/289"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/530"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4800"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4880"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6498"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7145"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-17245</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-30</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1628</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/289"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/530"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4800"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4880"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6498"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7145"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2009/10/30/1628"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1628/2009, de 30 de octubre, por el que se modifican determinados preceptos del Reglamento de Seguridad Privada, aprobado por Real Decreto 2364/1994, de 9 de diciembre, y del Reglamento de Armas, aprobado por Real Decreto 137/1993, de 29 de enero.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-31</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 1628/2009, de 30 d'octubre, pel qual es modifiquen determinats preceptes del Reglament de seguretat privada, aprovat pel Reial decret 2364/1994, de 9 de desembre, i del Reglament d'armes, aprovat pel Reial decret 137/1993, de 29 de gener.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-31</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/glg">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real decreto 1628/2009, do 30 de outubro, polo que se modifican determinados preceptos do Regulamento de seguranza privada, aprobado polo Real decreto 2364/1994, do 9 de decembro, e do Regulamento de armas, aprobado polo Real decreto 137/1993, do 29 de xaneiro.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-31</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/glg/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2009/10/30/1628/dof/glg"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="289" orden="">Armas</materia>
+      <materia codigo="530" orden="">Buques</materia>
+      <materia codigo="4800" orden="">Licencias de armas</materia>
+      <materia codigo="4880" orden="">Marinas Mercante y de Pesca</materia>
+      <materia codigo="6498" orden="">Seguridad privada</materia>
+      <materia codigo="7145" orden="">Vigilantes de seguridad</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-1995-608" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>Arts 81 y 86 del Reglamento aprobado por Real Decreto 2364/1994, de 9 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1993-6202" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>Arts 6 y 124 del Reglamento aprobado por Real Decreto 137/1993, de 29 de enero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1992-18489" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>Ley 23/1992, de 30 de julio</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2009-17309" orden="">
+          <palabra codigo="440">SE DICTA DE CONFORMIDAD</palabra>
+          <texto>sobre Autorización de armamento en buques mercantes y pesqueros: Orden PRE/2914/2009, de 30 de octubre</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas>
+      <alerta codigo="122" orden="">Pesca</alerta>
+      <alerta codigo="126" orden="">Seguridad y Defensa</alerta>
+      <alerta codigo="132" orden="">Transportes y tráfico</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">Recientes ataques sufridos por buques pesqueros españoles que desarrollan sus actividades en aguas sometidas a especiales situaciones de riesgo para la vida e integridad de sus tripulantes, aconsejan la adopción de medidas destinadas a mejorar específicamente la seguridad de dichas embarcaciones y de sus tripulaciones, mediante el uso de medios adecuados y destinados a la prevención y disuasión de posibles ataques. Dichos ataques se han producido, en aguas internacionales cercanas a las costas de Somalia, mediante la utilización de armas de guerra, lo que exige, en respuesta a la entidad y carácter de la amenaza, la utilización de los medios de defensa y de prevención adecuados y proporcionados a esos modos de agresión.</p>
+    <p class="parrafo">La normativa sobre seguridad privada constituye el marco adecuado que puede permitir el desarrollo de servicios de seguridad privada de los buques, profundizando en un proceso, extendido en todas las sociedades de nuestro entorno, de realización de actividades de seguridad por parte de otras instancias sociales y agentes privados. El artículo 4.2 de la Ley 23/1992, de 30 de julio, de Seguridad Privada, habilita al Ministerio del Interior para determinar las características y finalidades de los medios materiales y técnicos precisos para la prestación de los servicios de seguridad privada. Por su parte, el artículo 11 de la misma ley atribuye a los Vigilantes de Seguridad, entre otras funciones, las de ejercer la vigilancia y protección de bienes muebles e inmuebles, así como la protección de las personas que puedan encontrarse en los mismos. Y el artículo 14, establece que los vigilantes de seguridad sólo desarrollarán con armas de fuego las funciones de vigilancia y de protección de bienes y de personas que les corresponden, en los supuestos que reglamentariamente se determinen, añadiendo que la categoría de las armas adecuadas para realizar los servicios de seguridad también se determinarán reglamentariamente.</p>
+    <p class="parrafo">Por último, la disposición final primera de la citada Ley 23/1992, de 30 de julio, habilita al Gobierno para determinar por vía reglamentaria, entre otras, las condiciones que deben cumplirse en la prestación de servicios y en la organización de actividades de seguridad privada, las características que deben reunir los medios técnicos y materiales utilizados a tal fin, y las funciones deberes y responsabilidades del personal de seguridad privada.</p>
+    <p class="parrafo">En desarrollo y ejecución de estas previsiones de la Ley de Seguridad Privada, se hace necesario modificar las correspondientes disposiciones reglamentarias, para permitir que la prestación de la seguridad a bordo de los buques mercantes y buques pesqueros de bandera española en situaciones de especial riesgo para personas y bienes, de modo que pueda ser prestada por el personal de las empresas de seguridad, mediante la utilización debidamente controlada del armamento adecuado para cumplir eficazmente con los cometidos de protección y de prevención que desarrollan legalmente.</p>
+    <p class="parrafo">La regulación por la Administración del Estado de los servicios de seguridad que puedan prestar, en este ámbito, las empresas privadas y su personal, se inscribe en núcleo esencial de la competencia exclusiva en materia de seguridad pública atribuida al Estado por el artículo 148.1.29.ª de la Constitución.</p>
+    <p class="parrafo">En su virtud, a iniciativa de la Ministra de Defensa, a propuesta del Ministro del Interior, de acuerdo con el Consejo de Estado, y previa deliberación del Consejo de Ministros en su reunión del día 30 de octubre de 2009,</p>
+    <p class="centro_redonda">DISPONGO:</p>
+    <p class="articulo">Artículo primero. Modificación del Reglamento de Seguridad Privada, aprobado por Real Decreto 2364/1994, de 9 de diciembre.</p>
+    <p class="parrafo">Uno. El artículo 81 queda redactado en los siguientes términos:</p>
+    <p class="sangrado_articulo">«Artículo 81. Prestación de servicios con armas.</p>
+    <p class="sangrado_2">1. Los vigilantes sólo desempeñarán con armas de fuego los siguientes servicios:</p>
+    <p class="sangrado_2">a) Los de protección del almacenamiento, recuento, clasificación, transporte y distribución de dinero, valores y objetos valiosos o peligrosos.</p>
+    <p class="sangrado">b) Los de vigilancia y protección de:</p>
+    <p class="sangrado_2">1.º Centros y establecimientos militares y aquellos otros dependientes del Ministerio de Defensa, en los que presten servicio miembros de las Fuerzas Armadas o estén destinados al uso por el citado personal.</p>
+    <p class="sangrado">2.º Fábricas, depósitos y transporte de armas, explosivos y sustancias peligrosas.</p>
+    <p class="sangrado">3.º Industrias o establecimientos calificados como peligrosos, con arreglo a la legislación de actividades clasificadas, por manipulación, utilización o producción de materias inflamables o explosivas que se encuentren en despoblado.</p>
+    <p class="sangrado_2">c) En los siguientes establecimientos, entidades, organismos, inmuebles y buques, cuando así se disponga por la Dirección General de la Policía y de la Guardia Civil en los supuestos no circunscritos al ámbito provincial, o por las Delegaciones o Subdelegaciones del Gobierno, valoradas circunstancias tales como la localización, el valor de los objetos a proteger, la concentración del riesgo o peligrosidad, la nocturnidad u otras de análoga significación:</p>
+    <p class="sangrado_2">1.º Dependencias de Bancos, Cajas de Ahorro y entidades de crédito.</p>
+    <p class="sangrado">2.º Centros de producción, transformación y distribución de energía.</p>
+    <p class="sangrado">3.º Centros y sedes de repetidores de comunicación.</p>
+    <p class="sangrado">4.º Polígonos industriales y lugares donde se concentre almacenamiento de materias primas o mercancías.</p>
+    <p class="sangrado">5.º Urbanizaciones aisladas.</p>
+    <p class="sangrado">6.º Joyerías, platerías o lugares donde se fabriquen, almacenen o exhiban objetos preciosos.</p>
+    <p class="sangrado">7.º Museos, salas de exposiciones o similares.</p>
+    <p class="sangrado">8.º Los lugares de caja o donde se concentren fondos, de grandes superficies comerciales o de casinos de juego.</p>
+    <p class="sangrado">9.º Buques mercantes y buques pesqueros que naveguen bajo bandera española en aguas en las que exista grave riesgo para la seguridad de las personas o de los bienes, o para ambos.</p>
+    <p class="sangrado_2">2. Cuando las empresas, organismos o entidades titulares de los establecimientos o inmuebles entendiesen que en supuestos no incluidos en el apartado anterior el servicio debiera ser prestado con armas de fuego, teniendo en cuenta las circunstancias que en el mismo se mencionan, solicitarán la correspondiente autorización a la Dirección General de la Policía y de la Guardia Civil, respecto a supuestos no circunscritos al ámbito provincial o a las Delegaciones o Subdelegaciones del Gobierno, que resolverán lo procedente, pudiendo autorizar la formalización del correspondiente contrato.»</p>
+    <p class="parrafo_2">Dos. El artículo 86 queda sustituido por el siguiente:</p>
+    <p class="sangrado_articulo">«Artículo 86. Arma de fuego y medios de defensa.</p>
+    <p class="sangrado_2">1. El arma reglamentaria de los vigilantes de seguridad en los servicios que hayan de prestarse con armas será la que determine el Ministerio del Interior.</p>
+    <p class="sangrado">2. Los vigilantes de seguridad portarán la defensa que se determine por el Ministerio del Interior, en los supuestos que asimismo se determinen por dicho Ministerio.</p>
+    <p class="sangrado">3. Cuando los vigilantes en el ejercicio de sus funciones hayan de proceder a la detención e inmovilización de personas para su puesta a disposición de las Fuerzas y Cuerpos de Seguridad, el jefe de seguridad podrá disponer el uso de grilletes.</p>
+    <p class="sangrado">4. En los supuestos previstos en el nº 9 de la letra c) del apartado 1 del artículo 81 anterior, los vigilantes de seguridad privada podrán portar y usar armas de guerra para la prestación de servicios de protección de personas y bienes, previniendo y repeliendo ataques, con las características, en las condiciones y con los requisitos que se determinen, de manera conjunta, por los Ministerios de Defensa y de Interior.»</p>
+    <p class="articulo">Artículo segundo. Modificación del Reglamento de Armas, aprobado por Real Decreto 137/1993, de 29 de enero.</p>
+    <p class="parrafo">Uno. El artículo 6 queda modificado en los siguientes términos:</p>
+    <p class="sangrado_articulo">«Artículo 6.</p>
+    <p class="sangrado_2">1. Se consideran armas de guerra, quedando en consecuencia prohibidos su adquisición, tenencia y uso por particulares:</p>
+    <p class="sangrado_2">a) Armas de fuego o sistemas de armas de fuego de calibre igual o superior a 20 milímetros.</p>
+    <p class="sangrado">b) Armas de fuego o sistemas de armas de fuego de calibre inferior a 20 milímetros, cuyos calibres sean considerados por el Ministerio de Defensa como de guerra.</p>
+    <p class="sangrado">c) Armas de fuego automáticas.</p>
+    <p class="sangrado">d) Las municiones para las armas indicadas en los apartados a) y b).</p>
+    <p class="sangrado">e) Los conjuntos, subconjuntos y piezas fundamentales de las armas y municiones indicadas en los apartados a) a d), así como, en su caso, sus sistemas entrenadores o subcalibres.</p>
+    <p class="sangrado">f) Bombas de aviación, misiles, cohetes, torpedos, minas, granadas, así como sus subconjuntos y piezas fundamentales.</p>
+    <p class="sangrado">g) Las no incluidas en los apartados anteriores y que se consideren como de guerra por el Ministerio de Defensa.</p>
+    <p class="sangrado_2">2. Corresponde al Gobierno, a propuesta conjunta de los Ministerios de Defensa y del Interior, determinar las armas comprendidas en este artículo que pueden ser utilizadas como dotación de los miembros de las Fuerzas y Cuerpos de Seguridad.</p>
+    <p class="sangrado">3. No obstante lo dispuesto en el apartado 1, el Gobierno, en los supuestos previstos en el artículo 81.1.c) 9.º del Reglamento de Seguridad Privada, aprobado por Real Decreto 2364/1994, de 9 de diciembre, a propuesta conjunta de los Ministerios de Defensa y de Interior, fijará por Orden Ministerial los términos y condiciones para la tenencia, control, utilización y, en su caso, adquisición por parte de las empresas de seguridad privada, de armas de guerra, así como las características de estas últimas.»</p>
+    <p class="parrafo_2">Dos. El artículo 124 queda sustituido por el siguiente:</p>
+    <p class="sangrado_articulo">«Articulo 124.</p>
+    <p class="sangrado_2">1. Las licencias C podrán autorizar un arma de las categorías 1.ª, 2.ª1 o 3.ª2, o las armas de guerra a las que se refiere el apartado 3 del articulo 6 de este reglamento, según el servicio a prestar, de conformidad con lo dispuesto en la respectiva regulación o, en su defecto, de acuerdo con el dictamen emitido por la Comisión Interministerial Permanente de Armas y Explosivos.»</p>
+    <p class="articulo">Disposición final única. Entrada en vigor.</p>
+    <p class="parrafo">El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado».</p>
+    <p class="parrafo_2">Dado en Madrid, el 30 de octubre de 2009.</p>
+    <p class="firma_rey">JUAN CARLOS R.</p>
+    <p class="firma_ministro">El Ministro del Interior,</p>
+    <p class="firma_ministro">ALFREDO PÉREZ RUBALCABA</p>
+  </texto>
+</documento>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T185925Z</fecha_actualizacion>
+      <identificador>BOE-A-2025-387</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1370">Resolución</rango>
+      <fecha_disposicion>20241204</fecha_disposicion>
+      <titulo>Resolución de 4 de diciembre de 2024, de la Dirección General de la Guardia Civil, por la que se determinan las medidas de seguridad mínimas que deben reunir las cajas fuertes o armeros para guardar las armas en domicilios particulares.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20250108</fecha_publicacion>
+      <diario_numero>7</diario_numero>
+      <fecha_vigencia>20250109</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/res/2024/12/04/(3)</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2025-387</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "t6-010",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 26.3 RD 137/1993: «No se admitirá ningún arma a reparar si no va acompañada de su guía de pertenencia»; art. 96.1: «Nadie podrá llevar ni poseer armas de fuego en territorio español sin disponer de la correspondiente autorización». La explicación combina ambos sin afirmar nada falso."
+  },
+  {
+    "id": "t6-012",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 26.3 RD 137/1993: la guía de pertenencia «deberá ser sustituido por una guía de circulación ... cuando el propietario ... resida en localidad distinta a la del armero y no la lleve personalmente». La explicación aclara que según el caso vale uno u otro, que es la única lectura que hace válida la opción C."
+  },
+  {
+    "id": "t6-017",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 26.4 RD 137/1993: modificación de calibre «sin conocimiento de la Intervención de Armas ... y aprobación en su caso del Ministerio de Defensa, con arreglo al artículo 24»; art. 24: los fabricantes entregan documentación técnica «que renovarán siempre que introduzcan variaciones» y aprobación por banco oficial para 1.ª y 2.ª categorías. «cuando proceda» cubre bien el matiz."
+  },
+  {
+    "id": "t6-028",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 27.2 RD 137/1993: los fabricantes y comerciantes «pueden dejar a prueba dichas armas a las personas que, estando interesadas en adquirirlas, posean la correspondiente licencia»; art. 27.1 enumera «polígonos, campos o galerías de tiro legalmente autorizados». Correcto y suficiente."
+  },
+  {
+    "id": "t6-030",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 27.2 RD 137/1993: dejar a prueba a quienes «posean la correspondiente licencia»; el documento del vendedor se expide «a la persona que vaya a realizar las pruebas» y debe ser visado por la Intervención. La explicación reconoce el documento y deja la licencia como requisito base; no induce a error."
+  },
+  {
+    "id": "t6-045",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 165.1 RD 137/1993: «Al cesar en la habilitación para la tenencia legal de las armas, el interesado deberá depositarlas inmediatamente, con las correspondientes guías de pertenencia». Los 3 meses de la opción A corresponden a la autorización temporal del art. 103, que exige pedir la renovación antes de caducar; no aplica a una licencia ya caducada."
+  },
+  {
+    "id": "t6-047",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 145.2 RD 137/1993: ante pérdida de licencias o guías, la Intervención «podrá extender autorización temporal de uso de armas ... o exigir el inmediato depósito de las armas». La explicación recoge las dos posibilidades; el art. 145 no ha cambiado, no procede aviso."
+  },
+  {
+    "id": "t6-048",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 145.2 RD 137/1993 (misma regla que t6-047, aplicada a la pérdida de guías): «podrá ... exigir el inmediato depósito de las armas». Explicación correcta y matizada."
+  },
+  {
+    "id": "t6-049",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 165.2.b RD 137/1993 (redacción RD 726/2020): pasado un año sin otro destino «la Dirección General de la Guardia Civil podrá llevar a cabo su destrucción, exceptuándose aquellas armas ... con un valor acreditado como patrimonio histórico ... Estas armas se enajenarán en pública subasta». Sin regla expresa contra el depósito para subasta, pero la explicación no afirma nada falso y coincide con la respuesta oficial."
+  },
+  {
+    "id": "t6-050",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 165.2.b RD 137/1993 (redacción RD 726/2020), igual que t6-049: destrucción como destino general y subasta solo para armas con «valor acreditado como patrimonio histórico». Correcta."
+  },
+  {
+    "id": "t6-051",
+    "verdict": "corregir",
+    "problems": [
+      "La opción A, la trampa de esta pregunta, cita una regla real (art. 170.1: se destruyen las armas sin punzones o prohibidas) y la explicación no dice por qué falla. Quien haya leído el art. 170 puede pensar que A es la buena.",
+      "La frase final sobre la subasta responde a otra pregunta (t6-049/050) y ocupa el sitio que debería explicar la trampa."
+    ],
+    "suggested_explanation": "El Reglamento prevé destruir las armas depositadas que no reciben otro destino, así que puedes entregar la tuya en la Intervención para que acabe en chatarra. La opción A falla por el «solo»: la destrucción no se limita a las armas sin punzones o prohibidas.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 170.1 RD 137/1993: las armas que «carezcan ... de marcas, número o punzones de bancos oficiales de pruebas o se trate de armas prohibidas, se destruirán» (base de la opción A). Art. 165.2.b (redacción RD 726/2020, vigente desde 5-11-2020, antes del cuestionario): pasado un año sin otro destino «la Dirección General de la Guardia Civil podrá llevar a cabo su destrucción», sin limitarse a las armas sin punzones o prohibidas. Art. 171 habla de la «chatarra o producto de la destrucción»."
+  },
+  {
+    "id": "t6-055",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.5 RD 137/1993: la anulación y retirada de la guía obliga a que el arma quede «depositada y seguirse el destino establecido en el artículo 165»; art. 165.1: «deberá depositarlas inmediatamente». Correcta."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "id": "t1",
+  "verdict": "corregir",
+  "issues": [
+    {
+      "section": "Seguridad al guardar, transportar y manejar",
+      "block_index": 1,
+      "problem": "«Las armas de la 3.ª se guardan en casa bajo llave…» generaliza a toda la 3.ª lo que el art. 101.5 solo impone a las armas de la 3.ª, 1 y 2 (escopetas y rifles del .22); las de aire comprimido de la 3.ª, 3 no están en ese apartado (para ellas solo rige el art. 144.1).",
+      "fix": "Las escopetas y los rifles del .22 (3.ª, 1 y 2) se guardan en casa bajo llave, sin que arma y munición sean accesibles a la vez. Ningún arma se transporta cargada, y por vías urbanas van desmontadas o en su funda."
+    },
+    {
+      "section": "Las partes del arma y para qué sirven",
+      "block_index": 1,
+      "problem": "related_questions incluye t1-021, t1-033 y t1-039 (extractores y expulsores de la superpuesta; orificios de salida de gases del cajón) y el documento no dice nada de esas piezas: esas preguntas no se pueden responder con el texto. Añadir tres filas a la tabla o retirar los tres ids.",
+      "fix": "Filas a añadir a la tabla: [\"Extractores (superpuesta)\", \"Dos uñas que sacan los cartuchos de la recámara\"], [\"Expulsores (superpuesta)\", \"Solo algunos modelos los llevan, además de extractores\"], [\"Orificios del cajón (rifle)\", \"Salida de gases si se rompe un cartucho\"]"
+    }
+  ],
+  "evidence": [
+    "Art. 2.5, 2.15, 2.16 y 2.21 RD 137/1993 (corpus reglamento-armas): definiciones de automática, repetición, un solo tiro y semiautomática coinciden con la tabla y el recuadro.",
+    "Art. 1.2 RD 137/1993 vigente: componentes esenciales cortas = armazón, cañón, tambor, corredera o cerrojo; largas = caja o cajón de mecanismos, cañón, cerrojo o báscula, cierre o bloqueo del cierre. Tabla correcta. Redacción anterior (nota BOE) usaba «piezas fundamentales».",
+    "Aviso del bloque de componentes esenciales coincide literalmente en fondo con los notices de t1-045 y t1-046 en tool/content/explanations/GC-2020-11/t1.json (flag discrepancia_norma).",
+    "Art. 100.5.a: armas 2.ª 2 en cajas fuertes o armeros autorizados por la Dirección General de la Guardia Civil; munición separada bajo llave o en compartimento distinto. Art. 101.5: solo 3.ª 1 y 2, lugares seguros bajo llave, armas y municiones no accesibles conjuntamente.",
+    "Art. 144.1 a) y d) (lugar seguro, evitar robo, armas y municiones no accesibles juntas); art. 39.4 (ningún envío o transporte de armas cargadas); art. 149.1 (vías urbanas: desmontadas o dentro de cajas o fundas); art. 147.1 (diligencia ante otras personas). Todos existen y apoyan lo escrito.",
+    "Banco: t1-013 (banda ventilada: refrigerar y amortiguar vientos laterales), t1-035/036 (alza altura, punto de mira lateral), t1-037 (biela), t1-049 (rotura aguja percutora), t1-051 (seguro automático), t1-052 (posición S), t1-053/054/055/062 (limpieza), t1-057/058/059/066/067/068 (seguridad): el texto dice lo que el cuestionario espera.",
+    "Forma: 6 secciones, 2.963 caracteres sin tablas, ninguna celda >60 ni párrafo >400, sin exclamaciones; secciones técnicas sin artículo marcadas en review_notes como pide la guía."
+  ]
+}

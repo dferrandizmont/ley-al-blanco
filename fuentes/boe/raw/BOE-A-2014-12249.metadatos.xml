@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T181308Z</fecha_actualizacion>
+      <identificador>BOE-A-2014-12249</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20141124</fecha_disposicion>
+      <numero_oficial>INT/2202/2014</numero_oficial>
+      <titulo>Orden INT/2202/2014, de 24 de noviembre, por la que se desarrolla el régimen aplicable a las reproducciones o réplicas de armas de fuego antiguas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20141126</fecha_publicacion>
+      <diario_numero>286</diario_numero>
+      <fecha_vigencia>20141127</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2014/11/24/int2202</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2014-12249</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

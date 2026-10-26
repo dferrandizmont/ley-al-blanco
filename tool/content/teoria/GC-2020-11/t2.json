@@ -1,0 +1,384 @@
+{
+  "id": "t2",
+  "tema": 2,
+  "title": "Categorías de armas",
+  "summary": "Las nueve categorías del Reglamento, qué es arma corta o larga, los límites de las semiautomáticas, las armas de guerra y las prohibidas. Lo más preguntado es en qué categoría va cada arma y qué armas blancas están prohibidas.",
+  "sections": [
+    {
+      "title": "Cómo se clasifica un arma",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "El art. 3 reparte las armas reglamentadas en categorías según sus características, su grado de peligrosidad y su destino o uso. Antes de buscar la categoría conviene saber si el arma es corta o larga y si el cañón es liso o rayado."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Arma corta: cañón de 30 cm como máximo o longitud total de 60 cm como máximo.",
+            "Arma larga: cualquier arma de fuego que no sea corta.",
+            "Armas asimiladas a las de fuego: las de la 3.ª, 3 (aire comprimido potente) y las de la 7.ª, 2 y 3 (ballestas y lanzacabos). Los arcos no lo son."
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: las ballestas se documentan con licencia E, como las escopetas, nunca con la D. Y a los arcos no se les aplica ese criterio porque no son armas asimiladas."
+        }
+      ],
+      "articles": [
+        "Art. 3 RD 137/1993",
+        "Art. 2.13 RD 137/1993",
+        "Art. 2.14 RD 137/1993",
+        "Art. 2.3 RD 137/1993",
+        "Art. 101.1 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Las nueve categorías",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Categoría",
+            "Qué incluye"
+          ],
+          "rows": [
+            [
+              "1.ª",
+              "Armas de fuego cortas: pistolas y revólveres"
+            ],
+            [
+              "2.ª, 1",
+              "Armas largas para vigilancia y guardería"
+            ],
+            [
+              "2.ª, 2",
+              "Rifles de caza mayor y cañones estriados adaptables"
+            ],
+            [
+              "3.ª, 1",
+              "Rifles 5,6 mm (.22) de percusión anular, tiro deportivo"
+            ],
+            [
+              "3.ª, 2",
+              "Escopetas y demás armas largas de ánima lisa"
+            ],
+            [
+              "3.ª, 3",
+              "Aire comprimido de más de 24,2 julios en boca"
+            ],
+            [
+              "4.ª, 1",
+              "Aire: semiautomáticas, repetición, revólver doble acción"
+            ],
+            [
+              "4.ª, 2",
+              "Aire: un solo tiro y revólver de acción simple"
+            ],
+            [
+              "5.ª",
+              "Armas blancas no prohibidas; machetes militares"
+            ],
+            [
+              "6.ª",
+              "Antiguas (antes de 1890), históricas y de avancarga"
+            ],
+            [
+              "7.ª, 2",
+              "Ballestas"
+            ],
+            [
+              "7.ª, 6",
+              "Armas de alarma y señales; pistolas lanzabengalas"
+            ],
+            [
+              "7.ª (resto)",
+              "Anestésicas, lanzacabos, Flobert, arcos, pesca"
+            ],
+            [
+              "8.ª",
+              "Armas acústicas y de salvas"
+            ],
+            [
+              "9.ª",
+              "Armas inutilizadas"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos, van en la 2.ª, 2 si no son de guerra. En cambio, una escopeta con rayas para facilitar el plomeo y marcada con punzón de escopeta por un banco de pruebas sigue siendo de la 3.ª, 2."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: pistolas y revólveres en la 1.ª; rifles de caza mayor en la 2.ª, 2; el .22 anular deportivo en la 3.ª, 1, sea de un tiro, de repetición o semiautomático; escopetas en la 3.ª, 2. Las de aire de más de 24,2 julios van a la 3.ª, 3 y el resto a la 4.ª."
+        }
+      ],
+      "articles": [
+        "Art. 3 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Semiautomáticas: cuándo pasan a estar prohibidas",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Una semiautomática hace un disparo cada vez que accionas el disparador. Es legal para particulares, pero el art. 5 prohíbe las de percusión central con demasiada capacidad de carga, contando el cartucho de la recámara."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Caso",
+            "Prohibida si…",
+            "Artículo"
+          ],
+          "rows": [
+            [
+              "Corta semiautomática",
+              "Más de 21 cartuchos",
+              "Art. 5.1.a"
+            ],
+            [
+              "Larga semiautomática",
+              "Más de 11 cartuchos",
+              "Art. 5.1.b"
+            ],
+            [
+              "Cargador de arma corta",
+              "Más de 20 cartuchos",
+              "Art. 5.1.e"
+            ],
+            [
+              "Cargador de arma larga",
+              "Más de 10 cartuchos",
+              "Art. 5.1.e"
+            ],
+            [
+              "Automática transformada",
+              "Siempre",
+              "Art. 5.1.d"
+            ]
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: un rifle semiautomático de 5 cartuchos está permitido; uno de 12 está prohibido; una pistola de 25 está prohibida; una automática convertida en semiautomática está prohibida."
+        }
+      ],
+      "articles": [
+        "Art. 2.21 RD 137/1993",
+        "Art. 5.1 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Armas de guerra",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Los particulares no pueden adquirir, tener ni usar armas de guerra, y no hay forma de legalizárselas. Son de guerra las de calibre igual o superior a 20 mm y las de calibres que Defensa considere de guerra, con sus municiones; también todas las armas de fuego automáticas, y los componentes esenciales de todas ellas."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: una escopeta de 20 mm es arma de guerra; las automáticas siempre son de guerra. Con calibres como el .308 Win o el 7,62 x 39, el cuestionario espera rifle de repetición y bala expansiva para caza mayor."
+        }
+      ],
+      "articles": [
+        "Art. 6.1 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Armas prohibidas",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hay dos listas. Las del art. 4 están prohibidas para todos: ni fabricarlas, ni venderlas, ni tenerlas ni usarlas. Las del art. 5 están prohibidas salvo a funcionarios especialmente habilitados; por eso el cuestionario las llama «prohibidas a particulares»."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Prohibido",
+            "Ejemplo o detalle",
+            "Artículo"
+          ],
+          "rows": [
+            [
+              "Arma modificada sin autorización",
+              "Cambia mucho su fabricación",
+              "Art. 4.1.a"
+            ],
+            [
+              "Arma larga con alojamiento",
+              "Culata para pistola u otras armas",
+              "Art. 4.1.b"
+            ],
+            [
+              "Arma camuflada",
+              "Simulada como otro objeto",
+              "Art. 4.1.e"
+            ],
+            [
+              "Puñales y navajas automáticas",
+              "Puñal: dos filos, punta, hoja < 11 cm",
+              "Art. 4.1.f"
+            ],
+            [
+              "Arma combinada con arma blanca",
+              "Real o simulada",
+              "Art. 4.1.g"
+            ],
+            [
+              "Instrumentos peligrosos",
+              "Rompecabezas, llaves de pugilato",
+              "Art. 4.1.h"
+            ],
+            [
+              "Cañones recortados",
+              "Solo funcionarios habilitados",
+              "Art. 5.1.c"
+            ],
+            [
+              "Silenciadores",
+              "Ninguno, sea cual sea el arma",
+              "Art. 5.1.k"
+            ],
+            [
+              "Munición perforante",
+              "También explosiva e incendiaria",
+              "Art. 5.1.l"
+            ],
+            [
+              "Proyectiles dum-dum",
+              "O de punta hueca, en armas cortas",
+              "Art. 5.1.m"
+            ],
+            [
+              "Navaja no automática",
+              "Hoja de más de 11 cm; en casa solo de adorno o colección",
+              "Art. 5.3"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Un cuchillo de monte de dos filos con 20 cm de hoja no es puñal, porque supera los 11 cm: es un arma blanca permitida. Los machetes del armamento militar aprobado no los pueden usar los particulares. Las miras telescópicas no están prohibidas; las de armas de caza mayor solo puede comprarlas y usarlas quien tenga licencia D."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: una escopeta con un hueco en la culata para otra arma, aunque sea una navaja de desollar, es prohibida y no se puede legalizar. Los rompecabezas también están prohibidos, aunque se quieran usar en caza mayor."
+        }
+      ],
+      "articles": [
+        "Art. 4.1 RD 137/1993",
+        "Art. 5.1 RD 137/1993",
+        "Art. 5.3 RD 137/1993",
+        "Art. 100.6 RD 137/1993"
+      ]
+    }
+  ],
+  "related_questions": [
+    "t2-001",
+    "t2-002",
+    "t2-003",
+    "t2-004",
+    "t2-005",
+    "t2-006",
+    "t2-007",
+    "t2-008",
+    "t2-009",
+    "t2-010",
+    "t2-011",
+    "t2-012",
+    "t2-013",
+    "t2-014",
+    "t2-015",
+    "t2-016",
+    "t2-017",
+    "t2-018",
+    "t2-019",
+    "t2-020",
+    "t2-021",
+    "t2-022",
+    "t2-023",
+    "t2-024",
+    "t2-025",
+    "t2-026",
+    "t2-027",
+    "t2-028",
+    "t2-029",
+    "t2-030",
+    "t2-031",
+    "t2-032",
+    "t2-033",
+    "t2-034",
+    "t2-035",
+    "t2-036",
+    "t2-037",
+    "t2-038",
+    "t2-039",
+    "t2-040",
+    "t2-041",
+    "t2-042",
+    "t2-043",
+    "t2-044",
+    "t2-045",
+    "t2-046",
+    "t2-047",
+    "t2-048",
+    "t2-049",
+    "t2-050",
+    "t2-051",
+    "t2-052",
+    "t2-053",
+    "t2-054",
+    "t2-055",
+    "t2-056",
+    "t2-057",
+    "t2-058",
+    "t2-059",
+    "t2-060",
+    "t2-061",
+    "t2-062",
+    "t2-063",
+    "t2-064",
+    "t2-065",
+    "t2-066",
+    "t2-067"
+  ],
+  "confidence": "media",
+  "sources": [
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 2"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 3"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 4"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 5"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 6"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 100"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 101"
+    }
+  ],
+  "review_notes": "Sin avisos: las cifras del banco (9 categorías, 24,2 J, 11 y 21 cartuchos, 20 mm, 11 cm) coinciden con el texto vigente; t2 de explicaciones tampoco lleva avisos. La frase del .308 Win / 7,62 x 39 (t2-046) solo dice lo que espera el cuestionario: no hay norma en el corpus que lo regule (la explicación de t2-046 tiene confianza baja). La línea de navajas no automáticas de más de 11 cm (art. 5.3) resume la excepción de tenencia en el domicilio con fines de ornato y coleccionismo como «salvo en casa». La fila de cargadores (art. 5.1.e) no la pregunta el banco; se incluye para no confundirla con la capacidad del arma. La 4.ª se resume como «aire» sin repetir el límite de 24,2 J (el art. 3 la define como armas de aire no asimiladas a escopetas; el límite sale de la 3.ª, 3). Verificado por Fable el 19-oct-2026; correcciones aplicadas.",
+  "reviewed": false
+}

@@ -1,0 +1,33 @@
+{
+  "id": "t2",
+  "verdict": "corregir",
+  "issues": [
+    {
+      "section": "Armas prohibidas",
+      "block_index": 0,
+      "problem": "La tabla mezcla armas del art. 4 (prohibidas para todos) y del art. 5 (prohibidas salvo a funcionarios especialmente habilitados) sin explicar la diferencia, y el cuestionario la pregunta: t2-049 espera «Prohibidas» (no «Prohibidas a particulares») para el art. 4.1.a, y t2-066/067 preguntan por cartuchería «prohibida a particulares» (art. 5). Falta un párrafo antes de la tabla que fije esa distinción.",
+      "fix": "Añadir un bloque {\"type\":\"p\"} antes de la tabla: \"Hay dos listas. Las del art. 4 están prohibidas para todos: ni fabricarlas, ni venderlas, ni tenerlas ni usarlas. Las del art. 5 están prohibidas salvo a funcionarios especialmente habilitados; por eso el cuestionario las llama «prohibidas a particulares».\""
+    },
+    {
+      "section": "Armas prohibidas",
+      "block_index": 0,
+      "problem": "Fila de la navaja no automática: «(salvo en casa)» da a entender que se puede tener en el domicilio sin más. El art. 5.3 solo permite la tenencia en el propio domicilio con fines de ornato y coleccionismo.",
+      "fix": "[\"Navaja no automática\", \"Hoja de más de 11 cm; en casa solo de adorno o colección\", \"Art. 5.3\"]"
+    },
+    {
+      "section": "Armas de guerra",
+      "block_index": 0,
+      "problem": "«todas las armas de fuego automáticas, con sus municiones y componentes esenciales»: el art. 6.1.d solo declara de guerra las municiones de las armas de las letras a) y b) (calibre ≥ 20 mm o calibre considerado de guerra por Defensa), no las de las automáticas; los componentes esenciales (letra e) sí abarcan a) a d).",
+      "fix": "Los particulares no pueden adquirir, tener ni usar armas de guerra, y no hay forma de legalizárselas. Son de guerra las de calibre igual o superior a 20 mm y las de calibres que Defensa considere de guerra, con sus municiones; también todas las armas de fuego automáticas, y los componentes esenciales de todas ellas."
+    }
+  ],
+  "evidence": [
+    "Art. 3 RD 137/1993 vigente (reforma RD 726/2020): nueve categorías; 2.ª 2 incluye cañones estriados adaptables a escopetas con recámara para cartuchos metálicos; 3.ª 2 escopetas con rayas para plomeo con punzón de escopeta; 3.ª 3 aire comprimido >24,2 J; 4.ª 1/2 según semiautomática-repetición-doble acción / un solo tiro-acción simple; 7.ª 2 ballestas, 7.ª 6 alarma y señales y lanzabengalas; 8.ª acústicas y salvas; 9.ª inutilizadas. Tabla y recuadro correctos.",
+    "Art. 2.3 (asimiladas: en todo caso 3.ª 3, 7.ª 2 y 3; los arcos, 7.ª 5, no figuran), 2.13 (corta: cañón ≤30 cm o longitud total ≤60 cm), 2.14 (larga por exclusión). Art. 101.1: licencia E para 3.ª y 7.ª 2 y 3 (ballestas), coherente con t2-002.",
+    "Art. 5.1 a) 21 cartuchos (cortas), b) 11 (largas), ambos de percusión central e incluido el de la recámara; d) automáticas transformadas; e) cargadores >20 (cortas) / >10 (largas); 5.1 c) cañones recortados; k) silenciadores; l) perforantes, explosivas, incendiarias; m) dum-dum o punta hueca para pistolas y revólveres. Coincide con las tablas y con t2-031/039/040/041/050/061/066/067.",
+    "Art. 4.1 a), b), e), f) (puñal: hoja menor de 11 cm, dos filos y puntiaguda), g), h) (rompecabezas, llaves de pugilato): coincide con la tabla y con t2-047/048/051/052/056/057/058/059/060/064/065. Art. 5.3: machetes de armamentos aprobados prohibidos a particulares; navajas no automáticas >11 cm prohibidas salvo tenencia en el domicilio con fines de ornato y coleccionismo.",
+    "Art. 6.1: a) ≥20 mm, b) calibres que Defensa considere de guerra, c) automáticas, d) municiones de a) y b), e) componentes esenciales de a) a d). Art. 100.6: miras telescópicas para caza mayor solo con licencia D (t2-054/055).",
+    "La frase del .308 Win / 7,62x39 se presenta como lo que espera el cuestionario (t2-046, sin artículo en el banco); no afirma norma alguna. Las explicaciones de t2 no llevan avisos y el documento tampoco: coherente, ya que todas las cifras (9 categorías, 24,2 J, 11/21 cartuchos, 20 mm, 11 cm) coinciden con el texto vigente.",
+    "Forma: 5 secciones, 2.679 caracteres sin tablas, ninguna celda >60 ni párrafo >400, sin exclamaciones."
+  ]
+}

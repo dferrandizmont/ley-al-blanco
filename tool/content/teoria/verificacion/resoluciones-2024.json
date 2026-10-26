@@ -1,0 +1,90 @@
+{
+  "id": "resoluciones-2024",
+  "fecha_revision": "2026-10-23",
+  "revisor": "Fable 5.1 (esfuerzo medio), verificación independiente",
+  "alcance": "Explicaciones y teoría de los temas 1 y 3 (y t7-006 por tratar cajas fuertes) frente a las Resoluciones DGGC de 27-11-2024 (BOE-A-2025-386) y 4-12-2024 (BOE-A-2025-387). Texto obtenido de boe.es (diario_boe/txt.php) y contrastado con el corpus local tool/content/boe/resolucion-2024-*.json.",
+  "impacto": "menor",
+  "fuentes": [
+    {
+      "id": "BOE-A-2025-386",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-386",
+      "fecha": "2024-11-27",
+      "publicada": "2025-01-08",
+      "resumen": "Resolución DGGC sobre medidas de seguridad para el almacenamiento de armas de fuego, componentes esenciales y cartuchería durante el transporte. Solo obliga a empresas de transporte y de seguridad privada (apdo. Primero). Define almacenamiento y almacenamiento en tránsito del art. 84 RD 137/1993 (máximo 8 horas, 200 armas, 25.000 cartuchos de los que como mucho 15.000 no del .22) y exige las medidas del art. 144.1.a) y d) o un habitáculo autorizado por la Intervención Central. No modifica las reglas de guías de circulación (arts. 31-33), envases y precintos (34-38), medios de envío (39-44) ni el transporte por particulares (arts. 144 y 149)."
+    },
+    {
+      "id": "BOE-A-2025-387",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-387",
+      "fecha": "2024-12-04",
+      "publicada": "2025-01-08",
+      "resumen": "Resolución DGGC que fija las medidas mínimas de las cajas fuertes o armeros para guardar armas en domicilios particulares; deroga la Resolución de 26-11-1998. Primero: armas largas rayadas y cañones de la 2.ª2 (art. 100.5.a) en caja fuerte o armero de al menos grado de resistencia I de la tabla 1 de la UNE EN 1143-1; licencia F: grado III para 1.ª y grado I para 2.ª2; cámara acorazada grado I (largas) o III (cortas); 3.ª1 y 2 y avancarga se rigen por los arts. 101.5.a y 107.e; el resto por el art. 144.1.a. Segundo: convivientes pueden compartir armero acreditando la convivencia. Tercero: volumen mínimo 4,5 l por arma corta y 20 l por arma larga. Certificado de producto de organismo acreditado por ENAC o equivalente CEN; los armeros ya instalados valen hasta el fin de su vida útil."
+    }
+  ],
+  "explicaciones": [
+    {
+      "id": "t1-056",
+      "problem": "Incompleta, no incorrecta. La explicación dice «caja fuerte o un armero autorizados por la Guardia Civil» (art. 100.5.a, correcto), pero desde el 9-1-2025 el apdo. Primero de la Resolución de 4-12-2024 concreta el requisito: para las armas de la 2.ª2 el armero debe tener al menos grado de resistencia I de la UNE EN 1143-1 (antes lo decía la Resolución de 1998, hoy derogada). La respuesta oficial («armero homologado») no choca con la norma vigente, así que no procede notice. Añadir {\"norma\": \"BOE-A-2025-387\", \"ref\": \"Primero\"} a sources.",
+      "fix_explanation": "Las armas de la categoría 2.ª.2 (rifles de caza mayor) se guardan en el domicilio del titular, en una caja fuerte o un armero autorizados por la Guardia Civil (hoy, de al menos grado I de la norma UNE EN 1143-1), o en una empresa de custodia autorizada.",
+      "fix_notice": null
+    }
+  ],
+  "teoria": [
+    {
+      "doc": "t1",
+      "section": "Seguridad al guardar, transportar y manejar",
+      "block_index": 0,
+      "problem": "Incompleta: dice que los rifles de caza mayor van «en caja fuerte o armero autorizados por la Guardia Civil» sin el grado mínimo que hoy exige el apdo. Primero de la Resolución DGGC de 4-12-2024 (grado I de la UNE EN 1143-1). Añadir también «Apdo. 1.º Resolución DGGC 4-12-2024» a la lista articles de la sección y {\"norma\": \"BOE-A-2025-387\", \"ref\": \"Primero\"} a sources del documento.",
+      "fix": "Hay que guardar las armas en lugar seguro, evitar robos y accesos no autorizados, y que arma y munición no estén a mano juntas. Los rifles de caza mayor (2.ª, 2) van en caja fuerte o armero autorizados por la Guardia Civil, de al menos grado I de la norma UNE EN 1143-1, con la munición separada."
+    }
+  ],
+  "sin_impacto": [
+    "t1-057",
+    "t1-058",
+    "t1-059",
+    "t1-061",
+    "t3-001",
+    "t3-002",
+    "t3-003",
+    "t3-004",
+    "t3-005",
+    "t3-006",
+    "t3-007",
+    "t3-008",
+    "t3-009",
+    "t3-010",
+    "t3-011",
+    "t3-012",
+    "t3-013",
+    "t3-014",
+    "t3-015",
+    "t3-016",
+    "t3-017",
+    "t3-018",
+    "t3-019",
+    "t3-020",
+    "t3-021",
+    "t3-022",
+    "t3-023",
+    "t3-025",
+    "t3-026",
+    "t3-051",
+    "t3-063",
+    "t3-064",
+    "t3-066",
+    "t7-006",
+    "teoria t1 / Seguridad al guardar, transportar y manejar / bloques 1-3",
+    "teoria t3 / La guía de circulación / bloques 0-4",
+    "teoria t3 / Envases, precintos y envíos / bloques 0-3",
+    "teoria t3 / Venta y cambio de titularidad / bloque 1",
+    "teoria t7 / Uso, munición y custodia de las reproducciones / bloques 2-3"
+  ],
+  "evidencias": [
+    "BOE-A-2025-386, apdo. Primero: «medidas de seguridad que deben adoptar las empresas de transporte y las empresas de seguridad privada cuando, durante el transporte... realicen operaciones de almacenamiento». No regula al particular ni cambia los arts. 31-44 del Reglamento, que es lo que preguntan t3-001 a t3-026 y lo que resumen la tabla y los párrafos de la sección «Envases, precintos y envíos» de t3. Las reglas citadas (envase acondicionado art. 34, 25 armas art. 35.1, no mezclar rifles y escopetas art. 35.1, un destinatario art. 36, precinto art. 37, ferrocarril o empresa de transportes art. 39.1, nunca cargadas ni con munición art. 39.4, contenido declarado art. 40.1) siguen vigentes sin cambios.",
+    "BOE-A-2025-386 remite para las medidas al art. 144.1.a) y d) del Reglamento, el mismo que citan t1-057 y t1-059; no altera la prohibición de transportar armas cargadas (art. 39.4, t1-058) ni el art. 149.1 (desmontadas o en funda por vías urbanas, teoría t1 bloque 1).",
+    "BOE-A-2025-387, apdo. Primero, párrafo 1: 2.ª2 en domicilio, al menos grado I de la tabla 1 de la UNE EN 1143-1. Es lo que falta en t1-056 y en el bloque 0 de la sección de seguridad de t1. La respuesta oficial de t1-056 («en el propio domicilio, y en un armero homologado») sigue siendo compatible: la resolución exige certificado de producto de organismo acreditado por ENAC/CEN (disposición adicional), que es la «homologación» del lenguaje del banco.",
+    "BOE-A-2025-387, apdo. Primero, párrafo 3: las armas de la 3.ª1 y 2 se guardan conforme al art. 101.5.a (bajo llave, arma y munición no accesibles a la vez). Confirma el bloque 1 de la sección de seguridad de t1 tal como quedó tras la verificación anterior.",
+    "BOE-A-2025-387 deroga solo la Resolución de 26-11-1998. Ninguna explicación ni documento de teoría de t1, t3 o t7 cita la de 1998 (grep de 28108 / «26 de noviembre de 1998» sin resultados). t7-006 y la tabla de custodia de t7 se apoyan en la Resolución de 27-3-2015 (reproducciones, BOE-A-2015-3779), que sigue vigente; el nuevo apdo. Primero remite para avancarga al art. 107.e, coherente con ella.",
+    "t3-066 (art. 89.5: acreditar las medidas de seguridad para obtener la guía de pertenencia) sigue correcto; la resolución de 2024 solo precisa cómo se acredita para la 2.ª2 (certificado de producto). No hace falta cambiar la explicación.",
+    "Novedades de la Resolución 4-12-2024 que el cuestionario de 2020 no pregunta y que no contradicen ninguna respuesta oficial: uso conjunto del armero por convivientes (apdo. Segundo) y volumen mínimo 4,5 l / 20 l (apdo. Tercero). Se pueden mencionar en teoría como dato, pero no es necesario."
+  ]
+}

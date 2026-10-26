@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T165905Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-7416</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>19980318</fecha_disposicion>
+      <titulo>Orden de 18 de marzo de 1998 por la que se regulan las pruebas de capacitación para obtener determinadas licencias de armas y los requisitos para la habilitación de entidades dedicadas a la enseñanza correspondiente.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19980331</fecha_publicacion>
+      <diario_numero>77</diario_numero>
+      <fecha_vigencia>19980430</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/1998/03/18/(2)</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-7416</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

@@ -1,0 +1,45 @@
+{
+  "id": "t3",
+  "verdict": "corregir",
+  "issues": [
+    {
+      "section": "Envases, precintos y envíos",
+      "block_index": 1,
+      "problem": "El párrafo dice «si no llevas tú el arma, va por ferrocarril o empresa de transportes» y luego «así viaja también un rifle recién comprado sin guía de pertenencia». Deja entender que el rifle podrías llevarlo tú; el cuestionario (t3-023, t3-026) pregunta justo eso y espera «No»: la guía de circulación al particular que compra fuera solo está prevista para escopetas (art. 42.2), así que el rifle va obligatoriamente por empresa de transportes (art. 39.1). Omisión que confunde.",
+      "fix": "No se envían por correo: si no la llevas tú, el arma va por ferrocarril o empresa de transportes. Un rifle recién comprado fuera de tu localidad y sin guía de pertenencia no puedes llevarlo tú: la guía de circulación del comprador solo existe para escopetas, así que viaja por empresa de transportes."
+    },
+    {
+      "section": "Envases, precintos y envíos",
+      "block_index": 0,
+      "problem": "Fila «Destinatarios»: «Un envase y una guía por destinatario» no es lo que dice el art. 36, que prohíbe mezclar en un mismo envase o en una misma guía armas de distintos destinatarios; un destinatario puede recibir varios envases. Tal como está, se lee como un límite de un envase por destinatario.",
+      "fix": "[\"Destinatarios\", \"Sin mezclar destinatarios en un envase ni en una guía\", \"36\"]"
+    },
+    {
+      "section": "Venta y cambio de titularidad",
+      "block_index": 0,
+      "problem": "«licencia, tarjeta o certificado» queda incompleto: el art. 94.1 (y la opción correcta de t3-049) habla de «certificado de inutilización». Un «certificado» a secas no identifica el documento.",
+      "fix": "Solo puedes vender un arma a quien tenga la licencia, la tarjeta o el certificado de inutilización que exija esa arma."
+    },
+    {
+      "section": "Venta y cambio de titularidad",
+      "block_index": 1,
+      "problem": "«Para cualquier guía de pertenencia hay que acreditar las medidas de seguridad de custodia» sobrepasa el art. 89.5, que lo exige a los titulares de armas de fuego (no, por ejemplo, a una ballesta, que también lleva guía). La explicación de t3-066 lo limita a armas de fuego.",
+      "fix": "La venta se comunica siempre a la Intervención de Armas, también si es a una armería o un regalo. Para la guía de pertenencia de un arma de fuego hay que acreditar, si no lo hiciste antes, las medidas de seguridad de custodia."
+    }
+  ],
+  "evidence": [
+    "Art. 31.1 RD 137/1993: guía de circulación ampara traslado sin licencia/autorización o sin guía de pertenencia de armas 1.ª, 2.ª, 3.ª, 6.ª y 8.ª y componentes esenciales, y 7.ª 1-4 completas aunque despiezadas; la expide la Intervención de Armas y Explosivos.",
+    "Art. 1.2.b RD 137/1993: la báscula es componente esencial de las armas largas.",
+    "Art. 26.3 RD 137/1993: la guía de pertenencia se sustituye por guía de circulación cuando el propietario reside en otra localidad y no lleva el arma personalmente (t3-011: ningún otro documento).",
+    "Art. 42.2 RD 137/1993: guía de circulación al particular que compra una escopeta fuera, a la vista del parte de venta y la licencia E; diez días para pedir la guía de pertenencia en la Intervención de su residencia. Solo escopetas: por eso el rifle de t3-023/t3-026 va por empresa de transportes (art. 39.1).",
+    "Art. 34: envases acondicionados para la seguridad. Art. 35.1: máximo 25 armas en comercio interior; no cortas ni largas estriadas junto a escopetas. Art. 36: no mezclar destinatarios en envase ni guía. Art. 37: precinto por Intervenciones o comerciantes autorizados. Art. 39.1: ferrocarril o empresas de transporte. Art. 39.4: nunca cargadas ni con cartuchería utilizable. Art. 40.1: declaración del contenido en documentación y paquete. Art. 44.1: el destinatario se presenta con licencia o documento que le autorice a adquirir y firma la recepción.",
+    "Art. 90 RD 137/1993 (redacción RD 726/2020): todas las armas con guía pasan revista cada cinco años, al renovar la licencia (90.1), dentro del mes de la renovación (90.2.d); anotaciones por los Interventores (90.3); presentación del arma inexcusable, personalmente o por tercero autorizado por escrito (90.4); dos revistas consecutivas sin pasar anulan la guía y el arma queda depositada (90.5). t3-029 espera «Falso» para los tres años de 1.ª/concurso, coherente con el texto vigente.",
+    "Art. 88: guía de pertenencia para 1.ª, 2.ª, 3.ª, 6.ª, 7.ª 1-4 y 8.ª; las de 4.ª no la precisan (tarjeta de armas, art. 105.1), de ahí que no pasen revista (t3-044, t3-047).",
+    "Art. 157.b: omitir la revista es infracción leve (multa y retirada de las armas).",
+    "Art. 94.1-3: cesión a quien posea licencia, tarjeta o certificado de inutilización; con conocimiento de la Intervención, que recoge la guía del vendedor, la anula y extiende una nueva al comprador. Art. 95.2: igual conocimiento cuando se vende a comerciante. Art. 92: nadie distinto del titular salvo los casos previstos.",
+    "Art. 89.5: los titulares de las armas de fuego acreditan las medidas de seguridad de custodia para que se expida la guía de pertenencia.",
+    "Art. 91.1: españoles y extranjeros residentes pueden prestar armas de caza a quien tenga licencia de caza y licencia de arma larga rayada para caza mayor o de escopeta según el caso, con autorización escrita, fechada y firmada, quince días máximo y solo para cazar; pistolas, revólveres y armas de concurso con autorización escrita para tiro deportivo; siempre con las guías de pertenencia.",
+    "Banco: las 66 preguntas t3-001..t3-066 tratan guía de circulación, envases/envíos, revista, enajenación y préstamo; ninguna lleva aviso y el documento tampoco, coherente.",
+    "Forma: sin exclamaciones ni emojis, párrafos < 400 caracteres, celdas < 60 caracteres, cada sección con artículos."
+  ]
+}

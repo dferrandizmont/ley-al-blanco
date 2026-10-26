@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251217T193322Z</fecha_actualizacion>
+      <identificador>BOE-A-1992-4252</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1290">Ley Orgánica</rango>
+      <fecha_disposicion>19920221</fecha_disposicion>
+      <numero_oficial>1/1992</numero_oficial>
+      <titulo>Ley Orgánica 1/1992, de 21 de febrero, sobre Protección de la Seguridad Ciudadana.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19920222</fecha_publicacion>
+      <diario_numero>46</diario_numero>
+      <fecha_vigencia>19920313</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20150701</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/lo/1992/02/21/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

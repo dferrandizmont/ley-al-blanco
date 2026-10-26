@@ -1,0 +1,31 @@
+{
+  "id": "t7",
+  "verdict": "corregir",
+  "issues": [
+    {
+      "section": "Reproducciones, réplicas y coleccionistas",
+      "block_index": 1,
+      "problem": "El párrafo dice que la réplica «no puede transformarse en un arma», como si fuera un requisito de la definición. El art. 2.27 dice «aunque no pueda transformarse en un arma»: es imitación por su apariencia, con independencia de que pueda o no transformarse. Además, el documento usa «réplica» en dos sentidos sin avisarlo: en el art. 2.27 es la imitación sin aptitudes, pero en la 6.ª.2 del art. 3 y en toda la Orden INT/2202/2014 «reproducciones o réplicas» son las copias que funcionan (art. 2.1 de la Orden). El lector verá ambas acepciones en las secciones 1 y 3 y puede fallar t7-008/t7-009.",
+      "fix": "La reproducción funciona igual que el original; la réplica o imitación del art. 2 solo se le parece por fuera, aunque no pueda transformarse en un arma. Ojo: la 6.ª.2 y la Orden INT/2202/2014 llaman «reproducciones o réplicas» a las copias que sí funcionan. Para ser coleccionista basta con reunir componentes esenciales con fines históricos, culturales o técnicos y estar autorizado."
+    },
+    {
+      "section": "Uso, munición y custodia de las reproducciones",
+      "block_index": 0,
+      "problem": "«Solo excepcionalmente se pueden disparar en campos, galerías o polígonos de tiro» es más restrictivo que las fuentes citadas: la Orden INT/2202/2014 art. 7 dice «Excepcionalmente» sin «solo», y el art. 107.c RD 137/1993 (citado en la sección) añade los terrenos cinegéticos controlados para prácticas y competiciones, y los festejos tradicionales con autorización. Basta quitar el «Solo» y dejar constancia del 107.c para no contradecir el artículo citado; la respuesta esperada en t7-007 no cambia.",
+      "fix": "Como regla, usar reproducciones de armas antiguas está prohibido. Excepcionalmente se pueden disparar en campos, galerías o polígonos de tiro controlados para prácticas (el art. 107.c cita también los terrenos cinegéticos controlados), con autorización especial, que vale 5 años."
+    }
+  ],
+  "evidence": [
+    "Art. 2.2, 2.4 y 2.18 RD 137/1993: arma antigua anterior al 1-1-1890; artística por ornamentación con materiales nobles o diseño; histórica por relación con hecho o personaje relevante. Tabla de la sección 1 correcta.",
+    "Art. 3 RD 137/1993, 6.ª cat.: apdo. 2 «anteriores al 1 de enero de 1890, y las reproducciones y réplicas de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas»; «La antigüedad será fijada por el Ministerio de Defensa»; apdo. 4 «En general, las armas de avancarga». Coincide con el texto y con t7-001/003/005.",
+    "Art. 2.35 (reproducción), 2.27 (imitación o réplica: «aunque no pueda transformarse en un arma»), 2.23 (coleccionista: armas, componentes esenciales o municiones, autorizado) RD 137/1993. Orden INT/2202/2014 art. 2.1: «reproducciones o réplicas ... copia de un arma antigua original, reuniendo todas sus características, aptitudes y posibilidades de uso».",
+    "Art. 107.b RD 137/1993: Libro-Registro diligenciado por la Intervención de Armas; prohibido el uso; guía especial «en cada caso» para circulación y transporte. Art. 107.c: certificado de banco oficial de pruebas para cada arma y autorización especial que «podrá amparar un número ilimitado de estas armas»; lugares: «campos, galerías o polígonos de tiro de concurso y terrenos cinegéticos, controlados, para prácticas y competiciones», más festejos tradicionales con autorización.",
+    "Orden INT/2202/2014: art. 3 (titularidad como coleccionista e inscripción en el libro-registro), art. 7 (uso prohibido; excepcionalmente en campos, galerías o polígonos de tiro controlados para prácticas, con autorización especial), art. 9.1 (validez 5 años), art. 11 (munición con pólvora negra y del calibre de las originales), art. 12 (medidas de seguridad por resolución DGGC).",
+    "Resolución DGGC 27-3-2015, apdo. Primero: arma larga «completas, o sus cierres o piezas fundamentales ... al menos ... clase I ... UNE EN 1143-1»; arma corta «completas ... al menos ... clase III». Coincide con la tabla y con la explicación de t7-006 (mismo formato de cita «Apdo. 1.º Resolución DGGC 27-3-2015»). La Resolución 4-12-2024 no la deroga: remite las de avancarga al art. 107.e.",
+    "RD 989/2015 art. 136.1: 1.000 cartuchos anuales por arma larga rayada, «En ningún caso se podrá tener en depósito un número superior a 200»; art. 136.2: 100 anuales por arma corta, depósito no superior a 150. Art. 1.3 RD 137/1993: adquisición y tenencia de municiones, las mismas disposiciones que las armas a las que se destinen. Coincide con la tabla, el recuadro y las explicaciones de t7-011/012.",
+    "Art. 2.29 (munición: cartucho completo o sus componentes, incluidas las vainas), 2.31 (bala explosiva: uso militar, carga que explota por impacto), 2.19 (inutilizada: todos los componentes esenciales permanentemente inservibles, ITC 2), 2.25 (desmilitarización), 2.16 (un solo tiro: sin depósito, recarga manual antes de cada disparo). Art. 108.7: armas inutilizadas «sin limitación de número, en el propio domicilio, acompañadas del correspondiente certificado».",
+    "Art. 167.2 RD 137/1993: a disposición de sus titulares «durante un mes desde la notificación», después la DGGC «podrá llevar a cabo su destrucción», salvo las de valor acreditado como patrimonio histórico, que se subastan o se enajenan a museos u organismos culturales. Coincide con t7-016.",
+    "Explicaciones t7 (tool/content/explanations/GC-2020-11/t7.json): ningún notice; solo flags sin_articulo en t7-013/014/015. El documento tampoco lleva avisos: coherente. Sección de historia reproduce lo que da por bueno el cuestionario (1868, Ejército norteamericano, Lafaucheaux/Lefaucheux) sin inventar datos.",
+    "Forma: 6 secciones, 2.837 caracteres sin tablas, párrafos ≤ 400, celdas ≤ 60, sin exclamaciones ni emojis, sin imágenes ni contenido de compra. related_questions t7-001..022 cubren todas las preguntas del tema y todas se tratan en el texto."
+  ]
+}

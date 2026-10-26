@@ -1,0 +1,381 @@
+[
+  {
+    "id": "t7-001",
+    "explanation": "La categoría 6.ª.2 se refiere a armas cuyo modelo o año de fabricación es anterior al 1 de enero de 1890, no de 1899. La trampa está en la fecha: por eso la afirmación es falsa.",
+    "article": "Art. 3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Se esperaba discrepancia 1899/1890, pero la respuesta oficial es B (Falso), coherente con el texto vigente (art. 2.2 y art. 3, 6.ª.2: 1890). No procede aviso. El apdo. 6.ª.2 fue modificado por RD 976/2011 (BOE-A-2011-11778); la redacción anterior a 2011 no está en el corpus. La redacción de art. 2 previa a RD 726/2020 ya decía 1890."
+  },
+  {
+    "id": "t7-002",
+    "explanation": "Para usar estas armas en campos o polígonos de tiro hace falta, además del certificado del banco oficial de pruebas de cada arma, una autorización especial, que puede cubrir un número ilimitado de ellas. No basta con una licencia de armas ordinaria.",
+    "article": "Art. 107.c RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 107"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t7-003",
+    "explanation": "Para el Reglamento, arma antigua es la de fuego cuyo modelo o año de fabricación es anterior al 1 de enero de 1890. La primera opción describe un arma artística y la segunda, un arma Flobert.",
+    "article": "Art. 2.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t7-004",
+    "explanation": "El coleccionista que solo quiere poseerla, sin usarla, la inscribe en un Libro-Registro diligenciado por la Intervención de Armas. La guía especial sirve para trasladarla y el certificado del banco de pruebas hace falta para poder dispararla.",
+    "article": "Art. 107.b RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 107"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t7-005",
+    "explanation": "La antigüedad de estas armas la fija el Ministerio de Defensa, que aprueba los prototipos o copias de los originales y lo comunica a la Guardia Civil. Por eso es falso que la fije la Dirección General de la Guardia Civil.",
+    "article": "Art. 3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t7-006",
+    "explanation": "En casa, las reproducciones de armas cortas se guardan completas en caja fuerte, armario o armero de al menos clase III de la UNE EN 1143-1. La clase I y la opción de guardar solo cierres o piezas fundamentales es lo previsto para las reproducciones de armas largas.",
+    "article": "Apdo. 1.º Resolución DGGC 27-3-2015",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-2015-3779",
+        "ref": "Primero"
+      },
+      {
+        "norma": "BOE-A-2014-12249",
+        "ref": "art. 12"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 107"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Resolución DGGC 27-3-2015, apdo. Primero, párrafos 2.º y 3.º: arma larga clase I (completas o cierres/piezas fundamentales), arma corta completas clase III. Dictada en desarrollo del art. 12 Orden INT/2202/2014; vigente (la Resolución DGGC 4-12-2024 solo deroga la de 1998). El art. 107.e Reglamento respalda 'completas en cajas fuertes autorizadas'."
+  },
+  {
+    "id": "t7-007",
+    "explanation": "Su uso se limita a lugares de tiro controlados para prácticas y competiciones, con autorización especial (salvo festejos tradicionales autorizados, y solo con pólvora). Por eso no vale «únicamente» polígonos de concurso ni «en todo caso» para caza mayor.",
+    "article": "Art. 107.c RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 107"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El art. 107.c vigente dice 'campos, galerías o polígonos de tiro de concurso y terrenos cinegéticos, controlados, para prácticas y competiciones'. La opción A omite los terrenos cinegéticos; la explicación evita afirmar que no se puedan usar nunca en caza y se apoya en el 'en todo caso' de la C."
+  },
+  {
+    "id": "t7-008",
+    "explanation": "Una reproducción es una copia de un arma original que conserva todas sus características, aptitudes y posibilidades de uso, es decir, funciona como la original. Si no las reúne, no es una reproducción.",
+    "article": "Art. 2.35 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t7-009",
+    "explanation": "Una réplica o imitación es un objeto que, por su aspecto o sus características externas, puede confundirse con un arma, aunque no pueda transformarse en una. La copia que conserva todas las aptitudes de la original es otra cosa: la reproducción.",
+    "article": "Art. 2.27 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Antes del RD 726/2020 (vigente desde 5-11-2020) el art. 2 decía 'Reproducción o réplica' (copia funcional) e 'Imitación de arma' por separado. La respuesta oficial coincide con la redacción vigente (2.27 'Imitación o réplica'); no hay discrepancia."
+  },
+  {
+    "id": "t7-010",
+    "explanation": "Quien tiene reproducciones o réplicas de armas antiguas solo puede comprar y usar la munición propia de las armas originales: con pólvora negra y de su mismo calibre. La munición metálica actual o la de pólvora sin humo no está permitida.",
+    "article": "Art. 11 Orden INT/2202/2014",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-2014-12249",
+        "ref": "art. 11"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Art. 11 Orden INT/2202/2014 (vigente, sin modificaciones) dice literalmente 'munición con pólvora negra, y del calibre de las mismas', igual que la opción oficial B. Se quita sin_articulo."
+  },
+  {
+    "id": "t7-011",
+    "explanation": "El cupo general para arma corta es de 100 cartuchos al año por arma, y la munición sigue el régimen del arma a la que se destina, así que es la cifra que el cuestionario aplica a estas reproducciones. El 150 es el máximo que se puede tener en depósito, no lo que se compra al año.",
+    "article": "Art. 136.2 RD 989/2015",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-2015-12054",
+        "ref": "art. 136"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 1"
+      },
+      {
+        "norma": "BOE-A-2014-12249",
+        "ref": "art. 11"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Art. 136.2 RD 989/2015 habla de 'titulares de licencia para arma corta' (100/año por arma; depósito máx. 150), no menciona reproducciones. El enlace con las reproducciones es interpretativo: Reglamento de Armas art. 1.3 (la munición sigue el régimen del arma) y Orden INT/2202/2014 art. 11 (solo pueden comprar munición de pólvora negra del calibre). Por eso confianza media y la explicación atribuye la aplicación al cuestionario. Cuadra con la opción oficial A."
+  },
+  {
+    "id": "t7-012",
+    "explanation": "Para las armas largas rayadas la norma fija un tope de 200 cartuchos en depósito en ningún caso superable, y el cuestionario lo aplica a estas reproducciones porque la munición sigue el régimen del arma. El 1.000 es el cupo de compra anual, no lo que se puede guardar.",
+    "article": "Art. 136.1 RD 989/2015",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-2015-12054",
+        "ref": "art. 136"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 1"
+      },
+      {
+        "norma": "BOE-A-2014-12249",
+        "ref": "art. 11"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Art. 136.1 RD 989/2015 se refiere a 'titulares de licencias para armas largas rayadas' (1.000/año por arma; 'en ningún caso' más de 200 en depósito); no menciona reproducciones ni distingue ánima lisa. La aplicación a reproducciones de armas largas antiguas es interpretativa (Reglamento art. 1.3 + Orden INT/2202/2014 art. 11). Confianza media; la explicación lo atribuye al cuestionario. Coincide con la opción oficial C."
+  },
+  {
+    "id": "t7-013",
+    "explanation": "El cuestionario sitúa el cartucho de percusión central de 1868 en adelante, el único de los tres periodos que sigue abierto: es el sistema que usa hoy casi toda la munición metálica, con el pistón en el centro del culote. Los otros dos periodos tienen fecha de fin.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "baja",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": "Historia sin base legal: el corpus BOE (incluidas las normas añadidas: Orden INT/2202/2014, RD 989/2015, Resolución 2015) no contiene fechas de la evolución del cartucho; buscar.py '1868' y 'percusion central' no da nada pertinente. Hubo cartuchos de percusión central antes de 1868 (cebos Boxer/Berdan hacia 1866), así que la fecha se atribuye al temario y no se afirma como hecho. Revisar con fuente histórica fiable."
+  },
+  {
+    "id": "t7-014",
+    "explanation": "Los primeros revólveres prácticos fueron los de Samuel Colt, inventor estadounidense, y las fuerzas de Estados Unidos los adoptaron en el siglo XIX antes que los ejércitos europeos, como el español o el francés.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "media",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": "Historia sin base legal. Matiz: antes que el Ejército de EE. UU., la Marina de la República de Texas y los Rangers usaron revólveres Colt Paterson; la respuesta oficial (Ejército norteamericano) es la versión habitual. Sin fechas concretas a propósito."
+  },
+  {
+    "id": "t7-015",
+    "explanation": "El revólver Lefaucheux, de diseño francés y con cartucho metálico de espiga, fue la primera arma de repetición de cartucho metálico declarada reglamentaria en el Ejército español, antes de que llegaran otros modelos.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "media",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": "Historia sin base legal. El banco escribe 'Lafaucheaux'; el nombre correcto es Lefaucheux. Se omiten años de adopción (Armada/Ejército) por no poder verificarlos; confirmar con fuente histórica."
+  },
+  {
+    "id": "t7-016",
+    "explanation": "Si se acuerda devolverlas, quedan a disposición de su titular durante un mes desde la notificación; pasado ese plazo sin recogerlas, la Guardia Civil puede destruirlas, salvo las de valor histórico, que se subastan. Por eso valen las dos.",
+    "article": "Art. 167.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 167"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El art. 167.2 vigente (RD 726/2020) dice 'podrá llevar a cabo su destrucción' y exceptúa las de valor histórico; no menciona expresamente 'depositadas en la Intervención'. La opción B simplifica ('serán destruidas'), pero la respuesta oficial 'Ambas' encaja en lo esencial. Pregunta propia del tema 6 colocada en el tema 7."
+  },
+  {
+    "id": "t7-017",
+    "explanation": "El Reglamento define la munición de bala explosiva como munición de uso militar cuyas balas llevan una carga que explota al impactar. No es munición de uso civil.",
+    "article": "Art. 2.31 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t7-018",
+    "explanation": "Para el Reglamento, munición es el cartucho completo o cualquiera de sus componentes autorizados: vaina, cebo, carga propulsora y bala o proyectil. La vaina forma parte de ella y el calibre no influye.",
+    "article": "Art. 2.29 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t7-019",
+    "explanation": "Un arma solo se considera inutilizada cuando todos sus componentes esenciales han quedado permanentemente inservibles y no se pueden retirar, sustituir ni modificar para reactivarla, según la ITC 2. Inutilizar uno o dos no basta.",
+    "article": "Art. 2.19 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 108"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t7-020",
+    "explanation": "El arma de un solo tiro es, por definición, la que no tiene depósito de municiones y se recarga a mano antes de cada disparo. Con un cargador adaptado dejaría de serlo, aunque se dispare tiro a tiro.",
+    "article": "Art. 2.16 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t7-021",
+    "explanation": "El Reglamento llama coleccionista a quien reúne y conserva armas, componentes esenciales o municiones con fines históricos, culturales, científicos, técnicos o educativos y está autorizado para ello. Basta con coleccionar componentes esenciales.",
+    "article": "Art. 2.23 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t7-022",
+    "explanation": "El Reglamento llama desmilitarización a la actividad fabril que transforma un arma de guerra en un arma civil o la desbarata..",
+    "article": "Art. 2.25 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  }
+]

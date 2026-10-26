@@ -1,0 +1,620 @@
+[
+  {
+    "id": "t1-001",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas (RD 137/1993) art. 2.5: «Arma automática: Arma de fuego que recarga automáticamente después de cada disparo y con la que es posible efectuar varios disparos sucesivos mientras permanezca accionado el disparador.»"
+  },
+  {
+    "id": "t1-002",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas (RD 137/1993) art. 2.21: «Arma semiautomática: Arma de fuego que después de cada disparo se recarga automáticamente y con la que solo es posible efectuar un disparo al accionar el disparador cada vez.»"
+  },
+  {
+    "id": "t1-003",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas (RD 137/1993) art. 2.15: «Arma de repetición: Arma de fuego que se recarga después de cada disparo, mediante un mecanismo accionado por el tirador que introduce en el cañón un cartucho colocado previamente en el depósito de municiones.»"
+  },
+  {
+    "id": "t1-004",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas (RD 137/1993) art. 2.16: «Arma de un solo tiro: Arma de fuego sin depósito de municiones, que se recarga antes de cada disparo mediante la introducción manual de un cartucho en la recámara o en un alojamiento especial a la entrada del cañón.»"
+  },
+  {
+    "id": "t1-005",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-006",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-007",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas art. 3, 3.ª cat. 2: «Escopetas y demás armas de fuego largas de ánima lisa, o que tengan cañón con rayas para facilitar el plomeo»; 2.ª cat. 2: «cañones estriados adaptables a escopetas de caza». Cubre «lisas o estriadas»."
+  },
+  {
+    "id": "t1-008",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas art. 3, 2.ª cat. 2: «Armas de fuego largas rayadas: Se comprenden aquellas armas utilizables para caza mayor»; 3.ª cat. 1: «Armas de fuego largas rayadas para tipo deportivo». El rifle es arma larga rayada."
+  },
+  {
+    "id": "t1-009",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-010",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-011",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-012",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-013",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-014",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-015",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-016",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-017",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-018",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-019",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-020",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-021",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-022",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-023",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-024",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-025",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-026",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-027",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-028",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-029",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-030",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-031",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-032",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-033",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-034",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-035",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-036",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-037",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-038",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-039",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-040",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-041",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas art. 1.2 (red. RD 726/2020): «Son componentes esenciales: ... b) La caja o cajón de los mecanismos, incluidos el superior y el inferior, cuando corresponda, el cañón, el cerrojo o báscula y el cierre o el bloqueo del cierre de las armas de fuego largas.» La báscula figura expresamente."
+  },
+  {
+    "id": "t1-042",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas art. 1.2 (red. RD 726/2020): «Son componentes esenciales: ... b) La caja o cajón de los mecanismos, incluidos el superior y el inferior, cuando corresponda, el cañón, el cerrojo o báscula y el cierre o el bloqueo del cierre de las armas de fuego largas.» El cañón figura en a) y b)."
+  },
+  {
+    "id": "t1-043",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas art. 1.2 (red. RD 726/2020): «Son componentes esenciales: ... b) La caja o cajón de los mecanismos, incluidos el superior y el inferior, cuando corresponda, el cañón, el cerrojo o báscula y el cierre o el bloqueo del cierre de las armas de fuego largas.» La culata no aparece."
+  },
+  {
+    "id": "t1-044",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas art. 1.2 (red. RD 726/2020): «Son componentes esenciales: ... b) La caja o cajón de los mecanismos, incluidos el superior y el inferior, cuando corresponda, el cañón, el cerrojo o báscula y el cierre o el bloqueo del cierre de las armas de fuego largas.» Los elementos de puntería no aparecen."
+  },
+  {
+    "id": "t1-045",
+    "verdict": "corregir",
+    "problems": [
+      "El aviso atribuye a la reforma de 2020 la inclusión del cajón de mecanismos y del cierre, pero la redacción anterior (RD 976/2011) ya los incluía; lo que cambió en 2020 fue la denominación. El aviso debe decir que la lista vigente es más amplia sin atribuirlo a la reforma."
+    ],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": "Ojo: el cuestionario da por buenas la báscula y el cañón. El art. 1.2 vigente (reforma de 2020) habla de componentes esenciales y, en armas largas, incluye además el cajón de mecanismos y el cierre.",
+    "evidence": "Reglamento de Armas art. 1.2 (red. RD 726/2020): «Son componentes esenciales: ... b) La caja o cajón de los mecanismos, incluidos el superior y el inferior, cuando corresponda, el cañón, el cerrojo o báscula y el cierre o el bloqueo del cierre de las armas de fuego largas.» Redacción anterior (NOTA BOE en art. 1, versión RD 976/2011): «de armas de fuego largas, rayadas o de ánima lisa, la caja o cajón de los mecanismos, el cerrojo o báscula y el cañón; así como los mecanismos de cierre de todas ellas». Es decir, el cajón y el cierre ya estaban antes de 2020; la reforma cambió sobre todo la denominación (piezas fundamentales -> componentes esenciales)."
+  },
+  {
+    "id": "t1-046",
+    "verdict": "corregir",
+    "problems": [
+      "Mismo problema que t1-045: el aviso atribuye a la reforma de 2020 la inclusión del cajón de mecanismos y del cierre, que ya estaban en la redacción anterior; solo cambió la denominación."
+    ],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": "Ojo: el cuestionario da por buenos el cerrojo y el cañón. El art. 1.2 vigente (reforma de 2020) habla de componentes esenciales y, en armas largas, incluye además el cajón de mecanismos y el cierre.",
+    "evidence": "Reglamento de Armas art. 1.2 (red. RD 726/2020): «Son componentes esenciales: ... b) La caja o cajón de los mecanismos, incluidos el superior y el inferior, cuando corresponda, el cañón, el cerrojo o báscula y el cierre o el bloqueo del cierre de las armas de fuego largas.» Redacción anterior (NOTA BOE en art. 1, versión RD 976/2011): «de armas de fuego largas, rayadas o de ánima lisa, la caja o cajón de los mecanismos, el cerrojo o báscula y el cañón; así como los mecanismos de cierre de todas ellas». Es decir, el cajón y el cierre ya estaban antes de 2020; la reforma cambió sobre todo la denominación (piezas fundamentales -> componentes esenciales)."
+  },
+  {
+    "id": "t1-047",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-048",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-049",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-050",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-051",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-052",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-053",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-054",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-055",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-056",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas art. 100.5: «Las armas de la categoría 2.ª 2 y sus municiones, deberán ser guardadas: a) En los propios domicilios de sus titulares, en cajas fuertes o armeros autorizados por la Dirección General de la Guardia Civil ... b) En los locales de empresas o entidades especializadas en la custodia de armas». Art. 3, 2.ª cat. 2 = armas largas rayadas utilizables para caza mayor."
+  },
+  {
+    "id": "t1-057",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas art. 144.1: «a) A guardarlas en lugar seguro y a adoptar las medidas necesarias ... de evitar su pérdida, robo o sustracción» y «e) ... las mantenga bajo control durante su transporte y uso»."
+  },
+  {
+    "id": "t1-058",
+    "verdict": "corregir",
+    "problems": [
+      "La frase «exige llevarlas en su funda o desmontadas» generaliza el art. 149.1, que solo lo impone en vías y lugares públicos urbanos; conviene acotar el alcance. La prohibición de transportarlas cargadas (art. 39.4) sí es general."
+    ],
+    "suggested_explanation": "Las armas se transportan siempre descargadas: la norma prohíbe transportarlas cargadas y, por vías urbanas, exige llevarlas desmontadas o en su funda. Tenerlas listas para disparar en el coche es peligroso aunque sea temporada de caza.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas art. 39.4: «En ningún caso podrán hacerse envíos o transportes de armas cargadas ni de armas conjuntamente con cartuchería susceptible de ser utilizada con las armas transportadas.» Art. 149.1: «Solamente se podrán llevar armas reglamentadas por las vías y lugares públicos urbanos, y desmontadas o dentro de sus cajas o fundas, durante el trayecto...»."
+  },
+  {
+    "id": "t1-059",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas art. 144.1: «a) A guardarlas en lugar seguro...» y «d) A que las armas y sus municiones no sean fácilmente accesibles de manera conjunta.» Apoya guardarlas sin munición y con esta aparte; «descargadas y sin alimentar» es la opción oficial y es coherente."
+  },
+  {
+    "id": "t1-060",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-061",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-062",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-063",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-064",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-065",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-066",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Reglamento de Armas art. 147.1: «En la presencia o proximidad de otras personas, deberán actuar con la diligencia y precauciones necesarias y comportarse de forma que no puedan causar peligro, daños, perjuicios o molestias a terceras personas o a sus bienes.» La explicación presenta descargar el arma como medida práctica, sin atribuirla literalmente a la norma."
+  },
+  {
+    "id": "t1-067",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  },
+  {
+    "id": "t1-068",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin artículo: hecho técnico general (Resolución 19-10-1998, Anexo I, solo fija el temario del tema 1). Explicación coherente con la opción oficial."
+  }
+]

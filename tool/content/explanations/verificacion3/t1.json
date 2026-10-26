@@ -1,0 +1,136 @@
+[
+  {
+    "id": "t1-007",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 3 RD 137/1993: 3.ª cat. 2 «Escopetas y demás armas de fuego largas de ánima lisa, o que tengan cañón con rayas para facilitar el plomeo» y 2.ª cat. 2 «los cañones estriados adaptables a escopetas de caza». La explicación justifica bien «lisas o estriadas»."
+  },
+  {
+    "id": "t1-009",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Técnico: en las semiautomáticas el bloque de cierre (cerrojo) aloja percutor, extractor y la pieza de acerrojamiento (grapón); culata y cajón no los llevan. Coherente con la terminología del cuestionario."
+  },
+  {
+    "id": "t1-011",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Técnico: el muelle del cargador empuja los cartuchos hacia los labios del cargador para presentarlos frente a la recámara; la extracción es cosa del extractor. La explicación descarta bien la A (la presión es el medio) y la B."
+  },
+  {
+    "id": "t1-013",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Técnico: la banda ventilada separa los cañones y favorece la disipación del calor; lo del viento lateral es el criterio del temario y la explicación lo razona sin afirmar nada claramente falso. Aceptable."
+  },
+  {
+    "id": "t1-018",
+    "verdict": "corregir",
+    "problems": [
+      "Para descartar la B dice que «el rifle de cerrojo no tiene muelle de recuperación», pero la pregunta habla de «un rifle» en general y los rifles semiautomáticos sí lo tienen; el alumno puede quedarse con la idea falsa de que ningún rifle lo lleva. Lo que descarta la B es su función: devolver el cierre a su sitio, no sacar la vaina."
+    ],
+    "suggested_explanation": "Al abrir el cerrojo, el extractor, una uña que agarra el culote, saca la vaina de la recámara para que salga del arma. No hace falta la mano, y el muelle de recuperación, que solo llevan las semiautomáticas, sirve para devolver el cierre a su sitio, no para sacar la vaina.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Técnico: en las armas semiautomáticas (también rifles) el muelle recuperador devuelve el cierre a su posición tras el retroceso; el extractor saca la vaina de la recámara. El art. 2.21 RD 137/1993 define el arma semiautomática como la que «después de cada disparo se recarga automáticamente», y hay rifles de caza con ese mecanismo."
+  },
+  {
+    "id": "t1-036",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Técnico: en los aparatos de puntería abiertos clásicos el punto de mira se desplaza lateralmente en su guía y el alza se gradúa en altura o distancia. La explicación se ciñe al criterio del cuestionario sin afirmar nada falso; la incertidumbre (alzas regulables en ambos ejes) ya está en review_notes."
+  },
+  {
+    "id": "t1-037",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Técnico: en la terminología del temario la biela une el disparador con el fiador; el elevador sube el cartucho desde el depósito y el fiador retiene el martillo o percutor montado. Correcto."
+  },
+  {
+    "id": "t1-038",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Técnico: la explicación habla de la «energía del disparo» que mueve el cierre, válido tanto para sistemas de retroceso como de toma de gases, y justifica la B frente a la A y la C."
+  },
+  {
+    "id": "t1-045",
+    "verdict": "corregir",
+    "problems": [
+      "El aviso pone «(reforma de 2020)» junto a la lista ampliada y da a entender que el cajón de mecanismos y el cierre se añadieron en 2020; la redacción anterior (RD 976/2011) ya los incluía. La reforma de 2020 solo quitó la expresión «piezas fundamentales». El verificador anterior lo señaló, pero el aviso no llegó a corregirse del todo.",
+      "El flag discrepancia_reforma_2020 es impreciso por lo mismo; debería ser discrepancia_norma."
+    ],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": "Ojo: el cuestionario da por buenas la báscula y el cañón. El art. 1.2 del Reglamento las llama hoy «componentes esenciales» y para armas largas da una lista más amplia: también el cajón de mecanismos y el cierre o su bloqueo.",
+    "evidence": "Art. 1.2.b RD 137/1993 vigente: «La caja o cajón de los mecanismos, incluidos el superior y el inferior, cuando corresponda, el cañón, el cerrojo o báscula y el cierre o el bloqueo del cierre de las armas de fuego largas». Redacción anterior a RD 726/2020 (nota BOE): «de armas de fuego largas, rayadas o de ánima lisa, la caja o cajón de los mecanismos, el cerrojo o báscula y el cañón; así como los mecanismos de cierre»."
+  },
+  {
+    "id": "t1-046",
+    "verdict": "corregir",
+    "problems": [
+      "Mismo problema que t1-045: «(reforma de 2020)» sugiere que la reforma añadió el cajón de mecanismos y el cierre, que ya figuraban en la redacción anterior; solo cambió la denominación.",
+      "El flag discrepancia_reforma_2020 es impreciso; debería ser discrepancia_norma."
+    ],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": "Ojo: el cuestionario da por buenos el cerrojo y el cañón. El art. 1.2 del Reglamento los llama hoy «componentes esenciales» y para armas largas da una lista más amplia: también el cajón de mecanismos y el cierre o su bloqueo.",
+    "evidence": "Art. 1.2.b RD 137/1993 vigente: «La caja o cajón de los mecanismos ... el cañón, el cerrojo o báscula y el cierre o el bloqueo del cierre de las armas de fuego largas». Redacción anterior a RD 726/2020 (nota BOE): «la caja o cajón de los mecanismos, el cerrojo o báscula y el cañón; así como los mecanismos de cierre»."
+  },
+  {
+    "id": "t1-057",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 144.1 RD 137/1993: a) «guardarlas en lugar seguro y a adoptar las medidas necesarias ... de evitar su pérdida, robo o sustracción»; e) «las mantenga bajo control durante su transporte y uso». La Resolución de 27-11-2024 sobre transporte solo regula a empresas de transporte y de seguridad, no a particulares: no cambia la respuesta."
+  },
+  {
+    "id": "t1-058",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 39.4 RD 137/1993: «En ningún caso podrán hacerse envíos o transportes de armas cargadas»; art. 149.1: «por las vías y lugares públicos urbanos, y desmontadas o dentro de sus cajas o fundas». Lo refuerza la Ley 1/1970, art. 43, que sanciona transportar en vehículos «armas desenfundadas y listas para su uso, aun cuando no estuvieren cargadas»."
+  },
+  {
+    "id": "t1-059",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 144.1.d RD 137/1993: «A que las armas y sus municiones no sean fácilmente accesibles de manera conjunta»; art. 100.5.a: «La munición se guardará separada de las armas de fuego». «Descargadas y sin alimentar» es la concreción práctica y la explicación lo presenta así."
+  },
+  {
+    "id": "t1-066",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 147.1 RD 137/1993: «En la presencia o proximidad de otras personas, deberán actuar con la diligencia y precauciones necesarias». La explicación presenta descargar el arma como la concreción de esa diligencia."
+  }
+]

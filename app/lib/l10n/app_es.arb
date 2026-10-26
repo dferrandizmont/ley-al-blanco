@@ -1,0 +1,1512 @@
+{
+  "@@locale": "es",
+  "appTitle": "Ley al Blanco",
+  "@appTitle": {
+    "description": "Nombre de la app: título de la barra superior y de la tarea en el sistema."
+  },
+  "legalDisclaimer": "App independiente y no oficial. Preguntas basadas en el cuestionario publicado por la Dirección General de la Guardia Civil.",
+  "@legalDisclaimer": {
+    "description": "Aviso legal fijo: la app no es oficial y cita la fuente del cuestionario. Se muestra en Inicio y en Ajustes."
+  },
+  "retry": "Reintentar",
+  "@retry": {
+    "description": "Botón para repetir una operación que ha fallado."
+  },
+  "bootstrapLoading": "Preparando la app…",
+  "@bootstrapLoading": {
+    "description": "Texto bajo el indicador de carga mientras arranca la app."
+  },
+  "bootstrapFailed": "No se ha podido preparar la app",
+  "@bootstrapFailed": {
+    "description": "Título del error de arranque (base de datos o banco de preguntas)."
+  },
+  "genericError": "Algo ha fallado. Inténtalo de nuevo.",
+  "@genericError": {
+    "description": "Mensaje de error genérico, sin detalles técnicos."
+  },
+  "next": "Siguiente",
+  "@next": {
+    "description": "Botón para pasar a la pregunta siguiente (hoja de explicación y simulacro)."
+  },
+  "previous": "Anterior",
+  "@previous": {
+    "description": "Botón para volver a la pregunta anterior en el simulacro."
+  },
+  "backToHome": "Volver al inicio",
+  "@backToHome": {
+    "description": "Botón que lleva a la pantalla de Inicio al terminar una sesión o un simulacro."
+  },
+  "cancel": "Cancelar",
+  "@cancel": {
+    "description": "Botón para cerrar un diálogo sin hacer nada."
+  },
+  "ratio": "{a} / {b}",
+  "@ratio": {
+    "description": "Dos números separados por una barra: posición en la sesión (\"3 / 20\") o aciertos sobre total (\"16 / 20\"). Se muestran con cifras tabulares.",
+    "placeholders": {
+      "a": {
+        "type": "int"
+      },
+      "b": {
+        "type": "int"
+      }
+    }
+  },
+  "progressSemantics": "Pregunta {current} de {total}",
+  "@progressSemantics": {
+    "description": "Lo que lee el lector de pantalla en la barra de progreso de una sesión o un simulacro (el texto visible es \"5 / 68\").",
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "correctOfSemantics": "{correct, plural, =1{1 acierto} other{{correct} aciertos}} de {total}",
+  "@correctOfSemantics": {
+    "description": "Lo que lee el lector de pantalla en lugar de \"16 / 20\" (anillo del resultado, fila de un tema, resumen de la sesión).",
+    "placeholders": {
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "semanticsTitleSubtitle": "{title}. {subtitle}",
+  "@semanticsTitleSubtitle": {
+    "description": "Lo que lee el lector de pantalla en una fila con título y subtítulo (un punto los separa).",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "subtitle": {
+        "type": "String"
+      }
+    }
+  },
+  "temaLabel": "Tema {n}",
+  "@temaLabel": {
+    "description": "Etiqueta corta de un tema con su número, por ejemplo \"Tema 3\".",
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "loadErrorTitle": "No se han podido cargar los datos",
+  "@loadErrorTitle": {
+    "description": "Título del estado de error cuando una pantalla no consigue leer los datos del dispositivo."
+  },
+  "tema1": "Funcionamiento y seguridad",
+  "@tema1": {
+    "description": "Nombre oficial del tema 1 del cuestionario."
+  },
+  "tema2": "Categorías de armas",
+  "@tema2": {
+    "description": "Nombre oficial del tema 2 del cuestionario."
+  },
+  "tema3": "Circulación, revista y transferencia",
+  "@tema3": {
+    "description": "Nombre oficial del tema 3 del cuestionario."
+  },
+  "tema4": "Documentación y licencias, Tarjeta Europea",
+  "@tema4": {
+    "description": "Nombre oficial del tema 4 del cuestionario."
+  },
+  "tema5": "Régimen sancionador",
+  "@tema5": {
+    "description": "Nombre oficial del tema 5 del cuestionario."
+  },
+  "tema6": "Reparación, prueba y depósito",
+  "@tema6": {
+    "description": "Nombre oficial del tema 6 del cuestionario."
+  },
+  "tema7": "Armas de colección, definiciones, historia, calibres y munición",
+  "@tema7": {
+    "description": "Nombre oficial del tema 7 del cuestionario."
+  },
+  "homePassProbability": "Probabilidad de aprobar",
+  "@homePassProbability": {
+    "description": "Pie del anillo de Inicio: estimación de aprobar un simulacro hoy."
+  },
+  "homeContinue": "Continuar",
+  "@homeContinue": {
+    "description": "Botón principal de Inicio: empieza el repaso del día."
+  },
+  "homeContinueCount": "{count, plural, =1{1 pregunta para hoy} other{{count} preguntas para hoy}}",
+  "@homeContinueCount": {
+    "description": "Bajo el botón Continuar: cuántas preguntas tiene el repaso del día.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeContinueDone": "Has terminado el repaso de hoy. Puedes practicar un tema o hacer un simulacro.",
+  "@homeContinueDone": {
+    "description": "Mensaje de Inicio cuando el repaso del día no tiene preguntas; el botón Continuar queda desactivado."
+  },
+  "homeMockTitle": "Simulacro",
+  "@homeMockTitle": {
+    "description": "Título del acceso al simulacro en Inicio."
+  },
+  "homeMockSubtitle": "Un examen completo, como el real",
+  "@homeMockSubtitle": {
+    "description": "Subtítulo del acceso al simulacro en Inicio."
+  },
+  "homeMistakesTitle": "Fallos",
+  "@homeMistakesTitle": {
+    "description": "Título del acceso a la lista de fallos en Inicio y de su pantalla."
+  },
+  "mistakesCount": "{count, plural, =0{Sin fallos pendientes} =1{1 fallo pendiente} other{{count} fallos pendientes}}",
+  "@mistakesCount": {
+    "description": "Subtítulo del acceso a Fallos: cuántas preguntas siguen en la lista.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeTemasTitle": "Temas",
+  "@homeTemasTitle": {
+    "description": "Título de la sección con las siete tarjetas de tema en Inicio."
+  },
+  "temaCardMastery": "Dominio {percent}",
+  "@temaCardMastery": {
+    "description": "Texto de la tarjeta de tema: nivel de dominio ya formateado (\"Dominio 45 %\").",
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "temaCardMistakes": "{count, plural, =1{1 fallo} other{{count} fallos}}",
+  "@temaCardMistakes": {
+    "description": "Texto de la tarjeta de tema: fallos pendientes del tema (solo si hay alguno).",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bankEdition": "Cuestionario {edition}",
+  "@bankEdition": {
+    "description": "Pie de Inicio con la edición del banco de preguntas, por ejemplo \"Cuestionario GC nov-2020\".",
+    "placeholders": {
+      "edition": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreRingSemantics": "{label}: {percent}",
+  "@scoreRingSemantics": {
+    "description": "Descripción para lector de pantalla del anillo de puntuación.",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreRingUnknown": "Calculando",
+  "@scoreRingUnknown": {
+    "description": "Descripción para lector de pantalla del anillo mientras aún no hay valor."
+  },
+  "optionSemantics": "Opción {letter}: {text}",
+  "@optionSemantics": {
+    "description": "Descripción para lector de pantalla de una opción de respuesta (letra y texto).",
+    "placeholders": {
+      "letter": {
+        "type": "String"
+      },
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "optionCorrect": "Correcta",
+  "@optionCorrect": {
+    "description": "Etiqueta accesible de la opción correcta (junto al icono de verificación)."
+  },
+  "optionIncorrect": "Incorrecta",
+  "@optionIncorrect": {
+    "description": "Etiqueta accesible de la opción elegida que es incorrecta (junto al icono de cruz)."
+  },
+  "masteryBarSemantics": "Dominio {percent}",
+  "@masteryBarSemantics": {
+    "description": "Descripción para lector de pantalla de la barra de dominio.",
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "explanationCorrect": "Correcto",
+  "@explanationCorrect": {
+    "description": "Veredicto en la hoja de explicación cuando se acierta."
+  },
+  "explanationIncorrect": "Incorrecto",
+  "@explanationIncorrect": {
+    "description": "Veredicto en la hoja de explicación cuando se falla."
+  },
+  "explanationCorrectAnswer": "Respuesta correcta",
+  "@explanationCorrectAnswer": {
+    "description": "Encabezado que precede a la respuesta correcta en la hoja de explicación."
+  },
+  "explanationAnswerLine": "{letter}. {text}",
+  "@explanationAnswerLine": {
+    "description": "Letra y texto de una opción mostrados como respuesta.",
+    "placeholders": {
+      "letter": {
+        "type": "String"
+      },
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "explanationHeading": "Explicación",
+  "@explanationHeading": {
+    "description": "Encabezado del texto explicativo de una pregunta."
+  },
+  "explanationPending": "Explicación en preparación",
+  "@explanationPending": {
+    "description": "Texto provisional cuando la pregunta aún no tiene explicación propia."
+  },
+  "noticeTitle": "Aviso: cambio en la norma",
+  "@noticeTitle": {
+    "description": "Título del recuadro de aviso que precede a la explicación cuando la normativa vigente puede discrepar de la respuesta oficial del cuestionario."
+  },
+  "articleChipSemantics": "Fuente: {article}",
+  "@articleChipSemantics": {
+    "description": "Descripción para lector de pantalla de la ficha del artículo citado.",
+    "placeholders": {
+      "article": {
+        "type": "String"
+      }
+    }
+  },
+  "practiceDailyTitle": "Repaso del día",
+  "@practiceDailyTitle": {
+    "description": "Título de la pantalla de práctica cuando es el repaso del día."
+  },
+  "practiceMistakesTitle": "Repasar fallos",
+  "@practiceMistakesTitle": {
+    "description": "Título de la pantalla de práctica cuando se repasan los fallos."
+  },
+  "practiceMockMistakesTitle": "Fallos del simulacro",
+  "@practiceMockMistakesTitle": {
+    "description": "Título de la pantalla de práctica cuando se repasan solo los fallos de un simulacro."
+  },
+  "practiceTemaTitle": "{tema} · {title}",
+  "@practiceTemaTitle": {
+    "description": "Título de la pantalla de práctica de un tema: su etiqueta con el número y el nombre oficial.",
+    "placeholders": {
+      "tema": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "practiceFinish": "Terminar",
+  "@practiceFinish": {
+    "description": "Botón de la hoja de explicación en la última pregunta de la sesión."
+  },
+  "practiceSaveError": "No se ha podido guardar tu respuesta. Inténtalo de nuevo.",
+  "@practiceSaveError": {
+    "description": "Aviso breve cuando falla el guardado de una respuesta en el dispositivo."
+  },
+  "practiceEmptyDailyTitle": "Hoy no quedan preguntas",
+  "@practiceEmptyDailyTitle": {
+    "description": "Título cuando el repaso del día está vacío."
+  },
+  "practiceEmptyDailyMessage": "Vuelve mañana, o practica un tema o haz un simulacro.",
+  "@practiceEmptyDailyMessage": {
+    "description": "Mensaje cuando el repaso del día está vacío."
+  },
+  "practiceEmptyMistakesTitle": "No hay fallos que repasar",
+  "@practiceEmptyMistakesTitle": {
+    "description": "Título cuando se abre el repaso de fallos sin ninguno."
+  },
+  "practiceEmptyMistakesMessage": "Las preguntas que falles aparecerán aquí.",
+  "@practiceEmptyMistakesMessage": {
+    "description": "Mensaje cuando se abre el repaso de fallos sin ninguno."
+  },
+  "practiceSummaryTitle": "Sesión terminada",
+  "@practiceSummaryTitle": {
+    "description": "Título del resumen al acabar una sesión de práctica."
+  },
+  "practiceSummaryScore": "Aciertos",
+  "@practiceSummaryScore": {
+    "description": "Etiqueta junto al número de aciertos del resumen de la sesión."
+  },
+  "mockTitle": "Simulacro",
+  "@mockTitle": {
+    "description": "Título de las pantallas del simulacro."
+  },
+  "mockIntroBody": "{size} preguntas de test con tres opciones, como en el examen. Se aprueba con {passMark} aciertos.",
+  "@mockIntroBody": {
+    "description": "Explicación del simulacro en su pantalla de introducción.",
+    "placeholders": {
+      "size": {
+        "type": "int"
+      },
+      "passMark": {
+        "type": "int"
+      }
+    }
+  },
+  "mockIntroNoFeedback": "No verás si aciertas hasta entregar, y puedes cambiar una respuesta antes de entregar. Las preguntas sin responder cuentan como fallo.",
+  "@mockIntroNoFeedback": {
+    "description": "Segunda frase de la introducción del simulacro: cómo funciona la corrección."
+  },
+  "mockTimerSwitch": "Cronómetro orientativo ({minutes} min)",
+  "@mockTimerSwitch": {
+    "description": "Interruptor opcional para activar el cronómetro del simulacro.",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "mockTimerHelp": "El tiempo real del examen no consta en el BOE: es solo una guía y no corta el simulacro.",
+  "@mockTimerHelp": {
+    "description": "Aclaración bajo el interruptor del cronómetro."
+  },
+  "mockStart": "Empezar",
+  "@mockStart": {
+    "description": "Botón que crea el simulacro y lo abre."
+  },
+  "mockStartError": "No se ha podido crear el simulacro. Inténtalo de nuevo.",
+  "@mockStartError": {
+    "description": "Aviso cuando falla la creación del simulacro."
+  },
+  "mockStartAnother": "Empezar otro",
+  "@mockStartAnother": {
+    "description": "Botón de la introducción del simulacro que crea uno nuevo cuando hay otro sin entregar."
+  },
+  "mockResumeTitle": "Tienes un simulacro sin entregar",
+  "@mockResumeTitle": {
+    "description": "Título de la tarjeta de la introducción que ofrece retomar el simulacro que se dejó a medias."
+  },
+  "mockResumeProgress": "{answered} de {total} respondidas",
+  "@mockResumeProgress": {
+    "description": "Progreso del simulacro sin entregar: preguntas respondidas sobre el total.",
+    "placeholders": {
+      "answered": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mockResume": "Continuar simulacro",
+  "@mockResume": {
+    "description": "Botón que reabre el simulacro sin entregar donde se dejó."
+  },
+  "homeMockResumeSubtitle": "Tienes uno sin entregar",
+  "@homeMockResumeSubtitle": {
+    "description": "Subtítulo del acceso al simulacro en Inicio cuando hay un simulacro a medias que se puede retomar."
+  },
+  "mockReplaceTitle": "¿Empezar otro simulacro?",
+  "@mockReplaceTitle": {
+    "description": "Título del diálogo que avisa de que empezar otro simulacro descarta el que está sin entregar."
+  },
+  "mockReplaceBody": "El simulacro sin entregar se descartará y no podrás retomarlo.",
+  "@mockReplaceBody": {
+    "description": "Cuerpo del diálogo de empezar otro simulacro."
+  },
+  "mockHistoryTitle": "Tus simulacros",
+  "@mockHistoryTitle": {
+    "description": "Encabezado de la lista de simulacros entregados en la introducción del simulacro."
+  },
+  "mockHistoryScore": "{correct} de {total}",
+  "@mockHistoryScore": {
+    "description": "Aciertos de un simulacro en la lista de simulacros (\"16 de 20\"), con cifras tabulares.",
+    "placeholders": {
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mockHistoryRowSemantics": "Simulacro del {date}. {score}. {verdict}",
+  "@mockHistoryRowSemantics": {
+    "description": "Lo que lee el lector de pantalla en una fila de la lista de simulacros: fecha, aciertos y veredicto.",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "score": {
+        "type": "String"
+      },
+      "verdict": {
+        "type": "String"
+      }
+    }
+  },
+  "mockTimerRemaining": "Quedan {time}",
+  "@mockTimerRemaining": {
+    "description": "Cuenta atrás del simulacro con el tiempo restante ya formateado (\"12:05\").",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "mockTimerExpired": "Tiempo orientativo agotado",
+  "@mockTimerExpired": {
+    "description": "Aviso cuando la cuenta atrás llega a cero; no se entrega solo."
+  },
+  "mockQuestions": "Preguntas",
+  "@mockQuestions": {
+    "description": "Botón que abre el navegador con las 20 preguntas del simulacro."
+  },
+  "mockNavigatorTitle": "Ir a la pregunta",
+  "@mockNavigatorTitle": {
+    "description": "Título de la hoja con el navegador de preguntas del simulacro."
+  },
+  "navigatorCellAnswered": "Pregunta {number}, respondida",
+  "@navigatorCellAnswered": {
+    "description": "Descripción accesible de una celda del navegador con respuesta.",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "navigatorCellBlank": "Pregunta {number}, sin responder",
+  "@navigatorCellBlank": {
+    "description": "Descripción accesible de una celda del navegador sin respuesta.",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "mockSubmit": "Entregar",
+  "@mockSubmit": {
+    "description": "Botón para entregar el simulacro."
+  },
+  "mockSubmitTitle": "¿Entregar el simulacro?",
+  "@mockSubmitTitle": {
+    "description": "Título del diálogo de confirmación al entregar."
+  },
+  "mockSubmitUnanswered": "{count, plural, =0{Has respondido todas las preguntas.} =1{Te queda 1 pregunta sin responder y contará como fallo.} other{Te quedan {count} preguntas sin responder y contarán como fallo.}}",
+  "@mockSubmitUnanswered": {
+    "description": "Cuerpo del diálogo de entrega: cuántas preguntas quedan en blanco.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mockSubmitKeep": "Seguir",
+  "@mockSubmitKeep": {
+    "description": "Botón del diálogo de entrega para volver al simulacro."
+  },
+  "mockLeaveTitle": "¿Salir del simulacro?",
+  "@mockLeaveTitle": {
+    "description": "Título del diálogo al pulsar atrás durante el simulacro."
+  },
+  "mockLeaveBody": "Si sales ahora, el simulacro queda sin entregar. Podrás retomarlo desde Simulacro.",
+  "@mockLeaveBody": {
+    "description": "Cuerpo del diálogo al pulsar atrás durante el simulacro: se puede retomar."
+  },
+  "mockLeaveConfirm": "Salir",
+  "@mockLeaveConfirm": {
+    "description": "Botón que abandona el simulacro."
+  },
+  "mockResultElapsedTime": "Tiempo empleado: {duration}",
+  "@mockResultElapsedTime": {
+    "description": "Tiempo transcurrido entre el inicio y la entrega del simulacro; solo se muestra si consta la hora de entrega.",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "elapsedMinutesSeconds": "{minutes} min {seconds} s",
+  "@elapsedMinutesSeconds": {
+    "description": "Duración en minutos totales y segundos restantes, sin límite de minutos ni conversión a horas.",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "mockResultPassed": "APTO",
+  "@mockResultPassed": {
+    "description": "Resultado del simulacro cuando se llega al mínimo de aciertos."
+  },
+  "mockResultFailed": "NO APTO",
+  "@mockResultFailed": {
+    "description": "Resultado del simulacro cuando no se llega al mínimo de aciertos."
+  },
+  "mockResultPassMarkHint": "La marca indica el aprobado: {passMark} aciertos.",
+  "@mockResultPassMarkHint": {
+    "description": "Pie del anillo del resultado: explica la marca del anillo (el mínimo de aciertos para aprobar).",
+    "placeholders": {
+      "passMark": {
+        "type": "int"
+      }
+    }
+  },
+  "mockResultOutOf": "de {total}",
+  "@mockResultOutOf": {
+    "description": "Bajo la puntuación grande del resultado: \"de 20\".",
+    "placeholders": {
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mockResultPerTema": "Aciertos por tema",
+  "@mockResultPerTema": {
+    "description": "Encabezado de la tabla de aciertos por tema."
+  },
+  "mockResultQuestionsTitle": "Preguntas",
+  "@mockResultQuestionsTitle": {
+    "description": "Encabezado de la lista de las preguntas del simulacro en el resultado (todas, o solo las falladas con el filtro)."
+  },
+  "mockResultOnlyFailed": "Solo falladas",
+  "@mockResultOnlyFailed": {
+    "description": "Filtro del resultado del simulacro: activo muestra solo las preguntas falladas, inactivo las veinte."
+  },
+  "mockResultRowCorrect": "Acertada",
+  "@mockResultRowCorrect": {
+    "description": "Lo que lee el lector de pantalla en la fila de una pregunta acertada del resultado."
+  },
+  "mockResultRowFailed": "Fallada",
+  "@mockResultRowFailed": {
+    "description": "Lo que lee el lector de pantalla en la fila de una pregunta fallada del resultado."
+  },
+  "mockResultHeaderSemantics": "{tema}. {title}. {score}",
+  "@mockResultHeaderSemantics": {
+    "description": "Lo que lee el lector de pantalla en la cabecera del resultado del simulacro (tema, título y aciertos).",
+    "placeholders": {
+      "tema": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      },
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "mockResultRowSemantics": "{number}. {stem}. {status}. {answer}",
+  "@mockResultRowSemantics": {
+    "description": "Lo que lee el lector de pantalla en la fila de una pregunta del resultado del simulacro (número, enunciado, acierto o fallo y respuesta del usuario).",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "stem": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      },
+      "answer": {
+        "type": "String"
+      }
+    }
+  },
+  "mockResultRowTitle": "{number}. {stem}",
+  "@mockResultRowTitle": {
+    "description": "Título de la fila de una pregunta del resultado del simulacro: su número y su enunciado.",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "stem": {
+        "type": "String"
+      }
+    }
+  },
+  "mockResultNoFailed": "No has fallado ninguna pregunta.",
+  "@mockResultNoFailed": {
+    "description": "Texto cuando el simulacro no tiene fallos."
+  },
+  "mockResultReviewMistakesCount": "Repasar {count, plural, =1{el fallo} other{los {count} fallos}}",
+  "@mockResultReviewMistakesCount": {
+    "description": "Botón del resultado que abre el repaso de los fallos del simulacro, con su número.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mockResultNotFinished": "Este simulacro no se ha entregado.",
+  "@mockResultNotFinished": {
+    "description": "Mensaje si se abre el resultado de un simulacro sin entregar."
+  },
+  "mockResultUnanswered": "Sin responder",
+  "@mockResultUnanswered": {
+    "description": "Texto de la respuesta del usuario cuando dejó la pregunta en blanco."
+  },
+  "mockReviewTitle": "Revisión",
+  "@mockReviewTitle": {
+    "description": "Título de la pantalla de revisión de una pregunta fallada."
+  },
+  "mockReviewPosition": "Pregunta {current} de {total}",
+  "@mockReviewPosition": {
+    "description": "Posición de la pregunta que se revisa dentro del simulacro, sobre la tarjeta de la pregunta.",
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mockReviewYourAnswer": "Tu respuesta: {letter}",
+  "@mockReviewYourAnswer": {
+    "description": "Respuesta elegida por el usuario en la revisión: la letra de la opción que marcó.",
+    "placeholders": {
+      "letter": {
+        "type": "String"
+      }
+    }
+  },
+  "mistakesFilterAll": "Todos",
+  "@mistakesFilterAll": {
+    "description": "Filtro de la lista de fallos que no limita por tema."
+  },
+  "mistakesReviewAll": "Repasar todos",
+  "@mistakesReviewAll": {
+    "description": "Botón que empieza el repaso de los fallos mostrados."
+  },
+  "mistakesEmptyTitle": "No tienes fallos pendientes",
+  "@mistakesEmptyTitle": {
+    "description": "Título del estado vacío de la lista de fallos."
+  },
+  "mistakesEmptyMessage": "Las preguntas que falles aparecerán aquí hasta que las aciertes dos veces seguidas.",
+  "@mistakesEmptyMessage": {
+    "description": "Mensaje del estado vacío de la lista de fallos."
+  },
+  "mistakesRowHint": "Toca para ver la ficha de este fallo",
+  "@mistakesRowHint": {
+    "description": "Pista de accesibilidad de cada fila de Fallos: al tocarla se abre la ficha del fallo (respuesta, explicación y accesos a la teoría y a la práctica)."
+  },
+  "mistakeSheetLastAnswer": "Tu última respuesta: {letter}",
+  "@mistakeSheetLastAnswer": {
+    "description": "Ficha de un fallo: qué opción marcó el usuario la última vez que falló la pregunta.",
+    "placeholders": {
+      "letter": {
+        "type": "String"
+      }
+    }
+  },
+  "mistakeSheetTheory": "Ver la teoría del tema {n}",
+  "@mistakeSheetTheory": {
+    "description": "Ficha de un fallo: botón que abre el resumen de teoría del tema de la pregunta.",
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "mistakeSheetPractice": "Practicar esta pregunta",
+  "@mistakeSheetPractice": {
+    "description": "Ficha de un fallo: botón que abre el repaso de fallos empezando por esta pregunta."
+  },
+  "mistakesWrongCount": "{count, plural, =1{Fallada 1 vez} other{Fallada {count} veces}}",
+  "@mistakesWrongCount": {
+    "description": "Cuántas veces se ha fallado una pregunta de la lista.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "close": "Cerrar",
+  "@close": {
+    "description": "Etiqueta (lector de pantalla y ayuda) del botón redondo que cierra una sesión o un resultado."
+  },
+  "homeStatusLine": "Estimación según tus respuestas",
+  "@homeStatusLine": {
+    "description": "Frase de estado bajo la etiqueta de la probabilidad de aprobar en la tarjeta de Inicio."
+  },
+  "homeSettings": "Ajustes",
+  "@homeSettings": {
+    "description": "Etiqueta (lector de pantalla y ayuda) del botón redondo de Inicio que abre Ajustes."
+  },
+  "settingsTitle": "Ajustes",
+  "@settingsTitle": {
+    "description": "Título de la pantalla de Ajustes."
+  },
+  "settingsAppearanceSection": "Apariencia",
+  "@settingsAppearanceSection": {
+    "description": "Etiqueta de la sección de apariencia en Ajustes (se muestra en mayúsculas)."
+  },
+  "settingsThemeGroup": "Tema de la app",
+  "@settingsThemeGroup": {
+    "description": "Nombre leído por el lector de pantalla del selector Sistema / Claro / Oscuro."
+  },
+  "settingsThemeSystem": "Sistema",
+  "@settingsThemeSystem": {
+    "description": "Opción de apariencia: sigue el modo claro u oscuro del móvil."
+  },
+  "settingsThemeLight": "Claro",
+  "@settingsThemeLight": {
+    "description": "Opción de apariencia: siempre claro."
+  },
+  "settingsThemeDark": "Oscuro",
+  "@settingsThemeDark": {
+    "description": "Opción de apariencia: siempre oscuro."
+  },
+  "settingsDataSection": "Tus datos",
+  "@settingsDataSection": {
+    "description": "Encabezado de la sección de Ajustes para exportar e importar el progreso."
+  },
+  "settingsExportTitle": "Exportar progreso",
+  "@settingsExportTitle": {
+    "description": "Título de la fila que guarda el progreso en un archivo."
+  },
+  "settingsExportSubtitle": "Guarda tus respuestas, fallos y simulacros en un archivo para cambiar de móvil. Tú eliges dónde.",
+  "@settingsExportSubtitle": {
+    "description": "Subtítulo de la fila de exportar."
+  },
+  "settingsImportTitle": "Importar progreso",
+  "@settingsImportTitle": {
+    "description": "Título de la fila que recupera el progreso de un archivo."
+  },
+  "settingsImportSubtitle": "Recupera un archivo exportado antes. Reemplaza el progreso de este móvil.",
+  "@settingsImportSubtitle": {
+    "description": "Subtítulo de la fila de importar."
+  },
+  "settingsExportDone": "Progreso guardado.",
+  "@settingsExportDone": {
+    "description": "Aviso cuando el archivo de progreso se ha guardado."
+  },
+  "settingsExportTooLarge": "Tu progreso ocupa más de 10 MB y no se puede exportar. No se ha guardado nada.",
+  "@settingsExportTooLarge": {
+    "description": "Error al exportar: el archivo superaría el tamaño máximo que la app sabe importar."
+  },
+  "settingsTransferWorking": "Procesando el archivo…",
+  "@settingsTransferWorking": {
+    "description": "Texto (lector de pantalla) del indicador de progreso mientras se prepara o se lee un archivo de progreso."
+  },
+  "settingsExportFailed": "No se ha podido guardar el archivo.",
+  "@settingsExportFailed": {
+    "description": "Aviso cuando falla el guardado del archivo de progreso."
+  },
+  "settingsImportConfirmTitle": "¿Reemplazar tu progreso?",
+  "@settingsImportConfirmTitle": {
+    "description": "Título del diálogo de confirmación de la importación."
+  },
+  "settingsImportConfirmBody": "Reemplaza tu progreso actual por el del archivo. No se puede deshacer. El archivo trae:",
+  "@settingsImportConfirmBody": {
+    "description": "Texto del diálogo de confirmación antes de la lista de lo que trae el archivo."
+  },
+  "settingsImportSummaryAnswers": "{count, plural, =1{1 respuesta} other{{count} respuestas}}",
+  "@settingsImportSummaryAnswers": {
+    "description": "Respuestas que trae el archivo de progreso.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsImportSummaryWrong": "{count, plural, =0{ninguna fallada} =1{1 fallada} other{{count} falladas}}",
+  "@settingsImportSummaryWrong": {
+    "description": "Cuántas de las respuestas del archivo eran fallos; va detrás de «de ellas».",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsImportSummaryAnswersWrong": "{answers}, de ellas {wrong}",
+  "@settingsImportSummaryAnswersWrong": {
+    "description": "Une el número de respuestas y el de falladas en una línea (p. ej. «120 respuestas, de ellas 30 falladas»).",
+    "placeholders": {
+      "answers": {
+        "type": "String"
+      },
+      "wrong": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsImportSummaryMocks": "{count, plural, =0{Ningún simulacro} =1{1 simulacro} other{{count} simulacros}}",
+  "@settingsImportSummaryMocks": {
+    "description": "Simulacros que trae el archivo de progreso.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsImportSummaryReview": "{count, plural, =0{Ninguna pregunta en el repaso diario} =1{1 pregunta en el repaso diario} other{{count} preguntas en el repaso diario}}",
+  "@settingsImportSummaryReview": {
+    "description": "Preguntas con repaso espaciado que trae el archivo.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsImportSummaryDate": "Exportado el {date}",
+  "@settingsImportSummaryDate": {
+    "description": "Fecha en que se exportó el archivo, con el formato de fechas de la app (por ejemplo, 20 oct 2026).",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsImportDiscarded": "{count, plural, =1{Se ignorará 1 dato que no se puede usar (de una pregunta que ya no existe o con una fecha imposible).} other{Se ignorarán {count} datos que no se pueden usar (de preguntas que ya no existen o con una fecha imposible).}}",
+  "@settingsImportDiscarded": {
+    "description": "Aviso de lo que se descarta porque su pregunta no está en el banco o su fecha es imposible.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsImportReplace": "Reemplazar",
+  "@settingsImportReplace": {
+    "description": "Botón que confirma la importación."
+  },
+  "settingsImportDone": "Progreso importado.",
+  "@settingsImportDone": {
+    "description": "Aviso cuando la importación ha terminado."
+  },
+  "settingsImportErrorTitle": "No se puede importar",
+  "@settingsImportErrorTitle": {
+    "description": "Título del diálogo de error de importación."
+  },
+  "settingsImportErrorTooLarge": "El archivo es demasiado grande para ser un progreso de Ley al Blanco (máximo 10 MB). No se ha cambiado nada.",
+  "@settingsImportErrorTooLarge": {
+    "description": "Error: el archivo supera el tamaño máximo."
+  },
+  "settingsImportErrorNotJson": "El archivo está dañado o no es un archivo de progreso. No se ha cambiado nada.",
+  "@settingsImportErrorNotJson": {
+    "description": "Error: el archivo no se puede leer como JSON."
+  },
+  "settingsImportErrorWrongFormat": "Este archivo no es un progreso exportado por Ley al Blanco. No se ha cambiado nada.",
+  "@settingsImportErrorWrongFormat": {
+    "description": "Error: el JSON no es un archivo de progreso de la app."
+  },
+  "settingsImportErrorNewerVersion": "Este archivo es de una versión más nueva de Ley al Blanco. Actualiza la app e inténtalo de nuevo. No se ha cambiado nada.",
+  "@settingsImportErrorNewerVersion": {
+    "description": "Error: el archivo es de una versión posterior del formato."
+  },
+  "settingsImportErrorWrongEdition": "Este archivo es de otra edición del banco de preguntas y sus respuestas no coincidirían con las de esta app. No se ha cambiado nada.",
+  "@settingsImportErrorWrongEdition": {
+    "description": "Error: el archivo se hizo con otra edición del banco de preguntas."
+  },
+  "settingsImportErrorInvalid": "El archivo tiene datos que no son válidos. No se ha cambiado nada y tu progreso sigue igual.",
+  "@settingsImportErrorInvalid": {
+    "description": "Error: algún campo del archivo tiene un tipo o un valor incorrecto."
+  },
+  "settingsImportErrorFailed": "No se ha podido importar el archivo. Tu progreso sigue igual.",
+  "@settingsImportErrorFailed": {
+    "description": "Error: falló la lectura del archivo o la escritura en la base de datos."
+  },
+  "settingsImportErrorOk": "Entendido",
+  "@settingsImportErrorOk": {
+    "description": "Botón que cierra el diálogo de error."
+  },
+  "settingsBankSection": "Banco de preguntas",
+  "@settingsBankSection": {
+    "description": "Etiqueta de la sección con la fuente del banco en Ajustes (se muestra en mayúsculas)."
+  },
+  "settingsBankEdition": "Edición",
+  "@settingsBankEdition": {
+    "description": "Fila: edición del cuestionario incluida en la app."
+  },
+  "settingsBankEditionValue": "Cuestionario {edition}",
+  "@settingsBankEditionValue": {
+    "description": "Valor de la fila Edición, p. ej. «Cuestionario GC nov-2020».",
+    "placeholders": {
+      "edition": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsBankQuestions": "Preguntas",
+  "@settingsBankQuestions": {
+    "description": "Fila: número de preguntas del banco."
+  },
+  "settingsBankRetrieved": "Consultado",
+  "@settingsBankRetrieved": {
+    "description": "Fila: fecha en que se descargó el cuestionario de la fuente."
+  },
+  "settingsBankSource": "Ver la fuente original",
+  "@settingsBankSource": {
+    "description": "Enlace a la página de la Guardia Civil donde se publica el cuestionario."
+  },
+  "settingsHelpSection": "Ayuda",
+  "@settingsHelpSection": {
+    "description": "Etiqueta de la sección de ayuda en Ajustes (se muestra en mayúsculas)."
+  },
+  "settingsSupportTitle": "Escribir a soporte",
+  "@settingsSupportTitle": {
+    "description": "Fila que abre el correo hacia soporte."
+  },
+  "settingsSupportSubtitle": "Respondemos en menos de 48 h",
+  "@settingsSupportSubtitle": {
+    "description": "Promesa de respuesta de soporte (spec: menos de 48 h)."
+  },
+  "settingsSupportMailSubject": "Ley al Blanco {version}",
+  "@settingsSupportMailSubject": {
+    "description": "Asunto del correo a soporte.",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSupportMailBody": "\n\n---\nApp: Ley al Blanco {version}\nSistema: {platform}",
+  "@settingsSupportMailBody": {
+    "description": "Cuerpo precargado del correo a soporte: solo versión de la app y plataforma, nunca datos personales ni del progreso.",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  },
+  "explanationReport": "¿Ves un error? Avísanos",
+  "@explanationReport": {
+    "description": "Acción discreta bajo la explicación de una pregunta: abre el correo a soporte para avisar de un posible error. Solo aparece si la compilación tiene un correo de soporte válido."
+  },
+  "explanationReportMailSubject": "Error en la pregunta {id} · Ley al Blanco {version}",
+  "@explanationReportMailSubject": {
+    "description": "Asunto del correo de aviso de error en una pregunta.",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "explanationReportMailBody": "Pregunta: {id}\nEdición: {edition}\nTema: {tema}\nEnunciado: {stem}\nRespuesta oficial: {letter}\nExplicación actual: {explanation}\nArtículo: {article}\nApp: Ley al Blanco {version}\nSistema: {platform}\n\nCuéntanos qué está mal:\n",
+  "@explanationReportMailBody": {
+    "description": "Cuerpo precargado del aviso de error: datos de la pregunta (id, edición, tema, enunciado recortado, letra oficial, explicación y artículo actuales) y versión y plataforma de la app; nunca datos personales ni del progreso. Termina con la línea donde el usuario cuenta qué está mal.",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "edition": {
+        "type": "String"
+      },
+      "tema": {
+        "type": "int"
+      },
+      "stem": {
+        "type": "String"
+      },
+      "letter": {
+        "type": "String"
+      },
+      "explanation": {
+        "type": "String"
+      },
+      "article": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsPrivacyPolicy": "Política de privacidad",
+  "@settingsPrivacyPolicy": {
+    "description": "Enlace a la política de privacidad publicada."
+  },
+  "settingsOpenFailed": "No se ha podido abrir el enlace.",
+  "@settingsOpenFailed": {
+    "description": "Aviso cuando el sistema no puede abrir un enlace o el correo."
+  },
+  "settingsLegal": "App independiente y no oficial. Preguntas basadas en el cuestionario publicado por la Dirección General de la Guardia Civil (consultado el {date}). Las explicaciones son de redacción propia y no constituyen asesoramiento jurídico.",
+  "@settingsLegal": {
+    "description": "Aviso legal fijo del pie de Ajustes (spec §3.2).",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsVersion": "Versión {version}",
+  "@settingsVersion": {
+    "description": "Versión de la app en el pie de Ajustes.",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "homeTheoryTitle": "Teoría",
+  "@homeTheoryTitle": {
+    "description": "Título de la tesela de Inicio que abre los resúmenes de teoría."
+  },
+  "homeTheorySubtitle": "Resúmenes y prueba práctica",
+  "@homeTheorySubtitle": {
+    "description": "Subtítulo de la tesela Teoría de Inicio."
+  },
+  "theoryTitle": "Teoría",
+  "@theoryTitle": {
+    "description": "Título de la barra superior de la lista de teoría."
+  },
+  "theoryIntro": "Repasa lo que entra en cada tema antes de practicar, o después de fallar. No sustituye al Reglamento: lo ordena y cita el artículo de cada dato.",
+  "@theoryIntro": {
+    "description": "Texto de introducción de la lista de teoría."
+  },
+  "theoryPracticaTitle": "La prueba práctica",
+  "@theoryPracticaTitle": {
+    "description": "Título de la tarjeta destacada (y del documento) de la prueba práctica de tiro."
+  },
+  "theoryTemasTitle": "Resúmenes por tema",
+  "@theoryTemasTitle": {
+    "description": "Encabezado de la tarjeta con los siete resúmenes de tema."
+  },
+  "theoryRead": "{minutes} min de lectura",
+  "@theoryRead": {
+    "description": "Tiempo de lectura del resumen de un tema.",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "theoryTemaOverline": "Tema {n} · Teoría",
+  "@theoryTemaOverline": {
+    "description": "Etiqueta sobre el título del resumen de un tema.",
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "theoryPracticaOverline": "Teoría · Prueba práctica",
+  "@theoryPracticaOverline": {
+    "description": "Etiqueta sobre el título de la prueba práctica."
+  },
+  "theoryPracticeThisTema": "Practicar este tema",
+  "@theoryPracticeThisTema": {
+    "description": "Botón inferior del resumen de un tema: abre la práctica de ese tema."
+  },
+  "theoryExtrasTitle": "Para completar",
+  "@theoryExtrasTitle": {
+    "description": "Encabezado de la tarjeta con los documentos gratuitos que no son de un tema (AEM y glosario) en la lista de teoría."
+  },
+  "theoryAemOverline": "Teoría · Menores (AEM)",
+  "@theoryAemOverline": {
+    "description": "Etiqueta sobre el título del documento de la autorización especial para menores."
+  },
+  "theoryGlosarioOverline": "Teoría · Glosario",
+  "@theoryGlosarioOverline": {
+    "description": "Etiqueta sobre el título del glosario."
+  },
+  "theoryGlossarySearchHint": "Buscar un término",
+  "@theoryGlossarySearchHint": {
+    "description": "Texto de ayuda del campo de búsqueda del glosario."
+  },
+  "theoryGlossarySearchClear": "Borrar la búsqueda",
+  "@theoryGlossarySearchClear": {
+    "description": "Etiqueta del botón que borra el texto del campo de búsqueda del glosario."
+  },
+  "theoryGlossaryResults": "{count, plural, =1{1 término} other{{count} términos}}",
+  "@theoryGlossaryResults": {
+    "description": "Número de términos del glosario que coinciden con la búsqueda; se anuncia a los lectores de pantalla.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "theoryGlossaryNoResultsTitle": "Ningún término coincide",
+  "@theoryGlossaryNoResultsTitle": {
+    "description": "Título cuando la búsqueda del glosario no encuentra nada."
+  },
+  "theoryGlossaryNoResultsMessage": "Prueba con otra palabra o con menos letras.",
+  "@theoryGlossaryNoResultsMessage": {
+    "description": "Texto cuando la búsqueda del glosario no encuentra nada."
+  },
+  "theoryKeyTitle": "Clave para el examen",
+  "@theoryKeyTitle": {
+    "description": "Título del recuadro de lo que más aparece en el examen."
+  },
+  "theorySectionExpandHint": "Toca para desplegar",
+  "@theorySectionExpandHint": {
+    "description": "Pista de lector de pantalla de una sección plegada."
+  },
+  "theorySectionCollapseHint": "Toca para plegar",
+  "@theorySectionCollapseHint": {
+    "description": "Pista de lector de pantalla de una sección desplegada."
+  },
+  "theoryTableSemantics": "Tabla de {rows} filas y {columns} columnas",
+  "@theoryTableSemantics": {
+    "description": "Descripción de una tabla para lector de pantalla.",
+    "placeholders": {
+      "rows": {
+        "type": "int"
+      },
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "theoryTableCell": "{header}: {value}",
+  "@theoryTableCell": {
+    "description": "Una celda de tabla leída con el nombre de su columna.",
+    "placeholders": {
+      "header": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "theoryDiagramGaleria": "Esquema de la galería de tiro: el puesto de tiro está detrás de la línea de tiro y la diana está a 25 metros; la zona entre la línea y la diana es la zona segura.",
+  "@theoryDiagramGaleria": {
+    "description": "Descripción para lector de pantalla del esquema de la galería de tiro."
+  },
+  "theoryDiagramZonaSegura": "Esquema del sector de tiro: desde el puesto, el cañón apunta siempre hacia la dirección segura, dentro del sector de tiro.",
+  "@theoryDiagramZonaSegura": {
+    "description": "Descripción para lector de pantalla del esquema del sector de tiro."
+  },
+  "theoryDiagramSecuencia": "Secuencia de {count} pasos",
+  "@theoryDiagramSecuencia": {
+    "description": "Descripción de una secuencia de pasos numerados para lector de pantalla.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "theoryDiagramStep": "Paso {n}: {text}",
+  "@theoryDiagramStep": {
+    "description": "Un paso de una secuencia leído con su número.",
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "theoryDiagramPuesto": "Puesto",
+  "@theoryDiagramPuesto": {
+    "description": "Etiqueta del puesto de tiro en el esquema de la galería."
+  },
+  "theoryDiagramFiringLine": "Línea de tiro",
+  "@theoryDiagramFiringLine": {
+    "description": "Etiqueta de la línea de tiro en el esquema de la galería."
+  },
+  "theoryDiagramTarget": "Diana",
+  "@theoryDiagramTarget": {
+    "description": "Etiqueta de la diana en el esquema de la galería."
+  },
+  "theoryDiagramDistance": "25 m",
+  "@theoryDiagramDistance": {
+    "description": "Cota de la distancia entre la línea de tiro y la diana."
+  },
+  "theoryDiagramSafeZone": "Zona segura",
+  "@theoryDiagramSafeZone": {
+    "description": "Etiqueta de la zona segura en los esquemas."
+  },
+  "theoryDiagramSector": "Sector de tiro",
+  "@theoryDiagramSector": {
+    "description": "Etiqueta del sector de tiro en el esquema."
+  },
+  "theoryDiagramSafeDirection": "Dirección segura",
+  "@theoryDiagramSafeDirection": {
+    "description": "Etiqueta de la dirección segura del cañón en el esquema."
+  },
+  "theoryUnavailableTitle": "La teoría no está disponible",
+  "@theoryUnavailableTitle": {
+    "description": "Título cuando los resúmenes de teoría no se han podido cargar."
+  },
+  "theoryUnavailableMessage": "Esta versión de la app no incluye los resúmenes. Actualiza la app para verlos.",
+  "@theoryUnavailableMessage": {
+    "description": "Mensaje cuando los resúmenes de teoría no se han podido cargar."
+  },
+  "mockFlagAction": "Marcar como dudosa",
+  "@mockFlagAction": {
+    "description": "Simulacro: botón que marca la pregunta actual como dudosa para revisarla antes de entregar."
+  },
+  "mockFlagActive": "Marcada como dudosa",
+  "@mockFlagActive": {
+    "description": "Simulacro: el mismo botón con la pregunta ya marcada; al tocarlo se quita la marca."
+  },
+  "mockFlagCellAnswered": "Pregunta {number}, respondida, dudosa",
+  "@mockFlagCellAnswered": {
+    "description": "Descripción accesible de una celda del navegador con respuesta y marcada como dudosa.",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "mockFlagCellBlank": "Pregunta {number}, sin responder, dudosa",
+  "@mockFlagCellBlank": {
+    "description": "Descripción accesible de una celda del navegador sin respuesta y marcada como dudosa.",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "mockFlagLegendAnswered": "Respondida",
+  "@mockFlagLegendAnswered": {
+    "description": "Leyenda del navegador de preguntas: pregunta con respuesta."
+  },
+  "mockFlagLegendBlank": "Sin responder",
+  "@mockFlagLegendBlank": {
+    "description": "Leyenda del navegador de preguntas: pregunta sin respuesta."
+  },
+  "mockFlagLegendDoubtful": "Dudosa",
+  "@mockFlagLegendDoubtful": {
+    "description": "Leyenda del navegador de preguntas: pregunta marcada como dudosa."
+  },
+  "mockFlagSummary": "{doubtful, plural, =1{1 dudosa} other{{doubtful} dudosas}} · {blank, plural, =1{1 sin responder} other{{blank} sin responder}}",
+  "@mockFlagSummary": {
+    "description": "Resumen sobre el navegador de preguntas: cuántas dudosas y cuántas sin responder.",
+    "placeholders": {
+      "doubtful": {
+        "type": "int"
+      },
+      "blank": {
+        "type": "int"
+      }
+    }
+  },
+  "mockFlagSubmitBoth": "Tienes {doubtful, plural, =1{1 dudosa} other{{doubtful} dudosas}} y {blank, plural, =1{1 sin responder} other{{blank} sin responder}}. Las preguntas sin responder contarán como fallo.",
+  "@mockFlagSubmitBoth": {
+    "description": "Diálogo de entrega con preguntas dudosas y sin responder a la vez.",
+    "placeholders": {
+      "doubtful": {
+        "type": "int"
+      },
+      "blank": {
+        "type": "int"
+      }
+    }
+  },
+  "mockFlagSubmitDoubtful": "{count, plural, =1{Tienes 1 pregunta dudosa. Puedes revisarla antes de entregar.} other{Tienes {count} preguntas dudosas. Puedes revisarlas antes de entregar.}}",
+  "@mockFlagSubmitDoubtful": {
+    "description": "Diálogo de entrega con preguntas dudosas y todas respondidas.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchTooltip": "Buscar en las preguntas",
+  "@searchTooltip": {
+    "description": "Icono de lupa de las cabeceras de Teoría y Fallos que abre el buscador."
+  },
+  "searchTitle": "Buscar preguntas",
+  "@searchTitle": {
+    "description": "Título de la pantalla del buscador del banco de preguntas."
+  },
+  "searchHint": "Buscar en enunciados y opciones",
+  "@searchHint": {
+    "description": "Texto de ayuda del campo de búsqueda del banco de preguntas."
+  },
+  "searchClear": "Borrar la búsqueda",
+  "@searchClear": {
+    "description": "Botón para vaciar el campo de búsqueda del banco de preguntas."
+  },
+  "searchPromptTitle": "Busca en el banco de preguntas",
+  "@searchPromptTitle": {
+    "description": "Estado inicial del buscador, antes de escribir."
+  },
+  "searchPromptMessage": "Escribe dos letras o más, o varias palabras del enunciado o de las opciones. No importan las tildes ni las mayúsculas.",
+  "@searchPromptMessage": {
+    "description": "Explicación del estado inicial del buscador."
+  },
+  "searchNoResultsTitle": "Sin resultados",
+  "@searchNoResultsTitle": {
+    "description": "Título cuando la búsqueda en el banco de preguntas no encuentra nada."
+  },
+  "searchNoResultsMessage": "Prueba con otras palabras o con menos palabras.",
+  "@searchNoResultsMessage": {
+    "description": "Mensaje cuando la búsqueda no encuentra nada."
+  },
+  "searchResultsCount": "{count, plural, =1{1 resultado} other{{count} resultados}}",
+  "@searchResultsCount": {
+    "description": "Número de preguntas encontradas por el buscador.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchResultsTruncated": "Se muestran las {shown} primeras. Añade palabras para afinar la búsqueda.",
+  "@searchResultsTruncated": {
+    "description": "Aviso cuando hay más resultados de los que se listan.",
+    "placeholders": {
+      "shown": {
+        "type": "int"
+      }
+    }
+  },
+  "searchResultSemantics": "{tema}. {stem}",
+  "@searchResultSemantics": {
+    "description": "Descripción accesible de una fila de resultado del buscador (tema y enunciado).",
+    "placeholders": {
+      "tema": {
+        "type": "String"
+      },
+      "stem": {
+        "type": "String"
+      }
+    }
+  },
+  "practiceFiguresTitle": "Cifras y plazos",
+  "@practiceFiguresTitle": {
+    "description": "Título de la pantalla de práctica del modo Cifras y plazos (también el título de su acceso en Inicio)."
+  },
+  "practiceDailyQuestionTitle": "Pregunta del día",
+  "@practiceDailyQuestionTitle": {
+    "description": "Título de la pantalla de práctica cuando se responde la pregunta del día."
+  },
+  "figuresEmptyTitle": "No hay preguntas de cifras y plazos",
+  "@figuresEmptyTitle": {
+    "description": "Título cuando se abre el modo Cifras y plazos sin ninguna pregunta disponible en el banco."
+  },
+  "figuresEmptyMessage": "Este banco no contiene preguntas de cifras y plazos.",
+  "@figuresEmptyMessage": {
+    "description": "Mensaje cuando el modo Cifras y plazos no tiene preguntas disponibles."
+  },
+  "dailyEmptyTitle": "Hoy no hay pregunta del día",
+  "@dailyEmptyTitle": {
+    "description": "Título cuando no se puede mostrar la pregunta del día."
+  },
+  "dailyEmptyMessage": "Vuelve mañana, o practica un tema.",
+  "@dailyEmptyMessage": {
+    "description": "Mensaje cuando no se puede mostrar la pregunta del día."
+  },
+  "homeFiguresTitle": "Cifras y plazos",
+  "@homeFiguresTitle": {
+    "description": "Título de la tesela de Inicio que abre el modo Cifras y plazos."
+  },
+  "homeFiguresSubtitle": "{count} preguntas de plazos, edades e importes",
+  "@homeFiguresSubtitle": {
+    "description": "Subtítulo de la tesela Cifras y plazos de Inicio: cuántas preguntas tiene.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeFiguresCardsTitle": "Tarjetas de cifras",
+  "@homeFiguresCardsTitle": {
+    "description": "Título de las tarjetas de repaso de cifras y de su acceso en Inicio."
+  },
+  "homeFiguresCardsSubtitle": "{count} tarjetas: piensa la respuesta y dale la vuelta",
+  "@homeFiguresCardsSubtitle": {
+    "description": "Subtítulo de las tarjetas de cifras en Inicio.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "figuresCardsReveal": "Ver respuesta",
+  "@figuresCardsReveal": {
+    "description": "Botón que revela el reverso de una tarjeta de cifras."
+  },
+  "figuresCardsKnown": "La sabía",
+  "@figuresCardsKnown": {
+    "description": "Botón que retira del mazo la tarjeta de cifras actual."
+  },
+  "figuresCardsAgain": "Repasar otra vez",
+  "@figuresCardsAgain": {
+    "description": "Botón que envía al final del mazo la tarjeta de cifras actual."
+  },
+  "figuresCardsSummary": "Sabías {known} de {total} a la primera",
+  "@figuresCardsSummary": {
+    "description": "Resumen de la ronda de tarjetas de cifras: preguntas conocidas en su primera aparición.",
+    "placeholders": {
+      "known": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "figuresCardsRestart": "Otra vez con las que repasé",
+  "@figuresCardsRestart": {
+    "description": "Botón del resumen que empieza una ronda solo con las tarjetas repetidas."
+  },
+  "figuresCardsBack": "Volver",
+  "@figuresCardsBack": {
+    "description": "Botón que sale del resumen de tarjetas de cifras."
+  },
+  "dailyTitle": "Pregunta del día",
+  "@dailyTitle": {
+    "description": "Etiqueta de la tarjeta de la pregunta del día en Inicio."
+  },
+  "dailyStreak": "{count, plural, =1{Racha de 1 día} other{Racha de {count} días}}",
+  "@dailyStreak": {
+    "description": "Días seguidos respondiendo la pregunta del día (insignia de la tarjeta).",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dailyAnswer": "Responder",
+  "@dailyAnswer": {
+    "description": "Botón de la tarjeta de la pregunta del día que abre la pregunta."
+  },
+  "dailyDone": "Respondida hoy",
+  "@dailyDone": {
+    "description": "Estado de la tarjeta de la pregunta del día cuando ya se ha respondido."
+  },
+  "dailyDoneHint": "Vuelve mañana para seguir con tu racha.",
+  "@dailyDoneHint": {
+    "description": "Texto bajo «Respondida hoy» en la tarjeta de la pregunta del día."
+  },
+  "settingsOpenSourceLicenses": "Licencias de código abierto",
+  "@settingsOpenSourceLicenses": {
+    "description": "Abre las licencias de las dependencias de la app."
+  },
+  "theoryPracticaSubtitle": "Cómo es, qué se valora y qué te elimina",
+  "@theoryPracticaSubtitle": {
+    "description": "Subtítulo de la lectura sobre la prueba práctica."
+  },
+  "theoryGlossarySubtitle": "{count, plural, =1{1 término explicado} other{{count} términos explicados}}",
+  "@theoryGlossarySubtitle": {
+    "description": "Número de términos explicados del glosario.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}

@@ -1,0 +1,663 @@
+{
+ "norma": "LO 1/1992, de 21 de febrero, sobre Protección de la Seguridad Ciudadana (DEROGADA)",
+ "titulo_oficial": "Ley Orgánica 1/1992, de 21 de febrero, sobre Protección de la Seguridad Ciudadana.",
+ "id": "BOE-A-1992-4252",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252",
+ "api": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1992-4252/texto",
+ "consolidado_hasta": "2015-03-31",
+ "consolidado_hasta_nota": "fecha 'ultima actualizacion publicada' que muestra la pagina de BOE (act.php)",
+ "ultima_actualizacion_boe": "20251217T193322Z",
+ "ultima_actualizacion_boe_nota": "fecha_actualizacion de la API de datos abiertos (marca de consolidacion)",
+ "modificadores": {
+  "BOE-A-1993-29248": null,
+  "BOE-A-1997-17574": null,
+  "BOE-A-1999-8931": null,
+  "BOE-A-2001-20475": "Resolución de 22 de octubre de 2001, de la Subsecretaría, por la que se da publicidad a las equivalencias pesetas-euros de las cuantías de las sanciones, precios comunicados, indemnizaciones, ayudas y cánones del Ministerio del Interior.",
+  "BOE-A-2001-21533": "Resolución de 22 de octubre de 2001, de la Subsecretaría, por la que se redenominan a euros las sanciones pecuniarias que compete imponer a Delegados y Subdelegados del Gobierno y los precios privados del Ministerio y del Instituto Nacional de Administración Pública.",
+  "BOE-A-2006-20263": null,
+  "BOE-A-2013-6732": null
+ },
+ "derogada": true,
+ "derogada_nota": "derogada por LO 4/2015 (disposición derogatoria única), con efectos de 2015-07-01",
+ "retrieved": "2026-10-19",
+ "sha256_texto_xml": "29137b1440f7e2ed4aa0391cd7a33b91d5365b472b3c85cbb77c600988bd1431",
+ "articles": [
+  {
+   "ref": "preámbulo",
+   "title": "Preámbulo",
+   "text": "JUAN CARLOS I\nREY DE ESPAÑA\nA todos los que la presente vieren y entendieren,\nSabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente Ley Orgánica:\nEXPOSICION DE MOTIVOS\nLa protección de la seguridad ciudadana y el ejercicio de las libertades públicas constituyen un binomio inseparable, y ambos conceptos son requisitos básicos de la convivencia en una sociedad democrática.\nLa Constitución, por otra parte, establece una atribución genérica de competencia al Estado en materia de seguridad pública (artículo 149.1.29) y, específicamente, atribuye a las Fuerzas y Cuerpos de Seguridad, bajo la dependencia del Gobierno, la tarea de proteger el libre ejercicio de los derechos y libertades y de garantizar la seguridad ciudadana (artículo 104.1), afectando en su regulación al ejercicio de algunos derechos fundamentales, como el derecho a la libertad, a la libre circulación por el territorio nacional y a entrar y salir libremente de. España o al derecho de reunión.\nDesde la promulgación de la Constitución, en un proceso ininterrumpido, las Cortes Generales han tratado de mantener un positivo equilibrio entre libertad y seguridad, habilitando a las autoridades correspondientes para el cumplimiento de sus deberes constitucionales en materia de seguridad, mediante la aprobación de Leyes Orgánicas generales como la de 1 de junio de 1981, de los estados de alarma, excepción y sitio; la de 1 de julio de 1985. sobre derechos y libertades de los extranjeros en España, o la de 13 de marzo de 1986, de Fuerzas y Cuerpos de Seguridad. Asimismo, se han aprobado Leyes especiales, como la de 15 de julio de 1983, reguladora del derecho de reunión; la de 21 de enero de 1985, sobre Protección Civil, o la de 25 de julio de 1989, de Bases sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial; incluyéndose, asimismo, medidas de prevención de la violencia en los espectáculos deportivos mediante la Ley 10/1990, de 15 de octubre, del Deporte, que dedica a la materia su Título IX.\nPara completar, sin embargo, las facultades o potestades de las autoridades actualizadas y adecuadas a la Constitución, y con la finalidad de proteger la seguridad ciudadana, se considera necesario establecer el ámbito de responsabilidad de las autoridades administrativas en materias como la fabricación, comercio, tenencia y uso de armas y explosivos; concentraciones públicas en espectáculos; documentación personal de nacionales y extranjeros en España; así como regular ciertas actividades de especial interés y responsabilidad para las Fuerzas y Cuerpos de Seguridad.\nLa consideración de fenómenos colectivos que implican la aparición de amenazas, coacciones o acciones violentas, con graves repercusiones en el funcionamiento de los servicios públicos y en la vida ciudadana determina, a su vez, la necesidad de un tratamiento adecuado a la naturaleza de dichos fenómenos y adaptado a las exigencias constitucionales.\nCon todo ello, viene a completarse, la derogación formal de la Ley de Orden Público, tan emblemática del régimen político anterior y que ha caído prácticamente en desuso, con independencia de que en varios aspectos de su articulado haya sido expresamente derogada.\nEn el Capítulo II de la nueva Ley, se regulan las actividades relacionadas con armas y explosivos, habilitando la intervención del Estado en todo el proceso de producción y venta, así como en la tenencia y uso de los mismos, reconociendo el alcance restrictivo de las autorizaciones administrativas para ello, regulando la prohibición de ciertas armas, municiones y explosivos especialmente peligrosos y considerando como sector con regulación específica en materia de establecimiento la fabricación, comercio o distribución de armas o explosivos.\nSe disponen, asimismo, las finalidades a que tenderán las medidas de policía que deberá dictar el Gobierno en materia de espectáculos públicos y actividades recreativas, dejando a salvo las competencias que, en este punto, tienen reconocidas las Comunidades Autónomas mediante sus correspondientes Estatutos.\nSe establece, también, el derecho y el deber de obtener el Documento Nacional de Identidad a partir de los catorce años, que tendrá por sí solo suficiente valor para acreditar la identidad de los ciudadanos, garantizando en todo caso el respeto al derecho a la intimidad de la persona, sin que los datos que en el mismo figuren puedan ser relativos a raza, religión, opinión, ideología, afiliación política o sindical, o creencias. Se regula la expedición del pasaporte o documento que lo sustituya, y se establece, por otra parte, el deber de identificación de los extranjeros que se hallen en España, sin que puedan ser privados de esta documentación, salvo en los mismos supuestos previstos para el Documento Nacional de Identidad.\nFinalmente, se habilita al Gobierno para llevar a cabo la regulación de ciertas actuaciones de registro documental e información de actividades cada vez de mayor relevancia para la seguridad ciudadana, entre las que se comprende la circulación de embarcaciones de alta velocidad, así como el deber de determinadas entidades o establecimientos, que generen riesgos directos para terceros o sean especialmente vulnerables, de adoptar las medidas de seguridad que fueren precisas.\nEn el Capítulo III se habilita para realizar actuaciones dirigidas al mantenimiento y al restablecimiento de la seguridad ciudadana, particularmente en supuestos de desórdenes colectivos o de inseguridad pública graves. Quedan, así, facultadas las autoridades para el cierre de locales o establecimientos y para la evacuación de inmuebles en situaciones de emergencia o en circunstancias que lo hagan imprescindible, así como para la suspensión de los espectáculos, desalojo de locales y cierre provisional de establecimientos cuando en los mismos tuvieran lugar graves alteraciones del orden. Se prevé la limitación o restricción de la circulación o permanencia en vías o lugares públicos en supuestos de alteración del orden o la seguridad ciudadana. Se posibilita el establecimiento de controles en las vías, lugares o establecimientos públicos, con el fin de descubrir y detener a los partícipes en un hecho delictivo y de aprehender los instrumentos, efectos o pruebas del mismo.\nSe regulan las condiciones en que los agentes de las Fuerzas y Cuerpos de Seguridad, siempre que ello fuese necesario para el ejercicio de las funciones de protección de la seguridad que les corresponden, podrán requerir la identificación de las personas. Si no pudieran identificarse por cualquier medio, podrán ser instadas a acudir a una dependencia policial próxima a los solos efectos de la identificación. No se altera, pues, el régimen vigente del instituto de la detención, que sólo podrá seguir produciéndose cuando se trate de un sospechoso de haber cometido un delito y no por la imposibilidad de identificación, Lo que se prevén son supuestos de resistencia o negativa infundada a la identificación, que tendrían las consecuencias que para tales infracciones derivan del Código Penal vigente.\nSe regulan, asimismo, las condiciones y términos en que, conforme a lo permitido por la Constitución y las leyes, podrá prescindirse del mandamiento judicial para penetrar en domicilios, en lo que se refiere a las tareas de persecución de fenómenos delictivos tan preocupantes para la seguridad de los ciudadanos como son los relacionados con el narcotráfico.\nEl Capítulo IV establece un régimen sancionador que permite el cumplimiento de las finalidades de la Ley y de las correspondientes garantías constitucionales. Tipifica las infracciones contra la seguridad ciudadana, haciendo la graduación entre infracciones muy graves, infracciones graves e infracciones leves; comprendiéndose específicamente entre las infracciones graves el consumo en lugares públicos y la tenencia ilícita de drogas tóxicas o sustancias estupefacientes, las cuales podrán ser sancionadas, además, con la suspensión del permiso de conducir de vehículos de motor hasta tres meses, y con la retirada de permisos o licencias de armas. Atendiendo al fin resocializador y no exclusivamente retributivo de la sanción, se regula en la presente Ley para estos supuestos, la posibilidad de suspensión de las sanciones en los casos en los que el infractor se someta a un tratamiento de deshabituación en un centro o servicio debidamente acreditado. Asimismo, este Capítulo IV determina las sanciones que cabe imponer y las autoridades competentes para ello, estableciendo un procedimiento sancionador con las debidas garantías. Por otra parte, se dispone la obligación del Ministerio Fiscal de remitir testimonio de las sentencias absolutorias o autos de sobreseimiento y archivo, cuando los hechos no sean constitutivos de infracción penal, si pudieran constituir infracción administrativa de las previstas en esta Ley,\nPor último, la presente Ley, en virtud de lo dispuesto en la disposición adicional, en las disposiciones finales primera y segunda, así como en los artículos 2 y concordantes, es claramente respetuosa con el sistema competencial que se desprende de la Constitución, tal como es definido por los artículos 104 y 149.1.29, por la Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad, y por los Estatutos de Autonomías de las Comunidades con competencias en esta materia. Asimismo, las autoridades locales seguirán ejerciendo las facultades que les corresponden, de acuerdo con la Ley Orgánica de Fuerzas y Cuerpos de Seguridad y la legislación de Régimen Local, espectáculos públicos y actividades clasificadas.\nSe estima que así puede facilitarse y orientarse la tarea de proteger un ámbito de seguridad y convivencia en el que sea posible el ejercicio de derechos y libertades, mediante la eliminación de la violencia en las relaciones sociales y la remoción de los obstáculos que se opongan a la plenitud de dichas libertades y derechos, todo lo cual entraña una de las principales razones de ser de las autoridades a que se refiere la presente Ley y de las Fuerzas y Cuerpos de Seguridad a sus órdenes.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#preambulo",
+   "anchor": "preambulo",
+   "contexto": "",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": []
+  },
+  {
+   "ref": "art. 1",
+   "title": "",
+   "text": "1. De conformidad con lo dispuesto en los artículos 149.1.29 y 104 de la Constitución corresponde al Gobierno, a través de las autoridades y de las Fuerzas y Cuerpos de Seguridad a sus órdenes, proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana, crear y mantener las condiciones adecuadas a tal efecto, y remover los obstáculos que lo impidan, sin perjuicio de las facultades y deberes de otros poderes públicos.\n2. Esta competencia comprende el ejercicio de las potestades administrativas previstas en esta Ley, con la finalidad de asegurar la convivencia ciudadana, la erradicación de la violencia y la utilización pacifica de las vías y espacios públicos, así como la de prevenir la comisión de delitos y faltas.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a1",
+   "anchor": "a1",
+   "contexto": "CAPITULO I - Disposiciones Generales",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 1."
+  },
+  {
+   "ref": "art. 2",
+   "title": "",
+   "text": "1. A los efectos de esta Ley, son autoridades competentes en materia de seguridad:\na) El Ministro del Interior.\nb) Los titulares de los órganos superiores y órganos directivos del Ministerio del Interior a los que se atribuya tal carácter, en virtud de disposiciones legales o reglamentarias.\nc) Los Gobernadores Civiles y los Delegados del Gobierno en Ceuta y en Melilla.\nd) Los Delegados del Gobierno en ámbitos territoriales menores que la provincia.\n2. Sin perjuicio de lo dispuesto en el apartado anterior, las autoridades locales seguirán ejerciendo las facultades que les corresponden, de acuerdo con la Ley Orgánica de Fuerzas y Cuerpos de Seguridad y la legislación de Régimen Local, Espectáculos Públicos y Actividades Recreativas, así como de Actividades Molestas, Insalubres, Nocivas y Peligrosas.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a2",
+   "anchor": "a2",
+   "contexto": "CAPITULO I - Disposiciones Generales",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 2."
+  },
+  {
+   "ref": "art. 3",
+   "title": "",
+   "text": "1. Además de las competencias reguladas en otras leyes, corresponden al Ministerio del Interior las competencias en materias de armas y explosivos; espectáculos públicos y actividades recreativas; documentación e identificación personal; y prevención, mantenimiento y restablecimiento de la seguridad ciudadana, reguladas en la presente Ley.\n2. Corresponde, asimismo, al Ministerio del Interior la planificación, coordinación y control generales de la seguridad de las personas, edificios, instalaciones, actividades y objetos de especial interés, proponiendo o disponiendo la adopción de las medidas, o la aprobación de las normas que sean necesarias.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a3",
+   "anchor": "a3",
+   "contexto": "CAPITULO I - Disposiciones Generales",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 3."
+  },
+  {
+   "ref": "art. 4",
+   "title": "",
+   "text": "1. En las materias sujetas a potestades administrativas de policía especial no atribuidas expresamente a órganos dependientes del Ministerio del Interior, éstos sólo podrán intervenir en la medida necesaria para asegurar la consecución de las finalidades previstas en el apartado 2 del artículo 1.\n2. Dichos órganos, a través de sus agentes, deberán prestar el auxilio ejecutivo necesario a cualesquiera otras autoridades públicas que lo requieran para asegurar el cumplimiento de las leyes.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a4",
+   "anchor": "a4",
+   "contexto": "CAPITULO I - Disposiciones Generales",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 4."
+  },
+  {
+   "ref": "art. 5",
+   "title": "",
+   "text": "1. Todas las autoridades y funcionarios públicos en el ámbito de sus competencias deberán colaborar con las autoridades a que se refiere el artículo 2 de la presente Ley y prestarles el auxilio que sea posible y adecuado para la consecución de las finalidades prevenidas en el artículo 1.\n2. También podrán las autoridades competentes a los efectos de esta Ley y los miembros de las Fuerzas y Cuerpos de Seguridad, en caso necesario y en la medida indispensable para el cumplimiento de las funciones que les encomienda la presente Ley, recabar de los particulares su ayuda y colaboración, siempre que no implique riesgo personal para los mismos, y disponer de lo estrictamente preciso para asegurar el cumplimiento de las leyes y el ejercicio de los derechos. Quienes sufran daños o perjuicios por estas causas, serán indemnizados de acuerdo con las leyes.\n3. Todas las autoridades públicas y sus agentes que tuvieren conocimiento de hechos que perturben gravemente la seguridad ciudadana y en consecuencia, el ejercicio de derechos constitucionales, deberán ponerlo en conocimiento de la autoridad judicial o gubernativa.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a5",
+   "anchor": "a5",
+   "contexto": "CAPITULO I - Disposiciones Generales",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 5."
+  },
+  {
+   "ref": "art. 6",
+   "title": "",
+   "text": "1. En el ejercicio de la competencia que le reconoce el artículo 149.1.26 de la Constitución, la Administración del Estado establecerá los requisitos y condiciones de la fabricación y reparación de armas, sus imitaciones y réplicas, y de sus piezas fundamentales; explosivos, cartuchería y artificios pirotécnicos; así como los de su circulación, almacenamiento y comercio, su adquisición y enajenación; su tenencia y utilización. Del mismo modo podrá adoptar las medidas de control necesarias para el cumplimiento de aquellos requisitos y condiciones.\n2. Las autoridades y servicios a los que corresponda ejercer la intervención, podrán efectuar en cualquier momento las inspecciones y comprobaciones que lean necesarias en los diferentes locales de las fábricas, talleres, depósitos, comercios y lugares de utilización de armas y explosivos.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a6",
+   "anchor": "a6",
+   "contexto": "CAPITULO II - Medidas de Acción Preventiva y Vigilancia > Sección Primera. Armas y explosivos",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 6."
+  },
+  {
+   "ref": "art. 7",
+   "title": "",
+   "text": "1. Se faculta al Gobierno para reglamentar las materias y actividades a que se refiere el artículo anterior, en atención a las circunstancias que puedan concurrir en los distintos supuestos:\na) Mediante la sujeción de la apertura y funcionamiento de las fábricas, talleres, depósitos, establecimientos de venta y lugares de utilización y las actividades relacionadas con ellas a requisitos de catalogación o clasificación, autorización, información, inspección, vigilancia y control, así como a requisitos especiales de habilitación para el personal encargado de su manipulación.\nb) Mediante la obligatoriedad de licencias o permisos para la tenencia y uso de armas de fuego cuya expedición tendrá carácter restrictivo, especialmente cuando se trate de armas de defensa personal, en relación con las cuales la concesión de las licencias o permisos se limitará a supuestos de estricta necesidad.\nc) Mediante la prohibición de ciertas armas, municiones y explosivos, especialmente peligrosos, así como el depósito de los mismos.\n2. La fabricación, comercio o distribución de armas y explosivos constituye sector con regulación específica en materia de derecho de establecimiento, en los términos del artículo 20.2 de la Ley de Inversiones Extranjeras en España y en todo caso bajo el control de los Ministerios de Defensa y del Interior.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a7",
+   "anchor": "a7",
+   "contexto": "CAPITULO II - Medidas de Acción Preventiva y Vigilancia > Sección Primera. Armas y explosivos",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 7."
+  },
+  {
+   "ref": "art. 8",
+   "title": "",
+   "text": "1. Todos los espectáculos y actividades recreativas de carácter público quedarán sujetos a las medidas de policía administrativa que dicte el Gobierno, en atención a los fines siguientes:\na) Garantizar la seguridad ciudadana frente a los riesgos que, para las personas o sus bienes, se puedan derivar del comportamiento de quienes organicen un espectáculo o actividad recreativa, participen en ellos o los presencien.\nb) Asegurar la pacífica convivencia cuando pudiera ser perturbada por la celebración del espectáculo o el desarrollo de la actividad.\nc) Limitar las actividades de los locales y establecimientos públicos a las que tuvieren autorizadas, e impedir, en todo caso, el ejercicio en ellos de cualesquiera otras que estuvieren prohibidas.\nd) Fijar las condiciones a las que habrán de ajustarse la organización, venta de localidades y horarios de comienzo y terminación de los espectáculos o actividades recreativas, siempre que sea necesario, para que su desarrollo transcurra con normalidad.\n2. Los espectáculos deportivos quedarán, en todo caso, sujetos a las medidas de prevención de la violencia que se disponen en el Título IX de la Ley 10/1990, de 15 de octubre, del Deporte.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a8",
+   "anchor": "a8",
+   "contexto": "CAPITULO II - Medidas de Acción Preventiva y Vigilancia > Sección Segunda. Espectáculos públicos y actividades recreativas.",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 8."
+  },
+  {
+   "ref": "art. 9",
+   "title": "",
+   "text": "1. Todos los españoles tendrán derecho a que se les expida el Documento Nacional de Identidad que gozará de la protección que a los documentos públicos y oficiales otorgan las leyes y que tendrá, por sí solo, suficiente valor para la acreditación de la identidad de las personas.\n2. El Documento Nacional de Identidad será obligatorio a partir de los catorce años. Dicho documento es intransferible, correspondiendo a su titular la custodia y conservación, sin que pueda ser privado del mismo ni siquiera temporalmente salvo los supuestos en que, conforme a lo previsto por la Ley, haya de ser sustituido por otro documento.\n3. En el Documento Nacional de Identidad figurarán la fotografía y la firma de su titular, así como los datos personales que se determinen reglamentariamente, respetando el derecho a la intimidad de la persona, y sin que, en ningún caso, puedan ser relativos a raza, religión, opinión, Ideología, afiliación política o sindical o creencias.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a9",
+   "anchor": "a9",
+   "contexto": "CAPITULO II - Medidas de Acción Preventiva y Vigilancia > Sección Tercera. Documentación e identificación personal",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 9."
+  },
+  {
+   "ref": "art. 10",
+   "title": "",
+   "text": "1. Los españoles podrán entrar en el territorio nacional, en todo caso, acreditando su nacionalidad. Los que pretendan salir de España habrán de estar provistos de pasaporte o documento que reglamentariamente se establezca en los términos de los Acuerdos internacionales suscritos por España, que tendrán la misma consideración que el Documento Nacional de Identidad.\n2. El pasaporte o documento que lo supla se expedirá a los ciudadanos españoles, salvo que el solicitante haya sido condenado a penas o medidas de seguridad que conlleven la privación o limitación de su libertad de residencia o de movimiento, mientras ni, se hayan extinguido, o cuando haya prohibido su expedición o la salida de España la autoridad judicial respecto al interesado que se halle inculpado, en un proceso penal. A los incluidos en la primera de las excepciones indicadas, se les expedirán, no obstante, los referidos documentos siempre que obtengan autorización del órgano judicial competente.\n3. El pasaporte o documento que lo sustituya se expedirá a quien se encuentre sujeto a patria potestad o tutela si cuenta con autorización de quien la ejerza o, en defecto de ésta, del órgano judicial competente.\n4. El pasaporte o documento que lo supla podrá ser retirado por la misma autoridad a quien corresponda su expedición, si sobrevinieren las circunstancias determinantes de su denegación, como consecuencia de las resoluciones judiciales a que se refiere el apartado 2. En tales casos, y en la medida que el Documento Nacional de Identidad sea documento supletorio del pasaporte, se proveerá a su titular de otro documento a los solos efectos de identificación.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a10",
+   "anchor": "a10",
+   "contexto": "CAPITULO II - Medidas de Acción Preventiva y Vigilancia > Sección Tercera. Documentación e identificación personal",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 10."
+  },
+  {
+   "ref": "art. 11",
+   "title": "",
+   "text": "Los extranjeros que se encuentren en territorio español están obligados a disponer de la documentación que acredite su identidad y el hecho de hallarse legalmente en España, con arreglo a lo dispuesto en las normas vigentes. No podrán ser privados de esta documentación salvo en los mismos supuestos previstos para el Documento Nacional de Identidad.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a11",
+   "anchor": "a11",
+   "contexto": "CAPITULO II - Medidas de Acción Preventiva y Vigilancia > Sección Tercera. Documentación e identificación personal",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 11."
+  },
+  {
+   "ref": "art. 12",
+   "title": "",
+   "text": "1. Las personas naturales o jurídicas que desarrollen actividades relevantes para la seguridad ciudadana, romo las de hospedaje, el comercio o reparación de objetos usados, el alquiler o el desguace de vehículos de motor, o la compraventa de joyas y metales preciosos, deberán llevar a cabo las actuaciones de registro documental e información previstas en la normativa vigente.\n2. Por razones de seguridad podrá someterse a restricciones la navegación de embarcaciones de alta velocidad, debiendo sus titulares realizar las actuaciones de registro documental e información previstas en la normativa vigente.\n3. Del mismo modo el Gobierno podrá acordar la necesidad de registro para la fabricación, almacenamiento y comercio de productos químicos susceptibles de ser utilizados en la elaboración o transformación de drogas tóxicas, estupefacientes, sustancias psicotrópicas y otras gravemente nocivas para la salud.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a12",
+   "anchor": "a12",
+   "contexto": "CAPITULO II - Medidas de Acción Preventiva y Vigilancia > Sección Cuarta. Actividades relevantes para la seguridad ciudadana",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 12."
+  },
+  {
+   "ref": "art. 13",
+   "title": "",
+   "text": "1. El Ministerio del Interior podrá ordenar conforme a lo que se disponga reglamentariamente, la adopción de las medidas de seguridad necesarias en establecimientos e instalaciones industriales, comerciales y de servicios, para prevenir la comisión de los actos delictivos que se puedan cometer contra ellos, cuando generen riesgos directos para terceros o sean especialmente vulnerables.\n2. No obstante, las autoridades competentes podrán eximir de la implantación o el mantenimiento de medidas de seguridad obligatorias a los establecimientos, cuando las circunstancias que concursan en el caso concreto las hicieren innecesarias o improcedentes.\n3. La apertura de los establecimientos que estén obligados a la adopción de medidas de seguridad, estará condicionada a la comprobación, por las autoridades competentes, de la idoneidad y suficiencia de las mismas.\n4. Los titulares de los establecimientos e instalaciones serán responsables de la adopción o instalación de las medidas de seguridad obligatorias, de acuerdo con las normas que respectivamente las regulen así como de su efectivo funcionamiento y de la consecución de la finalidad protectora y preventiva propia de cada medida, sin perjuicio de la responsabilidad en que al respecto puedan incurrir sus empleados.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a13",
+   "anchor": "a13",
+   "contexto": "CAPITULO II - Medidas de Acción Preventiva y Vigilancia > Sección Quinta. Medidas de seguridad en establecimientos e instalaciones",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 13."
+  },
+  {
+   "ref": "art. 14",
+   "title": "",
+   "text": "Las autoridades competentes, de acuerdo con las leyes y reglamentos, podrán dictar las órdenes o prohibiciones y disponer las actuaciones policiales estrictamente necesarias para asegurar la consecución de las finalidades previstas en el artículo 1 de esta Ley.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a14",
+   "anchor": "a14",
+   "contexto": "CAPITULO III - Actuaciones para el mantenimiento y restablecimiento de la seguridad ciudadana",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 14."
+  },
+  {
+   "ref": "art. 15",
+   "title": "",
+   "text": "La autoridad competente podrá acordar, como medidas de seguridad extraordinarias, el cierre o desalojo de locales o establecimientos, la evacuación de inmuebles o el depósito de explosivos, en situaciones de emergencia que las circunstancias del caso hagan imprescindibles y mientras éstas duren.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a15",
+   "anchor": "a15",
+   "contexto": "CAPITULO III - Actuaciones para el mantenimiento y restablecimiento de la seguridad ciudadana",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 15."
+  },
+  {
+   "ref": "art. 16",
+   "title": "",
+   "text": "1. Las autoridades a las que se refiere la presente Ley adoptarán las medidas necesarias para proteger la celebración de reuniones o manifestaciones y de espectáculos públicos, procurando que no se perturbe la seguridad ciudadana. Sin embargo, podrán suspender los espectáculos y disponer el desalojo de los locales y el cierre provisional de los establecimientos públicos mientras no existan otros medios para evitar las alteraciones graves de la seguridad que se estuvieren produciendo.\n2. Dichas autoridades, por medio de las Fuerzas y Cuerpos de Seguridad, podrán disolver, en la forma que menos perjudique, las reuniones en lugares de tránsito público y las manifestaciones, en los supuestos prevenidos en el artículo 5 de la Ley Orgánica 9/1983, de 15 de julio, reguladora del derecho de reunión. También podrán disolver las concentraciones de vehículos en las vías públicas y retirar aquéllos o cualesquiera otra clase de obstáculos cuando impidieran, pusieran en peligro o dificultaran la circulación por dichas vías.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a16",
+   "anchor": "a16",
+   "contexto": "CAPITULO III - Actuaciones para el mantenimiento y restablecimiento de la seguridad ciudadana",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 16."
+  },
+  {
+   "ref": "art. 17",
+   "title": "",
+   "text": "1. Antes de llevar a efecto las medidas a que se refieren los artículos anteriores. las unidades actuantes de las Fuerzas y Cuerpos de Seguridad deberán avisar de tales medidas a las personas afectadas.\n2. En el caso de que se produzcan alteraciones de la seguridad ciudadana con armas o con otros medios de acción violenta, las Fuerzas y Cuerpos de Seguridad podrán disolver la reunión o manifestación o retirar los vehículos y obstáculos, sin necesidad de previo aviso.\n3. En los casos a que se refieren los artículos anteriores, los empleados de empresas privadas de vigilancia y seguridad, si los hubiere, deberán colaborar con las Fuerzas y Cuerpos de Seguridad respecto del interior de los locales o establecimientos en que prestaren servicio.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a17",
+   "anchor": "a17",
+   "contexto": "CAPITULO III - Actuaciones para el mantenimiento y restablecimiento de la seguridad ciudadana",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 17."
+  },
+  {
+   "ref": "art. 18",
+   "title": "",
+   "text": "Los agentes de la autoridad podrán realizar, en todo caso comprobaciones necesarias para impedir que en las vías, lugares y establecimientos públicos se porten o utilicen ilegalmente armas, procediendo a su ocupación. Podrán proceder a la ocupación temporal incluso de las que se lleven con licencia o permiso y de cualesquiera otros medios de agresión, si se estima necesario, con objeto de prevenir la comisión de cualquier delito, o cuando exista peligro para la seguridad de las personas o de las cosas.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a18",
+   "anchor": "a18",
+   "contexto": "CAPITULO III - Actuaciones para el mantenimiento y restablecimiento de la seguridad ciudadana",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 18."
+  },
+  {
+   "ref": "art. 19",
+   "title": "",
+   "text": "1. Los agentes de las Fuerzas y Cuerpos de Seguridad podrán limitar o restringir por el tiempo imprescindible la circulación y permanencia en vías o lugares públicos en supuestos de alteración del orden, la seguridad ciudadana o la pacífica convivencia, cuando fuere necesario para su restablecimiento. Asimismo podrán ocupar preventivamente los efectos o instrumentos susceptibles de ser utilizados para acciones ilegales, dándoles el destino que legalmente proceda.\n2. Para el descubrimiento y detención de los partícipes en un hecho delictivo causante de grave alarma social y para la recogida de los instrumentos, efectos o pruebas del mismo, se podrán establecer controles en las vías, lugares o establecimientos públicos, en la medida indispensable a los fines de este apartado, al objeto de proceder a la identificación de las personas que transiten o se encuentren en ellos, al registro de los vehículos y al control superficial de tos efectos personales con el fin de comprobar que no se portan sustancias o instrumentos prohibidos o peligrosos. El resultado de la diligencia se pondrá de inmediato en conocimiento del Ministerio Fiscal.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a19",
+   "anchor": "a19",
+   "contexto": "CAPITULO III - Actuaciones para el mantenimiento y restablecimiento de la seguridad ciudadana",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 19."
+  },
+  {
+   "ref": "art. 20",
+   "title": "",
+   "text": "1. Los agentes de las Fuerzas y Cuerpos de Seguridad podrán requerir, en el ejercicio de sus funciones de indagación o prevención, la identificación de las personas y realizar las comprobaciones pertinentes en la vía pública o en el lugar donde se hubiere hecho el requerimiento, siempre que el conocimiento de la identidad de las personas requeridas fuere necesario para el ejercicio de las funciones de protección de la seguridad que a los agentes encomiendan la presente Ley y la Ley Orgánica de Fuerzas y Cuerpos de Seguridad.\n2. De no lograrse la identificación por cualquier medio, y cuando resulte necesario a los mismos fines del apartado anterior, los agentes, para impedir la comisión de un delito o falta, o al objeto de sancionar una infracción, podrán requerir a quienes no pudieran ser identificados a que les acompañen a dependencias próximas y que cuenten con medios adecuados para realizar las diligencias de identificación, a estos solos efectos y por el tiempo imprescindible.\n3. En las dependencias a que se hace referencia en el apartado anterior se llevará un Libro-Registro en el que se harán constar las diligencias de identificación realizadas en aquéllas, así como los motivos y duración de las mismas, y que estará en todo momento a disposición de la autoridad judicial competente y del Ministerio Fiscal. No obstante lo anterior, el Ministerio del Interior remitirá periódicamente extracto de las diligencias de identificación al Ministerio Fiscal.\n4. En los casos de resistencia o negativa infundada a identificarse o a realizar voluntariamente las comprobaciones o prácticas de identificación, se estará a lo dispuesto en el Código Penal y en la Ley de Enjuiciamiento Criminal.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a20",
+   "anchor": "a20",
+   "contexto": "CAPITULO III - Actuaciones para el mantenimiento y restablecimiento de la seguridad ciudadana",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 20."
+  },
+  {
+   "ref": "art. 21",
+   "title": "",
+   "text": "1. Los agentes de las Fuerzas y Cuerpos de Seguridad sólo podrán proceder a la entrada y registro en domicilio en los casos permitidos por la Constitución y en los términos que fijen las leyes.\n2. (Anulado)\n3. Será causa legítima suficiente para la entrada en domicilio la necesidad de evitar daños inminentes y graves a las personas y a las cosas, en supuestos de catástrofe, calamidad, ruina inminente u otros semejantes de extrema y urgente necesidad.\nEn tales supuestos, y para la entrada en edificios ocupados por organismos oficiales o entidades públicas, no será preciso el consentimiento de la autoridad o funcionario que los tuviere a su cargo.\n4. Cuando por las causas previstas en el presente artículo las Fuerzas y Cuerpos de Seguridad entrasen en un domicilio, remitirán sin dilación el acta o atestado que redactaren a la autoridad judicial competente.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a21",
+   "anchor": "a21",
+   "contexto": "CAPITULO III - Actuaciones para el mantenimiento y restablecimiento de la seguridad ciudadana",
+   "derogado": false,
+   "notas": [
+    "Se declara la inconstitucionalidad y nulidad del apartado 2 por Sentencia del TC 341/1993, de 18 de novimbre de 1993. Ref. BOE-T-1993-29248"
+   ],
+   "modificaciones": [
+    {
+     "por": "BOE-A-1993-29248",
+     "publicacion": "19931210",
+     "vigencia": "19931210"
+    }
+   ],
+   "encabezado": "Artículo 21."
+  },
+  {
+   "ref": "art. 22",
+   "title": "",
+   "text": "1. Para obtener el cumplimiento de las órdenes dictadas en aplicación de la presente Ley, las autoridades competentes para imponer las sanciones en ella establecidas podrán imponer multas en los términos del artículo 107 de la Ley de Procedimiento Administrativo.\n2. En todo caso, habrá de darse un plazo suficiente para cumplir lo dispuesto, de acuerdo con la naturaleza y fines de la orden, transcurrido el cual se podrá proceder a la imposición de las multas en proporción a la gravedad del incumplimiento. Tales multas no excederán de 25.000 pesetas, si bien se podrá aumentar sucesivamente su importe en el 50 por 100 en caso de reiteración del citado incumplimiento, sin que pueda sobrepasar los límites cuantitativos máximos establecidos para las sanciones.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a22",
+   "anchor": "a22",
+   "contexto": "CAPITULO III - Actuaciones para el mantenimiento y restablecimiento de la seguridad ciudadana",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 22."
+  },
+  {
+   "ref": "art. 23",
+   "title": "",
+   "text": "A los efectos de la presente Ley constituyen infracciones graves:\na) La fabricación, reparación, almacenamiento, comercio, adquisición o enajenación, tenencia o utilización de armas prohibidas o explosivos no catalogados; de armas reglamentarias o explosivos catalogados careciendo de la documentación o autorización requeridos o excediéndose de los límites permitidos, cuando tales conductas no sean constitutivas de infracción penal.\nb) La omisión o insuficiencia en la adopción o eficacia de las medidas o precauciones obligatorias para garantizar la seguridad de las armas o de los explosivos.\nc) La celebración de reuniones en lugares de tránsito público o de manifestaciones, incumpliendo lo preceptuado en los artículos 4.2, 8, 9, 10 y 11 de la Ley Orgánica 9/1983, de 15 de julio, Reguladora del Derecho de Reunión, cuya responsabilidad corresponde a los organizadores o promotores, siempre que tales conductas no sean constitutivas de infracción penal.\nEn el caso de reuniones en lugares de tránsito público y manifestaciones cuya celebración se haya comunicado previamente a la autoridad se considerarán organizadores o promotores las personas físicas o jurídicas que suscriban el correspondiente escrito de comunicación.\nAun no habiendo suscrito o presentado la citada comunicación, también se considerarán organizadores o promotores, a los efectos de esta Ley, a quienes de hecho las presidan, dirijan o ejerzan actos semejantes o a quienes por publicaciones o declaraciones de convocatoria de las reuniones o manifestaciones, por los discursos que se pronuncien y los impresos que se repartan durante las mismas, por los lemas, banderas u otros signos que ostenten o por cualesquiera otros hechos, pueda determinarse razonablemente que son inspiradores de aquéllas.\nd) La negativa a disolver las manifestaciones y reuniones en lugares de tránsito público ordenada por la autoridad competente cuando concurran los supuestos del artículo 5 de la Ley Orgánica 9/1983.\ne) La apertura de establecimientos y la celebración de espectáculos públicos o actividades recreativas careciendo de autorización o excediendo de los límites de la misma.\nf) La admisión en locales o establecimientos de espectadores o usuarios en número superior al que corresponda.\ng) La celebración de espectáculos públicos o actividades recreativas quebrantando la prohibición o suspensión ordenada por la autoridad correspondiente.\nh) La provocación de reacciones en el público que alteren o puedan alterar la seguridad ciudadana.\ni) La tolerancia del consumo ilegal o el tráfico de drogas tóxicas, estupefacientes o sustancias psicotrópicas en locales o establecimientos públicos o la falta de diligencia en orden a impedirlos por parte de los propietarios, administradores o encargados de los mismos.\nj) El incumplimiento de las restricciones a la navegación reglamentariamente impuestas a las embarcaciones de alta velocidad.\nk) La alegación de datos o circunstancias falsos para la obtención de las documentaciones previstas por la presente Ley, siempre que no constituya infracción penal.\nl) La carencia de los registros previstos en el capítulo II de la presente Ley para las actividades con trascendencia para la seguridad ciudadana.\nm) La negativa de acceso o la obstaculización del ejercicio de las inspecciones o controles reglamentarios, establecidos conforme a lo dispuesto en la presente Ley, en fábricas, locales, establecimientos, embarcaciones y aeronaves.\nn) Originar desórdenes graves en las vías, espacios o establecimientos públicos o causar daños graves a los bienes de uso público, siempre que no constituya infracción penal.\nñ) La apertura de un establecimiento, el inicio de sus actividades o el desarrollo de su funcionamiento sin autorización o sin adoptar total o parcialmente las medidas de seguridad obligatorias o cuando aquéllas no funcionen o lo hagan defectuosamente, o antes de que la autoridad competente haya expresado su conformidad con las mismas.\no) La comisión de una tercera infracción leve dentro del plazo de un año, que se sancionará como infracción grave.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a23",
+   "anchor": "a23",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Primera. Infracciones.",
+   "derogado": false,
+   "notas": [
+    "Se derogan las letras p) y q) por la disposición derogatoria única.2 de la Ley Orgánica 3/2013, de 20 de junio. Ref. BOE-A-2013-6732.\nSe añaden las letras p) y q) por la diposición final 3.1 y 2 de la Ley Orgánica 7/2006, de 21 de noviembre. Ref. BOE-A-2006-20263\nSe modifica la letra c), se reordenan las letras d) a ñ) como e) a o) y se añade la letra d) por la disposición adicional 4 de la Ley Orgánica 4/1997, de 4 de agosto. Ref. BOE-A-1997-17574"
+   ],
+   "modificaciones": [
+    {
+     "por": "BOE-A-1997-17574",
+     "publicacion": "19970805",
+     "vigencia": "19970806"
+    },
+    {
+     "por": "BOE-A-2006-20263",
+     "publicacion": "20061122",
+     "vigencia": "20070222"
+    },
+    {
+     "por": "BOE-A-2013-6732",
+     "publicacion": "20130621",
+     "vigencia": "20130711"
+    }
+   ],
+   "encabezado": "Artículo 23."
+  },
+  {
+   "ref": "art. 24",
+   "title": "Gradaciones.",
+   "text": "Las infracciones tipificadas en los apartados a), b), c), d), e), f), h), i), l), n) del anterior artículo, podrán ser consideradas muy graves, teniendo en cuenta la entidad del riesgo producido o del perjuicio causado, o cuando supongan atentado contra la salubridad pública, hubieran alterado el funcionamiento de los servicios públicos, los transportes colectivos o la regularidad de los abastecimientos, o se hubieran producido con violencia o amenazas colectivas.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a24",
+   "anchor": "a24",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Primera. Infracciones.",
+   "derogado": false,
+   "notas": [
+    "Se derogan las referencias a las letras p) y q) del artículo 23 de esta Ley Orgánica por la disposición derogatoria única.1 de la Ley Orgánica 3/2013, de 20 de junio. Ref. BOE-A-2013-6732.\nSe modifica por la disposición final 3.3 de la Ley Orgánica 7/2006, de 21 de noviembre. Ref. BOE-A-2006-20263"
+   ],
+   "modificaciones": [
+    {
+     "por": "BOE-A-2006-20263",
+     "publicacion": "20061122",
+     "vigencia": "20070222"
+    },
+    {
+     "por": "BOE-A-2013-6732",
+     "publicacion": "20130621",
+     "vigencia": "20130711"
+    }
+   ],
+   "encabezado": "Artículo 24. Gradaciones."
+  },
+  {
+   "ref": "art. 25",
+   "title": "",
+   "text": "1. Constituyen infracciones graves a la seguridad ciudadana el consumo en lugares, vías, establecimientos o transportes públicos, así como la tenencia ilícita, aunque no estuviera destinada al tráfico, de drogas tóxicas, estupefacientes o sustancias psicotrópicas, siempre que no constituya infracción penal, así como el abandono en los sitios mencionados de útiles o instrumentos utilizados para su consumo.\n2. Las sanciones impuestas por estas infracciones podrán suspenderse si el infractor se somete a un tratamiento de deshabituación en un centro o servicio debidamente acreditado, en la forma y por el tiempo que reglamentariamente se determine.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a25",
+   "anchor": "a25",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Primera. Infracciones.",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 25."
+  },
+  {
+   "ref": "art. 26",
+   "title": "",
+   "text": "Constituyen infracciones leves de la seguridad ciudadana:\na) El incumplimiento de la obligación de obtener la documentación personal.\nb) La negativa a entregar la documentación personal cuando hubiere sido acordada su retirada o retencion.\nc) La omisión o la insuficiencia de medidas para garantizar la conservación de las documentaciones de armas o explosivos, así como la falta de denuncia de la pérdida o sustracción de tales documentaciones.\nd) La admisión de menores en establecimientos públicos o en locales de espectáculos, cuando esté prohibida, y la venta o servicio de bebidas alcohólicas a los mismos.\ne) El exceso en los horarios establecidos para la apertura de establecimientos y la celebración de espectáculos públicos o actividades recreativas.\nf) Las irregularidades en la cumplimentación de los registros prevenidos en las actividades con trascendencia para la seguridad ciudadana y la omisión de los datos o comunicaciones obligatorios dentro de los plazos establecidos.\ng) La exhibición de objetos peligrosos para la integridad física de las personas con la finalidad de causar intimidación.\nh) Desobedecer los mandatos de la autoridad o de sus agentes, dictados en directa aplicación de lo dispuesto en la presente Ley, cuando ello no constituya infracción penal.\ni) Alterar la seguridad colectiva u originar desórdenes en las vías, espacios o establecimientos públicos.\nj) Todas aquellas que, no estando calificadas como graves o muy graves, constituyan incumplimientos de las obligaciones o vulneración de las prohibiciones establecidas en la presente Ley o en leyes especiales relativas a la seguridad ciudadana, en las reglamentaciones específicas o en las normas de policía dictadas en ejecución de las mismas.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a26",
+   "anchor": "a26",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Primera. Infracciones.",
+   "derogado": false,
+   "notas": [
+    "Se declara la inconstitucionalidad y nulidad del inciso destacado de la letra j) por Sentencia del TC 341/1993, de 18 de noviembre de 1993. Ref. BOE-T-1993-29248",
+    "Se declara la inconstitucionalidad y nulidad del inciso destacado de la letra j) por Sentencia del TC 341/1993, de 18 de noviembre de 1993. Ref. BOE-T-1993-29248"
+   ],
+   "modificaciones": [
+    {
+     "por": "BOE-A-1993-29248",
+     "publicacion": "19931210",
+     "vigencia": "19931210"
+    }
+   ],
+   "encabezado": "Artículo 26."
+  },
+  {
+   "ref": "art. 27",
+   "title": "",
+   "text": "Las infracciones administrativas contempladas en la presente Ley prescribirán a los tres meses, al año o a los dos años de haberse cometido, según sean leves, graves o muy graves, respectivamente.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a27",
+   "anchor": "a27",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Primera. Infracciones.",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 27."
+  },
+  {
+   "ref": "art. 28",
+   "title": "",
+   "text": "1. Las infracciones determinadas de acuerdo con lo dispuesto en la Sección anterior podrán ser corregidas por las autoridades competentes con una o más de las sanciones siguientes:\na) Multa de 30.050,62 euros a 601.012,1 euros, para infracciones muy graves. De 300,52 euros a 30.050,61 euros, para infracciones graves. De hasta 300,51 euros, para infracciones leves.\nb) Retirada de las armas y de las licencias o permisos correspondientes a las mismas.\nc) Incautación de los instrumentos o efectos utilizados para la comisión de las infracciones, y, en especial, de las armas, de los explosivos, de las embarcaciones de alta velocidad o de las drogas tóxicas, estupefacientes o sustancias psicotrópicas.\nd) Suspensión temporal de las licencias o autorizaciones o permisos desde seis meses y un día a dos años para infracciones muy graves, y hasta seis meses para las infracciones graves en el ámbito de las materias reguladas en el capítulo II de esta Ley.\ne) Clausura de las fábricas, locales o establecimientos, desde seis meses y un día a dos años por infracciones muy graves y hasta seis meses por infracciones graves, en el ámbito de las materias reguladas en el capítulo II de esta Ley.\nEn casos graves de reincidencia, la suspensión y clausura a que se refieren los dos apartados anteriores podrán ser de dos años y un día hasta seis años por infracciones muy graves y hasta dos años por infracciones graves.\n2. Las infracciones previstas en el artículo 25 podrán ser sancionadas, además, con la suspensión del permiso de conducir vehículos de motor hasta tres meses y con la retirada del permiso o licencia de armas, procediéndose desde luego a la incautación de las drogas tóxicas, estupefacientes o sustancias psicotrópicas.\n3. En casos de infracciones graves o muy graves, las sanciones que correspondan podrán sustituirse por la expulsión del territorio español, cuando los infractores sean extranjeros, de acuerdo con lo previsto en la legislación sobre derechos y libertades de los extranjeros en España.\n4. Las sanciones prescribirán al año, dos años o cuatro años, según que las correspondientes infracciones hayan sido calificadas de leves, graves o muy graves.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a28",
+   "anchor": "a28",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Segunda. Sanciones",
+   "derogado": false,
+   "notas": [
+    "Se convierten a euros las cantidades contempladas en el apartado 1.a) por el anexo de la Resolución de 22 de octubre de 2001. Ref. BOE-A-2001-21533\nSe convierten a euros las cantidades contempladas en el apartado 1.a) por el art. único de la Resolución de 22 de octubre de 2001. Ref. BOE-A-2001-20475"
+   ],
+   "modificaciones": [
+    {
+     "por": "BOE-A-2001-20475",
+     "publicacion": "20011102",
+     "vigencia": "20011122"
+    },
+    {
+     "por": "BOE-A-2001-21533",
+     "publicacion": "20011117",
+     "vigencia": "20011207"
+    }
+   ],
+   "encabezado": "Artículo 28."
+  },
+  {
+   "ref": "art. 29",
+   "title": "",
+   "text": "1. Serán competentes para imponer las sanciones a que se refiere el artículo anterior:\na) El Consejo de Ministros para imponer cualquiera de las sanciones previstas en esta Ley, por infracciones muy graves, graves o leves.\nb) El Ministro del Interior para imponer multas de hasta 300.506,05 euros y cualquiera de las restantes sanciones previstas, por infracciones muy graves, graves o leves.\nc) Los titulares de los órganos a que se refiere el artículo 2.b) de esta Ley para imponer multas de hasta 60.101,21 euros y cualquiera de las restantes sanciones previstas, por infracciones muy graves, graves o leves.\nd) Los Gobernadores Civiles y los Delegados del Gobierno en Ceuta y en Melilla, para imponer multas de hasta 6.010,12 euros, las sanciones previstas en los apartados b) y c) del artículo anterior y la suspensión temporal de las licencias o autorizaciones de hasta seis meses de duración, por infracciones graves o leves.\ne) Los Delegados del Gobierno en ámbitos territoriales menores que la provincia, para imponer multas de hasta 601,01 euros, y las sanciones previstas en los apartados b) y c) del artículo anterior, por infracciones graves o leves.\n2. Por infracciones graves o leves en materia de espectáculos públicos y actividades recreativas, tenencia ilícita y consumo público de drogas y por las infracciones leves tipificadas en los apartados g), h), i) y j) del artículo 26, los Alcaldes serán competentes, previa audiencia de la Junta Local de Seguridad, para imponer las sanciones de suspensión de las autorizaciones o permisos que hubieran concedido los municipios y de multa en las cuantías máximas siguientes:\n- Municipios de más de quinientos mil habitantes, de hasta 6.010,12 euros.\n- Municipios de cincuenta mil a quinientos mil habitantes, de hasta 601,01 euros.\n- Municipios de veinte mil a cincuenta mil habitantes, de hasta 300,51 euros.\n- Municipios de menos de veinte mil habitantes, de hasta 150,25 euros.\nCuando no concurran las circunstancias previstas en el párrafo anterior en las materias a que el mismo se refiere, los Alcaldes pondrán los hechos en conocimiento de las autoridades competentes o, previa la sustanciación del oportuno expediente, propondrán la imposición de las sanciones que correspondan.\nPara la concreción de las conductas sancionables, las ordenanzas municipales podrán especificar los tipos que corresponden a las infracciones cuya sanción se atribuye en este artículo a la competencia de los Alcaldes, siempre dentro de la naturaleza y los límites a los que se refiere el artículo 129.3 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a29",
+   "anchor": "a29",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Segunda. Sanciones",
+   "derogado": false,
+   "notas": [
+    "Se convierten a euros las cantidades contempladas en los apartados 1 y 2 por el anexo de la Resolución de 22 de octubre de 2001. Ref. BOE-A-2001-21533\nSe añade un párrafo al apartado 2 por el art. único de la Ley 10/1999, de 21 de abril. Ref. BOE-A-1999-8931"
+   ],
+   "modificaciones": [
+    {
+     "por": "BOE-A-1999-8931",
+     "publicacion": "19990422",
+     "vigencia": "19990512"
+    },
+    {
+     "por": "BOE-A-2001-21533",
+     "publicacion": "20011117",
+     "vigencia": "20011207"
+    }
+   ],
+   "encabezado": "Artículo 29."
+  },
+  {
+   "ref": "art. 30",
+   "title": "",
+   "text": "1. Las respectivas normas reglamentarias podrán determinar, dentro de los límites establecidos por la presente Ley, la cuantía de las multas y la duración de las sanciones temporales por la comisión de las infracciones, teniendo en cuenta la gravedad de las mismas, la cuantía del perjuicio causado y su posible trascendencia para la prevención, mantenimiento o restablecimiento de la seguridad ciudadana.\n2. Idénticos criterios tendrán en cuenta las autoridades sancionadoras, atendiendo además al grado de culpabilidad, reincidencia y capacidad económica del infractor, para concretar las sanciones que proceda imponer y, en su caso, para graduar la cuantía de las multas y la duración de las sanciones temporales.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a30",
+   "anchor": "a30",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Segunda. Sanciones",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 30."
+  },
+  {
+   "ref": "art. 31",
+   "title": "",
+   "text": "1. No podrá imponerse ninguna sanción por las infracciones previstas en esta Ley, sino en virtud de procedimiento instruido al efecto y de acuerdo con los principios de audiencia al interesado, economía, celeridad y sumariedad.\n2. Salvo lo dispuesto en la presente Sección, el procedimiento sancionador se tramitará de acuerdo con lo establecido en la Ley de Procedimiento Administrativo.\n3. Será competente para ordenar la incoación de los expedientes sancionadores, independientemente de la sanción que en definitiva proceda imponer, cualquiera de las autoridades relacionadas en el artículo 2 de la presente Ley, dentro de los respectivos ámbitos territoriales.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a31",
+   "anchor": "a31",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Tercera. Procedimiento",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 31."
+  },
+  {
+   "ref": "art. 32",
+   "title": "",
+   "text": "1. No se podrán imponer sanciones penales y administrativas por unos mismos hechos.\n2. Cuando las conductas a que se refiere la presente Ley pudieran revestir caracteres de infracción penal, se remitirán al Ministerio Fiscal los antecedentes necesarios de las actuaciones practicadas, aunque ello no impedirá la tramitación de expedientes sancionadores por los mismos hechos. No obstante, la resolución definitiva del expediente sólo podrá producirse cuando sea firme la resolución recaída en el ámbito penal, quedando hasta entonces interrumpido el plazo de prescripción.\n3. Las medidas cautelares adoptadas por las autoridades sancionadoras antes de la intervención judicial podrán mantenerse en vigor mientras no recaiga pronunciamiento expreso al respecto de las autoridades judiciales.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a32",
+   "anchor": "a32",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Tercera. Procedimiento",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 32."
+  },
+  {
+   "ref": "art. 33",
+   "title": "",
+   "text": "En los procesos penales en que intervenga el Ministerio Fiscal, cuando se acordase el archivo o se dictase auto de sobreseimiento o sentencia absolutoria por acreditarse que los hechos no sean constitutivos de infracción penal, deberá aquél remitir a la autoridad sancionadora copia de la resolución y de los particulares que estime necesarios, cuando aquéllos pudieran ser objeto de sanción administrativa conforme a lo previsto en esta Ley.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a33",
+   "anchor": "a33",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Tercera. Procedimiento",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 33."
+  },
+  {
+   "ref": "art. 34",
+   "title": "",
+   "text": "En los supuestos de los dos artículos anteriores, la autoridad sancionadora quedará vinculada por los hechos declarados probados en vía judicial.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a34",
+   "anchor": "a34",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Tercera. Procedimiento",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 34."
+  },
+  {
+   "ref": "art. 35",
+   "title": "",
+   "text": "En todo procedimiento sancionador que se instruya en las materias objeto de la presente Ley, la autoridad que haya ordenado su iniciación podrá optar por nombrar instructor y secretario, conforme a lo establecido en el artículo 135 de la Ley de Procedimiento Administrativo, o encargar de la instrucción del mismo a la unidad administrativa correspondiente.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a35",
+   "anchor": "a35",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Tercera. Procedimiento",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 35."
+  },
+  {
+   "ref": "art. 36",
+   "title": "",
+   "text": "1. Iniciado el expediente sancionador, se podrán adoptar las medidas cautelares imprescindibles para el normal desarrollo del procedimiento, evitar la comisión de nuevas infracciones o asegurar el cumplimiento de la sanción que pudiera imponerse.\n2. Dichas medidas, que deberán ser proporcionadas a la naturaleza y gravedad de la infracción, podrán consistir en la adopción de medidas de acción preventiva y en la realización de actuaciones para el mantenimiento o restablecimiento de la seguridad ciudadana, de acuerdo con lo dispuesto en esta Ley y especialmente en:\na) El depósito en lugar seguro de los instrumentos o efectos utilizados para la comisión de las infracciones y, en particular, de las armas, explosivos, embarcaciones de alta velocidad, o drogas tóxicas, estupefacientes o sustancias psicotrópicas.\nb) La adopción de medidas provisionales de seguridad de las personas, los bienes, los establecimientos o las instalaciones que se encuentren en situación de peligro, a cargo de sus titulares.\nc) La suspensión o clausura preventiva de fábricas, locales o establecimientos.\nd) La suspensión, parcial o total, de las actividades de los establecimientos que sean notoriamente vulnerables y no tengan en funcionamiento las medidas de seguridad obligatorias.\ne) La retirada preventiva de autorizaciones, permisos, licencias y otros documentos expedidos por las autoridades administrativas, en el marca de lo dispuesto por la presente Ley.\n3. La duración de las medidas cautelares de carácter temporal no podrá exceder de la mitad del plazo previsto en esta Ley para la sanción que pudiera corresponder a la infracción cometida.\n4. Excepcionalmente, en supuestos de posible desaparición de las armas o explosivos, de grave riesgo o de peligro inminente para personas o bienes, las medidas previstas en la letra a) del apartado 2 anterior podrán ser ordenadas directamente por los agentes de la autoridad, debiendo ser ratificadas o revocadas por ésta en el plazo máximo de cuarenta y ocho horas.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a36",
+   "anchor": "a36",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Tercera. Procedimiento",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 36."
+  },
+  {
+   "ref": "art. 37",
+   "title": "",
+   "text": "En los procedimientos sancionadores que se instruyan en las materias objeto de la presente Ley, las informaciones aportadas por los agentes de la autoridad que hubieren presenciado los hechos, previa ratificación en el caso de haber sido negados por los inculpados, constituirán base suficiente para adoptar la resolución que proceda, salvo prueba en contrario y sin perjuicio de que aquéllos deban aportar al expediente todos los elementos probatorios disponibles.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a37",
+   "anchor": "a37",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Tercera. Procedimiento",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 37."
+  },
+  {
+   "ref": "art. 38",
+   "title": "",
+   "text": "1. Las sanciones impuestas en las materias objeto de la presente Ley serán ejecutivas desde que la resolución adquiera firmeza en la vía administrativa.\n2. Cuando la sanción sea de naturaleza pecuniaria y no se halle legal o reglamentariamente previsto plazo para satisfacerla, la autoridad que la impuso lo señalará, sin que pueda ser inferior a quince ni superior a treinta días hábiles.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a38",
+   "anchor": "a38",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Tercera. Procedimiento",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 38."
+  },
+  {
+   "ref": "art. 39",
+   "title": "",
+   "text": "La resolución firme en vía administrativa de los expediente sancionadores por faltas graves y muy graves podrá ser hecha pública, en virtud de acuerdo de las autoridades competentes, en los términos que reglamentariamente se determinen.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#a39",
+   "anchor": "a39",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Tercera. Procedimiento",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Artículo 39."
+  },
+  {
+   "ref": "DISPOSICIÓN ADICIONAL",
+   "title": "",
+   "text": "DISPOSICIÓN ADICIONAL\nTendrán la consideración de autoridades a los efectos de la presente Ley las correspondientes de las Comunidades Autónomas con competencias para protección de personas y bienes y para el mantenimiento de la seguridad ciudadana, con arreglo a lo dispuesto en los correspondientes Estatutos y en la Ley Orgánica de Fuerzas y Cuerpos de Seguridad, y podrán imponer las sanciones y demás medidas determinadas en esta Ley en las materias sobre las que tengan competencia.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#da",
+   "anchor": "da",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Tercera. Procedimiento",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": ""
+  },
+  {
+   "ref": "DISPOSICIÓN DEROGATORIA",
+   "title": "",
+   "text": "DISPOSICIÓN DEROGATORIA\nQuedan derogados:\n– La Ley 45/1959, de 30 de julio, de Orden Público.\n– La Ley 36/1971, de 21 de julio, sobre modificación de determinados artículos de la Ley de Orden Público.\n– El Real Decreto-ley 6/1977, de 25 de enero, por el que se modifican determinados artículos de la Ley de Orden Público.\n– El apartado 5 del artículo 7 de la Ley 62/1978, de 26 de diciembre, de protección jurisdiccional de los derechos fundamentales de la persona.\n– El Real Decreto 3/1979, de 26 de enero, sobre Protección de la Seguridad Ciudadana.\n– Cuantas otras disposiciones, de igual o inferior rango, se opongan a lo dispuesto en la presente Ley.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#dd",
+   "anchor": "dd",
+   "contexto": "CAPITULO IV - Régimen sancionador > Sección Tercera. Procedimiento",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": ""
+  },
+  {
+   "ref": "Primera",
+   "title": "",
+   "text": "Las disposiciones de la presente Ley y las que en ejecución de la misma apruebe el Gobierno, determinadas por razones de seguridad pública, se entenderán dictadas aI amparo del artículo 149.1.29 de la Constitución.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#primera",
+   "anchor": "primera",
+   "contexto": "CAPITULO IV - Régimen sancionador > DISPOSICIONES FINALES",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Primera."
+  },
+  {
+   "ref": "Segunda",
+   "title": "",
+   "text": "1. Las disposiciones relativas a los espectáculos públicos y actividades recreativas contenidas en la presente Ley, así como las normas de desarrollo de las mismas, serán de aplicación general en defecto de las que puedan dictar las Comunidades Autónomas con competencia normativa en esta materia.\n2. En todo caso, la aplicación de lo establecido en las referidas disposiciones corresponderá a las Comunidades Autónomas con competencia en la materia.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#segunda",
+   "anchor": "segunda",
+   "contexto": "CAPITULO IV - Régimen sancionador > DISPOSICIONES FINALES",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Segunda."
+  },
+  {
+   "ref": "Tercera",
+   "title": "",
+   "text": "La presente Ley tendrá carácter de Ley Orgánica excepto en tos artículos 2; 3; 4; 5.1: 6; 7; 8; 9. 12; 13; 22; 23, en todos los apartados del párrafo 1, excepto el c): 25; 26; 27; 28.1 y 3; 29; 30; 31; 32; 33; 34; 35: 36; 37; 38; 39; disposición derogatoria y disposiciones finales primera, segunda, cuarta y quinta, los cuales tendrán carácter ordinario.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#tercera",
+   "anchor": "tercera",
+   "contexto": "CAPITULO IV - Régimen sancionador > DISPOSICIONES FINALES",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Tercera."
+  },
+  {
+   "ref": "Cuarta",
+   "title": "",
+   "text": "El Gobierno dictará las normas reglamentarias que sean precisas para determinar las medidas de seguridad y control que pueden ser impuestas a entidades o establecimientos.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#cuarta",
+   "anchor": "cuarta",
+   "contexto": "CAPITULO IV - Régimen sancionador > DISPOSICIONES FINALES",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Cuarta."
+  },
+  {
+   "ref": "Quinta",
+   "title": "",
+   "text": "Se autoriza al Gobierno para actualizar las cuantías de las sanciones pecuniarias previstas en la presente Ley, teniendo en cuenta las variaciones de Índice de Precios al Consumo.",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-4252#quinta",
+   "anchor": "quinta",
+   "contexto": "CAPITULO IV - Régimen sancionador > DISPOSICIONES FINALES",
+   "derogado": false,
+   "notas": [],
+   "modificaciones": [],
+   "encabezado": "Quinta."
+  }
+ ]
+}

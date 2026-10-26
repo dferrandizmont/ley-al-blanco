@@ -1,0 +1,949 @@
+[
+  {
+    "id": "t1-001",
+    "explanation": "Lo que define al arma automática es que dispara varias veces seguidas mientras mantienes accionado el disparador. La semiautomática también se recarga sola, pero solo hace un disparo por cada pulsación.",
+    "article": "Art. 2.5 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-002",
+    "explanation": "La semiautomática se recarga sola tras cada disparo, pero tienes que soltar y volver a accionar el disparador para cada tiro. Si siguiera disparando con el disparador apretado, sería automática.",
+    "article": "Art. 2.21 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-003",
+    "explanation": "En el arma de repetición eres tú quien acciona el mecanismo (cerrojo, corredera, palanca) que lleva al cañón el siguiente cartucho del depósito. En las semiautomáticas y automáticas esa recarga es automática.",
+    "article": "Art. 2.15 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-004",
+    "explanation": "El arma de un solo tiro no tiene depósito de munición: antes de cada disparo hay que meter a mano un cartucho en la recámara. Las automáticas y semiautomáticas, en cambio, se recargan solas desde un depósito.",
+    "article": "Art. 2.16 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 2"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-005",
+    "explanation": "El cañón es el tubo por el que avanza el proyectil: lo guía en la dirección de tiro y, si está rayado, le imprime un giro que lo estabiliza en vuelo. El disparador solo inicia el disparo.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-006",
+    "explanation": "La culata es la parte trasera del arma larga que se apoya en el hombro para sujetarla, apuntar y absorber el retroceso. El punto de mira va en el cañón, no en la culata.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-007",
+    "explanation": "Lo normal es que el cañón de escopeta sea de ánima lisa, pero también existen cañones con rayas para facilitar el plomeo y cañones estriados adaptables a escopetas. Por eso la respuesta admite las dos.",
+    "article": "Art. 3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Art. 3, 3.ª cat. 2 (escopetas de ánima lisa o con rayas para facilitar el plomeo) y 2.ª cat. 2 (cañones estriados adaptables a escopetas). Revisar que la explicación sea suficiente para el «lisas o estriadas» del banco."
+  },
+  {
+    "id": "t1-008",
+    "explanation": "El rifle es un arma larga rayada: su ánima tiene estrías helicoidales que hacen girar la bala para que vuele estable y precisa. Un cañón liso es propio de la escopeta.",
+    "article": "Art. 3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Art. 3, 2.ª cat. 2 (armas de fuego largas rayadas, caza mayor)."
+  },
+  {
+    "id": "t1-009",
+    "explanation": "En la escopeta semiautomática el percutor, el extractor y el grapón van montados en el cierre o cerrojo, la pieza móvil que se desplaza para cerrar la recámara. La culata y el cajón no llevan esas piezas.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "media",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": "Terminología: en semiautomáticas se suele hablar de «cierre»; el banco usa «cerrojo»."
+  },
+  {
+    "id": "t1-010",
+    "explanation": "El guardamonte es el arco metálico que rodea el disparador y lo protege de golpes y de un accionamiento accidental, por ejemplo al rozar con una rama.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-011",
+    "explanation": "El muelle del cargador empuja los cartuchos hacia arriba para que el siguiente quede frente a la recámara, listo para que el cerrojo lo introduzca. Esa presión es el medio, no el fin; expulsar la vaina es cosa del extractor.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "media",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": "La opción A («mantener presión en los cartuchos») es parcialmente cierta; se explica por qué el banco prefiere la C."
+  },
+  {
+    "id": "t1-012",
+    "explanation": "Al volver hacia delante, el cierre empuja el cartucho que sube del depósito y lo mete en la recámara. El muelle elevador solo lo sube hasta su paso y la biela pertenece al mecanismo de disparo.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-013",
+    "explanation": "Al separar los cañones con una banda calada, el aire circula entre ellos: se disipa mejor el calor y hay menos superficie maciza que el viento lateral pueda empujar. Por eso valen las dos funciones.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "media",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": "Técnicamente la función principal de la banda es refrigerar y servir de línea de mira; lo del viento lateral es la versión del banco. Revisar redacción."
+  },
+  {
+    "id": "t1-014",
+    "explanation": "En el rifle de cerrojo, el percutor y su muelle van alojados dentro del propio cerrojo: al disparar, el percutor sale por la cara del cerrojo y golpea el pistón del cartucho.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-015",
+    "explanation": "El mecanismo de percusión lo forman el percutor, que golpea el pistón del cartucho, y el muelle que lo impulsa con fuerza al liberarse.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-016",
+    "explanation": "Al empujar el cerrojo hacia delante, su cara arrastra el cartucho que el elevador ha subido y lo introduce en la recámara. El elevador solo lo sube y el percutor sirve para disparar.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-017",
+    "explanation": "La uña extractora es un pequeño gancho del cierre que abraza el culote del cartucho; al abrir el arma, tira de él y lo saca de la recámara.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-018",
+    "explanation": "Al abrir el cerrojo, el extractor, que tiene sujeto el culote, saca la vaina de la recámara para que pueda salir del arma. No hace falta sacarla con la mano, y el rifle de cerrojo no tiene muelle de recuperación.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "media",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": "En rigor el extractor saca la vaina de la recámara y el expulsor la lanza fuera; la respuesta del banco agrupa ambas acciones en el extractor."
+  },
+  {
+    "id": "t1-019",
+    "explanation": "El choke es un estrechamiento del cañón en la boca de fuego que concentra los perdigones y regula la dispersión del plomeo. No tiene que ver con estrías ni con la recámara.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-020",
+    "explanation": "El choke solo tiene sentido en cañones de escopeta que disparan perdigones. El rifle dispara una sola bala por un cañón rayado, así que no lleva choke.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-021",
+    "explanation": "En la superpuesta, los extractores son dos uñas, una por cañón, que al abrir el arma empujan los cartuchos hacia atrás para sacarlos de la recámara.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-022",
+    "explanation": "La recámara es el alojamiento del cartucho completo, así que su forma copia la del cartucho (vaina con su bala) para que encaje y quede bien sujeto al disparar.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-023",
+    "explanation": "Las armas rayadas de caza mayor usan cartuchos de percusión central, con el pistón en el centro del culote, más potentes y fiables. La percusión anular, como la del sistema Flobert, es para calibres pequeños.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-024",
+    "explanation": "El seguro manual es el mando que el tirador activa o quita a voluntad para bloquear el mecanismo de disparo. Los elementos de puntería solo sirven para apuntar.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-025",
+    "explanation": "La boca es el extremo delantero del cañón, por donde sale el proyectil. La recámara está en el extremo contrario, donde se aloja el cartucho.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-026",
+    "explanation": "Un arma está montada cuando su mecanismo está preparado para disparar en cuanto se accione el disparador. Estar ensamblada o llevarla encima no tiene que ver con ello.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-027",
+    "explanation": "Un arma está alimentada cuando tiene cartuchos en su depósito o cargador, listos para pasar a la recámara. Que haya disparado o no tenga munición no la convierte en alimentada.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-028",
+    "explanation": "Montada significa que los mecanismos de disparo y percusión están en posición de funcionar, de modo que el arma dispara al accionar el disparador. El pavonado es solo un acabado del metal.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-029",
+    "explanation": "El cartucho se dispara desde la recámara, el alojamiento al principio del cañón. El cargador solo almacena cartuchos y la canana es el cinturón donde se llevan.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-030",
+    "explanation": "La vaina disparada sale por la ventana de expulsión, una abertura lateral del cajón de mecanismos por la que el expulsor la lanza fuera.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-031",
+    "explanation": "Alimentar es llenar el depósito de cartuchos. Meter un cartucho en la recámara y montar el arma ya forma parte de cargarla, no de alimentarla.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-032",
+    "explanation": "En el lenguaje del cuestionario, alimentar es meter cartuchos en el depósito, y cargar es dejar el arma montada y lista para disparar, con cartucho en la recámara. La opción B los tiene cambiados.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-033",
+    "explanation": "Todas las superpuestas tienen extractores, pero solo algunos modelos añaden expulsores, que lanzan fuera las vainas disparadas al abrir el arma.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-034",
+    "explanation": "Para enfilar el arma hacia el blanco se usan los elementos de puntería (alza y punto de mira, o un visor). Empuñarla y sujetarla bien ayuda, pero no sirve para apuntar.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-035",
+    "explanation": "El alza, la pieza trasera de puntería, es la que se ajusta en altura para subir o bajar el punto de impacto. La longitud del cañón no regula nada.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-036",
+    "explanation": "Según el cuestionario, la corrección lateral se hace moviendo el punto de mira hacia un lado, mientras el alza corrige la altura. La longitud del cañón no influye.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "media",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": "En muchas armas el alza regula ambos ejes; el banco asigna el lateral al punto de mira. La explicación se ciñe al criterio del banco."
+  },
+  {
+    "id": "t1-037",
+    "explanation": "La biela es la pieza que transmite el movimiento del disparador al resto del mecanismo para liberar el fiador. El elevador sube los cartuchos y el fiador es lo que retiene el mecanismo montado.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "media",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": "Terminología variable según el diseño del arma; comprobar que coincide con el temario."
+  },
+  {
+    "id": "t1-038",
+    "explanation": "La energía del disparo empuja el cierre hacia atrás; en ese recorrido extrae y expulsa la vaina y, al volver, mete el siguiente cartucho. No depende de que la saques a mano ni del disparador.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "media",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": "Muchas semiautomáticas funcionan por toma de gases, no por retroceso puro; la explicación habla de «energía del disparo» para no contradecir al banco."
+  },
+  {
+    "id": "t1-039",
+    "explanation": "Esos orificios desvían los gases hacia fuera si un cartucho se rompe o un pistón se perfora, para que no vayan hacia la cara del tirador.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-040",
+    "explanation": "El guardamonte es el arco que rodea y protege el disparador. El guardamano es la pieza bajo el cañón para sujetar el arma con la otra mano.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-041",
+    "explanation": "El art. 1.2 incluye el cerrojo o la báscula entre los componentes esenciales de las armas largas, que es como se llaman ahora las piezas fundamentales. En la escopeta paralela o superpuesta la báscula es el cuerpo del arma.",
+    "article": "Art. 1.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 1"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Sin aviso: el término cambió en 2020 («componentes esenciales») pero la báscula sigue en la lista."
+  },
+  {
+    "id": "t1-042",
+    "explanation": "El cañón figura en la lista de componentes esenciales (antes, piezas fundamentales) de todas las armas de fuego, cortas y largas, porque sin él el arma no puede disparar.",
+    "article": "Art. 1.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 1"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Sin aviso: el cañón está en la lista vigente y en la anterior."
+  },
+  {
+    "id": "t1-043",
+    "explanation": "La culata no aparece entre los componentes esenciales (antes, piezas fundamentales) de las armas largas, que son las que permiten disparar: cajón de mecanismos, cañón, cerrojo o báscula y cierre.",
+    "article": "Art. 1.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 1"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-044",
+    "explanation": "Los elementos de puntería ayudan a apuntar, pero no son imprescindibles para disparar, y la norma no los incluye entre los componentes esenciales (antes, piezas fundamentales) del arma.",
+    "article": "Art. 1.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 1"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-045",
+    "explanation": "Para el cuestionario, las piezas fundamentales de la escopeta son la báscula y el cañón, las que permiten disparar. La culata no lo es, por eso fallan las otras dos opciones.",
+    "article": "Art. 1.2 RD 137/1993",
+    "notice": "Ojo: el cuestionario habla de piezas fundamentales. Tras la reforma de 2020, el art. 1.2 las llama componentes esenciales y, en armas largas, cita la caja o cajón de mecanismos, el cañón, el cerrojo o báscula y el cierre.",
+    "flags": [
+      "discrepancia_reforma_2020"
+    ],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 1"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El art. 1.2 vigente (RD 726/2020) lista para armas largas: caja o cajón de mecanismos (superior e inferior), cañón, cerrojo o báscula y cierre o bloqueo del cierre. La lista anterior (RD 976/2011) ya incluía caja/cajón y mecanismos de cierre, así que la respuesta del banco era una simplificación incluso antes de 2020. Decidir si el aviso es apropiado."
+  },
+  {
+    "id": "t1-046",
+    "explanation": "Para el cuestionario, las piezas fundamentales del rifle son el cerrojo y el cañón, las que permiten disparar. La culata y los elementos de puntería no lo son, por eso fallan las otras opciones.",
+    "article": "Art. 1.2 RD 137/1993",
+    "notice": "Ojo: el cuestionario habla de piezas fundamentales. Tras la reforma de 2020, el art. 1.2 las llama componentes esenciales y, en armas largas, cita la caja o cajón de mecanismos, el cañón, el cerrojo o báscula y el cierre.",
+    "flags": [
+      "discrepancia_reforma_2020"
+    ],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 1"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Igual que t1-045: la lista vigente añade caja o cajón de mecanismos y cierre o bloqueo del cierre; la redacción 2011 ya incluía caja/cajón y mecanismos de cierre."
+  },
+  {
+    "id": "t1-047",
+    "explanation": "El seguro manual bloquea el mecanismo para que el arma no dispare aunque esté montada y se toque el disparador. No sujeta el cargador ni tiene que ver con acertar.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-048",
+    "explanation": "El percutor es la pieza que golpea el fulminante (pistón) del cartucho y provoca la ignición de la pólvora. La uña de extracción solo saca la vaina.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-049",
+    "explanation": "Si disparas sin cartucho, la aguja percutora golpea sin nada que amortigüe el impacto y puede romperse. Por eso se usan cartuchos inertes (simuladores) para practicar en seco.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-050",
+    "explanation": "El mecanismo de seguridad existe para impedir que el arma dispare sin querer, por un golpe o un roce. No impide cargarla ni descargarla.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-051",
+    "explanation": "Sí, hay escopetas semiautomáticas que incorporan un seguro automático, que se activa solo, además del manual. Depende del modelo, no del año de fabricación.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": "Respuesta del banco «Sí» (puede tenerlo); la explicación aclara que depende del modelo."
+  },
+  {
+    "id": "t1-052",
+    "explanation": "La «S» indica que el seguro está puesto: el mecanismo de disparo queda bloqueado y el arma no dispara, aunque esté alimentada y montada.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-053",
+    "explanation": "La baqueta es la varilla que se mete por el cañón para limpiarlo; en su punta se enroscan escobillas o trapos. La escobilla es solo un accesorio que va en ella.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-054",
+    "explanation": "El aceite de linaza nutre y protege la madera de la culata y el guardamano. El agua la hincha y la agrieta, y la gasolina o el gasóleo la resecan y son inflamables.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-055",
+    "explanation": "La humedad oxida el metal enseguida, sobre todo el interior del cañón y los mecanismos. Hay que secar, limpiar y engrasar el arma cuanto antes; pasar un trapo por fuera no basta.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-056",
+    "explanation": "Las armas de la categoría 2.ª.2 (rifles de caza mayor) se guardan en el domicilio del titular, en una caja fuerte o un armero autorizados por la Guardia Civil, o en una empresa de custodia autorizada.",
+    "article": "Art. 100.5 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El banco dice «armero homologado»; la norma dice «cajas fuertes o armeros autorizados por la Dirección General de la Guardia Civil»."
+  },
+  {
+    "id": "t1-057",
+    "explanation": "Quien tiene un arma debe guardarla en lugar seguro, evitar que la roben y mantenerla bajo control durante el transporte. Un coche aparcado en la calle toda la noche no cumple nada de eso.",
+    "article": "Art. 144.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 144"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Base indirecta: art. 144.1 a) lugar seguro y evitar robo; e) supervisión durante transporte y uso."
+  },
+  {
+    "id": "t1-058",
+    "explanation": "Las armas se transportan siempre descargadas: la norma prohíbe transportarlas cargadas y exige llevarlas en su funda o desmontadas. Tenerlas listas para disparar en el coche es peligroso, aunque sea temporada de caza.",
+    "article": "Art. 39.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 39"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 149"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Art. 39.4 está en la sección de envíos de armas («en ningún caso podrán hacerse envíos o transportes de armas cargadas ni de armas conjuntamente con cartuchería»); art. 149.1 exige llevarlas desmontadas o en cajas/fundas por vías urbanas. Comprobar si el revisor prefiere citar el 149.1."
+  },
+  {
+    "id": "t1-059",
+    "explanation": "Un arma guardada debe estar descargada y sin cartuchos en el depósito, y la munición aparte, para que nadie pueda usarla con facilidad. Separar rifles de escopetas no es lo que importa.",
+    "article": "Art. 144.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 144"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Base: art. 144.1 d) armas y municiones no fácilmente accesibles de forma conjunta; art. 100.5 a) munición separada (2.ª.2). «Descargadas y sin alimentar» es la consecuencia práctica, no está literal."
+  },
+  {
+    "id": "t1-060",
+    "explanation": "La regla de oro es tratar cualquier arma como si estuviera cargada, aunque creas que no lo está. El seguro puede fallar, así que no basta con confiar en él.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-061",
+    "explanation": "Cada vez que cojas un arma, comprueba tú mismo, mirando recámara y depósito, que está descargada, aunque te digan que lo está. Que tenga el seguro puesto no garantiza nada.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-062",
+    "explanation": "Lo más seguro es limpiar el arma en una habitación donde estés solo, sin distracciones ni nadie en la posible línea de un disparo accidental. En una zona de paso o con la familia el riesgo es mayor.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-063",
+    "explanation": "Si no conoces cómo funciona un arma, no la toques: al manipularla, incluso para desmontarla, puedes provocar un disparo. Pide a alguien que sepa que la descargue.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-064",
+    "explanation": "Las normas de seguridad buscan sobre todo evitar disparos accidentales, que pueden causar heridas o muertes irreparables. Evitar multas o el desgaste del arma es secundario.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-065",
+    "explanation": "Al coger un arma, mantén el dedo fuera del disparador, apoyado en el costado del arma, hasta el momento de disparar. Nunca compruebes si está cargada apretando el gatillo.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-066",
+    "explanation": "La norma exige actuar con la diligencia necesaria para no poner en peligro a otras personas. Cuando hay gente cerca, lo más seguro es descargar el arma; la habilidad no evita un accidente.",
+    "article": "Art. 147.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 147"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El art. 147.1 pide diligencia y precauciones ante otras personas; «descargar» es la concreción del banco, no está literal."
+  },
+  {
+    "id": "t1-067",
+    "explanation": "Al cerrar la escopeta, apunta la boca hacia el suelo, a un lugar seguro: si se escapa un disparo, el proyectil no alcanzará a nadie. Hacia arriba o en horizontal podría recorrer mucha distancia.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t1-068",
+    "explanation": "Antes de disparar debes ver con claridad dónde acabará la bala, incluido lo que hay detrás de la pieza, porque una bala de rifle llega muy lejos. Su trayectoria no es horizontal, sino curva.",
+    "article": null,
+    "notice": null,
+    "flags": [
+      "sin_articulo"
+    ],
+    "confidence": "alta",
+    "sources": [],
+    "reviewed": false,
+    "review_notes": ""
+  }
+]

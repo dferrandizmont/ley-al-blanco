@@ -1,0 +1,1500 @@
+[
+  {
+    "id": "t5-001",
+    "explanation": "Un mismo hecho con armas puede ser delito, que juzgan los tribunales, o infracción administrativa, que sanciona la Administración. Por eso el Reglamento tipifica las infracciones «si no constituyen delito» y manda pasar al fiscal lo que pueda ser penal.",
+    "article": "Art. 161 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 161"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 155"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 45"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-002",
+    "explanation": "Las infracciones administrativas en materia de armas se clasifican en muy graves, graves y leves. La categoría «menos grave» no existe en este régimen.",
+    "article": "Art. 34 LO 4/2015",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 34"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 155"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-003",
+    "explanation": "Pueden sancionar los Delegados del Gobierno (graves y leves en general) y la Dirección General de la Guardia Civil (fabricación, comercio y circulación), y también los alcaldes en algunas infracciones leves. Por eso valen las dos opciones.",
+    "article": "Art. 159 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 159"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 32"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El art. 159 RD aun habla de Gobernadores civiles y Delegados del Gobierno en Ceuta y Melilla; la LO 4/2015 art. 32 atribuye hoy graves y leves a los Delegados del Gobierno y las muy graves al Ministro / Secretario de Estado de Seguridad. No cambia la respuesta."
+  },
+  {
+    "id": "t5-004",
+    "explanation": "Abrir y tramitar el expediente corresponde a las autoridades con potestad para sancionar en armas: Director General de la Guardia Civil, Delegados del Gobierno y, en algunos casos, alcaldes. El Interventor de Armas controla e inspecciona, pero no figura entre ellas.",
+    "article": "Art. 159 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 159"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 32"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El corpus no tiene un articulo que diga expresamente quien ordena la instruccion; se deduce de la competencia sancionadora (art. 159 RD, art. 32 LO 4/2015)."
+  },
+  {
+    "id": "t5-005",
+    "explanation": "El cuestionario sigue la antigua Ley de Seguridad Ciudadana de 1992: las infracciones leves prescribían a los 3 meses, las graves al año y las muy graves a los 2 años. Es la respuesta que se espera en el examen.",
+    "article": "Art. 27 LO 1/1992",
+    "notice": "Ojo: el cuestionario da por buenos 3 meses, plazo de la Ley Orgánica 1/1992, ya derogada. Con la Ley Orgánica 4/2015 vigente, el art. 38.1 dice que las infracciones leves prescriben a los seis meses.",
+    "flags": [
+      "discrepancia_norma"
+    ],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 27"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 38"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "disp. derogatoria única"
+      },
+      {
+        "norma": "BOE-A-2010-7333",
+        "ref": "art. 199"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Cifra literal del art. 27 LO 1/1992 (3 meses/1/2 anos), derogada por la disp. derogatoria unica.1 de la LO 4/2015 (efectos 1-7-2015); igual en RD 563/2010 art. 199 (derogado). El Reglamento de Armas no fija plazos. Vigente: LO 4/2015 art. 38.1 = 6 meses (y RD 989/2015 art. 199, mismo plazo en cartucheria). El articulo citado esta derogado: el aviso da la regla vigente."
+  },
+  {
+    "id": "t5-006",
+    "explanation": "Las infracciones graves prescriben al año de haberse cometido; las leves prescriben antes y las muy graves a los dos años. Pasado ese plazo sin actuación de la Administración, ya no pueden sancionarse.",
+    "article": "Art. 38.1 LO 4/2015",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 38"
+      },
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Re-comprobado: el cuestionario toma el plazo del art. 27 LO 1/1992 (derogada), pero coincide con el vigente art. 38.1 LO 4/2015 (1 ano), asi que se cita la norma vigente y no hay aviso."
+  },
+  {
+    "id": "t5-007",
+    "explanation": "Las infracciones muy graves son las que más tardan en prescribir: dos años desde que se cometen, frente al año de las graves.",
+    "article": "Art. 38.1 LO 4/2015",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 38"
+      },
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Re-comprobado: cifra del art. 27 LO 1/1992 (derogada) identica a la del vigente art. 38.1 LO 4/2015 (2 anos); se cita la vigente, sin aviso."
+  },
+  {
+    "id": "t5-008",
+    "explanation": "Las sanciones por infracciones leves prescriben al año, contado desde el día siguiente a que la resolución sea firme en vía administrativa. Si en ese tiempo no se ejecutan, ya no pueden exigirse.",
+    "article": "Art. 40.1 LO 4/2015",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 40"
+      },
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 28"
+      },
+      {
+        "norma": "BOE-A-1998-5934",
+        "ref": "art. 297"
+      },
+      {
+        "norma": "BOE-A-2010-7333",
+        "ref": "art. 200"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Re-comprobado: el banco sigue la escala 1/2/4 anos del art. 28.4 LO 1/1992 (derogada; tambien RD 230/1998 art. 297 y RD 563/2010 art. 200.1, derogados). Para leves coincide con el vigente art. 40.1 LO 4/2015 (1 ano): se cita la vigente, sin aviso. Nota: LEEME dice que la LO 1/1992 no regula la prescripcion de sanciones, pero su art. 28.4 si lo hace."
+  },
+  {
+    "id": "t5-009",
+    "explanation": "Las sanciones impuestas por infracciones graves prescriben a los dos años desde que la resolución es firme en vía administrativa; las de leves, al año.",
+    "article": "Art. 40.1 LO 4/2015",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 40"
+      },
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 28"
+      },
+      {
+        "norma": "BOE-A-1998-5934",
+        "ref": "art. 297"
+      },
+      {
+        "norma": "BOE-A-2010-7333",
+        "ref": "art. 200"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Re-comprobado: 2 anos en el art. 28.4 LO 1/1992 (derogada) y en el vigente art. 40.1 LO 4/2015; se cita la vigente, sin aviso."
+  },
+  {
+    "id": "t5-010",
+    "explanation": "El cuestionario sigue la antigua Ley de Seguridad Ciudadana de 1992, que daba a las sanciones muy graves el plazo más largo: 4 años, frente a 2 las graves y 1 las leves. Es la opción que se espera en el examen.",
+    "article": "Art. 28.4 LO 1/1992",
+    "notice": "Ojo: el cuestionario da por buenos 4 años, plazo de la Ley Orgánica 1/1992, ya derogada. Con la Ley Orgánica 4/2015 vigente, el art. 40.1 dice que las sanciones por infracciones muy graves prescriben a los tres años.",
+    "flags": [
+      "discrepancia_norma"
+    ],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 28"
+      },
+      {
+        "norma": "BOE-A-1998-5934",
+        "ref": "art. 297"
+      },
+      {
+        "norma": "BOE-A-2010-7333",
+        "ref": "art. 200"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 40"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "disp. derogatoria única"
+      },
+      {
+        "norma": "BOE-A-2015-12054",
+        "ref": "art. 200"
+      },
+      {
+        "norma": "BOE-A-2017-2313",
+        "ref": "art. 183"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Cifra literal del art. 28.4 LO 1/1992 (1/2/4 anos), derogada por la LO 4/2015; la repiten RD 230/1998 art. 297 y RD 563/2010 art. 200.1, tambien derogados. LEEME dice que la LO 1/1992 no regula la prescripcion de sanciones: es un error, el art. 28.4 si lo hace (por eso se cita en vez de los reglamentos de explosivos/cartucheria). Vigente: LO 4/2015 art. 40.1 = 3 anos (igual RD 989/2015 art. 200 y RD 130/2017 art. 183)."
+  },
+  {
+    "id": "t5-011",
+    "explanation": "La sanción se ejecuta cuando la resolución es firme en vía administrativa, es decir, cuando ya no cabe recurrirla en esa vía. No depende de un número fijo de días desde la notificación.",
+    "article": "Art. 53.1 LO 4/2015",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 53"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 40"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-012",
+    "explanation": "Nadie puede ser castigado dos veces por lo mismo: si un hecho ya se ha sancionado penal o administrativamente, no se vuelve a sancionar cuando coinciden persona, hecho y fundamento. Si puede ser delito, la Administración espera a lo que decida el juez.",
+    "article": "Art. 45.1 LO 4/2015",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 45"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 161"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "La respuesta oficial «En ningun caso» es absoluta; el art. 45.1 exige identidad de sujeto, hecho y fundamento. La explicacion matiza sin contradecir la respuesta."
+  },
+  {
+    "id": "t5-013",
+    "explanation": "Almacenar sin autorización armas largas rayadas es infracción muy grave por el riesgo que supone; el Reglamento lo castiga con multa elevada, incautación de las armas y cierre del local.",
+    "article": "Art. 155.a RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 155"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 35"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 41"
+      },
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 24"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Sin aviso: la oficial (Muy grave) es el texto literal del Reglamento consolidado, art. 155.a.2, que no ha sido modificado ni derogado expresamente. Precision: el art. 155 califica de muy grave 'por la entidad del riesgo producido', criterio que venia del art. 24 LO 1/1992 (derogada). La LO 4/2015 vigente califica esta conducta como GRAVE (art. 36.12) y solo como muy grave si se causan perjuicios muy graves (art. 35.2); su art. 41 impide al reglamento alterar la naturaleza de las infracciones y la disp. derogatoria unica.2 deroga lo que se oponga. Hay pues una posible derogacion tacita, pero no declarada en el BOE. Si se decide avisar, mejor un aviso general del tema (afecta a t5-013..016) que uno por pregunta. Confianza media por esa tension."
+  },
+  {
+    "id": "t5-014",
+    "explanation": "El Reglamento trata igual almacenar sin autorización escopetas y demás armas largas de ánima lisa que hacerlo con rifles: es infracción muy grave, con multa, incautación de las armas y cierre del local.",
+    "article": "Art. 155.a RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 155"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 35"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 41"
+      },
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 24"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Sin aviso: la oficial (Muy grave) es el texto literal del Reglamento consolidado, art. 155.a.2, que no ha sido modificado ni derogado expresamente. Precision: el art. 155 califica de muy grave 'por la entidad del riesgo producido', criterio que venia del art. 24 LO 1/1992 (derogada). La LO 4/2015 vigente califica esta conducta como GRAVE (art. 36.12) y solo como muy grave si se causan perjuicios muy graves (art. 35.2); su art. 41 impide al reglamento alterar la naturaleza de las infracciones y la disp. derogatoria unica.2 deroga lo que se oponga. Hay pues una posible derogacion tacita, pero no declarada en el BOE. Si se decide avisar, mejor un aviso general del tema (afecta a t5-013..016) que uno por pregunta. Confianza media por esa tension."
+  },
+  {
+    "id": "t5-015",
+    "explanation": "Que las medidas de seguridad obligatorias sean insuficientes al almacenar armas largas rayadas es muy grave, igual que omitirlas. Se refiere al almacenamiento como actividad (fábricas, armerías, depósitos); en el domicilio de un particular sería grave.",
+    "article": "Art. 155.d RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 155"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 35"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 41"
+      },
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 24"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Sin aviso: la oficial (Muy grave) es el texto literal del Reglamento consolidado, art. 155.d, que no ha sido modificado ni derogado expresamente. Precision: el art. 155 califica de muy grave 'por la entidad del riesgo producido', criterio que venia del art. 24 LO 1/1992 (derogada). La LO 4/2015 vigente califica esta conducta como GRAVE (art. 36.12) y solo como muy grave si se causan perjuicios muy graves (art. 35.2); su art. 41 impide al reglamento alterar la naturaleza de las infracciones y la disp. derogatoria unica.2 deroga lo que se oponga. Hay pues una posible derogacion tacita, pero no declarada en el BOE. Si se decide avisar, mejor un aviso general del tema (afecta a t5-013..016) que uno por pregunta. Confianza media por esa tension."
+  },
+  {
+    "id": "t5-016",
+    "explanation": "Omitir las medidas de seguridad obligatorias al almacenar armas largas rayadas es muy grave, y si por ello se pierden o roban armas se cierra además el local. Se refiere al almacenamiento como actividad; en casa de un particular sería grave.",
+    "article": "Art. 155.d RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 155"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 35"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 41"
+      },
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 24"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Sin aviso: la oficial (Muy grave) es el texto literal del Reglamento consolidado, art. 155.d, que no ha sido modificado ni derogado expresamente. Precision: el art. 155 califica de muy grave 'por la entidad del riesgo producido', criterio que venia del art. 24 LO 1/1992 (derogada). La LO 4/2015 vigente califica esta conducta como GRAVE (art. 36.12) y solo como muy grave si se causan perjuicios muy graves (art. 35.2); su art. 41 impide al reglamento alterar la naturaleza de las infracciones y la disp. derogatoria unica.2 deroga lo que se oponga. Hay pues una posible derogacion tacita, pero no declarada en el BOE. Si se decide avisar, mejor un aviso general del tema (afecta a t5-013..016) que uno por pregunta. Confianza media por esa tension."
+  },
+  {
+    "id": "t5-017",
+    "explanation": "La categoría «gravísima» no existe: solo hay infracciones muy graves, graves y leves. Tener una escopeta sin la documentación exigida es infracción grave, así que no vale ninguna de las dos opciones.",
+    "article": "Art. 156.f RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 34"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El art. 156.f habla de tenencia sin «autorizaciones o licencias prevenidas»; la guia de pertenencia (art. 88) se asimila. El 156.g cita expresamente la guia pero para el uso. LO 36.12 («careciendo de la documentacion») no menciona la tenencia en su lista de conductas."
+  },
+  {
+    "id": "t5-018",
+    "explanation": "El Reglamento de Armas reserva la multa más alta, de 30.050,61 a 601.012,10 euros, a las infracciones muy graves más serias, como fabricar o vender armas prohibidas o de guerra. Las otras dos horquillas son de graves y leves.",
+    "article": "Art. 155.a RD 137/1993",
+    "notice": "Ojo: el cuestionario da por buena la multa de 30.050,61 a 601.012,10 euros, que viene de la Ley Orgánica 1/1992, ya derogada. Con la Ley Orgánica 4/2015 vigente, el art. 39.1 fija para las muy graves de 30.001 a 600.000 euros.",
+    "flags": [
+      "discrepancia_norma"
+    ],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 155"
+      },
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 28"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 39"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Cifra literal del Reglamento art. 155.a.1 (30.050,61 a 601.012,1 EUR; otros supuestos del 155 tienen topes menores). Procede del art. 28.1.a LO 1/1992 (derogada; alli 30.050,62 a 601.012,1, conversion oficial de pesetas). El Reglamento consolidado no se ha actualizado, pero la LO 4/2015 art. 39.1 (rango superior; disp. derogatoria unica.2) fija 30.001-600.000. Se cita el Reglamento porque la pregunta dice 'al Reglamento de Armas' y la cifra coincide al centimo; la opcion B (300,51-3.005,06) es un tramo de graves del 156.c."
+  },
+  {
+    "id": "t5-019",
+    "explanation": "La ballesta es un arma de la 7.ª categoría. Reparar, fabricar o almacenar sin autorización armas de las categorías 4.ª a 7.ª, igual que armas blancas o de aire comprimido, es infracción grave.",
+    "article": "Art. 156.a RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-020",
+    "explanation": "El arma para lanzar cabos es un arma de la 7.ª categoría. Reparar, fabricar o almacenar sin autorización armas de las categorías 4.ª a 7.ª, igual que armas blancas o de aire comprimido, es infracción grave.",
+    "article": "Art. 156.a RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-021",
+    "explanation": "La ballesta es un arma de la 7.ª categoría. Almacenar, fabricar o reparar sin autorización armas de las categorías 4.ª a 7.ª, igual que armas blancas o de aire comprimido, es infracción grave.",
+    "article": "Art. 156.a RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-022",
+    "explanation": "El arma para lanzar cabos es un arma de la 7.ª categoría. Almacenar, fabricar o reparar sin autorización armas de las categorías 4.ª a 7.ª, igual que armas blancas o de aire comprimido, es infracción grave.",
+    "article": "Art. 156.a RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-023",
+    "explanation": "Omitir las medidas de seguridad obligatorias al almacenar escopetas u otras armas de licencia E es infracción grave; si por ello se pierden o roban armas, además se cierra el local.",
+    "article": "Art. 156.b RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-024",
+    "explanation": "Que las medidas de seguridad obligatorias sean insuficientes al almacenar armas de licencia E es infracción grave, igual que omitirlas; si por ello se pierden o roban armas, además se cierra el local.",
+    "article": "Art. 156.b RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-025",
+    "explanation": "Omitir las medidas de seguridad obligatorias mientras circulan armas de licencia E, como escopetas, es infracción grave. El Reglamento castiga igual la omisión, la insuficiencia o la falta de eficacia de esas medidas.",
+    "article": "Art. 156.b RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-026",
+    "explanation": "Que las medidas de seguridad obligatorias sean insuficientes durante la circulación de armas de licencia E es infracción grave, igual que omitirlas o que no sean eficaces.",
+    "article": "Art. 156.b RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-027",
+    "explanation": "Si un particular protege de forma insuficiente en su casa un arma larga rayada, comete infracción grave; si por ello la pierde o se la roban, la multa sube y se le pueden retirar las licencias.",
+    "article": "Art. 156.c RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-028",
+    "explanation": "Omitir en el domicilio las medidas de seguridad obligatorias para un arma larga rayada es infracción grave; si por ello se pierde o la roban, la multa sube y pueden retirarse las licencias.",
+    "article": "Art. 156.c RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-029",
+    "explanation": "Las medidas de seguridad obligatorias para un arma larga rayada se exigen también en el lugar de uso, no solo en casa. Omitirlas allí es infracción grave.",
+    "article": "Art. 156.c RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-030",
+    "explanation": "Proteger de forma insuficiente en casa un arma larga de ánima lisa, como una escopeta, es infracción grave, aunque con multa menor que la de los rifles.",
+    "article": "Art. 156.d RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-031",
+    "explanation": "Omitir en el domicilio las medidas de seguridad obligatorias para una escopeta u otra arma larga de ánima lisa es infracción grave; la multa sube si por ello se pierde o la roban.",
+    "article": "Art. 156.d RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-032",
+    "explanation": "Las medidas de seguridad obligatorias para armas largas de ánima lisa también rigen en el lugar de uso. Omitirlas allí es infracción grave.",
+    "article": "Art. 156.d RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-033",
+    "explanation": "Impedir los controles o inspecciones sobre la tenencia de armas de fuego, o negarse a colaborar en ellos, es infracción grave; además de la multa puede suspenderse la autorización.",
+    "article": "Art. 156.e RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-034",
+    "explanation": "Impedir los controles o inspecciones sobre la utilización de armas de fuego, o negarse a colaborar en ellos, es infracción grave; además de la multa puede suspenderse la autorización.",
+    "article": "Art. 156.e RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-035",
+    "explanation": "Impedir los controles o inspecciones sobre el almacenamiento de armas de fuego, o negarse a colaborar en ellos, es infracción grave; además de la multa puede suspenderse la autorización.",
+    "article": "Art. 156.e RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-036",
+    "explanation": "Los rifles de caza mayor (2.ª.2) y las escopetas (3.ª.2) necesitan licencia. Adquirir estas armas sin las licencias o autorizaciones exigidas es infracción grave.",
+    "article": "Art. 156.f RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-037",
+    "explanation": "Los rifles de caza mayor (2.ª.2) y las escopetas (3.ª.2) necesitan licencia. Tener estas armas sin las licencias o autorizaciones exigidas es infracción grave.",
+    "article": "Art. 156.f RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-038",
+    "explanation": "Los rifles de caza mayor (2.ª.2) y las escopetas (3.ª.2) necesitan licencia. Ceder estas armas sin las licencias o autorizaciones exigidas es infracción grave.",
+    "article": "Art. 156.f RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-039",
+    "explanation": "Los rifles de caza mayor (2.ª.2) y las escopetas (3.ª.2) necesitan licencia. Vender o transmitir estas armas sin las licencias o autorizaciones exigidas es infracción grave.",
+    "article": "Art. 156.f RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-040",
+    "explanation": "Dar datos o circunstancias falsos para conseguir una licencia de armas se castiga igual que no tenerla: es infracción grave.",
+    "article": "Art. 156.f RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-041",
+    "explanation": "Usar un arma de fuego omitiendo las precauciones obligatorias para la seguridad de personas y cosas es infracción grave, con multa y retirada de armas, licencias y guías de seis meses y un día a dos años.",
+    "article": "Art. 156.h RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-042",
+    "explanation": "Usar un arma de fuego con precauciones insuficientes para la seguridad de personas y cosas es infracción grave, igual que no tomarlas, con multa y retirada de armas, licencias y guías.",
+    "article": "Art. 156.h RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-043",
+    "explanation": "Llevar armas de cualquier clase en establecimientos públicos es infracción grave, con multa, incautación de las armas y, en su caso, retirada de licencias. Solo se exceptúan los sitios habilitados para usarlas, como un campo de tiro.",
+    "article": "Art. 156.i RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 146"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-044",
+    "explanation": "Llevar armas de cualquier clase en lugares de reunión es infracción grave, con multa, incautación de las armas y, en su caso, retirada de licencias. Solo se exceptúan los sitios habilitados para usarlas, como un campo de tiro.",
+    "article": "Art. 156.i RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 146"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-045",
+    "explanation": "Llevar armas de cualquier clase en lugares de concentración es infracción grave, con multa, incautación de las armas y, en su caso, retirada de licencias. Solo se exceptúan los sitios habilitados para usarlas, como un campo de tiro.",
+    "article": "Art. 156.i RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 146"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-046",
+    "explanation": "Llevar armas de cualquier clase en lugares de recreo es infracción grave, con multa, incautación de las armas y, en su caso, retirada de licencias. Solo se exceptúan los sitios habilitados para usarlas, como un campo de tiro.",
+    "article": "Art. 156.i RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 146"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-047",
+    "explanation": "Llevar armas de cualquier clase en lugares de esparcimiento es infracción grave, con multa, incautación de las armas y, en su caso, retirada de licencias. Solo se exceptúan los sitios habilitados para usarlas, como un campo de tiro.",
+    "article": "Art. 156.i RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 146"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-048",
+    "explanation": "Las armas de la 2.ª.2 deben guardarse en casa en caja fuerte o armero autorizado. No tenerlo es omitir una medida de seguridad obligatoria en el domicilio, lo que con rifles es infracción grave.",
+    "article": "Art. 156.c RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-049",
+    "explanation": "Con la licencia caducada ya no tienes licencia en vigor, y tener una escopeta sin la licencia exigida es infracción grave. No importan los días que hayan pasado ni que haya sido un despiste.",
+    "article": "Art. 156.f RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Ningun articulo del corpus menciona la licencia caducada; se asimila a tenencia sin licencia (156.f)."
+  },
+  {
+    "id": "t5-050",
+    "explanation": "Dar un domicilio en el que no vives para documentar un arma es alegar datos falsos, y con una escopeta eso es infracción grave.",
+    "article": "Art. 156.f RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-051",
+    "explanation": "Debes presentar tus armas y su documentación a cualquier autoridad o agente que te lo pida, también a la Policía Nacional. Negarte impide el control de la tenencia de un rifle, y eso es infracción grave.",
+    "article": "Art. 156.e RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 144"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Sin aviso: la oficial (Grave) es defendible con el Reglamento consolidado. Deber de presentar las armas a autoridades o sus agentes: art. 144.1.b. Una negativa activa encaja en el art. 156.e (impedimento de la colaboracion obligatoria en controles sobre tenencia y utilizacion de armas largas rayadas: grave). Lo que el art. 157.b califica de LEVE es la 'omision ... de la exhibicion' cuando es obligatoria, que se lee como un no presentar pasivo (p. ej. no acudir), no como negarse ante el agente. En la LO 4/2015 vigente la negativa encaja ademas en el art. 36.6 (desobediencia a agentes: grave). Revisor: confirmar esta lectura 156.e frente a 157.b."
+  },
+  {
+    "id": "t5-052",
+    "explanation": "En el Reglamento de Armas, la multa general de las infracciones graves va de 300,51 a 30.050,61 euros; la horquilla más alta es la de las muy graves y la de hasta 300,51 euros, la de las leves.",
+    "article": "Art. 156.a RD 137/1993",
+    "notice": "Ojo: el cuestionario da por buena la multa de 300,51 a 30.050,61 euros, que viene de la Ley Orgánica 1/1992, ya derogada. Con la Ley Orgánica 4/2015 vigente, el art. 39.1 fija para las graves de 601 a 30.000 euros.",
+    "flags": [
+      "discrepancia_norma"
+    ],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 28"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 39"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Cifra literal del Reglamento art. 156.a y b (300,51 a 30.050,61 EUR; otras letras del 156 tienen topes menores). Procede del art. 28.1.a LO 1/1992 (derogada; alli 300,52 a 30.050,61). Vigente: LO 4/2015 art. 39.1 = 601-30.000 EUR."
+  },
+  {
+    "id": "t5-053",
+    "explanation": "La ballesta es de la 7.ª categoría, y adquirir ballestas sin las licencias exigidas es leve: en armas de las categorías 4.ª a 7.ª esta conducta baja de grave a leve. Con rifles o escopetas sería grave.",
+    "article": "Art. 157.a RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 41"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Sin aviso: la oficial (Leve) es el texto literal del Reglamento consolidado, art. 157.a (remite al 156.f para armas de las categorias 4.a a 7.a; la ballesta es 7.a, art. 3). Precision: la LO 4/2015 vigente califica como GRAVE la adquisicion de armas reglamentarias careciendo de la documentacion o autorizacion requeridas (art. 36.12), sin distinguir categorias, y su art. 37 no tiene un tipo leve equivalente; el art. 41 impide al reglamento alterar la naturaleza de las infracciones. La misma tension existia con la LO 1/1992 (art. 23.a, grave), y el Reglamento no se ha modificado ni derogado expresamente. Si se decide avisar, mejor un aviso general del tema (t5-053..056). Confianza media por esa tension."
+  },
+  {
+    "id": "t5-054",
+    "explanation": "La ballesta es de la 7.ª categoría, y tener ballestas sin las licencias exigidas es leve: en armas de las categorías 4.ª a 7.ª esta conducta baja de grave a leve. Con rifles o escopetas sería grave.",
+    "article": "Art. 157.a RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 41"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Sin aviso: la oficial (Leve) es el texto literal del Reglamento consolidado, art. 157.a (remite al 156.f para armas de las categorias 4.a a 7.a; la ballesta es 7.a, art. 3). Precision: la LO 4/2015 vigente califica como GRAVE la conducta (el 36.12 no nombra la mera tenencia: habla de adquisicion, almacenamiento, utilizacion...; encaje discutible) de armas reglamentarias careciendo de la documentacion o autorizacion requeridas (art. 36.12), sin distinguir categorias, y su art. 37 no tiene un tipo leve equivalente; el art. 41 impide al reglamento alterar la naturaleza de las infracciones. La misma tension existia con la LO 1/1992 (art. 23.a, grave), y el Reglamento no se ha modificado ni derogado expresamente. Si se decide avisar, mejor un aviso general del tema (t5-053..056). Confianza media por esa tension."
+  },
+  {
+    "id": "t5-055",
+    "explanation": "La ballesta es de la 7.ª categoría, y ceder ballestas sin las licencias exigidas es leve: en armas de las categorías 4.ª a 7.ª esta conducta baja de grave a leve. Con rifles o escopetas sería grave.",
+    "article": "Art. 157.a RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 41"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Sin aviso: la oficial (Leve) es el texto literal del Reglamento consolidado, art. 157.a (remite al 156.f para armas de las categorias 4.a a 7.a; la ballesta es 7.a, art. 3). Precision: la LO 4/2015 vigente califica como GRAVE la cesion (como enajenacion o circulacion) de armas reglamentarias careciendo de la documentacion o autorizacion requeridas (art. 36.12), sin distinguir categorias, y su art. 37 no tiene un tipo leve equivalente; el art. 41 impide al reglamento alterar la naturaleza de las infracciones. La misma tension existia con la LO 1/1992 (art. 23.a, grave), y el Reglamento no se ha modificado ni derogado expresamente. Si se decide avisar, mejor un aviso general del tema (t5-053..056). Confianza media por esa tension."
+  },
+  {
+    "id": "t5-056",
+    "explanation": "La ballesta es de la 7.ª categoría, y vender o transmitir ballestas sin las licencias exigidas es leve: en armas de las categorías 4.ª a 7.ª esta conducta baja de grave a leve. Con rifles o escopetas sería grave.",
+    "article": "Art. 157.a RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 36"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 41"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Sin aviso: la oficial (Leve) es el texto literal del Reglamento consolidado, art. 157.a (remite al 156.f para armas de las categorias 4.a a 7.a; la ballesta es 7.a, art. 3). Precision: la LO 4/2015 vigente califica como GRAVE la enajenacion de armas reglamentarias careciendo de la documentacion o autorizacion requeridas (art. 36.12), sin distinguir categorias, y su art. 37 no tiene un tipo leve equivalente; el art. 41 impide al reglamento alterar la naturaleza de las infracciones. La misma tension existia con la LO 1/1992 (art. 23.a, grave), y el Reglamento no se ha modificado ni derogado expresamente. Si se decide avisar, mejor un aviso general del tema (t5-053..056). Confianza media por esa tension."
+  },
+  {
+    "id": "t5-057",
+    "explanation": "No avisar a la Guardia Civil de que se ha destruido la licencia o la guía de un arma es infracción leve, con multa y retirada de las armas.",
+    "article": "Art. 157.d RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 144"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 37"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-058",
+    "explanation": "No avisar a la Guardia Civil de que se ha perdido la licencia o la guía de un arma es infracción leve, con multa y retirada de las armas.",
+    "article": "Art. 157.d RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 144"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 37"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-059",
+    "explanation": "No avisar a la Guardia Civil de que te han sustraído la licencia o la guía de un arma es infracción leve, con multa y retirada de las armas.",
+    "article": "Art. 157.d RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 144"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 37"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-060",
+    "explanation": "No hacer las declaraciones obligatorias o no dar otra información exigida es infracción leve; la multa es mayor para los armeros profesionales que para los particulares.",
+    "article": "Art. 157.e RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-061",
+    "explanation": "No pasar la revista obligatoria de las armas es infracción leve, con multa y retirada de las armas. Además, faltar a dos revistas seguidas supone la anulación de la guía de pertenencia.",
+    "article": "Art. 157.b RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-062",
+    "explanation": "En el Reglamento de Armas, las infracciones leves se castigan con multa de hasta 300,51 euros, la cuantía más baja; las otras horquillas superan ese tope.",
+    "article": "Art. 157 RD 137/1993",
+    "notice": "Ojo: el cuestionario da por buena la multa de hasta 300,51 euros, que viene de la Ley Orgánica 1/1992, ya derogada. Con la Ley Orgánica 4/2015 vigente, el art. 39.1 fija para las leves de 100 a 600 euros.",
+    "flags": [
+      "discrepancia_norma"
+    ],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      },
+      {
+        "norma": "BOE-A-1992-4252",
+        "ref": "art. 28"
+      },
+      {
+        "norma": "BOE-A-2015-3442",
+        "ref": "art. 39"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Reglamento art. 157 (letras a, b.1, c.1, e.1 y f): hasta 300,51 EUR; algunos supuestos hasta 150,25. Igual que el art. 28.1.a LO 1/1992 (derogada). Vigente: LO 4/2015 art. 39.1 = 100-600 EUR. Las opciones A y B (3.005,07-6.010,12 y 300,51-3.005,06) son tramos de graves del art. 156.c."
+  },
+  {
+    "id": "t5-063",
+    "explanation": "Retirar las armas supone quitártelas y prohibirte comprar o tener otras durante el plazo fijado, que no puede pasar de dos años. No es una subasta ni un simple no usarlas.",
+    "article": "Art. 158.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 158"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-064",
+    "explanation": "El Reglamento considera en general ilícito llevar o usar armas a quien acude a establecimientos públicos o lugares de reunión. Ir armado a una manifestación no es lícito: se denuncia ante el juez.",
+    "article": "Art. 146.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 146"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 148"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t5-065",
+    "explanation": "Recortar los cañones de una escopeta la convierte en un arma larga de cañones recortados, que está prohibida, sean diez centímetros o más. Ninguna autorización lo permite a un particular.",
+    "article": "Art. 5.1.c RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 5"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 4"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "«Ninguna autorizacion te permite hacerlo en casa»: art. 5.1 solo exceptua a funcionarios habilitados y art. 26.4 exige que las modificaciones pasen por la Intervencion de Armas; comprobar que la frase no resulta excesiva."
+  },
+  {
+    "id": "t5-066",
+    "explanation": "Tener sin autorización un cargador de arma corta para más de 20 cartuchos es infracción grave que lleva multa, incautación de los cargadores y retirada de todas las licencias de armas de fuego. Por eso valen las dos.",
+    "article": "Art. 156.k RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 156"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 5"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "156.k se refiere a cargadores para armas semiautomaticas de percusion central; el enunciado no lo precisa."
+  }
+]

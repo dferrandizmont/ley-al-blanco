@@ -1,0 +1,182 @@
+[
+  {
+    "id": "t5-004",
+    "verdict": "corregir",
+    "problems": [
+      "Dice que esas autoridades «abren y tramitan» el expediente: la autoridad ordena abrirlo (incoación), pero la tramitación la hace un instructor. La pregunta es justo quién ordena la instrucción.",
+      "review_notes dice que el corpus no tiene artículo expreso: sí lo hay, LO 1/1992 art. 31.3 (derogada), que es la base de la respuesta oficial."
+    ],
+    "suggested_explanation": "Ordenar que se abra el expediente sancionador corresponde a las autoridades de seguridad con competencia en armas: Director General de la Guardia Civil, Delegados del Gobierno y, en algunos casos, alcaldes. El Interventor de Armas controla e inspecciona, pero no está entre ellas.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 1/1992 art. 31.3 (derogada): «Será competente para ordenar la incoación de los expedientes sancionadores, independientemente de la sanción que en definitiva proceda imponer, cualquiera de las autoridades relacionadas en el artículo 2» (art. 2: Ministro, órganos directivos de Interior, Gobernadores civiles/Delegados del Gobierno). RD 137/1993 art. 159.1-2: Delegados del Gobierno, Alcaldes (leves de arts. 105 y 149.5) y Dirección General de la Guardia Civil. Se mantiene Art. 159 RD 137/1993 como artículo vigente."
+  },
+  {
+    "id": "t5-005",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 1/1992 art. 27: «prescribirán a los tres meses, al año o a los dos años de haberse cometido, según sean leves, graves o muy graves». LO 4/2015 art. 38.1: «a los seis meses, al año o a los dos años». Aviso exacto y claro."
+  },
+  {
+    "id": "t5-010",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 1/1992 art. 28.4: «Las sanciones prescribirán al año, dos años o cuatro años, según que las correspondientes infracciones hayan sido calificadas de leves, graves o muy graves». LO 4/2015 art. 40.1: «Las sanciones impuestas por infracciones muy graves prescribirán a los tres años». (El LEEME se equivoca al decir que la LO 1/1992 no regula la prescripción de sanciones.)"
+  },
+  {
+    "id": "t5-012",
+    "verdict": "corregir",
+    "problems": [
+      "La última frase («la Administración espera a lo que decida el juez») empuja hacia la trampa «Dependerá de la Autoridad Judicial» sin aclarar por qué no vale: esperar al juez no hace que la doble sanción dependa de él.",
+      "«Fundamento» es jerga sin explicar para el lector objetivo."
+    ],
+    "suggested_explanation": "Por un mismo hecho no se castiga dos veces: si un juez ya lo ha penado, la Administración no te multa además. Si el hecho puede ser delito, el expediente se para hasta que el juez decida, pero eso no hace que la doble sanción dependa de él: no cabe nunca.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 4/2015 art. 45.1: «No podrán sancionarse los hechos que hayan sido sancionados penal o administrativamente cuando se aprecie identidad de sujeto, de hecho y de fundamento»; 45.2: el órgano administrativo «se abstendrá de seguir el procedimiento sancionador mientras la autoridad judicial no dicte sentencia firme». La respuesta oficial reproduce LO 1/1992 art. 32.1: «No se podrán imponer sanciones penales y administrativas por unos mismos hechos»."
+  },
+  {
+    "id": "t5-013",
+    "verdict": "corregir",
+    "problems": [
+      "Falta aviso: la LO 4/2015 vigente cambió el criterio (ya no basta el riesgo; para muy grave exige perjuicios muy graves) y califica la conducta de grave en el art. 36.12. Es el mismo choque Reglamento/LO 4/2015 que ya se avisa en las multas (t5-018, t5-052, t5-062) y aquí no se avisa.",
+      "Añadir flag discrepancia_norma (confidence media)."
+    ],
+    "suggested_explanation": null,
+    "suggested_article": "Art. 155.a.2 RD 137/1993",
+    "suggested_notice": "Ojo: el cuestionario da por buena «muy grave», como dice el art. 155 del Reglamento de Armas. La Ley Orgánica 4/2015 vigente, que está por encima del Reglamento, considera esta conducta grave (art. 36.12) y solo muy grave si causa perjuicios muy graves (art. 35.2).",
+    "evidence": "RD 137/1993 art. 155: «serán consideradas infracciones muy graves por la entidad del riesgo producido» (criterio del art. 24 LO 1/1992, derogada: «podrán ser consideradas muy graves, teniendo en cuenta la entidad del riesgo producido»). LO 4/2015 art. 36.12 (graves): «La fabricación, reparación, almacenamiento ... careciendo de la documentación o autorización requeridas ... así como la omisión, insuficiencia, o falta de eficacia de las medidas de seguridad»; art. 35.2 (muy graves): la misma conducta «siempre que en tales actuaciones se causen perjuicios muy graves»; art. 41: el reglamento no puede «alterar su naturaleza y límites». Art. 155.a.2 recoge «armas largas rayadas ... sin la pertinente autorización»; es el apartado concreto (el a.1 es de armas prohibidas o de guerra)."
+  },
+  {
+    "id": "t5-014",
+    "verdict": "corregir",
+    "problems": [
+      "Falta aviso: la LO 4/2015 vigente cambió el criterio (ya no basta el riesgo; para muy grave exige perjuicios muy graves) y califica la conducta de grave en el art. 36.12. Es el mismo choque Reglamento/LO 4/2015 que ya se avisa en las multas (t5-018, t5-052, t5-062) y aquí no se avisa.",
+      "Añadir flag discrepancia_norma (confidence media)."
+    ],
+    "suggested_explanation": null,
+    "suggested_article": "Art. 155.a.2 RD 137/1993",
+    "suggested_notice": "Ojo: el cuestionario da por buena «muy grave», como dice el art. 155 del Reglamento de Armas. La Ley Orgánica 4/2015 vigente, que está por encima del Reglamento, considera esta conducta grave (art. 36.12) y solo muy grave si causa perjuicios muy graves (art. 35.2).",
+    "evidence": "RD 137/1993 art. 155: «serán consideradas infracciones muy graves por la entidad del riesgo producido» (criterio del art. 24 LO 1/1992, derogada: «podrán ser consideradas muy graves, teniendo en cuenta la entidad del riesgo producido»). LO 4/2015 art. 36.12 (graves): «La fabricación, reparación, almacenamiento ... careciendo de la documentación o autorización requeridas ... así como la omisión, insuficiencia, o falta de eficacia de las medidas de seguridad»; art. 35.2 (muy graves): la misma conducta «siempre que en tales actuaciones se causen perjuicios muy graves»; art. 41: el reglamento no puede «alterar su naturaleza y límites». Art. 155.a.2 incluye «armas largas de ánima lisa, sin la pertinente autorización»."
+  },
+  {
+    "id": "t5-015",
+    "verdict": "corregir",
+    "problems": [
+      "Falta aviso: la LO 4/2015 vigente cambió el criterio (ya no basta el riesgo; para muy grave exige perjuicios muy graves) y califica la conducta de grave en el art. 36.12. Es el mismo choque Reglamento/LO 4/2015 que ya se avisa en las multas (t5-018, t5-052, t5-062) y aquí no se avisa.",
+      "Añadir flag discrepancia_norma (confidence media)."
+    ],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": "Ojo: el cuestionario da por buena «muy grave», como dice el art. 155 del Reglamento de Armas. La Ley Orgánica 4/2015 vigente, que está por encima del Reglamento, considera esta conducta grave (art. 36.12) y solo muy grave si causa perjuicios muy graves (art. 35.2).",
+    "evidence": "RD 137/1993 art. 155: «serán consideradas infracciones muy graves por la entidad del riesgo producido» (criterio del art. 24 LO 1/1992, derogada: «podrán ser consideradas muy graves, teniendo en cuenta la entidad del riesgo producido»). LO 4/2015 art. 36.12 (graves): «La fabricación, reparación, almacenamiento ... careciendo de la documentación o autorización requeridas ... así como la omisión, insuficiencia, o falta de eficacia de las medidas de seguridad»; art. 35.2 (muy graves): la misma conducta «siempre que en tales actuaciones se causen perjuicios muy graves»; art. 41: el reglamento no puede «alterar su naturaleza y límites». La explicación es correcta: 155.d (fases de fabricación, reparación, almacenamiento... de armas largas rayadas) frente a 156.c (particulares en domicilios: grave)."
+  },
+  {
+    "id": "t5-016",
+    "verdict": "corregir",
+    "problems": [
+      "Falta aviso: la LO 4/2015 vigente cambió el criterio (ya no basta el riesgo; para muy grave exige perjuicios muy graves) y califica la conducta de grave en el art. 36.12. Es el mismo choque Reglamento/LO 4/2015 que ya se avisa en las multas (t5-018, t5-052, t5-062) y aquí no se avisa.",
+      "Añadir flag discrepancia_norma (confidence media)."
+    ],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": "Ojo: el cuestionario da por buena «muy grave», como dice el art. 155 del Reglamento de Armas. La Ley Orgánica 4/2015 vigente, que está por encima del Reglamento, considera esta conducta grave (art. 36.12) y solo muy grave si causa perjuicios muy graves (art. 35.2).",
+    "evidence": "RD 137/1993 art. 155: «serán consideradas infracciones muy graves por la entidad del riesgo producido» (criterio del art. 24 LO 1/1992, derogada: «podrán ser consideradas muy graves, teniendo en cuenta la entidad del riesgo producido»). LO 4/2015 art. 36.12 (graves): «La fabricación, reparación, almacenamiento ... careciendo de la documentación o autorización requeridas ... así como la omisión, insuficiencia, o falta de eficacia de las medidas de seguridad»; art. 35.2 (muy graves): la misma conducta «siempre que en tales actuaciones se causen perjuicios muy graves»; art. 41: el reglamento no puede «alterar su naturaleza y límites». La explicación es correcta: 155.d prevé la clausura si se produce «pérdida, sustracción o robo de armas»."
+  },
+  {
+    "id": "t5-017",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 4/2015 art. 34: «se clasifican en muy graves, graves y leves» (no existe «gravísima»). RD 137/1993 art. 156.f: «tenencia ... de armas por particulares, sin tener las autorizaciones o licencias prevenidas ... armas de ánima lisa» (grave); el art. 88 exige guía de pertenencia para la tenencia. Encaje de la guía en el 156.f razonable (confianza media correcta)."
+  },
+  {
+    "id": "t5-018",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 155.a.1: «multa de 30.050,61 a 601.012,1 euros» (armas prohibidas o de guerra); la opción B es el tramo de graves del 156.c (300,51 a 3.005,06). LO 4/2015 art. 39.1: «Las infracciones muy graves se sancionarán con multa de 30.001 a 600.000 euros»."
+  },
+  {
+    "id": "t5-049",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 156.f (tenencia sin las licencias prevenidas, ánima lisa: grave). No hay periodo de gracia tras la caducidad: el art. 103 solo prevé autorizaciones temporales de tres meses cuando se pide la renovación de licencias «próximas a caducar»."
+  },
+  {
+    "id": "t5-051",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 144.1.b: obligación de «presentar las armas a las autoridades o a sus agentes, siempre que les requieran para ello»; art. 156.e: «El impedimento o la omisión de la colaboración obligatoria para la realización de los controles ... tenencia y utilización» de armas largas rayadas (grave). El 157.b (leve) es la «omisión ... de la exhibición»; la negativa activa encaja mejor en el 156.e (y en LO 4/2015 art. 36.6, desobediencia a agentes, grave). Las opciones no incluyen «leve»."
+  },
+  {
+    "id": "t5-052",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 156.a: «multas de 300,51 a 30.050,61 euros» (otras letras tienen topes menores; «general» lo matiza bien). LO 4/2015 art. 39.1: «las graves, con multa de 601 a 30.000 euros»."
+  },
+  {
+    "id": "t5-053",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 7.ª categoría: «2. Las ballestas»; art. 157.a: «Las tipificadas en los apartados b) a f) del artículo anterior, referidas a ... las demás comprendidas en las categorías 4.ª a 7.ª, con multas de hasta 300,51 euros»; el 156.f incluye la adquisición. Sin aviso: la LO 4/2015 art. 36.12 llama grave a la adquisición sin documentación, pero ese desfase ya existía con la LO 1/1992 (art. 23.a, grave) y no lo crea la reforma; queda a decisión humana, como dicen las review_notes."
+  },
+  {
+    "id": "t5-054",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 157.a en relación con el 156.f («adquisición, tenencia, cesión o enajenación de armas por particulares, sin tener las autorizaciones o licencias») y art. 3 (ballesta, 7.ª categoría). La LO 4/2015 art. 36.12 no menciona la tenencia; no procede aviso."
+  },
+  {
+    "id": "t5-055",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 157.a + 156.f (cesión) y art. 3 (ballesta, 7.ª). Mismo razonamiento que t5-053 sobre la falta de aviso."
+  },
+  {
+    "id": "t5-056",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 157.a + 156.f (enajenación) y art. 3 (ballesta, 7.ª). «Vender o transmitir» explica bien «enajenación». Mismo razonamiento que t5-053 sobre la falta de aviso."
+  },
+  {
+    "id": "t5-062",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 157: tope «hasta 300,51 euros» (algunos supuestos hasta 150,25, no lo contradice). LO 4/2015 art. 39.1: «las leves, con multa de 100 a 600 euros». Las opciones A y B son tramos del 156.c."
+  }
+]

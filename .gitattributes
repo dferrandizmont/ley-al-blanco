@@ -1,0 +1,10 @@
+# LF everywhere (the repo is used from Windows and macOS).
+* text=auto eol=lf
+
+# Byte-exact: the app verifies questions.json against manifest.json's sha256.
+app/assets/content/** -text
+tool/content/reports/** -text
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jks binary

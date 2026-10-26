@@ -1,0 +1,435 @@
+{
+  "id": "t5",
+  "tema": 5,
+  "title": "Régimen sancionador",
+  "summary": "Qué conductas con armas son infracción muy grave, grave o leve, quién sanciona, las multas y la prescripción. Clave para el examen: clasificar una conducta según el arma y los plazos.",
+  "sections": [
+    {
+      "title": "Delito o infracción administrativa",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Un hecho con armas puede ser delito, que juzgan los tribunales, o infracción administrativa, que sanciona la Administración. Las infracciones del Reglamento solo se aplican «si no constituyen delito»."
+        },
+        {
+          "type": "p",
+          "text": "Si el hecho puede ser delito, se pasa al Ministerio Fiscal y el expediente se para hasta que decida el juez. Nunca se castiga dos veces lo mismo (mismo sujeto, hecho y fundamento)."
+        },
+        {
+          "type": "p",
+          "text": "Las infracciones administrativas son muy graves, graves y leves. No existen las «menos graves» ni las «gravísimas»."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: los hechos pueden ser infracciones penales y administrativas, y por un mismo hecho no se imponen ambas sanciones en ningún caso."
+        }
+      ],
+      "articles": [
+        "Art. 161 RD 137/1993",
+        "Art. 34 LO 4/2015",
+        "Art. 45 LO 4/2015"
+      ]
+    },
+    {
+      "title": "Quién sanciona",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Los Delegados del Gobierno sancionan en general las graves y leves; los alcaldes, algunas leves. En fabricación, reparación, almacenamiento, distribución, circulación y comercio, la Dirección General de la Guardia Civil sanciona las graves y leves y propone la sanción de las muy graves."
+        },
+        {
+          "type": "p",
+          "text": "Con la Ley Orgánica 4/2015 vigente, las muy graves las sancionan el Ministro del Interior o el Secretario de Estado de Seguridad, según su grado."
+        },
+        {
+          "type": "key",
+          "text": "En el examen valen tanto el Delegado del Gobierno y el Director General de la Guardia Civil como el alcalde. El Interventor de Armas inspecciona, pero no ordena abrir el expediente."
+        }
+      ],
+      "articles": [
+        "Art. 159 RD 137/1993",
+        "Art. 32 LO 4/2015"
+      ]
+    },
+    {
+      "title": "Qué conducta es muy grave, grave o leve",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "La clase depende sobre todo del tipo de arma: la misma falta pesa más con rifles y escopetas que con ballestas u otras armas de las categorías 4.ª a 7.ª. Y almacenar como actividad (armerías) no es lo mismo que guardar armas en casa."
+        },
+        {
+          "type": "table",
+          "caption": "Rifles, escopetas y armas de fuego",
+          "headers": [
+            "Conducta (si no es delito)",
+            "Clase",
+            "Artículo"
+          ],
+          "rows": [
+            [
+              "Fabricar, reparar o almacenar rifles o escopetas sin permiso",
+              "Muy grave",
+              "155.a.2"
+            ],
+            [
+              "Sin seguridad suficiente al almacenar rifles (actividad)",
+              "Muy grave",
+              "155.d"
+            ],
+            [
+              "Usar armas cortas sin licencia o sin guía",
+              "Muy grave",
+              "155.c"
+            ],
+            [
+              "Sin seguridad al almacenar o circular: escopetas, lic. E",
+              "Grave",
+              "156.b"
+            ],
+            [
+              "Seguridad en casa o lugar de uso: rifles (p. ej. sin armero)",
+              "Grave",
+              "156.c"
+            ],
+            [
+              "Seguridad en casa o lugar de uso: escopetas",
+              "Grave",
+              "156.d"
+            ],
+            [
+              "Impedir controles o negarse a presentar el arma",
+              "Grave",
+              "156.e"
+            ],
+            [
+              "Adquirir, tener, ceder o vender sin licencia; datos falsos",
+              "Grave",
+              "156.f"
+            ],
+            [
+              "Usar armas sin las precauciones de seguridad obligatorias",
+              "Grave",
+              "156.h"
+            ],
+            [
+              "Portar armas en locales públicos, reuniones o de recreo",
+              "Grave",
+              "156.i"
+            ],
+            [
+              "Cargadores de más de 20 (corta) o 10 (larga) sin permiso",
+              "Grave",
+              "156.k"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Ballestas, cat. 4.ª a 7.ª y obligaciones de aviso",
+          "headers": [
+            "Conducta (si no es delito)",
+            "Clase",
+            "Artículo"
+          ],
+          "rows": [
+            [
+              "Reparar o almacenar sin autorización ballestas o lanzacabos",
+              "Grave",
+              "156.a"
+            ],
+            [
+              "Adquirir, tener, ceder o vender ballestas sin autorización",
+              "Leve",
+              "157.a"
+            ],
+            [
+              "No pasar revista, no depositar o no exhibir el arma",
+              "Leve",
+              "157.b"
+            ],
+            [
+              "No avisar de la pérdida o robo de licencia o guía",
+              "Leve",
+              "157.d"
+            ],
+            [
+              "No hacer las declaraciones obligatorias",
+              "Leve",
+              "157.e"
+            ]
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Trampas: almacenar rifles sin autorización es muy grave; omitir la seguridad en tu casa, grave. Con ballestas, reparar o almacenar es grave y tenerlas, leve. Tener una escopeta con la licencia caducada, aunque sea de días, es grave."
+        },
+        {
+          "type": "notice",
+          "text": "Ojo: el cuestionario da por buena «muy grave» para almacenar sin autorización o sin medidas de seguridad, como dice el art. 155 del Reglamento. La Ley Orgánica 4/2015 vigente lo considera grave (art. 36.12) y solo muy grave si causa perjuicios muy graves (art. 35.2)."
+        },
+        {
+          "type": "p",
+          "text": "Llevar armas a establecimientos públicos o lugares de reunión es en general ilícito. Y no puedes recortar los cañones de una escopeta: las armas largas de cañones recortados están prohibidas."
+        }
+      ],
+      "articles": [
+        "Art. 5.1.c RD 137/1993",
+        "Art. 155 RD 137/1993",
+        "Art. 156 RD 137/1993",
+        "Art. 157 RD 137/1993",
+        "Art. 146.2 RD 137/1993",
+        "Art. 36.12 LO 4/2015"
+      ]
+    },
+    {
+      "title": "Multas y retirada de armas",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Multas: lo que pide el examen y lo vigente",
+          "headers": [
+            "Clase",
+            "Examen (Reglamento)",
+            "Hoy (LO 4/2015)"
+          ],
+          "rows": [
+            [
+              "Muy grave",
+              "30.050,61 a 601.012,10 €",
+              "30.001 a 600.000 €"
+            ],
+            [
+              "Grave",
+              "300,51 a 30.050,61 €",
+              "601 a 30.000 €"
+            ],
+            [
+              "Leve",
+              "Hasta 300,51 €",
+              "100 a 600 €"
+            ]
+          ]
+        },
+        {
+          "type": "notice",
+          "text": "Ojo: el cuestionario da por buenas las multas del Reglamento, heredadas de la Ley Orgánica 1/1992, ya derogada. La Ley Orgánica 4/2015 vigente (art. 39.1) fija 30.001 a 600.000 euros (muy graves), 601 a 30.000 (graves) y 100 a 600 (leves)."
+        },
+        {
+          "type": "p",
+          "text": "La retirada de las armas supone quitártelas y prohibirte tener otras hasta dos años como máximo. La retirada de la licencia la revoca, impide renovarla ese tiempo y obliga a depositar las armas."
+        },
+        {
+          "type": "key",
+          "text": "Un cargador de arma corta de más de 20 cartuchos sin autorización supone incautación de los cargadores y retirada de todas las licencias: valen las dos."
+        }
+      ],
+      "articles": [
+        "Art. 155 RD 137/1993",
+        "Art. 158 RD 137/1993",
+        "Art. 39.1 LO 4/2015",
+        "Art. 28 LO 1/1992"
+      ]
+    },
+    {
+      "title": "Prescripción y ejecución",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "La infracción prescribe si pasa el plazo sin que la Administración actúe; la sanción, si no se ejecuta a tiempo. Las sanciones son ejecutivas cuando la resolución es firme en vía administrativa."
+        },
+        {
+          "type": "table",
+          "caption": "Plazos que pide el examen",
+          "headers": [
+            "Clase",
+            "Infracción prescribe",
+            "Sanción prescribe"
+          ],
+          "rows": [
+            [
+              "Leve",
+              "3 meses",
+              "1 año"
+            ],
+            [
+              "Grave",
+              "1 año",
+              "2 años"
+            ],
+            [
+              "Muy grave",
+              "2 años",
+              "4 años"
+            ]
+          ]
+        },
+        {
+          "type": "notice",
+          "text": "Ojo: el cuestionario da por buenos los plazos de la Ley Orgánica 1/1992, ya derogada. Con la Ley Orgánica 4/2015 vigente, las infracciones leves prescriben a los seis meses (art. 38.1) y las sanciones muy graves, a los tres años (art. 40.1)."
+        },
+        {
+          "type": "key",
+          "text": "Para recordarlo: infracciones 3 meses, 1 y 2 años; sanciones 1, 2 y 4 años."
+        }
+      ],
+      "articles": [
+        "Art. 27 LO 1/1992",
+        "Art. 28.4 LO 1/1992",
+        "Art. 38.1 LO 4/2015",
+        "Art. 40.1 LO 4/2015",
+        "Art. 53.1 LO 4/2015"
+      ]
+    }
+  ],
+  "related_questions": [
+    "t5-001",
+    "t5-002",
+    "t5-003",
+    "t5-004",
+    "t5-005",
+    "t5-006",
+    "t5-007",
+    "t5-008",
+    "t5-009",
+    "t5-010",
+    "t5-011",
+    "t5-012",
+    "t5-013",
+    "t5-014",
+    "t5-015",
+    "t5-016",
+    "t5-017",
+    "t5-018",
+    "t5-019",
+    "t5-020",
+    "t5-021",
+    "t5-022",
+    "t5-023",
+    "t5-024",
+    "t5-025",
+    "t5-026",
+    "t5-027",
+    "t5-028",
+    "t5-029",
+    "t5-030",
+    "t5-031",
+    "t5-032",
+    "t5-033",
+    "t5-034",
+    "t5-035",
+    "t5-036",
+    "t5-037",
+    "t5-038",
+    "t5-039",
+    "t5-040",
+    "t5-041",
+    "t5-042",
+    "t5-043",
+    "t5-044",
+    "t5-045",
+    "t5-046",
+    "t5-047",
+    "t5-048",
+    "t5-049",
+    "t5-050",
+    "t5-051",
+    "t5-052",
+    "t5-053",
+    "t5-054",
+    "t5-055",
+    "t5-056",
+    "t5-057",
+    "t5-058",
+    "t5-059",
+    "t5-060",
+    "t5-061",
+    "t5-062",
+    "t5-063",
+    "t5-064",
+    "t5-065",
+    "t5-066"
+  ],
+  "confidence": "media",
+  "sources": [
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 146"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 155"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 156"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 157"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 158"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 159"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 161"
+    },
+    {
+      "norma": "BOE-A-2015-3442",
+      "ref": "art. 32"
+    },
+    {
+      "norma": "BOE-A-2015-3442",
+      "ref": "art. 34"
+    },
+    {
+      "norma": "BOE-A-2015-3442",
+      "ref": "art. 35"
+    },
+    {
+      "norma": "BOE-A-2015-3442",
+      "ref": "art. 36"
+    },
+    {
+      "norma": "BOE-A-2015-3442",
+      "ref": "art. 38"
+    },
+    {
+      "norma": "BOE-A-2015-3442",
+      "ref": "art. 39"
+    },
+    {
+      "norma": "BOE-A-2015-3442",
+      "ref": "art. 40"
+    },
+    {
+      "norma": "BOE-A-2015-3442",
+      "ref": "art. 45"
+    },
+    {
+      "norma": "BOE-A-2015-3442",
+      "ref": "art. 53"
+    },
+    {
+      "norma": "BOE-A-1992-4252",
+      "ref": "art. 27"
+    },
+    {
+      "norma": "BOE-A-1992-4252",
+      "ref": "art. 28"
+    }
+  ],
+  "review_notes": "Puntos a revisar: (1) art. 159 RD aún habla de Gobernadores civiles; se describe además el reparto vigente del art. 32 LO 4/2015 sin aviso porque no cambia la respuesta (t5-003/004). (2) Licencia caducada y domicilio falso (t5-049/050) se asimilan a 156.f, como en las explicaciones. (3) Negarse a presentar el arma (t5-051) se encaja en 156.e (con art. 144.1.b), como en la explicación. (4) Avisos con las mismas cifras que t5-005, 010, 013-016, 018, 052 y 062. (5) Prescripción de sanciones 1/2/4 años citada como LO 1/1992 art. 28.4, igual que la explicación de t5-010. Verificado por Fable el 19-oct-2026; correcciones aplicadas.",
+  "reviewed": false
+}

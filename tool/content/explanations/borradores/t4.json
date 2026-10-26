@@ -1,0 +1,1296 @@
+[
+  {
+    "id": "t4-001",
+    "explanation": "Las armas de fuego automáticas son armas de guerra, y su adquisición, tenencia y uso están prohibidos a los particulares, así que ninguna licencia las ampara. Que disparen munición de caza no cambia su clasificación.",
+    "article": "Art. 6.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 6"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-002",
+    "explanation": "Las licencias para armas de las categorías 1.ª, 2.ª y 3.ª solo se expiden a mayores de edad, es decir, desde los 18 años. Entre los 14 y los 18 solo cabe la autorización especial para menores, que permite usar ciertas armas, no tener licencia.",
+    "article": "Art. 102.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 102"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 109"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-003",
+    "explanation": "Nadie puede tener más de una licencia D. Esa única licencia ampara hasta cinco armas largas rayadas de caza mayor, así que tener más armas no da derecho a más licencias.",
+    "article": "Art. 100.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-004",
+    "explanation": "El rifle de caza mayor exige licencia D, y la guía de pertenencia debe acompañar siempre al arma cuando se usa, se deposita o se transporta. Por eso llevas las dos; la tarjeta de armas es para armas de aire comprimido de la 4.ª categoría.",
+    "article": "Art. 89.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 89"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 105"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Ningún artículo dice literalmente 'portará licencia D y guía'; se deduce de 100.1 (licencia D) y 89.2 (la guía acompaña al arma en el uso)."
+  },
+  {
+    "id": "t4-005",
+    "explanation": "El Reglamento permite a los españoles que viven en el extranjero adquirir, tener y usar armas de caza en España cumpliendo las mismas normas que los residentes. Si viven en otro país de la UE, España comunica la concesión a ese Estado; no es un derecho por ser país de la UE.",
+    "article": "Art. 110.9 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 110"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 96"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 102"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Art. 102.1 dice 'españoles y extranjeros con residencia en España'; podría leerse como que exige residencia también a los españoles. La respuesta oficial (Sí) se apoya en 110.9 y 96.1. Revisar."
+  },
+  {
+    "id": "t4-006",
+    "explanation": "Las armas inscritas en el Libro-Registro de coleccionista se pueden poseer, pero su uso está prohibido. Su circulación sí es posible con una guía especial, y tener licencia E no cambia nada.",
+    "article": "Art. 107 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 107"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Apoyo en el párrafo b) del art. 107."
+  },
+  {
+    "id": "t4-007",
+    "explanation": "Las escopetas son armas de la categoría 3.ª, y quien posea armas de esa categoría necesita licencia E. La tarjeta de armas sirve para las armas de aire comprimido de la 4.ª categoría.",
+    "article": "Art. 101.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 96"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 105"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-008",
+    "explanation": "Comprar, tener y usar alzas o miras telescópicas para armas de caza mayor solo se permite a quien acredite en la armería que tiene licencia D; la armería lo comunica después a la Intervención de Armas.",
+    "article": "Art. 100.6 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-009",
+    "explanation": "La licencia D, que necesita el rifle de caza mayor, solo se concede a mayores de edad, es decir, desde los 18 años. Entre los 16 y los 18, con autorización especial para menores, se puede usar ese rifle, pero no poseerlo.",
+    "article": "Art. 102.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 102"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 109"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-010",
+    "explanation": "En las armas combinadas manda el componente más peligroso: el arma se documenta como una sola, con su guía de pertenencia, y con la autorización que exige más garantías, que aquí es la del rifle.",
+    "article": "Art. 96.9 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 96"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "96.9 habla de documentar según el componente más peligroso; que sea una sola guía se deduce del art. 88 (una guía por arma)."
+  },
+  {
+    "id": "t4-011",
+    "explanation": "Cada licencia ampara sus propias categorías: la D, las armas largas rayadas de caza mayor (2.ª.2), y la E, las escopetas (3.ª). La D no cubre escopetas aunque sea más exigente, así que necesitas las dos.",
+    "article": "Art. 96.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 96"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-012",
+    "explanation": "Si pierdes un arma o te la roban, debes avisar enseguida a la Intervención de Armas y entregarle la guía de pertenencia de esa arma. La licencia la conservas si se comprueba que no tuviste culpa.",
+    "article": "Art. 145.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 145"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-013",
+    "explanation": "Si pierdes la licencia o te la roban, debes avisar a la Intervención de Armas, que puede darte una autorización temporal de uso de armas mientras dura el procedimiento, o pedirte que deposites las armas.",
+    "article": "Art. 145.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 145"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-014",
+    "explanation": "Al pedir la renovación de una licencia próxima a caducar, la Intervención de Armas puede darte una autorización temporal de uso de tres meses y se queda con la licencia antigua. Las guías de pertenencia y de circulación sirven para otras cosas.",
+    "article": "Art. 103 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 103"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-015",
+    "explanation": "La expide la Intervención de Armas a quien pide renovar una licencia próxima a caducar; vale tres meses y solo para usar esas armas. No sirve para licencias ya caducadas ni para cualquier mayor de edad.",
+    "article": "Art. 103 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 103"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-016",
+    "explanation": "La autorización temporal de uso que se da al solicitar la renovación de una licencia próxima a caducar vale tres meses; mientras tanto, la Intervención recoge la licencia antigua.",
+    "article": "Art. 103 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 103"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-017",
+    "explanation": "La expiden las Intervenciones de Armas de la Guardia Civil que reciben la solicitud de renovación. Ni el alcalde ni el armero tienen esa competencia.",
+    "article": "Art. 103 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 103"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-018",
+    "explanation": "Toda arma de las categorías 1.ª, 2.ª y 3.ª debe tener su propia guía de pertenencia. La licencia de caza o la tarjeta deportiva no documentan el arma.",
+    "article": "Art. 88 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-019",
+    "explanation": "Las escopetas (3.ª.2) deben documentarse una a una con guía de pertenencia. La licencia D es para rifles de caza mayor, y la guía de circulación sirve para trasladar armas, no para documentar su tenencia.",
+    "article": "Art. 88 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-020",
+    "explanation": "Las armas de aire o gas comprimido que superan 24,2 julios son de la categoría 3.ª, y cada una debe tener su guía de pertenencia. La tarjeta de armas es para las armas de aire de la 4.ª categoría.",
+    "article": "Art. 88 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 105"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-021",
+    "explanation": "Las ballestas (7.ª.2) están entre las armas que deben documentarse una a una con guía de pertenencia; además, para poseerlas hace falta licencia E.",
+    "article": "Art. 88 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-022",
+    "explanation": "Las armas para lanzar cabos (7.ª.3) también necesitan guía de pertenencia para cada arma; en este caso la expide la Comandancia de la Guardia Civil, previo informe de la Comandancia de Marina.",
+    "article": "Art. 88 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 89"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-023",
+    "explanation": "Cada arma debe estar documentada con su propia guía de pertenencia, así que cada guía reseña una sola arma. En ella sí se anotan los cañones o calibres intercambiables de esa misma arma.",
+    "article": "Art. 88 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 89"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-024",
+    "explanation": "La guía de pertenencia debe acompañar siempre al arma cuando se usa, cuando se deposita y cuando se transporta.",
+    "article": "Art. 89.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 89"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-025",
+    "explanation": "La guía de pertenencia solo se exige para las categorías que enumera el Reglamento, y de la 7.ª solo incluye los apartados 1 a 4. Los arcos son 7.ª.5, así que quedan fuera; escopetas (3.ª) y pistolas (1.ª) sí la necesitan.",
+    "article": "Art. 88 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-026",
+    "explanation": "Las pistolas lanzabengalas son 7.ª.6, un apartado que el Reglamento no incluye entre las armas que necesitan guía de pertenencia. Los fusiles lanzacabos (7.ª.3) y los de inyección anestésica (7.ª.1) sí la necesitan.",
+    "article": "Art. 88 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-027",
+    "explanation": "Cada arma lleva su propia guía de pertenencia, así que con una guía solo se documenta una escopeta, aunque todas sean del mismo titular.",
+    "article": "Art. 88 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-028",
+    "explanation": "Además del DNI y los datos personales del propietario y de su licencia, la guía de pertenencia debe contener una reseña completa del arma, que es lo que permite identificarla.",
+    "article": "Art. 89.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 89"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-029",
+    "explanation": "Quien necesite armas de la categoría 2.ª.2, las largas rayadas utilizables para caza mayor, debe obtener antes la licencia D. La E es para escopetas y la F para armas de concurso de tiro deportivo.",
+    "article": "Art. 100.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 96"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-030",
+    "explanation": "Los cañones estriados adaptables a escopetas de caza con recámara para cartuchos metálicos se clasifican en la categoría 2.ª.2, igual que los rifles de caza mayor, y esa categoría requiere licencia D.",
+    "article": "Art. 3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-031",
+    "explanation": "La licencia D es la de armas largas rayadas para caza mayor (categoría 2.ª.2). Las escopetas y las armas para lanzar cabos van con licencia E.",
+    "article": "Art. 96.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 96"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-032",
+    "explanation": "Las armas largas rayadas de calibre .22 de percusión anular para tiro deportivo son de la categoría 3.ª.1, y todas las armas de la 3.ª categoría requieren licencia E.",
+    "article": "Art. 101.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-033",
+    "explanation": "Las ballestas son de la categoría 7.ª.2, y la licencia E es la que ampara las armas de la 3.ª categoría y de la 7.ª, apartados 2 y 3. Una tarjeta deportiva no basta.",
+    "article": "Art. 101.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-034",
+    "explanation": "La licencia E ampara la 3.ª categoría (escopetas, rifles .22 de tiro deportivo y aire comprimido de más de 24,2 julios) y la 7.ª.2 y 7.ª.3 (ballestas y armas para lanzar cabos). La 4.ª va con tarjeta de armas.",
+    "article": "Art. 101.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 105"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-035",
+    "explanation": "Con la licencia E puedes tener como máximo seis escopetas o seis armas largas rayadas de tiro deportivo, y nunca más de doce armas en total.",
+    "article": "Art. 101.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-036",
+    "explanation": "La licencia E admite hasta seis escopetas, dentro de un máximo de doce armas en total.",
+    "article": "Art. 101.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-037",
+    "explanation": "La licencia E admite hasta seis armas largas rayadas para tiro deportivo, sin pasar de doce armas en total. El límite de cinco es el de la licencia D.",
+    "article": "Art. 101.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-038",
+    "explanation": "La licencia D solo ampara armas largas rayadas para caza mayor (2.ª.2). Las carabinas de aire comprimido de la 4.ª categoría se documentan con tarjetas de armas que conceden los alcaldes.",
+    "article": "Art. 105.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 105"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "La opción C generaliza: las de aire de más de 24,2 J son 3.ª.3 y van con licencia E y guía. La explicación habla solo de la 4.ª categoría."
+  },
+  {
+    "id": "t4-039",
+    "explanation": "Los residentes en España que viajen con sus armas a otro país de la Unión Europea deben llevar la Tarjeta Europea de Armas de Fuego. No se pide una licencia ni una tarjeta de cada país.",
+    "article": "Art. 112.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 112"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-040",
+    "explanation": "La Tarjeta Europea de Armas de Fuego vale como máximo cinco años y puede prorrogarse mientras sigas siendo titular de las armas que ampara.",
+    "article": "Art. 113.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 113"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-041",
+    "explanation": "En la Tarjeta Europea constan las armas de fuego que posee y utiliza su titular, con su categoría, no solo las cortas. Además, debe anotarse en ella cualquier cambio, pérdida o robo de esas armas.",
+    "article": "Art. 113.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 113"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-042",
+    "explanation": "La dedicación real a la caza se puede acreditar enseñando la licencia de caza en vigor; la tarjeta federativa sirve para acreditar la práctica del deporte.",
+    "article": "Art. 97.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 97"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-043",
+    "explanation": "El Reglamento permite acreditar la dedicación real a la caza enseñando la licencia de caza en vigor. No pide ser socio de un coto.",
+    "article": "Art. 97.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 97"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-044",
+    "explanation": "La Tarjeta Europea la expide la Guardia Civil a los residentes en España, españoles o extranjeros, que tengan aquí documentadas sus armas. Cuenta la residencia, no la nacionalidad.",
+    "article": "Art. 113.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 113"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 112"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-045",
+    "explanation": "La Tarjeta Europea puede prorrogarse mientras se mantenga la titularidad de las armas que ampara; eso es lo que el Reglamento exige para seguir usándola.",
+    "article": "Art. 113.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 113"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El Reglamento habla de 'prorrogarse', la pregunta de 'renovación'."
+  },
+  {
+    "id": "t4-046",
+    "explanation": "Las autorizaciones especiales de uso de armas para menores valen hasta que el titular alcanza la mayoría de edad, sin necesidad de renovarlas.",
+    "article": "Art. 109.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 109"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-047",
+    "explanation": "Con autorización especial para menores, desde los 16 años se pueden usar armas largas rayadas de caza mayor o, para tiro deportivo junior, las de la 3.ª.1, siempre sin poseerlas.",
+    "article": "Art. 109.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 109"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El art. dice 'mayores de dieciséis años'."
+  },
+  {
+    "id": "t4-048",
+    "explanation": "Desde los 14 años, con autorización especial para menores, se pueden usar escopetas (3.ª.2) para cazar, y armas de la 3.ª.2 y 3.ª.3 en competiciones con categoría junior.",
+    "article": "Art. 109.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 109"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-049",
+    "explanation": "El menor debe estar bajo la supervisión de un adulto con licencia D, E o F que se compromete antes a acompañarlo y vigilarlo en cada cacería o acto deportivo. No basta con cualquier mayor de edad.",
+    "article": "Art. 109.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 109"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "RD 726/2020 cambió 'vayan acompañados de personas mayores de edad con licencia D, E o F' por 'sometidos a la supervisión de un adulto titular de licencia D, E o F'. Mismo sentido (se mantiene el compromiso de acompañar), por eso no se marca discrepancia; confirmar."
+  },
+  {
+    "id": "t4-050",
+    "explanation": "El adulto con licencia D, E o F se compromete de antemano a acompañar y vigilar al menor en cada cacería o acto deportivo, y además responde de que las armas se guarden como exige el Reglamento.",
+    "article": "Art. 109.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 109"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-051",
+    "explanation": "Un menor puede usar ciertas armas con autorización especial, pero no poseerlas: la licencia E, necesaria para tener una escopeta, solo se expide a mayores de edad.",
+    "article": "Art. 102.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 102"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 109"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-052",
+    "explanation": "La licencia D tiene cinco años de validez. A los 55 años no se exige ningún visado por edad, que solo se pide en las licencias expedidas a mayores de 67.",
+    "article": "Art. 100.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 104"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-053",
+    "explanation": "La licencia E tiene cinco años de validez, y por debajo de los 60 no hay ningún visado por edad, que solo afecta a las expedidas a mayores de 67.",
+    "article": "Art. 101.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 104"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-054",
+    "explanation": "Las licencias de armas, incluida la E, solo se expiden a mayores de edad, así que con 17 años no puedes tener ninguna. Lo que sí cabe es una autorización especial de uso de armas para menores.",
+    "article": "Art. 102.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 102"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 109"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-055",
+    "explanation": "La solicitud la firman el propio menor y quien ejerce la patria potestad o la tutela, que además autoriza el uso de las armas y se responsabiliza de su actuación.",
+    "article": "Art. 109.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 109"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-056",
+    "explanation": "La licencia E vale cinco años. A los 62 no hay visado por edad: desde la reforma de 2020 solo se exige a las licencias expedidas a mayores de 67 años.",
+    "article": "Art. 101.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 104"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-057",
+    "explanation": "La licencia D sigue valiendo cinco años, pero si se expide a mayores de 67 hay que visarla a los tres años de su expedición, con un nuevo informe de aptitud psicofísica favorable.",
+    "article": "Art. 104.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 104"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-058",
+    "explanation": "Aunque tengas 72 años, la licencia E se expide por cinco años; al ser mayor de 67, hay que visarla a los tres años de su expedición presentando un informe de aptitud psicofísica favorable.",
+    "article": "Art. 104.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 101"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 104"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-059",
+    "explanation": "Para mayores de 67, la licencia D conserva sus cinco años de validez, pero hay que visarla en la Intervención de Armas a los tres años de expedirla, con informe de aptitud psicofísica favorable.",
+    "article": "Art. 104.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 100"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 104"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-060",
+    "explanation": "Las licencias expedidas a mayores de 67 años deben visarse a los tres años de su expedición, con informe de aptitud psicofísica. Antes de la reforma de 2020 el visado empezaba a los 60, por eso a veces verás otras cifras.",
+    "article": "Art. 104.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 104"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El texto dice 'mayores de sesenta y siete años'; la opción oficial dice 'sesenta y siete'. Matiz de redacción, no discrepancia."
+  },
+  {
+    "id": "t4-061",
+    "explanation": "Si no hay resolución expresa en tres meses desde que presentas la solicitud (más la ampliación, si la hay), se entiende desestimada y puedes recurrir, aunque la Administración sigue obligada a resolver.",
+    "article": "Disp. final única RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "disp. final única"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Es la disposición final del propio Reglamento (tras el cap. IX), ref. 'disp. final única' en el corpus. Comprobar el formato de cita."
+  },
+  {
+    "id": "t4-062",
+    "explanation": "La vigencia de cualquier licencia depende de que sigas cumpliendo los requisitos con los que se concedió; si dejas de cumplirlos, se revoca. Retirar las armas es otra medida distinta.",
+    "article": "Art. 97.5 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 97"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-063",
+    "explanation": "La retirada de una licencia supone su revocación e impide renovarla durante el tiempo impuesto, que no puede pasar de dos años; mientras, las armas quedan en depósito obligatorio.",
+    "article": "Art. 158.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 158"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El límite de dos años está en el art. 158.2 (retirada como sanción, que 'supone la revocación'); no hay otro artículo que fije un plazo de revocación."
+  },
+  {
+    "id": "t4-064",
+    "explanation": "Los órganos que expiden las licencias pueden comprobar en cualquier momento que sigues cumpliendo los requisitos, sin esperar a una infracción ni a que lo pidas tú.",
+    "article": "Art. 97.5 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 97"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-065",
+    "explanation": "La licencia sigue vigente mientras mantengas todos los requisitos que exige el Reglamento para concederla; si dejas de cumplirlos, puede revocarse.",
+    "article": "Art. 97.5 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 97"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-066",
+    "explanation": "Para las licencias D y E hay que superar pruebas sobre conocimiento de las armas, su cuidado y conservación, y sobre la habilidad para manejarlas. También puede exigirse conocer el Reglamento de Armas, no el de caza.",
+    "article": "Art. 102.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 102"
+      },
+      {
+        "norma": "BOE-A-1998-7416",
+        "ref": "preámbulo"
+      },
+      {
+        "norma": "BOE-A-1998-7416",
+        "ref": "Segundo"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-067",
+    "explanation": "Las guías de pertenencia las expiden las Intervenciones de Armas de la Guardia Civil, salvo excepciones como las de armas para lanzar cabos, que expide la Comandancia.",
+    "article": "Art. 89.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 89"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t4-068",
+    "explanation": "Con la solicitud de licencia D se presentan, entre otros, el certificado de antecedentes penales en vigor y el informe de aptitudes psicofísicas, que es lo que el cuestionario espera en esta pregunta.",
+    "article": "Art. 97.1 RD 137/1993",
+    "notice": "Ojo: el cuestionario da por buena solo la A. El art. 97.1 también exige fotocopia del DNI o de la tarjeta de residencia, así que la C sería la más completa según la norma.",
+    "flags": [
+      "discrepancia_norma"
+    ],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 97"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Art. 97.1 exige a), b) y c); el apartado b) (DNI) no viene de la reforma de 2020 (solo se añadió un párrafo en 2000). Posible error del banco oficial."
+  },
+  {
+    "id": "t4-069",
+    "explanation": "Para la licencia E se presentan el certificado de antecedentes penales en vigor y el informe de aptitudes psicofísicas, y se acredita la dedicación real a la caza o al deporte, por ejemplo con la licencia de caza o la tarjeta federativa.",
+    "article": "Art. 97.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 97"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "La opción B omite la fotocopia del DNI (art. 97.1.b), pero es la más completa de las tres."
+  },
+  {
+    "id": "t4-070",
+    "explanation": "El Reglamento pide certificado de antecedentes penales, fotocopia del DNI o tarjeta de residencia e informe de aptitudes psicofísicas; no pide ningún certificado del alcalde.",
+    "article": "Art. 97.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 97"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  }
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T170032Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-27988</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1370">Resolución</rango>
+      <fecha_disposicion>19981019</fecha_disposicion>
+      <titulo>Resolución de 19 de octubre de 1998, de la Dirección General de la Guardia Civil, por la que se dictan instrucciones para la ejecución de la Orden del Ministerio del Interior de 18 de marzo de 1998, por la que se regulan las pruebas de capacitación para obtener determinadas licencias de armas y los requisitos para la habilitación de entidades dedicadas a la enseñanza correspondiente.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19981204</fecha_publicacion>
+      <diario_numero>290</diario_numero>
+      <fecha_vigencia>19990101</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/res/1998/10/19/(3)</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-27988</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

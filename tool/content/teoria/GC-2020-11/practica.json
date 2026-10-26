@@ -1,0 +1,268 @@
+{
+  "id": "practica",
+  "tema": null,
+  "title": "La prueba práctica",
+  "summary": "Cómo es la prueba práctica de las licencias D y E, qué se valora y qué errores te pueden dejar como no apto. Lo que más pesa es manejar el arma con seguridad en las cuatro acciones del anexo II.",
+  "sections": [
+    {
+      "title": "Cuándo y dónde se hace",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Para obtener por primera vez la licencia D (rifles de caza mayor) o la E (escopetas) hay que superar dos pruebas, una teórica y otra práctica. Cada una se califica como apto o no apto, y solo puedes hacer la práctica si has aprobado antes la teórica."
+        },
+        {
+          "type": "p",
+          "text": "La teórica son 20 preguntas tipo test con tres respuestas, y se aprueba con al menos 16 aciertos. La práctica se hace en campos, polígonos o galerías de tiro autorizados, con armas legalizadas: las del centro de formación que te presenta o las de una persona con licencia que te acompañe."
+        },
+        {
+          "type": "table",
+          "caption": "Plazos y convocatorias",
+          "headers": [
+            "Asunto",
+            "Qué dice la norma"
+          ],
+          "rows": [
+            [
+              "Convocatorias por solicitud",
+              "Tres"
+            ],
+            [
+              "Entre convocatorias",
+              "No más de tres meses, salvo causa justificada"
+            ],
+            [
+              "Apto en la teórica",
+              "Vale seis meses para superar la práctica"
+            ],
+            [
+              "No presentarte",
+              "Pierdes la convocatoria, salvo causa justificada"
+            ],
+            [
+              "Exentos",
+              "Licencia A; o D, E o F para esas mismas armas"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "En la convocatoria te indican lugar, fecha y hora de cada prueba, la categoría de las armas y cuántos cartuchos debes llevar a la práctica. Con la solicitud se adjunta, en su caso, el justificante de las tasas; su importe no figura en estas normas."
+        }
+      ],
+      "articles": [
+        "Art. 102 RD 137/1993",
+        "Apdo. 3.º Orden 18-3-1998",
+        "Apdo. 4.º Orden 18-3-1998",
+        "Apdo. 7.º Resolución DGGC 19-10-1998",
+        "Apdo. 8.º Resolución DGGC 19-10-1998",
+        "Apdo. 1.º Orden 18-3-1998",
+        "Apdo. 6.º Resolución DGGC 19-10-1998",
+        "Apdo. 2.º Orden 18-3-1998"
+      ]
+    },
+    {
+      "title": "Las cuatro acciones que se valoran",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "El anexo II divide la prueba en cuatro acciones: cargar, apuntar, disparar y descargar. En cada una el tribunal de la Comandancia valora que lo hagas bien y, sobre todo, con seguridad."
+        },
+        {
+          "type": "diagram",
+          "kind": "secuencia",
+          "caption": "Las cuatro acciones del anexo II",
+          "items": [
+            "Cargar: dejar el arma lista para disparar, con la boca hacia los blancos y el dedo fuera del disparador.",
+            "Apuntar: alinear los elementos de puntería con la diana y mantener una postura estable.",
+            "Disparar: de pie y sin apoyo, solo entre la señal de comienzo y la de final.",
+            "Descargar: retirar los casquillos y dejar el arma lista para cargarla de nuevo, dentro del tiempo."
+          ]
+        }
+      ],
+      "articles": [
+        "Anexo II Resolución DGGC 19-10-1998",
+        "Apdo. 5.º Resolución DGGC 19-10-1998"
+      ]
+    },
+    {
+      "title": "El ejercicio de tiro",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "diagram",
+          "kind": "galeria_tiro",
+          "caption": "Línea de tiro y diana de 50 cm de diámetro a 25 m"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Prueba",
+            "Rifle (licencia D)",
+            "Escopeta (licencia E)"
+          ],
+          "rows": [
+            [
+              "Disparos",
+              "5",
+              "2"
+            ],
+            [
+              "Diana",
+              "50 cm de diámetro",
+              "50 cm de diámetro"
+            ],
+            [
+              "Distancia",
+              "25 m desde la línea de tiro",
+              "25 m desde la línea de tiro"
+            ],
+            [
+              "Posición",
+              "De pie y sin apoyo",
+              "De pie y sin apoyo"
+            ],
+            [
+              "Para superarla",
+              "Al menos 1 impacto en la diana",
+              "Plomeo suficiente según el arma"
+            ]
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Con el rifle basta un impacto de cinco disparos; con la escopeta, un plomeo suficiente. Fíjate en que casi todos los aspectos negativos del anexo son de seguridad, no de puntería."
+        }
+      ],
+      "articles": [
+        "Anexo II Resolución DGGC 19-10-1998"
+      ]
+    },
+    {
+      "title": "Errores que te pueden dejar como no apto",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "diagram",
+          "kind": "zona_segura",
+          "caption": "La boca del arma, siempre hacia la zona de los blancos"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dirigir la boca del arma a un lugar distinto de donde están los blancos.",
+            "No dejar el arma correctamente lista para disparar al cargarla.",
+            "No alinear bien las miras con el blanco o no mantener una postura estable mientras apuntas.",
+            "Poner el dedo en el disparador mientras cargas.",
+            "Hacer algún disparo mientras cargas o apuntas.",
+            "Disparar antes o después de la señal (el silbato) de comienzo o de final.",
+            "No lograr ningún impacto con el rifle, o un plomeo suficiente con la escopeta.",
+            "Que te quede algún cartucho sin disparar al acabar el ejercicio.",
+            "No retirar los casquillos, agotar el tiempo de descarga o no dejar el arma lista para cargarla de nuevo."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "El anexo los llama aspectos negativos y no dice cuántos hacen falta para suspender, así que trata cada uno como si te eliminara."
+        },
+        {
+          "type": "key",
+          "text": "La boca del arma, siempre hacia los blancos. Aparece como aspecto negativo al cargar, al apuntar y al disparar."
+        }
+      ],
+      "articles": [
+        "Anexo II Resolución DGGC 19-10-1998"
+      ]
+    },
+    {
+      "title": "Consejos de seguridad para ese día",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "La norma obliga a quien usa un arma a controlarla en todo momento y a actuar con especial cuidado cuando hay otras personas cerca. En la galería eso se traduce en unos hábitos sencillos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Trata el arma como si estuviera siempre cargada y compruébalo tú al cogerla.",
+            "Mantén el dedo fuera del disparador hasta el momento de disparar.",
+            "Sigue en todo momento las indicaciones del tribunal y espera siempre la señal.",
+            "Lleva los cartuchos que indique la convocatoria y dispáralos todos en el ejercicio.",
+            "Si no conoces el arma que vas a usar, pregunta cómo funciona antes de tocarla.",
+            "No uses auriculares conectados a aparatos de sonido ni tomes alcohol u otras sustancias antes de la prueba."
+          ]
+        }
+      ],
+      "articles": [
+        "Art. 147 RD 137/1993"
+      ]
+    }
+  ],
+  "related_questions": [
+    "t4-066",
+    "t1-060",
+    "t1-061",
+    "t1-063",
+    "t1-064",
+    "t1-065",
+    "t1-066",
+    "t1-067",
+    "t1-068"
+  ],
+  "confidence": "alta",
+  "sources": [
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 102"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 147"
+    },
+    {
+      "norma": "BOE-A-1998-7416",
+      "ref": "Primero"
+    },
+    {
+      "norma": "BOE-A-1998-7416",
+      "ref": "Segundo"
+    },
+    {
+      "norma": "BOE-A-1998-7416",
+      "ref": "Tercero"
+    },
+    {
+      "norma": "BOE-A-1998-7416",
+      "ref": "Cuarto"
+    },
+    {
+      "norma": "BOE-A-1998-7416",
+      "ref": "Sexto"
+    },
+    {
+      "norma": "BOE-A-1998-27988",
+      "ref": "Quinto"
+    },
+    {
+      "norma": "BOE-A-1998-27988",
+      "ref": "Sexto"
+    },
+    {
+      "norma": "BOE-A-1998-27988",
+      "ref": "Séptimo"
+    },
+    {
+      "norma": "BOE-A-1998-27988",
+      "ref": "Octavo"
+    },
+    {
+      "norma": "BOE-A-1998-27988",
+      "ref": "ANEXO II"
+    }
+  ],
+  "review_notes": "Todo sale de la Orden 18-3-1998 (apdos. 1.º-4.º y 6.º, con la modificación de la Orden 7-3-2000 ya consolidada en el 4.º) y de la Resolución DGGC 19-10-1998 (apdos. 5.º-8.º y anexo II). El corpus no tiene ninguna resolución posterior sobre las pruebas (las de 2024 son de cajas fuertes y transporte), así que no hay avisos. El anexo II habla de «aspectos negativos», no de errores eliminatorios: se dice así en el texto. Tasas: el corpus solo menciona el justificante (Orden, apdo. 6.º), sin importes. La AEM (art. 109) no exige prueba práctica en el corpus, por eso no se menciona. Los consejos de la última sección son advertencias generales coherentes con las explicaciones de t1-060..068 y con el art. 147 (control del arma, prohibición de auriculares y sustancias); la acción de apuntar se describe solo como alinear las miras con la diana. Exención: la Orden dice «para las armas correspondientes»; la tabla lo simplifica. Verificado por Fable el 19-oct-2026; correcciones aplicadas.",
+  "reviewed": false
+}

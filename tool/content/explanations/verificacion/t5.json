@@ -1,0 +1,611 @@
+[
+  {
+    "id": "t5-001",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 161: «cuando ... los hechos pueden ser calificados de infracciones penales, se remitirán al Ministerio Fiscal»; art. 155: «Si no constituyeren delitos, serán consideradas infracciones muy graves»."
+  },
+  {
+    "id": "t5-002",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 4/2015 (BOE-A-2015-3442) art. 34: «Las infracciones tipificadas en esta Ley se clasifican en muy graves, graves y leves»; RD 137/1993 (BOE-A-1993-6202) arts. 155-157 usan las mismas tres clases."
+  },
+  {
+    "id": "t5-003",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 159.1: «Delegados del Gobierno ... competencia con carácter general para ... graves y leves, y a los Alcaldes para la sanción de infracciones leves relacionadas con ... artículos 105 y 149.5»; 159.2: «la propia Dirección General [de la Guardia Civil] para imponer sanciones por infracciones graves o leves» en fabricación, reparación, almacenamiento, distribución, circulación y comercio."
+  },
+  {
+    "id": "t5-004",
+    "verdict": "ok",
+    "problems": [
+      "Menor: el art. 159 regula la competencia para sancionar, no literalmente para «ordenar la instrucción»; la explicación lo deduce de forma razonable y no inventa nada."
+    ],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 159 (Delegados del Gobierno, Alcaldes, Dirección General de la Guardia Civil como autoridades sancionadoras). Ninguna norma vigente del corpus atribuye literalmente «ordenar la instrucción»; el antecedente es LO 1/1992 (BOE-A-1992-4252, derogada) art. 31.3 («competente para ordenar la incoación de los expedientes sancionadores ... cualquiera de las autoridades relacionadas en el artículo 2»). La explicación lo presenta como inferencia razonable, no afirma cifra ni autoridad ajena al art. 159."
+  },
+  {
+    "id": "t5-005",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 1/1992 (BOE-A-1992-4252, derogada) art. 27: «prescribirán a los tres meses, al año o a los dos años ... según sean leves, graves o muy graves». Vigente: LO 4/2015 (BOE-A-2015-3442) art. 38.1: «a los seis meses, al año o a los dos años». Norma derogada citada solo como origen de la cifra, con aviso correcto."
+  },
+  {
+    "id": "t5-006",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 4/2015 (BOE-A-2015-3442) art. 38.1: «prescribirán a los seis meses, al año o a los dos años de haberse cometido, según sean leves, graves o muy graves». Graves = al año, coincide con la oficial."
+  },
+  {
+    "id": "t5-007",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 4/2015 (BOE-A-2015-3442) art. 38.1: muy graves «a los dos años»; coincide con la oficial."
+  },
+  {
+    "id": "t5-008",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 4/2015 (BOE-A-2015-3442) art. 40.1: «las impuestas por infracciones leves al año, computados desde el día siguiente a aquel en que adquiera firmeza en vía administrativa la resolución»."
+  },
+  {
+    "id": "t5-009",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 4/2015 (BOE-A-2015-3442) art. 40.1: «las impuestas por infracciones graves, a los dos años»."
+  },
+  {
+    "id": "t5-010",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 1/1992 (BOE-A-1992-4252, derogada) art. 28.4: «Las sanciones prescribirán al año, dos años o cuatro años, según ... leves, graves o muy graves». Vigente: LO 4/2015 (BOE-A-2015-3442) art. 40.1: muy graves «a los tres años». Aviso exacto."
+  },
+  {
+    "id": "t5-011",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 4/2015 (BOE-A-2015-3442) art. 53.1: «Una vez firme en vía administrativa, se procederá a la ejecución de la sanción»."
+  },
+  {
+    "id": "t5-012",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 4/2015 (BOE-A-2015-3442) art. 45.1: «No podrán sancionarse los hechos que hayan sido sancionados penal o administrativamente cuando se aprecie identidad de sujeto, de hecho y de fundamento»; 45.2: la Administración «se abstendrá de seguir el procedimiento sancionador mientras la autoridad judicial no dicte sentencia firme». Antecedente literal de la oficial: LO 1/1992 (BOE-A-1992-4252, derogada) art. 32.1."
+  },
+  {
+    "id": "t5-013",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 155.a.2: almacenamiento sin autorización «de armas largas rayadas ... con multas de 30.050,61 a 300.506,05 euros, incautación de las armas ... y clausura de las fábricas, locales o establecimientos»."
+  },
+  {
+    "id": "t5-014",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 155.a.2: incluye «armas largas de ánima lisa, sin la pertinente autorización», misma sanción que las rayadas."
+  },
+  {
+    "id": "t5-015",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 155.d: «La omisión, insuficiencia o ineficacia de las medidas ... en las fases de fabricación, reparación, almacenamiento, distribución y comercio ... de armas largas rayadas»; art. 156.c: en «domicilios o lugares de uso» de particulares es grave."
+  },
+  {
+    "id": "t5-016",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 155.d: «Si como consecuencia de la infracción se hubiera producido pérdida, sustracción o robo de armas, además de la multa, se impondrá la clausura»."
+  },
+  {
+    "id": "t5-017",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "LO 4/2015 (BOE-A-2015-3442) art. 34 (solo muy graves, graves y leves); RD 137/1993 (BOE-A-1993-6202) art. 156.f: «tenencia ... de armas por particulares, sin tener las autorizaciones o licencias prevenidas» con «armas de ánima lisa» = grave (también 156.g para el uso sin guía)."
+  },
+  {
+    "id": "t5-018",
+    "verdict": "corregir",
+    "problems": [
+      "El aviso dice que la cifra «viene de la LO 1/1992»; la LO 1/1992 art. 28.1.a fija 30.050,62 a 601.012,1. La horquilla exacta de la pregunta (30.050,61) está en el art. 155.a.1 del Reglamento, vigente, que la heredó de esa ley. Conviene decirlo así para que el aviso sea exacto."
+    ],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": "Ojo: el cuestionario da por buena la horquilla del Reglamento de Armas (30.050,61 a 601.012,10 euros), heredada de la Ley Orgánica 1/1992, ya derogada. La Ley Orgánica 4/2015 vigente, en su art. 39.1, fija para las muy graves de 30.001 a 600.000 euros.",
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 155.a.1: «con multa de 30.050,61 a 601.012,1 euros» (armas prohibidas o de guerra). LO 1/1992 (BOE-A-1992-4252, derogada) art. 28.1.a: «Multa de 30.050,62 euros a 601.012,1 euros, para infracciones muy graves». Vigente: LO 4/2015 (BOE-A-2015-3442) art. 39.1: «muy graves ... multa de 30.001 a 600.000 euros»."
+  },
+  {
+    "id": "t5-019",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.a: «Cuando se trate de armas blancas, de aire comprimido o de las demás comprendidas en las categorías 4.ª a 7.ª ..., la fabricación, reparación, almacenamiento, distribución y comercio de armas prohibidas o de armas reglamentadas sin autorización» = grave; art. 3, 7.ª categoría: «2. Las ballestas. 3. Las armas para lanzar cabos». Caso: ballesta (7.ª cat., apdo. 2) reparación."
+  },
+  {
+    "id": "t5-020",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.a: «Cuando se trate de armas blancas, de aire comprimido o de las demás comprendidas en las categorías 4.ª a 7.ª ..., la fabricación, reparación, almacenamiento, distribución y comercio de armas prohibidas o de armas reglamentadas sin autorización» = grave; art. 3, 7.ª categoría: «2. Las ballestas. 3. Las armas para lanzar cabos». Caso: arma para lanzar cabos (7.ª cat., apdo. 3) reparación."
+  },
+  {
+    "id": "t5-021",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.a: «Cuando se trate de armas blancas, de aire comprimido o de las demás comprendidas en las categorías 4.ª a 7.ª ..., la fabricación, reparación, almacenamiento, distribución y comercio de armas prohibidas o de armas reglamentadas sin autorización» = grave; art. 3, 7.ª categoría: «2. Las ballestas. 3. Las armas para lanzar cabos». Caso: ballesta (7.ª cat., apdo. 2) almacenamiento."
+  },
+  {
+    "id": "t5-022",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.a: «Cuando se trate de armas blancas, de aire comprimido o de las demás comprendidas en las categorías 4.ª a 7.ª ..., la fabricación, reparación, almacenamiento, distribución y comercio de armas prohibidas o de armas reglamentadas sin autorización» = grave; art. 3, 7.ª categoría: «2. Las ballestas. 3. Las armas para lanzar cabos». Caso: arma para lanzar cabos (7.ª cat., apdo. 3) almacenamiento."
+  },
+  {
+    "id": "t5-023",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.b: «La omisión, insuficiencia o ineficacia de las medidas ... en las fases de fabricación, reparación, almacenamiento, circulación y comercio de armas largas de ánima lisa o de otras armas cuya tenencia requiera licencia E ... Si ... pérdida, sustracción o robo de armas, además de la multa, se impondrá la clausura»."
+  },
+  {
+    "id": "t5-024",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.b: «La omisión, insuficiencia o ineficacia de las medidas ... en las fases de fabricación, reparación, almacenamiento, circulación y comercio de armas largas de ánima lisa o de otras armas cuya tenencia requiera licencia E ... Si ... pérdida, sustracción o robo de armas, además de la multa, se impondrá la clausura»."
+  },
+  {
+    "id": "t5-025",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.b: «La omisión, insuficiencia o ineficacia de las medidas ... en las fases de fabricación, reparación, almacenamiento, circulación y comercio de armas largas de ánima lisa o de otras armas cuya tenencia requiera licencia E ... Si ... pérdida, sustracción o robo de armas, además de la multa, se impondrá la clausura»."
+  },
+  {
+    "id": "t5-026",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.b: «La omisión, insuficiencia o ineficacia de las medidas ... en las fases de fabricación, reparación, almacenamiento, circulación y comercio de armas largas de ánima lisa o de otras armas cuya tenencia requiera licencia E ... Si ... pérdida, sustracción o robo de armas, además de la multa, se impondrá la clausura»."
+  },
+  {
+    "id": "t5-027",
+    "verdict": "corregir",
+    "problems": [
+      "«se le pueden retirar las licencias» suaviza el texto: el art. 156.c dice «las sanciones serán de hasta 6.010,12 euros y retirada de las licencias ... de hasta seis meses», es decir, la retirada va unida a la multa cuando hay pérdida o robo."
+    ],
+    "suggested_explanation": "Si un particular protege de forma insuficiente en su casa un arma larga rayada, comete infracción grave; si por ello la pierde o se la roban, la multa sube y además se le retiran las licencias hasta seis meses.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.c: medidas de seguridad «de las armas que posean los particulares, en los domicilios o lugares de uso, o en circulación, si es de ... armas largas rayadas, con multa de 300,51 a 3.005,06 euros. Si ... pérdida, sustracción o robo de las armas, las sanciones serán de hasta 6.010,12 euros y retirada de las licencias o permisos correspondientes a aquéllas, de hasta seis meses»."
+  },
+  {
+    "id": "t5-028",
+    "verdict": "corregir",
+    "problems": [
+      "Misma matización que t5-027: el art. 156.c impone la retirada de licencias (no «pueden retirarse») cuando hay pérdida, sustracción o robo."
+    ],
+    "suggested_explanation": "Omitir en el domicilio las medidas de seguridad obligatorias para un arma larga rayada es infracción grave; si por ello se pierde o la roban, la multa sube y además se retiran las licencias hasta seis meses.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.c: «Si como consecuencia de la infracción se hubiera producido pérdida, sustracción o robo de las armas, las sanciones serán de hasta 6.010,12 euros y retirada de las licencias o permisos correspondientes a aquéllas, de hasta seis meses de duración»."
+  },
+  {
+    "id": "t5-029",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.c: «en los domicilios o lugares de uso, o en circulación, si es de ... armas largas rayadas» = grave."
+  },
+  {
+    "id": "t5-030",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.d: «con multa de 300,51 a 1.502,53 euros, si se trata de armas largas de ánima lisa»; 156.c (rayadas): 300,51 a 3.005,06. La multa es menor, como dice la explicación."
+  },
+  {
+    "id": "t5-031",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.d: «y con multa de hasta 3.005,06 euros, si como consecuencia se hubiera producido pérdida, sustracción o robo de las armas»."
+  },
+  {
+    "id": "t5-032",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.d: «en los domicilios o lugares de uso, o en circulación ... armas largas de ánima lisa» = grave."
+  },
+  {
+    "id": "t5-033",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.e: «El impedimento o la omisión de la colaboración obligatoria para la realización de los controles o inspecciones prevenidos sobre la fabricación, reparación, almacenamiento, distribución, comercio, tenencia y utilización, con multa ... conjunta o alternativamente con suspensión temporal de hasta seis meses, si se trata de armas de defensa personal, de armas de vigilancia y guardería, de armas largas rayadas o de armas largas de ánima lisa». Caso: tenencia."
+  },
+  {
+    "id": "t5-034",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.e: «El impedimento o la omisión de la colaboración obligatoria para la realización de los controles o inspecciones prevenidos sobre la fabricación, reparación, almacenamiento, distribución, comercio, tenencia y utilización, con multa ... conjunta o alternativamente con suspensión temporal de hasta seis meses, si se trata de armas de defensa personal, de armas de vigilancia y guardería, de armas largas rayadas o de armas largas de ánima lisa». Caso: utilización."
+  },
+  {
+    "id": "t5-035",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.e: «El impedimento o la omisión de la colaboración obligatoria para la realización de los controles o inspecciones prevenidos sobre la fabricación, reparación, almacenamiento, distribución, comercio, tenencia y utilización, con multa ... conjunta o alternativamente con suspensión temporal de hasta seis meses, si se trata de armas de defensa personal, de armas de vigilancia y guardería, de armas largas rayadas o de armas largas de ánima lisa». Caso: almacenamiento."
+  },
+  {
+    "id": "t5-036",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.f: «La adquisición, tenencia, cesión o enajenación de armas por particulares, sin tener las autorizaciones o licencias prevenidas al efecto ... si se trata de ... armas largas rayadas o de armas de ánima lisa» = grave; art. 3: 2.ª cat. 2 = armas largas rayadas (caza mayor), 3.ª cat. 2 = escopetas y armas largas de ánima lisa. Caso: adquisición."
+  },
+  {
+    "id": "t5-037",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.f: «La adquisición, tenencia, cesión o enajenación de armas por particulares, sin tener las autorizaciones o licencias prevenidas al efecto ... si se trata de ... armas largas rayadas o de armas de ánima lisa» = grave; art. 3: 2.ª cat. 2 = armas largas rayadas (caza mayor), 3.ª cat. 2 = escopetas y armas largas de ánima lisa. Caso: tenencia."
+  },
+  {
+    "id": "t5-038",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.f: «La adquisición, tenencia, cesión o enajenación de armas por particulares, sin tener las autorizaciones o licencias prevenidas al efecto ... si se trata de ... armas largas rayadas o de armas de ánima lisa» = grave; art. 3: 2.ª cat. 2 = armas largas rayadas (caza mayor), 3.ª cat. 2 = escopetas y armas largas de ánima lisa. Caso: cesión."
+  },
+  {
+    "id": "t5-039",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.f: «La adquisición, tenencia, cesión o enajenación de armas por particulares, sin tener las autorizaciones o licencias prevenidas al efecto ... si se trata de ... armas largas rayadas o de armas de ánima lisa» = grave; art. 3: 2.ª cat. 2 = armas largas rayadas (caza mayor), 3.ª cat. 2 = escopetas y armas largas de ánima lisa. Caso: enajenación."
+  },
+  {
+    "id": "t5-040",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.f: «... o la alegación de datos o circunstancias falsos para su obtención» = grave."
+  },
+  {
+    "id": "t5-041",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.h: «uso de cualesquiera clase de armas de fuego reglamentarias, con omisión o insuficiencia de las medidas o precauciones obligatorias para garantizar la seguridad de las personas y de las cosas, con multas de 300,51 a 6.010,12 euros y retirada de las armas y municiones ..., así como de las licencias y guías de pertenencia ..., desde seis meses y un día hasta dos años»."
+  },
+  {
+    "id": "t5-042",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.h: «con omisión o insuficiencia de las medidas o precauciones obligatorias» = grave, misma sanción."
+  },
+  {
+    "id": "t5-043",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.i: «Portar armas de fuego o de cualesquiera otra clase en establecimientos públicos y lugares de reunión, concentración, recreo o esparcimiento, salvo en los lugares habilitados para su uso, con multas ..., incautación de las armas y, en su caso, retirada de las licencias o permisos». Caso: establecimientos públicos."
+  },
+  {
+    "id": "t5-044",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.i: «Portar armas de fuego o de cualesquiera otra clase en establecimientos públicos y lugares de reunión, concentración, recreo o esparcimiento, salvo en los lugares habilitados para su uso, con multas ..., incautación de las armas y, en su caso, retirada de las licencias o permisos». Caso: lugares de reunión."
+  },
+  {
+    "id": "t5-045",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.i: «Portar armas de fuego o de cualesquiera otra clase en establecimientos públicos y lugares de reunión, concentración, recreo o esparcimiento, salvo en los lugares habilitados para su uso, con multas ..., incautación de las armas y, en su caso, retirada de las licencias o permisos». Caso: lugares de concentración."
+  },
+  {
+    "id": "t5-046",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.i: «Portar armas de fuego o de cualesquiera otra clase en establecimientos públicos y lugares de reunión, concentración, recreo o esparcimiento, salvo en los lugares habilitados para su uso, con multas ..., incautación de las armas y, en su caso, retirada de las licencias o permisos». Caso: lugares de recreo."
+  },
+  {
+    "id": "t5-047",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.i: «Portar armas de fuego o de cualesquiera otra clase en establecimientos públicos y lugares de reunión, concentración, recreo o esparcimiento, salvo en los lugares habilitados para su uso, con multas ..., incautación de las armas y, en su caso, retirada de las licencias o permisos». Caso: lugares de esparcimiento."
+  },
+  {
+    "id": "t5-048",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 100.5.a: armas 2.ª.2 «en los propios domicilios de sus titulares, en cajas fuertes o armeros autorizados»; art. 156.c: omisión de medidas de seguridad en domicilio de «armas largas rayadas» = grave."
+  },
+  {
+    "id": "t5-049",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.f: «tenencia ... de armas por particulares, sin tener las autorizaciones o licencias prevenidas al efecto ... armas de ánima lisa» = grave; art. 101.2: la licencia E «tendrá cinco años de validez»."
+  },
+  {
+    "id": "t5-050",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.f: «la alegación de datos o circunstancias falsos para su obtención» con «armas de ánima lisa» = grave."
+  },
+  {
+    "id": "t5-051",
+    "verdict": "ok",
+    "problems": [
+      "Nota para revisión humana (no cambia el veredicto): el art. 157.b.1 tipifica como leve «la omisión ... de la exhibición de las armas a los agentes de la autoridad» para armas de 1.ª y 2.ª categoría; la oficial (grave) se apoya en el 156.e y la explicación lo justifica correctamente por esa vía."
+    ],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 144.1.b: obligación de «presentar las armas a las autoridades o a sus agentes, siempre que les requieran para ello»; art. 156.e: «El impedimento o la omisión de la colaboración obligatoria para la realización de los controles ... tenencia y utilización ... armas largas rayadas» = grave."
+  },
+  {
+    "id": "t5-052",
+    "verdict": "corregir",
+    "problems": [
+      "El aviso dice que la cifra «viene de la LO 1/1992»; esa ley (art. 28.1.a) fija «300,52 euros a 30.050,61». La horquilla exacta de la pregunta (300,51 a 30.050,61) es la del art. 156.a y b del Reglamento, vigente. Reformular el aviso para que sea exacto."
+    ],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": "Ojo: el cuestionario da por buena la horquilla del Reglamento de Armas (300,51 a 30.050,61 euros), heredada de la Ley Orgánica 1/1992, ya derogada. La Ley Orgánica 4/2015 vigente, en su art. 39.1, fija para las graves de 601 a 30.000 euros.",
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.a y 156.b: «con multas de 300,51 a 30.050,61 euros». LO 1/1992 (BOE-A-1992-4252, derogada) art. 28.1.a: «De 300,52 euros a 30.050,61 euros, para infracciones graves». Vigente: LO 4/2015 (BOE-A-2015-3442) art. 39.1: «las graves, con multa de 601 a 30.000 euros»."
+  },
+  {
+    "id": "t5-053",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 157.a: «Las tipificadas en los apartados b) a f) del artículo anterior, referidas a armas blancas, de aire comprimido, o las demás comprendidas en las categorías 4.ª a 7.ª, con multas de hasta 300,51 euros» = leve; 156.f tipifica «adquisición, tenencia, cesión o enajenación»; art. 3, 7.ª cat. 2: «Las ballestas». Caso: adquisición."
+  },
+  {
+    "id": "t5-054",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 157.a: «Las tipificadas en los apartados b) a f) del artículo anterior, referidas a armas blancas, de aire comprimido, o las demás comprendidas en las categorías 4.ª a 7.ª, con multas de hasta 300,51 euros» = leve; 156.f tipifica «adquisición, tenencia, cesión o enajenación»; art. 3, 7.ª cat. 2: «Las ballestas». Caso: tenencia."
+  },
+  {
+    "id": "t5-055",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 157.a: «Las tipificadas en los apartados b) a f) del artículo anterior, referidas a armas blancas, de aire comprimido, o las demás comprendidas en las categorías 4.ª a 7.ª, con multas de hasta 300,51 euros» = leve; 156.f tipifica «adquisición, tenencia, cesión o enajenación»; art. 3, 7.ª cat. 2: «Las ballestas». Caso: cesión."
+  },
+  {
+    "id": "t5-056",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 157.a: «Las tipificadas en los apartados b) a f) del artículo anterior, referidas a armas blancas, de aire comprimido, o las demás comprendidas en las categorías 4.ª a 7.ª, con multas de hasta 300,51 euros» = leve; 156.f tipifica «adquisición, tenencia, cesión o enajenación»; art. 3, 7.ª cat. 2: «Las ballestas». Caso: enajenación."
+  },
+  {
+    "id": "t5-057",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 157.d: «El incumplimiento de la obligación de dar cuenta a la Guardia Civil de la pérdida, destrucción, robo o sustracción de las licencias o guías de pertenencia, con multa de hasta 150,25 euros y retirada de las armas» = leve. Caso: destrucción."
+  },
+  {
+    "id": "t5-058",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 157.d: «El incumplimiento de la obligación de dar cuenta a la Guardia Civil de la pérdida, destrucción, robo o sustracción de las licencias o guías de pertenencia, con multa de hasta 150,25 euros y retirada de las armas» = leve. Caso: pérdida."
+  },
+  {
+    "id": "t5-059",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 157.d: «El incumplimiento de la obligación de dar cuenta a la Guardia Civil de la pérdida, destrucción, robo o sustracción de las licencias o guías de pertenencia, con multa de hasta 150,25 euros y retirada de las armas» = leve. Caso: sustracción."
+  },
+  {
+    "id": "t5-060",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 157.e: «La omisión de cualquiera otra clase de información o de las declaraciones que sean obligatorias: 1. Con multa de hasta 300,51 euros, cuando se trate de armeros profesionales. 2. Con multa de hasta 150,25 euros, cuando se trate de particulares»."
+  },
+  {
+    "id": "t5-061",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 157.b: «La omisión de las revistas ... Con multa de hasta 300,51 euros y retirada de las armas»; art. 90.5: «el hecho de no pasar dos revistas consecutivas será causa de anulación y retirada de la guía de pertenencia»."
+  },
+  {
+    "id": "t5-062",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 157: leves «con multas de hasta 300,51 euros» (apdos. a, b.1, c.1, e.1, f). LO 1/1992 (BOE-A-1992-4252, derogada) art. 28.1.a: «De hasta 300,51 euros, para infracciones leves». Vigente: LO 4/2015 (BOE-A-2015-3442) art. 39.1: «las leves, con multa de 100 a 600 euros». Aviso exacto."
+  },
+  {
+    "id": "t5-063",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 158.1: «La retirada de las armas implica la desposesión de las mismas y la prohibición de la adquisición y tenencia de otras durante el plazo que se determine, que no podrá exceder de dos años»."
+  },
+  {
+    "id": "t5-064",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 146.2: «Deberá en general estimarse ilícito el hecho de llevar o usar armas los concurrentes a establecimientos públicos y lugares de reunión, concentración, recreo o esparcimiento»; art. 148.3: asistentes a manifestaciones portando armas «serán denunciados a la autoridad judicial competente»."
+  },
+  {
+    "id": "t5-065",
+    "verdict": "corregir",
+    "problems": [
+      "«sean diez centímetros o más» no tiene apoyo: el Reglamento prohíbe las «armas de fuego largas de cañones recortados» (art. 5.1.c) sin fijar una medida; la frase inventa un umbral.",
+      "La idea de que no cabe autorización se refuerza mejor con el art. 26.4 (ninguna reparación puede modificar características, estructura o calibre sin conocimiento de la Intervención y aprobación del Ministerio de Defensa) que con una afirmación absoluta."
+    ],
+    "suggested_explanation": "Recortar los cañones convierte la escopeta en un arma larga de cañones recortados, que es un arma prohibida para los particulares. Además, nadie puede modificar por su cuenta las características de un arma: hace falta conocimiento de la Intervención de Armas y, en su caso, aprobación del Ministerio de Defensa.",
+    "suggested_article": "Art. 5.1.c RD 137/1993",
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 5.1.c: «Queda prohibida la publicidad, compraventa, tenencia y uso, salvo por funcionarios especialmente habilitados ... de: c) Las armas de fuego largas de cañones recortados»; art. 26.4: «En ningún caso se permitirá que la reparación suponga modificación de las características, estructura o calibre del arma sin conocimiento de la Intervención de Armas de la Guardia Civil y aprobación en su caso del Ministerio de Defensa»."
+  },
+  {
+    "id": "t5-066",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 (BOE-A-1993-6202) art. 156.k: «La tenencia o utilización sin autorización de cargadores ... que en el caso de armas cortas puedan contener más de 20 cartuchos ... con multas de 300,51 a 6.010,12, incautación de los cargadores y retirada de todas las licencias o autorizaciones de adquisición y tenencia de armas de fuego» (vigente desde 5-11-2020, RD 726/2020)."
+  }
+]

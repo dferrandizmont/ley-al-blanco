@@ -1,0 +1,3429 @@
+{
+  "edition": "GC-2020-11",
+  "generated_by": "tool/content/build_teoria.py",
+  "docs": [
+    {
+      "id": "t1",
+      "tema": 1,
+      "title": "Funcionamiento y seguridad",
+      "summary": "Cómo funcionan las armas largas, sus partes, cómo se cargan y limpian, y cómo se guardan y manejan con seguridad. Caen mucho las definiciones de automática, semiautomática y repetición, las piezas del cierre y las normas de seguridad.",
+      "sections": [
+        {
+          "title": "Cómo se recarga cada arma",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "El Reglamento distingue las armas por lo que pasa tras cada disparo: si se recargan solas, si las recargas tú con un mecanismo o si metes el cartucho a mano."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Tipo",
+                "Cómo funciona"
+              ],
+              "rows": [
+                [
+                  "Automática",
+                  "Se recarga sola; ráfaga con el disparador accionado"
+                ],
+                [
+                  "Semiautomática",
+                  "Se recarga sola; un disparo cada vez que lo accionas"
+                ],
+                [
+                  "De repetición",
+                  "La recargas tú con un mecanismo, desde el depósito"
+                ],
+                [
+                  "De un solo tiro",
+                  "Sin depósito; metes el cartucho a mano cada vez"
+                ]
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: varios disparos con una sola presión es automática; se recarga sola pero un disparo por presión, semiautomática; la recarga el tirador, de repetición; sin depósito, de un solo tiro."
+            }
+          ],
+          "articles": [
+            "Art. 2.5 RD 137/1993",
+            "Art. 2.21 RD 137/1993",
+            "Art. 2.15 RD 137/1993",
+            "Art. 2.16 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Las partes del arma y para qué sirven",
+          "collapsed": true,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Parte técnica, sin artículo detrás: las preguntas describen la función y piden el nombre de la pieza."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Pieza",
+                "Para qué sirve"
+              ],
+              "rows": [
+                [
+                  "Cañón",
+                  "Conduce y estabiliza el proyectil"
+                ],
+                [
+                  "Boca",
+                  "Extremo del cañón opuesto a la recámara"
+                ],
+                [
+                  "Recámara",
+                  "Aloja el cartucho para dispararlo"
+                ],
+                [
+                  "Culata",
+                  "Apoyar el arma en el hombro al disparar"
+                ],
+                [
+                  "Cerrojo / cierre",
+                  "Lleva el cartucho a la recámara y la cierra"
+                ],
+                [
+                  "Percutor",
+                  "Golpea el fulminante del cartucho"
+                ],
+                [
+                  "Uña extractora",
+                  "Agarra el culote y saca la vaina"
+                ],
+                [
+                  "Extractores (superpuesta)",
+                  "Dos uñas que sacan los cartuchos de la recámara"
+                ],
+                [
+                  "Expulsores (superpuesta)",
+                  "Solo algunos modelos los llevan, además de extractores"
+                ],
+                [
+                  "Muelle del cargador",
+                  "Sube el cartucho frente a la recámara"
+                ],
+                [
+                  "Guardamonte",
+                  "Protege el disparador"
+                ],
+                [
+                  "Biela",
+                  "Transmite el movimiento del disparador"
+                ],
+                [
+                  "Choke",
+                  "Estrechamiento de la boca de la escopeta"
+                ],
+                [
+                  "Alza / punto de mira",
+                  "Elementos de puntería del arma"
+                ],
+                [
+                  "Ánima de escopeta",
+                  "Lisa o con rayas"
+                ],
+                [
+                  "Ánima de rifle",
+                  "Estriada; el rifle no lleva choke"
+                ],
+                [
+                  "Banda ventilada",
+                  "Enfría los cañones y reduce el efecto del viento"
+                ],
+                [
+                  "Orificios del cajón (rifle)",
+                  "Salida de gases si se rompe un cartucho"
+                ]
+              ]
+            },
+            {
+              "type": "list",
+              "items": [
+                "En el rifle, el percutor y su muelle van dentro del cerrojo; en la semiautomática, percutor, extractor y grapón forman el cerrojo.",
+                "Rifle de caza mayor: percusión central; la recámara tiene la forma del cartucho.",
+                "Para el cuestionario, el alza corrige la altura del impacto y el punto de mira, el desvío lateral."
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: el cañón conduce el proyectil, el percutor golpea el fulminante, la uña extractora saca la vaina y el guardamonte protege el disparador."
+            }
+          ],
+          "articles": [
+            "Art. 3 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Cargar, alimentar, montar y asegurar",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Alimentar: meter los cartuchos en el depósito o mecanismo de alimentación.",
+                "Cargar: llevar un cartucho a la recámara para poder disparar.",
+                "Arma montada: el mecanismo de disparo y percusión está listo para hacer fuego.",
+                "Seguro manual: impide el disparo aunque el arma esté montada. En posición «S» no dispara.",
+                "La semiautomática usa la fuerza del retroceso para mover el cierre y expulsa la vaina por la ventana de expulsión."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Disparar en vacío puede romper la aguja percutora. Una escopeta semiautomática puede llevar también seguro automático."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: alimentar es llenar el depósito; cargar, dejar el cartucho en la recámara listo para disparar."
+            }
+          ],
+          "articles": []
+        },
+        {
+          "title": "Piezas fundamentales o componentes esenciales",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ciertas piezas tienen el mismo régimen que el arma completa. Antes se llamaban piezas fundamentales; hoy el art. 1.2 las llama componentes esenciales."
+            },
+            {
+              "type": "table",
+              "caption": "Componentes esenciales según el art. 1.2",
+              "headers": [
+                "Arma",
+                "Componentes esenciales"
+              ],
+              "rows": [
+                [
+                  "Corta",
+                  "Armazón, cañón, tambor, corredera o cerrojo"
+                ],
+                [
+                  "Larga",
+                  "Cajón de mecanismos, cañón, cerrojo o báscula"
+                ],
+                [
+                  "Larga (además)",
+                  "Cierre o bloqueo del cierre"
+                ]
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: en la escopeta, la báscula y el cañón; en el rifle, el cerrojo y el cañón. La culata y los elementos de puntería no son piezas fundamentales."
+            },
+            {
+              "type": "notice",
+              "text": "Ojo: el cuestionario da por buenas la báscula y el cañón (escopeta) y el cerrojo y el cañón (rifle). El art. 1.2 las llama hoy «componentes esenciales» y para armas largas da una lista más amplia: también el cajón de mecanismos y el cierre o su bloqueo."
+            }
+          ],
+          "articles": [
+            "Art. 1.2 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Limpieza y conservación",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Situación",
+                "Qué hacer"
+              ],
+              "rows": [
+                [
+                  "Limpiar el interior del cañón",
+                  "Con la baqueta"
+                ],
+                [
+                  "Cuidar la madera",
+                  "Aceite de linaza"
+                ],
+                [
+                  "El arma se ha mojado cazando",
+                  "Limpiar y engrasar cuanto antes"
+                ],
+                [
+                  "Dónde limpiarla en casa",
+                  "En una habitación donde estés solo"
+                ]
+              ]
+            }
+          ],
+          "articles": []
+        },
+        {
+          "title": "Seguridad al guardar, transportar y manejar",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Hay que guardar las armas en lugar seguro, evitar robos y accesos no autorizados, y que arma y munición no estén a mano juntas. Los rifles de caza mayor (2.ª, 2) van en caja fuerte o armero autorizados por la Guardia Civil, de al menos grado I de la norma UNE EN 1143-1, con la munición separada."
+            },
+            {
+              "type": "p",
+              "text": "Las escopetas y los rifles del .22 (3.ª, 1 y 2) se guardan en casa bajo llave, sin que arma y munición sean accesibles a la vez. Ningún arma se transporta cargada, y por vías urbanas van desmontadas o en su funda."
+            },
+            {
+              "type": "diagram",
+              "kind": "secuencia",
+              "caption": "Cada vez que coges un arma",
+              "items": [
+                "Trátala como si estuviera cargada.",
+                "Comprueba que está descargada.",
+                "Mantén el dedo fuera del disparador.",
+                "Al cerrar la escopeta, la boca hacia el suelo.",
+                "Si no conoces el arma, no la manipules.",
+                "Con rifle, mira antes dónde impactará el proyectil."
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: guardar descargadas y sin alimentar; transportar descargadas; nunca dejar la escopeta en el maletero del coche aparcado en la calle; descargar si hay gente cerca."
+            }
+          ],
+          "articles": [
+            "Art. 144.1 RD 137/1993",
+            "Art. 100.5 RD 137/1993",
+            "Art. 101.5 RD 137/1993",
+            "Art. 39.4 RD 137/1993",
+            "Art. 149.1 RD 137/1993",
+            "Art. 147.1 RD 137/1993",
+            "Apdo. 1.º Resolución DGGC 4-12-2024"
+          ]
+        }
+      ],
+      "related_questions": [
+        "t1-001",
+        "t1-002",
+        "t1-003",
+        "t1-004",
+        "t1-005",
+        "t1-006",
+        "t1-007",
+        "t1-008",
+        "t1-009",
+        "t1-010",
+        "t1-011",
+        "t1-012",
+        "t1-013",
+        "t1-014",
+        "t1-015",
+        "t1-016",
+        "t1-017",
+        "t1-018",
+        "t1-019",
+        "t1-020",
+        "t1-021",
+        "t1-022",
+        "t1-023",
+        "t1-024",
+        "t1-025",
+        "t1-026",
+        "t1-027",
+        "t1-028",
+        "t1-029",
+        "t1-030",
+        "t1-031",
+        "t1-032",
+        "t1-033",
+        "t1-034",
+        "t1-035",
+        "t1-036",
+        "t1-037",
+        "t1-038",
+        "t1-039",
+        "t1-040",
+        "t1-041",
+        "t1-042",
+        "t1-043",
+        "t1-044",
+        "t1-045",
+        "t1-046",
+        "t1-047",
+        "t1-048",
+        "t1-049",
+        "t1-050",
+        "t1-051",
+        "t1-052",
+        "t1-053",
+        "t1-054",
+        "t1-055",
+        "t1-056",
+        "t1-057",
+        "t1-058",
+        "t1-059",
+        "t1-060",
+        "t1-061",
+        "t1-062",
+        "t1-063",
+        "t1-064",
+        "t1-065",
+        "t1-066",
+        "t1-067",
+        "t1-068"
+      ]
+    },
+    {
+      "id": "t2",
+      "tema": 2,
+      "title": "Categorías de armas",
+      "summary": "Las nueve categorías del Reglamento, qué es arma corta o larga, los límites de las semiautomáticas, las armas de guerra y las prohibidas. Lo más preguntado es en qué categoría va cada arma y qué armas blancas están prohibidas.",
+      "sections": [
+        {
+          "title": "Cómo se clasifica un arma",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "El art. 3 reparte las armas reglamentadas en categorías según sus características, su grado de peligrosidad y su destino o uso. Antes de buscar la categoría conviene saber si el arma es corta o larga y si el cañón es liso o rayado."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Arma corta: cañón de 30 cm como máximo o longitud total de 60 cm como máximo.",
+                "Arma larga: cualquier arma de fuego que no sea corta.",
+                "Armas asimiladas a las de fuego: las de la 3.ª, 3 (aire comprimido potente) y las de la 7.ª, 2 y 3 (ballestas y lanzacabos). Los arcos no lo son."
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: las ballestas se documentan con licencia E, como las escopetas, nunca con la D. Y a los arcos no se les aplica ese criterio porque no son armas asimiladas."
+            }
+          ],
+          "articles": [
+            "Art. 3 RD 137/1993",
+            "Art. 2.13 RD 137/1993",
+            "Art. 2.14 RD 137/1993",
+            "Art. 2.3 RD 137/1993",
+            "Art. 101.1 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Las nueve categorías",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Categoría",
+                "Qué incluye"
+              ],
+              "rows": [
+                [
+                  "1.ª",
+                  "Armas de fuego cortas: pistolas y revólveres"
+                ],
+                [
+                  "2.ª, 1",
+                  "Armas largas para vigilancia y guardería"
+                ],
+                [
+                  "2.ª, 2",
+                  "Rifles de caza mayor y cañones estriados adaptables"
+                ],
+                [
+                  "3.ª, 1",
+                  "Rifles 5,6 mm (.22) de percusión anular, tiro deportivo"
+                ],
+                [
+                  "3.ª, 2",
+                  "Escopetas y demás armas largas de ánima lisa"
+                ],
+                [
+                  "3.ª, 3",
+                  "Aire comprimido de más de 24,2 julios en boca"
+                ],
+                [
+                  "4.ª, 1",
+                  "Aire: semiautomáticas, repetición, revólver doble acción"
+                ],
+                [
+                  "4.ª, 2",
+                  "Aire: un solo tiro y revólver de acción simple"
+                ],
+                [
+                  "5.ª",
+                  "Armas blancas no prohibidas; machetes militares"
+                ],
+                [
+                  "6.ª",
+                  "Antiguas (antes de 1890), históricas y de avancarga"
+                ],
+                [
+                  "7.ª, 2",
+                  "Ballestas"
+                ],
+                [
+                  "7.ª, 6",
+                  "Armas de alarma y señales; pistolas lanzabengalas"
+                ],
+                [
+                  "7.ª (resto)",
+                  "Anestésicas, lanzacabos, Flobert, arcos, pesca"
+                ],
+                [
+                  "8.ª",
+                  "Armas acústicas y de salvas"
+                ],
+                [
+                  "9.ª",
+                  "Armas inutilizadas"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos, van en la 2.ª, 2 si no son de guerra. En cambio, una escopeta con rayas para facilitar el plomeo y marcada con punzón de escopeta por un banco de pruebas sigue siendo de la 3.ª, 2."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: pistolas y revólveres en la 1.ª; rifles de caza mayor en la 2.ª, 2; el .22 anular deportivo en la 3.ª, 1, sea de un tiro, de repetición o semiautomático; escopetas en la 3.ª, 2. Las de aire de más de 24,2 julios van a la 3.ª, 3 y el resto a la 4.ª."
+            }
+          ],
+          "articles": [
+            "Art. 3 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Semiautomáticas: cuándo pasan a estar prohibidas",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Una semiautomática hace un disparo cada vez que accionas el disparador. Es legal para particulares, pero el art. 5 prohíbe las de percusión central con demasiada capacidad de carga, contando el cartucho de la recámara."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Caso",
+                "Prohibida si…",
+                "Artículo"
+              ],
+              "rows": [
+                [
+                  "Corta semiautomática",
+                  "Más de 21 cartuchos",
+                  "Art. 5.1.a"
+                ],
+                [
+                  "Larga semiautomática",
+                  "Más de 11 cartuchos",
+                  "Art. 5.1.b"
+                ],
+                [
+                  "Cargador de arma corta",
+                  "Más de 20 cartuchos",
+                  "Art. 5.1.e"
+                ],
+                [
+                  "Cargador de arma larga",
+                  "Más de 10 cartuchos",
+                  "Art. 5.1.e"
+                ],
+                [
+                  "Automática transformada",
+                  "Siempre",
+                  "Art. 5.1.d"
+                ]
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: un rifle semiautomático de 5 cartuchos está permitido; uno de 12 está prohibido; una pistola de 25 está prohibida; una automática convertida en semiautomática está prohibida."
+            }
+          ],
+          "articles": [
+            "Art. 2.21 RD 137/1993",
+            "Art. 5.1 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Armas de guerra",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Los particulares no pueden adquirir, tener ni usar armas de guerra, y no hay forma de legalizárselas. Son de guerra las de calibre igual o superior a 20 mm y las de calibres que Defensa considere de guerra, con sus municiones; también todas las armas de fuego automáticas, y los componentes esenciales de todas ellas."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: una escopeta de 20 mm es arma de guerra; las automáticas siempre son de guerra. Con calibres como el .308 Win o el 7,62 x 39, el cuestionario espera rifle de repetición y bala expansiva para caza mayor."
+            }
+          ],
+          "articles": [
+            "Art. 6.1 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Armas prohibidas",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Hay dos listas. Las del art. 4 están prohibidas para todos: ni fabricarlas, ni venderlas, ni tenerlas ni usarlas. Las del art. 5 están prohibidas salvo a funcionarios especialmente habilitados; por eso el cuestionario las llama «prohibidas a particulares»."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Prohibido",
+                "Ejemplo o detalle",
+                "Artículo"
+              ],
+              "rows": [
+                [
+                  "Arma modificada sin autorización",
+                  "Cambia mucho su fabricación",
+                  "Art. 4.1.a"
+                ],
+                [
+                  "Arma larga con alojamiento",
+                  "Culata para pistola u otras armas",
+                  "Art. 4.1.b"
+                ],
+                [
+                  "Arma camuflada",
+                  "Simulada como otro objeto",
+                  "Art. 4.1.e"
+                ],
+                [
+                  "Puñales y navajas automáticas",
+                  "Puñal: dos filos, punta, hoja < 11 cm",
+                  "Art. 4.1.f"
+                ],
+                [
+                  "Arma combinada con arma blanca",
+                  "Real o simulada",
+                  "Art. 4.1.g"
+                ],
+                [
+                  "Instrumentos peligrosos",
+                  "Rompecabezas, llaves de pugilato",
+                  "Art. 4.1.h"
+                ],
+                [
+                  "Cañones recortados",
+                  "Solo funcionarios habilitados",
+                  "Art. 5.1.c"
+                ],
+                [
+                  "Silenciadores",
+                  "Ninguno, sea cual sea el arma",
+                  "Art. 5.1.k"
+                ],
+                [
+                  "Munición perforante",
+                  "También explosiva e incendiaria",
+                  "Art. 5.1.l"
+                ],
+                [
+                  "Proyectiles dum-dum",
+                  "O de punta hueca, en armas cortas",
+                  "Art. 5.1.m"
+                ],
+                [
+                  "Navaja no automática",
+                  "Hoja de más de 11 cm; en casa solo de adorno o colección",
+                  "Art. 5.3"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Un cuchillo de monte de dos filos con 20 cm de hoja no es puñal, porque supera los 11 cm: es un arma blanca permitida. Los machetes del armamento militar aprobado no los pueden usar los particulares. Las miras telescópicas no están prohibidas; las de armas de caza mayor solo puede comprarlas y usarlas quien tenga licencia D."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: una escopeta con un hueco en la culata para otra arma, aunque sea una navaja de desollar, es prohibida y no se puede legalizar. Los rompecabezas también están prohibidos, aunque se quieran usar en caza mayor."
+            }
+          ],
+          "articles": [
+            "Art. 4.1 RD 137/1993",
+            "Art. 5.1 RD 137/1993",
+            "Art. 5.3 RD 137/1993",
+            "Art. 100.6 RD 137/1993"
+          ]
+        }
+      ],
+      "related_questions": [
+        "t2-001",
+        "t2-002",
+        "t2-003",
+        "t2-004",
+        "t2-005",
+        "t2-006",
+        "t2-007",
+        "t2-008",
+        "t2-009",
+        "t2-010",
+        "t2-011",
+        "t2-012",
+        "t2-013",
+        "t2-014",
+        "t2-015",
+        "t2-016",
+        "t2-017",
+        "t2-018",
+        "t2-019",
+        "t2-020",
+        "t2-021",
+        "t2-022",
+        "t2-023",
+        "t2-024",
+        "t2-025",
+        "t2-026",
+        "t2-027",
+        "t2-028",
+        "t2-029",
+        "t2-030",
+        "t2-031",
+        "t2-032",
+        "t2-033",
+        "t2-034",
+        "t2-035",
+        "t2-036",
+        "t2-037",
+        "t2-038",
+        "t2-039",
+        "t2-040",
+        "t2-041",
+        "t2-042",
+        "t2-043",
+        "t2-044",
+        "t2-045",
+        "t2-046",
+        "t2-047",
+        "t2-048",
+        "t2-049",
+        "t2-050",
+        "t2-051",
+        "t2-052",
+        "t2-053",
+        "t2-054",
+        "t2-055",
+        "t2-056",
+        "t2-057",
+        "t2-058",
+        "t2-059",
+        "t2-060",
+        "t2-061",
+        "t2-062",
+        "t2-063",
+        "t2-064",
+        "t2-065",
+        "t2-066",
+        "t2-067"
+      ]
+    },
+    {
+      "id": "t3",
+      "tema": 3,
+      "title": "Circulación, revista y transferencia",
+      "summary": "Cómo viaja un arma cuando no la lleva su dueño con su documentación, cada cuánto se pasa revista y cómo se vende o se presta. Clave para el examen: la guía de circulación, los cinco años de la revista y el préstamo de quince días.",
+      "sections": [
+        {
+          "title": "La guía de circulación",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ampara el traslado de un arma entre dos lugares cuando no va con licencia ni guía de pertenencia. La expide la Intervención de Armas y Explosivos."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Categorías 1.ª, 2.ª, 3.ª, 6.ª y 8.ª y sus componentes esenciales, como la báscula de una escopeta.",
+                "Armas completas de la 7.ª, 1 a 4, aunque vayan despiezadas.",
+                "Incluye las carabinas de aire de más de 24,2 julios (3.ª)."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Si llevas tu escopeta con su guía de pertenencia y tu licencia, no la necesitas. Si mandas un arma a reparar a otra localidad, la guía de circulación sustituye a la de pertenencia y basta con ella."
+            },
+            {
+              "type": "p",
+              "text": "Si compras una escopeta fuera de tu localidad, la Intervención de ese lugar puede darte una guía de circulación con el parte de venta y tu licencia E. Tienes diez días para pedir la guía de pertenencia en la Intervención de tu residencia."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: la expide la Intervención de Armas; la necesitan, entre otras, las armas de 2.ª, 3.ª y 8.ª sin licencia ni guía; diez días tras comprar una escopeta fuera."
+            }
+          ],
+          "articles": [
+            "Art. 31.1 RD 137/1993",
+            "Art. 26.3 RD 137/1993",
+            "Art. 42.2 RD 137/1993",
+            "Art. 1.2 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Envases, precintos y envíos",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "table",
+              "caption": "Reglas del transporte de armas",
+              "headers": [
+                "Regla",
+                "Qué dice el Reglamento",
+                "Art."
+              ],
+              "rows": [
+                [
+                  "Envase",
+                  "Acondicionado para la seguridad del traslado",
+                  "34"
+                ],
+                [
+                  "Comercio interior",
+                  "Máximo 25 armas por envase",
+                  "35.1"
+                ],
+                [
+                  "Mezclas",
+                  "Rifles o cortas nunca junto a escopetas",
+                  "35.1"
+                ],
+                [
+                  "Destinatarios",
+                  "Sin mezclar destinatarios en un envase ni en una guía",
+                  "36"
+                ],
+                [
+                  "Precinto",
+                  "Intervención de Armas o armero autorizado",
+                  "37"
+                ],
+                [
+                  "Medio de envío",
+                  "Ferrocarril o empresa de transportes",
+                  "39.1"
+                ],
+                [
+                  "Prohibido siempre",
+                  "Armas cargadas o junto a su cartuchería",
+                  "39.4"
+                ],
+                [
+                  "Contenido",
+                  "Declarado en la documentación y en el paquete",
+                  "40.1"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "No se envían por correo: si no la llevas tú, el arma va por ferrocarril o empresa de transportes. Un rifle recién comprado fuera de tu localidad y sin guía de pertenencia no puedes llevarlo tú: la guía de circulación del comprador solo existe para escopetas, así que viaja por empresa de transportes."
+            },
+            {
+              "type": "p",
+              "text": "Si te envían un arma a la Intervención de Armas, vas con tu licencia o el documento que te autorice a adquirirla y firmas su recepción."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: nunca cargadas ni con su munición; un envase por destinatario; rifle y escopeta, en paquetes distintos."
+            }
+          ],
+          "articles": [
+            "Art. 34 RD 137/1993",
+            "Art. 35.1 RD 137/1993",
+            "Art. 36 RD 137/1993",
+            "Art. 37 RD 137/1993",
+            "Art. 39 RD 137/1993",
+            "Art. 40.1 RD 137/1993",
+            "Art. 44.1 RD 137/1993"
+          ]
+        },
+        {
+          "title": "La revista de armas",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Las armas con guía de pertenencia pasan revista cada cinco años, al renovar la licencia y dentro del mes de esa renovación, en la Intervención de Armas."
+            },
+            {
+              "type": "table",
+              "caption": "¿Pasa revista?",
+              "headers": [
+                "Arma",
+                "Documento",
+                "Revista"
+              ],
+              "rows": [
+                [
+                  "Escopeta (3.ª, 2)",
+                  "Guía de pertenencia",
+                  "Cada 5 años"
+                ],
+                [
+                  "Rifle de caza mayor (2.ª, 2)",
+                  "Guía de pertenencia",
+                  "Cada 5 años"
+                ],
+                [
+                  "Arma de concurso",
+                  "Guía de pertenencia",
+                  "Cada 5 años"
+                ],
+                [
+                  "Ballesta (7.ª, 2)",
+                  "Guía de pertenencia",
+                  "Cada 5 años"
+                ],
+                [
+                  "Carabina de aire de más de 24,2 J",
+                  "Guía de pertenencia",
+                  "Cada 5 años"
+                ],
+                [
+                  "Carabina de aire de 4.ª categoría",
+                  "Tarjeta de armas",
+                  "No pasa revista"
+                ]
+              ]
+            },
+            {
+              "type": "list",
+              "items": [
+                "Hay que presentar el arma: tú o alguien autorizado por escrito.",
+                "Las anotaciones las hace el Interventor de Armas.",
+                "Dos revistas seguidas sin pasar: se anula la guía y el arma queda depositada.",
+                "No pasarla es infracción administrativa y abre expediente sancionador."
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: cinco años, ballestas incluidas; sin presentar el arma no hay revista."
+            }
+          ],
+          "articles": [
+            "Art. 90 RD 137/1993",
+            "Art. 88 RD 137/1993",
+            "Art. 105.1 RD 137/1993",
+            "Art. 157.b RD 137/1993"
+          ]
+        },
+        {
+          "title": "Venta y cambio de titularidad",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Solo puedes vender un arma a quien tenga la licencia, la tarjeta o el certificado de inutilización que exija esa arma."
+            },
+            {
+              "type": "p",
+              "text": "La venta se comunica siempre a la Intervención de Armas, también si es a una armería o un regalo. Para la guía de pertenencia de un arma de fuego hay que acreditar, si no lo hiciste antes, las medidas de seguridad de custodia."
+            },
+            {
+              "type": "diagram",
+              "kind": "secuencia",
+              "caption": "Venta entre particulares",
+              "items": [
+                "El comprador tiene la licencia del arma.",
+                "Se presenta el arma en la Intervención.",
+                "Se recoge la guía del vendedor y se anula.",
+                "Se expide una guía nueva al comprador."
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: la guía del vendedor se entrega en la Intervención y el comprador recibe una nueva."
+            }
+          ],
+          "articles": [
+            "Art. 92 RD 137/1993",
+            "Art. 94 RD 137/1993",
+            "Art. 95 RD 137/1993",
+            "Art. 89.5 RD 137/1993"
+          ]
+        },
+        {
+          "title": "El préstamo de armas de caza",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Españoles y extranjeros residentes pueden prestar sus armas de caza. Pistolas, revólveres y armas de concurso, solo para tiro deportivo y con autorización escrita."
+            },
+            {
+              "type": "table",
+              "caption": "Préstamo de un arma de caza",
+              "headers": [
+                "Requisito",
+                "Qué exige"
+              ],
+              "rows": [
+                [
+                  "Quién la recibe",
+                  "Licencia de caza y la licencia de armas D o E"
+                ],
+                [
+                  "Forma",
+                  "Autorización escrita, fechada y firmada"
+                ],
+                [
+                  "Duración",
+                  "Quince días como máximo"
+                ],
+                [
+                  "Finalidad",
+                  "Solo para cazar"
+                ],
+                [
+                  "Documento del arma",
+                  "Siempre con su guía de pertenencia"
+                ]
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: quince días, por escrito y con la guía; quien la recibe necesita licencia de caza y de armas."
+            }
+          ],
+          "articles": [
+            "Art. 91 RD 137/1993"
+          ]
+        }
+      ],
+      "related_questions": [
+        "t3-001",
+        "t3-002",
+        "t3-003",
+        "t3-004",
+        "t3-005",
+        "t3-006",
+        "t3-007",
+        "t3-008",
+        "t3-009",
+        "t3-010",
+        "t3-011",
+        "t3-012",
+        "t3-013",
+        "t3-014",
+        "t3-015",
+        "t3-016",
+        "t3-017",
+        "t3-018",
+        "t3-019",
+        "t3-020",
+        "t3-021",
+        "t3-022",
+        "t3-023",
+        "t3-024",
+        "t3-025",
+        "t3-026",
+        "t3-027",
+        "t3-028",
+        "t3-029",
+        "t3-030",
+        "t3-031",
+        "t3-032",
+        "t3-033",
+        "t3-034",
+        "t3-035",
+        "t3-036",
+        "t3-037",
+        "t3-038",
+        "t3-039",
+        "t3-040",
+        "t3-041",
+        "t3-042",
+        "t3-043",
+        "t3-044",
+        "t3-045",
+        "t3-046",
+        "t3-047",
+        "t3-048",
+        "t3-049",
+        "t3-050",
+        "t3-051",
+        "t3-052",
+        "t3-053",
+        "t3-054",
+        "t3-055",
+        "t3-056",
+        "t3-057",
+        "t3-058",
+        "t3-059",
+        "t3-060",
+        "t3-061",
+        "t3-062",
+        "t3-063",
+        "t3-064",
+        "t3-065",
+        "t3-066"
+      ]
+    },
+    {
+      "id": "t4",
+      "tema": 4,
+      "title": "Documentación y licencias, Tarjeta Europea",
+      "summary": "Qué documento lleva cada arma, quién puede tener licencia, cuánto dura, los menores y los viajes por la Unión Europea. Clave para el examen: los números de la D y la E, los cinco años, el visado de los mayores de 67 y las edades de los menores.",
+      "sections": [
+        {
+          "title": "Qué licencia ampara cada arma",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "table",
+              "caption": "Licencias D y E y tarjetas de armas",
+              "headers": [
+                "Documento",
+                "Qué ampara",
+                "Cuántas armas",
+                "Validez"
+              ],
+              "rows": [
+                [
+                  "Licencia D",
+                  "Rifles de caza mayor (2.ª, 2)",
+                  "Hasta 5",
+                  "5 años"
+                ],
+                [
+                  "Licencia E",
+                  "Categoría 3.ª, ballestas y lanzacabos",
+                  "6 escopetas o 6 rifles de tiro; 12 en total",
+                  "5 años"
+                ],
+                [
+                  "Tarjeta A (alcalde)",
+                  "Armas de la categoría 4.ª, 1",
+                  "Hasta 6",
+                  "5 años"
+                ],
+                [
+                  "Tarjeta B (alcalde)",
+                  "Armas de la categoría 4.ª, 2",
+                  "Sin límite",
+                  "Permanente"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Nadie puede tener más de una D ni más de una E, y cada una cubre su categoría: con escopeta y rifle de caza mayor necesitas las dos. Las carabinas de aire de 4.ª categoría van en la tarjeta del alcalde."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Arma combinada: una guía, según su parte más peligrosa.",
+                "Miras telescópicas de caza mayor: solo con licencia D.",
+                "Rifle automático: arma de guerra, prohibida.",
+                "Arma del libro-registro de coleccionista: no se puede usar."
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: D, rifles de caza mayor, hasta cinco; E, categorías 3.ª, 7.ª 2 y 7.ª 3, con seis escopetas o seis rifles de tiro y doce en total."
+            }
+          ],
+          "articles": [
+            "Art. 96 RD 137/1993",
+            "Art. 100 RD 137/1993",
+            "Art. 101 RD 137/1993",
+            "Art. 105 RD 137/1993",
+            "Art. 6.1 RD 137/1993",
+            "Art. 107 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Quién puede tener licencia",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Solo mayores de edad, españoles o extranjeros residentes en España: un menor no puede ser titular, ni con 17 años. La D y la E las concede el Jefe de la Comandancia. Un español que vive fuera puede usar aquí armas de caza con las mismas normas."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Certificado de antecedentes penales.",
+                "Fotocopia del DNI o tarjeta de residencia.",
+                "Informe de aptitudes psicofísicas.",
+                "Para caza: licencia de caza o tarjeta federativa."
+              ]
+            },
+            {
+              "type": "notice",
+              "text": "Ojo: en la pregunta sobre los documentos de la licencia D, el cuestionario da por buenos solo los antecedentes penales y el informe de aptitudes. El art. 97.1 también pide fotocopia del DNI o de la tarjeta de residencia."
+            },
+            {
+              "type": "p",
+              "text": "Hay que superar pruebas sobre conocimiento, cuidado y manejo de las armas. Sin respuesta en tres meses, la solicitud se entiende desestimada. No se pide certificado del alcalde."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: 18 años, antecedentes penales e informe psicofísico; la licencia de caza acredita que cazas."
+            }
+          ],
+          "articles": [
+            "Art. 102 RD 137/1993",
+            "Art. 97 RD 137/1993",
+            "Art. 100.3 RD 137/1993",
+            "Art. 101.3 RD 137/1993",
+            "Disp. final única RD 137/1993",
+            "Art. 110.9 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Vigencia, visado y revocación",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "table",
+              "caption": "Situaciones frecuentes",
+              "headers": [
+                "Situación",
+                "Qué pasa",
+                "Art."
+              ],
+              "rows": [
+                [
+                  "Licencia D o E",
+                  "Vale cinco años",
+                  "100.2, 101.2"
+                ],
+                [
+                  "Titular de más de 67 años",
+                  "Cinco años, con visado a los tres",
+                  "104.1"
+                ],
+                [
+                  "Licencia a punto de caducar",
+                  "Autorización temporal de tres meses",
+                  "103"
+                ],
+                [
+                  "Pérdida o robo de la licencia",
+                  "Autorización temporal mientras se tramita",
+                  "145.2"
+                ],
+                [
+                  "Pérdida o robo del arma",
+                  "Aviso inmediato y entrega de la guía",
+                  "145.1"
+                ],
+                [
+                  "Retirada de la licencia",
+                  "Como máximo dos años",
+                  "158.2"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "La autorización temporal la da la Intervención de Armas al pedir la renovación, recogiendo la licencia antigua. Solo sirve para usar las armas."
+            },
+            {
+              "type": "p",
+              "text": "La licencia vale mientras cumplas los requisitos; pueden comprobarlo en cualquier momento y revocarla."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: cinco años; mayores de 67, visado a los tres; tres meses de autorización temporal."
+            }
+          ],
+          "articles": [
+            "Art. 103 RD 137/1993",
+            "Art. 104.1 RD 137/1993",
+            "Art. 145 RD 137/1993",
+            "Art. 97.5 RD 137/1993",
+            "Art. 158.2 RD 137/1993"
+          ]
+        },
+        {
+          "title": "La guía de pertenencia",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Cada arma de las categorías 1.ª, 2.ª, 3.ª, 6.ª, 7.ª 1 a 4 y 8.ª lleva su guía: una guía, un arma. La expide la Intervención de Armas con tus datos, los de la licencia y la reseña completa del arma."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Acompaña al arma en uso, depósito y transporte.",
+                "Para cazar con rifle: licencia D y guía del rifle.",
+                "Arcos y lanzabengalas no llevan guía.",
+                "Si pierdes el arma, entregas su guía."
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: escopetas, rifles, carabinas de más de 24,2 julios, ballestas y lanzacabos llevan guía; los arcos no."
+            }
+          ],
+          "articles": [
+            "Art. 88 RD 137/1993",
+            "Art. 89 RD 137/1993",
+            "Art. 3 RD 137/1993",
+            "Art. 145.1 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Menores de edad",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "table",
+              "caption": "Autorización especial de uso para menores",
+              "headers": [
+                "Edad",
+                "Qué puede usar",
+                "Para qué"
+              ],
+              "rows": [
+                [
+                  "De 16 a 18 años",
+                  "Rifles de caza mayor o categoría 3.ª, 1",
+                  "Caza o tiro (categoría junior)"
+                ],
+                [
+                  "De 14 a 18 años",
+                  "Escopetas (3.ª, 2)",
+                  "Caza"
+                ],
+                [
+                  "De 14 a 18 años",
+                  "Categoría 3.ª, 2 y 3",
+                  "Competiciones junior"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "El menor usa las armas pero no las posee, siempre con un adulto con licencia D, E o F comprometido a acompañarlo y vigilarlo en cada cacería o acto deportivo. Concede la autorización el Director General de la Guardia Civil y vale hasta la mayoría de edad."
+            },
+            {
+              "type": "p",
+              "text": "La solicitud la firman el menor y quien tiene la patria potestad o tutela."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: 16 años para el rifle, 14 para la escopeta y validez hasta los 18."
+            }
+          ],
+          "articles": [
+            "Art. 109 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Tarjeta Europea de Armas de Fuego",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Para viajar con tus armas por la Unión Europea necesitas la Tarjeta Europea. La expide la Guardia Civil a residentes en España con sus armas documentadas."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Vale cinco años y se prorroga mientras sigas siendo titular de las armas.",
+                "Figuran las armas que posees y utilizas.",
+                "La llevas siempre contigo."
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: cinco años y, para renovarla, mantener la titularidad de las armas."
+            }
+          ],
+          "articles": [
+            "Art. 112.2 RD 137/1993",
+            "Art. 113.1 RD 137/1993"
+          ]
+        }
+      ],
+      "related_questions": [
+        "t4-001",
+        "t4-002",
+        "t4-003",
+        "t4-004",
+        "t4-005",
+        "t4-006",
+        "t4-007",
+        "t4-008",
+        "t4-009",
+        "t4-010",
+        "t4-011",
+        "t4-012",
+        "t4-013",
+        "t4-014",
+        "t4-015",
+        "t4-016",
+        "t4-017",
+        "t4-018",
+        "t4-019",
+        "t4-020",
+        "t4-021",
+        "t4-022",
+        "t4-023",
+        "t4-024",
+        "t4-025",
+        "t4-026",
+        "t4-027",
+        "t4-028",
+        "t4-029",
+        "t4-030",
+        "t4-031",
+        "t4-032",
+        "t4-033",
+        "t4-034",
+        "t4-035",
+        "t4-036",
+        "t4-037",
+        "t4-038",
+        "t4-039",
+        "t4-040",
+        "t4-041",
+        "t4-042",
+        "t4-043",
+        "t4-044",
+        "t4-045",
+        "t4-046",
+        "t4-047",
+        "t4-048",
+        "t4-049",
+        "t4-050",
+        "t4-051",
+        "t4-052",
+        "t4-053",
+        "t4-054",
+        "t4-055",
+        "t4-056",
+        "t4-057",
+        "t4-058",
+        "t4-059",
+        "t4-060",
+        "t4-061",
+        "t4-062",
+        "t4-063",
+        "t4-064",
+        "t4-065",
+        "t4-066",
+        "t4-067",
+        "t4-068",
+        "t4-069",
+        "t4-070"
+      ]
+    },
+    {
+      "id": "t5",
+      "tema": 5,
+      "title": "Régimen sancionador",
+      "summary": "Qué conductas con armas son infracción muy grave, grave o leve, quién sanciona, las multas y la prescripción. Clave para el examen: clasificar una conducta según el arma y los plazos.",
+      "sections": [
+        {
+          "title": "Delito o infracción administrativa",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Un hecho con armas puede ser delito, que juzgan los tribunales, o infracción administrativa, que sanciona la Administración. Las infracciones del Reglamento solo se aplican «si no constituyen delito»."
+            },
+            {
+              "type": "p",
+              "text": "Si el hecho puede ser delito, se pasa al Ministerio Fiscal y el expediente se para hasta que decida el juez. Nunca se castiga dos veces lo mismo (mismo sujeto, hecho y fundamento)."
+            },
+            {
+              "type": "p",
+              "text": "Las infracciones administrativas son muy graves, graves y leves. No existen las «menos graves» ni las «gravísimas»."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: los hechos pueden ser infracciones penales y administrativas, y por un mismo hecho no se imponen ambas sanciones en ningún caso."
+            }
+          ],
+          "articles": [
+            "Art. 161 RD 137/1993",
+            "Art. 34 LO 4/2015",
+            "Art. 45 LO 4/2015"
+          ]
+        },
+        {
+          "title": "Quién sanciona",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Los Delegados del Gobierno sancionan en general las graves y leves; los alcaldes, algunas leves. En fabricación, reparación, almacenamiento, distribución, circulación y comercio, la Dirección General de la Guardia Civil sanciona las graves y leves y propone la sanción de las muy graves."
+            },
+            {
+              "type": "p",
+              "text": "Con la Ley Orgánica 4/2015 vigente, las muy graves las sancionan el Ministro del Interior o el Secretario de Estado de Seguridad, según su grado."
+            },
+            {
+              "type": "key",
+              "text": "En el examen valen tanto el Delegado del Gobierno y el Director General de la Guardia Civil como el alcalde. El Interventor de Armas inspecciona, pero no ordena abrir el expediente."
+            }
+          ],
+          "articles": [
+            "Art. 159 RD 137/1993",
+            "Art. 32 LO 4/2015"
+          ]
+        },
+        {
+          "title": "Qué conducta es muy grave, grave o leve",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La clase depende sobre todo del tipo de arma: la misma falta pesa más con rifles y escopetas que con ballestas u otras armas de las categorías 4.ª a 7.ª. Y almacenar como actividad (armerías) no es lo mismo que guardar armas en casa."
+            },
+            {
+              "type": "table",
+              "caption": "Rifles, escopetas y armas de fuego",
+              "headers": [
+                "Conducta (si no es delito)",
+                "Clase",
+                "Artículo"
+              ],
+              "rows": [
+                [
+                  "Fabricar, reparar o almacenar rifles o escopetas sin permiso",
+                  "Muy grave",
+                  "155.a.2"
+                ],
+                [
+                  "Sin seguridad suficiente al almacenar rifles (actividad)",
+                  "Muy grave",
+                  "155.d"
+                ],
+                [
+                  "Usar armas cortas sin licencia o sin guía",
+                  "Muy grave",
+                  "155.c"
+                ],
+                [
+                  "Sin seguridad al almacenar o circular: escopetas, lic. E",
+                  "Grave",
+                  "156.b"
+                ],
+                [
+                  "Seguridad en casa o lugar de uso: rifles (p. ej. sin armero)",
+                  "Grave",
+                  "156.c"
+                ],
+                [
+                  "Seguridad en casa o lugar de uso: escopetas",
+                  "Grave",
+                  "156.d"
+                ],
+                [
+                  "Impedir controles o negarse a presentar el arma",
+                  "Grave",
+                  "156.e"
+                ],
+                [
+                  "Adquirir, tener, ceder o vender sin licencia; datos falsos",
+                  "Grave",
+                  "156.f"
+                ],
+                [
+                  "Usar armas sin las precauciones de seguridad obligatorias",
+                  "Grave",
+                  "156.h"
+                ],
+                [
+                  "Portar armas en locales públicos, reuniones o de recreo",
+                  "Grave",
+                  "156.i"
+                ],
+                [
+                  "Cargadores de más de 20 (corta) o 10 (larga) sin permiso",
+                  "Grave",
+                  "156.k"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "caption": "Ballestas, cat. 4.ª a 7.ª y obligaciones de aviso",
+              "headers": [
+                "Conducta (si no es delito)",
+                "Clase",
+                "Artículo"
+              ],
+              "rows": [
+                [
+                  "Reparar o almacenar sin autorización ballestas o lanzacabos",
+                  "Grave",
+                  "156.a"
+                ],
+                [
+                  "Adquirir, tener, ceder o vender ballestas sin autorización",
+                  "Leve",
+                  "157.a"
+                ],
+                [
+                  "No pasar revista, no depositar o no exhibir el arma",
+                  "Leve",
+                  "157.b"
+                ],
+                [
+                  "No avisar de la pérdida o robo de licencia o guía",
+                  "Leve",
+                  "157.d"
+                ],
+                [
+                  "No hacer las declaraciones obligatorias",
+                  "Leve",
+                  "157.e"
+                ]
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Trampas: almacenar rifles sin autorización es muy grave; omitir la seguridad en tu casa, grave. Con ballestas, reparar o almacenar es grave y tenerlas, leve. Tener una escopeta con la licencia caducada, aunque sea de días, es grave."
+            },
+            {
+              "type": "notice",
+              "text": "Ojo: el cuestionario da por buena «muy grave» para almacenar sin autorización o sin medidas de seguridad, como dice el art. 155 del Reglamento. La Ley Orgánica 4/2015 vigente lo considera grave (art. 36.12) y solo muy grave si causa perjuicios muy graves (art. 35.2)."
+            },
+            {
+              "type": "p",
+              "text": "Llevar armas a establecimientos públicos o lugares de reunión es en general ilícito. Y no puedes recortar los cañones de una escopeta: las armas largas de cañones recortados están prohibidas."
+            }
+          ],
+          "articles": [
+            "Art. 5.1.c RD 137/1993",
+            "Art. 155 RD 137/1993",
+            "Art. 156 RD 137/1993",
+            "Art. 157 RD 137/1993",
+            "Art. 146.2 RD 137/1993",
+            "Art. 36.12 LO 4/2015"
+          ]
+        },
+        {
+          "title": "Multas y retirada de armas",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "table",
+              "caption": "Multas: lo que pide el examen y lo vigente",
+              "headers": [
+                "Clase",
+                "Examen (Reglamento)",
+                "Hoy (LO 4/2015)"
+              ],
+              "rows": [
+                [
+                  "Muy grave",
+                  "30.050,61 a 601.012,10 €",
+                  "30.001 a 600.000 €"
+                ],
+                [
+                  "Grave",
+                  "300,51 a 30.050,61 €",
+                  "601 a 30.000 €"
+                ],
+                [
+                  "Leve",
+                  "Hasta 300,51 €",
+                  "100 a 600 €"
+                ]
+              ]
+            },
+            {
+              "type": "notice",
+              "text": "Ojo: el cuestionario da por buenas las multas del Reglamento, heredadas de la Ley Orgánica 1/1992, ya derogada. La Ley Orgánica 4/2015 vigente (art. 39.1) fija 30.001 a 600.000 euros (muy graves), 601 a 30.000 (graves) y 100 a 600 (leves)."
+            },
+            {
+              "type": "p",
+              "text": "La retirada de las armas supone quitártelas y prohibirte tener otras hasta dos años como máximo. La retirada de la licencia la revoca, impide renovarla ese tiempo y obliga a depositar las armas."
+            },
+            {
+              "type": "key",
+              "text": "Un cargador de arma corta de más de 20 cartuchos sin autorización supone incautación de los cargadores y retirada de todas las licencias: valen las dos."
+            }
+          ],
+          "articles": [
+            "Art. 155 RD 137/1993",
+            "Art. 158 RD 137/1993",
+            "Art. 39.1 LO 4/2015",
+            "Art. 28 LO 1/1992"
+          ]
+        },
+        {
+          "title": "Prescripción y ejecución",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La infracción prescribe si pasa el plazo sin que la Administración actúe; la sanción, si no se ejecuta a tiempo. Las sanciones son ejecutivas cuando la resolución es firme en vía administrativa."
+            },
+            {
+              "type": "table",
+              "caption": "Plazos que pide el examen",
+              "headers": [
+                "Clase",
+                "Infracción prescribe",
+                "Sanción prescribe"
+              ],
+              "rows": [
+                [
+                  "Leve",
+                  "3 meses",
+                  "1 año"
+                ],
+                [
+                  "Grave",
+                  "1 año",
+                  "2 años"
+                ],
+                [
+                  "Muy grave",
+                  "2 años",
+                  "4 años"
+                ]
+              ]
+            },
+            {
+              "type": "notice",
+              "text": "Ojo: el cuestionario da por buenos los plazos de la Ley Orgánica 1/1992, ya derogada. Con la Ley Orgánica 4/2015 vigente, las infracciones leves prescriben a los seis meses (art. 38.1) y las sanciones muy graves, a los tres años (art. 40.1)."
+            },
+            {
+              "type": "key",
+              "text": "Para recordarlo: infracciones 3 meses, 1 y 2 años; sanciones 1, 2 y 4 años."
+            }
+          ],
+          "articles": [
+            "Art. 27 LO 1/1992",
+            "Art. 28.4 LO 1/1992",
+            "Art. 38.1 LO 4/2015",
+            "Art. 40.1 LO 4/2015",
+            "Art. 53.1 LO 4/2015"
+          ]
+        }
+      ],
+      "related_questions": [
+        "t5-001",
+        "t5-002",
+        "t5-003",
+        "t5-004",
+        "t5-005",
+        "t5-006",
+        "t5-007",
+        "t5-008",
+        "t5-009",
+        "t5-010",
+        "t5-011",
+        "t5-012",
+        "t5-013",
+        "t5-014",
+        "t5-015",
+        "t5-016",
+        "t5-017",
+        "t5-018",
+        "t5-019",
+        "t5-020",
+        "t5-021",
+        "t5-022",
+        "t5-023",
+        "t5-024",
+        "t5-025",
+        "t5-026",
+        "t5-027",
+        "t5-028",
+        "t5-029",
+        "t5-030",
+        "t5-031",
+        "t5-032",
+        "t5-033",
+        "t5-034",
+        "t5-035",
+        "t5-036",
+        "t5-037",
+        "t5-038",
+        "t5-039",
+        "t5-040",
+        "t5-041",
+        "t5-042",
+        "t5-043",
+        "t5-044",
+        "t5-045",
+        "t5-046",
+        "t5-047",
+        "t5-048",
+        "t5-049",
+        "t5-050",
+        "t5-051",
+        "t5-052",
+        "t5-053",
+        "t5-054",
+        "t5-055",
+        "t5-056",
+        "t5-057",
+        "t5-058",
+        "t5-059",
+        "t5-060",
+        "t5-061",
+        "t5-062",
+        "t5-063",
+        "t5-064",
+        "t5-065",
+        "t5-066"
+      ]
+    },
+    {
+      "id": "t6",
+      "tema": 6,
+      "title": "Reparación, prueba y depósito",
+      "summary": "Quién repara o modifica un arma, cómo se prueba antes de adquirirla y cuándo se depositan las armas. Lo más preguntado son los plazos: 6 meses y 1 año por fallecimiento, 5 o 10 días para la prueba.",
+      "sections": [
+        {
+          "title": "Quién repara y con qué documentos",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Solo reparan armas de fuego las industrias que las fabricaron o los armeros autorizados por la Intervención de Armas, con establecimiento abierto e inscrito en su registro. Llevan un libro de entradas y salidas."
+            },
+            {
+              "type": "p",
+              "text": "Sin guía de pertenencia no se admite el arma. Si vives en otra localidad y no la llevas tú, la sustituye una guía de circulación de la Intervención de Armas de origen."
+            },
+            {
+              "type": "diagram",
+              "kind": "secuencia",
+              "caption": "Llevar un arma a reparar",
+              "items": [
+                "Entregas el arma con su guía de pertenencia (o con guía de circulación si la envías desde otra localidad).",
+                "El armero anota la entrada en su libro.",
+                "La guía queda en poder del armero mientras dura la reparación.",
+                "Al retirar el arma, te devuelven la guía junto con ella."
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Valen fabricantes y armeros. Puedes llevar el arma tú mismo con su guía y tu licencia, porque nadie puede llevar armas de fuego sin autorización. La guía te la devuelven al recoger el arma."
+            }
+          ],
+          "articles": [
+            "Art. 26 RD 137/1993",
+            "Art. 96.1 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Modificar un arma",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Una reparación nunca puede cambiar características, estructura o calibre sin conocimiento de la Intervención de Armas y, cuando proceda, aprobación previa. Con ambas cosas, sí es posible."
+            },
+            {
+              "type": "table",
+              "caption": "Quién aprueba los cambios",
+              "headers": [
+                "Tipo de arma",
+                "Aprueba"
+              ],
+              "rows": [
+                [
+                  "Armas de guerra",
+                  "Ministerio de Defensa"
+                ],
+                [
+                  "Categorías 1.ª y 2.ª",
+                  "Un banco oficial de pruebas"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Los fabricantes entregan a la Intervención la documentación técnica de cada modelo y la renuevan al introducir variaciones."
+            },
+            {
+              "type": "key",
+              "text": "Sin conocimiento de la Intervención, en ningún caso. Defensa solo aprueba si son armas de guerra."
+            }
+          ],
+          "articles": [
+            "Art. 26.4 RD 137/1993",
+            "Art. 24 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Probar un arma antes de adquirirla",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Fabricantes, comerciantes y sus representantes, con permiso de la Intervención, prueban armas en campos de federaciones, polígonos, campos o galerías de tiro autorizados y terrenos cinegéticos controlados. Nunca en la vía pública."
+            },
+            {
+              "type": "p",
+              "text": "Pueden dejarlas a prueba a quien quiera adquirirlas y tenga la licencia correspondiente (no hace falta licencia de caza)."
+            },
+            {
+              "type": "table",
+              "caption": "El documento para la prueba",
+              "headers": [
+                "Aspecto",
+                "Qué exige"
+              ],
+              "rows": [
+                [
+                  "Carácter",
+                  "Personal e intransferible"
+                ],
+                [
+                  "Forma",
+                  "Modelo oficial"
+                ],
+                [
+                  "Contenido",
+                  "El arma, la licencia y el lugar de la prueba"
+                ],
+                [
+                  "Validez en la misma localidad",
+                  "5 días"
+                ],
+                [
+                  "Validez en otra localidad",
+                  "10 días"
+                ],
+                [
+                  "Requisito para valer",
+                  "Visado previo de la Intervención de Armas"
+                ]
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Sin licencia no hay prueba. Sin lugar de prueba o sin visado de la Intervención, el documento no vale."
+            }
+          ],
+          "articles": [
+            "Art. 27 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Cuándo hay que depositar las armas",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Si dejas de estar habilitado (licencia caducada, guía anulada), depositas las armas inmediatamente en la Intervención, con sus guías."
+            },
+            {
+              "type": "table",
+              "caption": "Situaciones de depósito",
+              "headers": [
+                "Situación",
+                "Qué se deposita",
+                "Plazo"
+              ],
+              "rows": [
+                [
+                  "Licencia caducada o guía anulada",
+                  "Armas y guías",
+                  "Inmediatamente"
+                ],
+                [
+                  "No pasar dos revistas seguidas",
+                  "El arma (se anula la guía)",
+                  "Queda depositada"
+                ],
+                [
+                  "Extravío de la licencia",
+                  "Armas y guías, si se exige",
+                  "Inmediato"
+                ],
+                [
+                  "Extravío de las guías",
+                  "Las armas que amparan, si se exige",
+                  "Inmediato"
+                ],
+                [
+                  "Fallecimiento del titular",
+                  "Armas y guías",
+                  "Al saberlo; máximo 6 meses"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Si pierdes la licencia o las guías, avisa en el acto: la Intervención puede darte una autorización temporal o exigir el depósito."
+            },
+            {
+              "type": "key",
+              "text": "Fallecimiento: los herederos depositan las armas en cuanto saben que deben hacerlo y, como mucho, en 6 meses (valen las dos). Se entregan las guías de pertenencia."
+            }
+          ],
+          "articles": [
+            "Art. 165.1 RD 137/1993",
+            "Art. 90.5 RD 137/1993",
+            "Art. 145.2 RD 137/1993",
+            "Art. 93 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Qué pasa con las armas depositadas",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Depositada el arma, puedes venderla a alguien con licencia o inutilizarla. Si pasa un año sin hacerlo, la Guardia Civil puede destruirla. La subasta queda para las de valor como patrimonio histórico."
+            },
+            {
+              "type": "p",
+              "text": "Los herederos tienen un año para venderlas o recuperarlas, documentándolas o inutilizándolas como recuerdo."
+            },
+            {
+              "type": "table",
+              "caption": "Plazos y destino final",
+              "headers": [
+                "Caso",
+                "Plazo a disposición",
+                "Si nadie las retira"
+              ],
+              "rows": [
+                [
+                  "Depósito por perder la habilitación",
+                  "1 año",
+                  "Destrucción"
+                ],
+                [
+                  "Herencia",
+                  "1 año",
+                  "Destrucción"
+                ],
+                [
+                  "Ley de Caza, con devolución acordada",
+                  "1 mes desde la notificación",
+                  "Destrucción"
+                ],
+                [
+                  "Importación no retirada en aeropuerto",
+                  "1 año como máximo",
+                  "Depósito; pasado el año, como las demás"
+                ],
+                [
+                  "Valor acreditado como patrimonio histórico",
+                  "Según el caso",
+                  "Pública subasta o museos"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Las retiradas por la Ley de Caza se recuperan con punzones, licencia y guías en vigor. Las armas sin punzones obligatorios o prohibidas se destruyen."
+            },
+            {
+              "type": "key",
+              "text": "No puedes depositar tu arma para que la subasten, pero sí para que acabe en chatarra."
+            }
+          ],
+          "articles": [
+            "Art. 165.2 RD 137/1993",
+            "Art. 93 RD 137/1993",
+            "Art. 167 RD 137/1993",
+            "Art. 169.2 RD 137/1993",
+            "Art. 170 RD 137/1993"
+          ]
+        }
+      ],
+      "related_questions": [
+        "t6-001",
+        "t6-002",
+        "t6-003",
+        "t6-004",
+        "t6-005",
+        "t6-006",
+        "t6-007",
+        "t6-008",
+        "t6-009",
+        "t6-010",
+        "t6-011",
+        "t6-012",
+        "t6-013",
+        "t6-014",
+        "t6-015",
+        "t6-016",
+        "t6-017",
+        "t6-018",
+        "t6-019",
+        "t6-020",
+        "t6-021",
+        "t6-022",
+        "t6-023",
+        "t6-024",
+        "t6-025",
+        "t6-026",
+        "t6-027",
+        "t6-028",
+        "t6-029",
+        "t6-030",
+        "t6-031",
+        "t6-032",
+        "t6-033",
+        "t6-034",
+        "t6-035",
+        "t6-036",
+        "t6-037",
+        "t6-038",
+        "t6-039",
+        "t6-040",
+        "t6-041",
+        "t6-042",
+        "t6-043",
+        "t6-044",
+        "t6-045",
+        "t6-046",
+        "t6-047",
+        "t6-048",
+        "t6-049",
+        "t6-050",
+        "t6-051",
+        "t6-052",
+        "t6-053",
+        "t6-054",
+        "t6-055",
+        "t6-056",
+        "t6-057",
+        "t6-058",
+        "t6-059",
+        "t6-060",
+        "t6-061",
+        "t6-062",
+        "t6-063",
+        "t6-064"
+      ]
+    },
+    {
+      "id": "t7",
+      "tema": 7,
+      "title": "Armas de colección, definiciones, historia, calibres y munición",
+      "summary": "Armas antiguas, reproducciones y réplicas, coleccionistas, munición e inutilización. Lo más preguntado son las definiciones del art. 2 y las cifras de uso y custodia de las reproducciones.",
+      "sections": [
+        {
+          "title": "Armas antiguas, históricas y artísticas",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "table",
+              "caption": "Definiciones del art. 2",
+              "headers": [
+                "Término",
+                "Qué es"
+              ],
+              "rows": [
+                [
+                  "Arma antigua",
+                  "Modelo o año de fabricación anterior al 1-1-1890"
+                ],
+                [
+                  "Arma histórica",
+                  "Ligada a un hecho o personaje histórico relevante"
+                ],
+                [
+                  "Arma artística",
+                  "Ornamentación especial por materiales nobles o diseño"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Van en la 6.ª categoría. La 6.ª.2 recoge las anteriores al 1 de enero de 1890 y sus reproducciones y réplicas, salvo que puedan disparar munición de armas de guerra o prohibidas. Las de avancarga, en general, son 6.ª.4."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: la fecha es el 1 de enero de 1890; si dicen 1899, es falso. La antigüedad la fija el Ministerio de Defensa, no la Guardia Civil."
+            }
+          ],
+          "articles": [
+            "Art. 2 RD 137/1993",
+            "Art. 3 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Reproducciones, réplicas y coleccionistas",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Término",
+                "Qué es"
+              ],
+              "rows": [
+                [
+                  "Reproducción",
+                  "Copia de un original con todas sus aptitudes y usos"
+                ],
+                [
+                  "Réplica o imitación",
+                  "Objeto que por su aspecto puede confundirse con un arma"
+                ],
+                [
+                  "Coleccionista",
+                  "Reúne y conserva armas, componentes esenciales o munición"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "La reproducción funciona igual que el original; la réplica o imitación del art. 2 solo se le parece por fuera, aunque no pueda transformarse en un arma. Ojo: la 6.ª.2 y la Orden INT/2202/2014 llaman «reproducciones o réplicas» a las copias que sí funcionan. Para ser coleccionista basta con reunir componentes esenciales con fines históricos, culturales o técnicos y estar autorizado."
+            },
+            {
+              "type": "p",
+              "text": "Si solo quieres tenerlas, sin usarlas, se inscriben en un Libro-Registro diligenciado por la Intervención de Armas. Esas armas no se pueden usar, y para trasladarlas hace falta una guía especial para cada traslado."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: para solo poseer, Libro-Registro de coleccionista; para trasladar, guía especial; para usar, certificado del banco de pruebas y autorización especial."
+            }
+          ],
+          "articles": [
+            "Art. 2 RD 137/1993",
+            "Art. 107 RD 137/1993",
+            "Art. 3 Orden INT/2202/2014"
+          ]
+        },
+        {
+          "title": "Uso, munición y custodia de las reproducciones",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Como regla, usar reproducciones de armas antiguas está prohibido. Excepcionalmente se pueden disparar en campos, galerías o polígonos de tiro controlados para prácticas (el art. 107.c cita también los terrenos cinegéticos controlados), con autorización especial, que vale 5 años."
+            },
+            {
+              "type": "p",
+              "text": "Las de avancarga y las demás de la 6.ª.2 necesitan además un certificado de un banco oficial de pruebas para cada arma. Una autorización especial puede amparar un número ilimitado de ellas."
+            },
+            {
+              "type": "table",
+              "caption": "Cifras que pregunta el examen",
+              "headers": [
+                "Asunto",
+                "Qué dice la norma"
+              ],
+              "rows": [
+                [
+                  "Munición",
+                  "Solo con pólvora negra y del calibre del original"
+                ],
+                [
+                  "Compra, arma corta",
+                  "100 cartuchos al año por arma"
+                ],
+                [
+                  "Depósito, arma larga rayada",
+                  "En ningún caso más de 200 cartuchos"
+                ],
+                [
+                  "Guarda en casa, arma corta",
+                  "Completa, en caja fuerte o armero clase III"
+                ],
+                [
+                  "Guarda en casa, arma larga",
+                  "Completa o sus cierres o piezas, clase I"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Las clases son las de la norma UNE EN 1143-1. Los cupos de cartuchos son los generales, porque la munición sigue el régimen del arma a la que se destina."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: arma corta, 100 al año (150 es el depósito); arma larga rayada, 200 en depósito (1.000 es la compra anual). Clase III para cortas, clase I para largas."
+            }
+          ],
+          "articles": [
+            "Art. 7 Orden INT/2202/2014",
+            "Art. 9 Orden INT/2202/2014",
+            "Art. 11 Orden INT/2202/2014",
+            "Art. 107 RD 137/1993",
+            "Apdo. 1.º Resolución DGGC 27-3-2015",
+            "Art. 136 RD 989/2015",
+            "Art. 1 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Munición, inutilización y otras definiciones",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Término",
+                "Qué es"
+              ],
+              "rows": [
+                [
+                  "Munición",
+                  "Cartucho completo o sus componentes, vaina incluida"
+                ],
+                [
+                  "Bala explosiva",
+                  "Munición militar con carga que explota al impactar"
+                ],
+                [
+                  "Arma inutilizada",
+                  "Todos sus componentes esenciales inservibles para siempre"
+                ],
+                [
+                  "Desmilitarización",
+                  "Transformar en civil o desbaratar un arma de guerra"
+                ],
+                [
+                  "Arma de un solo tiro",
+                  "Sin depósito; se carga a mano antes de cada disparo"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "No basta con inutilizar uno o dos componentes: tienen que quedar todos inservibles y sin posibilidad de reactivar el arma (ITC 2). Con su certificado, se pueden tener en casa sin límite de número."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: la vaina forma parte de la munición; la bala explosiva es de uso militar; la desmilitarización está definida en la norma; y un arma de un solo tiro no puede llevar cargador."
+            }
+          ],
+          "articles": [
+            "Art. 2 RD 137/1993",
+            "Art. 108 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Armas retiradas por la Ley de Caza",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Si se retira un arma por infracción de la Ley de Caza y se acuerda devolverla, queda a disposición del titular un mes desde la notificación. Después, la Guardia Civil puede destruirla, salvo las de valor histórico acreditado, que se subastan o se venden a museos."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: un mes a disposición del titular y, si no la recoge, destrucción. Por eso valen las dos afirmaciones."
+            }
+          ],
+          "articles": [
+            "Art. 167 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Un poco de historia",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Tres preguntas son de historia y no tienen artículo detrás. Apréndelas como las da el cuestionario:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Cartucho de percusión central: de 1868 en adelante.",
+                "Primer ejército dotado con revólveres: el norteamericano.",
+                "Primera arma de repetición con cartucho metálico reglamentaria en el Ejército español: el revólver Lefaucheux («Lafaucheaux» en el cuestionario)."
+              ]
+            }
+          ],
+          "articles": []
+        }
+      ],
+      "related_questions": [
+        "t7-001",
+        "t7-002",
+        "t7-003",
+        "t7-004",
+        "t7-005",
+        "t7-006",
+        "t7-007",
+        "t7-008",
+        "t7-009",
+        "t7-010",
+        "t7-011",
+        "t7-012",
+        "t7-013",
+        "t7-014",
+        "t7-015",
+        "t7-016",
+        "t7-017",
+        "t7-018",
+        "t7-019",
+        "t7-020",
+        "t7-021",
+        "t7-022"
+      ]
+    },
+    {
+      "id": "practica",
+      "tema": null,
+      "title": "La prueba práctica",
+      "summary": "Cómo es la prueba práctica de las licencias D y E, qué se valora y qué errores te pueden dejar como no apto. Lo que más pesa es manejar el arma con seguridad en las cuatro acciones del anexo II.",
+      "sections": [
+        {
+          "title": "Cuándo y dónde se hace",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Para obtener por primera vez la licencia D (rifles de caza mayor) o la E (escopetas) hay que superar dos pruebas, una teórica y otra práctica. Cada una se califica como apto o no apto, y solo puedes hacer la práctica si has aprobado antes la teórica."
+            },
+            {
+              "type": "p",
+              "text": "La teórica son 20 preguntas tipo test con tres respuestas, y se aprueba con al menos 16 aciertos. La práctica se hace en campos, polígonos o galerías de tiro autorizados, con armas legalizadas: las del centro de formación que te presenta o las de una persona con licencia que te acompañe."
+            },
+            {
+              "type": "table",
+              "caption": "Plazos y convocatorias",
+              "headers": [
+                "Asunto",
+                "Qué dice la norma"
+              ],
+              "rows": [
+                [
+                  "Convocatorias por solicitud",
+                  "Tres"
+                ],
+                [
+                  "Entre convocatorias",
+                  "No más de tres meses, salvo causa justificada"
+                ],
+                [
+                  "Apto en la teórica",
+                  "Vale seis meses para superar la práctica"
+                ],
+                [
+                  "No presentarte",
+                  "Pierdes la convocatoria, salvo causa justificada"
+                ],
+                [
+                  "Exentos",
+                  "Licencia A; o D, E o F para esas mismas armas"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "En la convocatoria te indican lugar, fecha y hora de cada prueba, la categoría de las armas y cuántos cartuchos debes llevar a la práctica. Con la solicitud se adjunta, en su caso, el justificante de las tasas; su importe no figura en estas normas."
+            }
+          ],
+          "articles": [
+            "Art. 102 RD 137/1993",
+            "Apdo. 3.º Orden 18-3-1998",
+            "Apdo. 4.º Orden 18-3-1998",
+            "Apdo. 7.º Resolución DGGC 19-10-1998",
+            "Apdo. 8.º Resolución DGGC 19-10-1998",
+            "Apdo. 1.º Orden 18-3-1998",
+            "Apdo. 6.º Resolución DGGC 19-10-1998",
+            "Apdo. 2.º Orden 18-3-1998"
+          ]
+        },
+        {
+          "title": "Las cuatro acciones que se valoran",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "El anexo II divide la prueba en cuatro acciones: cargar, apuntar, disparar y descargar. En cada una el tribunal de la Comandancia valora que lo hagas bien y, sobre todo, con seguridad."
+            },
+            {
+              "type": "diagram",
+              "kind": "secuencia",
+              "caption": "Las cuatro acciones del anexo II",
+              "items": [
+                "Cargar: dejar el arma lista para disparar, con la boca hacia los blancos y el dedo fuera del disparador.",
+                "Apuntar: alinear los elementos de puntería con la diana y mantener una postura estable.",
+                "Disparar: de pie y sin apoyo, solo entre la señal de comienzo y la de final.",
+                "Descargar: retirar los casquillos y dejar el arma lista para cargarla de nuevo, dentro del tiempo."
+              ]
+            }
+          ],
+          "articles": [
+            "Anexo II Resolución DGGC 19-10-1998",
+            "Apdo. 5.º Resolución DGGC 19-10-1998"
+          ]
+        },
+        {
+          "title": "El ejercicio de tiro",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "diagram",
+              "kind": "galeria_tiro",
+              "caption": "Línea de tiro y diana de 50 cm de diámetro a 25 m"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Prueba",
+                "Rifle (licencia D)",
+                "Escopeta (licencia E)"
+              ],
+              "rows": [
+                [
+                  "Disparos",
+                  "5",
+                  "2"
+                ],
+                [
+                  "Diana",
+                  "50 cm de diámetro",
+                  "50 cm de diámetro"
+                ],
+                [
+                  "Distancia",
+                  "25 m desde la línea de tiro",
+                  "25 m desde la línea de tiro"
+                ],
+                [
+                  "Posición",
+                  "De pie y sin apoyo",
+                  "De pie y sin apoyo"
+                ],
+                [
+                  "Para superarla",
+                  "Al menos 1 impacto en la diana",
+                  "Plomeo suficiente según el arma"
+                ]
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Con el rifle basta un impacto de cinco disparos; con la escopeta, un plomeo suficiente. Fíjate en que casi todos los aspectos negativos del anexo son de seguridad, no de puntería."
+            }
+          ],
+          "articles": [
+            "Anexo II Resolución DGGC 19-10-1998"
+          ]
+        },
+        {
+          "title": "Errores que te pueden dejar como no apto",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "diagram",
+              "kind": "zona_segura",
+              "caption": "La boca del arma, siempre hacia la zona de los blancos"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Dirigir la boca del arma a un lugar distinto de donde están los blancos.",
+                "No dejar el arma correctamente lista para disparar al cargarla.",
+                "No alinear bien las miras con el blanco o no mantener una postura estable mientras apuntas.",
+                "Poner el dedo en el disparador mientras cargas.",
+                "Hacer algún disparo mientras cargas o apuntas.",
+                "Disparar antes o después de la señal (el silbato) de comienzo o de final.",
+                "No lograr ningún impacto con el rifle, o un plomeo suficiente con la escopeta.",
+                "Que te quede algún cartucho sin disparar al acabar el ejercicio.",
+                "No retirar los casquillos, agotar el tiempo de descarga o no dejar el arma lista para cargarla de nuevo."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "El anexo los llama aspectos negativos y no dice cuántos hacen falta para suspender, así que trata cada uno como si te eliminara."
+            },
+            {
+              "type": "key",
+              "text": "La boca del arma, siempre hacia los blancos. Aparece como aspecto negativo al cargar, al apuntar y al disparar."
+            }
+          ],
+          "articles": [
+            "Anexo II Resolución DGGC 19-10-1998"
+          ]
+        },
+        {
+          "title": "Consejos de seguridad para ese día",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La norma obliga a quien usa un arma a controlarla en todo momento y a actuar con especial cuidado cuando hay otras personas cerca. En la galería eso se traduce en unos hábitos sencillos:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Trata el arma como si estuviera siempre cargada y compruébalo tú al cogerla.",
+                "Mantén el dedo fuera del disparador hasta el momento de disparar.",
+                "Sigue en todo momento las indicaciones del tribunal y espera siempre la señal.",
+                "Lleva los cartuchos que indique la convocatoria y dispáralos todos en el ejercicio.",
+                "Si no conoces el arma que vas a usar, pregunta cómo funciona antes de tocarla.",
+                "No uses auriculares conectados a aparatos de sonido ni tomes alcohol u otras sustancias antes de la prueba."
+              ]
+            }
+          ],
+          "articles": [
+            "Art. 147 RD 137/1993"
+          ]
+        }
+      ],
+      "related_questions": [
+        "t4-066",
+        "t1-060",
+        "t1-061",
+        "t1-063",
+        "t1-064",
+        "t1-065",
+        "t1-066",
+        "t1-067",
+        "t1-068"
+      ]
+    },
+    {
+      "id": "aem",
+      "tema": null,
+      "title": "Autorización especial para menores (AEM)",
+      "summary": "Qué permite la autorización especial de uso de armas para menores, a qué edad y con qué armas, quién acompaña al menor, cómo se pide y hasta cuándo vale. Clave para el examen: 14 y 16 años, el adulto con licencia D, E o F y la validez hasta los 18.",
+      "sections": [
+        {
+          "title": "Qué es y qué permite",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La autorización especial de uso de armas para menores (AEM) permite a un menor usar ciertas armas de las categorías 2.ª, 2 y 3.ª, pero no poseerlas ni llevarlas dentro de las poblaciones. Sirve solo para cazar o para competiciones de tiro con categoría «junior». Pueden pedirla españoles y extranjeros con residencia en España."
+            },
+            {
+              "type": "p",
+              "text": "Las licencias de armas solo se expiden a mayores de edad. Por eso un menor no puede ser titular de una escopeta ni tener ninguna licencia, ni siquiera con 17 años: lo que puede obtener es esta autorización de uso."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: el menor usa el arma, pero no la posee. Con 17 años no puedes tener ninguna licencia E."
+            }
+          ],
+          "articles": [
+            "Art. 109.1 RD 137/1993",
+            "Art. 102.1 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Qué armas y a qué edad",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "Edad",
+                "Qué armas",
+                "Para qué"
+              ],
+              "rows": [
+                [
+                  "Desde los 14",
+                  "Escopetas y demás de la 3.ª, 2",
+                  "Caza"
+                ],
+                [
+                  "Desde los 14",
+                  "Categorías 3.ª, 2 y 3.ª, 3",
+                  "Competiciones con categoría junior"
+                ],
+                [
+                  "Desde los 16",
+                  "Rifles de caza mayor o de la 3.ª, 1",
+                  "Caza o tiro con categoría junior"
+                ]
+              ]
+            },
+            {
+              "type": "list",
+              "items": [
+                "3.ª, 1: rifles del .22 (5,6 mm) de percusión anular para tiro deportivo.",
+                "3.ª, 2: escopetas y demás armas largas de ánima lisa.",
+                "3.ª, 3: armas de aire comprimido de más de 24,2 julios en boca."
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: 16 años para el rifle de caza mayor o el tiro con arma rayada; 14 para las armas de la 3.ª, 2 y 3.ª, 3."
+            }
+          ],
+          "articles": [
+            "Art. 109.1 RD 137/1993",
+            "Art. 109.2 RD 137/1993",
+            "Art. 3 RD 137/1993"
+          ]
+        },
+        {
+          "title": "El adulto que lo acompaña",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "El menor siempre está bajo la supervisión de un adulto con licencia de armas D, E o F. No basta con cualquier mayor de edad."
+            },
+            {
+              "type": "p",
+              "text": "Ese adulto se compromete de antemano a acompañarlo y vigilarlo en cada cacería o acto deportivo, no solo a llevarlo hasta el lugar. Además asume la responsabilidad de que las armas se guarden como exige el Reglamento:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Rifles de caza mayor (2.ª, 2): en caja fuerte o armero autorizados, con la munición separada.",
+                "Armas de la 3.ª, 1 y 2: en casa, bajo llave, sin que arma y munición sean accesibles a la vez.",
+                "Armas de concurso: en el club o la federación, en caja fuerte o armero autorizados en casa, o en una empresa de custodia."
+              ]
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: un adulto con licencia D, E o F que se compromete a acompañarlo y vigilarlo en cada cacería o acto deportivo."
+            }
+          ],
+          "articles": [
+            "Art. 109.1 RD 137/1993",
+            "Art. 100.5 RD 137/1993",
+            "Art. 101.5 RD 137/1993",
+            "Art. 133.2 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Cómo se pide",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La solicitud la firman el menor y quien ejerce la patria potestad o la tutela. Se presenta en la Comandancia o el Puesto de la Guardia Civil del domicilio, que la envía a la Dirección General con un informe de conducta y antecedentes de los dos."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Certificado de antecedentes penales del menor, si tiene más de 16 años.",
+                "Certificado de antecedentes penales de quien ejerce la patria potestad o la tutela.",
+                "Fotocopia del DNI en vigor de ambos, o de la tarjeta o autorización de residencia si son extranjeros.",
+                "Autorización de uso firmada por quien ejerce la patria potestad o la tutela, que responde de su actuación, ante notario, alcaldía, Policía o Guardia Civil.",
+                "Informe de aptitudes psicofísicas."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Si el padre, la madre o el tutor ya tiene cualquier licencia de armas en vigor, no hace falta presentar sus documentos."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: firman la solicitud el interesado y quien ejerce la patria potestad o la tutela."
+            }
+          ],
+          "articles": [
+            "Art. 109.4 RD 137/1993",
+            "Art. 109.5 RD 137/1993",
+            "Art. 98.3 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Quién la concede y cuánto dura",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La concede el Director General de la Guardia Civil. Vale hasta que el titular cumple la mayoría de edad, sin necesidad de renovarla: no tiene los cinco años de validez de las licencias."
+            },
+            {
+              "type": "p",
+              "text": "Al cumplir 18 años la autorización se acaba. Para tener y usar armas propias hay que pedir la licencia que corresponda: exige ser mayor de edad y, para la D y la E, superar las pruebas de capacitación."
+            },
+            {
+              "type": "key",
+              "text": "Clave para el examen: la autorización vale hasta la mayoría de edad. Ni cinco años ni tres."
+            }
+          ],
+          "articles": [
+            "Art. 109.3 RD 137/1993",
+            "Art. 102.1 RD 137/1993",
+            "Art. 102.2 RD 137/1993"
+          ]
+        }
+      ],
+      "related_questions": [
+        "t4-002",
+        "t4-009",
+        "t4-046",
+        "t4-047",
+        "t4-048",
+        "t4-049",
+        "t4-050",
+        "t4-051",
+        "t4-054",
+        "t4-055"
+      ]
+    },
+    {
+      "id": "glosario",
+      "tema": null,
+      "title": "Glosario",
+      "summary": "Los términos que más se confunden en el examen, con una definición corta y, cuando la hay, el artículo de donde sale. Están agrupados por temas y, dentro de cada uno, en orden alfabético.",
+      "sections": [
+        {
+          "title": "Armas de fuego según cómo disparan",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "terms",
+              "items": [
+                {
+                  "term": "Arma acústica y de salvas",
+                  "text": "Arma de fuego transformada para usar solo cartuchos de fogueo en recreaciones históricas, rodajes, artes escénicas y espectáculos públicos. Es la 8.ª categoría.",
+                  "article": "Art. 2.1 RD 137/1993"
+                },
+                {
+                  "term": "Arma automática",
+                  "text": "Se recarga sola después de cada disparo y sigue disparando mientras mantienes accionado el disparador. Es arma de guerra: los particulares no pueden tenerla.",
+                  "article": "Art. 2.5 RD 137/1993"
+                },
+                {
+                  "term": "Arma basculante",
+                  "text": "No tiene depósito de munición: se carga metiendo a mano un cartucho en la recámara y se cierra mediante báscula. Puede tener uno o varios cañones.",
+                  "article": "Art. 2.6 RD 137/1993"
+                },
+                {
+                  "term": "Arma corta",
+                  "text": "Arma de fuego con cañón de 30 cm como máximo o con una longitud total de 60 cm como máximo. Pistolas y revólveres son la 1.ª categoría.",
+                  "article": "Art. 2.13 RD 137/1993"
+                },
+                {
+                  "term": "Arma de avancarga",
+                  "text": "La carga de proyección y el proyectil se introducen por la boca del cañón o, en su caso, por la de la recámara del tambor. Usa pólvora negra o similar. Va en la 6.ª categoría.",
+                  "article": "Art. 2.11 RD 137/1993"
+                },
+                {
+                  "term": "Arma de fuego",
+                  "text": "Arma portátil con cañón que lanza, o puede transformarse fácilmente para lanzar, un perdigón, una bala o un proyectil por la acción de un combustible propulsor.",
+                  "article": "Art. 2.12 RD 137/1993"
+                },
+                {
+                  "term": "Arma de repetición",
+                  "text": "Después de cada disparo la recargas tú: accionas un mecanismo, como el cerrojo, que lleva al cañón un cartucho del depósito de municiones.",
+                  "article": "Art. 2.15 RD 137/1993"
+                },
+                {
+                  "term": "Arma de un solo tiro",
+                  "text": "No tiene depósito de munición: antes de cada disparo metes a mano un cartucho en la recámara o en un alojamiento a la entrada del cañón.",
+                  "article": "Art. 2.16 RD 137/1993"
+                },
+                {
+                  "term": "Arma Flobert",
+                  "text": "Arma de fuego que usa munición de calibre Flobert, siempre de percusión anular. Su energía en boca no puede pasar de 100 julios. Es la 7.ª, 4.",
+                  "article": "Art. 2.17 RD 137/1993"
+                },
+                {
+                  "term": "Arma larga",
+                  "text": "Cualquier arma de fuego que no sea corta, como los rifles y las escopetas.",
+                  "article": "Art. 2.14 RD 137/1993"
+                },
+                {
+                  "term": "Arma semiautomática",
+                  "text": "Se recarga sola después de cada disparo, pero solo hace un disparo cada vez que accionas el disparador.",
+                  "article": "Art. 2.21 RD 137/1993"
+                }
+              ]
+            }
+          ],
+          "articles": [
+            "Art. 2 RD 137/1993",
+            "Art. 3 RD 137/1993",
+            "Art. 6.1 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Otras armas, categorías y prohibiciones",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "terms",
+              "items": [
+                {
+                  "term": "Arma asimilada a arma de fuego",
+                  "text": "Arma u objeto que, por sus características y peligrosidad, tiene el mismo régimen que un arma de fuego. Lo son siempre las de la 3.ª, 3 y las ballestas y lanzacabos (7.ª, 2 y 3).",
+                  "article": "Art. 2.3 RD 137/1993"
+                },
+                {
+                  "term": "Arma blanca",
+                  "text": "Arma con una hoja metálica u otro material parecido, cortante o punzante. Las que no están prohibidas forman la 5.ª categoría.",
+                  "article": "Art. 2.7 RD 137/1993"
+                },
+                {
+                  "term": "Arma combinada",
+                  "text": "Une piezas intercambiables o fijas de dos o más armas de distinta categoría, que se usan por separado o juntas. Se documenta según su parte más peligrosa.",
+                  "article": "Art. 2.8 RD 137/1993"
+                },
+                {
+                  "term": "Arma de aire comprimido",
+                  "text": "Lanza el proyectil con la fuerza de un gas comprimido que se expande. Si pasa de 24,2 julios en boca es de la 3.ª, 3; las demás carabinas, pistolas y revólveres de aire van en la 4.ª.",
+                  "article": "Art. 2.9 RD 137/1993"
+                },
+                {
+                  "term": "Arma de alarma y señales",
+                  "text": "Dispositivo que solo dispara cartuchos de fogueo, irritantes o de señalización y que no puede transformarse para lanzar un proyectil. Con las lanzabengalas, es la 7.ª, 6.",
+                  "article": "Art. 2.10 RD 137/1993"
+                },
+                {
+                  "term": "Arma de guerra",
+                  "text": "Las de calibre de 20 mm o más, las de calibres que Defensa considere de guerra y todas las automáticas, con sus municiones y componentes esenciales. Prohibidas a particulares.",
+                  "article": "Art. 6.1 RD 137/1993"
+                },
+                {
+                  "term": "Arma prohibida",
+                  "text": "Las del art. 4 nadie puede fabricarlas, venderlas, tenerlas ni usarlas: el cuestionario las llama «prohibidas». Las del art. 5 (silenciadores, cañones recortados) solo las tienen funcionarios habilitados: «prohibidas a particulares».",
+                  "article": "Art. 4.1 RD 137/1993"
+                },
+                {
+                  "term": "Arma reglamentada",
+                  "text": "Arma cuya adquisición, tenencia y uso se pueden autorizar según el Reglamento. El art. 3 las reparte en nueve categorías por sus características, peligrosidad y uso.",
+                  "article": "Art. 3 RD 137/1993"
+                },
+                {
+                  "term": "Ballesta",
+                  "text": "Arma asimilada de la 7.ª, 2. Aunque no es de fuego, se documenta con licencia E y guía de pertenencia y pasa revista.",
+                  "article": "Art. 101.1 RD 137/1993"
+                },
+                {
+                  "term": "Cañones recortados",
+                  "text": "Las armas largas con los cañones recortados están prohibidas: solo pueden tenerlas funcionarios especialmente habilitados.",
+                  "article": "Art. 5.1.c RD 137/1993"
+                },
+                {
+                  "term": "Navaja automática",
+                  "text": "Está prohibida para todos, igual que los bastones-estoque y los puñales de cualquier clase.",
+                  "article": "Art. 4.1.f RD 137/1993"
+                },
+                {
+                  "term": "Navaja de más de 11 cm",
+                  "text": "Navaja no automática con hoja de más de 11 cm, medida desde el tope del mango. Prohibida, salvo comprarla y tenerla solo en tu domicilio como adorno o colección.",
+                  "article": "Art. 5.3 RD 137/1993"
+                },
+                {
+                  "term": "Puñal",
+                  "text": "Arma blanca de dos filos, puntiaguda y con hoja de menos de 11 cm. Está prohibida. Si la hoja pasa de 11 cm ya no es puñal.",
+                  "article": "Art. 4.1.f RD 137/1993"
+                },
+                {
+                  "term": "Silenciador",
+                  "text": "Dispositivo concebido o adaptado para reducir el sonido del disparo. Los adaptables a armas de fuego están prohibidos, sea cual sea el arma.",
+                  "article": "Art. 5.1.k RD 137/1993"
+                }
+              ]
+            }
+          ],
+          "articles": [
+            "Art. 2 RD 137/1993",
+            "Art. 3 RD 137/1993",
+            "Art. 4.1 RD 137/1993",
+            "Art. 5 RD 137/1993",
+            "Art. 6.1 RD 137/1993",
+            "Art. 101.1 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Colección, copias e inutilización",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "terms",
+              "items": [
+                {
+                  "term": "Arma antigua",
+                  "text": "Arma de fuego cuyo modelo o año de fabricación es anterior al 1 de enero de 1890. Va en la 6.ª categoría. Si te dicen 1899, es falso.",
+                  "article": "Art. 2.2 RD 137/1993"
+                },
+                {
+                  "term": "Arma artística",
+                  "text": "Arma de fuego con una ornamentación distinta a la de las demás de su clase, por sus materiales nobles o su diseño, que le da un valor especial.",
+                  "article": "Art. 2.4 RD 137/1993"
+                },
+                {
+                  "term": "Arma histórica",
+                  "text": "Arma de fuego ligada especialmente a un hecho o personaje histórico relevante, siempre que esa relación esté acreditada.",
+                  "article": "Art. 2.18 RD 137/1993"
+                },
+                {
+                  "term": "Arma inutilizada",
+                  "text": "Arma de fuego con todos sus componentes esenciales inservibles para siempre y sin forma de reactivarla, según la ITC 2. Es la 9.ª categoría.",
+                  "article": "Art. 2.19 RD 137/1993"
+                },
+                {
+                  "term": "Certificado de inutilización",
+                  "text": "Lo emite el banco oficial de pruebas o la entidad verificadora tras comprobar la inutilización. Con él puedes tener en casa armas inutilizadas sin límite de número.",
+                  "article": "Art. 108 RD 137/1993"
+                },
+                {
+                  "term": "Coleccionista",
+                  "text": "Persona o entidad autorizada que reúne y conserva armas, componentes esenciales o munición con fines históricos, culturales, científicos, técnicos, educativos o de patrimonio.",
+                  "article": "Art. 2.23 RD 137/1993"
+                },
+                {
+                  "term": "Desmilitarización",
+                  "text": "Actividad industrial que transforma en civil o desbarata un arma de guerra.",
+                  "article": "Art. 2.25 RD 137/1993"
+                },
+                {
+                  "term": "Guía especial",
+                  "text": "La que expide la Intervención de Armas para cada traslado de un arma inscrita en el Libro-Registro de coleccionista, con su destino concreto.",
+                  "article": "Art. 107.b RD 137/1993"
+                },
+                {
+                  "term": "Imitación o réplica",
+                  "text": "Objeto que por su aspecto puede confundirse con un arma, aunque no pueda transformarse en ella. Ojo: la 6.ª, 2 también llama réplicas a copias de armas antiguas que sí disparan.",
+                  "article": "Art. 2.27 RD 137/1993"
+                },
+                {
+                  "term": "Libro-Registro de coleccionista",
+                  "text": "Libro diligenciado por la Intervención de Armas en el que se anotan las altas y bajas de la colección. Las armas inscritas se pueden poseer, pero no usar.",
+                  "article": "Art. 107.b RD 137/1993"
+                },
+                {
+                  "term": "Reproducción",
+                  "text": "Copia de un arma original que reúne todas sus características, aptitudes y posibilidades de uso: funciona como el original.",
+                  "article": "Art. 2.35 RD 137/1993"
+                }
+              ]
+            }
+          ],
+          "articles": [
+            "Art. 2 RD 137/1993",
+            "Art. 3 RD 137/1993",
+            "Art. 107 RD 137/1993",
+            "Art. 108 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Piezas y funcionamiento",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "terms",
+              "items": [
+                {
+                  "term": "Alimentar",
+                  "text": "Meter los cartuchos en el depósito o mecanismo de alimentación del arma. No es lo mismo que cargarla."
+                },
+                {
+                  "term": "Alza",
+                  "text": "Elemento trasero de puntería. Para el cuestionario, el alza corrige la altura del impacto y el punto de mira, el desvío lateral."
+                },
+                {
+                  "term": "Ánima",
+                  "text": "Interior del cañón, por donde avanza el proyectil. En las escopetas suele ser lisa, aunque hay cañones con rayas; en los rifles es rayada o estriada."
+                },
+                {
+                  "term": "Arma montada",
+                  "text": "Arma con el mecanismo de disparo y percusión listo para funcionar: dispara en cuanto se accione el disparador."
+                },
+                {
+                  "term": "Báscula",
+                  "text": "En las escopetas paralelas y superpuestas, cuerpo del arma sobre el que basculan los cañones para abrirla y cerrarla. Es componente esencial.",
+                  "article": "Art. 1.2 RD 137/1993"
+                },
+                {
+                  "term": "Boca",
+                  "text": "Extremo delantero del cañón, por donde sale el proyectil. Es el extremo contrario a la recámara."
+                },
+                {
+                  "term": "Cajón de mecanismos",
+                  "text": "Cuerpo del arma larga que aloja sus mecanismos. Es componente esencial, igual que el cañón y el cerrojo o la báscula.",
+                  "article": "Art. 1.2 RD 137/1993"
+                },
+                {
+                  "term": "Cañón",
+                  "text": "Tubo que conduce el proyectil y lo estabiliza en su trayectoria. Es componente esencial tanto en las armas cortas como en las largas.",
+                  "article": "Art. 1.2 RD 137/1993"
+                },
+                {
+                  "term": "Cargador",
+                  "text": "Depósito, a menudo extraíble, cuyo muelle sube los cartuchos frente a la recámara. Para percusión central están prohibidos los de más de 20 cartuchos (corta) o 10 (larga).",
+                  "article": "Art. 5.1.e RD 137/1993"
+                },
+                {
+                  "term": "Cargar",
+                  "text": "En el lenguaje del cuestionario, dejar el arma lista para disparar, con un cartucho en la recámara."
+                },
+                {
+                  "term": "Cerrojo o cierre",
+                  "text": "Pieza móvil que lleva el cartucho a la recámara y la cierra; en el rifle aloja el percutor. Es componente esencial.",
+                  "article": "Art. 1.2 RD 137/1993"
+                },
+                {
+                  "term": "Choke",
+                  "text": "Estrechamiento del cañón de la escopeta en la boca, que concentra los perdigones y regula su dispersión. El rifle no lleva choke."
+                },
+                {
+                  "term": "Componentes esenciales",
+                  "text": "Piezas con el mismo régimen que el arma. En las cortas: armazón, cañón, tambor y corredera o cerrojo. En las largas: cajón de mecanismos, cañón, cerrojo o báscula y cierre.",
+                  "article": "Art. 1.2 RD 137/1993"
+                },
+                {
+                  "term": "Culata",
+                  "text": "Parte trasera del arma larga que se apoya en el hombro para disparar. No es componente esencial."
+                },
+                {
+                  "term": "Disparador",
+                  "text": "Pieza que acciona el tirador para que el arma dispare. Lo protege el guardamonte."
+                },
+                {
+                  "term": "Expulsor",
+                  "text": "Pieza que lanza fuera del arma la vaina ya extraída. En las escopetas superpuestas solo lo llevan algunos modelos."
+                },
+                {
+                  "term": "Extractor",
+                  "text": "Uña del cierre que agarra el culote del cartucho y lo saca de la recámara al abrir el arma."
+                },
+                {
+                  "term": "Guardamonte",
+                  "text": "Arco que rodea el disparador y lo protege de golpes y roces."
+                },
+                {
+                  "term": "Percutor",
+                  "text": "Pieza que golpea el pistón o fulminante del cartucho para iniciar el disparo. Si disparas en vacío, la aguja percutora puede romperse."
+                },
+                {
+                  "term": "Pieza",
+                  "text": "Todo elemento concebido para un arma de fuego e indispensable para que funcione. También lo es cualquier dispositivo para disminuir el sonido del disparo.",
+                  "article": "Art. 1.2 RD 137/1993"
+                },
+                {
+                  "term": "Punto de mira",
+                  "text": "Elemento delantero de puntería, sobre el cañón. Con el alza sirve para enfilar el arma hacia el blanco."
+                },
+                {
+                  "term": "Recámara",
+                  "text": "Alojamiento del cartucho al principio del cañón, desde donde se dispara. Su forma copia la del cartucho."
+                },
+                {
+                  "term": "Seguro",
+                  "text": "Mando que bloquea el mecanismo de disparo a voluntad del tirador. En posición «S» el arma no dispara, aunque esté montada."
+                }
+              ]
+            },
+            {
+              "type": "notice",
+              "text": "Ojo: el cuestionario habla de «piezas fundamentales» y da por buenas la báscula y el cañón (escopeta) y el cerrojo y el cañón (rifle). El art. 1.2 las llama hoy «componentes esenciales» y para armas largas da una lista más amplia."
+            }
+          ],
+          "articles": [
+            "Art. 1.2 RD 137/1993",
+            "Art. 5.1.e RD 137/1993"
+          ]
+        },
+        {
+          "title": "Munición",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "terms",
+              "items": [
+                {
+                  "term": "Bala",
+                  "text": "Proyectil único del cartucho de rifle, pistola o revólver. El rayado del cañón la hace girar para que vuele estable."
+                },
+                {
+                  "term": "Calibre",
+                  "text": "Medida del diámetro del cañón o del proyectil, en milímetros o en pulgadas: el .22 americano equivale a 5,6 mm. Las escopetas usan su propia numeración."
+                },
+                {
+                  "term": "Cartucho",
+                  "text": "Unidad de munición: la vaina con su pistón, la carga de pólvora y el proyectil, que puede ser una bala o perdigones."
+                },
+                {
+                  "term": "Culote",
+                  "text": "Base de la vaina, donde va el pistón y donde agarra la uña extractora para sacar el cartucho."
+                },
+                {
+                  "term": "Munición",
+                  "text": "El cartucho completo o sus componentes autorizados: vainas, cebos, carga propulsora y balas o proyectiles. La vaina sola también es munición.",
+                  "article": "Art. 2.29 RD 137/1993"
+                },
+                {
+                  "term": "Munición dum-dum o de punta hueca",
+                  "text": "Munición para pistolas y revólveres con este tipo de proyectiles. Está prohibida, y también los propios proyectiles.",
+                  "article": "Art. 5.1.m RD 137/1993"
+                },
+                {
+                  "term": "Munición expansiva",
+                  "text": "Su proyectil se deforma y se expande al impactar en un blanco parecido al tejido carnoso, para transmitirle el máximo de energía. Es la que el cuestionario espera para caza mayor.",
+                  "article": "Art. 2.33 RD 137/1993"
+                },
+                {
+                  "term": "Munición perforante, explosiva o incendiaria",
+                  "text": "Munición de uso militar: perfora blindajes, explota al impactar o se inflama con el aire o el impacto. Está prohibida, igual que sus proyectiles.",
+                  "article": "Art. 5.1.l RD 137/1993"
+                },
+                {
+                  "term": "Percusión anular",
+                  "text": "El cebo va en el reborde de la base del cartucho. La usan los rifles del .22 de la 3.ª, 1 y las armas Flobert."
+                },
+                {
+                  "term": "Percusión central",
+                  "text": "El pistón va en el centro del culote y el percutor lo golpea ahí. Es la de los rifles de caza mayor."
+                },
+                {
+                  "term": "Perdigones y plomeo",
+                  "text": "Los perdigones son las bolitas que dispara la escopeta en cada cartucho; el plomeo es cómo se reparten al llegar al blanco, y lo regula el choke."
+                },
+                {
+                  "term": "Pistón o fulminante",
+                  "text": "Cápsula del culote con la mezcla que se inflama cuando la golpea el percutor y prende la pólvora. El Reglamento lo llama cebo."
+                },
+                {
+                  "term": "Pólvora negra",
+                  "text": "Carga de proyección de las armas de avancarga. Es la única munición que pueden usar las reproducciones de armas antiguas, y del calibre del original.",
+                  "article": "Art. 11 Orden INT/2202/2014"
+                },
+                {
+                  "term": "Vaina",
+                  "text": "Envoltura del cartucho que contiene la pólvora y lleva el pistón. Forma parte de la munición y, tras el disparo, la saca el extractor.",
+                  "article": "Art. 2.29 RD 137/1993"
+                }
+              ]
+            }
+          ],
+          "articles": [
+            "Art. 2.29 RD 137/1993",
+            "Art. 2.33 RD 137/1993",
+            "Art. 5.1 RD 137/1993",
+            "Art. 11 Orden INT/2202/2014"
+          ]
+        },
+        {
+          "title": "Licencias, guías y documentos",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "terms",
+              "items": [
+                {
+                  "term": "Autorización especial para menores",
+                  "text": "Permite a menores desde los 14 años usar, sin poseerlas, armas de la 3.ª y, desde los 16, rifles de caza mayor, para cazar o para tiro con categoría junior. Vale hasta la mayoría de edad.",
+                  "article": "Art. 109 RD 137/1993"
+                },
+                {
+                  "term": "Autorización temporal de uso",
+                  "text": "La que puede darte la Intervención de Armas al pedir la nueva concesión de una licencia a punto de caducar, mientras te la recoge. Vale tres meses.",
+                  "article": "Art. 103 RD 137/1993"
+                },
+                {
+                  "term": "Banco oficial de pruebas",
+                  "text": "Organismo que marca las armas con sus punzones y verifica y certifica su inutilización. Las de avancarga necesitan su certificado para poder usarse.",
+                  "article": "Art. 108 RD 137/1993"
+                },
+                {
+                  "term": "Cesión temporal (préstamo)",
+                  "text": "Puedes prestar tus armas de caza a quien tenga licencia de caza y la de armas que corresponda, con autorización escrita, fechada y firmada, para cazar y quince días como máximo.",
+                  "article": "Art. 91.1 RD 137/1993"
+                },
+                {
+                  "term": "Guía de circulación",
+                  "text": "Documento que ampara el traslado de un arma entre dos lugares cuando no va con licencia y guía de pertenencia. La expide la Intervención de Armas.",
+                  "article": "Art. 31.1 RD 137/1993"
+                },
+                {
+                  "term": "Guía de pertenencia",
+                  "text": "Documento de cada arma con los datos de su dueño, de su licencia y del arma. La expide la Intervención de Armas y acompaña al arma en su uso, depósito y transporte.",
+                  "article": "Art. 89 RD 137/1993"
+                },
+                {
+                  "term": "Informe de aptitudes psicofísicas",
+                  "text": "Informe de aptitud que acredita que puedes tener y usar armas. Se presenta para obtener y renovar licencias y autorizaciones especiales.",
+                  "article": "Art. 98.3 RD 137/1993"
+                },
+                {
+                  "term": "Intervención de Armas",
+                  "text": "Oficina de la Guardia Civil que controla las armas: expide las guías, pasa las revistas y recibe los depósitos. Cada Compañía territorial tiene una.",
+                  "article": "Art. 8.2 RD 137/1993"
+                },
+                {
+                  "term": "Licencia A",
+                  "text": "Documenta las armas de propiedad privada del personal de las Fuerzas Armadas, de las Fuerzas y Cuerpos de Seguridad y del Servicio de Vigilancia Aduanera.",
+                  "article": "Art. 96.3 RD 137/1993"
+                },
+                {
+                  "term": "Licencia B",
+                  "text": "Para armas cortas de particulares. Solo se concede a quien acredita necesidad, ampara un arma y vale cinco años. La defensa propia no basta por sí sola.",
+                  "article": "Art. 99 RD 137/1993"
+                },
+                {
+                  "term": "Licencia C",
+                  "text": "Para las armas de dotación del personal de vigilancia y seguridad que no sea militar ni policial.",
+                  "article": "Art. 96.4.b RD 137/1993"
+                },
+                {
+                  "term": "Licencia D",
+                  "text": "Para rifles de caza mayor (2.ª, 2): hasta cinco armas y cinco años de validez. Nadie puede tener más de una.",
+                  "article": "Art. 100.2 RD 137/1993"
+                },
+                {
+                  "term": "Licencia E",
+                  "text": "Para las armas de la 3.ª y para ballestas y lanzacabos: hasta seis escopetas o seis rifles de tiro, y doce armas en total. Vale cinco años.",
+                  "article": "Art. 101 RD 137/1993"
+                },
+                {
+                  "term": "Licencia F",
+                  "text": "Para armas de concurso de tiradores federados. Tiene tres clases: la tercera ampara un arma; la segunda, hasta seis; la primera, hasta diez.",
+                  "article": "Art. 132.1 RD 137/1993"
+                },
+                {
+                  "term": "Pruebas de capacitación",
+                  "text": "Pruebas sobre conocimiento, cuidado y conservación de las armas y habilidad para manejarlas. Hay que superarlas para obtener la licencia D o la E.",
+                  "article": "Art. 102.2 RD 137/1993"
+                },
+                {
+                  "term": "Revista de armas",
+                  "text": "Presentar el arma en la Intervención de Armas cada cinco años, al renovar la licencia. Si no pasas dos revistas seguidas, se anula la guía y el arma queda depositada.",
+                  "article": "Art. 90 RD 137/1993"
+                },
+                {
+                  "term": "Tarjeta de armas",
+                  "text": "La concede el alcalde para las armas de aire de la 4.ª. La A ampara hasta seis de la 4.ª, 1 y vale cinco años; la B, sin límite de la 4.ª, 2, y es permanente.",
+                  "article": "Art. 105 RD 137/1993"
+                },
+                {
+                  "term": "Tarjeta Europea de Armas de Fuego",
+                  "text": "Documento para viajar con tus armas por la Unión Europea. La expide la Guardia Civil a residentes en España, vale hasta cinco años y se prorroga si sigues siendo titular.",
+                  "article": "Art. 113.1 RD 137/1993"
+                },
+                {
+                  "term": "Visado de la licencia",
+                  "text": "Las licencias de los mayores de 67 años se visan a los tres años de su expedición, con un nuevo informe de aptitud psicofísica favorable.",
+                  "article": "Art. 104.1 RD 137/1993"
+                }
+              ]
+            }
+          ],
+          "articles": [
+            "Art. 8.2 RD 137/1993",
+            "Art. 31.1 RD 137/1993",
+            "Art. 89 RD 137/1993",
+            "Art. 90 RD 137/1993",
+            "Art. 91.1 RD 137/1993",
+            "Art. 96 RD 137/1993",
+            "Art. 98.3 RD 137/1993",
+            "Art. 99 RD 137/1993",
+            "Art. 100 RD 137/1993",
+            "Art. 101 RD 137/1993",
+            "Art. 102.2 RD 137/1993",
+            "Art. 103 RD 137/1993",
+            "Art. 104.1 RD 137/1993",
+            "Art. 105 RD 137/1993",
+            "Art. 108 RD 137/1993",
+            "Art. 109 RD 137/1993",
+            "Art. 113.1 RD 137/1993",
+            "Art. 132.1 RD 137/1993"
+          ]
+        },
+        {
+          "title": "Términos legales y sanciones",
+          "collapsed": false,
+          "blocks": [
+            {
+              "type": "terms",
+              "items": [
+                {
+                  "term": "Armero",
+                  "text": "Persona o empresa que se dedica a fabricar, comerciar, alquilar, reparar, modificar o transformar armas de fuego o componentes esenciales, o a fabricar, comerciar o transformar munición.",
+                  "article": "Art. 2.22 RD 137/1993"
+                },
+                {
+                  "term": "Comiso",
+                  "text": "Sanción accesoria de la Ley Orgánica 4/2015: pierdes los bienes o instrumentos con los que se cometió la infracción, salvo que sean de un tercero de buena fe.",
+                  "article": "Art. 39.2.b LO 4/2015"
+                },
+                {
+                  "term": "Decomiso de armas",
+                  "text": "Cuando una autoridad o sus agentes decomisan o intervienen armas, deben dar cuenta a la Guardia Civil y depositarlas en la Intervención de Armas.",
+                  "article": "Art. 166.1 RD 137/1993"
+                },
+                {
+                  "term": "Delito",
+                  "text": "Infracción penal, que juzgan los tribunales. Si un hecho con armas puede ser delito, se envía al Ministerio Fiscal y el expediente administrativo se para hasta que decida la vía penal.",
+                  "article": "Art. 161 RD 137/1993"
+                },
+                {
+                  "term": "Depósito de armas",
+                  "text": "Entrega obligatoria de las armas, con sus guías, en la Intervención de Armas cuando dejas de estar habilitado. Si en un año no se venden ni inutilizan, pueden destruirse.",
+                  "article": "Art. 165 RD 137/1993"
+                },
+                {
+                  "term": "Fallecimiento del titular",
+                  "text": "Los herederos depositan las armas en cuanto saben que deben hacerlo y, como mucho, a los seis meses. Tienen un año para venderlas, documentarlas o inutilizarlas.",
+                  "article": "Art. 93 RD 137/1993"
+                },
+                {
+                  "term": "Incautación",
+                  "text": "Medida que acompaña a muchas multas del Reglamento: se quitan las armas, municiones, cargadores o instrumentos usados en la infracción.",
+                  "article": "Art. 156 RD 137/1993"
+                },
+                {
+                  "term": "Infracción grave",
+                  "text": "Por ejemplo, tener armas sin la licencia necesaria, no guardarlas en casa con las medidas obligatorias o portarlas en establecimientos públicos o lugares de reunión.",
+                  "article": "Art. 156 RD 137/1993"
+                },
+                {
+                  "term": "Infracción leve",
+                  "text": "La de menos gravedad. Por ejemplo, no pasar revista, no exhibir el arma a los agentes o no avisar de la pérdida de la licencia o de la guía.",
+                  "article": "Art. 157 RD 137/1993"
+                },
+                {
+                  "term": "Infracción muy grave",
+                  "text": "La más grave. Por ejemplo, fabricar, reparar o almacenar armas de fuego sin autorización, o usar armas cortas sin licencia o sin guía de pertenencia.",
+                  "article": "Art. 155 RD 137/1993"
+                },
+                {
+                  "term": "Non bis in idem",
+                  "text": "Principio por el que no se sanciona un hecho ya sancionado, penal o administrativamente, cuando coinciden el sujeto, el hecho y el fundamento.",
+                  "article": "Art. 45.1 LO 4/2015"
+                },
+                {
+                  "term": "Prescripción de la infracción",
+                  "text": "Si pasa el plazo sin que la Administración actúe, ya no se puede sancionar. El cuestionario espera 3 meses (leve), 1 año (grave) y 2 años (muy grave).",
+                  "article": "Art. 27 LO 1/1992"
+                },
+                {
+                  "term": "Retirada de armas",
+                  "text": "Sanción que te quita las armas y te prohíbe adquirir o tener otras durante el plazo que se fije, de dos años como máximo.",
+                  "article": "Art. 158.1 RD 137/1993"
+                },
+                {
+                  "term": "Retirada de licencia",
+                  "text": "Revoca la licencia o autorización especial, impide renovarla durante el plazo impuesto, de dos años como máximo, y obliga a depositar las armas.",
+                  "article": "Art. 158.2 RD 137/1993"
+                },
+                {
+                  "term": "Subasta pública",
+                  "text": "Destino de las armas depositadas con valor acreditado como patrimonio histórico: se subastan o se venden a museos. Las demás pueden destruirse.",
+                  "article": "Art. 165.2.b RD 137/1993"
+                }
+              ]
+            },
+            {
+              "type": "notice",
+              "text": "Ojo: el cuestionario da por buenos los plazos de prescripción de la Ley Orgánica 1/1992, ya derogada. Con la Ley Orgánica 4/2015 vigente, las infracciones prescriben a los seis meses, al año o a los dos años (art. 38.1)."
+            }
+          ],
+          "articles": [
+            "Art. 2.22 RD 137/1993",
+            "Art. 93 RD 137/1993",
+            "Art. 155 RD 137/1993",
+            "Art. 156 RD 137/1993",
+            "Art. 157 RD 137/1993",
+            "Art. 158 RD 137/1993",
+            "Art. 161 RD 137/1993",
+            "Art. 165 RD 137/1993",
+            "Art. 166.1 RD 137/1993",
+            "Art. 27 LO 1/1992",
+            "Art. 38.1 LO 4/2015",
+            "Art. 39.2 LO 4/2015",
+            "Art. 45.1 LO 4/2015"
+          ]
+        }
+      ],
+      "related_questions": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T165900Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-5934</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19980216</fecha_disposicion>
+      <numero_oficial>230/1998</numero_oficial>
+      <titulo>Real Decreto 230/1998, de 16 de febrero, por el que se aprueba el Reglamento de explosivos.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19980312</fecha_publicacion>
+      <diario_numero>61</diario_numero>
+      <fecha_vigencia>19980511</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20170305</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1998/02/16/230</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-5934</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

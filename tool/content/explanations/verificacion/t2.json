@@ -1,0 +1,613 @@
+[
+  {
+    "id": "t2-001",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3: «los objetos que, teniendo en cuenta sus características, grado de peligrosidad y destino o utilización, se enumeran y clasifican»"
+  },
+  {
+    "id": "t2-002",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 101.1: «Las armas de las categorías 3.ª y 7.ª, 2 y 3, precisarán una licencia E»; art. 96.4.c: «La licencia D de arma larga rayada para caza mayor»; art. 100.1: «Quienes precisen armas de la categoría 2.ª, 2, deberán obtener previamente licencia D.»"
+  },
+  {
+    "id": "t2-003",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 2.3: «En todo caso, se considerarán armas asimiladas, las armas reglamentadas de las categorías 3.ª 3 7.ª 2 y 3.»; art. 3, 7.ª 5: «Los arcos…»"
+  },
+  {
+    "id": "t2-004",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.h: «…así como cualesquiera otros instrumentos especialmente peligrosos para la integridad física de las personas.» (las puntas de flecha no figuran en el art. 4)"
+  },
+  {
+    "id": "t2-005",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 2.13: «Arma de fuego corta: Arma de fuego cuyo cañón no exceda de 30 cm o cuya longitud total no exceda de 60 cm.»"
+  },
+  {
+    "id": "t2-006",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 2.14: «Arma de fuego larga: Cualquier arma de fuego que no sea un arma de fuego corta.»; art. 2.13 (30 cm / 60 cm)"
+  },
+  {
+    "id": "t2-007",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 3.ª 2: «Escopetas y demás armas de fuego largas de ánima lisa, o que tengan cañón con rayas para facilitar el plomeo, que los bancos de pruebas reconocidos hayan marcado con punzón de escopeta de caza, no incluidas entre las armas de guerra.»"
+  },
+  {
+    "id": "t2-008",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 3.ª 2: «Escopetas y demás armas de fuego largas de ánima lisa, o que tengan cañón con rayas para facilitar el plomeo, que los bancos de pruebas reconocidos hayan marcado con punzón de escopeta de caza, no incluidas entre las armas de guerra.»"
+  },
+  {
+    "id": "t2-009",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 3.ª 2: «Escopetas y demás armas de fuego largas de ánima lisa, o que tengan cañón con rayas para facilitar el plomeo, que los bancos de pruebas reconocidos hayan marcado con punzón de escopeta de caza, no incluidas entre las armas de guerra.» RD 137/1993 art. 3, 2.ª 2: «Armas de fuego largas rayadas: Se comprenden aquellas armas utilizables para caza mayor. También comprende los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos, siempre que… no estén clasificadas como armas de guerra.»"
+  },
+  {
+    "id": "t2-010",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3: «8.ª categoría: Armas acústicas y de salvas. 9.ª categoría: Armas inutilizadas.» (nota BOE: añadidas por RD 726/2020, vigor 5-11-2020)"
+  },
+  {
+    "id": "t2-011",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 1.ª: «Armas de fuego cortas: Comprende las pistolas y revólveres.»"
+  },
+  {
+    "id": "t2-012",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 1.ª: «Armas de fuego cortas: Comprende las pistolas y revólveres.» 4.ª: aire u otro gas comprimido; 6.ª: armas de fuego antiguas o históricas"
+  },
+  {
+    "id": "t2-013",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 1.ª: «Armas de fuego cortas: Comprende las pistolas y revólveres.» art. 2.13: «cuyo cañón no exceda de 30 cm»"
+  },
+  {
+    "id": "t2-014",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 2.ª 2: «Armas de fuego largas rayadas: Se comprenden aquellas armas utilizables para caza mayor. También comprende los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos, siempre que… no estén clasificadas como armas de guerra.»"
+  },
+  {
+    "id": "t2-015",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 2.ª 2: «Armas de fuego largas rayadas: Se comprenden aquellas armas utilizables para caza mayor. También comprende los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos, siempre que… no estén clasificadas como armas de guerra.»"
+  },
+  {
+    "id": "t2-016",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 2.ª 1: «Armas de fuego largas para vigilancia y guardería: Son las armas largas que reglamentariamente se determinen por Orden del Ministerio del Interior…» RD 137/1993 art. 3, 2.ª 2: «Armas de fuego largas rayadas: Se comprenden aquellas armas utilizables para caza mayor. También comprende los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos, siempre que… no estén clasificadas como armas de guerra.»"
+  },
+  {
+    "id": "t2-017",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 2.ª 2: «Armas de fuego largas rayadas: Se comprenden aquellas armas utilizables para caza mayor. También comprende los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos, siempre que… no estén clasificadas como armas de guerra.»"
+  },
+  {
+    "id": "t2-018",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 3.ª 2: «Escopetas y demás armas de fuego largas de ánima lisa, o que tengan cañón con rayas para facilitar el plomeo, que los bancos de pruebas reconocidos hayan marcado con punzón de escopeta de caza, no incluidas entre las armas de guerra.» RD 137/1993 art. 3, 3.ª 1: «Armas de fuego largas rayadas para tipo deportivo, de calibre 5,6 milímetros (.22 americano), de percusión anular, bien sean de un disparo, bien de repetición o semiautomáticas.»"
+  },
+  {
+    "id": "t2-019",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 2.ª 1: «Armas de fuego largas para vigilancia y guardería: Son las armas largas que reglamentariamente se determinen por Orden del Ministerio del Interior…» RD 137/1993 art. 3, 2.ª 2: «Armas de fuego largas rayadas: Se comprenden aquellas armas utilizables para caza mayor. También comprende los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos, siempre que… no estén clasificadas como armas de guerra.»"
+  },
+  {
+    "id": "t2-020",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 3.ª 1: «Armas de fuego largas rayadas para tipo deportivo, de calibre 5,6 milímetros (.22 americano), de percusión anular, bien sean de un disparo, bien de repetición o semiautomáticas.» RD 137/1993 art. 3, 3.ª 2: «Escopetas y demás armas de fuego largas de ánima lisa, o que tengan cañón con rayas para facilitar el plomeo, que los bancos de pruebas reconocidos hayan marcado con punzón de escopeta de caza, no incluidas entre las armas de guerra.»"
+  },
+  {
+    "id": "t2-021",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 2.ª 2: «Armas de fuego largas rayadas: Se comprenden aquellas armas utilizables para caza mayor. También comprende los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos, siempre que… no estén clasificadas como armas de guerra.» (escopetas 3.ª 2; ballestas 7.ª 2)"
+  },
+  {
+    "id": "t2-022",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 3.ª 1: «Armas de fuego largas rayadas para tipo deportivo, de calibre 5,6 milímetros (.22 americano), de percusión anular, bien sean de un disparo, bien de repetición o semiautomáticas.»"
+  },
+  {
+    "id": "t2-023",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 3.ª 2: «Escopetas y demás armas de fuego largas de ánima lisa, o que tengan cañón con rayas para facilitar el plomeo, que los bancos de pruebas reconocidos hayan marcado con punzón de escopeta de caza, no incluidas entre las armas de guerra.» revólveres 1.ª; arcos 7.ª 5"
+  },
+  {
+    "id": "t2-024",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 3.ª 3: «Armas accionadas por aire u otro gas comprimido, sean lisas o rayadas, siempre que la energía cinética del proyectil en boca exceda de 24,2 julios.»"
+  },
+  {
+    "id": "t2-025",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 3.ª 1: «Armas de fuego largas rayadas para tipo deportivo, de calibre 5,6 milímetros (.22 americano), de percusión anular, bien sean de un disparo, bien de repetición o semiautomáticas.»"
+  },
+  {
+    "id": "t2-026",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 4.ª 1: «Carabinas y pistolas, de tiro semiautomático y de repetición; y revólveres de doble acción, accionadas por aire u otro gas comprimido no asimiladas a escopetas.»"
+  },
+  {
+    "id": "t2-027",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 4.ª 2: «Carabinas y pistolas, de ánima lisa o rayada, y de un solo tiro, y revólveres de acción simple, accionadas por aire u otro gas comprimido no asimiladas a escopetas.»"
+  },
+  {
+    "id": "t2-028",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 4.ª 2: «Carabinas y pistolas, de ánima lisa o rayada, y de un solo tiro, y revólveres de acción simple, accionadas por aire u otro gas comprimido no asimiladas a escopetas.» RD 137/1993 art. 3, 4.ª 1: «Carabinas y pistolas, de tiro semiautomático y de repetición; y revólveres de doble acción, accionadas por aire u otro gas comprimido no asimiladas a escopetas.»"
+  },
+  {
+    "id": "t2-029",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 4.ª 1: «Carabinas y pistolas, de tiro semiautomático y de repetición; y revólveres de doble acción, accionadas por aire u otro gas comprimido no asimiladas a escopetas.» RD 137/1993 art. 3, 3.ª 3: «Armas accionadas por aire u otro gas comprimido, sean lisas o rayadas, siempre que la energía cinética del proyectil en boca exceda de 24,2 julios.»"
+  },
+  {
+    "id": "t2-030",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 5.ª: «1. Las armas blancas y en general las de hoja cortante o punzante no prohibidas. 2. Los cuchillos o machetes usados por unidades militares o que sean imitación de los mismos.»"
+  },
+  {
+    "id": "t2-031",
+    "verdict": "corregir",
+    "problems": [
+      "«Para particulares solo se prohíben las armas largas semiautomáticas… con más de 11 cartuchos» es una generalización excesiva: el art. 5.1 prohíbe otras armas largas (cañones recortados, culata plegable <60 cm, automáticas transformadas). El límite de 11 solo es el criterio de capacidad."
+    ],
+    "suggested_explanation": "Por capacidad de carga solo están prohibidas a particulares las armas largas semiautomáticas de percusión central con más de 11 cartuchos, contando el de la recámara. Un rifle que admite 5 no llega a ese límite y no es arma prohibida.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 5.1.b: «Las armas de fuego largas semiautomáticas de percusión central cuya capacidad de carga sea superior a once cartuchos, incluido el alojado en la recámara.»"
+  },
+  {
+    "id": "t2-032",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 7.ª: «2. Las ballestas. … 5. Los arcos… 6. Armas de alarma y señales y pistolas lanzabengalas.» 5.ª 2: cuchillos o machetes militares; 4.ª 2: aire comprimido de un solo tiro"
+  },
+  {
+    "id": "t2-033",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 2.ª 1: «Armas de fuego largas para vigilancia y guardería: Son las armas largas que reglamentariamente se determinen por Orden del Ministerio del Interior…»"
+  },
+  {
+    "id": "t2-034",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 3.ª 1: «Armas de fuego largas rayadas para tipo deportivo, de calibre 5,6 milímetros (.22 americano), de percusión anular, bien sean de un disparo, bien de repetición o semiautomáticas.»"
+  },
+  {
+    "id": "t2-035",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 2.ª 2: «Armas de fuego largas rayadas: Se comprenden aquellas armas utilizables para caza mayor. También comprende los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos, siempre que… no estén clasificadas como armas de guerra.»"
+  },
+  {
+    "id": "t2-036",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3: «8.ª categoría: Armas acústicas y de salvas. 9.ª categoría: Armas inutilizadas.» (nota BOE: añadidas por RD 726/2020, vigor 5-11-2020)"
+  },
+  {
+    "id": "t2-037",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 3, 7.ª: «2. Las ballestas. … 5. Los arcos… 6. Armas de alarma y señales y pistolas lanzabengalas.»"
+  },
+  {
+    "id": "t2-038",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 2.21: «Arma semiautomática: Arma de fuego que después de cada disparo se recarga automáticamente y con la que solo es posible efectuar un disparo al accionar el disparador cada vez.»; art. 2.5 (automática: «varios disparos sucesivos mientras permanezca accionado el disparador»)"
+  },
+  {
+    "id": "t2-039",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 5.1.b: «Las armas de fuego largas semiautomáticas de percusión central cuya capacidad de carga sea superior a once cartuchos, incluido el alojado en la recámara.»"
+  },
+  {
+    "id": "t2-040",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 5.1.a: «Las armas de fuego cortas semiautomáticas de percusión central cuya capacidad de carga sea superior a veintiún cartuchos, incluido el alojado en la recámara.»"
+  },
+  {
+    "id": "t2-041",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 5.1.d: «Las armas de fuego automáticas que hayan sido transformadas en armas de fuego semiautomáticas.» (prohibidas «salvo por funcionarios especialmente habilitados»)"
+  },
+  {
+    "id": "t2-042",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 6.1: «Se consideran armas de guerra, quedando en consecuencia prohibidos su adquisición, tenencia y uso por particulares: a) Armas de fuego… de calibre igual o superior a 20 milímetros. … c) Armas de fuego automáticas.»"
+  },
+  {
+    "id": "t2-043",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 6.1: «Se consideran armas de guerra, quedando en consecuencia prohibidos su adquisición, tenencia y uso por particulares: a) Armas de fuego… de calibre igual o superior a 20 milímetros. … c) Armas de fuego automáticas.»"
+  },
+  {
+    "id": "t2-044",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 6.1: «Se consideran armas de guerra, quedando en consecuencia prohibidos su adquisición, tenencia y uso por particulares: a) Armas de fuego… de calibre igual o superior a 20 milímetros. … c) Armas de fuego automáticas.»"
+  },
+  {
+    "id": "t2-045",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 6.1: «Se consideran armas de guerra, quedando en consecuencia prohibidos su adquisición, tenencia y uso por particulares: a) Armas de fuego… de calibre igual o superior a 20 milímetros. … c) Armas de fuego automáticas.» (el art. 6.3 solo prevé excepciones para empresas de seguridad privada, no para particulares)"
+  },
+  {
+    "id": "t2-046",
+    "verdict": "corregir",
+    "problems": [
+      "Sin artículo y sin flag sin_articulo (el borrador lleva flags vacío).",
+      "La explicación no explica el porqué: solo dice «el cuestionario admite». Conviene apoyar la lógica en lo que sí dice el corpus: automáticas = guerra (art. 6.1.c), calibres de guerra los fija Defensa (art. 6.1.b), y la bala expansiva no está entre las municiones prohibidas (art. 5.1.l), a diferencia de perforantes/explosivas/incendiarias, de uso militar (art. 2.30-32).",
+      "El corpus no contiene ninguna norma que diga que esos calibres se puedan usar en caza mayor con bala expansiva y arma de repetición; article null es correcto."
+    ],
+    "suggested_explanation": "El Reglamento no regula este caso: Defensa fija qué calibres son de guerra y las armas automáticas siempre lo son. El cuestionario admite estos calibres en caza mayor si el rifle es de repetición (no automático) y usa bala expansiva, munición de caza que no está entre las prohibidas.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 6.1.b: «calibre inferior a 20 milímetros, cuyos calibres sean considerados por el Ministerio de Defensa como de guerra»; art. 6.1.c: «Armas de fuego automáticas»; art. 5.1.l: «municiones con balas perforantes, explosivas o incendiarias» (la expansiva, art. 2.33, no figura). Búsqueda «7,62» / «expansiva» en el corpus: ningún precepto sobre su uso en caza mayor."
+  },
+  {
+    "id": "t2-047",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.f: «Los bastones-estoque, los puñales de cualquier clase y las navajas llamadas automáticas. Se considerarán puñales a estos efectos las armas blancas de hoja menor de 11 centímetros, de dos filos y puntiaguda.» RD 137/1993 art. 5.1.k: «Los silenciadores adaptables a armas de fuego.» (prohibidos «salvo por funcionarios especialmente habilitados»)"
+  },
+  {
+    "id": "t2-048",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.a: «Las armas de fuego que sean resultado de una fabricación ilícita o de modificar sustancialmente las características de fabricación u origen de otras armas, sin la reglamentaria autorización.»; art. 5.1.f: «largas que puedan reducirse a una longitud de menos de 60 cm… por medio de una culata plegable»"
+  },
+  {
+    "id": "t2-049",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.a (armas prohibidas, «Se prohíbe la fabricación, importación, circulación, publicidad, compraventa, tenencia y uso») frente a art. 5.1 («salvo por funcionarios especialmente habilitados»)"
+  },
+  {
+    "id": "t2-050",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 5.1: «Queda prohibida la publicidad, compraventa, tenencia y uso, salvo por funcionarios especialmente habilitados… c) Las armas de fuego largas de cañones recortados.» art. 5.3: «navajas no automáticas cuya hoja exceda de 11 centímetros»; art. 4.1.h: «tiragomas y cerbatanas perfeccionados»"
+  },
+  {
+    "id": "t2-051",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.g: «Las armas de fuego, de aire u otro gas comprimido, reales o simuladas, combinadas con armas blancas.»"
+  },
+  {
+    "id": "t2-052",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.e: «Las armas de fuego simuladas bajo apariencia de cualquier otro objeto.»"
+  },
+  {
+    "id": "t2-053",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 5.3: «Queda prohibido el uso por particulares de cuchillos, machetes y demás armas blancas que formen parte de armamentos debidamente aprobados»; art. 4.1.f: «los puñales de cualquier clase»"
+  },
+  {
+    "id": "t2-054",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 100.6: «La adquisición, tenencia y uso de las alzas o miras telescópicas… adaptables a las armas de caza mayor… solamente se permitirán a las personas que acrediten poseer licencia D»"
+  },
+  {
+    "id": "t2-055",
+    "verdict": "corregir",
+    "problems": [
+      "«solo limita la compra de miras» es impreciso: el art. 100.6 limita «la adquisición, tenencia y uso» de las miras adaptables a armas de caza mayor."
+    ],
+    "suggested_explanation": "Ninguna norma prohíbe montar una mira telescópica en una escopeta o arma de la 3.ª, 2. El Reglamento solo restringe la adquisición, tenencia y uso de las miras adaptables a armas de caza mayor, reservadas a quien tenga licencia D.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 100.6: «La adquisición, tenencia y uso de las alzas o miras telescópicas o artificios adaptables a las armas de caza mayor… solamente se permitirán a las personas que acrediten poseer licencia D». Arts. 4 y 5: ninguna mención a miras en armas de 3.ª."
+  },
+  {
+    "id": "t2-056",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.b: «Las armas largas que contengan dispositivos especiales, en su culata o mecanismos, para alojar pistolas u otras armas.» art. 2.8: «Arma combinada: Arma formada por la unión de elementos… de dos o más armas de distinta categoría»"
+  },
+  {
+    "id": "t2-057",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.f: «Los bastones-estoque, los puñales de cualquier clase y las navajas llamadas automáticas. Se considerarán puñales a estos efectos las armas blancas de hoja menor de 11 centímetros, de dos filos y puntiaguda.» art. 5.3: «navajas no automáticas cuya hoja exceda de 11 centímetros»; art. 3, 5.ª 1: armas blancas no prohibidas"
+  },
+  {
+    "id": "t2-058",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.f: «Los bastones-estoque, los puñales de cualquier clase y las navajas llamadas automáticas. Se considerarán puñales a estos efectos las armas blancas de hoja menor de 11 centímetros, de dos filos y puntiaguda.» RD 137/1993 art. 3, 5.ª: «1. Las armas blancas y en general las de hoja cortante o punzante no prohibidas. 2. Los cuchillos o machetes usados por unidades militares o que sean imitación de los mismos.»"
+  },
+  {
+    "id": "t2-059",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.f: «Los bastones-estoque, los puñales de cualquier clase y las navajas llamadas automáticas. Se considerarán puñales a estos efectos las armas blancas de hoja menor de 11 centímetros, de dos filos y puntiaguda.»"
+  },
+  {
+    "id": "t2-060",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.h: «Las defensas de alambre o plomo; los rompecabezas; las llaves de pugilato…» (art. 4.1: se prohíbe «tenencia y uso»)"
+  },
+  {
+    "id": "t2-061",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 5.1.k: «Los silenciadores adaptables a armas de fuego.» (prohibidos «salvo por funcionarios especialmente habilitados»)"
+  },
+  {
+    "id": "t2-062",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 5.1: «Queda prohibida la publicidad, compraventa, tenencia y uso, salvo por funcionarios especialmente habilitados… c) Las armas de fuego largas de cañones recortados.»"
+  },
+  {
+    "id": "t2-063",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.g: «Las armas de fuego, de aire u otro gas comprimido, reales o simuladas, combinadas con armas blancas.»"
+  },
+  {
+    "id": "t2-064",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.b: «Las armas largas que contengan dispositivos especiales, en su culata o mecanismos, para alojar pistolas u otras armas.» art. 96.10: «Se prohíbe a las personas que residan en España la tenencia de un arma de fuego adquirida en otro Estado miembro si su adquisición y tenencia está prohibida en territorio español.»"
+  },
+  {
+    "id": "t2-065",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 4.1.b: «Las armas largas que contengan dispositivos especiales, en su culata o mecanismos, para alojar pistolas u otras armas.» art. 2.7: «Arma blanca: Arma constituida por una hoja metálica… cortante o punzante.»; art. 96.10"
+  },
+  {
+    "id": "t2-066",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 5.1.l: «Las municiones con balas perforantes, explosivas o incendiarias, así como los proyectiles correspondientes.» (la blindada y la expansiva no figuran en el art. 5)"
+  },
+  {
+    "id": "t2-067",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 137/1993 art. 5.1.m: «Las municiones para pistolas y revólveres con proyectiles dum-dum o de punta hueca, así como los propios proyectiles.»"
+  }
+]

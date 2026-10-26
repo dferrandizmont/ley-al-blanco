@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2015-3779" fecha_publicacion="20150409" fecha_vigencia="20150410">
+          <p class="parrafo">La disposición final segunda de la Orden INT/2202/2014, de 24 de noviembre, por la que se desarrolla el régimen aplicable a las reproducciones o réplicas de armas de fuego antiguas, autoriza al Director General de la Guardia Civil a dictar cuantas disposiciones requieran el desarrollo y aplicación de la misma.</p>
+          <p class="parrafo">El artículo 12, de la citada Orden Ministerial dispone que las personas físicas o jurídicas que sean titulares de reproducciones o réplicas de armas de fuego antiguas, están obligadas a guardarlas en lugar seguro y adoptar las medidas necesarias que se determinen por resolución del Director General de la Guardia Civil, para evitar su pérdida, robo o sustracción.</p>
+          <p class="parrafo">En su virtud, dispongo lo siguiente:</p>
+        </version>
+      </bloque>
+      <bloque id="primero" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-2015-3779" fecha_publicacion="20150409" fecha_vigencia="20150410">
+          <p class="articulo">Primero. Custodia de las armas.</p>
+          <p class="parrafo">Las réplicas o reproducciones de armas de fuego antiguas que se encuentren guiadas al amparo de la autorización especial para su uso, conforme a lo dispuesto en el artículo 107 del Real Decreto 137/1993, de 29 de enero, por el que se aprueba el Reglamento de Armas y al artículo 7 de la Orden INT/2202/2014, de 24 de noviembre, por la que se desarrolla el régimen aplicable a las reproducciones o réplicas de armas de fuego antiguas, se guardarán en los domicilios de sus titulares o en locales de empresas o entidades especializadas en la custodia de armas, de acuerdo con lo dispuesto en los artículos 83 y 144 del Reglamento de Armas.</p>
+          <p class="parrafo">En los domicilios particulares, las réplicas o reproducciones de armas de fuego antiguas que respondan a la definición de arma larga del artículo 2 del Reglamento de Armas, serán guardadas completas, o sus cierres o piezas fundamentales, en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase I establecido en la norma UNE EN 1143-1.</p>
+          <p class="parrafo">Las réplicas o reproducciones de armas de fuego antiguas que respondan a la definición de arma de fuego corta del artículo 2 del Reglamento de Armas, serán guardadas completas en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase III, de la norma UNE EN 1143-1.</p>
+        </version>
+      </bloque>
+      <bloque id="segundo" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-2015-3779" fecha_publicacion="20150409" fecha_vigencia="20150410">
+          <p class="articulo">Segundo. Medidas de seguridad de las armas en exposición.</p>
+          <p class="parrafo">1. Las réplicas o reproducciones de armas de fuego antiguas inscritas en el Libro-Registro previsto en el artículo 107 del Reglamento de Armas, que se expongan en el interior de los domicilios, deberán poseer alguna de las medidas de seguridad siguientes, que impidan su robo o sustracción:</p>
+          <p class="parrafo_2">a) Un sistema de anclaje adecuado al medio de exposición.</p>
+          <p class="parrafo">b) Una vitrina dotada con cerradura y cristal con categoría de resistencia P1A de la norma UNE 356.</p>
+          <p class="parrafo_2">2. Sin perjuicio de lo exigido en el apartado anterior, si el número de réplicas o reproducciones de armas de fuego antiguas inscritas en el Libro-Registro sobrepasa las cinco unidades, la puerta de la estancia o habitación donde se expongan estará dotada de cerradura con llave, y las ventanas o huecos estarán protegidos con persianas metálicas o con rejas.</p>
+        </version>
+      </bloque>
+      <bloque id="tercero" tipo="precepto" titulo="Tercero">
+        <version id_norma="BOE-A-2015-3779" fecha_publicacion="20150409" fecha_vigencia="20150410">
+          <p class="articulo">Tercero. Inspección.</p>
+          <p class="parrafo">La Intervención de Armas y Explosivos de la Guardia Civil podrá solicitar a los titulares de réplicas o reproducciones de armas de fuego antiguas la presentación de las mismas, tal y como establece el artículo 144 del Reglamento de Armas.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2015-3779" fecha_publicacion="20150409" fecha_vigencia="20150410">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">La presente resolución entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2015-3779" fecha_publicacion="20150409" fecha_vigencia="20150410">
+          <p class="parrafo_2">Madrid, 27 de marzo de 2015.–El Director General de la Guardia Civil, Arsenio Fernández de Mesa Díaz del Río.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

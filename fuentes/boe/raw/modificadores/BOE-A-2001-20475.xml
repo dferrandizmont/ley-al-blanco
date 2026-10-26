@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251218202601">
+  <metadatos>
+    <identificador>BOE-A-2001-20475</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="7320">Ministerio del Interior</departamento>
+    <rango codigo="1370">Resolución</rango>
+    <fecha_disposicion>20011022</fecha_disposicion>
+    <numero_oficial/>
+    <titulo>Resolución de 22 de octubre de 2001, de la Subsecretaría, por la que se da publicidad a las equivalencias pesetas-euros de las cuantías de las sanciones, precios comunicados, indemnizaciones, ayudas y cánones del Ministerio del Interior.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20011102</fecha_publicacion>
+    <diario_numero>263</diario_numero>
+    <seccion>3</seccion>
+    <subseccion/>
+    <pagina_inicial>39941</pagina_inicial>
+    <pagina_final>39946</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2001/11/02/pdfs/A39941-39946.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20011122</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/res/2001/10/22/(1)</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/res/2001/10/22/(1)">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/res"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-20475</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-10-22</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/420"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3495"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4136"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5008"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5709"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5793"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/res/2001/10/22/(1)/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/res"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-20475</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-10-22</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/420"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3495"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4136"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5008"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5709"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5793"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/res/2001/10/22/(1)"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/res/2001/10/22/(1)/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resolución de 22 de octubre de 2001, de la Subsecretaría, por la que se da publicidad a las equivalencias pesetas-euros de las cuantías de las sanciones, precios comunicados, indemnizaciones, ayudas y cánones del Ministerio del Interior.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-02</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/res/2001/10/22/(1)/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2001/10/22/(1)/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2001/10/22/(1)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2001/10/22/(1)/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2001/10/22/(1)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2001/10/22/(1)/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2001/10/22/(1)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="420" orden="1">Ayudas</materia>
+      <materia codigo="3495" orden="2">Euro</materia>
+      <materia codigo="4136" orden="3">Indemnizaciones</materia>
+      <materia codigo="5008" orden="4">Ministerio del Interior</materia>
+      <materia codigo="5709" orden="5">Procedimiento sancionador</materia>
+      <materia codigo="5793" orden="6">Publicaciones oficiales</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2001-14165" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado del Real Decreto 864/2001, de 20 de julio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2001-943" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado del Real Decreto 7/2001, de 12 de enero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2000-4915" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado de la Orden de 6 de marzo de 2000</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2000-544" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado de la Ley Orgánica 4/200, de 11 de enero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1999-20063" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado de la Ley 32/1999, de 8 de octubre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1998-6797" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado de la Orden de 13 de marzo de 1998</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1998-5934" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado del Real Decreto 230/1998, de 16 de febrero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1997-12509" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado del Real Decreto 865/1997, de 6 de junio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1996-752" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado de la Ley 3/1996, de 10 de enero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1993-8475" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado de la Orden de 18 de marzo de 1993</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1993-6202" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado del Real Decreto 137/1993</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1992-18489" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado de la Ley 23/1992, de 30 de julio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1992-4252" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado de la Ley Orgánica 1/1992, de 21 de febrero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1990-6396" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, texto articulado aprobado por Real Decreto Legislativo 339/1990, de 2 de marzo</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1985-25643" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado del Real Decreto 2283/1985, de 4 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1985-25590" orden="2080">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado del Real Decreto 2272/1985, de 4 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1968-454" orden="3060">
+          <palabra codigo="404">ACTUALIZA</palabra>
+          <texto>lo indicado del Decreto 632/1968, DE 21 DE MARZO</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2000-14480" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>art. 10.3.b) del Real Decreto 1449/2000, de 28 de julio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1998-29216" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>art. 11 de la Ley 46/1998, de 17 de diciembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas/>
+  </analisis>
+  <texto>
+    <p class="parrafo_2">El artículo 11 de la Ley 46/1998, de 17 de diciembre, sobre introducción del euro, modificado por la Ley 9/2001, de 4 de junio, establece los criterios para la conversión a euros de los valores de los precios, tasas y tarifas.</p>
+    <p class="parrafo">De acuerdo con la nueva redacción dada al artículo, se marcan los criterios para la adaptación de las escalas y baremos de sanciones pecuniarias, precios, tarifas y demás cantidades con importes monetarios expresados únicamente en pesetas.</p>
+    <p class="parrafo">Con el fin de evitar aquellos problemas que pudieran plantearse en la interpretación de los criterios de la Ley 46/1998 a las sanciones, precios comunicados e indemnizaciones y ayudas cuya gestión corresponde al Ministerio del Interior y dar publicidad a los nuevos importes en euros, se ha estimado oportuno recoger en una resolución valores convertidos a euros de las citadas figuras.</p>
+    <p class="parrafo">Por lo anterior, en virtud de las funciones atribuidas a la Subsecretaría en virtud de lo dispuesto en el 10.3.b) del Real Decreto 1449/2000, de 28 de julio, por el que se modifica y desarrolla la estructura orgánica básica del Ministerio del Interior, dispongo:</p>
+    <p class="articulo">Artículo único.</p>
+    <p class="parrafo">La presente Resolución tiene por efecto recoger los criterios formulados en la Ley 46/1998, de 17 de diciembre, sobre introducción del euro, en lo que a conversión de pesetas a euros se refiere, sin introducir ninguna otra variación en la regulación de los aspectos materiales o formales de las sanciones, precios comunicados, indemnizaciones, ayudas y cánones que en ella se recogen.</p>
+    <p class="anexo">SANCIONES</p>
+    <table class="tabla">
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Artículo</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="3">
+          <p class="cuerpo_tabla_izq">Ley Orgánica 1/1992, de 21 de febrero, de protección de la seguridad ciudadana.</p>
+        </td>
+        <td rowspan="3">
+          <p class="cuerpo_tabla_izq">Artículo 28</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones leves: hasta 50.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones leves: hasta 300,51</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones graves: de 50.001 a 5.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones graves: de 300,52 a 30.050,61</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones muy graves: de 5.000.001 a 100.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones muy graves: de 30.050,62 a 601.012,10</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Artículo</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="3">
+          <p class="cuerpo_tabla_izq">Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, modificada por la Ley Orgánica 8/2000 de 22 de diciembre.</p>
+        </td>
+        <td rowspan="3">
+          <p class="cuerpo_tabla_izq">Artículo 55,1</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones leves: hasta 50.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones leves: hasta 300,51</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones graves: de 50.001 a 1.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones graves: de 300,52 a 6.010,12</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones muy graves: de 1.000.001 a 10.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones muy graves: de 6.010,13 a 60.101,21</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Artículo</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          <p class="cuerpo_tabla_izq">Ley sobre Responsabilidad Civil y Seguro en la Circulación de Vehículos de motor.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 3,b)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">10.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">60,1</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 3,c)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">De 100.000 a 500.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">De 601,01 a 3.005,06</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Artículo</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="4">
+          <p class="cuerpo_tabla_izq">Real Decreto legislativo 339/1990, de 2 de marzo, por el que se aprueba el texto articulado de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial.</p>
+        </td>
+        <td rowspan="3">
+          <p class="cuerpo_tabla_izq">Artículo 67.1</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones leves: hasta 15.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones leves: hasta 90,15</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones graves: hasta 50.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones graves: hasta 300,51</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones muy graves: hasta 100.000 pesetas</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones muy graves: hasta 601,01</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 67.4</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 15.000 a 250.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 90,15 a 1.502,53</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Artículo</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="3">
+          <p class="cuerpo_tabla_izq">Ley 23/1992, de 30 de julio, de seguridad privada.</p>
+        </td>
+        <td rowspan="3">
+          <p class="cuerpo_tabla_izq">Artículo 26</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones leves: hasta 50.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones leves: hasta 300,51</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones graves: de 50.001 a 5.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones graves: de 300,52 a 30.050,61</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones muy graves: de 50.00.001 a 100.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Infracciones muy graves: de 30.050,62 a 601.012,10</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Artículo</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="3">
+          <p class="cuerpo_tabla_izq">Ley 3/1996, de 10 de enero, sobre medidas de control de sustancias químicas catalogadas susceptibles de desvío para la fabricación ilícita de drogas.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 20</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Hasta 1.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Hasta 6.010,12</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 19,2</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 1.000.001 a 15.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 6.010,13 a 90.151,82</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 18,2</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 15.000.001 a 100.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 90.151,83 a 601.012,10</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Artículo</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="18">
+          <p class="cuerpo_tabla_izq">Real Decreto 137/1993, de 29 de enero, por el que se aprueba el Reglamento de Armas.</p>
+        </td>
+        <td colspan="3">
+          <p class="cuerpo_tabla_centro">Infracciones leves</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículos 157,a); 157,b),1.º; 157,c),1.º; 157,e)1.º, y 157,f)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Hasta 50.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Hasta 300,51</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículos 157,b),2.º; 157,c), 2.º; 157,d) y 157,e),2.º</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Hasta 25.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Hasta 150,25</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <p class="cuerpo_tabla_centro">Infracciones graves</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículos 156, a), y 156,b)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 5.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 30.050,61</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 156, c)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 500.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 3.005,06</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 1.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 6.010,12</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 156, d)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 250.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 1.502,53</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 500.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 3.005,06</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 156, e)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 5.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 30.050,61</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 156,f)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 200.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 1.202,02</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 156, g) y j)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 100.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 601,01</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">artículo 156, h)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 1.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 6.010,12</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">artículo 156, i)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 75.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 450,76</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <p class="cuerpo_tabla_centro">Infracciones muy graves</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 155, a), 1.º</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 5.000.000 a 100.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 30.050,62 a 601.012,10</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 155, a), 2.º y 155, d)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 5.000.000 a 50.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 30.050,62 a 300.056,05</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">artículo 155, b) y c)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 5.000.000 a 10.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 30.050,62 a 60.101,21</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Artículo</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="4">
+          <p class="cuerpo_tabla_izq">Real Decreto 865/1997, de 6 de junio, por el que se aprueba el Reglamento de desarrollo de la Ley 3/1996, de 10 de enero, sobre medidas de control de sustancias químicas catalogadas susceptibles de desvío para la fabricación ilícita de drogas.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 67,1</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 1.000.001 a 7.500.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 6.010,13 a 45.075,91</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 67,2</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 7.500.001 a 15.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 45.075,92 a 90.151,82</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 66,1</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 15.000.0001 a 57.500.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 90.151,83 a 345.581,96</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 66,2</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 57.500.001 a 100.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 345.581,97 a 601.012,10</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Artículo</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="8">
+          <p class="cuerpo_tabla_izq">Real Decreto 230/1998, de 16 de febrero, por el que se aprueba el Reglamento de Explosivos.</p>
+        </td>
+        <td colspan="3">
+          <p class="cuerpo_tabla_centro">Infracciones leves</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 293<br/>a), b), c), d), e), f) y g)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Hasta 50.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Hasta 300,51</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <p class="cuerpo_tabla_centro">Infracciones graves</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 294 a), b), c), d), e), f), j), k) y l)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 5.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 30.050,61</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 294 <br/>h), i), m) y n)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 1.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 6.010,12</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 294, g)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 50.001 a 2.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 300,52 a 12.020,24</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <p class="cuerpo_tabla_centro">Infracciones muy graves</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 295 a) y b)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 5.000.001 a 100.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 30.050,62 a 601.012,10</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Artículo</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Real Decreto 7/2001, de 12 de enero, por el que se aprueba el Reglamento sobre la responsabilidad civil y seguro en la circulación de vehículos a motor.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo 29,c)</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 100.000 a 500.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">De 601,01 a 3.005,06</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Artículo</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Cuantía en euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="12">
+          <p class="cuerpo_tabla_izq">Real Decreto 864/2001, de 20 de julio, por el que se aprueba el Reglamento de ejecución de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, modificada por la Ley Orgánica 8/2000 de 22 de diciembre.</p>
+        </td>
+        <td rowspan="12">
+          <p class="cuerpo_tabla_izq">Artículo 134,4</p>
+        </td>
+        <td colspan="2">
+          <p class="cuerpo_tabla_centro">Infracciones leves</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado mínimo: de 5.000 a 10.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado mínimo: de 30,05 a 60,10</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado medio: de 10.001 a 25.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado medio: de 60,11 a 150,25</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado máximo: de 25.001 a 50.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado máximo: de 150,26 a 300,51</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p class="cuerpo_tabla_centro">Infracciones graves</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado mínimo: de 50.001 a 200.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado mínimo: de 300,52 a 1.202,02</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado medio: de 200.001 a 500.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado medio: de 1.202,03 a 3.005,06</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado máximo: de 500.001 a 1.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado máximo: de 3.005,07 a 6.010,12</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p class="cuerpo_tabla_centro">Infracciones muy graves</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado mínimo: de 1.000.001 a 2.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado mínimo: de 6.010,13 a 12.020,24</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado medio: de 2.000.001 a 5.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado medio: de 12.020,25 a 30.050,61</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado máximo: de 5.000.001 a 10.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">En grado máximo: de 30.050,62 a 60.101,21</p>
+        </td>
+      </tr>
+    </table>
+    <p class="anexo">PRECIOS COMUNICADOS</p>
+    <table class="tabla">
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Disposición</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Concepto</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="4">
+          <p class="cuerpo_tabla_izq">Real Decreto 2283/1985, de 4 de diciembre, por el que se regula la emisión de los informes de aptitud necesarios para la obtención de licencias, permisos y tarjetas de armas.</p>
+        </td>
+        <td rowspan="4">
+          <p class="cuerpo_tabla_izq">Anexo 2, modificado por Orden de 4 de febrero de 2000.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Obtención de licencias y autorizaciones de tenencia y uso de armas.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">5.530</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">33,24</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Renovaciones de licencias y autorizaciones de armas.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">4.715</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">28,34</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Renovaciones de licencias y autorizaciones de armas, cuyos titulares hayan cumplido la edad de sesenta años.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">1.850</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">11,12</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Renovaciones de licencias y autorizaciones cuyos titulares hayan cumplido setenta años de edad.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">925</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">5,56</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="5">
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Disposición</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Concepto</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="4">
+          <p class="cuerpo_tabla_izq">Real Decreto 2272/1985, de 4 de diciembre, por el que se determinan las aptitudes psicofísicas que deben poseer los conductores de vehículos y por el que se regulan los Centros de Reconocimiento destinados a verificarlas.</p>
+        </td>
+        <td rowspan="4">
+          <p class="cuerpo_tabla_izq">Anexo 3, modificado por Orden de 4 de febrero de 2000.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Obtención o prórroga de las licencias o permisos de las clases A1, A, B, o B + E.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">3.905</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">23,47</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Obtención de los permisos de las clases C1, C1+E, C, C+E, D1, D1+E, D o D+E o las autorizaciones de que deben disponer los conductores de vehículos prioritarios, los de turismos destinados al transporte público de viajeros, los de transporte escolar o de menores, los de vehículos que transporten mercancías peligrosas y los profesionales de la enseñanza de la conducción.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">5.530</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">33,24</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Prórroga de los permisos de las clases C1, C1+E, C, C+E, D1, D1+E, D o D+E o las autorizaciones de que deben disponer los conductores de vehículos prioritarios, los de turismo destinados al transporte público de viajeros, los de transporte escolar o de menores y los de vehículos que transporten mercancías peligrosas.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">4.715</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">28,34</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Prórroga de las licencias o permisos de clases A1, A, B o B+E.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">1.850</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">11,12</p>
+        </td>
+      </tr>
+    </table>
+    <p class="anexo">INDEMNIZACIONES Y AYUDAS</p>
+    <table class="tabla">
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Disposición</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Concepto</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="5">
+          <p class="cuerpo_tabla_izq">Ley 32/1999, de 8 de octubre, de Solidaridad con las víctimas del terrorismo.</p>
+        </td>
+        <td rowspan="5">
+          <p class="cuerpo_tabla_izq">Anexo</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Fallecimiento.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">23.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">138.232,78</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Gran Invalidez.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">65.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">390.657,87</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Incapacidad permanente absoluta.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">16.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">96.161,94</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Incapacidad permanente total.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">8.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">48.080,97</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Incapacidad permanente parcial.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">6.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">36.060,73</p>
+        </td>
+      </tr>
+    </table>
+    <table class="tabla">
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Disposición</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="5">
+          <p class="cuerpo_tabla_izq">Orden del Ministerio del Interior de 18 de marzo de 1993 por la que se regula el procedimiento para la concesión de ayudas en atención a determinadas necesidades derivadas de situaciones de emergencia, catástrofes y calamidades públicas.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo décimo, Punto 1.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">1.500.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">9.015,18</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo décimo, Punto 2.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">1.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">6.010,12</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo décimo, Punto 3.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">500.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">3.005,06</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo décimo, Punto 4.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">250.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">1.502,53</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Artículo décimo, Punto 5.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">2.000.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">12.020,24</p>
+        </td>
+      </tr>
+    </table>
+    <p class="anexo">CÁNONES Y OTROS</p>
+    <table class="tabla">
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Concepto</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          <p class="cuerpo_tabla_izq">Orden del Ministerio del Interior de 13 de marzo de 1998 por la que se regula la cesión de uso de viviendas para el personal funcionario y laboral de Instituciones Penitenciarias</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Canon de uso adjudicatarios pabellones-vivienda.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">8.000 por mes.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">48,080968 por mes.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Canon de uso de adjudicatarios residencias‑vivienda.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">4.000 por mes.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">24,040484 por mes.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Norma</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Concepto</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Pesetas</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Euros</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Orden de 6 de marzo de 2000, por la que se establece la cantidad que la Administración Penitenciaria debe abonar a los municipios que tienen depósito municipal de detenidos, para el mantenimiento del servicio de depósitos de detenidos y presos a disposición judicial o penados a arrestos de fin de semana.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Cantidad por detenido y día.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">5.898</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">35,447694</p>
+        </td>
+      </tr>
+    </table>
+    <p class="parrafo_2">El Catálogo de Publicaciones Oficiales del Ministerio del Interior, a disposición del público en todos los puntos de venta, recoge las cuantías monetarias tanto en pesetas como en euros.</p>
+    <p class="parrafo_2">Madrid, 22 de octubre de 2001.–La Subsecretaria, Ana María Pastor Julián.</p>
+  </texto>
+</documento>

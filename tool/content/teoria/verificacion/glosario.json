@@ -1,0 +1,41 @@
+{
+  "id": "glosario",
+  "verdict": "corregir",
+  "issues": [
+    {
+      "section": "Términos legales y sanciones",
+      "block_index": 0,
+      "term": "Delito",
+      "problem": "«…se envía al Ministerio Fiscal y la Administración no lo sanciona como infracción del Reglamento» sobra: el art. 161 solo manda remitir los antecedentes al Fiscal, y el art. 45.2-3 LO 4/2015 dice que el expediente se suspende y puede reanudarse si no hay delito. Contradice al resumen t5 («el expediente se para hasta que decida el juez»).",
+      "fix": "Infracción penal, que juzgan los tribunales. Si un hecho con armas puede ser delito, se envía al Ministerio Fiscal y el expediente administrativo se para hasta que decida la vía penal."
+    },
+    {
+      "section": "Otras armas, categorías y prohibiciones",
+      "block_index": 0,
+      "term": "Arma prohibida",
+      "problem": "La definición mezcla las dos listas sin decir cómo las llama el cuestionario, y t2-049, t2-051, t2-052 y t2-056 se fallan justo por eso: para las armas del art. 4 la opción correcta es «prohibidas» y la trampa es «prohibidas a particulares» (etiqueta que el examen reserva a las del art. 5). El resumen t2 ya lo explica así.",
+      "fix": "Las del art. 4 nadie puede fabricarlas, venderlas, tenerlas ni usarlas: el cuestionario las llama «prohibidas». Las del art. 5 (silenciadores, cañones recortados) solo las tienen funcionarios habilitados: «prohibidas a particulares»."
+    },
+    {
+      "section": "Licencias, guías y documentos",
+      "block_index": 0,
+      "term": "Autorización especial para menores",
+      "problem": "Menor: «ciertas armas largas» no cubre todo lo que permite el art. 109.2: la 3.ª, 3 (aire u otro gas comprimido de más de 24,2 J, lisas o rayadas) incluye también pistolas y revólveres de aire. Las categorías son 2.ª, 2 y 3.ª.",
+      "fix": "Permite a menores desde los 14 años usar, sin poseerlas, armas de la 3.ª y, desde los 16, rifles de caza mayor, para cazar o para tiro con categoría junior. Vale hasta la mayoría de edad."
+    }
+  ],
+  "evidence": [
+    "Art. 2 RD 137/1993 vigente (RD 726/2020): apdos. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 27, 29, 33, 35 existen y dicen lo que cada término afirma (numeración comprobada una a una; p. ej. 2.27 imitación o réplica, 2.35 reproducción, 2.33 bala expansiva, 2.29 munición con vainas y cebos).",
+    "Art. 3: categorías citadas correctas (3.ª 1 = 5,6 mm/.22 anular; 3.ª 3 = aire >24,2 J; 4.ª = aire no asimiladas a escopetas; 6.ª 2 = antes del 1-1-1890 y sus reproducciones y réplicas; 6.ª 4 = avancarga; 7.ª 2 ballestas, 7.ª 4 Flobert, 7.ª 6 alarma y lanzabengalas; 8.ª acústicas; 9.ª inutilizadas). «Si te dicen 1899, es falso» coincide con t7-001.",
+    "Art. 4.1.f (puñal <11 cm, navajas automáticas, bastones-estoque), 4.1.h, 5.1.c (cañones recortados), 5.1.e (cargadores >20/>10), 5.1.k (silenciadores), 5.1.l, 5.1.m (dum-dum/punta hueca en pistolas y revólveres), 5.3 (navaja no automática >11 cm, salvo en domicilio como adorno o colección), 6.1 (guerra: 20 mm o más, calibres de Defensa, automáticas): todos respaldan los términos. Banco: t2-047, t2-050, t2-057, t2-058, t2-059, t2-061, t2-066, t2-067 coinciden.",
+    "Art. 1.2: pieza y componentes esenciales (cortas: armazón, cañón, tambor, corredera o cerrojo; largas: cajón, cañón, cerrojo o báscula, cierre). Aviso de «piezas fundamentales» coincide con los notices de t1-045/t1-046 y con t1.json.",
+    "Términos técnicos sin artículo contrastados con el banco: Alza/Punto de mira (t1-035/036), Cargar y Alimentar (t1-027, t1-031, t1-032), Arma montada (t1-026/028), Ánima (t1-007 «lisas o estriadas»), Boca (t1-025), Choke (t1-019/020), Culata (t1-006/043), Guardamonte (t1-010/040), Expulsor (t1-033), Extractor (t1-017/018), Percutor (t1-048/049), Recámara (t1-022/029), Seguro (t1-024/047/052), Cerrojo (t1-014/016), Percusión central (t1-023), Munición expansiva para caza mayor (t2-046).",
+    "Arts. 8.2, 31.1, 88 (7.ª 2 lleva guía), 89.1-2, 90.1 y 90.5, 91.1 (quince días, licencia de caza + licencia de armas, autorización escrita, fechada y firmada), 93.1-3, 96.3-4 (licencias A, B, C, D, E), 99.2 y 99.6, 100.2, 101.1-2, 102.2, 103 (tres meses), 104.1 (67 años, visado a los tres), 105.1-2 (alcalde; A: 6 armas 4.ª 1, 5 años; B: ilimitada, permanente), 107.b (Libro-Registro, prohibido el uso, guía especial en cada caso con destino concreto), 107.c (certificado de banco oficial para avancarga y 6.ª 2), 108.3-4 y 108.7 (banco oficial o entidad verificadora comprueba, marca y certifica; sin límite de número en domicilio), 109.1-3, 113.1, 132.1: existen y respaldan los términos. Banco: t3-044/047, t3-056..065, t4-004, t4-007, t4-015, t4-034, t4-045, t4-052..060, t4-066, t4-067, t7-002, t7-004 coinciden.",
+    "Arts. 155.a-c, 156.c-k (incautación, retirada, cargadores), 157.a-f, 158.1-2 (dos años máximo), 161 (remisión al Ministerio Fiscal), 165.1-2 (depósito, un año, destrucción, subasta solo patrimonio histórico), 166.1 (decomiso); LO 4/2015 arts. 38.1 (6 meses/1/2 años), 39.2.b (comiso, tercero de buena fe), 45.1 (non bis in idem) y 45.2-3 (suspensión y reanudación del expediente). Banco: t5-001, t5-012, t5-063, t5-066, t6-045, t6-049/050, t6-064 coinciden.",
+    "Prescripción: cifra del término = art. 27 LO 1/1992 (derogada, marcada así en el corpus), con aviso en el bloque notice que cita el art. 38.1 LO 4/2015; es el mismo tratamiento que t5-005 y el notice de t5.json. Correcto.",
+    "Orden INT/2202/2014 art. 11 (pólvora negra y calibre del original) existe y respalda «Pólvora negra»; coincide con t7-010.",
+    "Licencia C (art. 96.4.b: «no comprendido en el apartado 3»), 4.ª categoría («las demás… de aire», art. 3) e Incautación/Banco oficial (descritos por su uso en arts. 155-157, 3, 107.c y 108): simplificaciones admisibles, sin pregunta del banco que las contradiga.",
+    "Imitación o réplica: art. 2.27 literal y salvedad sobre la 6.ª 2 coinciden con t7-009 y con el resumen t7.json.",
+    "Forma: 107 términos en 7 secciones, sin repetidos, ordenados alfabéticamente dentro de cada sección; ningún term >60, text >240, párrafo >400 ni celda >60. Los textos sustitutos propuestos caben en el límite de 240."
+  ]
+}

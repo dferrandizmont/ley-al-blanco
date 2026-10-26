@@ -1,0 +1,211 @@
+{
+  "id": "aem",
+  "tema": null,
+  "title": "Autorización especial para menores (AEM)",
+  "summary": "Qué permite la autorización especial de uso de armas para menores, a qué edad y con qué armas, quién acompaña al menor, cómo se pide y hasta cuándo vale. Clave para el examen: 14 y 16 años, el adulto con licencia D, E o F y la validez hasta los 18.",
+  "sections": [
+    {
+      "title": "Qué es y qué permite",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "La autorización especial de uso de armas para menores (AEM) permite a un menor usar ciertas armas de las categorías 2.ª, 2 y 3.ª, pero no poseerlas ni llevarlas dentro de las poblaciones. Sirve solo para cazar o para competiciones de tiro con categoría «junior». Pueden pedirla españoles y extranjeros con residencia en España."
+        },
+        {
+          "type": "p",
+          "text": "Las licencias de armas solo se expiden a mayores de edad. Por eso un menor no puede ser titular de una escopeta ni tener ninguna licencia, ni siquiera con 17 años: lo que puede obtener es esta autorización de uso."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: el menor usa el arma, pero no la posee. Con 17 años no puedes tener ninguna licencia E."
+        }
+      ],
+      "articles": [
+        "Art. 109.1 RD 137/1993",
+        "Art. 102.1 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Qué armas y a qué edad",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Edad",
+            "Qué armas",
+            "Para qué"
+          ],
+          "rows": [
+            [
+              "Desde los 14",
+              "Escopetas y demás de la 3.ª, 2",
+              "Caza"
+            ],
+            [
+              "Desde los 14",
+              "Categorías 3.ª, 2 y 3.ª, 3",
+              "Competiciones con categoría junior"
+            ],
+            [
+              "Desde los 16",
+              "Rifles de caza mayor o de la 3.ª, 1",
+              "Caza o tiro con categoría junior"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "3.ª, 1: rifles del .22 (5,6 mm) de percusión anular para tiro deportivo.",
+            "3.ª, 2: escopetas y demás armas largas de ánima lisa.",
+            "3.ª, 3: armas de aire comprimido de más de 24,2 julios en boca."
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: 16 años para el rifle de caza mayor o el tiro con arma rayada; 14 para las armas de la 3.ª, 2 y 3.ª, 3."
+        }
+      ],
+      "articles": [
+        "Art. 109.1 RD 137/1993",
+        "Art. 109.2 RD 137/1993",
+        "Art. 3 RD 137/1993"
+      ]
+    },
+    {
+      "title": "El adulto que lo acompaña",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "El menor siempre está bajo la supervisión de un adulto con licencia de armas D, E o F. No basta con cualquier mayor de edad."
+        },
+        {
+          "type": "p",
+          "text": "Ese adulto se compromete de antemano a acompañarlo y vigilarlo en cada cacería o acto deportivo, no solo a llevarlo hasta el lugar. Además asume la responsabilidad de que las armas se guarden como exige el Reglamento:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rifles de caza mayor (2.ª, 2): en caja fuerte o armero autorizados, con la munición separada.",
+            "Armas de la 3.ª, 1 y 2: en casa, bajo llave, sin que arma y munición sean accesibles a la vez.",
+            "Armas de concurso: en el club o la federación, en caja fuerte o armero autorizados en casa, o en una empresa de custodia."
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: un adulto con licencia D, E o F que se compromete a acompañarlo y vigilarlo en cada cacería o acto deportivo."
+        }
+      ],
+      "articles": [
+        "Art. 109.1 RD 137/1993",
+        "Art. 100.5 RD 137/1993",
+        "Art. 101.5 RD 137/1993",
+        "Art. 133.2 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Cómo se pide",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "La solicitud la firman el menor y quien ejerce la patria potestad o la tutela. Se presenta en la Comandancia o el Puesto de la Guardia Civil del domicilio, que la envía a la Dirección General con un informe de conducta y antecedentes de los dos."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Certificado de antecedentes penales del menor, si tiene más de 16 años.",
+            "Certificado de antecedentes penales de quien ejerce la patria potestad o la tutela.",
+            "Fotocopia del DNI en vigor de ambos, o de la tarjeta o autorización de residencia si son extranjeros.",
+            "Autorización de uso firmada por quien ejerce la patria potestad o la tutela, que responde de su actuación, ante notario, alcaldía, Policía o Guardia Civil.",
+            "Informe de aptitudes psicofísicas."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Si el padre, la madre o el tutor ya tiene cualquier licencia de armas en vigor, no hace falta presentar sus documentos."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: firman la solicitud el interesado y quien ejerce la patria potestad o la tutela."
+        }
+      ],
+      "articles": [
+        "Art. 109.4 RD 137/1993",
+        "Art. 109.5 RD 137/1993",
+        "Art. 98.3 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Quién la concede y cuánto dura",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "La concede el Director General de la Guardia Civil. Vale hasta que el titular cumple la mayoría de edad, sin necesidad de renovarla: no tiene los cinco años de validez de las licencias."
+        },
+        {
+          "type": "p",
+          "text": "Al cumplir 18 años la autorización se acaba. Para tener y usar armas propias hay que pedir la licencia que corresponda: exige ser mayor de edad y, para la D y la E, superar las pruebas de capacitación."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: la autorización vale hasta la mayoría de edad. Ni cinco años ni tres."
+        }
+      ],
+      "articles": [
+        "Art. 109.3 RD 137/1993",
+        "Art. 102.1 RD 137/1993",
+        "Art. 102.2 RD 137/1993"
+      ]
+    }
+  ],
+  "related_questions": [
+    "t4-002",
+    "t4-009",
+    "t4-046",
+    "t4-047",
+    "t4-048",
+    "t4-049",
+    "t4-050",
+    "t4-051",
+    "t4-054",
+    "t4-055"
+  ],
+  "confidence": "alta",
+  "sources": [
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 3"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 98"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 100"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 101"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 102"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 109"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 133"
+    }
+  ],
+  "review_notes": "Sin avisos: las respuestas del banco sobre menores (t4-046 a t4-051, t4-055, y t4-002, t4-009, t4-054 sobre la edad de la licencia) coinciden con el art. 109 y el 102.1 vigentes. Revisar: (1) El art. 109.1 dice «mayores de dieciséis años y menores de dieciocho» y el 109.2 «mayores de catorce»; se escribe «desde los 16/14», que es lo que da por bueno el cuestionario (t4-047, t4-048). (2) Fila de los 16: el 109.1 dice «para la caza o para el tiro deportivo junior ... armas largas rayadas para caza mayor o, en su caso, de la categoría 3.ª 1»; no reparte qué arma va con qué fin, por eso la tabla junta ambos. (3) «No poseer ni llevar dentro de las poblaciones» está literal en el 109.1; el 109.2 lo extiende con «las mismas condiciones y requisitos». (4) La guía menciona «pruebas» entre los requisitos: el art. 109.4 no incluye las pruebas de capacitación del 102.2 (que son para las licencias D y E); el art. 98.2 pide para «licencias y autorizaciones especiales» acreditar conocimientos «en la forma prevenida», sin concretar para la AEM. No se afirma nada sobre pruebas para menores. (5) La lista de autoridades ante las que se da la autorización paterna (109.4.d) se resume; el original cita notario, autoridad gubernativa, alcaldía, Comisaría de Policía, Comandancia, Intervención de Armas o Puesto de la Guardia Civil. (6) La guarda de las armas resume los arts. 100.5, 101.5 y 133.2 a los que remite el 109.1. (7) Lo que pasa a los 18 se deduce de la validez del 109.3 y de los requisitos de los arts. 102.1 y 102.2; el corpus no regula un paso automático de la AEM a una licencia. (8) «AEM» es el nombre que usa la app; el Reglamento no usa esa sigla. Verificado por Fable el 20-oct-2026; correcciones aplicadas.",
+  "reviewed": false
+}

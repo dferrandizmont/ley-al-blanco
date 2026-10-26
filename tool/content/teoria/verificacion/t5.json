@@ -1,0 +1,31 @@
+{
+  "id": "t5",
+  "verdict": "corregir",
+  "issues": [
+    {
+      "section": "Quién sanciona",
+      "block_index": 0,
+      "problem": "El art. 159.2 RD 137/1993 atribuye a la Dirección General de la Guardia Civil solo las sanciones por infracciones graves y leves en fabricación, reparación, almacenamiento, distribución, circulación y comercio; las muy graves en esa materia las impone el órgano superior (Dirección de la Seguridad del Estado) a propuesta de la Dirección General. Tal como está, el lector entiende que la Dirección General sanciona también las muy graves. Además falta «distribución» en la lista.",
+      "fix": "Los Delegados del Gobierno sancionan en general las graves y leves; los alcaldes, algunas leves. En fabricación, reparación, almacenamiento, distribución, circulación y comercio, la Dirección General de la Guardia Civil sanciona las graves y leves y propone la sanción de las muy graves."
+    },
+    {
+      "section": "Qué conducta es muy grave, grave o leve",
+      "block_index": 1,
+      "problem": "La fila «Sin seguridad suficiente: escopetas o armas de licencia E» (156.b) no dice que se refiere a la actividad (fabricación, reparación, almacenamiento, circulación y comercio), mientras que la fila de 155.d sí lo aclara y dos filas más abajo aparece la seguridad en casa de las escopetas (156.d). Sin esa precisión las filas 156.b y 156.d parecen la misma conducta con dos artículos. Las preguntas t5-023 a t5-026 hablan de «fase de almacenamiento» y «fase de circulación».",
+      "fix": "[\"Sin seguridad al almacenar o circular (actividad): escopetas, lic. E\", \"Grave\", \"156.b\"]"
+    }
+  ],
+  "evidence": [
+    "Art. 155 RD 137/1993: a.2 fabricación, reparación, almacenamiento y comercio de armas largas rayadas y de ánima lisa sin autorización, 30.050,61 a 300.506,05 €; a.1 horquilla 30.050,61 a 601.012,1 €; c uso de armas cortas sin licencia/guía; d seguridad en fabricación, reparación, almacenamiento, distribución y comercio de armas largas rayadas (muy grave).",
+    "Art. 156 RD 137/1993: a (cat. 4.ª-7.ª, reparación/almacenamiento sin autorización), b (seguridad en las fases de actividad, ánima lisa o licencia E), c (seguridad de particulares, armas largas rayadas), d (seguridad en domicilio, ánima lisa), e (impedimento de controles), f (adquisición/tenencia/cesión/enajenación sin licencia o datos falsos), h (uso sin precauciones), i (portar en establecimientos públicos y lugares de reunión), k (cargadores >20/>10, incautación y retirada de todas las licencias). Horquilla 300,51 a 30.050,61 €.",
+    "Art. 157 RD 137/1993: a (b-f del 156 para cat. 4.ª-7.ª, hasta 300,51 €), b (omisión de revistas, depósitos o exhibición), d (no dar cuenta de pérdida de licencias o guías), e (omisión de declaraciones obligatorias).",
+    "Art. 158 RD 137/1993: retirada de armas = desposesión y prohibición de adquirir y tener otras, máximo dos años; retirada de licencia = revocación, impedimento de renovación hasta dos años y depósito obligatorio.",
+    "Art. 159 RD 137/1993: Gobernadores civiles/Delegados del Gobierno graves y leves con carácter general; Alcaldes leves de arts. 105 y 149.5; en fabricación, reparación, almacenamiento, distribución, circulación y comercio, muy graves la Dirección de la Seguridad del Estado a propuesta de la DGGC y la propia DGGC graves y leves.",
+    "Art. 161 RD 137/1993: remisión al Ministerio Fiscal cuando los hechos puedan ser infracción penal.",
+    "Art. 146.2 y art. 5.1.c RD 137/1993: ilícito llevar armas a establecimientos públicos y lugares de reunión; armas largas de cañones recortados prohibidas.",
+    "LO 4/2015: art. 32.1 (Ministro del Interior muy graves grado máximo; Secretario de Estado de Seguridad muy graves grado medio y mínimo; Delegados del Gobierno graves y leves; art. 32.3 alcaldes), art. 34 (muy graves, graves y leves), art. 35.2 y 36.12 (armas: grave; muy grave si perjuicios muy graves), art. 38.1 (6 meses / 1 año / 2 años), art. 39.1 (30.001-600.000; 601-30.000; 100-600 €), art. 40.1 (3 / 2 / 1 años), art. 45.1-2 (non bis in idem y suspensión del expediente), art. 53.1 (ejecución al ser firme en vía administrativa).",
+    "LO 1/1992 (derogada): art. 27 (3 meses / 1 año / 2 años), art. 28.4 (1 / 2 / 4 años), art. 28.1.a (30.050,62-601.012,1; 300,52-30.050,61; hasta 300,51 €).",
+    "Avisos del documento coinciden con los de las explicaciones t5-005, t5-010, t5-013 a t5-016, t5-018, t5-052 y t5-062 (mismas cifras y artículos).",
+    "Banco: t5-001, 002, 003, 004, 011, 012, 017, 048, 049, 050, 051, 063, 064, 065, 066 comprobadas contra los bloques correspondientes; sin contradicciones."
+  ]
+}

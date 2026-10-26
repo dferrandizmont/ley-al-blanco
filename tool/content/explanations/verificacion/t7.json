@@ -1,0 +1,209 @@
+[
+  {
+    "id": "t7-001",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 3 RD 137/1993 (6.ª cat., apdo. 2): «Las armas de fuego cuyo modelo o cuyo año de fabricación sean anteriores al 1 de enero de 1890, y las reproducciones y réplicas de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas». El enunciado dice 1899: falso. Coincide con art. 2.2."
+  },
+  {
+    "id": "t7-002",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 107.c RD 137/1993: «las armas largas y cortas de avancarga y las demás de la categoría 6.ª, 2, precisarán la posesión de un certificado de banco oficial de pruebas para cada arma y la obtención de autorización especial, que podrá amparar un número ilimitado de estas armas, en la forma prevenida en el artículo 101»."
+  },
+  {
+    "id": "t7-003",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 2.2 RD 137/1993: «Arma antigua: Arma de fuego cuyo modelo o cuyo año de fabricación es anterior al 1 de enero de 1890». Opción A = art. 2.4 (arma artística); opción B = art. 2.17 (arma Flobert)."
+  },
+  {
+    "id": "t7-004",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 107.b RD 137/1993: «podrán poseerlas legalmente si las tienen inscritas en un Libro-Registro, diligenciado por la Intervención de Armas respectiva [...] Queda prohibido el uso de las armas inscritas en dicho Registro. Para la circulación y transporte será necesaria una guía especial». Certificado de banco de pruebas: art. 107.c (para uso)."
+  },
+  {
+    "id": "t7-005",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 3 RD 137/1993 (6.ª cat., apdo. 2): «La antigüedad será fijada por el Ministerio de Defensa, que aprobará los prototipos o copias de los originales, comunicándolo a la Dirección General de la Policía y de la Guardia Civil, ámbito de la Guardia Civil». También Orden INT/2202/2014 art. 2.2."
+  },
+  {
+    "id": "t7-006",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Resolución DGGC 27-3-2015, apdo. Primero: «las réplicas o reproducciones de armas de fuego antiguas que respondan a la definición de arma de fuego corta [...] serán guardadas completas en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase III, de la norma UNE EN 1143-1»; largas: «completas, o sus cierres o piezas fundamentales [...] clase I». Norma no derogada (la Resolución 4-12-2024 deroga solo la de 1998 y remite al art. 107.e para avancarga). Sin discrepancia."
+  },
+  {
+    "id": "t7-007",
+    "verdict": "corregir",
+    "problems": [
+      "La opción oficial reproduce literalmente el art. 7 de la Orden INT/2202/2014 («el uso [...] está prohibido. Excepcionalmente, se podrán utilizar en campos, galerías o polígonos de tiro controlados para prácticas, previa obtención de autorización especial»); el artículo más concreto es ese, con el art. 107.c como fuente secundaria.",
+      "La explicación no transmite la idea clave de la opción («excepcionalmente»: la regla general es la prohibición de uso) y resume el 107.c como «lugares de tiro controlados» cuando ese artículo también incluye «terrenos cinegéticos, controlados»; el paréntesis sobre festejos la hace enrevesada."
+    ],
+    "suggested_explanation": "Como regla general estas armas no se usan: solo excepcionalmente, en campos, galerías o polígonos de tiro controlados para prácticas y con autorización especial. Por eso no vale «únicamente» polígonos de concurso ni «en todo caso» la caza mayor, que no está entre los usos permitidos.",
+    "suggested_article": "Art. 7 Orden INT/2202/2014",
+    "suggested_notice": null,
+    "evidence": "Orden INT/2202/2014 art. 7: «De acuerdo con lo dispuesto en el artículo 107 del Reglamento de Armas, el uso de reproducciones o réplicas de armas de fuego antiguas está prohibido. Excepcionalmente, se podrán utilizar en campos, galerías o polígonos de tiro controlados para prácticas, previa obtención de autorización especial en la forma prevenida en el artículo 101». Art. 107.c RD 137/1993: «se utilizarán exclusivamente en campos, galerías o polígonos de tiro de concurso y terrenos cinegéticos, controlados, para prácticas y competiciones»."
+  },
+  {
+    "id": "t7-008",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 2.35 RD 137/1993: «Reproducción: Arma que es copia de otra original, reuniendo todas sus características, aptitudes y posibilidades de uso»."
+  },
+  {
+    "id": "t7-009",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 2.27 RD 137/1993: «Imitación o réplica de un arma: Objeto que por su apariencia física o características externas puede inducir a confusión sobre su auténtica naturaleza, aunque no pueda transformarse en un arma». Reproducción: art. 2.35."
+  },
+  {
+    "id": "t7-010",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Orden INT/2202/2014 art. 11: «Los titulares de reproducciones o réplicas de armas de fuego antiguas únicamente podrán comprar y utilizar el tipo de munición empleada en las armas originales es decir, munición con pólvora negra, y del calibre de las mismas»."
+  },
+  {
+    "id": "t7-011",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 989/2015 art. 136.2: «Los titulares de licencia para arma corta sólo podrán adquirir 100 cartuchos anuales por arma [...] El número de cartuchos que pueden tenerse en depósito para arma corta no será superior a 150». Aplicación a reproducciones por RD 137/1993 art. 1.3 («Las disposiciones para la adquisición y tenencia de municiones serán las mismas que las que se apliquen a [...] las armas a las que se destinen»). Cifras exactas; el 150 está bien atribuido al depósito."
+  },
+  {
+    "id": "t7-012",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 989/2015 art. 136.1: «Los titulares de licencias para armas largas rayadas podrán adquirir únicamente hasta 1.000 cartuchos anuales por arma [...] En ningún caso se podrá tener en depósito un número superior a 200 cartuchos». Aplicación por RD 137/1993 art. 1.3. Cifras exactas; el 1.000 está bien atribuido al cupo anual."
+  },
+  {
+    "id": "t7-013",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin base legal (cultura general). La explicación atribuye la fecha 1868 al cuestionario, no la afirma como hecho histórico, y la descripción técnica (pistón en el centro del culote; sistema de casi toda la munición metálica actual) es correcta y no está sobredimensionada."
+  },
+  {
+    "id": "t7-014",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin base legal (cultura general). Afirmaciones (Samuel Colt, estadounidense; adopción por fuerzas de EE. UU. en el siglo XIX antes que ejércitos europeos) son conocimiento técnico-histórico general, prudentes y coherentes con la opción oficial."
+  },
+  {
+    "id": "t7-015",
+    "verdict": "corregir",
+    "problems": [
+      "La explicación escribe «Lefaucheux» (grafía correcta) pero la opción oficial dice «Lafaucheaux»; sin aclararlo, el lector puede dudar de si se refiere a la misma opción.",
+      "«antes de que llegaran otros modelos» es relleno que no explica nada."
+    ],
+    "suggested_explanation": "El revólver Lefaucheux (escrito «Lafaucheaux» en el cuestionario), de diseño francés y cartucho metálico de espiga, fue la primera arma de repetición con cartucho metálico declarada reglamentaria en el Ejército español, a mediados del siglo XIX. Los Colt y Remington llegaron después.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Sin base legal (cultura general): revólver Lefaucheux de espiga (pinfire), adoptado como reglamentario en España a mediados del XIX; coherente con la opción oficial A."
+  },
+  {
+    "id": "t7-016",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 167.2 RD 137/1993: «Si la autoridad competente acordara la devolución de las armas, estas estarán a disposición de sus titulares durante un mes desde la notificación de la resolución, a partir del cual la Dirección General de la Guardia Civil podrá llevar a cabo su destrucción, exceptuándose aquellas armas reglamentadas que tengan un valor acreditado como patrimonio histórico [...] Estas armas se enajenarán en pública subasta». Ambas opciones salen del mismo apartado."
+  },
+  {
+    "id": "t7-017",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 2.31 RD 137/1993: «Munición de bala explosiva: Munición de uso militar con balas que contienen una carga que explota por impacto»."
+  },
+  {
+    "id": "t7-018",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 2.29 RD 137/1993: «Munición: Cartucho completo o sus componentes, incluidas las vainas, los cebos, la carga propulsora, las balas o los proyectiles utilizados en un arma de fuego, siempre que estos componentes estén autorizados en territorio nacional». No hay umbral de calibre."
+  },
+  {
+    "id": "t7-019",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 2.19 RD 137/1993: «Arma inutilizada: Arma de fuego que haya sido inutilizada permanentemente para su uso, mediante operaciones de inutilización que garanticen que todos los componentes esenciales se hayan vuelto permanentemente inservibles y que no se puedan retirar, sustituir o modificar de cualquier forma que pueda permitir su reactivación, de conformidad con la [...] ITC 2». Art. 108.3 en el mismo sentido."
+  },
+  {
+    "id": "t7-020",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 2.16 RD 137/1993: «Arma de un solo tiro: Arma de fuego sin depósito de municiones, que se recarga antes de cada disparo mediante la introducción manual de un cartucho en la recámara o en un alojamiento especial a la entrada del cañón». Un cargador es un depósito de municiones, luego nunca."
+  },
+  {
+    "id": "t7-021",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 2.23 RD 137/1993: «Coleccionista: Toda persona física o jurídica dedicada a reunir y conservar armas, componentes esenciales o municiones con fines históricos, culturales, científicos, técnicos, educativos o de conservación del patrimonio, y que está autorizada como tal por la autoridad competente»."
+  },
+  {
+    "id": "t7-022",
+    "verdict": "corregir",
+    "problems": [
+      "Forma: termina con doble punto («desbarata..»).",
+      "No descarta las otras opciones ni aprovecha para fijar que la actividad es fabril (no una mera actividad lucrativa ni algo prohibido)."
+    ],
+    "suggested_explanation": "El Reglamento llama desmilitarización a la actividad fabril que transforma un arma de guerra en un arma civil o la desbarata. Está prevista y definida en la norma, así que no es algo prohibido, y el nombre no depende de que sea o no lucrativa.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 2.25 RD 137/1993: «Desmilitarización: Actividad fabril cuyo objetivo es transformar en civil o desbaratar un arma de guerra»."
+  }
+]

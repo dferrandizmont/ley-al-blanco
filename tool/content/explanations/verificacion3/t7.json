@@ -1,0 +1,68 @@
+[
+  {
+    "id": "t7-007",
+    "verdict": "corregir",
+    "problems": [
+      "Afirma que la caza mayor «no está entre los usos permitidos». El art. 107.c del Reglamento (que regula armas antiguas, reproducciones y asimiladas, justo lo que dice el enunciado) sí incluye los «terrenos cinegéticos, controlados» entre los lugares de uso. La afirmación es demasiado absoluta y no se puede sostener con el corpus.",
+      "La opción C es falsa por el «en todo caso» (el uso es excepcional y siempre necesita autorización especial), no porque la caza esté prohibida en todos los casos."
+    ],
+    "suggested_explanation": "Como regla general estas armas no se pueden usar: solo excepcionalmente, en campos, galerías o polígonos de tiro controlados para prácticas y con autorización especial. Por eso no vale «únicamente» polígonos de concurso ni «en todo caso» la caza mayor: su uso nunca es libre.",
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Orden INT/2202/2014 art. 7: «el uso de reproducciones o réplicas de armas de fuego antiguas está prohibido. Excepcionalmente, se podrán utilizar en campos, galerías o polígonos de tiro controlados para prácticas, previa obtención de autorización especial». RD 137/1993 art. 107.c: «se utilizarán exclusivamente en campos, galerías o polígonos de tiro de concurso y terrenos cinegéticos, controlados, para prácticas y competiciones ... y la obtención de autorización especial». La caza aparece como lugar (terrenos cinegéticos), así que no se puede afirmar que esté excluida; lo que falla en la C es el «en todo caso»."
+  },
+  {
+    "id": "t7-011",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 989/2015 art. 136.2: «sólo podrán adquirir 100 cartuchos anuales por arma ... El número de cartuchos que pueden tenerse en depósito para arma corta no será superior a 150». RD 137/1993 art. 1.3: «Las disposiciones para la adquisición y tenencia de municiones serán las mismas que las que se apliquen a ... las armas a las que se destinen». La explicación atribuye honradamente la aplicación a reproducciones al cuestionario."
+  },
+  {
+    "id": "t7-012",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "RD 989/2015 art. 136.1: «hasta 1.000 cartuchos anuales por arma ... En ningún caso se podrá tener en depósito un número superior a 200 cartuchos»; RD 137/1993 art. 1.3 (la munición sigue el régimen del arma). Cifras exactas y aplicación atribuida al cuestionario."
+  },
+  {
+    "id": "t7-013",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Tema histórico sin artículo. Los cartuchos de percusión central existían antes de 1868 (Pottet hacia 1855-1857, Boxer y Berdan hacia 1866), por eso es correcto que la explicación atribuya la fecha al cuestionario y justifique la opción por ser el único periodo que sigue abierto. Que hoy casi toda la munición metálica (salvo la de percusión anular, como el .22) sea de percusión central es un hecho técnico sólido."
+  },
+  {
+    "id": "t7-014",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Tema histórico sin artículo. El Colt Paterson (patente de 1836) y el Colt Walker, encargado por el Ejército de EE. UU. en 1847 para la guerra con México, son anteriores a las adopciones europeas (los británicos compraron Colt Navy a mediados de la década de 1850; Francia y España adoptaron el Lefaucheux hacia 1858). Las primeras unidades de Texas eran de la República de Texas, pero la explicación no da fechas y no afirma nada falso."
+  },
+  {
+    "id": "t7-015",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Tema histórico sin artículo. Revólver Lefaucheux de espiga (pinfire), de diseño francés, adoptado en España hacia 1858 (primero la Armada y después el Ejército, con fechas que no puedo confirmar con exactitud). «a mediados del siglo XIX» es una aproximación prudente y aclara la grafía del cuestionario."
+  },
+  {
+    "id": "t7-016",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 167.2 RD 137/1993 (redacción RD 726/2020, vigente desde 5-11-2020): «estarán a disposición de sus titulares durante un mes desde la notificación de la resolución, a partir del cual la Dirección General de la Guardia Civil podrá llevar a cabo su destrucción, exceptuándose aquellas armas ... con un valor acreditado como patrimonio histórico ... se enajenarán en pública subasta». El cuestionario coincide con la norma vigente; no hace falta aviso."
+  }
+]

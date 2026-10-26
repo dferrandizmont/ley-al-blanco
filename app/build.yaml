@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      json_serializable:
+        options:
+          field_rename: snake
+          explicit_to_json: true
+      drift_dev:
+        options:
+          # ISO 8601 text, UTC (see lib/core/database/app_database.dart).
+          store_date_time_values_as_text: true
+          # `dart run drift_dev make-migrations` reads these.
+          databases:
+            app_database: lib/core/database/app_database.dart
+          schema_dir: drift_schemas/

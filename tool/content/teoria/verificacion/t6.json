@@ -1,0 +1,32 @@
+{
+  "id": "t6",
+  "verdict": "corregir",
+  "issues": [
+    {
+      "section": "Cuándo hay que depositar las armas",
+      "block_index": 1,
+      "problem": "El art. 145.2 RD 137/1993 trata igual la pérdida de la licencia y la de las guías: la Intervención puede dar una autorización temporal o exigir el depósito inmediato. La fila de la licencia dice «si se exige», pero la de las guías presenta el depósito de las armas como obligatorio en todo caso. Debe quedar como la fila anterior para no contradecir el artículo ni la explicación de t6-047.",
+      "fix": "[\"Extravío de las guías\", \"Las armas que amparan, si se exige\", \"Inmediato\"]"
+    },
+    {
+      "section": "Qué pasa con las armas depositadas",
+      "block_index": 2,
+      "problem": "En la fila de importación, la columna «Si nadie las retira» responde «Depósito en la Intervención», que es la situación de partida, no el destino final que anuncia la leyenda de la tabla. Según el art. 169.3, pasado el año la Guardia Civil procede como en los artículos anteriores (destrucción salvo patrimonio histórico). Conviene mantener la respuesta que espera t6-063 sin dar a entender que el depósito es definitivo.",
+      "fix": "[\"Importación no retirada en aeropuerto\", \"1 año como máximo\", \"Depósito; pasado el año, como las demás\"]"
+    }
+  ],
+  "evidence": [
+    "Art. 26 RD 137/1993: 1 (solo industrias fabricantes o armeros autorizados por la Intervención, con establecimiento abierto e inscrito), 2 (libro de entradas y salidas), 3 (guía de pertenencia obligatoria, queda en poder del armero y se devuelve con el arma; guía de circulación si el propietario reside en otra localidad y no la lleva personalmente), 4 (modificación de características, estructura o calibre solo con conocimiento de la Intervención y aprobación en su caso de Defensa conforme al art. 24).",
+    "Art. 24 RD 137/1993: documentación técnica de cada modelo renovada ante variaciones; aprobación previa de Defensa (armas de guerra) o de un banco oficial de pruebas (categorías 1.ª y 2.ª).",
+    "Art. 96.1 RD 137/1993: nadie puede llevar ni poseer armas de fuego sin autorización.",
+    "Art. 27 RD 137/1993: 1 (fabricantes, comerciantes y representantes con permiso de la Intervención prueban en campos de federaciones, polígonos, campos o galerías autorizados y terrenos cinegéticos controlados), 2 (dejar a prueba a quien tenga la licencia; documento personal e intransferible, modelo oficial, reseña arma, licencia y lugar; 5 días misma localidad, 10 en otro caso; visado previo de la Intervención).",
+    "Art. 165.1-2 RD 137/1993: depósito inmediato con guías al cesar la habilitación; enajenar a persona con licencia o inutilizar; pasado un año la DGGC puede destruir, salvo valor de patrimonio histórico (subasta o museos).",
+    "Art. 90.5 RD 137/1993: no pasar dos revistas consecutivas anula la guía y el arma queda depositada.",
+    "Art. 145.2 RD 137/1993: pérdida de licencias o guías: cuenta inmediata; la Intervención puede extender autorización temporal o exigir el depósito inmediato de las armas.",
+    "Art. 93 RD 137/1993: 1 (herederos depositan tan pronto conozcan la obligación y en todo caso dentro de 6 meses; un año a su disposición), 2 (enajenar o recuperar documentándola o inutilizándola), 3 (pasado el año, destrucción salvo patrimonio histórico), 4 (se entregan las guías de pertenencia).",
+    "Art. 167 RD 137/1993: 1 (recuperación con punzones, licencia y guías en vigor), 2 (un mes desde la notificación; después destrucción salvo patrimonio histórico).",
+    "Art. 169.2-3 RD 137/1993: importaciones no retiradas se remiten a la Intervención, depósito un año como máximo; después se procede como en los artículos anteriores.",
+    "Art. 170.1 RD 137/1993: sin punzones obligatorios o prohibidas, destrucción.",
+    "Banco t6-001 a t6-064 revisadas; respuestas coherentes con los bloques (t6-010 licencia + guía, t6-019 Defensa solo armas de guerra, t6-029 no hace falta licencia de caza, t6-047/048 depósito por extravío, t6-049/050/051 subasta no, chatarra sí, t6-062/063 importación un año y depósito, t6-064 subasta patrimonio histórico). Sin avisos necesarios: no hay discrepancia con la norma vigente."
+  ]
+}

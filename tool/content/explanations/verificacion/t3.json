@@ -1,0 +1,596 @@
+[
+  {
+    "id": "t3-001",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 31.1 RD 137/1993: «La guía de circulación es el documento que ampara el traslado, sin licencia o autorización de armas o sin guía de pertenencia, entre dos lugares, de armas de las categorías 1.ª, 2.ª, 3.ª, 6.ª y 8.ª, y sus componentes esenciales terminados, y de las armas completas de la categoría 7.ª 1, 2, 3 y 4 [...] será expedida por la Intervención de Armas y Explosivos correspondiente». «Guía de transporte» y «albarán» no aparecen en el Reglamento (buscar.py: 0 coincidencias de la expresión)."
+  },
+  {
+    "id": "t3-002",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 42.2 RD 137/1993: «Al particular que desee adquirir una escopeta en localidad distinta a la de su residencia, la Intervención de Armas correspondiente a dicha localidad podrá expedir, a la vista del parte de venta y de la licencia E, una guía de circulación [...] dentro de un plazo de diez días, en la Intervención de Armas de su residencia y solicitará la expedición de la correspondiente guía de pertenencia»"
+  },
+  {
+    "id": "t3-003",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 31.1 RD 137/1993: «La guía de circulación es el documento que ampara el traslado, sin licencia o autorización de armas o sin guía de pertenencia, entre dos lugares, de armas de las categorías 1.ª, 2.ª, 3.ª, 6.ª y 8.ª, y sus componentes esenciales terminados, y de las armas completas de la categoría 7.ª 1, 2, 3 y 4 [...] será expedida por la Intervención de Armas y Explosivos correspondiente»; art. 89.2: la guía de pertenencia «acompañará siempre, en los casos de uso, depósito y transporte»"
+  },
+  {
+    "id": "t3-004",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 31.1 RD 137/1993: «La guía de circulación es el documento que ampara el traslado, sin licencia o autorización de armas o sin guía de pertenencia, entre dos lugares, de armas de las categorías 1.ª, 2.ª, 3.ª, 6.ª y 8.ª, y sus componentes esenciales terminados, y de las armas completas de la categoría 7.ª 1, 2, 3 y 4 [...] será expedida por la Intervención de Armas y Explosivos correspondiente» («expedida por la Intervención de Armas y Explosivos correspondiente, una vez comprobadas las mercancías y medidas de seguridad»)"
+  },
+  {
+    "id": "t3-005",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 1.2 RD 137/1993: «Son componentes esenciales: [...] b) La caja o cajón de los mecanismos [...] el cañón, el cerrojo o báscula y el cierre [...] de las armas de fuego largas. [...] los componentes esenciales considerados como objetos separados, tendrán el mismo régimen jurídico que las armas de las que formen parte»; art. 31.1 incluye «sus componentes esenciales terminados»"
+  },
+  {
+    "id": "t3-006",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 31.1 RD 137/1993: «La guía de circulación es el documento que ampara el traslado, sin licencia o autorización de armas o sin guía de pertenencia, entre dos lugares, de armas de las categorías 1.ª, 2.ª, 3.ª, 6.ª y 8.ª, y sus componentes esenciales terminados, y de las armas completas de la categoría 7.ª 1, 2, 3 y 4 [...] será expedida por la Intervención de Armas y Explosivos correspondiente»; Art. 26.3 RD 137/1993: «No se admitirá ningún arma a reparar si no va acompañada de su guía de pertenencia [...] Este documento deberá ser sustituido por una guía de circulación, expedida por la Intervención de Armas de origen, cuando el propietario del arma que desee repararla resida en localidad distinta a la del armero y no la lleve personalmente»"
+  },
+  {
+    "id": "t3-007",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 31.1 RD 137/1993: «La guía de circulación es el documento que ampara el traslado, sin licencia o autorización de armas o sin guía de pertenencia, entre dos lugares, de armas de las categorías 1.ª, 2.ª, 3.ª, 6.ª y 8.ª, y sus componentes esenciales terminados, y de las armas completas de la categoría 7.ª 1, 2, 3 y 4 [...] será expedida por la Intervención de Armas y Explosivos correspondiente»; art. 3 RD 137/1993: 8.ª categoría «Armas acústicas y de salvas»"
+  },
+  {
+    "id": "t3-008",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 31.1 RD 137/1993: «La guía de circulación es el documento que ampara el traslado, sin licencia o autorización de armas o sin guía de pertenencia, entre dos lugares, de armas de las categorías 1.ª, 2.ª, 3.ª, 6.ª y 8.ª, y sus componentes esenciales terminados, y de las armas completas de la categoría 7.ª 1, 2, 3 y 4 [...] será expedida por la Intervención de Armas y Explosivos correspondiente»; art. 3: 3.ª.3 «Armas accionadas por aire u otro gas comprimido [...] siempre que la energía cinética del proyectil en boca exceda de 24,2 julios»; 4.ª.1 y 4.ª.2 (no asimiladas a escopetas), categoría ausente del art. 31.1"
+  },
+  {
+    "id": "t3-009",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 31.1 RD 137/1993: «La guía de circulación es el documento que ampara el traslado, sin licencia o autorización de armas o sin guía de pertenencia, entre dos lugares, de armas de las categorías 1.ª, 2.ª, 3.ª, 6.ª y 8.ª, y sus componentes esenciales terminados, y de las armas completas de la categoría 7.ª 1, 2, 3 y 4 [...] será expedida por la Intervención de Armas y Explosivos correspondiente»; art. 3: 2.ª.2 largas rayadas para caza mayor, 3.ª.1 largas rayadas .22, 3.ª.2 «Escopetas y demás armas de fuego largas de ánima lisa»"
+  },
+  {
+    "id": "t3-010",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 31.1 RD 137/1993: «La guía de circulación es el documento que ampara el traslado, sin licencia o autorización de armas o sin guía de pertenencia, entre dos lugares, de armas de las categorías 1.ª, 2.ª, 3.ª, 6.ª y 8.ª, y sus componentes esenciales terminados, y de las armas completas de la categoría 7.ª 1, 2, 3 y 4 [...] será expedida por la Intervención de Armas y Explosivos correspondiente»; art. 3: 2.ª.2 largas rayadas para caza mayor, 3.ª.1 largas rayadas .22, 3.ª.2 «Escopetas y demás armas de fuego largas de ánima lisa»"
+  },
+  {
+    "id": "t3-011",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 26.3 RD 137/1993: «No se admitirá ningún arma a reparar si no va acompañada de su guía de pertenencia [...] Este documento deberá ser sustituido por una guía de circulación, expedida por la Intervención de Armas de origen, cuando el propietario del arma que desee repararla resida en localidad distinta a la del armero y no la lleve personalmente»"
+  },
+  {
+    "id": "t3-012",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 34 RD 137/1993: «Las armas reglamentadas de cualquier categoría y sus componentes esenciales acabados circularán en envases debidamente acondicionados para su seguridad durante el traslado»"
+  },
+  {
+    "id": "t3-013",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 39.4 RD 137/1993: «En ningún caso podrán hacerse envíos o transportes de armas cargadas ni de armas conjuntamente con cartuchería susceptible de ser utilizada con las armas transportadas»"
+  },
+  {
+    "id": "t3-014",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 37 RD 137/1993: «Los envases de armas cortas o largas de cañón estriado, escopetas de caza y armas asimiladas han de ser precintados por las Intervenciones de Armas de la Guardia Civil, o por los comerciantes de armas autorizados, que se responsabilizarán de su contenido»"
+  },
+  {
+    "id": "t3-015",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 34 RD 137/1993: «Las armas reglamentadas de cualquier categoría y sus componentes esenciales acabados circularán en envases debidamente acondicionados para su seguridad durante el traslado»"
+  },
+  {
+    "id": "t3-016",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 36 RD 137/1993: «no pueden remitirse en un mismo envase ni reseñarse en la misma guía, armas o piezas que correspondan a distintos destinatarios»"
+  },
+  {
+    "id": "t3-017",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 35.1 RD 137/1993: «Los envases para el comercio interior de armas de fuego no deberán contener más de 25 armas ni llevar armas cortas o largas de cañón estriado junto con escopetas de caza y asimiladas»"
+  },
+  {
+    "id": "t3-018",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 39.4 RD 137/1993: «En ningún caso podrán hacerse envíos o transportes de armas cargadas ni de armas conjuntamente con cartuchería susceptible de ser utilizada con las armas transportadas»"
+  },
+  {
+    "id": "t3-019",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 39.1 RD 137/1993: «Los envíos habrán de hacerse por ferrocarril o por empresas de transportes marítimas, aéreas o terrestres, debiendo efectuarse a través de empresas de seguridad siempre que excedan de 25 armas cortas o 50 armas largas». El correo no figura en esa lista cerrada de medios (0 coincidencias de «correo» en el Reglamento de Armas)."
+  },
+  {
+    "id": "t3-020",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 39.4 RD 137/1993: «En ningún caso podrán hacerse envíos o transportes de armas cargadas ni de armas conjuntamente con cartuchería susceptible de ser utilizada con las armas transportadas»"
+  },
+  {
+    "id": "t3-021",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 42.2 RD 137/1993: «Al particular que desee adquirir una escopeta en localidad distinta a la de su residencia, la Intervención de Armas correspondiente a dicha localidad podrá expedir, a la vista del parte de venta y de la licencia E, una guía de circulación [...] dentro de un plazo de diez días, en la Intervención de Armas de su residencia y solicitará la expedición de la correspondiente guía de pertenencia»"
+  },
+  {
+    "id": "t3-022",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 39.1 RD 137/1993: «Los envíos habrán de hacerse por ferrocarril o por empresas de transportes marítimas, aéreas o terrestres, debiendo efectuarse a través de empresas de seguridad siempre que excedan de 25 armas cortas o 50 armas largas»; art. 26.3 (guía de circulación cuando el propietario «no la lleve personalmente»)"
+  },
+  {
+    "id": "t3-023",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 42.2 RD 137/1993: «Al particular que desee adquirir una escopeta en localidad distinta a la de su residencia, la Intervención de Armas correspondiente a dicha localidad podrá expedir, a la vista del parte de venta y de la licencia E, una guía de circulación [...] dentro de un plazo de diez días, en la Intervención de Armas de su residencia y solicitará la expedición de la correspondiente guía de pertenencia» (solo prevé escopetas); art. 44.1 (envíos a particulares consignados a la Intervención de Armas)"
+  },
+  {
+    "id": "t3-024",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 39.4 RD 137/1993: «En ningún caso podrán hacerse envíos o transportes de armas cargadas ni de armas conjuntamente con cartuchería susceptible de ser utilizada con las armas transportadas»"
+  },
+  {
+    "id": "t3-025",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 40.1 RD 137/1993: «no admitirán envases que contengan armas de las determinadas en el artículo 31.1 [...] sin la presentación de la guía de circulación [...] debiendo figurar la declaración del contenido, en la documentación y en el mismo paquete, en caracteres de suficiente claridad»"
+  },
+  {
+    "id": "t3-026",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 39.1 RD 137/1993: «Los envíos habrán de hacerse por ferrocarril o por empresas de transportes marítimas, aéreas o terrestres, debiendo efectuarse a través de empresas de seguridad siempre que excedan de 25 armas cortas o 50 armas largas»; Art. 42.2 RD 137/1993: «Al particular que desee adquirir una escopeta en localidad distinta a la de su residencia, la Intervención de Armas correspondiente a dicha localidad podrá expedir, a la vista del parte de venta y de la licencia E, una guía de circulación [...] dentro de un plazo de diez días, en la Intervención de Armas de su residencia y solicitará la expedición de la correspondiente guía de pertenencia» (solo escopetas)"
+  },
+  {
+    "id": "t3-027",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 44.1 RD 137/1993: «Cuando los particulares que sean destinatarios de envíos de armas reciban comunicación del remitente de haberles sido enviadas a la consignación de la Intervención de Armas, se presentarán en ésta provistos de la licencia o documento que les autorice para adquirirlas, a fin de retirarlas previa documentación de las mismas, firmando su recepción en la filial de la guía de circulación»"
+  },
+  {
+    "id": "t3-028",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 44.1 RD 137/1993: «Cuando los particulares que sean destinatarios de envíos de armas reciban comunicación del remitente de haberles sido enviadas a la consignación de la Intervención de Armas, se presentarán en ésta provistos de la licencia o documento que les autorice para adquirirlas, a fin de retirarlas previa documentación de las mismas, firmando su recepción en la filial de la guía de circulación» (habla de «envíos de armas» en general, sin limitarse a escopetas)"
+  },
+  {
+    "id": "t3-029",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.1 RD 137/1993 (red. RD 726/2020, vigente 5-11-2020): «Las armas que precisen guía de pertenencia, pasarán revista cada cinco años»; nota BOE, redacción anterior: «Las armas de la 1.ª categoría, y todas las de concurso, pasarán revista cada tres años»"
+  },
+  {
+    "id": "t3-030",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.1 RD 137/1993 (red. RD 726/2020, vigente 5-11-2020): «Las armas que precisen guía de pertenencia, pasarán revista cada cinco años»; nota BOE, redacción anterior: «Las armas de la 1.ª categoría, y todas las de concurso, pasarán revista cada tres años»; art. 88 (la 2.ª precisa guía)"
+  },
+  {
+    "id": "t3-031",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.1 RD 137/1993 (red. RD 726/2020, vigente 5-11-2020): «Las armas que precisen guía de pertenencia, pasarán revista cada cinco años»; nota BOE, redacción anterior: «Las armas de la 1.ª categoría, y todas las de concurso, pasarán revista cada tres años»; art. 88 (la 3.ª precisa guía)"
+  },
+  {
+    "id": "t3-032",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.4 RD 137/1993: «Para el pase de la revista, es inexcusable la presentación del arma, personalmente o por medio de tercero debidamente autorizado por escrito»"
+  },
+  {
+    "id": "t3-033",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.5 RD 137/1993: «Sin perjuicio de lo dispuesto en el artículo 157, el hecho de no pasar dos revistas consecutivas será causa de anulación y retirada de la guía de pertenencia, debiendo quedar el arma depositada»"
+  },
+  {
+    "id": "t3-034",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.2 RD 137/1993: «a) El personal relacionado en el artículo 114, en el mes de abril [...] b) Los funcionarios afectos al servicio exterior, durante el indicado mes de abril [...] d) Todos los demás titulares de guías de pertenencia, en las Intervenciones de Armas de la Guardia Civil, dentro del mes correspondiente a la renovación de la licencia»"
+  },
+  {
+    "id": "t3-035",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.4 RD 137/1993: «Para el pase de la revista, es inexcusable la presentación del arma, personalmente o por medio de tercero debidamente autorizado por escrito»"
+  },
+  {
+    "id": "t3-036",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.5 RD 137/1993: «Sin perjuicio de lo dispuesto en el artículo 157, el hecho de no pasar dos revistas consecutivas será causa de anulación y retirada de la guía de pertenencia, debiendo quedar el arma depositada»; Art. 157.b RD 137/1993: «Si no constituyeren delito, serán consideradas infracciones leves y sancionadas: [...] b) La omisión de las revistas [...] 1. Con multa de hasta 300,51 euros y retirada de las armas, cuando se trate de armas de las categorías 1.ª y 2.ª. 2. Con multa de hasta 150,25 euros y retirada de las armas, cuando se trate de las restantes armas sometidas a revista»"
+  },
+  {
+    "id": "t3-037",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.3 RD 137/1993: «Las anotaciones de la revista de armas [...] se realizarán por los Interventores de Armas, excepto cuando se trate del personal a que se refiere el apartado 2.a) y b), cuyas anotaciones las llevarán a cabo las autoridades correspondientes»"
+  },
+  {
+    "id": "t3-038",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.4 RD 137/1993: «Para el pase de la revista, es inexcusable la presentación del arma, personalmente o por medio de tercero debidamente autorizado por escrito»"
+  },
+  {
+    "id": "t3-039",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 157.b RD 137/1993: «Si no constituyeren delito, serán consideradas infracciones leves y sancionadas: [...] b) La omisión de las revistas [...] 1. Con multa de hasta 300,51 euros y retirada de las armas, cuando se trate de armas de las categorías 1.ª y 2.ª. 2. Con multa de hasta 150,25 euros y retirada de las armas, cuando se trate de las restantes armas sometidas a revista»"
+  },
+  {
+    "id": "t3-040",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.1 RD 137/1993 (red. RD 726/2020, vigente 5-11-2020): «Las armas que precisen guía de pertenencia, pasarán revista cada cinco años»; nota BOE, redacción anterior: «Las armas de la 1.ª categoría, y todas las de concurso, pasarán revista cada tres años»; art. 88 (escopeta, 3.ª, precisa guía)"
+  },
+  {
+    "id": "t3-041",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.1 RD 137/1993 (red. RD 726/2020, vigente 5-11-2020): «Las armas que precisen guía de pertenencia, pasarán revista cada cinco años»; nota BOE, redacción anterior: «Las armas de la 1.ª categoría, y todas las de concurso, pasarán revista cada tres años»"
+  },
+  {
+    "id": "t3-042",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 88 RD 137/1993: «Para la tenencia de las armas de las categorías 1.ª, 2.ª, 3.ª, 6.ª, 7.ª, 1, 2, 3, 4 y 8.ª, cada arma habrá de estar documentada con su correspondiente guía de pertenencia»; art. 3: 7.ª.2 «Las ballestas»; art. 90.1: «Las armas que precisen guía de pertenencia, pasarán revista cada cinco años»"
+  },
+  {
+    "id": "t3-043",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.4 RD 137/1993: «Para el pase de la revista, es inexcusable la presentación del arma, personalmente o por medio de tercero debidamente autorizado por escrito»"
+  },
+  {
+    "id": "t3-044",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 105.1 RD 137/1993: «Para poder llevar y usar las armas de la categoría 4.ª fuera del domicilio habrán de estar documentadas singularmente, mediante tarjetas de armas»; art. 88 no incluye la 4.ª entre las que precisan guía; art. 90.1: revista solo «las armas que precisen guía de pertenencia»"
+  },
+  {
+    "id": "t3-045",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.4 RD 137/1993: «Para el pase de la revista, es inexcusable la presentación del arma, personalmente o por medio de tercero debidamente autorizado por escrito»"
+  },
+  {
+    "id": "t3-046",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 3 RD 137/1993: 2.ª.2 «Armas de fuego largas rayadas [...] También comprende los cañones estriados adaptables a escopetas de caza, con recámara para cartuchos metálicos»; Art. 88 RD 137/1993: «Para la tenencia de las armas de las categorías 1.ª, 2.ª, 3.ª, 6.ª, 7.ª, 1, 2, 3, 4 y 8.ª, cada arma habrá de estar documentada con su correspondiente guía de pertenencia»; art. 90.1 cinco años"
+  },
+  {
+    "id": "t3-047",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 105.1 RD 137/1993: «Para poder llevar y usar las armas de la categoría 4.ª fuera del domicilio habrán de estar documentadas singularmente, mediante tarjetas de armas»; art. 88 no incluye la 4.ª entre las que precisan guía; art. 90.1: revista solo «las armas que precisen guía de pertenencia»; art. 3: 4.ª.1 «Carabinas y pistolas, de tiro semiautomático y de repetición [...] accionadas por aire u otro gas comprimido no asimiladas a escopetas»"
+  },
+  {
+    "id": "t3-048",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 90.1 RD 137/1993 (red. RD 726/2020, vigente 5-11-2020): «Las armas que precisen guía de pertenencia, pasarán revista cada cinco años»; nota BOE, redacción anterior: «Las armas de la 1.ª categoría, y todas las de concurso, pasarán revista cada tres años»; art. 3: 3.ª.3 (>24,2 julios); art. 88 (3.ª precisa guía)"
+  },
+  {
+    "id": "t3-049",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 94.1 RD 137/1993: «El particular que desee enajenar un arma tiene que hacer la cesión a persona que posea la licencia, tarjeta o certificado de inutilización correspondientes, siempre que sea necesario con arreglo a lo dispuesto en este Reglamento»"
+  },
+  {
+    "id": "t3-050",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 94.2 RD 137/1993: «La cesión se hará con conocimiento de la Intervención de Armas, la cual recogerá la guía de pertenencia del vendedor y, a la vista del arma, extenderá una nueva al comprador»; art. 94.3: «La guía de pertenencia recogida se anulará»"
+  },
+  {
+    "id": "t3-051",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 94.2 RD 137/1993: «La cesión se hará con conocimiento de la Intervención de Armas, la cual recogerá la guía de pertenencia del vendedor y, a la vista del arma, extenderá una nueva al comprador»; art. 94.3: «La guía de pertenencia recogida se anulará»; art. 51.1: «El armero o particular que transmitiere la propiedad de un arma de fuego [...] informará de toda cesión o entrega que tenga lugar en España, a la Intervención de Armas»"
+  },
+  {
+    "id": "t3-052",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 94.2 RD 137/1993: «La cesión se hará con conocimiento de la Intervención de Armas, la cual recogerá la guía de pertenencia del vendedor y, a la vista del arma, extenderá una nueva al comprador»; art. 94.3: «La guía de pertenencia recogida se anulará»; art. 51.1: «informará de toda cesión o entrega»"
+  },
+  {
+    "id": "t3-053",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 94.1 RD 137/1993: «El particular que desee enajenar un arma tiene que hacer la cesión a persona que posea la licencia, tarjeta o certificado de inutilización correspondientes, siempre que sea necesario con arreglo a lo dispuesto en este Reglamento»"
+  },
+  {
+    "id": "t3-054",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 94.2 RD 137/1993: «La cesión se hará con conocimiento de la Intervención de Armas, la cual recogerá la guía de pertenencia del vendedor y, a la vista del arma, extenderá una nueva al comprador»; art. 94.3: «La guía de pertenencia recogida se anulará»"
+  },
+  {
+    "id": "t3-055",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 94.2 RD 137/1993: «La cesión se hará con conocimiento de la Intervención de Armas, la cual recogerá la guía de pertenencia del vendedor y, a la vista del arma, extenderá una nueva al comprador»; art. 94.3: «La guía de pertenencia recogida se anulará»"
+  },
+  {
+    "id": "t3-056",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 91.1 RD 137/1993: «Tanto los españoles como los extranjeros residentes en España podrán prestar sus armas de caza a quienes estén provistos de licencia de caza y de la licencia de arma larga rayada para caza mayor o escopeta correspondiente [...] con una autorización escrita, fechada y firmada, para su uso durante quince días como máximo y precisamente para cazar [...] Las armas se prestarán siempre con sus guías de pertenencia»"
+  },
+  {
+    "id": "t3-057",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 91.1 RD 137/1993: «Tanto los españoles como los extranjeros residentes en España podrán prestar sus armas de caza a quienes estén provistos de licencia de caza y de la licencia de arma larga rayada para caza mayor o escopeta correspondiente [...] con una autorización escrita, fechada y firmada, para su uso durante quince días como máximo y precisamente para cazar [...] Las armas se prestarán siempre con sus guías de pertenencia»"
+  },
+  {
+    "id": "t3-058",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 91.1 RD 137/1993: «Tanto los españoles como los extranjeros residentes en España podrán prestar sus armas de caza a quienes estén provistos de licencia de caza y de la licencia de arma larga rayada para caza mayor o escopeta correspondiente [...] con una autorización escrita, fechada y firmada, para su uso durante quince días como máximo y precisamente para cazar [...] Las armas se prestarán siempre con sus guías de pertenencia» («durante quince días como máximo y precisamente para cazar»)"
+  },
+  {
+    "id": "t3-059",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 91.1 RD 137/1993: «Tanto los españoles como los extranjeros residentes en España podrán prestar sus armas de caza a quienes estén provistos de licencia de caza y de la licencia de arma larga rayada para caza mayor o escopeta correspondiente [...] con una autorización escrita, fechada y firmada, para su uso durante quince días como máximo y precisamente para cazar [...] Las armas se prestarán siempre con sus guías de pertenencia» («con una autorización escrita, fechada y firmada»)"
+  },
+  {
+    "id": "t3-060",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 91.1 RD 137/1993: «Tanto los españoles como los extranjeros residentes en España podrán prestar sus armas de caza a quienes estén provistos de licencia de caza y de la licencia de arma larga rayada para caza mayor o escopeta correspondiente [...] con una autorización escrita, fechada y firmada, para su uso durante quince días como máximo y precisamente para cazar [...] Las armas se prestarán siempre con sus guías de pertenencia»"
+  },
+  {
+    "id": "t3-061",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 91.1 RD 137/1993: «Tanto los españoles como los extranjeros residentes en España podrán prestar sus armas de caza a quienes estén provistos de licencia de caza y de la licencia de arma larga rayada para caza mayor o escopeta correspondiente [...] con una autorización escrita, fechada y firmada, para su uso durante quince días como máximo y precisamente para cazar [...] Las armas se prestarán siempre con sus guías de pertenencia»"
+  },
+  {
+    "id": "t3-062",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 91.1 RD 137/1993: «Tanto los españoles como los extranjeros residentes en España podrán prestar sus armas de caza a quienes estén provistos de licencia de caza y de la licencia de arma larga rayada para caza mayor o escopeta correspondiente [...] con una autorización escrita, fechada y firmada, para su uso durante quince días como máximo y precisamente para cazar [...] Las armas se prestarán siempre con sus guías de pertenencia»"
+  },
+  {
+    "id": "t3-063",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 91.1 RD 137/1993: «Tanto los españoles como los extranjeros residentes en España podrán prestar sus armas de caza a quienes estén provistos de licencia de caza y de la licencia de arma larga rayada para caza mayor o escopeta correspondiente [...] con una autorización escrita, fechada y firmada, para su uso durante quince días como máximo y precisamente para cazar [...] Las armas se prestarán siempre con sus guías de pertenencia» («Las armas se prestarán siempre con sus guías de pertenencia»)"
+  },
+  {
+    "id": "t3-064",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 91.1 RD 137/1993: «Tanto los españoles como los extranjeros residentes en España podrán prestar sus armas de caza a quienes estén provistos de licencia de caza y de la licencia de arma larga rayada para caza mayor o escopeta correspondiente [...] con una autorización escrita, fechada y firmada, para su uso durante quince días como máximo y precisamente para cazar [...] Las armas se prestarán siempre con sus guías de pertenencia» («Las armas se prestarán siempre con sus guías de pertenencia»)"
+  },
+  {
+    "id": "t3-065",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 91.1 RD 137/1993: «Tanto los españoles como los extranjeros residentes en España podrán prestar sus armas de caza a quienes estén provistos de licencia de caza y de la licencia de arma larga rayada para caza mayor o escopeta correspondiente [...] con una autorización escrita, fechada y firmada, para su uso durante quince días como máximo y precisamente para cazar [...] Las armas se prestarán siempre con sus guías de pertenencia»"
+  },
+  {
+    "id": "t3-066",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 89.5 RD 137/1993: «Para la expedición de la guía de pertenencia, los titulares de las armas de fuego acreditarán ante las Intervenciones de Armas y Explosivos, si no lo hubieran acreditado con anterioridad, que cumplen las medidas de seguridad establecidas en este Reglamento para su custodia»"
+  }
+]

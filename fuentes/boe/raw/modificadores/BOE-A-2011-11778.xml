@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219142601">
+  <metadatos>
+    <identificador>BOE-A-2011-11778</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+    <rango codigo="1340">Real Decreto</rango>
+    <fecha_disposicion>20110708</fecha_disposicion>
+    <numero_oficial>976/2011</numero_oficial>
+    <titulo>Real Decreto 976/2011, de 8 de julio, por el que se modifica el Reglamento de Armas, aprobado por el Real Decreto 137/1993, de 29 de enero.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20110709</fecha_publicacion>
+    <diario_numero>163</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>74941</pagina_inicial>
+    <pagina_final>74953</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2011/07/09/pdfs/BOE-A-2011-11778.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2011-11778</url_epub>
+    </url_epub>
+    <url_pdf_catalan>/boe_catalan/dias/2011/07/09/pdfs/BOE-A-2011-11778-C.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego>/boe_gallego/dias/2011/07/09/pdfs/BOE-A-2011-11778-G.pdf</url_pdf_gallego>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20110729</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/rd/2011/07/08/976</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/07/08/976">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-11778</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-08</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">976</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/289"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/998"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1204"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3513"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4800"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/07/08/976/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-11778</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-08</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">976</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/289"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/998"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1204"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3513"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4800"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2011/07/08/976"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 976/2011, de 8 de julio, por el que se modifica el Reglamento de Armas, aprobado por el Real Decreto 137/1993, de 29 de enero.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-09</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/07/08/976/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 976/2011, de 8 de juliol, pel qual es modifica el Reglament d'armes, aprovat pel Reial decret 137/1993, de 29 de gener.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-09</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/07/08/976/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/glg">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real decreto 976/2011, do 8 de xullo, polo que se modifica o Regulamento de armas, aprobado polo Real decreto 137/1993, do 29 de xaneiro.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-09</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/07/08/976/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/glg/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/07/08/976/dof/glg"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="289" orden="">Armas</materia>
+      <materia codigo="998" orden="">Comercialización</materia>
+      <materia codigo="1204" orden="">Comisión Permanente de Armas y Explosivos</materia>
+      <materia codigo="3513" orden="">Explosivos</materia>
+      <materia codigo="4800" orden="">Licencias de armas</materia>
+      <materia codigo="7854" orden="">Protección de datos personales</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-1993-6202" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>determinados preceptos del Reglamento aprobado por Real Decreto 137/1993, de 29 de enero</texto>
+        </anterior>
+        <anterior referencia="DOUE-L-2008-81333" orden="3020">
+          <palabra codigo="426">TRANSPONE</palabra>
+          <texto>la Directiva 2008/51/CE, de 21 de mayo</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1992-4252" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>los arts. 6 y 7 de la Ley Orgánica 1/1992, de 21 de febrero</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="105" orden="">Comercio</alerta>
+      <alerta codigo="126" orden="">Seguridad y Defensa</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">El artículo 6 de la Ley Orgánica 1/1992, de 21 de febrero, sobre Protección de la Seguridad Ciudadana, en su apartado primero, establece que «en el ejercicio de la competencia que le reconoce el artículo 149.1.26.ª de la Constitución, la Administración del Estado establecerá los requisitos y condiciones de la fabricación y reparación de armas, sus imitaciones y réplicas, y de sus piezas fundamentales; explosivos, cartuchería y artificios pirotécnicos; así como los de su circulación, almacenamiento y comercio, su adquisición y enajenación; su tenencia y utilización. Del mismo modo podrá adoptar las medidas de control necesarias para el cumplimiento de aquellos requisitos y condiciones».</p>
+    <p class="parrafo">A su vez, el artículo 7 de dicha Ley Orgánica, en su apartado primero, faculta al Gobierno para reglamentar las materias y actividades a que se refiere el artículo anterior, en atención a las circunstancias que puedan concurrir en los distintos supuestos mediante la sujeción de la apertura y funcionamiento de las fábricas, talleres, depósitos, establecimientos de venta y lugares de utilización y las actividades relacionadas con ellas a requisitos de catalogación o clasificación, autorización, información, inspección, vigilancia y control, así como a requisitos especiales de habilitación para el personal encargado de su manipulación; mediante la obligatoriedad de licencias o permisos para la tenencia y uso de armas; etc.</p>
+    <p class="parrafo">En virtud de dicha habilitación legal, se aprobó el Reglamento de Armas, mediante el Real Decreto 137/1993, de 29 de enero, con el objeto de regular los aspectos mencionados anteriormente en lo relativo a las armas.</p>
+    <p class="parrafo">Dicho Real Decreto permitió incorporar a nuestro ordenamiento jurídico la Directiva 91/477/CEE del Consejo, de 18 de junio de 1991, sobre el control de la adquisición y tenencia de armas.</p>
+    <p class="parrafo">Dicha Directiva ha sido modificada por la Directiva 2008/51/CE del Parlamento Europeo y del Consejo, de 21 de mayo de 2008, por lo que mediante este Real Decreto se modifica el vigente Reglamento de Armas para adaptarlo a las modificaciones que introduce esta Directiva.</p>
+    <p class="parrafo">En concreto, la Directiva 2008/51/CE del Parlamento Europeo y del Consejo, de 21 de mayo de 2008, obliga a modificar el Reglamento de Armas en aspectos relativos, entre otros, a la definición de la actividad de armero, la regulación jurídica ex novo de la figura del corredor, el marcado de las armas, las comunicaciones previas a cada transferencia de armas de fuego que deberán realizar los armeros que sean titulares de autorizaciones temporales de transferencia de dichas armas, el procedimiento para la inutilización de las armas de fuego, la regulación de la Tarjeta Europea de Armas de Fuego, etc.</p>
+    <p class="parrafo">Durante la tramitación del Reglamento se ha sustanciado el trámite de información pública previsto en el párrafo c) del apartado primero del artículo 24 de la Ley 50/1997, de 27 de noviembre, del Gobierno.</p>
+    <p class="parrafo">Este Reglamento ha sido informado por la Comisión Interministerial Permanente de Armas y Explosivos.</p>
+    <p class="parrafo">En su virtud, a propuesta del Vicepresidente Primero del Gobierno y Ministro del Interior y de los Ministros de Defensa y de Industria, Turismo y Comercio, con la aprobación previa del Vicepresidente Tercero del Gobierno y Ministro de Política Territorial y Administración Pública, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 8 de julio de 2011,</p>
+    <p class="centro_redonda">DISPONGO</p>
+    <p class="articulo">Artículo único. Modificación del Reglamento de Armas, aprobado por el Real Decreto 137/1993, de 29 de enero.</p>
+    <p class="parrafo">Se introducen las siguientes modificaciones en el Reglamento de Armas, aprobado por el Real Decreto 137/1993, de 29 de enero:</p>
+    <p class="parrafo_2">Uno. Se modifican los apartados segundo y cuarto del artículo 1 del Reglamento de Armas, que quedan redactados de la siguiente forma:</p>
+    <p class="sangrado_2">«2. Se entenderá por pieza todo elemento o elemento de repuesto específicamente concebido para un arma de fuego e indispensable para su funcionamiento y todo dispositivo, concebido o adaptado para disminuir el sonido causado por el disparo de un arma de fuego.</p>
+    <p class="sangrado">Se considerarán piezas fundamentales o componentes esenciales: De armas de fuego cortas, el armazón, el cerrojo o cilindro y el cañón; de armas de fuego largas, rayadas o de ánima lisa, la caja o cajón de los mecanismos, el cerrojo o báscula y el cañón; así como los mecanismos de cierre de todas ellas.</p>
+    <p class="sangrado">A los efectos de lo previsto en este Reglamento, las piezas fundamentales o componentes esenciales terminados tendrán el mismo régimen jurídico que las armas de las que formen parte y quedarán incluidas en la categoría en que se haya clasificado el arma en la que se monten o vayan a ser montadas.»</p>
+    <p class="sangrado_2">«4. Quedan excluidos del ámbito de aplicación de este Reglamento, y se regirán por la normativa especial dictada al efecto, la adquisición, tenencia y uso de armas por las Fuerzas Armadas, las Fuerzas y Cuerpos de Seguridad y el Centro Nacional de Inteligencia. Para el desarrollo de sus funciones también quedan excluidos los establecimientos e instalaciones de dichas Fuerzas y Cuerpos y del Centro Nacional de Inteligencia.»</p>
+    <p class="parrafo_2">Dos. Se modifica el artículo 2 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_articulo">«Artículo 2.</p>
+    <p class="sangrado">A los efectos del presente Reglamento, en relación con las armas y su munición, se entenderá por:</p>
+    <p class="sangrado_2">1. Arma de fuego: Toda arma portátil que tenga cañón y que lance, esté concebida para lanzar o pueda transformarse fácilmente para lanzar un perdigón, bala o proyectil por la acción de un combustible propulsor.</p>
+    <p class="sangrado">A estos efectos, se considerará que un objeto es susceptible de transformarse para lanzar un perdigón, bala o proyectil por la acción de un combustible propulsor cuando tenga la apariencia de un arma de fuego y debido a su construcción o al material con el que está fabricada, pueda transformarse de este modo.</p>
+    <p class="sangrado">2. Arma de aire u otro gas comprimido: Armas que utilizan como fuerza impulsora del proyectil la originada por la expansión de un gas comprimido.</p>
+    <p class="sangrado">3. Arma antigua: Arma de fuego cuyo modelo o cuyo año de fabricación es anterior al 1 de enero de 1890.</p>
+    <p class="sangrado">4. Arma artística: Arma de fuego que en su ornamentación presenta una peculiaridad distinta a las demás de su clase, en razón de los materiales nobles empleados o de diseño, que le confiere un especial valor.</p>
+    <p class="sangrado">5. Arma automática: Arma de fuego que recarga automáticamente después de cada disparo y con la que es posible efectuar varios disparos sucesivos mientras permanezca accionado el disparador.</p>
+    <p class="sangrado">6. Arma semiautomática: Arma de fuego que después de cada disparo se recarga automáticamente y con la que solo es posible efectuar un disparo al accionar el disparador cada vez.</p>
+    <p class="sangrado">7. Arma de avancarga: Arma de fuego en la que la carga de proyección y el proyectil se introducen por la boca del cañón o, en su caso, por la boca de la recámara del tambor. La carga de proyección es de pólvora negra o de sustancia explosiva o pirotécnica similar.</p>
+    <p class="sangrado">8. Arma blanca: Arma constituida por una hoja metálica u otro material de características físicas semejantes, cortante o punzante.</p>
+    <p class="sangrado">9. Arma combinada: Arma formada por la unión de elementos intercambiables o fijos de dos o más armas de distinta categoría, que pueden ser utilizados separada o conjuntamente.</p>
+    <p class="sangrado">10. Arma detonadora: Arma destinada para la percusión de cartuchos sin proyectil que provocan un efecto sonoro y cuyas características la excluyen para disparar cualquier tipo de proyectil.</p>
+    <p class="sangrado">11. Arma Flobert: Arma de fuego portátil que utiliza munición de calibre Flobert. Dicha arma siempre es de percusión anular y puede llevar una pequeña carga de pólvora o solo la carga iniciadora. La energía cinética en boca no puede sobrepasar los cien (100) J para ningún calibre.</p>
+    <p class="sangrado">12. Arma de fuego corta: Arma de fuego cuyo cañón no exceda de 30 cm o cuya longitud total no exceda de 60 cm.</p>
+    <p class="sangrado">13. Arma de fuego larga: Cualquier arma de fuego que no sea un arma de fuego corta.</p>
+    <p class="sangrado">14. Arma histórica: Arma de fuego que se signifique especialmente por su relación con un hecho o personaje histórico relevante, convenientemente acreditada.</p>
+    <p class="sangrado">15. Arma puesta a tiro o tomada en diente: Arma de fuego que estando en proceso de fabricación ya está preparada para efectuar el disparo, aunque para su total terminación falten todavía otras operaciones.</p>
+    <p class="sangrado">16. Arma de repetición: Arma de fuego que se recarga después de cada disparo, mediante un mecanismo accionado por el tirador que introduce en el cañón un cartucho colocado previamente en el depósito de municiones.</p>
+    <p class="sangrado">17. Arma de un solo tiro: Arma de fuego sin depósito de municiones, que se recarga antes de cada disparo mediante la introducción manual de un cartucho en la recámara o en un alojamiento especial a la entrada del cañón.</p>
+    <p class="sangrado">18. Arma basculante: Arma de fuego que, sin depósito de municiones, se carga mediante la introducción manual de un cartucho en la recámara y tiene un sistema de cierre mediante báscula. Puede tener uno o varios cañones.</p>
+    <p class="sangrado">19. Armero: Toda persona física o jurídica cuya actividad profesional consista, en todo o en parte, en la fabricación, comercio, cambio, alquiler, reparación o transformación de armas de fuego, sus piezas fundamentales o componentes esenciales y municiones.</p>
+    <p class="sangrado">20. Corredor: Toda persona física o jurídica, distinta a un armero, cosario, mandatario, viajante o representante, contemplados en este Reglamento, cuya actividad profesional consista, en todo o en parte, en la compra, venta u organización en territorio español de las actividades relacionadas con las armas de fuego o asimiladas, sus piezas fundamentales o municiones, negociando o concertando las citadas transacciones comerciales.</p>
+    <p class="sangrado">21. Desmilitarización: Actividad fabril cuyo objetivo es transformar en civil o desbaratar un arma de guerra.</p>
+    <p class="sangrado">22. Fabricación ilícita: Fabricación o montaje de armas de fuego, sus piezas fundamentales o componentes esenciales y municiones, siempre que se de alguna de las siguientes circunstancias:</p>
+    <p class="sangrado_2">Que se realicen a partir de piezas fundamentales o componentes esenciales de dichas armas de fuego que hayan sido objeto de tráfico ilícito.</p>
+    <p class="sangrado">Que no cuenten con autorización de la autoridad competente.</p>
+    <p class="sangrado">Que se hallen sin marcar aquellas armas de fuego ensambladas en el momento de su fabricación, de conformidad con lo establecido en el artículo 28 de este Reglamento.</p>
+    <p class="sangrado_2">23. Imitación de arma: Objeto que por sus características externas pueda inducir a confusión sobre su auténtica naturaleza, aunque no pueda ser transformada en un arma.</p>
+    <p class="sangrado">24. Localización: Rastreo sistemático de las armas de fuego y, de ser posible, de sus piezas y municiones, desde el fabricante hasta el comprador, con el fin de ayudar a las autoridades competentes a detectar, investigar y analizar la fabricación y el tráfico ilícitos.</p>
+    <p class="sangrado">25. Munición: Cartucho completo o sus componentes, incluidas las vainas, los cebos, la carga propulsora, las balas o los proyectiles utilizados en un arma de fuego, siempre que estos componentes estén autorizados en territorio nacional.</p>
+    <p class="sangrado">26. Munición de bala perforante: Munición de uso militar que se utiliza para perforar materiales de blindajes o de protección que normalmente son de núcleo duro o material duro.</p>
+    <p class="sangrado">27. Munición de bala explosiva: Munición de uso militar con balas que contienen una carga que explota por impacto.</p>
+    <p class="sangrado">28. Munición de bala incendiaria: Munición de uso militar con balas que contienen una mezcla química que se inflama al contacto con el aire o por impacto.</p>
+    <p class="sangrado">29. Munición de bala expansiva: Munición con proyectiles de diferente composición, estructura y diseño con el fin de que, al impactar éstos en un blanco similar al tejido carnoso, se deformen expandiéndose y transfiriendo el máximo de energía en estos blancos.</p>
+    <p class="sangrado">30. Reproducción o réplica: Arma que es copia de otra original, reuniendo todas sus características, aptitudes y posibilidades de uso.</p>
+    <p class="sangrado">31. Tráfico ilícito en la Unión Europea: Adquisición, venta, entrega, traslado o transferencia de armas de fuego, sus piezas fundamentales o componentes esenciales y municiones desde o a través del territorio de un Estado miembro de la Unión Europea al de otro Estado miembro si cualquiera de los Estados miembros interesados no lo hubiera autorizado o si las armas de fuego ensambladas no hubieren sido marcadas, de conformidad con lo establecido en el artículo 28 de este Reglamento.»</p>
+    <p class="parrafo_2">Tres. Se modifica el apartado 2 de la 6.ª categoría del artículo 3 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_2">«2. Las armas de fuego cuyo modelo o cuyo año de fabricación sean anteriores al 1 de enero de 1890, y las reproducciones y réplicas de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas.</p>
+    <p class="sangrado">La antigüedad será fijada por el Ministerio de Defensa, que aprobará los prototipos o copias de los originales, comunicándolo a la Dirección General de la Policía y de la Guardia Civil, ámbito de la Guardia Civil.»</p>
+    <p class="parrafo_2">Cuatro. Se adiciona un nuevo apartado, el e), en el artículo 7 del Reglamento de Armas, con la siguiente redacción:</p>
+    <p class="sangrado_2">«e) El Ministerio de Economía y Hacienda, mediante el Departamento de Aduanas e Impuestos Especiales de la Agencia Estatal de Administración Tributaria, en el control aduanero de las operaciones de comercio exterior con terceros países.»</p>
+    <p class="parrafo_2">Cinco. Se modifica el artículo 9 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_2">«1. Por Orden del Ministro del Interior se regula un fichero informatizado de datos en el que se registrarán todas las armas de fuego, objeto del presente Reglamento, de conformidad con lo previsto en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, y sus normas de desarrollo. En dicho fichero figura el tipo, la marca, el modelo, el calibre y el número de serie de cada arma de fuego, así como los datos de identificación necesarios del proveedor y del adquirente o poseedor, que permitan su localización. Dichos datos se conservarán de manera permanente en el fichero.</p>
+    <p class="sangrado">2. La Dirección General de la Policía y de la Guardia Civil, ámbito de la Guardia Civil, facilitará el acceso al fichero informatizado de datos a otras Fuerzas y Cuerpos de Seguridad, organismos nacionales, Autoridades Judiciales y Ministerio Fiscal, en virtud de lo dispuesto en los párrafos a) y d) del apartado segundo del artículo 11 de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, así como a organismos internacionales y países extranjeros, en virtud de lo que prevean los Acuerdos internacionales suscritos por España en la materia.</p>
+    <p class="sangrado">3. En aras de la colaboración que debe existir entre las distintas Fuerzas y Cuerpos de Seguridad, deberán comunicarse oportunamente por el medio más rápido cualquier circunstancia de interés policial del que tuvieran conocimiento en materia de armas, como las relacionadas con el tráfico o empleo ilícito, pérdida o sustracción de armas o documentaciones, decomisos, enajenaciones o cualesquiera otras que afectaran a su tenencia y uso, siempre que fuera necesario a efectos de descubrimiento y persecución de actos delictivos o infracciones.»</p>
+    <p class="parrafo_2">Seis. Se modifica el artículo 10 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_articulo">«Artículo 10.</p>
+    <p class="sangrado">1. Para el ejercicio de la actividad de armero, en cualquiera de sus modalidades, se requerirá la obtención de una autorización previa, expedida por la Dirección General de la Policía y de la Guardia Civil, ámbito de la Guardia Civil, sobre la base de la comprobación de la honorabilidad privada y profesional, la competencia y la carencia de antecedentes penales por delito doloso del solicitante, así como la acreditación de las aptitudes psicofísicas necesarias salvo que, en cuanto a esto último, el solicitante fuese titular de una licencia de armas. Cuando se trate de personas jurídicas, la comprobación se referirá a los responsables de la dirección de la empresa.</p>
+    <p class="sangrado">2. En la forma dispuesta en el presente Reglamento, los armeros deberán llevar registros en los que consignarán todas las entradas y salidas de armas de fuego, con los datos de identificación de cada arma, en particular, el tipo, la marca, el modelo, el calibre y el número de fabricación, así como el nombre, la dirección, en su caso, la nacionalidad, y los demás datos de identificación necesarios del proveedor y del adquirente. Las Intervenciones de Armas y Explosivos de la Guardia Civil comprobarán periódicamente el cumplimiento de esta obligación por parte de los armeros. Los armeros, tras cesar en la actividad, entregarán dichos registros a la Intervención de Armas y Explosivos de la Guardia Civil correspondiente al lugar donde radique el establecimiento.</p>
+    <p class="sangrado">3. Las actividades relacionadas con la fabricación y comercio de armas de fuego tienen la consideración de sector específico en materia de derecho de establecimiento con base en la Ley Orgánica 1/1992, de 21 de febrero, sobre Protección de la Seguridad Ciudadana, y en la Ley 18/1992, de 1 de julio, por la que se establecen determinadas normas en materia de inversiones extranjeras en España.</p>
+    <p class="sangrado">Las inversiones extranjeras, directas o indirectas, en sociedades españolas que tengan por objeto desarrollar las actividades indicadas requerirán autorización del Consejo de Ministros, cualquiera que sea el porcentaje de toma de participación extranjera en el capital social de la sociedad de que se trate. Dichas inversiones se ajustarán al Real Decreto 664/1999, de 23 de abril, sobre inversiones exteriores.</p>
+    <p class="sangrado">4. Para el ejercicio de la actividad de corredor se requerirá la obtención de una autorización previa. Para su obtención se observarán las mismas prescripciones que las establecidas en el apartado primero de este artículo para la obtención de la autorización de armero. En cuanto al registro relativo a su actividad de intermediación se estará a lo dispuesto en el artículo 55 de este Reglamento.»</p>
+    <p class="parrafo_2">Siete. Se modifica el artículo 28 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_articulo">«Artículo 28.</p>
+    <p class="sangrado">1. Todas las armas de fuego y las piezas fundamentales o componentes esenciales terminados que se comercialicen por separado tendrán un marcado distintivo que incluirá el nombre o marca del fabricante, el país o lugar de fabricación y la numeración de fábrica. Igualmente éstas, así como las armas detonadoras de calibre igual o superior al.22 o su equivalente en mm dispondrán del punzonado de un Banco Oficial de Pruebas español o reconocido por España, conforme a las disposiciones del Convenio para el reconocimiento recíproco de punzones de prueba de armas de fuego portátiles de 1 de julio de 1969.</p>
+    <p class="sangrado">2. El marcado se colocará en las pistolas y revólveres en el armazón y en el cañón, en las armas largas rayadas en el cajón de mecanismos y en las escopetas en el propio cajón de mecanismos o en la carcasa y en los cañones; de manera que el deterioro o destrucción del marcado convierta dicha arma en ilegal.</p>
+    <p class="sangrado">3. En el caso de armas que pudieran ofrecer dudas o dificultades de espacio para la inserción del marcado, éste deberá aparecer en el lugar que decida el Banco Oficial de Pruebas, participándolo a la Dirección General de la Policía y de la Guardia Civil, ámbito de la Guardia Civil.</p>
+    <p class="sangrado">4. También llevarán numeración correlativa las armas de las categorías 3.ª,3, 4.ª y 7.ª,1, 2, 3 y 6.</p>
+    <p class="sangrado">5. La numeración de fábrica será compuesta y deberá constar, en todo caso, de las siguientes partes:</p>
+    <p class="sangrado_2">a) número asignado a cada fábrica o taller por la Intervención Central de Armas y Explosivos.</p>
+    <p class="sangrado">b) número correspondiente al tipo de arma de que se trate.</p>
+    <p class="sangrado">c) número secuencial de cada arma fabricada, comenzando cada año en el número 1.</p>
+    <p class="sangrado">d) las dos últimas cifras del año de fabricación.</p>
+    <p class="sangrado_2">Las partes reseñadas podrán constituir un número único o dos números en los que se integren, respectivamente, las dos primeras y las dos últimas partes enumeradas.</p>
+    <p class="sangrado">6. Los fabricantes de armas de fuego que tengan contratos con órganos del Estado numerarán independientemente las piezas fundamentales o componentes esenciales objeto de los mismos, poniendo en cada arma, en vez de la numeración a que se refiere el apartado anterior, la contraseña propia del órgano a que vayan destinadas. Estas contraseñas serán:</p>
+    <p class="sangrado_2">a) Para el Ejército de Tierra: E.T. y numeración correlativa.</p>
+    <p class="sangrado">b) Para la Armada: F.N. y numeración correlativa.</p>
+    <p class="sangrado">c) Para el Ejército del Aire: E.A. y numeración correlativa.</p>
+    <p class="sangrado">d) Para otros usos del Ministerio de Defensa: M.D y numeración correlativa.</p>
+    <p class="sangrado">e) Para la Guardia Civil: G.C. y numeración correlativa.</p>
+    <p class="sangrado">f) Para el Cuerpo Nacional de Policía: C.N.P. y numeración correlativa.</p>
+    <p class="sangrado">g) Para la Dirección Adjunta de Vigilancia Aduanera: S.V.A. y numeración correlativa.</p>
+    <p class="sangrado">h) Para los Cuerpos de Policía de las Comunidades Autónomas: La letra de identificación correspondiente y numeración correlativa.</p>
+    <p class="sangrado">7. En el momento en que se transfiera un arma de fuego de las existencias estatales a la utilización civil con carácter permanente, se aplicará a dicha arma la numeración de fábrica y el marcado distintivo que permita su identificación, salvo que ya lo posea.</p>
+    <p class="sangrado">8. Los fabricantes también podrán numerar independientemente las armas que fabriquen para suministros a Gobiernos extranjeros. La Intervención Central de Armas y Explosivos de la Guardia Civil verificará la existencia de los correspondientes contratos y controlará las numeraciones especiales.</p>
+    <p class="sangrado">9. Las armas importadas fabricadas en países terceros, así como las piezas fundamentales o componentes esenciales terminados que se comercialicen por separado, deberán llevar una marca que indique que ha sido España el país importador y el año de su importación, siempre y cuando no provengan de un país de la Unión Europea que ya las haya marcado como importador.</p>
+    <p class="sangrado">10. Se exceptúan de la obligación de punzonar prevista en el apartado primero de este artículo las armas incluidas en la categoría 6.ª y 7.ª,4 que no sean susceptibles de hacer fuego y se posean con las condiciones del artículo 107. Las que sean susceptibles de hacer fuego requerirán el certificado del banco oficial de pruebas a que se refiere el apartado c) del artículo 107 de este Reglamento.»</p>
+    <p class="parrafo_2">Ocho. Se modifica el artículo 29 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_articulo">«Artículo 29.</p>
+    <p class="sangrado">En la Intervención Central de Armas y Explosivos de la Dirección General de la Policía y de la Guardia Civil, ámbito de la Guardia Civil, se llevará un registro de marcas de fábrica, de contraseñas de las armas y de los punzones de los bancos oficiales de pruebas, españoles y extranjeros, oficialmente reconocidos, a cuyo efecto las fábricas y bancos oficiales de pruebas deberán comunicar a aquélla la información necesaria.»</p>
+    <p class="parrafo_2">Nueve. Se modifica el apartado primero del artículo 30 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_2">«1. Queda prohibido vender, adquirir, poseer o usar armas de fuego que no tengan estampados los punzones correspondientes a las pruebas reglamentarias, de bancos oficiales de pruebas, sean españoles o extranjeros reconocidos. Se exceptúan las armas incluidas en la categoría 6.ª y 7.ª,4 que se posean o, en su caso, usen con las condiciones del artículo 107.»</p>
+    <p class="parrafo_2">Diez. Se modifica el artículo 47 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_2">«1. Los comerciantes autorizados podrán tener depositadas, en locales auxiliares, las clases, número de armas y de piezas fundamentales que ampare la autorización de dicho local que expida el Delegado o, en su caso, el Subdelegado del Gobierno, cuyas medidas de seguridad serán aprobadas previamente por la Dirección General de la Policía y de la Guardia Civil, ámbito de la Guardia Civil,</p>
+    <p class="sangrado">2. Los corredores podrán tener en locales auxiliares las clases, número de armas y de piezas fundamentales que ampare la autorización que se les expida de la manera prevista en el apartado anterior.»</p>
+    <p class="parrafo_2">Once. Se inserta un nuevo apartado, el cuarto, en el artículo 49 del Reglamento de Armas con la siguiente redacción:</p>
+    <p class="sangrado_2">«4. Salvo en el caso de los armeros, la adquisición de armas de fuego, sus piezas y municiones mediante técnicas de comunicación a distancia, estará sometida a autorización previa expedida por la Dirección General de la Policía y de la Guardia Civil, ámbito de la Guardia Civil, y a las prescripciones del presente Reglamento.»</p>
+    <p class="parrafo_2">Doce. Se modifica el apartado segundo del artículo 74 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_2">«2. Antes de la fecha de transferencia y con una antelación mínima de 48 horas, el armero autorizado habrá de presentar declaración ante la Intervención de Armas y Explosivos de la Guardia Civil del lugar en que se encuentren las armas, en la que, haciendo referencia a la propia autorización y, en su caso, al permiso o consentimiento previo del país de destino, incorporará respecto a las armas y componentes objeto de transferencia todos los datos relacionados en el apartado primero del artículo 73, sin perjuicio de que la referida Intervención compruebe la información facilitada.»</p>
+    <p class="parrafo_2">Trece. Se modifica el artículo 108 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_articulo">«Artículo 108.</p>
+    <p class="sangrado">1. Se considerará inutilizada un arma en los siguientes supuestos:</p>
+    <p class="sangrado_2">a) Las armas largas con dispositivo de bloqueo de cierre mediante cerrojo o bloque de cierre, de repetición, semiautomáticas o automáticas, cuando tengan tres taladros en el cañón, de diámetro no inferior al calibre del arma y con una distancia entre centros de cinco centímetros, debiendo estar uno de ellos en la recámara.</p>
+    <p class="sangrado">El cañón se hará solidario con la carcasa o armazón mediante un taladro que atraviese ambos en sentido perpendicular al eje, e introduciendo un pasador de acero inmovilizado por soldadura. El diámetro mínimo del pasador será de cinco milímetros.</p>
+    <p class="sangrado">El cerrojo será taladrado en la parte de la cubeta receptora del cartucho, en sentido axial, con un diámetro superior al diámetro máximo admisible del culote del cartucho y de longitud mínima de 10 milímetros o, en su caso, se realizará un fresado de 45º en el cerrojo de manera que afecte al diámetro completo de la cabeza del cierre. También se eliminará el extractor y el extremo saliente del percutor, y se rellenará el orificio con soldadura.</p>
+    <p class="sangrado">El cargador debe ser desprovisto de la teja y del resorte, y los labios eliminados.</p>
+    <p class="sangrado">b) Las armas largas basculantes deben tener tres taladros en cada cañón, de diámetro no inferior al calibre y distanciados entre centros cinco centímetros, uno de ellos afectando a la recámara. En el caso de las escopetas los taladros serán como mínimo de ocho milímetros de diámetro.</p>
+    <p class="sangrado">Se eliminan en la báscula todas las piezas que componen el mecanismo de disparo (excepto el propio gatillo), rellenándolo con soldadura.</p>
+    <p class="sangrado">c) Las pistolas deben tener en el cañón un fresado longitudinal a partir del plano de culata, de una anchura igual o superior al 75% del calibre del arma y de una longitud como mínimo del 30% de la del cañón.</p>
+    <p class="sangrado">La corredera será taladrada en la parte de la cubeta receptora del cartucho en sentido axial, con un diámetro superior al diámetro máximo admisible del culote del cartucho y de una longitud mínima de diez milímetros o, en su caso, se realizará un fresado de 45º en la corredera de manera que afecte al diámetro completo de la cabeza del cierre.</p>
+    <p class="sangrado">Se eliminarán el extractor y el extremo saliente del percutor, y se rellenará el orificio con soldadura. Una de las guías del armazón será eliminada por lo menos en un 50% de su longitud.</p>
+    <p class="sangrado">El cargador será desprovisto de la teja y del resorte y los labios eliminados.</p>
+    <p class="sangrado">d) Los revólveres deben tener un fresado en el cañón de forma similar a las pistolas.</p>
+    <p class="sangrado">El tambor debe tener las paredes de separación de las recámaras cortadas por lo menos en un 75% de su longitud.</p>
+    <p class="sangrado">e) Las armas de bloqueo por inercia deben tener el cañón fresado a partir del plano de culata en un 30% de su longitud como mínimo, con una anchura igual o superior al 75% del calibre del arma.</p>
+    <p class="sangrado">El bloque de cierre taladrado en su parte frontal con un taladro de diámetro superior en un 20% al del culote del cartucho, en sentido axial y longitud superior a diez milímetros o, en su caso, se realizará un fresado a 45º en el bloque del cierre de manera que afecte al diámetro completo de la cabeza del cierre. También se eliminará el extremo saliente del percutor y el orificio se rellenará con soldadura.</p>
+    <p class="sangrado">f) Las armas de avancarga deben llevar en el cañón tres taladros de diámetro del calibre como mínimo, distanciados cinco centímetros entre centros, uno de ellos afectando al culatín de cierre.</p>
+    <p class="sangrado">Queda terminantemente prohibida la inutilización de armas de avancarga que formen parte del patrimonio histórico español.</p>
+    <p class="sangrado_2">2. La inutilización de un arma de fuego, excepto la de las armas de guerra o las de dotación de las Fuerzas Armadas, Cuerpo Nacional de Policía y Cuerpo de la Guardia Civil, deberá contar con la aprobación previa de la Intervención de Armas y Explosivos de la Guardia Civil o, en su caso, con la de la División de Personal del Cuerpo Nacional de Policía o Intervención del Ejército correspondiente. Dicha inutilización se llevará a cabo por un Banco Oficial de Pruebas, Servicios de Armamento, Centros del Ministerio de Defensa o por un armero autorizado. Una vez efectuada ésta, el Banco Oficial de Pruebas procederá a punzonar en el arma el cuño de inutilización, consistente en una «I» mayúscula enmarcada en un círculo, junto con el cuño propio indicativo del Banco de Pruebas. Dicho Banco emitirá un certificado de inutilización con los datos del arma y del propietario, el cual se remitirá junto con el arma a la Intervención de Armas de la Guardia Civil para su entrega al interesado, y otra copia del certificado se remitirá al Servicio del Cuerpo Nacional de Policía o Intervención del Ejército que, en su caso, aprobó la inutilización.</p>
+    <p class="sangrado">3. Las armas de guerra y aquellas otras de dotación de las Fuerzas Armadas podrán ser inutilizadas por los Centros del Ministerio de Defensa que se establezcan o por un Banco Oficial de Pruebas, emitiendo un certificado de inutilización que deberá ser firmado por personal de los Cuerpos de Ingenieros de los Ejércitos. Las armas inutilizadas deberán ser punzonadas con el cuño de inutilización, consistente en una «I» mayúscula enmarcada en un círculo, junto con el cuño propio indicativo del Centro que realiza la inutilización. Las inutilizaciones realizadas serán comunicadas a la Intervención de Armas del Ejército correspondiente que las haya solicitado, que llevará un registro de las mismas.</p>
+    <p class="sangrado">4. Las armas de dotación del Cuerpo Nacional de Policía y del Cuerpo de la Guardia Civil podrán ser inutilizadas por el respectivo Servicio de Armamento o por un Banco Oficial de Pruebas, emitiendo un certificado de inutilización que deberá ser firmado por el responsable del Servicio de Armamento que se designe a tal efecto. Las armas inutilizadas deberán ser punzonadas con el cuño de inutilización, consistente en una «I» mayúscula enmarcada en un círculo, junto con el cuño propio indicativo de la Unidad. Las inutilizaciones realizadas serán comunicadas, en su caso, al Servicio de Armamento que las haya solicitado.</p>
+    <p class="sangrado">5. Las personas u organismos mencionadas en los apartados anteriores que lleven a cabo las operaciones de inutilización de las armas de fuego deberán llevar un registro, que podrá realizarse por medios electrónicos, informáticos o telemáticos, en el que constarán, al menos, el número de certificado, el número de la autorización y número de Documento Nacional de Identidad del adjudicatario, en el caso de ciudadanos españoles, o el Numero de Identidad de Extranjero o de cualquier otro documento de identidad, en el caso de que el adjudicatario sea extranjero, la procedencia y reseña de las armas de fuego que se inutilicen.</p>
+    <p class="sangrado">Dentro de los cinco primeros días del mes siguiente a la inutilización, remitirán un archivo con los datos indicados a la Intervención Central de Armas y Explosivos de la Guardia Civil (Registro Central). En los casos previstos en los apartados tercero y cuarto de este artículo únicamente se remitirá dicho archivo, cuando las armas pasen a propiedad particular.</p>
+    <p class="sangrado">6. Las armas inutilizadas a que se refiere el presente artículo se podrán poseer sin limitación de número, en el propio domicilio, acompañadas del correspondiente certificado expedido o transmitido a su nombre. En el caso de que el arma inutilizada cambiase de titular, el adquirente deberá comunicar dicha circunstancia y remitir el certificado a la Intervención de Armas y Explosivos de la Guardia Civil correspondiente a su domicilio, al objeto de que ésta anote dicho cambio.</p>
+    <p class="sangrado">7. Las Intervenciones de Armas y Explosivos de la Guardia Civil podrán requerir a los poseedores de armas inutilizadas su presentación, al objeto de realizar las comprobaciones que consideren oportunas.</p>
+    <p class="sangrado">8. Se asimilan a armas de fuego inutilizadas aquellas que han sido seccionadas longitudinalmente en todas sus piezas fundamentales dejando ver los mecanismos interiores y que se utilizan con el único propósito de enseñanza en los centros autorizados para ello.»</p>
+    <p class="parrafo_2">Catorce. Se modifica el artículo 112 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_articulo">«Artículo 112.</p>
+    <p class="sangrado">1. Salvo que se utilice uno de los procedimientos regulados en los artículos 72 a 76 de este Reglamento, la tenencia de arma de fuego reglamentada durante un viaje por España por parte de un residente de otro país miembro de la Unión Europea solamente será autorizada por la Dirección General de la Policía y de la Guardia Civil, ámbito de la Guardia Civil, si el interesado ha obtenido a tal efecto la Tarjeta Europea de Armas de Fuego.</p>
+    <p class="sangrado">2. Igualmente los españoles y extranjeros residentes en España que se desplacen a otro país de la Unión Europea deberán estar en posesión de la Tarjeta Europea de Armas de Fuego.</p>
+    <p class="sangrado">3. A las personas mencionadas en el apartado primero podrá concedérseles una autorización para uno o varios desplazamientos y para un plazo máximo de un año, renovable. Dicha autorización se hará constar en la Tarjeta Europea de Armas de Fuego, que el viajero deberá exhibir dentro de España ante todo requerimiento de los miembros de las Fuerzas y Cuerpos de Seguridad.</p>
+    <p class="sangrado">4. No obstante lo dispuesto en el apartado primero, los cazadores respecto a las armas de caza de las categorías 2.ª, 2 y 3.ª, 2 y los tiradores deportivos, respecto a las armas de concurso de las categorías 1.ª, 2.ª y 3.ª, podrán tener en su poder sin autorización previa una o varias armas de fuego durante un viaje a España con el fin de practicar sus actividades, siempre y cuando estén en posesión de una Tarjeta Europea de Armas de Fuego, en la que se enumeren dicha o dichas armas de fuego y puedan probar el motivo del viaje, en particular exhibiendo una invitación u otra prueba de sus actividades de caza o de tiro deportivo en nuestro país. No se podrá condicionar la aceptación de una Tarjeta Europea de Armas de Fuego emitida por otro Estado al pago de tasas o cánones.»</p>
+    <p class="parrafo_2">Quince. Se modifica el artículo 113 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_articulo">«Artículo 113.</p>
+    <p class="sangrado">1. La Tarjeta Europea de Armas de Fuego será expedida, previa solicitud, por la Dirección General de la Policía y de la Guardia Civil, ámbito de la Guardia Civil, a los residentes en España que estén debidamente documentados para la tenencia y uso en territorio español de las armas de que se trate. Será valida por un período máximo de cinco años, que podrá prorrogarse mientras se mantenga la titularidad de las armas que ampare. La Tarjeta Europea de Armas de Fuego será intransferible y se harán constar en ella el arma o las armas de fuego que posea y utilice el titular de la Tarjeta. El usuario del arma de fuego deberá llevar siempre consigo la Tarjeta. Se mencionarán en la Tarjeta los cambios en la tenencia o en las características de las armas, así como la pérdida o robo de las mismas. Los visados que se lleven a cabo sobre esta Tarjeta cuando sea utilizada para su entrada en España no estarán gravados por ningún tipo de tasa o canon.</p>
+    <p class="sangrado">2. Al expedir la Tarjeta Europea de Armas de Fuego se informará por escrito al titular sobre los Estados miembros de Unión Europea que tengan prohibidas o sometidas a autorización la adquisición y tenencia de las armas de fuego a que se refiera la tarjeta.»</p>
+    <p class="parrafo_2">Dieciséis. Se modifica el apartado segundo del artículo 114 del Reglamento de Armas, que queda redactado de la siguiente forma:</p>
+    <p class="sangrado_2">«2. La tarjeta de identidad militar será considerada además como licencia A para el personal reseñado en el apartado 1.a) y b) que se encuentre en la situación de excedencia voluntaria por la causa prevista en el punto e) del artículo 31 del Reglamento General de adquisición y pérdida de la Condición de Militar y de Situaciones Administrativas del Personal Militar Profesional, aprobado por el Real Decreto 1385/1990, de 8 de noviembre, o en reserva ocupando puesto orgánico del Ministerio de Defensa o, en su caso, del Ministerio del Interior, y para el personal estatutario permanente del Centro Nacional de Inteligencia reseñado en los apartados 1.a) y b) de este artículo.»</p>
+    <p class="parrafo_2">Diecisiete. Se modifican los apartados primero, tercero y cuarto del artículo 166 del Reglamento de Armas, que quedan redactados de la siguiente forma:</p>
+    <p class="sangrado_2">«1. Toda autoridad o agente de la misma que, en uso de sus facultades, decomise o intervenga armas de fuego, piezas fundamentales o componentes esenciales deberá dar cuenta a la Guardia Civil, depositándolas en la Intervención de Armas y Explosivos de la Guardia Civil correspondiente. Al procederse al citado depósito se deberán indicar los datos necesarios para su identificación y los del procedimiento correspondiente.»</p>
+    <p class="sangrado_2">«3. Si las armas, piezas fundamentales o componentes esenciales son aportadas a un proceso penal, su depósito, destrucción, conservación o destino se regirá por la Ley de Enjuiciamiento Criminal y las normas sobre conservación y destino de piezas de convicción.</p>
+    <p class="sangrado">4. Sin perjuicio de lo dispuesto en la normativa mencionada en el apartado anterior, si los Juzgados y Tribunales estimasen que no pudieran custodiarse en sus locales con las debidas condiciones de seguridad, podrán remitirse bajo recibo a la Intervención de Armas y Explosivos de la Guardia Civil del lugar donde se ocupen o intervengan las armas, donde permanecerán a disposición de aquéllos hasta que surtan sus efectos en los correspondientes procedimientos.»</p>
+    <p class="articulo"><strong>Disposición adicional primera.</strong> Referencias al Gobernador Civil.</p>
+    <p class="parrafo">Las alusiones contenidas en el Reglamento de Armas al Gobernador Civil y al Gobierno Civil, se entenderán referidas, respectivamente, al Delegado o Delegación del Gobierno en la Comunidad Autónoma en la provincia donde radique su sede o, en su caso, al Subdelegado o Subdelegación del Gobierno en la provincia correspondiente.</p>
+    <p class="articulo"><strong>Disposición adicional segunda.</strong> Referencias a la Dirección General de la Guardia Civil.</p>
+    <p class="parrafo">Las alusiones contenidas en el Reglamento de Armas a la Dirección General de la Guardia Civil se entenderán referidas a la Dirección General de la Policía y de la Guardia Civil, ámbito de la Guardia Civil.</p>
+    <p class="articulo"><strong>Disposición adicional tercera.</strong> Referencias a la Intervención de Armas de la Guardia Civil.</p>
+    <p class="parrafo">Las alusiones contenidas en el Reglamento de Armas a la Intervención de Armas de la Guardia Civil se entenderán referidas a la Intervención de Armas y Explosivos de la Guardia Civil.</p>
+    <p class="articulo"><strong>Disposición adicional cuarta.</strong> Referencias a la Comunidad Económica Europea.</p>
+    <p class="parrafo">Las alusiones contenidas en el Reglamento de Armas a la Comunidad Económica Europea se entenderán referidas a la Unión Europea.</p>
+    <p class="articulo"><strong>Disposición adicional quinta.</strong> Referencias al Reglamento de Explosivos.</p>
+    <p class="parrafo">Las alusiones contenidas en el Reglamento de Armas en materia de munición al Reglamento de Explosivos, aprobado por el Real Decreto 230/1998, de 16 de febrero, se entenderán referidas al Reglamento de artículos pirotécnicos y cartuchería, aprobado por el Real Decreto 563/2010, de 7 de mayo.</p>
+    <p class="articulo"><strong>Disposición transitoria única.</strong> Cambio de titularidad de las armas inutilizadas con anterioridad a la entrada en vigor de este Real Decreto.</p>
+    <p class="parrafo">1. Las inutilizaciones de las armas que hayan sido efectuadas con anterioridad a la entrada en vigor de este Real Decreto, así como sus certificados acreditativos, conservarán su validez.</p>
+    <p class="parrafo">2. Las armas que dispongan de un certificado o documento en el que se haga constar la inutilización de un arma de fuego o un marcado distintivo de haberse llevado a efecto la misma, realizado en un Estado miembro de la Unión Europea, conservarán igualmente su validez.</p>
+    <p class="parrafo">3. No obstante lo dispuesto en los apartados anteriores, si tras la entrada en vigor de este Real Decreto se transmitiera inter vivos la propiedad de un arma que fue inutilizada con anterioridad a dicha circunstancia, la inutilización de ésta habrá de adaptarse a lo previsto en este Real Decreto, salvo que la misma se inscriba en el libro de coleccionista previsto en el párrafo b) del artículo 107 del Reglamento de Armas. Asimismo, el adquirente deberá comunicar dicha circunstancia y remitir el certificado de inutilización a la Intervención de Armas y Explosivos de la Guardia Civil correspondiente a su domicilio, al objeto de que ésta anote dicho cambio de titularidad.</p>
+    <p class="articulo"><strong>Disposición derogatoria única.</strong> Derogación normativa.</p>
+    <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en este Real Decreto.</p>
+    <p class="articulo"><strong>Disposición final primera.</strong> Título competencial.</p>
+    <p class="parrafo">Este Real Decreto se dicta al amparo de la competencia exclusiva del Estado en materia de régimen de producción, comercio, tenencia y uso de armas prevista en el artículo 149.1.26.ª de la Constitución.</p>
+    <p class="articulo"><strong>Disposición final segunda.</strong> Incorporación de derecho de la Unión Europea.</p>
+    <p class="parrafo">Mediante este Real Decreto se incorpora al derecho español la Directiva 2008/51/CE del Parlamento Europeo y del Consejo, de 21 de mayo de 2008, por la que se modifica la Directiva 91/477/CEE del Consejo, de 18 de junio de 1991, sobre el control de la adquisición y tenencia de armas.</p>
+    <p class="articulo"><strong>Disposición final tercera.</strong> Entrada en vigor</p>
+    <p class="parrafo">Este Real Decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado».</p>
+    <p class="parrafo_2">Dado en Madrid, el 8 de julio de 2011.</p>
+    <p class="firma_rey">JUAN CARLOS R.</p>
+    <p class="firma_ministro">El Ministro de la Presidencia,</p>
+    <p class="firma_ministro">RAMÓN JÁUREGUI ATONDO</p>
+  </texto>
+</documento>

@@ -1,0 +1,10 @@
+{
+  "incluir": {
+    "t2-020": "Calibre 5,6 mm: la cifra decide la categoria, pero las opciones no la repiten.",
+    "t5-066": "Capacidad de 25 cartuchos del cargador de arma corta: la cifra es la clave.",
+    "t6-041": "Plazo de 10 dias frente a «inmediatamente»: solo una opcion lleva cifra."
+  },
+  "excluir": {
+    "t7-006": "El numero (1143-1) es el de la norma UNE, no una cifra que haya que memorizar."
+  }
+}

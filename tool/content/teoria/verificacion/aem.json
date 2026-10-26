@@ -1,0 +1,22 @@
+{
+  "id": "aem",
+  "verdict": "corregir",
+  "issues": [
+    {
+      "section": "Qué es y qué permite",
+      "block_index": 0,
+      "problem": "Menor: «usar ciertas armas largas» no cubre todo lo que permite el art. 109.2: la 3.ª, 3 (aire u otro gas comprimido de más de 24,2 J, lisas o rayadas) incluye también pistolas y revólveres de aire. La tabla de la sección 2 ya lo dice bien (categorías 3.ª, 2 y 3.ª, 3).",
+      "fix": "La autorización especial de uso de armas para menores (AEM) permite a un menor usar ciertas armas de las categorías 2.ª, 2 y 3.ª, pero no poseerlas ni llevarlas dentro de las poblaciones. Sirve solo para cazar o para competiciones de tiro con categoría «junior». Pueden pedirla españoles y extranjeros con residencia en España."
+    }
+  ],
+  "evidence": [
+    "Art. 109.1 vigente (RD 726/2020): mayores de 16 y menores de 18; solo caza o tiro deportivo con categoría junior; no poseer ni llevar dentro de las poblaciones; armas largas rayadas para caza mayor o, en su caso, 3.ª 1; supervisión de adulto con licencia D, E o F comprometido a acompañar y vigilar en cada cacería o acto deportivo y responsable del almacenamiento según arts. 100.5, 101.5 y 133.2. Todo lo que dicen las secciones 1-3 sale de ahí.",
+    "Art. 109.2: mayores de 14 y menores de 18, 3.ª 2 para caza y 3.ª 2 y 3 para competiciones junior, «con las mismas condiciones y requisitos». Tabla y lista de la sección 2 correctas; 3.ª 1/2/3 descritas como en el art. 3.",
+    "Edades: el Reglamento dice «mayores de dieciséis/catorce» y el banco pregunta «edad mínima» con respuesta 16 (t4-047) y 14 (t4-048); «desde los 16/14» es lo que el examen espera y no contradice la norma (14 o 16 cumplidos). Fila de los 16: el 109.1 no reparte arma y fin, así que juntarlos es correcto; la explicación de t4-047 lo lee igual.",
+    "Art. 109.3: validez hasta la mayoría de edad sin renovación; concede el Director general de la Guardia Civil (t4-046). Art. 109.4: solicitud en Comandancia o Puesto, suscrita por el menor y quien ejerce la patria potestad o tutela (t4-055); documentos a)-e) coinciden con la lista (antecedentes del menor solo si >16; autorización paterna ante notario, autoridad gubernativa, alcaldía, Comisaría, Comandancia, Intervención o Puesto, resumida; informe de aptitudes); exención si el padre/tutor tiene licencia en vigor. Art. 109.5: remisión a la DGGC con informe de conducta y antecedentes de ambos.",
+    "Art. 102.1 (licencias solo a mayores de edad) y 102.2 (pruebas de capacitación para rifles de caza mayor y escopetas): respaldan «un menor no puede ser titular de una escopeta ni tener licencia E con 17 años» (t4-002, t4-009, t4-051, t4-054) y lo que se dice sobre los 18 años. El documento no afirma nada sobre pruebas de capacitación para menores; el 109.4 no las exige.",
+    "Arts. 100.5.a (2.ª 2: cajas fuertes o armeros autorizados, munición separada), 101.5.a (3.ª 1 y 2: lugar seguro bajo llave, arma y munición no accesibles juntas) y 133.2 (concurso: club o federación, caja fuerte o armero en domicilio, empresa de custodia): la lista de la sección 3 los resume bien. Art. 98.3: informe de aptitud para licencias y autorizaciones especiales.",
+    "Coherencia con t4.json («Menores de edad»: usa pero no posee; adulto D, E o F; Director General; hasta la mayoría de edad; 16 rifle, 14 escopeta) y con las explicaciones de t4-046..t4-051 y t4-055: ninguna contradicción. Las 10 related_questions existen en el banco.",
+    "Forma: 5 secciones, sin párrafo >400 ni celda >60, cada sección con artículos existentes. El texto sustituto propuesto cabe en el límite de 400."
+  ]
+}

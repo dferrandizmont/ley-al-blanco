@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T170032Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-28108</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1370">Resolución</rango>
+      <fecha_disposicion>19981126</fecha_disposicion>
+      <titulo>Resolución de 26 de noviembre de 1998, de la Dirección General de la Guardia Civil, por la que se determinan las medidas de seguridad mínimas que deben reunir las cajas fuertes y armarios o armeros para guardar las armas en domicilios particulares.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19981205</fecha_publicacion>
+      <diario_numero>291</diario_numero>
+      <fecha_vigencia>19981206</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20250109</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/res/1998/11/26/(1)</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-28108</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

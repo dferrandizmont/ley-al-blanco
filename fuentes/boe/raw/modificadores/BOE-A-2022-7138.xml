@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20241020175616">
+  <metadatos>
+    <identificador>BOE-A-2022-7138</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1430">Tribunal Supremo</departamento>
+    <rango codigo="1240">Sentencia</rango>
+    <fecha_disposicion>20220404</fecha_disposicion>
+    <numero_oficial/>
+    <titulo>Sentencia de 4 de abril de 2022, de la Sala Tercera del Tribunal Supremo, que declara estimar parcialmente el recurso contencioso-administrativo número 297/2020 contra el Real Decreto 726/2020, de 4 de agosto, por el que se modifica el Reglamento de Armas, aprobado por el Real Decreto 137/1993, de 29 de enero.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20220503</fecha_publicacion>
+    <diario_numero>105</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>60572</pagina_inicial>
+    <pagina_final>60572</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2022/05/03/pdfs/BOE-A-2022-7138.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2022-7138</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+  </metadatos>
+  <analisis>
+    <materias>
+      <materia codigo="289" orden="1">Armas</materia>
+      <materia codigo="2745" orden="1">Dirección General de la Guardia Civil</materia>
+      <materia codigo="6015" orden="1">Registros administrativos</materia>
+      <materia codigo="6974" orden="1">Tribunal Supremo</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2020-9134" orden="4010">
+          <palabra codigo="470">DECLARA</palabra>
+          <texto>la nulidad de lo indicado del art. 1 y la disposición final 3 del Real Decreto 726/2020, de 4 de agosto</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1993-6202" orden="4010">
+          <palabra codigo="470">DECLARA</palabra>
+          <texto>la nulidad del art. 9.1 del Reglamento aprobado por Real Decreto 137/1993, de 29 de enero</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="109" orden="1">Derecho Administrativo</alerta>
+      <alerta codigo="126" orden="1">Seguridad y Defensa</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">En el recurso contencioso-administrativo número 297/2020, interpuesto por la representación procesal de la «Asociación Española de Empresas Armeras» (ASOCIACIÓN ARMERA) y la «Asociación de Comerciantes de Armería, sus Complementos y Explosivos» (ACACE) contra el Real Decreto 726/2020, de 4 de agosto, por el que se modifica el Reglamento de Armas, aprobado por el Real Decreto 137/1993, de 29 de enero, la Sala Tercera (Sección Quinta) del Tribunal Supremo ha dictado sentencia con fecha 4 de abril de 2022 cuya parte dispositiva es del tenor literal siguiente:</p>
+    <p class="centro_redonda">FALLO</p>
+    <p class="parrafo_2">Por todo lo expuesto, en nombre del Rey y por la autoridad que le confiere la Constitución, esta Sala ha decidido</p>
+    <p class="articulo">Primero.</p>
+    <p class="parrafo">Estimar en parte el presente recurso contencioso-administrativo 297/2020, interpuesto por la representación procesal de la «Asociación Española de Empresas Armeras» (ASOCIACIÓN ARMERA) y la «Asociación de Comerciantes de Armería, sus Complementos y Explosivos» (ACACE), contra el Real Decreto 726/2020, de 4 de agosto, mencionado en el primer fundamento.</p>
+    <p class="articulo">Segundo.</p>
+    <p class="parrafo">Declarar la nulidad del artículo 1 del mencionado Real Decreto, párrafo octavo, que da nueva redacción al artículo 9-1.º del Reglamento de Armas; y la disposición final tercera del mismo; por no estar ajustados ambos preceptos al ordenamiento jurídico.</p>
+    <p class="articulo">Tercero.</p>
+    <p class="parrafo">No procede hacer concreta condena en cuanto a las costas procesales.</p>
+    <p class="articulo">Cuarto.</p>
+    <p class="parrafo">Ordenar la publicación del fallo de esta sentencia en el «Boletín Oficial del Estado».</p>
+    <p class="parrafo_2">Notifíquese esta resolución a las partes haciéndoles saber que contra la misma no cabe recurso, e insértese en la colección legislativa.</p>
+    <p class="parrafo_2">Así se acuerda y firma.–Segundo Menéndez Pérez.–Octavio Juan Herrero Pina.–Wenceslao Francisco Olea Godoy.–Inés Huerta Garicano.–Fernando Román García.–Firmado.</p>
+  </texto>
+</documento>

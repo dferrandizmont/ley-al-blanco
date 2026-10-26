@@ -1,0 +1,439 @@
+{
+  "id": "t4",
+  "tema": 4,
+  "title": "Documentación y licencias, Tarjeta Europea",
+  "summary": "Qué documento lleva cada arma, quién puede tener licencia, cuánto dura, los menores y los viajes por la Unión Europea. Clave para el examen: los números de la D y la E, los cinco años, el visado de los mayores de 67 y las edades de los menores.",
+  "sections": [
+    {
+      "title": "Qué licencia ampara cada arma",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Licencias D y E y tarjetas de armas",
+          "headers": [
+            "Documento",
+            "Qué ampara",
+            "Cuántas armas",
+            "Validez"
+          ],
+          "rows": [
+            [
+              "Licencia D",
+              "Rifles de caza mayor (2.ª, 2)",
+              "Hasta 5",
+              "5 años"
+            ],
+            [
+              "Licencia E",
+              "Categoría 3.ª, ballestas y lanzacabos",
+              "6 escopetas o 6 rifles de tiro; 12 en total",
+              "5 años"
+            ],
+            [
+              "Tarjeta A (alcalde)",
+              "Armas de la categoría 4.ª, 1",
+              "Hasta 6",
+              "5 años"
+            ],
+            [
+              "Tarjeta B (alcalde)",
+              "Armas de la categoría 4.ª, 2",
+              "Sin límite",
+              "Permanente"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Nadie puede tener más de una D ni más de una E, y cada una cubre su categoría: con escopeta y rifle de caza mayor necesitas las dos. Las carabinas de aire de 4.ª categoría van en la tarjeta del alcalde."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Arma combinada: una guía, según su parte más peligrosa.",
+            "Miras telescópicas de caza mayor: solo con licencia D.",
+            "Rifle automático: arma de guerra, prohibida.",
+            "Arma del libro-registro de coleccionista: no se puede usar."
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: D, rifles de caza mayor, hasta cinco; E, categorías 3.ª, 7.ª 2 y 7.ª 3, con seis escopetas o seis rifles de tiro y doce en total."
+        }
+      ],
+      "articles": [
+        "Art. 96 RD 137/1993",
+        "Art. 100 RD 137/1993",
+        "Art. 101 RD 137/1993",
+        "Art. 105 RD 137/1993",
+        "Art. 6.1 RD 137/1993",
+        "Art. 107 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Quién puede tener licencia",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Solo mayores de edad, españoles o extranjeros residentes en España: un menor no puede ser titular, ni con 17 años. La D y la E las concede el Jefe de la Comandancia. Un español que vive fuera puede usar aquí armas de caza con las mismas normas."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Certificado de antecedentes penales.",
+            "Fotocopia del DNI o tarjeta de residencia.",
+            "Informe de aptitudes psicofísicas.",
+            "Para caza: licencia de caza o tarjeta federativa."
+          ]
+        },
+        {
+          "type": "notice",
+          "text": "Ojo: en la pregunta sobre los documentos de la licencia D, el cuestionario da por buenos solo los antecedentes penales y el informe de aptitudes. El art. 97.1 también pide fotocopia del DNI o de la tarjeta de residencia."
+        },
+        {
+          "type": "p",
+          "text": "Hay que superar pruebas sobre conocimiento, cuidado y manejo de las armas. Sin respuesta en tres meses, la solicitud se entiende desestimada. No se pide certificado del alcalde."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: 18 años, antecedentes penales e informe psicofísico; la licencia de caza acredita que cazas."
+        }
+      ],
+      "articles": [
+        "Art. 102 RD 137/1993",
+        "Art. 97 RD 137/1993",
+        "Art. 100.3 RD 137/1993",
+        "Art. 101.3 RD 137/1993",
+        "Disp. final única RD 137/1993",
+        "Art. 110.9 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Vigencia, visado y revocación",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Situaciones frecuentes",
+          "headers": [
+            "Situación",
+            "Qué pasa",
+            "Art."
+          ],
+          "rows": [
+            [
+              "Licencia D o E",
+              "Vale cinco años",
+              "100.2, 101.2"
+            ],
+            [
+              "Titular de más de 67 años",
+              "Cinco años, con visado a los tres",
+              "104.1"
+            ],
+            [
+              "Licencia a punto de caducar",
+              "Autorización temporal de tres meses",
+              "103"
+            ],
+            [
+              "Pérdida o robo de la licencia",
+              "Autorización temporal mientras se tramita",
+              "145.2"
+            ],
+            [
+              "Pérdida o robo del arma",
+              "Aviso inmediato y entrega de la guía",
+              "145.1"
+            ],
+            [
+              "Retirada de la licencia",
+              "Como máximo dos años",
+              "158.2"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "La autorización temporal la da la Intervención de Armas al pedir la renovación, recogiendo la licencia antigua. Solo sirve para usar las armas."
+        },
+        {
+          "type": "p",
+          "text": "La licencia vale mientras cumplas los requisitos; pueden comprobarlo en cualquier momento y revocarla."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: cinco años; mayores de 67, visado a los tres; tres meses de autorización temporal."
+        }
+      ],
+      "articles": [
+        "Art. 103 RD 137/1993",
+        "Art. 104.1 RD 137/1993",
+        "Art. 145 RD 137/1993",
+        "Art. 97.5 RD 137/1993",
+        "Art. 158.2 RD 137/1993"
+      ]
+    },
+    {
+      "title": "La guía de pertenencia",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cada arma de las categorías 1.ª, 2.ª, 3.ª, 6.ª, 7.ª 1 a 4 y 8.ª lleva su guía: una guía, un arma. La expide la Intervención de Armas con tus datos, los de la licencia y la reseña completa del arma."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Acompaña al arma en uso, depósito y transporte.",
+            "Para cazar con rifle: licencia D y guía del rifle.",
+            "Arcos y lanzabengalas no llevan guía.",
+            "Si pierdes el arma, entregas su guía."
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: escopetas, rifles, carabinas de más de 24,2 julios, ballestas y lanzacabos llevan guía; los arcos no."
+        }
+      ],
+      "articles": [
+        "Art. 88 RD 137/1993",
+        "Art. 89 RD 137/1993",
+        "Art. 3 RD 137/1993",
+        "Art. 145.1 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Menores de edad",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Autorización especial de uso para menores",
+          "headers": [
+            "Edad",
+            "Qué puede usar",
+            "Para qué"
+          ],
+          "rows": [
+            [
+              "De 16 a 18 años",
+              "Rifles de caza mayor o categoría 3.ª, 1",
+              "Caza o tiro (categoría junior)"
+            ],
+            [
+              "De 14 a 18 años",
+              "Escopetas (3.ª, 2)",
+              "Caza"
+            ],
+            [
+              "De 14 a 18 años",
+              "Categoría 3.ª, 2 y 3",
+              "Competiciones junior"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "El menor usa las armas pero no las posee, siempre con un adulto con licencia D, E o F comprometido a acompañarlo y vigilarlo en cada cacería o acto deportivo. Concede la autorización el Director General de la Guardia Civil y vale hasta la mayoría de edad."
+        },
+        {
+          "type": "p",
+          "text": "La solicitud la firman el menor y quien tiene la patria potestad o tutela."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: 16 años para el rifle, 14 para la escopeta y validez hasta los 18."
+        }
+      ],
+      "articles": [
+        "Art. 109 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Tarjeta Europea de Armas de Fuego",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Para viajar con tus armas por la Unión Europea necesitas la Tarjeta Europea. La expide la Guardia Civil a residentes en España con sus armas documentadas."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vale cinco años y se prorroga mientras sigas siendo titular de las armas.",
+            "Figuran las armas que posees y utilizas.",
+            "La llevas siempre contigo."
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: cinco años y, para renovarla, mantener la titularidad de las armas."
+        }
+      ],
+      "articles": [
+        "Art. 112.2 RD 137/1993",
+        "Art. 113.1 RD 137/1993"
+      ]
+    }
+  ],
+  "related_questions": [
+    "t4-001",
+    "t4-002",
+    "t4-003",
+    "t4-004",
+    "t4-005",
+    "t4-006",
+    "t4-007",
+    "t4-008",
+    "t4-009",
+    "t4-010",
+    "t4-011",
+    "t4-012",
+    "t4-013",
+    "t4-014",
+    "t4-015",
+    "t4-016",
+    "t4-017",
+    "t4-018",
+    "t4-019",
+    "t4-020",
+    "t4-021",
+    "t4-022",
+    "t4-023",
+    "t4-024",
+    "t4-025",
+    "t4-026",
+    "t4-027",
+    "t4-028",
+    "t4-029",
+    "t4-030",
+    "t4-031",
+    "t4-032",
+    "t4-033",
+    "t4-034",
+    "t4-035",
+    "t4-036",
+    "t4-037",
+    "t4-038",
+    "t4-039",
+    "t4-040",
+    "t4-041",
+    "t4-042",
+    "t4-043",
+    "t4-044",
+    "t4-045",
+    "t4-046",
+    "t4-047",
+    "t4-048",
+    "t4-049",
+    "t4-050",
+    "t4-051",
+    "t4-052",
+    "t4-053",
+    "t4-054",
+    "t4-055",
+    "t4-056",
+    "t4-057",
+    "t4-058",
+    "t4-059",
+    "t4-060",
+    "t4-061",
+    "t4-062",
+    "t4-063",
+    "t4-064",
+    "t4-065",
+    "t4-066",
+    "t4-067",
+    "t4-068",
+    "t4-069",
+    "t4-070"
+  ],
+  "confidence": "alta",
+  "sources": [
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 3"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 6"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 88"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 89"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 96"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 97"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 100"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 101"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 102"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 103"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 104"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 105"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 107"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 110"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 109"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 112"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 113"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 145"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 158"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "disp. final única"
+    }
+  ],
+  "review_notes": "Aviso único, mismo contenido que el de t4-068 en explanations/t4.json (art. 97.1.b DNI/tarjeta de residencia). Revisar: (1) 'Disp. final única RD 137/1993' es el plazo de 3 meses (en el JSON del corpus aparece con ref 'disp. final única' bajo el contexto del Cap. IX); es la misma cita que usa la explicación de t4-061. (2) 'Arma combinada: una guía' resume t4-010 con el art. 96.9 (que habla de documentación y autorización de menor duración). (3) t4-005 (español residente en Francia) se resume con el art. 110.9 en la sección 2 (la explicación cita 110.9; el art. 102.1 habla de residentes en España: conviene revisarlo); t4-006 va en la lista de la primera sección (art. 107, prohibido el uso de armas inscritas en el libro-registro). (4) Pistola lanzabengalas = 7.ª, 6 y arcos = 7.ª, 5 según art. 3; el art. 88 no los incluye. (5) Tarjeta A/B: art. 105.2; validez de la licencia F no se menciona porque no está en los arts. consultados. Verificado por Fable el 19-oct-2026; correcciones aplicadas.",
+  "reviewed": false
+}

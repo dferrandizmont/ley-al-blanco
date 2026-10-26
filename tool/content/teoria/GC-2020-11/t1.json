@@ -1,0 +1,418 @@
+{
+  "id": "t1",
+  "tema": 1,
+  "title": "Funcionamiento y seguridad",
+  "summary": "Cómo funcionan las armas largas, sus partes, cómo se cargan y limpian, y cómo se guardan y manejan con seguridad. Caen mucho las definiciones de automática, semiautomática y repetición, las piezas del cierre y las normas de seguridad.",
+  "sections": [
+    {
+      "title": "Cómo se recarga cada arma",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "El Reglamento distingue las armas por lo que pasa tras cada disparo: si se recargan solas, si las recargas tú con un mecanismo o si metes el cartucho a mano."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Tipo",
+            "Cómo funciona"
+          ],
+          "rows": [
+            [
+              "Automática",
+              "Se recarga sola; ráfaga con el disparador accionado"
+            ],
+            [
+              "Semiautomática",
+              "Se recarga sola; un disparo cada vez que lo accionas"
+            ],
+            [
+              "De repetición",
+              "La recargas tú con un mecanismo, desde el depósito"
+            ],
+            [
+              "De un solo tiro",
+              "Sin depósito; metes el cartucho a mano cada vez"
+            ]
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: varios disparos con una sola presión es automática; se recarga sola pero un disparo por presión, semiautomática; la recarga el tirador, de repetición; sin depósito, de un solo tiro."
+        }
+      ],
+      "articles": [
+        "Art. 2.5 RD 137/1993",
+        "Art. 2.21 RD 137/1993",
+        "Art. 2.15 RD 137/1993",
+        "Art. 2.16 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Las partes del arma y para qué sirven",
+      "collapsed": true,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Parte técnica, sin artículo detrás: las preguntas describen la función y piden el nombre de la pieza."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Pieza",
+            "Para qué sirve"
+          ],
+          "rows": [
+            [
+              "Cañón",
+              "Conduce y estabiliza el proyectil"
+            ],
+            [
+              "Boca",
+              "Extremo del cañón opuesto a la recámara"
+            ],
+            [
+              "Recámara",
+              "Aloja el cartucho para dispararlo"
+            ],
+            [
+              "Culata",
+              "Apoyar el arma en el hombro al disparar"
+            ],
+            [
+              "Cerrojo / cierre",
+              "Lleva el cartucho a la recámara y la cierra"
+            ],
+            [
+              "Percutor",
+              "Golpea el fulminante del cartucho"
+            ],
+            [
+              "Uña extractora",
+              "Agarra el culote y saca la vaina"
+            ],
+            [
+              "Extractores (superpuesta)",
+              "Dos uñas que sacan los cartuchos de la recámara"
+            ],
+            [
+              "Expulsores (superpuesta)",
+              "Solo algunos modelos los llevan, además de extractores"
+            ],
+            [
+              "Muelle del cargador",
+              "Sube el cartucho frente a la recámara"
+            ],
+            [
+              "Guardamonte",
+              "Protege el disparador"
+            ],
+            [
+              "Biela",
+              "Transmite el movimiento del disparador"
+            ],
+            [
+              "Choke",
+              "Estrechamiento de la boca de la escopeta"
+            ],
+            [
+              "Alza / punto de mira",
+              "Elementos de puntería del arma"
+            ],
+            [
+              "Ánima de escopeta",
+              "Lisa o con rayas"
+            ],
+            [
+              "Ánima de rifle",
+              "Estriada; el rifle no lleva choke"
+            ],
+            [
+              "Banda ventilada",
+              "Enfría los cañones y reduce el efecto del viento"
+            ],
+            [
+              "Orificios del cajón (rifle)",
+              "Salida de gases si se rompe un cartucho"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "En el rifle, el percutor y su muelle van dentro del cerrojo; en la semiautomática, percutor, extractor y grapón forman el cerrojo.",
+            "Rifle de caza mayor: percusión central; la recámara tiene la forma del cartucho.",
+            "Para el cuestionario, el alza corrige la altura del impacto y el punto de mira, el desvío lateral."
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: el cañón conduce el proyectil, el percutor golpea el fulminante, la uña extractora saca la vaina y el guardamonte protege el disparador."
+        }
+      ],
+      "articles": [
+        "Art. 3 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Cargar, alimentar, montar y asegurar",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Alimentar: meter los cartuchos en el depósito o mecanismo de alimentación.",
+            "Cargar: llevar un cartucho a la recámara para poder disparar.",
+            "Arma montada: el mecanismo de disparo y percusión está listo para hacer fuego.",
+            "Seguro manual: impide el disparo aunque el arma esté montada. En posición «S» no dispara.",
+            "La semiautomática usa la fuerza del retroceso para mover el cierre y expulsa la vaina por la ventana de expulsión."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Disparar en vacío puede romper la aguja percutora. Una escopeta semiautomática puede llevar también seguro automático."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: alimentar es llenar el depósito; cargar, dejar el cartucho en la recámara listo para disparar."
+        }
+      ],
+      "articles": []
+    },
+    {
+      "title": "Piezas fundamentales o componentes esenciales",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ciertas piezas tienen el mismo régimen que el arma completa. Antes se llamaban piezas fundamentales; hoy el art. 1.2 las llama componentes esenciales."
+        },
+        {
+          "type": "table",
+          "caption": "Componentes esenciales según el art. 1.2",
+          "headers": [
+            "Arma",
+            "Componentes esenciales"
+          ],
+          "rows": [
+            [
+              "Corta",
+              "Armazón, cañón, tambor, corredera o cerrojo"
+            ],
+            [
+              "Larga",
+              "Cajón de mecanismos, cañón, cerrojo o báscula"
+            ],
+            [
+              "Larga (además)",
+              "Cierre o bloqueo del cierre"
+            ]
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: en la escopeta, la báscula y el cañón; en el rifle, el cerrojo y el cañón. La culata y los elementos de puntería no son piezas fundamentales."
+        },
+        {
+          "type": "notice",
+          "text": "Ojo: el cuestionario da por buenas la báscula y el cañón (escopeta) y el cerrojo y el cañón (rifle). El art. 1.2 las llama hoy «componentes esenciales» y para armas largas da una lista más amplia: también el cajón de mecanismos y el cierre o su bloqueo."
+        }
+      ],
+      "articles": [
+        "Art. 1.2 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Limpieza y conservación",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Situación",
+            "Qué hacer"
+          ],
+          "rows": [
+            [
+              "Limpiar el interior del cañón",
+              "Con la baqueta"
+            ],
+            [
+              "Cuidar la madera",
+              "Aceite de linaza"
+            ],
+            [
+              "El arma se ha mojado cazando",
+              "Limpiar y engrasar cuanto antes"
+            ],
+            [
+              "Dónde limpiarla en casa",
+              "En una habitación donde estés solo"
+            ]
+          ]
+        }
+      ],
+      "articles": []
+    },
+    {
+      "title": "Seguridad al guardar, transportar y manejar",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hay que guardar las armas en lugar seguro, evitar robos y accesos no autorizados, y que arma y munición no estén a mano juntas. Los rifles de caza mayor (2.ª, 2) van en caja fuerte o armero autorizados por la Guardia Civil, de al menos grado I de la norma UNE EN 1143-1, con la munición separada."
+        },
+        {
+          "type": "p",
+          "text": "Las escopetas y los rifles del .22 (3.ª, 1 y 2) se guardan en casa bajo llave, sin que arma y munición sean accesibles a la vez. Ningún arma se transporta cargada, y por vías urbanas van desmontadas o en su funda."
+        },
+        {
+          "type": "diagram",
+          "kind": "secuencia",
+          "caption": "Cada vez que coges un arma",
+          "items": [
+            "Trátala como si estuviera cargada.",
+            "Comprueba que está descargada.",
+            "Mantén el dedo fuera del disparador.",
+            "Al cerrar la escopeta, la boca hacia el suelo.",
+            "Si no conoces el arma, no la manipules.",
+            "Con rifle, mira antes dónde impactará el proyectil."
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: guardar descargadas y sin alimentar; transportar descargadas; nunca dejar la escopeta en el maletero del coche aparcado en la calle; descargar si hay gente cerca."
+        }
+      ],
+      "articles": [
+        "Art. 144.1 RD 137/1993",
+        "Art. 100.5 RD 137/1993",
+        "Art. 101.5 RD 137/1993",
+        "Art. 39.4 RD 137/1993",
+        "Art. 149.1 RD 137/1993",
+        "Art. 147.1 RD 137/1993",
+        "Apdo. 1.º Resolución DGGC 4-12-2024"
+      ]
+    }
+  ],
+  "related_questions": [
+    "t1-001",
+    "t1-002",
+    "t1-003",
+    "t1-004",
+    "t1-005",
+    "t1-006",
+    "t1-007",
+    "t1-008",
+    "t1-009",
+    "t1-010",
+    "t1-011",
+    "t1-012",
+    "t1-013",
+    "t1-014",
+    "t1-015",
+    "t1-016",
+    "t1-017",
+    "t1-018",
+    "t1-019",
+    "t1-020",
+    "t1-021",
+    "t1-022",
+    "t1-023",
+    "t1-024",
+    "t1-025",
+    "t1-026",
+    "t1-027",
+    "t1-028",
+    "t1-029",
+    "t1-030",
+    "t1-031",
+    "t1-032",
+    "t1-033",
+    "t1-034",
+    "t1-035",
+    "t1-036",
+    "t1-037",
+    "t1-038",
+    "t1-039",
+    "t1-040",
+    "t1-041",
+    "t1-042",
+    "t1-043",
+    "t1-044",
+    "t1-045",
+    "t1-046",
+    "t1-047",
+    "t1-048",
+    "t1-049",
+    "t1-050",
+    "t1-051",
+    "t1-052",
+    "t1-053",
+    "t1-054",
+    "t1-055",
+    "t1-056",
+    "t1-057",
+    "t1-058",
+    "t1-059",
+    "t1-060",
+    "t1-061",
+    "t1-062",
+    "t1-063",
+    "t1-064",
+    "t1-065",
+    "t1-066",
+    "t1-067",
+    "t1-068"
+  ],
+  "confidence": "media",
+  "sources": [
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 1"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 2"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 3"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 39"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 100"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 101"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 144"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 147"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 149"
+    },
+    {
+      "norma": "BOE-A-1998-27988",
+      "ref": "ANEXO I"
+    },
+    {
+      "norma": "BOE-A-2025-387",
+      "ref": "Primero"
+    }
+  ],
+  "review_notes": "Secciones «Cargar, alimentar, montar y asegurar» y «Limpieza y conservación» sin artículo: contenido puramente técnico (mecánica, limpieza), sin base en el Reglamento; el Anexo I de la Resolución de 19-10-1998 solo las incluye en el programa del Tema I. «Las partes del arma» cita el art. 3 solo por el ánima lisa/estriada; el resto de la tabla es técnico. Las funciones de alza (altura) y punto de mira (lateral) siguen la respuesta del cuestionario (t1-035/036), sin norma detrás. «Guardar descargadas y sin alimentar» y «descargar el arma ante otras personas» son lo que pide el banco; el art. 144.1 y el art. 147.1 no lo dicen literalmente (exigen lugar seguro, arma y munición no accesibles juntas, diligencia ante terceros). El aviso de componentes esenciales usa las mismas cifras y piezas que los avisos de t1-045 y t1-046. Verificado por Fable el 19-oct-2026; correcciones aplicadas.",
+  "reviewed": false
+}

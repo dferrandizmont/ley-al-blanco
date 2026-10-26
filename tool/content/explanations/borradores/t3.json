@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "t3-001",
+    "explanation": "La guía de circulación es el documento que ampara el traslado entre dos lugares de armas de 2.ª y 3.ª categoría (entre otras) cuando no van acompañadas de licencia o guía de pertenencia. «Guía de transporte» y «albarán» no existen en el Reglamento.",
+    "article": "Art. 31.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 31"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-002",
+    "explanation": "Si compras una escopeta fuera de tu localidad, la Intervención de Armas del lugar de compra puede expedirte la guía de circulación, a la vista del parte de venta y de tu licencia E. Luego tramitas la guía de pertenencia en la de tu residencia.",
+    "article": "Art. 42.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 42"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-003",
+    "explanation": "La guía de circulación solo hace falta cuando el arma viaja sin licencia o sin guía de pertenencia. Si el titular la lleva con su licencia y su guía de pertenencia, esos documentos ya amparan el transporte, sea dentro o fuera de la provincia.",
+    "article": "Art. 31.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 31"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 89"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-004",
+    "explanation": "La guía de circulación la expide siempre la Intervención de Armas y Explosivos correspondiente, después de comprobar las armas y las medidas de seguridad. No la firman ni el Comandante de Puesto ni el Jefe de la Comandancia.",
+    "article": "Art. 31.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 31"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-005",
+    "explanation": "La báscula es un componente esencial de las armas largas, y los componentes esenciales tienen el mismo régimen que el arma completa. Por eso, para trasladarla sola a reparar, necesita guía de circulación igual que la escopeta.",
+    "article": "Art. 1.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 1"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 31"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-006",
+    "explanation": "Cuando un arma viaja sin licencia ni guía de pertenencia, el documento que ampara su traslado es la guía de circulación. Si se manda a reparar a otra localidad, esta guía sustituye a la de pertenencia; ni el armero ni el Ayuntamiento pueden autorizar el envío.",
+    "article": "Art. 31.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 31"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-007",
+    "explanation": "La guía de circulación es obligatoria para las armas de 1.ª, 2.ª, 3.ª, 6.ª y 8.ª categoría (y para varias de la 7.ª) que viajen sin licencia ni guía de pertenencia. Por eso valen tanto las de 3.ª como las de 8.ª, que son las acústicas y de salvas.",
+    "article": "Art. 31.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 31"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-008",
+    "explanation": "Las carabinas de aire comprimido cuyo proyectil supera 24,2 julios en boca son de 3.ª categoría, y la 3.ª necesita guía de circulación. Las que no llegan a esa energía son de 4.ª categoría, que no figura entre las que la exigen.",
+    "article": "Art. 31.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 31"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-009",
+    "explanation": "Ninguna de las dos se libra: las escopetas (3.ª categoría) y las armas largas rayadas (2.ª o 3.ª categoría) necesitan guía de circulación si viajan sin licencia ni guía de pertenencia. Por eso ambas afirmaciones son falsas.",
+    "article": "Art. 31.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 31"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-010",
+    "explanation": "Las escopetas son de 3.ª categoría y las armas largas rayadas, de 2.ª o 3.ª. Ambas categorías están entre las que necesitan guía de circulación para trasladarse sin licencia ni guía de pertenencia, así que valen las dos.",
+    "article": "Art. 31.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 31"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-011",
+    "explanation": "Cuando el propietario no lleva el arma personalmente al armero de otra localidad, la guía de circulación sustituye a la guía de pertenencia. Con ella basta; no hace falta añadir la guía de pertenencia ni una autorización escrita.",
+    "article": "Art. 26.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 31"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-012",
+    "explanation": "El Reglamento lo dice así: las armas reglamentadas de cualquier categoría y sus componentes esenciales acabados deben circular en envases bien acondicionados para que vayan seguros durante el traslado. No depende del tipo de arma.",
+    "article": "Art. 34 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 34"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-013",
+    "explanation": "Nunca se pueden enviar ni transportar armas junto con cartuchería que pueda usarse en ellas. El número de armas del paquete no cambia nada: la munición siempre va aparte.",
+    "article": "Art. 39.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 39"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-014",
+    "explanation": "Los envases con armas largas de cañón estriado, armas cortas o escopetas los precinta la Intervención de Armas de la Guardia Civil o un comerciante de armas autorizado, que responde de su contenido. Ni Correos ni la empresa transportista pueden hacerlo.",
+    "article": "Art. 37 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 37"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-015",
+    "explanation": "Todas las armas reglamentadas y sus componentes esenciales deben viajar en envases acondicionados para su seguridad durante el traslado. Una funda en una caja de cartón o llevarla desmontada no cumple esa exigencia.",
+    "article": "Art. 34 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 34"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-016",
+    "explanation": "No se pueden meter en un mismo envase, ni anotar en la misma guía, armas o piezas que vayan a destinatarios distintos. Da igual que las dos fábricas estén en la misma localidad.",
+    "article": "Art. 36 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 36"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-017",
+    "explanation": "En el comercio interior, un mismo envase no puede llevar armas largas de cañón estriado (como un rifle) junto con escopetas de caza. Por eso van en paquetes separados, aunque vayan al mismo armero.",
+    "article": "Art. 35.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 35"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-018",
+    "explanation": "Es cierto, y no admite excepciones: nunca se pueden enviar ni transportar armas cargadas, ni armas junto con cartuchos que puedan usarse en ellas.",
+    "article": "Art. 39.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 39"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-019",
+    "explanation": "Los envíos de armas tienen que hacerse por ferrocarril o por empresas de transporte marítimo, aéreo o terrestre (o de seguridad, según el volumen). El correo ordinario no está entre los medios previstos, aunque el arma vaya desmontada o sin munición.",
+    "article": "Art. 39.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 39"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El art. 39.1 enumera los medios permitidos (ferrocarril, empresas de transportes, empresas de seguridad); no hay prohibición expresa de Correos. Confirmar que la lectura de lista cerrada es la que espera el examen."
+  },
+  {
+    "id": "t3-020",
+    "explanation": "Nunca: el Reglamento prohíbe en todo caso enviar o transportar armas cargadas, sean cortas o largas. Ni siquiera el Interventor de Armas puede autorizarlo.",
+    "article": "Art. 39.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 39"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-021",
+    "explanation": "Tras comprar la escopeta fuera de tu localidad con guía de circulación, tienes diez días para presentarte en la Intervención de Armas de tu residencia y pedir la guía de pertenencia.",
+    "article": "Art. 42.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 42"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-022",
+    "explanation": "Si el titular no lleva la escopeta en persona, el envío debe hacerse por ferrocarril o por una empresa de transportes, con su guía de circulación. Ni el giro postal ni un amigo son vías admitidas.",
+    "article": "Art. 39.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 39"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Art. 39.1 enumera medios (ferrocarril o empresas de transportes); la exclusión del amigo y del giro postal se deduce de esa enumeración."
+  },
+  {
+    "id": "t3-023",
+    "explanation": "La posibilidad de llevarte el arma comprada fuera con una guía de circulación está prevista solo para escopetas. Un arma larga rayada debe enviarse por los cauces de envío reglamentarios hasta tu residencia, donde se tramita y entrega su guía de pertenencia.",
+    "article": "Art. 42.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 42"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 39"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 53"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Interpretación: el art. 42.2 limita a escopetas la guía de circulación al particular; para el rifle se aplican arts. 39 y 53.2. No hay prohibición expresa literal de que el comprador lo transporte."
+  },
+  {
+    "id": "t3-024",
+    "explanation": "Están prohibidas las dos cosas: enviar armas cargadas y enviar armas junto con cartuchería que pueda usarse en ellas. Por eso valen la a) y la b).",
+    "article": "Art. 39.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 39"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-025",
+    "explanation": "Transportistas y estaciones solo admiten envases de armas con su guía de circulación, y la declaración del contenido debe figurar tanto en la documentación como en el propio paquete, con letra suficientemente clara.",
+    "article": "Art. 40.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 40"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-026",
+    "explanation": "Un rifle de caza mayor recién comprado y sin guía de pertenencia no puede llevarlo el comprador consigo: la guía de circulación al particular solo está prevista para escopetas. Debe enviarse a través de una empresa de transportes, con su guía de circulación.",
+    "article": "Art. 39.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 39"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 42"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 53"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Misma interpretación que t3-023: art. 42.2 solo prevé la guía de circulación al particular para escopetas; el resto se envía por los medios del art. 39.1."
+  },
+  {
+    "id": "t3-027",
+    "explanation": "Cuando el remitente te avisa de que el arma está consignada en la Intervención de Armas, debes ir allí con la licencia o documento que te autoriza a adquirirla, para retirarla, documentarla y firmar su recepción en la guía. La licencia de caza no basta.",
+    "article": "Art. 44.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 44"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-028",
+    "explanation": "Es cierto, y vale para cualquier arma, no solo escopetas: el destinatario particular debe presentarse en la Intervención con la licencia o documento que le autorice a adquirirla para poder retirarla.",
+    "article": "Art. 44.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 44"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-029",
+    "explanation": "Es falso: con la norma vigente todas las armas que necesitan guía de pertenencia pasan revista cada cinco años, coincidiendo con la renovación de la licencia. El plazo de tres años para la 1.ª categoría y las de concurso se suprimió en 2020.",
+    "article": "Art. 90.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "La nota del BOE confirma que la redacción anterior (3 años para 1.ª y concurso) la cambió el RD 726/2020 (vigente desde 5-11-2020). El banco ya sigue el texto nuevo."
+  },
+  {
+    "id": "t3-030",
+    "explanation": "Las armas de 2.ª categoría necesitan guía de pertenencia, y todas las armas con guía pasan revista cada cinco años.",
+    "article": "Art. 90.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-031",
+    "explanation": "Las armas de 3.ª categoría llevan guía de pertenencia, así que pasan revista cada cinco años, como todas las armas que la necesitan.",
+    "article": "Art. 90.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-032",
+    "explanation": "Sí: para pasar revista es inexcusable presentar el arma. Puedes hacerlo tú o un tercero autorizado por escrito, pero el arma tiene que estar delante.",
+    "article": "Art. 90.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-033",
+    "explanation": "Sí: no pasar dos revistas consecutivas supone la anulación y retirada de la guía de pertenencia, y el arma queda depositada. Su valor histórico no lo evita.",
+    "article": "Art. 90.5 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El enunciado dice 'dos revistas' sin 'consecutivas'; el art. 90.5 exige que sean consecutivas."
+  },
+  {
+    "id": "t3-034",
+    "explanation": "Los particulares pasan la revista en la Intervención de Armas dentro del mes en que toca renovar su licencia. El mes de abril es para colectivos concretos (personal del art. 114 y servicio exterior), no para el titular de una escopeta.",
+    "article": "Art. 90.2.d RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-035",
+    "explanation": "La revista puede pasarla un tercero si el titular le autoriza por escrito; lo que no puede faltar es la presentación del arma. Ser familiar no basta, y no interviene la Delegación del Gobierno.",
+    "article": "Art. 90.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-036",
+    "explanation": "Además de anular y retirar la guía, no pasar las revistas es una infracción leve que se sanciona con multa y retirada del arma, lo que supone abrir un expediente sancionador. No se pierde la propiedad del arma.",
+    "article": "Art. 90.5 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El art. 90.5 dice 'sin perjuicio de lo dispuesto en el artículo 157' y el 157.b) tipifica la omisión de revistas como leve; 'expediente sancionador' se deduce, no es literal."
+  },
+  {
+    "id": "t3-037",
+    "explanation": "Las anotaciones de la revista las hacen los Interventores de Armas. Solo para ciertos colectivos (personal del art. 114 y servicio exterior) las hacen sus propias autoridades.",
+    "article": "Art. 90.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-038",
+    "explanation": "Lo imprescindible es presentar el arma. No hace falta que vaya el titular en persona: puede pasarla un tercero autorizado por escrito, así que la b) es falsa.",
+    "article": "Art. 90.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-039",
+    "explanation": "No pasar una revista obligatoria es una infracción administrativa leve, que se castiga con multa y retirada del arma. No es un delito ni una falta penal.",
+    "article": "Art. 157.b RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 157"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Se apoya en el régimen sancionador del Reglamento (art. 157.b), que aún cita la LO 1/1992; la calificación como infracción administrativa no cambia."
+  },
+  {
+    "id": "t3-040",
+    "explanation": "Una escopeta de caza lleva guía de pertenencia y, como todas las armas que la necesitan, pasa revista cada cinco años.",
+    "article": "Art. 90.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-041",
+    "explanation": "Las armas de concurso tienen guía de pertenencia y pasan revista cada cinco años, como las demás. El antiguo plazo de tres años para ellas desapareció en 2020.",
+    "article": "Art. 90.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Redacción anterior del art. 90.1 (3 años para concurso) sustituida por RD 726/2020; el banco sigue la vigente. El art. 143.3 (revista anual en abril) se refiere solo a armas de guerra prestadas a la Federación de Tiro Olímpico."
+  },
+  {
+    "id": "t3-042",
+    "explanation": "Las ballestas son de 7.ª categoría y necesitan guía de pertenencia; por eso pasan revista cada cinco años, igual que las escopetas, aunque no sean armas de fuego.",
+    "article": "Art. 88 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-043",
+    "explanation": "Sí, un tercero puede presentar el arma a revista si el titular le ha autorizado por escrito. Sin esa autorización no vale, aunque aproveche la revista de sus propias armas.",
+    "article": "Art. 90.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-044",
+    "explanation": "Las de 4.ª categoría no llevan guía de pertenencia, sino tarjeta de armas, y la revista solo la pasan las armas que necesitan guía. Por eso no pasan revista.",
+    "article": "Art. 88 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 105"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-045",
+    "explanation": "En ningún caso: el Reglamento dice que presentar el arma es inexcusable, ya sea en persona o mediante un tercero autorizado por escrito. Ni la enfermedad ni la compra reciente eximen.",
+    "article": "Art. 90.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-046",
+    "explanation": "Un cañón estriado con recámara para cartuchos metálicos adaptable a escopeta es de 2.ª categoría, lleva guía de pertenencia y pasa revista cada cinco años.",
+    "article": "Art. 90.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-047",
+    "explanation": "Una carabina de repetición de gas comprimido no asimilada a escopeta es de 4.ª categoría: se documenta con tarjeta, no con guía de pertenencia, y por tanto no pasa revista.",
+    "article": "Art. 88 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 105"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-048",
+    "explanation": "Si supera 24,2 julios en boca es de 3.ª categoría, necesita guía de pertenencia y pasa revista como cualquier arma con guía, se use o no para cazar.",
+    "article": "Art. 90.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 3"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-049",
+    "explanation": "Sí: quien vende o cede un arma solo puede hacerlo a quien tenga la licencia, tarjeta o certificado de inutilización que corresponda, cuando el Reglamento lo exija. Las armas sí se pueden enajenar, pero no a cualquiera.",
+    "article": "Art. 94.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 94"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-050",
+    "explanation": "La cesión se hace con conocimiento de la Intervención de Armas, que recoge la guía de pertenencia del vendedor, la anula y expide una nueva al comprador. No se entrega al adquirente.",
+    "article": "Art. 94.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 94"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-051",
+    "explanation": "Siempre: tanto la venta entre particulares como la venta a un armero se hacen con conocimiento de la Intervención de Armas, que retira la guía del vendedor. No depende del tipo de arma.",
+    "article": "Art. 94.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 94"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 95"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-052",
+    "explanation": "Se comunica siempre. También cuando vendes a una armería (la Intervención retira y anula tu guía) y cuando regalas el arma, porque regalar también es ceder.",
+    "article": "Art. 94.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 94"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 95"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Lo del regalo se deduce de arts. 92 y 94 (cualquier cesión o paso a poder de otro); no hay mención literal a la donación."
+  },
+  {
+    "id": "t3-053",
+    "explanation": "Quien adquiere un arma debe tener la licencia correspondiente a esa arma. La licencia de caza y el seguro no sustituyen a la licencia de armas.",
+    "article": "Art. 94.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 94"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-054",
+    "explanation": "La Intervención de Armas recoge la guía del vendedor y, a la vista del arma, expide una guía de pertenencia nueva a nombre del comprador. La guía antigua no se traspasa.",
+    "article": "Art. 94.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 94"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-055",
+    "explanation": "La venta de un arma entre particulares se hace con conocimiento de la Intervención de Armas que corresponda, que es quien cambia la guía. No interviene la Policía ni la Dirección General.",
+    "article": "Art. 94.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 94"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-056",
+    "explanation": "Cierto: tanto españoles como extranjeros residentes pueden prestar sus armas de caza a quien tenga licencia de caza y la licencia de arma correspondiente (rifle o escopeta), con autorización escrita y por un máximo de quince días.",
+    "article": "Art. 91.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 91"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-057",
+    "explanation": "Para recibir un arma prestada hay que tener la licencia de armas que corresponda a esa arma (y, si es para cazar, también licencia de caza). Tener un coto o afición a la caza no basta.",
+    "article": "Art. 91.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 91"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-058",
+    "explanation": "El préstamo de armas para cazar se autoriza por un máximo de quince días y precisamente para cazar. No depende de tener un coto.",
+    "article": "Art. 91.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 91"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-059",
+    "explanation": "La cesión temporal exige una autorización escrita, fechada y firmada por el titular. De palabra o por teléfono no vale.",
+    "article": "Art. 91.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 91"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-060",
+    "explanation": "Puedes prestar tu escopeta a quien tenga la licencia de armas correspondiente y, además, licencia de caza. Solo la licencia de caza no basta.",
+    "article": "Art. 91.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 91"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-061",
+    "explanation": "El rifle de caza mayor se puede prestar a quien tenga la licencia de armas que le corresponde y licencia de caza. Con la licencia de caza sola no es suficiente.",
+    "article": "Art. 91.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 91"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-062",
+    "explanation": "Cierto: las armas de caza se pueden prestar a quien tenga licencia de caza y la licencia de arma larga rayada o de escopeta que corresponda. Es norma estatal, no depende de la comunidad autónoma.",
+    "article": "Art. 91.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 91"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-063",
+    "explanation": "Las armas prestadas deben ir siempre con su guía de pertenencia, que es el documento que las identifica y acompaña en su uso. La guía de circulación es para traslados, no para préstamos.",
+    "article": "Art. 91.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 91"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 89"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-064",
+    "explanation": "Las armas de caza sí se pueden prestar, y siempre deben ir acompañadas de sus guías de pertenencia. Las fundas no son un requisito del préstamo.",
+    "article": "Art. 91.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 91"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-065",
+    "explanation": "No: para que te presten un arma de caza necesitas licencia de caza, además de la licencia de armas correspondiente. Tener finca propia no lo suple.",
+    "article": "Art. 91.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 91"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t3-066",
+    "explanation": "Para obtener la guía de pertenencia de un arma de fuego tienes que acreditar ante la Intervención de Armas que cumples las medidas de seguridad del Reglamento para guardarla, si no lo habías hecho antes.",
+    "article": "Art. 89.5 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 89"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El art. 89.5 lo añadió el RD 726/2020 (vigente desde 5-11-2020); el banco ya lo recoge."
+  }
+]

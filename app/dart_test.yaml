@@ -1,0 +1,6 @@
+tags:
+  golden:
+    description: "Screenshot goldens of the Sereno screens (test/goldens/); regenerate with: flutter test --update-goldens --tags golden"
+  store:
+    skip: "Capturas de las tiendas (no se generan en el flutter test normal); ver tool/store/LEEME.md. Generar con: flutter test --tags store --run-skipped"
+    description: "Capturas de marketing para Google Play y App Store (build/store/); ver tool/store/LEEME.md"

@@ -1,0 +1,35 @@
+{
+  "id": "practica",
+  "verdict": "corregir",
+  "issues": [
+    {
+      "section": "Cuándo y dónde se hace",
+      "block_index": 2,
+      "problem": "La fila «Exentos: Quien tenga o haya tenido licencia A, D, E o F» da a entender que, por ejemplo, un titular de licencia E queda exento de la prueba de la D. La Orden 18-3-1998, apdo. 1.º, exime a quienes posean o hayan poseído licencia A «o, en su caso, licencia de armas D, E o F, para las armas correspondientes»: la exención por D, E o F solo vale para las armas de esa misma licencia. Es una omisión que puede llevar a error.",
+      "fix": "[\"Exentos\", \"Licencia A; o D, E o F para esas mismas armas\"]"
+    },
+    {
+      "section": "Cuándo y dónde se hace",
+      "block_index": null,
+      "problem": "La lista articles de la sección no incluye las fuentes de dos datos que sí usa: la exención y el carácter «por primera vez» (Orden 18-3-1998, apdo. 1.º) y el contenido de la convocatoria con lugar, fecha, hora, categoría de armas y número de cartuchos (Resolución DGGC 19-10-1998, apdo. 6.º). Sí están en sources, pero la guía pide que cada sección cite sus artículos.",
+      "fix": "Añadir a articles: \"Apdo. 1.º Orden 18-3-1998\" y \"Apdo. 6.º Resolución DGGC 19-10-1998\" (y, opcionalmente, \"Apdo. 2.º Orden 18-3-1998\" para las dos pruebas y los lugares de la práctica)."
+    },
+    {
+      "section": "Errores que te pueden dejar como no apto",
+      "block_index": 1,
+      "problem": "La lista omite dos aspectos negativos del anexo II que no son de seguridad sino de manejo: en la acción de cargar, «no ejecutar de forma correcta todos los actos precisos para que el arma quede lista para producir el disparo» (1.2), y en la de apuntar, no alinear correctamente los elementos de puntería ni mantener una estabilidad suficiente (2.2). Como la sección se presenta como la lista de errores del anexo, la omisión la deja incompleta frente a su propio título.",
+      "fix": "Añadir dos elementos a la lista, antes de «Poner el dedo en el disparador mientras cargas.»: \"No dejar el arma correctamente lista para disparar al cargarla.\" y \"No alinear bien las miras con el blanco o no mantener una postura estable mientras apuntas.\""
+    }
+  ],
+  "evidence": [
+    "Orden 18-3-1998, apdo. 1.º: superar las pruebas es «condición necesaria para obtener por primera vez la licencia correspondiente»; exentos «quienes posean o hayan poseído licencia de armas A, o, en su caso, licencia de armas D, E o F, para las armas correspondientes». Apdo. 2.º: dos pruebas, teórica y práctica; la práctica «en campos, polígonos o galerías de tiro legalmente autorizados». Apdo. 3.º: apto/no apto; la práctica exige haber superado la de conocimientos; el apto teórico vale seis meses. Apdo. 4.º: tres convocatorias por solicitud; no más de tres meses entre convocatorias salvo enfermedad u otros casos excepcionales justificados; no presentarse supone perder la convocatoria salvo justificación. Apdo. 6.º: justificante de tasas, sin importe.",
+    "Resolución DGGC 19-10-1998, apdo. 5.º: tribunal de la Comandancia (presidente, vocales, secretario). Apdo. 6.º: la convocatoria indica lugar, fecha y horario de cada prueba y «categoría de las armas y número de cartuchos con que debe presentarse a la prueba práctica». Apdo. 7.º: 20 preguntas tipo test, tres respuestas, apto con al menos 16. Apdo. 8.º: práctica en campos, polígonos o galerías autorizados, con armas legalizadas del centro de formación que lo presente o de una persona con licencia que le acompañe.",
+    "Anexo II Resolución DGGC 19-10-1998: cuatro acciones (cargar, apuntar, disparar, descargar). 3.º «en la posición de pie y sin apoyo» (aplica a rifle y escopeta). A) armas largas rayadas: cinco disparos a diana de 50 cm a 25 m; positivo al menos un impacto. B) escopetas: dos disparos a diana de 50 cm a 25 m; positivo «un plomeo suficiente ... de acuerdo con el arma empleada». Tabla y diagrama correctos.",
+    "Anexo II, aspectos negativos: 1.2 no cargar correctamente, boca a lugar distinto de los blancos, disparo durante la carga, dedo en el disparador; 2.2 no alinear/estabilidad insuficiente, boca a lugar distinto, disparo durante la acción; A.2/B.2 boca a lugar distinto, disparo antes o después del toque de silbato o de la señal, sin impacto o sin plomeo suficiente, cartucho sin disparar al finalizar; 4.2 no retirar casquillos, agotar el tiempo, no dejar el arma lista para cargar. La lista del documento recoge todos salvo 1.2 primer inciso y 2.2 primer inciso. El anexo no fija cuántos aspectos negativos suponen el no apto: el párrafo que lo dice es correcto. «Boca hacia los blancos» aparece en 1.2, 2.2 y A.2/B.2: el recuadro es correcto.",
+    "Art. 102.2 RD 137/1993: pruebas de capacitación sobre conocimiento de las armas, cuidado y conservación, y habilidad para su manejo y utilización, para armas largas rayadas de caza mayor o escopetas y asimiladas. Coincide con t4-066.",
+    "Art. 147 RD 137/1993: 1 «en todo momento en condiciones de controlarlas», diligencia ante otras personas; 2.b prohibido usar armas con cascos o auriculares conectados a aparatos de sonido; 2.c bajo efectos de alcohol, estupefacientes y similares. Consejos coherentes con las explicaciones de t1-060, 061, 063, 065, 066.",
+    "Corpus: no hay resolución posterior sobre las pruebas (las de 2024 son de cajas fuertes y transporte), así que no procede ningún aviso; las explicaciones de t4-066 y t1-060..068 tampoco llevan notice. No hay importes de tasas en el corpus: el documento lo dice así, sin inventarlos.",
+    "Spec §4.5 y guía: no se describe cómo apuntar a una persona (apuntar se define como alinear miras con la diana); no hay contenido de compra ni técnica de tiro avanzada; ilustraciones solo galeria_tiro, zona_segura y secuencia.",
+    "Forma: 5 secciones, 2.963 caracteres sin tablas, párrafos ≤ 400, celdas ≤ 60, sin exclamaciones ni emojis. related_questions: t4-066 (pruebas de capacitación) y t1-060..068 (seguridad en el manejo) se corresponden con el contenido; t1-062 (limpieza en casa) queda fuera con razón."
+  ]
+}

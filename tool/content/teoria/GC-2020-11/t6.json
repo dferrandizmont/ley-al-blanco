@@ -1,0 +1,376 @@
+{
+  "id": "t6",
+  "tema": 6,
+  "title": "Reparación, prueba y depósito",
+  "summary": "Quién repara o modifica un arma, cómo se prueba antes de adquirirla y cuándo se depositan las armas. Lo más preguntado son los plazos: 6 meses y 1 año por fallecimiento, 5 o 10 días para la prueba.",
+  "sections": [
+    {
+      "title": "Quién repara y con qué documentos",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Solo reparan armas de fuego las industrias que las fabricaron o los armeros autorizados por la Intervención de Armas, con establecimiento abierto e inscrito en su registro. Llevan un libro de entradas y salidas."
+        },
+        {
+          "type": "p",
+          "text": "Sin guía de pertenencia no se admite el arma. Si vives en otra localidad y no la llevas tú, la sustituye una guía de circulación de la Intervención de Armas de origen."
+        },
+        {
+          "type": "diagram",
+          "kind": "secuencia",
+          "caption": "Llevar un arma a reparar",
+          "items": [
+            "Entregas el arma con su guía de pertenencia (o con guía de circulación si la envías desde otra localidad).",
+            "El armero anota la entrada en su libro.",
+            "La guía queda en poder del armero mientras dura la reparación.",
+            "Al retirar el arma, te devuelven la guía junto con ella."
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Valen fabricantes y armeros. Puedes llevar el arma tú mismo con su guía y tu licencia, porque nadie puede llevar armas de fuego sin autorización. La guía te la devuelven al recoger el arma."
+        }
+      ],
+      "articles": [
+        "Art. 26 RD 137/1993",
+        "Art. 96.1 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Modificar un arma",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Una reparación nunca puede cambiar características, estructura o calibre sin conocimiento de la Intervención de Armas y, cuando proceda, aprobación previa. Con ambas cosas, sí es posible."
+        },
+        {
+          "type": "table",
+          "caption": "Quién aprueba los cambios",
+          "headers": [
+            "Tipo de arma",
+            "Aprueba"
+          ],
+          "rows": [
+            [
+              "Armas de guerra",
+              "Ministerio de Defensa"
+            ],
+            [
+              "Categorías 1.ª y 2.ª",
+              "Un banco oficial de pruebas"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Los fabricantes entregan a la Intervención la documentación técnica de cada modelo y la renuevan al introducir variaciones."
+        },
+        {
+          "type": "key",
+          "text": "Sin conocimiento de la Intervención, en ningún caso. Defensa solo aprueba si son armas de guerra."
+        }
+      ],
+      "articles": [
+        "Art. 26.4 RD 137/1993",
+        "Art. 24 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Probar un arma antes de adquirirla",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Fabricantes, comerciantes y sus representantes, con permiso de la Intervención, prueban armas en campos de federaciones, polígonos, campos o galerías de tiro autorizados y terrenos cinegéticos controlados. Nunca en la vía pública."
+        },
+        {
+          "type": "p",
+          "text": "Pueden dejarlas a prueba a quien quiera adquirirlas y tenga la licencia correspondiente (no hace falta licencia de caza)."
+        },
+        {
+          "type": "table",
+          "caption": "El documento para la prueba",
+          "headers": [
+            "Aspecto",
+            "Qué exige"
+          ],
+          "rows": [
+            [
+              "Carácter",
+              "Personal e intransferible"
+            ],
+            [
+              "Forma",
+              "Modelo oficial"
+            ],
+            [
+              "Contenido",
+              "El arma, la licencia y el lugar de la prueba"
+            ],
+            [
+              "Validez en la misma localidad",
+              "5 días"
+            ],
+            [
+              "Validez en otra localidad",
+              "10 días"
+            ],
+            [
+              "Requisito para valer",
+              "Visado previo de la Intervención de Armas"
+            ]
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Sin licencia no hay prueba. Sin lugar de prueba o sin visado de la Intervención, el documento no vale."
+        }
+      ],
+      "articles": [
+        "Art. 27 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Cuándo hay que depositar las armas",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Si dejas de estar habilitado (licencia caducada, guía anulada), depositas las armas inmediatamente en la Intervención, con sus guías."
+        },
+        {
+          "type": "table",
+          "caption": "Situaciones de depósito",
+          "headers": [
+            "Situación",
+            "Qué se deposita",
+            "Plazo"
+          ],
+          "rows": [
+            [
+              "Licencia caducada o guía anulada",
+              "Armas y guías",
+              "Inmediatamente"
+            ],
+            [
+              "No pasar dos revistas seguidas",
+              "El arma (se anula la guía)",
+              "Queda depositada"
+            ],
+            [
+              "Extravío de la licencia",
+              "Armas y guías, si se exige",
+              "Inmediato"
+            ],
+            [
+              "Extravío de las guías",
+              "Las armas que amparan, si se exige",
+              "Inmediato"
+            ],
+            [
+              "Fallecimiento del titular",
+              "Armas y guías",
+              "Al saberlo; máximo 6 meses"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Si pierdes la licencia o las guías, avisa en el acto: la Intervención puede darte una autorización temporal o exigir el depósito."
+        },
+        {
+          "type": "key",
+          "text": "Fallecimiento: los herederos depositan las armas en cuanto saben que deben hacerlo y, como mucho, en 6 meses (valen las dos). Se entregan las guías de pertenencia."
+        }
+      ],
+      "articles": [
+        "Art. 165.1 RD 137/1993",
+        "Art. 90.5 RD 137/1993",
+        "Art. 145.2 RD 137/1993",
+        "Art. 93 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Qué pasa con las armas depositadas",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Depositada el arma, puedes venderla a alguien con licencia o inutilizarla. Si pasa un año sin hacerlo, la Guardia Civil puede destruirla. La subasta queda para las de valor como patrimonio histórico."
+        },
+        {
+          "type": "p",
+          "text": "Los herederos tienen un año para venderlas o recuperarlas, documentándolas o inutilizándolas como recuerdo."
+        },
+        {
+          "type": "table",
+          "caption": "Plazos y destino final",
+          "headers": [
+            "Caso",
+            "Plazo a disposición",
+            "Si nadie las retira"
+          ],
+          "rows": [
+            [
+              "Depósito por perder la habilitación",
+              "1 año",
+              "Destrucción"
+            ],
+            [
+              "Herencia",
+              "1 año",
+              "Destrucción"
+            ],
+            [
+              "Ley de Caza, con devolución acordada",
+              "1 mes desde la notificación",
+              "Destrucción"
+            ],
+            [
+              "Importación no retirada en aeropuerto",
+              "1 año como máximo",
+              "Depósito; pasado el año, como las demás"
+            ],
+            [
+              "Valor acreditado como patrimonio histórico",
+              "Según el caso",
+              "Pública subasta o museos"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Las retiradas por la Ley de Caza se recuperan con punzones, licencia y guías en vigor. Las armas sin punzones obligatorios o prohibidas se destruyen."
+        },
+        {
+          "type": "key",
+          "text": "No puedes depositar tu arma para que la subasten, pero sí para que acabe en chatarra."
+        }
+      ],
+      "articles": [
+        "Art. 165.2 RD 137/1993",
+        "Art. 93 RD 137/1993",
+        "Art. 167 RD 137/1993",
+        "Art. 169.2 RD 137/1993",
+        "Art. 170 RD 137/1993"
+      ]
+    }
+  ],
+  "related_questions": [
+    "t6-001",
+    "t6-002",
+    "t6-003",
+    "t6-004",
+    "t6-005",
+    "t6-006",
+    "t6-007",
+    "t6-008",
+    "t6-009",
+    "t6-010",
+    "t6-011",
+    "t6-012",
+    "t6-013",
+    "t6-014",
+    "t6-015",
+    "t6-016",
+    "t6-017",
+    "t6-018",
+    "t6-019",
+    "t6-020",
+    "t6-021",
+    "t6-022",
+    "t6-023",
+    "t6-024",
+    "t6-025",
+    "t6-026",
+    "t6-027",
+    "t6-028",
+    "t6-029",
+    "t6-030",
+    "t6-031",
+    "t6-032",
+    "t6-033",
+    "t6-034",
+    "t6-035",
+    "t6-036",
+    "t6-037",
+    "t6-038",
+    "t6-039",
+    "t6-040",
+    "t6-041",
+    "t6-042",
+    "t6-043",
+    "t6-044",
+    "t6-045",
+    "t6-046",
+    "t6-047",
+    "t6-048",
+    "t6-049",
+    "t6-050",
+    "t6-051",
+    "t6-052",
+    "t6-053",
+    "t6-054",
+    "t6-055",
+    "t6-056",
+    "t6-057",
+    "t6-058",
+    "t6-059",
+    "t6-060",
+    "t6-061",
+    "t6-062",
+    "t6-063",
+    "t6-064"
+  ],
+  "confidence": "media",
+  "sources": [
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 24"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 26"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 27"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 90"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 93"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 96"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 145"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 165"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 167"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 169"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 170"
+    }
+  ],
+  "review_notes": "Puntos a revisar: (1) chatarra (t6-051): ningún artículo regula la entrega voluntaria para chatarra; se da la respuesta del cuestionario apoyada en el destino de destrucción del art. 165.2.b y la chatarra del art. 171. (2) t6-010: el art. 26.3 solo exige la guía; la licencia para llevar el arma sale del art. 96.1, como en la explicación. (3) Extravío de licencia (t6-047): el art. 145.2 deja elegir a la Intervención entre autorización temporal o depósito; el cuestionario simplifica a depositar armas y guías. (4) Importación (art. 169.2): el texto no dice que se destruyan; tras el año remite al régimen de los artículos anteriores (169.3), por eso la tabla pone solo el depósito. Sin avisos: no hay discrepancias entre el cuestionario y la norma vigente en este tema (art. 167.2 ya en redacción RD 726/2020). Verificado por Fable el 19-oct-2026; correcciones aplicadas.",
+  "reviewed": false
+}

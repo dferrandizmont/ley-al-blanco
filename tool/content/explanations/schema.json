@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "apto-armas/explanations/schema.json",
+  "title": "Explicaciones y avisos propios (t1.json .. t7.json)",
+  "description": "Cada fichero t{N}.json es un array de entradas, una por pregunta del tema N. Es redaccion propia: nunca se copia de academias, blogs ni de la competencia, y nunca altera el enunciado, las opciones ni la respuesta oficial. extract_questions.py fusiona por `id` y NO publica los campos internos (confidence, sources, review_notes). La validacion normativa del pipeline (ids, longitud, aviso<->flag, reviewed<->article) vive en extract_questions.py; este esquema describe la forma.",
+  "type": "array",
+  "items": { "$ref": "#/$defs/entry" },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "explanation", "confidence"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^t[1-7]-[0-9]{3}$",
+          "description": "Id de la pregunta, p. ej. t2-017. Debe estar en el fichero de su tema."
+        },
+        "explanation": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 320,
+          "description": "1-2 frases de redaccion propia (maximo 320 caracteres)."
+        },
+        "article": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "default": null,
+          "description": "Articulo citado, p. ej. 'Art. 3 RD 137/1993'. null si no hay (entonces reviewed=true exige el flag sin_articulo)."
+        },
+        "notice": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "default": null,
+          "description": "Aviso de reforma: 'Ojo: el cuestionario dice X; tras la reforma de 2023 el art. Y dice Z.' Se publica; exige un flag discrepancia_* (y viceversa). Nunca cambia la respuesta oficial."
+        },
+        "flags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "default": [],
+          "description": "Se anaden a los flags del extractor (sin duplicar). discrepancia_* (p. ej. discrepancia_reforma_2023) <-> notice; sin_articulo permite reviewed=true sin article."
+        },
+        "confidence": {
+          "enum": ["alta", "media", "baja"],
+          "description": "Interno: confianza del redactor. Solo para el informe; no se publica."
+        },
+        "sources": {
+          "type": "array",
+          "default": [],
+          "description": "Interno: normas consultadas. No se publica.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["norma", "ref"],
+            "properties": {
+              "norma": { "type": "string", "description": "Identificador BOE, p. ej. BOE-A-1993-6202." },
+              "ref": { "type": "string", "description": "Referencia dentro de la norma, p. ej. 'art. 3'." }
+            }
+          }
+        },
+        "reviewed": {
+          "type": "boolean",
+          "default": false,
+          "description": "true solo tras la revision humana del 100 %. Se publica."
+        },
+        "review_notes": {
+          "type": "string",
+          "default": "",
+          "description": "Interno: notas para el revisor. Nunca se publica."
+        }
+      }
+    }
+  }
+}

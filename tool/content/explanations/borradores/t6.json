@@ -1,0 +1,1114 @@
+[
+  {
+    "id": "t6-001",
+    "explanation": "El Reglamento solo permite reparar armas de fuego a la industria que las fabricó o a armeros autorizados por la Intervención de Armas, con establecimiento abierto e inscrito en el registro que lleva esa Intervención.",
+    "article": "Art. 26.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-002",
+    "explanation": "El arma se entrega al armero con su guía de pertenencia; si el dueño vive en otra localidad y no la lleva en persona, esa guía se sustituye por una guía de circulación. La licencia no es el documento que se pide aquí.",
+    "article": "Art. 26.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-003",
+    "explanation": "La guía de pertenencia se queda con el armero mientras dura la reparación y después se devuelve al propietario junto con el arma. Repararla no obliga a hacer una guía nueva.",
+    "article": "Art. 26.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-004",
+    "explanation": "Sí, el dueño puede llevar en persona el arma al armero con su guía de pertenencia. La guía de circulación solo hace falta cuando vive en otra localidad y no la lleva él mismo.",
+    "article": "Art. 26.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-005",
+    "explanation": "Si el dueño vive en otra localidad y no lleva el arma en persona, la guía de pertenencia se sustituye por una guía de circulación expedida por la Intervención de Armas de origen. Una simple nota no sirve, y si la lleva él mismo basta la guía de pertenencia.",
+    "article": "Art. 26.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-006",
+    "explanation": "Para reparar armas de fuego hay que ser armero autorizado por la Intervención de Armas, con establecimiento abierto e inscrito en su registro. Saber repararlas o tener una armería no basta por sí solo.",
+    "article": "Art. 26.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "La opción B dice 'Intervención de Armas de su residencia'; el art. 26.1 dice 'la misma Intervención' (la que autoriza). Sentido equivalente."
+  },
+  {
+    "id": "t6-007",
+    "explanation": "Aparte de la propia industria que fabricó el arma, solo pueden repararla armeros autorizados por la Intervención de Armas e inscritos en su registro, sea cual sea el tipo de arma de fuego.",
+    "article": "Art. 26.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El 'Sí' rotundo ignora la excepción de los fabricantes; la explicación la menciona sin contradecir la respuesta oficial."
+  },
+  {
+    "id": "t6-008",
+    "explanation": "El Reglamento autoriza expresamente a las industrias que fabricaron el arma a repararla, igual que a los armeros autorizados, sin distinguir por la gravedad de la avería ni por el tipo de arma.",
+    "article": "Art. 26.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-009",
+    "explanation": "Sin guía de pertenencia no se admite el arma, salvo que la sustituya una guía de circulación: es el caso del dueño que vive en otra localidad y no lleva el arma en persona.",
+    "article": "Art. 26.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-010",
+    "explanation": "Sí: el armero te pedirá la guía de pertenencia del arma y, como vas a llevarla tú hasta el taller, necesitas además tu licencia, porque nadie puede llevar armas de fuego sin la autorización correspondiente.",
+    "article": "Art. 26.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 96"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El art. 26.3 solo exige la guía de pertenencia; la necesidad de licencia para llevar el arma sale del art. 96.1. La opción B (solo guía) no es falsa en sí; posible ambigüedad del banco."
+  },
+  {
+    "id": "t6-011",
+    "explanation": "Pueden repararlas tanto la industria que fabricó el arma como los armeros autorizados por la Intervención de Armas con establecimiento abierto e inscrito en su registro, así que valen las dos.",
+    "article": "Art. 26.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-012",
+    "explanation": "El arma debe ir con su guía de pertenencia o, si el dueño vive en otra localidad y no la lleva en persona, con una guía de circulación que la sustituye. Según el caso vale uno u otro documento, por eso se dan por buenos los dos.",
+    "article": "Art. 26.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "La pregunta da por buena 'A y B' aunque el art. 26.3 los plantea como alternativos (uno sustituye al otro). Revisar si la explicación encaja con la intención del cuestionario."
+  },
+  {
+    "id": "t6-013",
+    "explanation": "La guía de pertenencia se queda con el armero mientras dura la reparación y se devuelve al dueño cuando recoge el arma. Por eso no se le devuelve en el momento de dejarla.",
+    "article": "Art. 26.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-014",
+    "explanation": "El armero conserva la guía durante toda la reparación y te la devuelve junto con el arma, cuando vas a retirarla de la armería.",
+    "article": "Art. 26.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-015",
+    "explanation": "Junto con el arma tienes que dejarle al armero su guía de pertenencia, que él guarda hasta que termina la reparación. La licencia no se le entrega.",
+    "article": "Art. 26.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-016",
+    "explanation": "Ninguna reparación puede cambiar las características, la estructura o el calibre de un arma sin conocimiento de la Intervención de Armas de la Guardia Civil, sea o no de caza.",
+    "article": "Art. 26.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-017",
+    "explanation": "Cambiar el calibre exige que lo sepa la Intervención de Armas y, cuando proceda, la aprobación de un banco oficial de pruebas o de Defensa. Los fabricantes, además, entregan en la Intervención la documentación técnica de sus variaciones. Las dos opciones recogen estas vías.",
+    "article": "Art. 26.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 24"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Combina art. 26.4 y art. 24. El art. 24 exige banco oficial para categorías 1.ª y 2.ª (rifles de caza sí; escopetas, 3.ª, no se mencionan). La opción A dice 'si es de caza'. Revisar redacción."
+  },
+  {
+    "id": "t6-018",
+    "explanation": "Una reparación que cambie de forma sustancial el arma solo se admite con conocimiento de la Intervención de Armas y, cuando proceda, aprobación del Ministerio de Defensa (armas de guerra) o de un banco oficial de pruebas (categorías 1.ª y 2.ª).",
+    "article": "Art. 26.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 24"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-019",
+    "explanation": "El Ministerio de Defensa aprueba los cambios solo en las armas de guerra; en las de categorías 1.ª y 2.ª la aprobación corresponde a un banco oficial de pruebas.",
+    "article": "Art. 24 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 24"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-020",
+    "explanation": "Sí, pero solo con conocimiento de la Intervención de Armas y, en su caso, aprobación del Ministerio de Defensa o de un banco oficial de pruebas según el arma. No basta con que lo haga un armero por un buen motivo.",
+    "article": "Art. 26.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 24"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-021",
+    "explanation": "Se puede, siempre que lo sepa la Intervención de Armas y lo aprueben, cuando haga falta, los organismos competentes. Lo que nunca se permite es hacerlo sin ese control o por alguien no autorizado.",
+    "article": "Art. 26.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 26"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 24"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-022",
+    "explanation": "Fabricantes y comerciantes solo pueden dejar armas a prueba a quien, interesado en comprarlas, tenga la licencia correspondiente. Ser mayor de edad o querer comprar no basta.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-023",
+    "explanation": "El Reglamento permite dejar armas a prueba a los fabricantes y comerciantes autorizados y también a sus representantes, así que valen las dos.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-024",
+    "explanation": "Para probar un arma hay que tener la licencia correspondiente; sin ella el comerciante no puede dejártela, y ningún armero puede suplir ese requisito.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-025",
+    "explanation": "El documento para probar el arma vale cinco días si la prueba se hace en la misma localidad, y diez días si es en otra.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-026",
+    "explanation": "El documento de prueba tiene que reseñar el arma, la licencia y el lugar donde se va a probar, así que el lugar no se puede omitir.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-027",
+    "explanation": "Sí: quien tenga la licencia correspondiente en vigor puede probar el arma que quiere comprar, con el documento que le expide el vendedor y que visa la Intervención de Armas.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-028",
+    "explanation": "Sí, quien tiene licencia puede probar el arma antes de comprarla, y las galerías de tiro autorizadas están entre los lugares previstos para las pruebas. No es algo reservado al viajante.",
+    "article": "Art. 27 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Los lugares (galerías, polígonos...) se enumeran en el art. 27.1 para fabricantes y comerciantes; el 27.2 solo dice que el documento reseña 'el lugar de las pruebas'."
+  },
+  {
+    "id": "t6-029",
+    "explanation": "Basta con tener la licencia de armas correspondiente y que un comerciante autorizado le deje el arma a prueba; el Reglamento no exige para esto la licencia de caza.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-030",
+    "explanation": "La condición que pone el Reglamento para dejar un arma a prueba es que el interesado tenga la licencia correspondiente. El documento del vendedor se expide precisamente a quien la tiene, y nadie tiene que acompañarle.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "La opción B ('autorización del vendedor') también es necesaria en cierto modo (documento del art. 27.2); posible ambigüedad en el banco."
+  },
+  {
+    "id": "t6-031",
+    "explanation": "El documento reseña el arma, la licencia y el lugar de las pruebas, con su plazo de validez (cinco o diez días), y no vale sin el visado previo de la Intervención de Armas. No existe un plazo de tres días.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-032",
+    "explanation": "Se expide a nombre de quien va a probar el arma y es personal e intransferible: no sirve para otra persona aunque tenga licencia.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-033",
+    "explanation": "El fabricante le da un documento personal e intransferible, según modelo oficial, que antes debe visar la Intervención de Armas. Probar no es comprar, así que no hay guía ni factura.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-034",
+    "explanation": "Lo visa la Intervención de Armas de la Guardia Civil antes de la prueba; sin ese visado el documento no es válido.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-035",
+    "explanation": "El documento se extiende conforme a un modelo oficial, no como un escrito libre ni en un número fijo de ejemplares.",
+    "article": "Art. 27.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-036",
+    "explanation": "Además de los campos de las federaciones y de los polígonos, campos o galerías de tiro autorizados, las armas pueden probarse en terrenos cinegéticos controlados. Un terreno privado o un permiso municipal no bastan.",
+    "article": "Art. 27.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-037",
+    "explanation": "Las galerías de tiro legalmente autorizadas están entre los lugares previstos para probar armas, y no hace falta permiso del alcalde.",
+    "article": "Art. 27.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-038",
+    "explanation": "Las pruebas solo pueden hacerse en los lugares que fija el Reglamento: campos de federaciones, polígonos, campos o galerías de tiro y terrenos cinegéticos controlados. La vía pública nunca está entre ellos.",
+    "article": "Art. 27.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 27"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 149"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-039",
+    "explanation": "Los herederos o albaceas deben depositarlas en cuanto sepan que tienen esa obligación y, como muy tarde, dentro de los seis meses siguientes al fallecimiento.",
+    "article": "Art. 93.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-040",
+    "explanation": "Cuando dejas de estar habilitado para tener armas, debes depositarlas inmediatamente, junto con sus guías de pertenencia.",
+    "article": "Art. 165.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 165"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-041",
+    "explanation": "El depósito es inmediato y con las guías de pertenencia: no hay un plazo de diez días, ni basta con comunicarlo y guardarlas bien.",
+    "article": "Art. 165.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 165"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-042",
+    "explanation": "No pasar dos revistas seguidas supone la anulación y retirada de la guía de pertenencia, y el arma tiene que quedar depositada.",
+    "article": "Art. 90.5 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 165"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-043",
+    "explanation": "Las armas depositadas por fallecimiento quedan un año a disposición de los herederos, por si alguno puede y quiere adquirirlas legalmente. Los seis meses son el plazo para depositarlas, no para recuperarlas.",
+    "article": "Art. 93.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-044",
+    "explanation": "Al depositarlas se entregan las guías de pertenencia, que se anulan y se comunican al Registro Nacional de Armas. El artículo no pide la licencia del fallecido ni el certificado de defunción.",
+    "article": "Art. 93.4 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-045",
+    "explanation": "Con la licencia caducada dejas de estar habilitado para tener las armas, así que debes depositarlas inmediatamente con sus guías de pertenencia.",
+    "article": "Art. 165.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 165"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 96"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El corpus no tiene una regla específica de 'caducidad'; se asimila al cese en la habilitación del art. 165.1."
+  },
+  {
+    "id": "t6-046",
+    "explanation": "Las armas se depositan con sus correspondientes guías de pertenencia, que son el documento propio de cada arma.",
+    "article": "Art. 165.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 165"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-047",
+    "explanation": "Sin licencia no puedes tener ni llevar armas de fuego, así que lo previsto es depositarlas con sus guías. La Intervención puede, en su lugar, darte una autorización temporal mientras tramita el caso.",
+    "article": "Art. 145.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 145"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 96"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 165"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "El art. 145.2 deja a la Intervención elegir entre autorización temporal o exigir el depósito; la respuesta oficial simplifica. No es cambio normativo (art. 145 sin modificaciones)."
+  },
+  {
+    "id": "t6-048",
+    "explanation": "La guía de pertenencia es lo que documenta cada arma; si la pierdes, la Intervención puede exigir el depósito de las armas que amparaba mientras tramita el caso, o darte una autorización temporal.",
+    "article": "Art. 145.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 145"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 88"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Mismo matiz que t6-047: el depósito es una de las dos opciones del art. 145.2."
+  },
+  {
+    "id": "t6-049",
+    "explanation": "El titular no puede elegir que su arma se subaste. Las armas depositadas que no reciben otro destino pueden ser destruidas; la subasta queda para las que tienen valor acreditado como patrimonio histórico.",
+    "article": "Art. 165.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 165"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Ningún artículo dice literalmente que el titular no pueda depositar para subasta; se deduce del régimen de destino del art. 165.2.b (redacción RD 726/2020)."
+  },
+  {
+    "id": "t6-050",
+    "explanation": "No: el titular no puede depositar su arma para que se subaste. Las armas depositadas sin otro destino pueden destruirse, y solo se subastan las de valor acreditado como patrimonio histórico.",
+    "article": "Art. 165.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 165"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Igual que t6-049: deducción del art. 165.2.b, no regla expresa."
+  },
+  {
+    "id": "t6-051",
+    "explanation": "Sí: puedes entregar tu arma en la Intervención de Armas para que se destruya, es decir, se reduzca a chatarra. Lo que no puedes es pedir que se subaste.",
+    "article": null,
+    "notice": null,
+    "flags": [],
+    "confidence": "baja",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 165"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 170"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 171"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "No hay en el corpus un artículo que regule la entrega voluntaria para chatarra. Los arts. 165.2.b, 170 y 171 hablan de destrucción y chatarra de armas depositadas, pero no de esta solicitud. La opción A (chatarra solo si faltan punzones o son prohibidas) se parece al art. 170.1: revisar."
+  },
+  {
+    "id": "t6-052",
+    "explanation": "Si no pasas dos revistas consecutivas, se anula y retira la guía de pertenencia y el arma tiene que quedar depositada. Una sola revista sin pasar no lleva a esto.",
+    "article": "Art. 90.5 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-053",
+    "explanation": "Los herederos o albaceas deben depositar las armas en la Intervención de Armas. Nadie puede usarlas ni quedárselas por ser familiar sin cumplir los requisitos para adquirirlas.",
+    "article": "Art. 93.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-054",
+    "explanation": "Durante el año en que el arma queda depositada, los herederos pueden venderla a quien pueda tenerla legalmente, o recuperarla documentándola o inutilizándola.",
+    "article": "Art. 93.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-055",
+    "explanation": "Si se anula la guía, el arma ya no está documentada a tu nombre y no puedes seguir teniéndola: hay que depositarla inmediatamente en la Intervención de Armas.",
+    "article": "Art. 165.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "media",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 165"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 90"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "No hay regla general de 'anulación de guía'; se apoya en art. 90.5 (anulación por revistas -> depósito) y en el depósito inmediato del art. 165.1."
+  },
+  {
+    "id": "t6-056",
+    "explanation": "Los dos plazos van juntos: deben depositarla en cuanto sepan que están obligados y, en cualquier caso, dentro de los seis meses siguientes al fallecimiento.",
+    "article": "Art. 93.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-057",
+    "explanation": "El límite para depositarla son los seis meses siguientes al fallecimiento. El año es el tiempo que el arma queda luego depositada a disposición de los herederos, no el plazo para entregarla.",
+    "article": "Art. 93.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-058",
+    "explanation": "Sí, las armas retiradas por infracción de la Ley de Caza pueden recuperarse como fija esa ley, siempre que tengan los punzones de banco oficial cuando hagan falta y el dueño tenga licencia y guías en vigor.",
+    "article": "Art. 167.1 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 167"
+      },
+      {
+        "norma": "BOE-A-1970-369",
+        "ref": "art. 51"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-059",
+    "explanation": "Si se acuerda devolverlas y el dueño no las recoge en el mes siguiente a la notificación, la Guardia Civil puede destruirlas. Solo se subastan las que tienen valor acreditado como patrimonio histórico.",
+    "article": "Art. 167.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 167"
+      },
+      {
+        "norma": "BOE-A-1970-369",
+        "ref": "art. 51"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Redacción del art. 167.2 dada por RD 726/2020 (antes: venta en pública subasta). El cuestionario ya sigue la redacción vigente."
+  },
+  {
+    "id": "t6-060",
+    "explanation": "Pasado el año sin que se vendan ni se recuperen, la Guardia Civil puede destruirlas. Solo las que tienen valor acreditado como patrimonio histórico se subastan o se ceden a museos.",
+    "article": "Art. 93.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": "Art. 93.3 en redacción RD 726/2020 (antes: subasta). El cuestionario coincide con la vigente."
+  },
+  {
+    "id": "t6-061",
+    "explanation": "Cuando pasa el plazo sin que el arma se haya transferido ni recuperado, la Guardia Civil puede destruirla, salvo que tenga valor acreditado como patrimonio histórico.",
+    "article": "Art. 165.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 165"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-062",
+    "explanation": "Las armas importadas que nadie retira tras el despacho de aduanas se envían a la Intervención de Armas, que las mantiene depositadas un año como máximo y avisa a los interesados.",
+    "article": "Art. 169.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 169"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-063",
+    "explanation": "Tras el despacho de aduanas, las armas no retiradas se remiten a la Intervención de Armas, que ordena su depósito a disposición de los interesados. No se venden ni se devuelven sin más.",
+    "article": "Art. 169.2 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 169"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  },
+  {
+    "id": "t6-064",
+    "explanation": "Las armas con valor acreditado como patrimonio histórico no se destruyen: se venden en pública subasta, o se ceden a museos u organismos culturales, y el importe es para el interesado o sus herederos.",
+    "article": "Art. 93.3 RD 137/1993",
+    "notice": null,
+    "flags": [],
+    "confidence": "alta",
+    "sources": [
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 93"
+      },
+      {
+        "norma": "BOE-A-1993-6202",
+        "ref": "art. 165"
+      }
+    ],
+    "reviewed": false,
+    "review_notes": ""
+  }
+]

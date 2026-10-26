@@ -1,0 +1,826 @@
+{
+  "id": "glosario",
+  "tema": null,
+  "title": "Glosario",
+  "summary": "Los términos que más se confunden en el examen, con una definición corta y, cuando la hay, el artículo de donde sale. Están agrupados por temas y, dentro de cada uno, en orden alfabético.",
+  "sections": [
+    {
+      "title": "Armas de fuego según cómo disparan",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Arma acústica y de salvas",
+              "text": "Arma de fuego transformada para usar solo cartuchos de fogueo en recreaciones históricas, rodajes, artes escénicas y espectáculos públicos. Es la 8.ª categoría.",
+              "article": "Art. 2.1 RD 137/1993"
+            },
+            {
+              "term": "Arma automática",
+              "text": "Se recarga sola después de cada disparo y sigue disparando mientras mantienes accionado el disparador. Es arma de guerra: los particulares no pueden tenerla.",
+              "article": "Art. 2.5 RD 137/1993"
+            },
+            {
+              "term": "Arma basculante",
+              "text": "No tiene depósito de munición: se carga metiendo a mano un cartucho en la recámara y se cierra mediante báscula. Puede tener uno o varios cañones.",
+              "article": "Art. 2.6 RD 137/1993"
+            },
+            {
+              "term": "Arma corta",
+              "text": "Arma de fuego con cañón de 30 cm como máximo o con una longitud total de 60 cm como máximo. Pistolas y revólveres son la 1.ª categoría.",
+              "article": "Art. 2.13 RD 137/1993"
+            },
+            {
+              "term": "Arma de avancarga",
+              "text": "La carga de proyección y el proyectil se introducen por la boca del cañón o, en su caso, por la de la recámara del tambor. Usa pólvora negra o similar. Va en la 6.ª categoría.",
+              "article": "Art. 2.11 RD 137/1993"
+            },
+            {
+              "term": "Arma de fuego",
+              "text": "Arma portátil con cañón que lanza, o puede transformarse fácilmente para lanzar, un perdigón, una bala o un proyectil por la acción de un combustible propulsor.",
+              "article": "Art. 2.12 RD 137/1993"
+            },
+            {
+              "term": "Arma de repetición",
+              "text": "Después de cada disparo la recargas tú: accionas un mecanismo, como el cerrojo, que lleva al cañón un cartucho del depósito de municiones.",
+              "article": "Art. 2.15 RD 137/1993"
+            },
+            {
+              "term": "Arma de un solo tiro",
+              "text": "No tiene depósito de munición: antes de cada disparo metes a mano un cartucho en la recámara o en un alojamiento a la entrada del cañón.",
+              "article": "Art. 2.16 RD 137/1993"
+            },
+            {
+              "term": "Arma Flobert",
+              "text": "Arma de fuego que usa munición de calibre Flobert, siempre de percusión anular. Su energía en boca no puede pasar de 100 julios. Es la 7.ª, 4.",
+              "article": "Art. 2.17 RD 137/1993"
+            },
+            {
+              "term": "Arma larga",
+              "text": "Cualquier arma de fuego que no sea corta, como los rifles y las escopetas.",
+              "article": "Art. 2.14 RD 137/1993"
+            },
+            {
+              "term": "Arma semiautomática",
+              "text": "Se recarga sola después de cada disparo, pero solo hace un disparo cada vez que accionas el disparador.",
+              "article": "Art. 2.21 RD 137/1993"
+            }
+          ]
+        }
+      ],
+      "articles": [
+        "Art. 2 RD 137/1993",
+        "Art. 3 RD 137/1993",
+        "Art. 6.1 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Otras armas, categorías y prohibiciones",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Arma asimilada a arma de fuego",
+              "text": "Arma u objeto que, por sus características y peligrosidad, tiene el mismo régimen que un arma de fuego. Lo son siempre las de la 3.ª, 3 y las ballestas y lanzacabos (7.ª, 2 y 3).",
+              "article": "Art. 2.3 RD 137/1993"
+            },
+            {
+              "term": "Arma blanca",
+              "text": "Arma con una hoja metálica u otro material parecido, cortante o punzante. Las que no están prohibidas forman la 5.ª categoría.",
+              "article": "Art. 2.7 RD 137/1993"
+            },
+            {
+              "term": "Arma combinada",
+              "text": "Une piezas intercambiables o fijas de dos o más armas de distinta categoría, que se usan por separado o juntas. Se documenta según su parte más peligrosa.",
+              "article": "Art. 2.8 RD 137/1993"
+            },
+            {
+              "term": "Arma de aire comprimido",
+              "text": "Lanza el proyectil con la fuerza de un gas comprimido que se expande. Si pasa de 24,2 julios en boca es de la 3.ª, 3; las demás carabinas, pistolas y revólveres de aire van en la 4.ª.",
+              "article": "Art. 2.9 RD 137/1993"
+            },
+            {
+              "term": "Arma de alarma y señales",
+              "text": "Dispositivo que solo dispara cartuchos de fogueo, irritantes o de señalización y que no puede transformarse para lanzar un proyectil. Con las lanzabengalas, es la 7.ª, 6.",
+              "article": "Art. 2.10 RD 137/1993"
+            },
+            {
+              "term": "Arma de guerra",
+              "text": "Las de calibre de 20 mm o más, las de calibres que Defensa considere de guerra y todas las automáticas, con sus municiones y componentes esenciales. Prohibidas a particulares.",
+              "article": "Art. 6.1 RD 137/1993"
+            },
+            {
+              "term": "Arma prohibida",
+              "text": "Las del art. 4 nadie puede fabricarlas, venderlas, tenerlas ni usarlas: el cuestionario las llama «prohibidas». Las del art. 5 (silenciadores, cañones recortados) solo las tienen funcionarios habilitados: «prohibidas a particulares».",
+              "article": "Art. 4.1 RD 137/1993"
+            },
+            {
+              "term": "Arma reglamentada",
+              "text": "Arma cuya adquisición, tenencia y uso se pueden autorizar según el Reglamento. El art. 3 las reparte en nueve categorías por sus características, peligrosidad y uso.",
+              "article": "Art. 3 RD 137/1993"
+            },
+            {
+              "term": "Ballesta",
+              "text": "Arma asimilada de la 7.ª, 2. Aunque no es de fuego, se documenta con licencia E y guía de pertenencia y pasa revista.",
+              "article": "Art. 101.1 RD 137/1993"
+            },
+            {
+              "term": "Cañones recortados",
+              "text": "Las armas largas con los cañones recortados están prohibidas: solo pueden tenerlas funcionarios especialmente habilitados.",
+              "article": "Art. 5.1.c RD 137/1993"
+            },
+            {
+              "term": "Navaja automática",
+              "text": "Está prohibida para todos, igual que los bastones-estoque y los puñales de cualquier clase.",
+              "article": "Art. 4.1.f RD 137/1993"
+            },
+            {
+              "term": "Navaja de más de 11 cm",
+              "text": "Navaja no automática con hoja de más de 11 cm, medida desde el tope del mango. Prohibida, salvo comprarla y tenerla solo en tu domicilio como adorno o colección.",
+              "article": "Art. 5.3 RD 137/1993"
+            },
+            {
+              "term": "Puñal",
+              "text": "Arma blanca de dos filos, puntiaguda y con hoja de menos de 11 cm. Está prohibida. Si la hoja pasa de 11 cm ya no es puñal.",
+              "article": "Art. 4.1.f RD 137/1993"
+            },
+            {
+              "term": "Silenciador",
+              "text": "Dispositivo concebido o adaptado para reducir el sonido del disparo. Los adaptables a armas de fuego están prohibidos, sea cual sea el arma.",
+              "article": "Art. 5.1.k RD 137/1993"
+            }
+          ]
+        }
+      ],
+      "articles": [
+        "Art. 2 RD 137/1993",
+        "Art. 3 RD 137/1993",
+        "Art. 4.1 RD 137/1993",
+        "Art. 5 RD 137/1993",
+        "Art. 6.1 RD 137/1993",
+        "Art. 101.1 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Colección, copias e inutilización",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Arma antigua",
+              "text": "Arma de fuego cuyo modelo o año de fabricación es anterior al 1 de enero de 1890. Va en la 6.ª categoría. Si te dicen 1899, es falso.",
+              "article": "Art. 2.2 RD 137/1993"
+            },
+            {
+              "term": "Arma artística",
+              "text": "Arma de fuego con una ornamentación distinta a la de las demás de su clase, por sus materiales nobles o su diseño, que le da un valor especial.",
+              "article": "Art. 2.4 RD 137/1993"
+            },
+            {
+              "term": "Arma histórica",
+              "text": "Arma de fuego ligada especialmente a un hecho o personaje histórico relevante, siempre que esa relación esté acreditada.",
+              "article": "Art. 2.18 RD 137/1993"
+            },
+            {
+              "term": "Arma inutilizada",
+              "text": "Arma de fuego con todos sus componentes esenciales inservibles para siempre y sin forma de reactivarla, según la ITC 2. Es la 9.ª categoría.",
+              "article": "Art. 2.19 RD 137/1993"
+            },
+            {
+              "term": "Certificado de inutilización",
+              "text": "Lo emite el banco oficial de pruebas o la entidad verificadora tras comprobar la inutilización. Con él puedes tener en casa armas inutilizadas sin límite de número.",
+              "article": "Art. 108 RD 137/1993"
+            },
+            {
+              "term": "Coleccionista",
+              "text": "Persona o entidad autorizada que reúne y conserva armas, componentes esenciales o munición con fines históricos, culturales, científicos, técnicos, educativos o de patrimonio.",
+              "article": "Art. 2.23 RD 137/1993"
+            },
+            {
+              "term": "Desmilitarización",
+              "text": "Actividad industrial que transforma en civil o desbarata un arma de guerra.",
+              "article": "Art. 2.25 RD 137/1993"
+            },
+            {
+              "term": "Guía especial",
+              "text": "La que expide la Intervención de Armas para cada traslado de un arma inscrita en el Libro-Registro de coleccionista, con su destino concreto.",
+              "article": "Art. 107.b RD 137/1993"
+            },
+            {
+              "term": "Imitación o réplica",
+              "text": "Objeto que por su aspecto puede confundirse con un arma, aunque no pueda transformarse en ella. Ojo: la 6.ª, 2 también llama réplicas a copias de armas antiguas que sí disparan.",
+              "article": "Art. 2.27 RD 137/1993"
+            },
+            {
+              "term": "Libro-Registro de coleccionista",
+              "text": "Libro diligenciado por la Intervención de Armas en el que se anotan las altas y bajas de la colección. Las armas inscritas se pueden poseer, pero no usar.",
+              "article": "Art. 107.b RD 137/1993"
+            },
+            {
+              "term": "Reproducción",
+              "text": "Copia de un arma original que reúne todas sus características, aptitudes y posibilidades de uso: funciona como el original.",
+              "article": "Art. 2.35 RD 137/1993"
+            }
+          ]
+        }
+      ],
+      "articles": [
+        "Art. 2 RD 137/1993",
+        "Art. 3 RD 137/1993",
+        "Art. 107 RD 137/1993",
+        "Art. 108 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Piezas y funcionamiento",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Alimentar",
+              "text": "Meter los cartuchos en el depósito o mecanismo de alimentación del arma. No es lo mismo que cargarla."
+            },
+            {
+              "term": "Alza",
+              "text": "Elemento trasero de puntería. Para el cuestionario, el alza corrige la altura del impacto y el punto de mira, el desvío lateral."
+            },
+            {
+              "term": "Ánima",
+              "text": "Interior del cañón, por donde avanza el proyectil. En las escopetas suele ser lisa, aunque hay cañones con rayas; en los rifles es rayada o estriada."
+            },
+            {
+              "term": "Arma montada",
+              "text": "Arma con el mecanismo de disparo y percusión listo para funcionar: dispara en cuanto se accione el disparador."
+            },
+            {
+              "term": "Báscula",
+              "text": "En las escopetas paralelas y superpuestas, cuerpo del arma sobre el que basculan los cañones para abrirla y cerrarla. Es componente esencial.",
+              "article": "Art. 1.2 RD 137/1993"
+            },
+            {
+              "term": "Boca",
+              "text": "Extremo delantero del cañón, por donde sale el proyectil. Es el extremo contrario a la recámara."
+            },
+            {
+              "term": "Cajón de mecanismos",
+              "text": "Cuerpo del arma larga que aloja sus mecanismos. Es componente esencial, igual que el cañón y el cerrojo o la báscula.",
+              "article": "Art. 1.2 RD 137/1993"
+            },
+            {
+              "term": "Cañón",
+              "text": "Tubo que conduce el proyectil y lo estabiliza en su trayectoria. Es componente esencial tanto en las armas cortas como en las largas.",
+              "article": "Art. 1.2 RD 137/1993"
+            },
+            {
+              "term": "Cargador",
+              "text": "Depósito, a menudo extraíble, cuyo muelle sube los cartuchos frente a la recámara. Para percusión central están prohibidos los de más de 20 cartuchos (corta) o 10 (larga).",
+              "article": "Art. 5.1.e RD 137/1993"
+            },
+            {
+              "term": "Cargar",
+              "text": "En el lenguaje del cuestionario, dejar el arma lista para disparar, con un cartucho en la recámara."
+            },
+            {
+              "term": "Cerrojo o cierre",
+              "text": "Pieza móvil que lleva el cartucho a la recámara y la cierra; en el rifle aloja el percutor. Es componente esencial.",
+              "article": "Art. 1.2 RD 137/1993"
+            },
+            {
+              "term": "Choke",
+              "text": "Estrechamiento del cañón de la escopeta en la boca, que concentra los perdigones y regula su dispersión. El rifle no lleva choke."
+            },
+            {
+              "term": "Componentes esenciales",
+              "text": "Piezas con el mismo régimen que el arma. En las cortas: armazón, cañón, tambor y corredera o cerrojo. En las largas: cajón de mecanismos, cañón, cerrojo o báscula y cierre.",
+              "article": "Art. 1.2 RD 137/1993"
+            },
+            {
+              "term": "Culata",
+              "text": "Parte trasera del arma larga que se apoya en el hombro para disparar. No es componente esencial."
+            },
+            {
+              "term": "Disparador",
+              "text": "Pieza que acciona el tirador para que el arma dispare. Lo protege el guardamonte."
+            },
+            {
+              "term": "Expulsor",
+              "text": "Pieza que lanza fuera del arma la vaina ya extraída. En las escopetas superpuestas solo lo llevan algunos modelos."
+            },
+            {
+              "term": "Extractor",
+              "text": "Uña del cierre que agarra el culote del cartucho y lo saca de la recámara al abrir el arma."
+            },
+            {
+              "term": "Guardamonte",
+              "text": "Arco que rodea el disparador y lo protege de golpes y roces."
+            },
+            {
+              "term": "Percutor",
+              "text": "Pieza que golpea el pistón o fulminante del cartucho para iniciar el disparo. Si disparas en vacío, la aguja percutora puede romperse."
+            },
+            {
+              "term": "Pieza",
+              "text": "Todo elemento concebido para un arma de fuego e indispensable para que funcione. También lo es cualquier dispositivo para disminuir el sonido del disparo.",
+              "article": "Art. 1.2 RD 137/1993"
+            },
+            {
+              "term": "Punto de mira",
+              "text": "Elemento delantero de puntería, sobre el cañón. Con el alza sirve para enfilar el arma hacia el blanco."
+            },
+            {
+              "term": "Recámara",
+              "text": "Alojamiento del cartucho al principio del cañón, desde donde se dispara. Su forma copia la del cartucho."
+            },
+            {
+              "term": "Seguro",
+              "text": "Mando que bloquea el mecanismo de disparo a voluntad del tirador. En posición «S» el arma no dispara, aunque esté montada."
+            }
+          ]
+        },
+        {
+          "type": "notice",
+          "text": "Ojo: el cuestionario habla de «piezas fundamentales» y da por buenas la báscula y el cañón (escopeta) y el cerrojo y el cañón (rifle). El art. 1.2 las llama hoy «componentes esenciales» y para armas largas da una lista más amplia."
+        }
+      ],
+      "articles": [
+        "Art. 1.2 RD 137/1993",
+        "Art. 5.1.e RD 137/1993"
+      ]
+    },
+    {
+      "title": "Munición",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Bala",
+              "text": "Proyectil único del cartucho de rifle, pistola o revólver. El rayado del cañón la hace girar para que vuele estable."
+            },
+            {
+              "term": "Calibre",
+              "text": "Medida del diámetro del cañón o del proyectil, en milímetros o en pulgadas: el .22 americano equivale a 5,6 mm. Las escopetas usan su propia numeración."
+            },
+            {
+              "term": "Cartucho",
+              "text": "Unidad de munición: la vaina con su pistón, la carga de pólvora y el proyectil, que puede ser una bala o perdigones."
+            },
+            {
+              "term": "Culote",
+              "text": "Base de la vaina, donde va el pistón y donde agarra la uña extractora para sacar el cartucho."
+            },
+            {
+              "term": "Munición",
+              "text": "El cartucho completo o sus componentes autorizados: vainas, cebos, carga propulsora y balas o proyectiles. La vaina sola también es munición.",
+              "article": "Art. 2.29 RD 137/1993"
+            },
+            {
+              "term": "Munición dum-dum o de punta hueca",
+              "text": "Munición para pistolas y revólveres con este tipo de proyectiles. Está prohibida, y también los propios proyectiles.",
+              "article": "Art. 5.1.m RD 137/1993"
+            },
+            {
+              "term": "Munición expansiva",
+              "text": "Su proyectil se deforma y se expande al impactar en un blanco parecido al tejido carnoso, para transmitirle el máximo de energía. Es la que el cuestionario espera para caza mayor.",
+              "article": "Art. 2.33 RD 137/1993"
+            },
+            {
+              "term": "Munición perforante, explosiva o incendiaria",
+              "text": "Munición de uso militar: perfora blindajes, explota al impactar o se inflama con el aire o el impacto. Está prohibida, igual que sus proyectiles.",
+              "article": "Art. 5.1.l RD 137/1993"
+            },
+            {
+              "term": "Percusión anular",
+              "text": "El cebo va en el reborde de la base del cartucho. La usan los rifles del .22 de la 3.ª, 1 y las armas Flobert."
+            },
+            {
+              "term": "Percusión central",
+              "text": "El pistón va en el centro del culote y el percutor lo golpea ahí. Es la de los rifles de caza mayor."
+            },
+            {
+              "term": "Perdigones y plomeo",
+              "text": "Los perdigones son las bolitas que dispara la escopeta en cada cartucho; el plomeo es cómo se reparten al llegar al blanco, y lo regula el choke."
+            },
+            {
+              "term": "Pistón o fulminante",
+              "text": "Cápsula del culote con la mezcla que se inflama cuando la golpea el percutor y prende la pólvora. El Reglamento lo llama cebo."
+            },
+            {
+              "term": "Pólvora negra",
+              "text": "Carga de proyección de las armas de avancarga. Es la única munición que pueden usar las reproducciones de armas antiguas, y del calibre del original.",
+              "article": "Art. 11 Orden INT/2202/2014"
+            },
+            {
+              "term": "Vaina",
+              "text": "Envoltura del cartucho que contiene la pólvora y lleva el pistón. Forma parte de la munición y, tras el disparo, la saca el extractor.",
+              "article": "Art. 2.29 RD 137/1993"
+            }
+          ]
+        }
+      ],
+      "articles": [
+        "Art. 2.29 RD 137/1993",
+        "Art. 2.33 RD 137/1993",
+        "Art. 5.1 RD 137/1993",
+        "Art. 11 Orden INT/2202/2014"
+      ]
+    },
+    {
+      "title": "Licencias, guías y documentos",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Autorización especial para menores",
+              "text": "Permite a menores desde los 14 años usar, sin poseerlas, armas de la 3.ª y, desde los 16, rifles de caza mayor, para cazar o para tiro con categoría junior. Vale hasta la mayoría de edad.",
+              "article": "Art. 109 RD 137/1993"
+            },
+            {
+              "term": "Autorización temporal de uso",
+              "text": "La que puede darte la Intervención de Armas al pedir la nueva concesión de una licencia a punto de caducar, mientras te la recoge. Vale tres meses.",
+              "article": "Art. 103 RD 137/1993"
+            },
+            {
+              "term": "Banco oficial de pruebas",
+              "text": "Organismo que marca las armas con sus punzones y verifica y certifica su inutilización. Las de avancarga necesitan su certificado para poder usarse.",
+              "article": "Art. 108 RD 137/1993"
+            },
+            {
+              "term": "Cesión temporal (préstamo)",
+              "text": "Puedes prestar tus armas de caza a quien tenga licencia de caza y la de armas que corresponda, con autorización escrita, fechada y firmada, para cazar y quince días como máximo.",
+              "article": "Art. 91.1 RD 137/1993"
+            },
+            {
+              "term": "Guía de circulación",
+              "text": "Documento que ampara el traslado de un arma entre dos lugares cuando no va con licencia y guía de pertenencia. La expide la Intervención de Armas.",
+              "article": "Art. 31.1 RD 137/1993"
+            },
+            {
+              "term": "Guía de pertenencia",
+              "text": "Documento de cada arma con los datos de su dueño, de su licencia y del arma. La expide la Intervención de Armas y acompaña al arma en su uso, depósito y transporte.",
+              "article": "Art. 89 RD 137/1993"
+            },
+            {
+              "term": "Informe de aptitudes psicofísicas",
+              "text": "Informe de aptitud que acredita que puedes tener y usar armas. Se presenta para obtener y renovar licencias y autorizaciones especiales.",
+              "article": "Art. 98.3 RD 137/1993"
+            },
+            {
+              "term": "Intervención de Armas",
+              "text": "Oficina de la Guardia Civil que controla las armas: expide las guías, pasa las revistas y recibe los depósitos. Cada Compañía territorial tiene una.",
+              "article": "Art. 8.2 RD 137/1993"
+            },
+            {
+              "term": "Licencia A",
+              "text": "Documenta las armas de propiedad privada del personal de las Fuerzas Armadas, de las Fuerzas y Cuerpos de Seguridad y del Servicio de Vigilancia Aduanera.",
+              "article": "Art. 96.3 RD 137/1993"
+            },
+            {
+              "term": "Licencia B",
+              "text": "Para armas cortas de particulares. Solo se concede a quien acredita necesidad, ampara un arma y vale cinco años. La defensa propia no basta por sí sola.",
+              "article": "Art. 99 RD 137/1993"
+            },
+            {
+              "term": "Licencia C",
+              "text": "Para las armas de dotación del personal de vigilancia y seguridad que no sea militar ni policial.",
+              "article": "Art. 96.4.b RD 137/1993"
+            },
+            {
+              "term": "Licencia D",
+              "text": "Para rifles de caza mayor (2.ª, 2): hasta cinco armas y cinco años de validez. Nadie puede tener más de una.",
+              "article": "Art. 100.2 RD 137/1993"
+            },
+            {
+              "term": "Licencia E",
+              "text": "Para las armas de la 3.ª y para ballestas y lanzacabos: hasta seis escopetas o seis rifles de tiro, y doce armas en total. Vale cinco años.",
+              "article": "Art. 101 RD 137/1993"
+            },
+            {
+              "term": "Licencia F",
+              "text": "Para armas de concurso de tiradores federados. Tiene tres clases: la tercera ampara un arma; la segunda, hasta seis; la primera, hasta diez.",
+              "article": "Art. 132.1 RD 137/1993"
+            },
+            {
+              "term": "Pruebas de capacitación",
+              "text": "Pruebas sobre conocimiento, cuidado y conservación de las armas y habilidad para manejarlas. Hay que superarlas para obtener la licencia D o la E.",
+              "article": "Art. 102.2 RD 137/1993"
+            },
+            {
+              "term": "Revista de armas",
+              "text": "Presentar el arma en la Intervención de Armas cada cinco años, al renovar la licencia. Si no pasas dos revistas seguidas, se anula la guía y el arma queda depositada.",
+              "article": "Art. 90 RD 137/1993"
+            },
+            {
+              "term": "Tarjeta de armas",
+              "text": "La concede el alcalde para las armas de aire de la 4.ª. La A ampara hasta seis de la 4.ª, 1 y vale cinco años; la B, sin límite de la 4.ª, 2, y es permanente.",
+              "article": "Art. 105 RD 137/1993"
+            },
+            {
+              "term": "Tarjeta Europea de Armas de Fuego",
+              "text": "Documento para viajar con tus armas por la Unión Europea. La expide la Guardia Civil a residentes en España, vale hasta cinco años y se prorroga si sigues siendo titular.",
+              "article": "Art. 113.1 RD 137/1993"
+            },
+            {
+              "term": "Visado de la licencia",
+              "text": "Las licencias de los mayores de 67 años se visan a los tres años de su expedición, con un nuevo informe de aptitud psicofísica favorable.",
+              "article": "Art. 104.1 RD 137/1993"
+            }
+          ]
+        }
+      ],
+      "articles": [
+        "Art. 8.2 RD 137/1993",
+        "Art. 31.1 RD 137/1993",
+        "Art. 89 RD 137/1993",
+        "Art. 90 RD 137/1993",
+        "Art. 91.1 RD 137/1993",
+        "Art. 96 RD 137/1993",
+        "Art. 98.3 RD 137/1993",
+        "Art. 99 RD 137/1993",
+        "Art. 100 RD 137/1993",
+        "Art. 101 RD 137/1993",
+        "Art. 102.2 RD 137/1993",
+        "Art. 103 RD 137/1993",
+        "Art. 104.1 RD 137/1993",
+        "Art. 105 RD 137/1993",
+        "Art. 108 RD 137/1993",
+        "Art. 109 RD 137/1993",
+        "Art. 113.1 RD 137/1993",
+        "Art. 132.1 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Términos legales y sanciones",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Armero",
+              "text": "Persona o empresa que se dedica a fabricar, comerciar, alquilar, reparar, modificar o transformar armas de fuego o componentes esenciales, o a fabricar, comerciar o transformar munición.",
+              "article": "Art. 2.22 RD 137/1993"
+            },
+            {
+              "term": "Comiso",
+              "text": "Sanción accesoria de la Ley Orgánica 4/2015: pierdes los bienes o instrumentos con los que se cometió la infracción, salvo que sean de un tercero de buena fe.",
+              "article": "Art. 39.2.b LO 4/2015"
+            },
+            {
+              "term": "Decomiso de armas",
+              "text": "Cuando una autoridad o sus agentes decomisan o intervienen armas, deben dar cuenta a la Guardia Civil y depositarlas en la Intervención de Armas.",
+              "article": "Art. 166.1 RD 137/1993"
+            },
+            {
+              "term": "Delito",
+              "text": "Infracción penal, que juzgan los tribunales. Si un hecho con armas puede ser delito, se envía al Ministerio Fiscal y el expediente administrativo se para hasta que decida la vía penal.",
+              "article": "Art. 161 RD 137/1993"
+            },
+            {
+              "term": "Depósito de armas",
+              "text": "Entrega obligatoria de las armas, con sus guías, en la Intervención de Armas cuando dejas de estar habilitado. Si en un año no se venden ni inutilizan, pueden destruirse.",
+              "article": "Art. 165 RD 137/1993"
+            },
+            {
+              "term": "Fallecimiento del titular",
+              "text": "Los herederos depositan las armas en cuanto saben que deben hacerlo y, como mucho, a los seis meses. Tienen un año para venderlas, documentarlas o inutilizarlas.",
+              "article": "Art. 93 RD 137/1993"
+            },
+            {
+              "term": "Incautación",
+              "text": "Medida que acompaña a muchas multas del Reglamento: se quitan las armas, municiones, cargadores o instrumentos usados en la infracción.",
+              "article": "Art. 156 RD 137/1993"
+            },
+            {
+              "term": "Infracción grave",
+              "text": "Por ejemplo, tener armas sin la licencia necesaria, no guardarlas en casa con las medidas obligatorias o portarlas en establecimientos públicos o lugares de reunión.",
+              "article": "Art. 156 RD 137/1993"
+            },
+            {
+              "term": "Infracción leve",
+              "text": "La de menos gravedad. Por ejemplo, no pasar revista, no exhibir el arma a los agentes o no avisar de la pérdida de la licencia o de la guía.",
+              "article": "Art. 157 RD 137/1993"
+            },
+            {
+              "term": "Infracción muy grave",
+              "text": "La más grave. Por ejemplo, fabricar, reparar o almacenar armas de fuego sin autorización, o usar armas cortas sin licencia o sin guía de pertenencia.",
+              "article": "Art. 155 RD 137/1993"
+            },
+            {
+              "term": "Non bis in idem",
+              "text": "Principio por el que no se sanciona un hecho ya sancionado, penal o administrativamente, cuando coinciden el sujeto, el hecho y el fundamento.",
+              "article": "Art. 45.1 LO 4/2015"
+            },
+            {
+              "term": "Prescripción de la infracción",
+              "text": "Si pasa el plazo sin que la Administración actúe, ya no se puede sancionar. El cuestionario espera 3 meses (leve), 1 año (grave) y 2 años (muy grave).",
+              "article": "Art. 27 LO 1/1992"
+            },
+            {
+              "term": "Retirada de armas",
+              "text": "Sanción que te quita las armas y te prohíbe adquirir o tener otras durante el plazo que se fije, de dos años como máximo.",
+              "article": "Art. 158.1 RD 137/1993"
+            },
+            {
+              "term": "Retirada de licencia",
+              "text": "Revoca la licencia o autorización especial, impide renovarla durante el plazo impuesto, de dos años como máximo, y obliga a depositar las armas.",
+              "article": "Art. 158.2 RD 137/1993"
+            },
+            {
+              "term": "Subasta pública",
+              "text": "Destino de las armas depositadas con valor acreditado como patrimonio histórico: se subastan o se venden a museos. Las demás pueden destruirse.",
+              "article": "Art. 165.2.b RD 137/1993"
+            }
+          ]
+        },
+        {
+          "type": "notice",
+          "text": "Ojo: el cuestionario da por buenos los plazos de prescripción de la Ley Orgánica 1/1992, ya derogada. Con la Ley Orgánica 4/2015 vigente, las infracciones prescriben a los seis meses, al año o a los dos años (art. 38.1)."
+        }
+      ],
+      "articles": [
+        "Art. 2.22 RD 137/1993",
+        "Art. 93 RD 137/1993",
+        "Art. 155 RD 137/1993",
+        "Art. 156 RD 137/1993",
+        "Art. 157 RD 137/1993",
+        "Art. 158 RD 137/1993",
+        "Art. 161 RD 137/1993",
+        "Art. 165 RD 137/1993",
+        "Art. 166.1 RD 137/1993",
+        "Art. 27 LO 1/1992",
+        "Art. 38.1 LO 4/2015",
+        "Art. 39.2 LO 4/2015",
+        "Art. 45.1 LO 4/2015"
+      ]
+    }
+  ],
+  "related_questions": [],
+  "confidence": "media",
+  "sources": [
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 1"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 2"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 3"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 4"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 5"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 6"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 8"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 31"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 89"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 90"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 91"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 93"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 96"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 98"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 99"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 100"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 101"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 102"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 103"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 104"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 105"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 107"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 108"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 109"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 113"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 132"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 155"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 156"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 157"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 158"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 161"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 165"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 166"
+    },
+    {
+      "norma": "BOE-A-2014-12249",
+      "ref": "art. 11"
+    },
+    {
+      "norma": "BOE-A-2015-3442",
+      "ref": "art. 38"
+    },
+    {
+      "norma": "BOE-A-2015-3442",
+      "ref": "art. 39"
+    },
+    {
+      "norma": "BOE-A-2015-3442",
+      "ref": "art. 45"
+    },
+    {
+      "norma": "BOE-A-1992-4252",
+      "ref": "art. 27"
+    }
+  ],
+  "review_notes": "Términos sin `article` (conocimiento técnico, sin definición en el corpus; se redactan según las respuestas y explicaciones de t1): Alimentar, Alza, Ánima, Arma montada, Boca, Cargar, Choke, Culata, Disparador, Expulsor, Extractor, Guardamonte, Percutor, Punto de mira, Recámara, Seguro, Bala, Calibre, Cartucho, Culote, Percusión anular, Percusión central, Perdigones y plomeo, Pistón o fulminante. Revisar con lupa: (1) Alza/punto de mira siguen la respuesta del cuestionario (t1-035/036), no una norma. (2) «Cargar» sigue el sentido de t1-032 (cargar = dejarla montada con cartucho en recámara). (3) Navaja automática: el art. 4.1.f la prohíbe sin definirla; por eso no se describe el mecanismo. (4) Arma prohibida: art. 4 (prohibidas a todos) y art. 5 (salvo funcionarios habilitados, como en t2.json); se cita solo 4.1. Cañones recortados: art. 5.1.c. (5) Arma de aire comprimido: la 4.ª se resume como «las demás carabinas, pistolas y revólveres de aire» (art. 3 dice «no asimiladas a escopetas»). (6) Banco oficial de pruebas: no tiene definición; se apoya en arts. 108 (inutilización), 107.c (certificado para avancarga) y 3 (punzón). (7) Incautación: no está definida; se describe por su uso en arts. 155-157 (incautación de armas, municiones, cargadores, instrumentos). (8) Delito: art. 161 remite al Ministerio Fiscal; la paralización del expediente es del art. 45.2 LO 4/2015. (9) Prescripción: cifra del cuestionario = LO 1/1992 art. 27 (derogada), con aviso de la LO 4/2015 art. 38.1, igual que t5.json; no se incluye la prescripción de las sanciones (1/2/4 años), cuya base está en normas derogadas distintas. (10) Licencia C: art. 96.4.b dice «personal de vigilancia y seguridad no comprendido en el apartado 3» (el de la licencia A); se resume como «que no sea militar ni policial». (11) Tarjeta de armas: art. 105.2-3 (el alcalde puede reducir número y validez; se omite). (12) Munición expansiva para caza mayor: es lo que espera el cuestionario (t2-046, confianza baja en su explicación), no una norma. (13) Calibre .22 = 5,6 mm sale del art. 3 (3.ª, 1); el resto de la definición es técnico. (14) Imitación o réplica: misma salvedad que t7.json (la 6.ª, 2 y la Orden INT/2202/2014 llaman réplicas a copias funcionales). Numeración del art. 2 según la redacción vigente (RD 726/2020). Verificado por Fable el 20-oct-2026; correcciones aplicadas.",
+  "reviewed": false
+}

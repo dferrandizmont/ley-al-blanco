@@ -1,0 +1,83 @@
+{
+  "edition": "GC-2020-11",
+  "retrieved": "2026-10-18",
+  "source_url": "https://web.guardiacivil.es/es/tramites/autorizaciones-de-armas-y-explosivos/controldearmas/pruebas_licenciasarmas/Programa_prueba_teorica_D__E_y_AEM/index.html",
+  "generated_by": "tool/content/extract_questions.py",
+  "question_count": 423,
+  "per_tema": {
+    "1": 68,
+    "2": 67,
+    "3": 66,
+    "4": 70,
+    "5": 66,
+    "6": 64,
+    "7": 22
+  },
+  "questions_sha256": "00960b079226834bef95afb265614411fa4b2924fac2eff7b1d800ce5d50963a",
+  "teoria_sha256": "0e363594eb73eccc879a6a2039ad62c64267d57a76d0423c04034c7a6a9790ae",
+  "sources": [
+    {
+      "tema": 1,
+      "doc": "tema1_es.pdf",
+      "answers_doc": "tema1r_es.pdf",
+      "sha256": "f0cf53b1d0c1f538b146583195d0d66081776f4a08e27705757c80d66f07c2a9",
+      "answers_sha256": "092efb3fece6457ff1b5a4f874c0acc9ec9a7d042c44c712c9e2c7db8cd50e9a",
+      "pdf_creation_date": "2020-11-04",
+      "answers_pdf_creation_date": "2020-11-04"
+    },
+    {
+      "tema": 2,
+      "doc": "tema2_es.pdf",
+      "answers_doc": "tema2r_es.pdf",
+      "sha256": "71184843ba33adf04625f46feec0a129e6f4a0954028ac832461130a8edd4e12",
+      "answers_sha256": "72add823daa91a76e1db488ca10c5994445797c99decca3b1e8107995e96e975",
+      "pdf_creation_date": "2020-12-11",
+      "answers_pdf_creation_date": "2020-12-11"
+    },
+    {
+      "tema": 3,
+      "doc": "tema3_es.pdf",
+      "answers_doc": "tema3r_es.pdf",
+      "sha256": "430d7a83540ca84f5c13c5681731d1ba59fdba66c50b52b2bb59cf5a3340f5c3",
+      "answers_sha256": "86a2f3c2d98cd2a19fb900c5f63dedff420ec1584997088ac2c64ac3cf6cacd9",
+      "pdf_creation_date": "2020-11-04",
+      "answers_pdf_creation_date": "2020-11-04"
+    },
+    {
+      "tema": 4,
+      "doc": "tema4_es.pdf",
+      "answers_doc": "tema4r_es.pdf",
+      "sha256": "5ea6df650c49e936fc8af30c254ef5429396e0e9c2e6a0ac0748ff69d51ee45e",
+      "answers_sha256": "5bd9055c49a4184853fe07c7f95b460828af1fa24d9251f8c68f618485f54ecb",
+      "pdf_creation_date": "2020-11-04",
+      "answers_pdf_creation_date": "2020-11-04"
+    },
+    {
+      "tema": 5,
+      "doc": "tema5_es.pdf",
+      "answers_doc": "tema5r_es.pdf",
+      "sha256": "dbd397e4db988540dc44487abb62d7e83b64cd833efe760ec53f95c28405dec3",
+      "answers_sha256": "188e13e6a096a8f466507aea5b82fd859ab2b844db2226d3930022776452e641",
+      "pdf_creation_date": "2020-11-04",
+      "answers_pdf_creation_date": "2020-11-04"
+    },
+    {
+      "tema": 6,
+      "doc": "tema6_es.pdf",
+      "answers_doc": "tema6r_es.pdf",
+      "sha256": "7429f6b7cec6bab43f29e877320728557e7a0eaf7c4d0515ce679883addf3360",
+      "answers_sha256": "b2c3567afd2bb9c9b76d8c0def64d4e37ff451176c566985a8045128570c3128",
+      "pdf_creation_date": "2020-11-04",
+      "answers_pdf_creation_date": "2020-11-04"
+    },
+    {
+      "tema": 7,
+      "doc": "tema7_es.pdf",
+      "answers_doc": "tema7r_es.pdf",
+      "sha256": "f21c6af5e2bc960a6d995fe6ee594b85d1760bea134dee139eab5f50771a9d50",
+      "answers_sha256": "2ae987ea1c2bfc68cdbca9f2677d4dd53b2f7926063fc0c0a848bd09087be623",
+      "pdf_creation_date": "2020-11-04",
+      "answers_pdf_creation_date": "2020-11-04"
+    }
+  ]
+}

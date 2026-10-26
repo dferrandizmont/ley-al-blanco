@@ -1,0 +1,427 @@
+{
+  "id": "t3",
+  "tema": 3,
+  "title": "Circulación, revista y transferencia",
+  "summary": "Cómo viaja un arma cuando no la lleva su dueño con su documentación, cada cuánto se pasa revista y cómo se vende o se presta. Clave para el examen: la guía de circulación, los cinco años de la revista y el préstamo de quince días.",
+  "sections": [
+    {
+      "title": "La guía de circulación",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ampara el traslado de un arma entre dos lugares cuando no va con licencia ni guía de pertenencia. La expide la Intervención de Armas y Explosivos."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Categorías 1.ª, 2.ª, 3.ª, 6.ª y 8.ª y sus componentes esenciales, como la báscula de una escopeta.",
+            "Armas completas de la 7.ª, 1 a 4, aunque vayan despiezadas.",
+            "Incluye las carabinas de aire de más de 24,2 julios (3.ª)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Si llevas tu escopeta con su guía de pertenencia y tu licencia, no la necesitas. Si mandas un arma a reparar a otra localidad, la guía de circulación sustituye a la de pertenencia y basta con ella."
+        },
+        {
+          "type": "p",
+          "text": "Si compras una escopeta fuera de tu localidad, la Intervención de ese lugar puede darte una guía de circulación con el parte de venta y tu licencia E. Tienes diez días para pedir la guía de pertenencia en la Intervención de tu residencia."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: la expide la Intervención de Armas; la necesitan, entre otras, las armas de 2.ª, 3.ª y 8.ª sin licencia ni guía; diez días tras comprar una escopeta fuera."
+        }
+      ],
+      "articles": [
+        "Art. 31.1 RD 137/1993",
+        "Art. 26.3 RD 137/1993",
+        "Art. 42.2 RD 137/1993",
+        "Art. 1.2 RD 137/1993"
+      ]
+    },
+    {
+      "title": "Envases, precintos y envíos",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Reglas del transporte de armas",
+          "headers": [
+            "Regla",
+            "Qué dice el Reglamento",
+            "Art."
+          ],
+          "rows": [
+            [
+              "Envase",
+              "Acondicionado para la seguridad del traslado",
+              "34"
+            ],
+            [
+              "Comercio interior",
+              "Máximo 25 armas por envase",
+              "35.1"
+            ],
+            [
+              "Mezclas",
+              "Rifles o cortas nunca junto a escopetas",
+              "35.1"
+            ],
+            [
+              "Destinatarios",
+              "Sin mezclar destinatarios en un envase ni en una guía",
+              "36"
+            ],
+            [
+              "Precinto",
+              "Intervención de Armas o armero autorizado",
+              "37"
+            ],
+            [
+              "Medio de envío",
+              "Ferrocarril o empresa de transportes",
+              "39.1"
+            ],
+            [
+              "Prohibido siempre",
+              "Armas cargadas o junto a su cartuchería",
+              "39.4"
+            ],
+            [
+              "Contenido",
+              "Declarado en la documentación y en el paquete",
+              "40.1"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "No se envían por correo: si no la llevas tú, el arma va por ferrocarril o empresa de transportes. Un rifle recién comprado fuera de tu localidad y sin guía de pertenencia no puedes llevarlo tú: la guía de circulación del comprador solo existe para escopetas, así que viaja por empresa de transportes."
+        },
+        {
+          "type": "p",
+          "text": "Si te envían un arma a la Intervención de Armas, vas con tu licencia o el documento que te autorice a adquirirla y firmas su recepción."
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: nunca cargadas ni con su munición; un envase por destinatario; rifle y escopeta, en paquetes distintos."
+        }
+      ],
+      "articles": [
+        "Art. 34 RD 137/1993",
+        "Art. 35.1 RD 137/1993",
+        "Art. 36 RD 137/1993",
+        "Art. 37 RD 137/1993",
+        "Art. 39 RD 137/1993",
+        "Art. 40.1 RD 137/1993",
+        "Art. 44.1 RD 137/1993"
+      ]
+    },
+    {
+      "title": "La revista de armas",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Las armas con guía de pertenencia pasan revista cada cinco años, al renovar la licencia y dentro del mes de esa renovación, en la Intervención de Armas."
+        },
+        {
+          "type": "table",
+          "caption": "¿Pasa revista?",
+          "headers": [
+            "Arma",
+            "Documento",
+            "Revista"
+          ],
+          "rows": [
+            [
+              "Escopeta (3.ª, 2)",
+              "Guía de pertenencia",
+              "Cada 5 años"
+            ],
+            [
+              "Rifle de caza mayor (2.ª, 2)",
+              "Guía de pertenencia",
+              "Cada 5 años"
+            ],
+            [
+              "Arma de concurso",
+              "Guía de pertenencia",
+              "Cada 5 años"
+            ],
+            [
+              "Ballesta (7.ª, 2)",
+              "Guía de pertenencia",
+              "Cada 5 años"
+            ],
+            [
+              "Carabina de aire de más de 24,2 J",
+              "Guía de pertenencia",
+              "Cada 5 años"
+            ],
+            [
+              "Carabina de aire de 4.ª categoría",
+              "Tarjeta de armas",
+              "No pasa revista"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hay que presentar el arma: tú o alguien autorizado por escrito.",
+            "Las anotaciones las hace el Interventor de Armas.",
+            "Dos revistas seguidas sin pasar: se anula la guía y el arma queda depositada.",
+            "No pasarla es infracción administrativa y abre expediente sancionador."
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: cinco años, ballestas incluidas; sin presentar el arma no hay revista."
+        }
+      ],
+      "articles": [
+        "Art. 90 RD 137/1993",
+        "Art. 88 RD 137/1993",
+        "Art. 105.1 RD 137/1993",
+        "Art. 157.b RD 137/1993"
+      ]
+    },
+    {
+      "title": "Venta y cambio de titularidad",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Solo puedes vender un arma a quien tenga la licencia, la tarjeta o el certificado de inutilización que exija esa arma."
+        },
+        {
+          "type": "p",
+          "text": "La venta se comunica siempre a la Intervención de Armas, también si es a una armería o un regalo. Para la guía de pertenencia de un arma de fuego hay que acreditar, si no lo hiciste antes, las medidas de seguridad de custodia."
+        },
+        {
+          "type": "diagram",
+          "kind": "secuencia",
+          "caption": "Venta entre particulares",
+          "items": [
+            "El comprador tiene la licencia del arma.",
+            "Se presenta el arma en la Intervención.",
+            "Se recoge la guía del vendedor y se anula.",
+            "Se expide una guía nueva al comprador."
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: la guía del vendedor se entrega en la Intervención y el comprador recibe una nueva."
+        }
+      ],
+      "articles": [
+        "Art. 92 RD 137/1993",
+        "Art. 94 RD 137/1993",
+        "Art. 95 RD 137/1993",
+        "Art. 89.5 RD 137/1993"
+      ]
+    },
+    {
+      "title": "El préstamo de armas de caza",
+      "collapsed": false,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Españoles y extranjeros residentes pueden prestar sus armas de caza. Pistolas, revólveres y armas de concurso, solo para tiro deportivo y con autorización escrita."
+        },
+        {
+          "type": "table",
+          "caption": "Préstamo de un arma de caza",
+          "headers": [
+            "Requisito",
+            "Qué exige"
+          ],
+          "rows": [
+            [
+              "Quién la recibe",
+              "Licencia de caza y la licencia de armas D o E"
+            ],
+            [
+              "Forma",
+              "Autorización escrita, fechada y firmada"
+            ],
+            [
+              "Duración",
+              "Quince días como máximo"
+            ],
+            [
+              "Finalidad",
+              "Solo para cazar"
+            ],
+            [
+              "Documento del arma",
+              "Siempre con su guía de pertenencia"
+            ]
+          ]
+        },
+        {
+          "type": "key",
+          "text": "Clave para el examen: quince días, por escrito y con la guía; quien la recibe necesita licencia de caza y de armas."
+        }
+      ],
+      "articles": [
+        "Art. 91 RD 137/1993"
+      ]
+    }
+  ],
+  "related_questions": [
+    "t3-001",
+    "t3-002",
+    "t3-003",
+    "t3-004",
+    "t3-005",
+    "t3-006",
+    "t3-007",
+    "t3-008",
+    "t3-009",
+    "t3-010",
+    "t3-011",
+    "t3-012",
+    "t3-013",
+    "t3-014",
+    "t3-015",
+    "t3-016",
+    "t3-017",
+    "t3-018",
+    "t3-019",
+    "t3-020",
+    "t3-021",
+    "t3-022",
+    "t3-023",
+    "t3-024",
+    "t3-025",
+    "t3-026",
+    "t3-027",
+    "t3-028",
+    "t3-029",
+    "t3-030",
+    "t3-031",
+    "t3-032",
+    "t3-033",
+    "t3-034",
+    "t3-035",
+    "t3-036",
+    "t3-037",
+    "t3-038",
+    "t3-039",
+    "t3-040",
+    "t3-041",
+    "t3-042",
+    "t3-043",
+    "t3-044",
+    "t3-045",
+    "t3-046",
+    "t3-047",
+    "t3-048",
+    "t3-049",
+    "t3-050",
+    "t3-051",
+    "t3-052",
+    "t3-053",
+    "t3-054",
+    "t3-055",
+    "t3-056",
+    "t3-057",
+    "t3-058",
+    "t3-059",
+    "t3-060",
+    "t3-061",
+    "t3-062",
+    "t3-063",
+    "t3-064",
+    "t3-065",
+    "t3-066"
+  ],
+  "confidence": "alta",
+  "sources": [
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 1"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 26"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 31"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 34"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 35"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 36"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 37"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 39"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 40"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 42"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 44"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 88"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 89"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 90"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 91"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 92"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 94"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 95"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 105"
+    },
+    {
+      "norma": "BOE-A-1993-6202",
+      "ref": "art. 157"
+    }
+  ],
+  "review_notes": "Sin avisos: las respuestas del tema 3 coinciden con el texto vigente. Revisar: (1) el key cita 2.ª, 3.ª y 8.ª 'entre otras' porque resume t3-001/t3-007; el art. 31.1 vigente añade 1.ª, 6.ª y 7.ª 1-4, que se mencionan en la lista. (2) El art. 42.2 solo prevé la guía de circulación de la compra fuera para escopetas; que el rifle viaje por empresa de transporte (t3-023, t3-026) se apoya en el art. 39.1. (3) 'Arma de concurso' en la tabla de revista: art. 90.1 no distingue (todas las que precisan guía, cada cinco años). (4) Que regalar o vender a armería también se comunica se apoya en arts. 92, 94.2 y 95.2. Verificado por Fable el 19-oct-2026; correcciones aplicadas.",
+  "reviewed": false
+}

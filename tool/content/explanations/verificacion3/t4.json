@@ -1,0 +1,65 @@
+[
+  {
+    "id": "t4-004",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 100.1 RD 137/1993 («Quienes precisen armas de la categoría 2.ª, 2, deberán obtener previamente licencia D»); art. 89.2: la guía «la acompañará siempre, en los casos de uso, depósito y transporte»; art. 96.6: tarjeta de armas para la 4.ª categoría (aire comprimido, art. 3). Correcto."
+  },
+  {
+    "id": "t4-005",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 110.9 RD 137/1993: «los españoles residentes en el extranjero, que se encuentren transitoriamente en España, podrán adquirir, tener y usar armas de caza, dando cumplimiento a las normas establecidas al efecto en este Reglamento para los españoles residentes en España»; art. 96.1: si reside en otro Estado de la UE, «la concesión de la autorización deberá ser comunicada a la autoridad competente de dicho Estado». La posible lectura restrictiva del art. 102.1 ya está en review_notes."
+  },
+  {
+    "id": "t4-010",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 96.9 RD 137/1993: «se tendrá en cuenta, a efectos de documentación, el arma componente de mayor peligrosidad y habrá de obtenerse la autorización ... correspondiente a las armas que precisen mayores garantías»; art. 88: «cada arma habrá de estar documentada con su correspondiente guía de pertenencia». Correcto."
+  },
+  {
+    "id": "t4-049",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 109.1 RD 137/1993 vigente: «estén sometidos a la supervisión de un adulto titular de licencia de armas D, E o F, que previamente se hayan comprometido a acompañarlos y vigilarlos en cada cacería o acto deportivo»; el 109.2 extiende las mismas condiciones a la 3.ª, 2. El cambio de 2020 no altera el sentido; sin aviso es correcto."
+  },
+  {
+    "id": "t4-061",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Disp. final única.1 RD 137/1993: «se considerarán desestimadas ... si no recaen sobre ellas resoluciones expresas dentro del plazo de tres meses y de la ampliación del mismo, en su caso, a contar desde su presentación, sin perjuicio de la obligación de las autoridades competentes de resolver expresamente». Correcto."
+  },
+  {
+    "id": "t4-063",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 158.2 RD 137/1993: «La retirada de las licencias ... supone la revocación de los mismos; constituirá impedimento para su renovación durante el tiempo, no superior a dos años». La pregunta dice «Según el Reglamento de Armas», así que no hace falta aviso. Para quien revise: la LO 4/2015, art. 39.2.c, prevé además la suspensión temporal de licencias hasta dos años por infracciones muy graves y hasta seis si hay reincidencia; es otra figura (suspensión, no revocación) y no contradice la respuesta."
+  },
+  {
+    "id": "t4-068",
+    "verdict": "ok",
+    "problems": [],
+    "suggested_explanation": null,
+    "suggested_article": null,
+    "suggested_notice": null,
+    "evidence": "Art. 97.1 RD 137/1993: a) antecedentes penales; b) «Fotocopia del documento nacional de identidad ... que será cotejada con su original y devuelta al interesado»; c) informe de aptitudes psicofísicas. Explicación y aviso son coherentes: en el examen, la A; la norma pide también el DNI. El motivo atribuido al cuestionario («por eso») es una inferencia razonable del literal del 97.1.b."
+  }
+]

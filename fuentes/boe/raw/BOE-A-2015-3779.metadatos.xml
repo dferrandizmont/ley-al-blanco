@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T183740Z</fecha_actualizacion>
+      <identificador>BOE-A-2015-3779</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1370">Resolución</rango>
+      <fecha_disposicion>20150327</fecha_disposicion>
+      <titulo>Resolución de 27 de marzo de 2015, de la Dirección General de la Guardia Civil, por la que se determinan las medidas de seguridad para guardar las réplicas o reproducciones de armas de fuego antiguas en domicilios particulares.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20150409</fecha_publicacion>
+      <diario_numero>85</diario_numero>
+      <fecha_vigencia>20150410</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/res/2015/03/27/(4)</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2015-3779</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

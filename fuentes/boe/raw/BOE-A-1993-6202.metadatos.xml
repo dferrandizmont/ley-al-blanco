@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251217T205107Z</fecha_actualizacion>
+      <identificador>BOE-A-1993-6202</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19930129</fecha_disposicion>
+      <numero_oficial>137/1993</numero_oficial>
+      <titulo>Real Decreto 137/1993, de 29 de enero, por el que se aprueba el Reglamento de Armas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19930305</fecha_publicacion>
+      <diario_numero>55</diario_numero>
+      <fecha_vigencia>19930505</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1993/01/29/137</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1993-6202</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>
