@@ -375,10 +375,12 @@ void registerInicioYPractica() {
       await answerPractice(app, correct: true);
       expect(find.text(T.correcto), findsOneWidget);
 
-      // Then new questions from the bank, never one seen today.
+      // Then new questions from the least-mastered tema, never one seen
+      // today: tema 1 now sits above the prior (two right, one wrong), so
+      // the tie among the untouched temas 2..7 resolves to tema 2.
       await tester.tapText(T.siguiente);
       final second = await currentQuestion(app, notId: first.id);
-      expect(second.tema, 1);
+      expect(second.tema, 2);
       expect({for (final q in run) q.id}.contains(second.id), isFalse);
 
       // Stored with the srs mode.

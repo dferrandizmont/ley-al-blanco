@@ -50,7 +50,7 @@ Cada escenario arranca la **app real** (`LeyAlBlancoApp`, router, pantallas) sob
 |---|---|
 | `arranque` | El bootstrap importa 423 preguntas (68/67/66/70/66/64/22); Inicio muestra el anillo, «Continuar · 15 preguntas para hoy», 7 temas abiertos, las teselas de «Cifras y plazos» y «Tarjetas de cifras» (abiertas), Simulacro, Fallos, botón de Ajustes, aviso legal y edición. |
 | `practica_tema1` | 3 respuestas (1 fallo, 2 aciertos): estados ✓/✗ de las tarjetas, «Correcto/Incorrecto», área de explicación y «Siguiente»; intentos guardados; al volver, Fallos «1 fallo pendiente» y tema 1 «1 fallo». |
-| `repaso_del_dia` | «Continuar» (modo srs): la pregunta fallada vuelve la primera, la cola es 1 vencida + 12 nuevas (cuota 15 − 3), las nuevas son del tema 1, la cola baja a 12 al repasarla. |
+| `repaso_del_dia` | «Continuar» (modo srs): la pregunta fallada vuelve la primera, la cola es 1 vencida + 12 nuevas (cuota 15 − 3), las nuevas son del tema con menos dominio (el 2: el 1 ya tiene aciertos), la cola baja a 12 al repasarla. |
 | `persistencia_tras_reinicio` | Cerrar y abrir la app conserva fallos y cola; el banco no se importa dos veces. |
 | `fallos_y_revision` | Lista de Fallos, filtro por tema, «Repasar todos» (también filtrado) y dos aciertos seguidos sacan la pregunta de la lista . |
 | `cifras_y_plazos` | «Cifras y plazos» con todo el contenido abierto: solo preguntas con cifra, un fallo guardado en modo práctica (y en Inicio) y el enunciado de la pregunta en pantalla. |

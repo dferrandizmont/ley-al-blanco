@@ -51,7 +51,7 @@ No necesitas una cuenta. El progreso y los ajustes se guardan en el dispositivo,
 App independiente y no oficial. Preguntas basadas en el cuestionario publicado por la Dirección General de la Guardia Civil (consultado el 18/10/2026). Las explicaciones son de redacción propia y no constituyen asesoramiento jurídico.
 ```
 
-**Longitud:** **2.248 caracteres** (máximo 4.000).
+**Longitud:** **2.242 caracteres** (máximo 4.000).
 
 ## 3. Palabras clave de App Store
 
