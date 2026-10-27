@@ -89,7 +89,7 @@ licencia,armas,test,simulacros,preguntas,caza,tiro,escopeta,reglamento,repaso,te
 | `05-gratis.png` | «Gratis. Sin anuncios.» | Lista de Teoría con los siete temas y todos los documentos abiertos. |
 | `03-probabilidad-oscuro.png` | «Tu probabilidad de aprobar» (variante en modo oscuro) | La misma pantalla de Inicio en modo oscuro. |
 
-Google Play admite de 2 a 8 capturas de móvil, con el lado corto de al menos 320 px y el largo como máximo 3,6 veces el corto (9:16 cumple). Las seis de arriba están dentro del rango. En `app/build/store/ios69/` (1320 × 2868) e `ios65/` (1284 × 2778) quedan las mismas cinco, para App Store; la variante oscura es solo de Play.
+Google Play admite de 2 a 8 capturas de móvil, con el lado corto de al menos 320 px y el largo como máximo 3,6 veces el corto (9:16 cumple). Las seis de arriba están dentro del rango. Para App Store quedan las mismas cinco en `app/build/store/ios63/` (**1206 × 2622**, iPhone con Dynamic Island y pantalla mediana, el tamaño que exige hoy la consola), `ios69/` (1320 × 2868) e `ios65/` (1284 × 2778); la variante oscura es solo de Play. Todos los PNG son **opacos, sin canal alfa**: ni App Store ni Google Play admiten capturas con transparencia, y así no hay que convertirlas a mano antes de subirlas.
 
 ### 4.2. Guion ampliado (aún no generado)
 
@@ -129,7 +129,7 @@ Estas notas recogen los requisitos que deben comprobarse en las directrices vige
 
 ### Requisitos comunes
 
-- **Atribución:** el cuestionario se reutiliza citando fuente y fecha, conforme a la Ley 37/2007. Antes de publicar hay que actualizar la fecha si cambia el cuestionario y obtener la revisión humana pendiente.
+- **Atribución:** el cuestionario se reutiliza citando fuente y fecha, conforme a la Ley 37/2007 (de 16 de noviembre, sobre reutilización de la información del sector público); los textos legales que se citan no son objeto de propiedad intelectual (art. 13 de la Ley de Propiedad Intelectual, texto refundido). Antes de publicar hay que actualizar la fecha si cambia el cuestionario y obtener la revisión humana pendiente.
 - **Ausencia de marca o imagen institucional:** no se usa «oficial» como afirmación de identidad, ni logos, escudos, nombres de entidades como marca o imágenes de armas en nombre, icono o capturas. «Guardia Civil» solo aparece como fuente de las preguntas.
 - **Privacidad:** sin cuentas, analítica ni transmisión de datos desde la app; progreso local, exportación voluntaria y enlaces externos por acción del usuario. Ver [privacy.md](privacy.md).
 - **Gratuita y de código abierto:** en todas las plataformas, sin compras dentro de la app, sin suscripción y sin contenido bloqueado. Decisión del dueño, 26-oct-2026.

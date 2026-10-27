@@ -22,10 +22,13 @@ flutter test --tags store --run-skipped test/store
 | Destino | Tamaño (px) | Tienda |
 |---|---|---|
 | `play` | 1080 × 1920 | Google Play (móvil, 9:16) |
-| `ios69` | 1320 × 2868 | App Store, iPhone 6,9" |
+| `ios63` | 1206 × 2622 | App Store, iPhone con Dynamic Island, pantalla mediana (el tamaño que pide la consola) |
+| `ios69` | 1320 × 2868 | App Store, iPhone 6,9" (Dynamic Island, pantalla grande: opcional) |
 | `ios65` | 1284 × 2778 | App Store, iPhone 6,5" |
 
 Cada destino lleva 5 imágenes; `play` añade `03-probabilidad-oscuro.png` (variante oscura de la 3).
+
+Todos los PNG se escriben **sin canal alfa** (RGB de 24 bits, color type 2): App Store y Google Play piden imágenes sin transparencia, así que no hay que convertirlas a mano antes de subirlas.
 
 ### Recursos versionados del README y de Google Play
 
@@ -69,7 +72,7 @@ Este último comando también genera la variante oscura de Play en `build/store/
 | `04-fallos` | Repasa tus fallos | Lista de Fallos (8 fallos de los 7 temas) |
 | `05-gratis` | Gratis. Sin anuncios. | Lista de Teoría con todos los temas abiertos |
 
-Requisitos de las tiendas (verifica en cada consola antes de subir, cambian): Google Play pide 2–8 capturas de móvil, lado corto ≥ 320 px y lado largo ≤ 3,6 × el corto (9:16 vale); App Store pide 1–10 capturas por tamaño de pantalla y acepta 1320 × 2868 (6,9") y 1284 × 2778 (6,5"); PNG o JPEG sin transparencia. Son PNG opacos.
+Requisitos de las tiendas (verifica en cada consola antes de subir, cambian): Google Play pide 2–8 capturas de móvil, lado corto ≥ 320 px y lado largo ≤ 3,6 × el corto (9:16 vale); App Store pide 1–10 capturas por tamaño de pantalla y para el iPhone con Dynamic Island, pantalla mediana, admite **1206 × 2622** o 1179 × 2556; los juegos grandes (1320 × 2868, 1290 × 2796, 1260 × 2736) son opcionales; PNG o JPEG sin transparencia. Son PNG opacos.
 
 ## Reglas (no se negocian)
 

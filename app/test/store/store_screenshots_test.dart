@@ -31,9 +31,9 @@ import '../support/screen_support.dart';
 import '../support/study_support.dart';
 import 'readme_render_support.dart';
 
-/// Marketing screenshots for the stores (Google Play, App Store 6.9" and
-/// 6.5"). Not part of the normal run: tag `store`, skipped by default (see
-/// `dart_test.yaml`). Regenerate with
+/// Marketing screenshots for the stores (Google Play, App Store 6.3", 6.9"
+/// and 6.5"). Not part of the normal run: tag `store`, skipped by default
+/// (see `dart_test.yaml`). Regenerate with
 /// `flutter test --tags store --run-skipped` (full guide in
 /// `tool/store/LEEME.md`). PNGs land in `build/store/<target>/NN-<slug>.png`.
 ///
@@ -42,6 +42,10 @@ import 'readme_render_support.dart';
 /// The data is deterministic: in-memory database, the real bank, a fixed
 /// clock (Thu 15 Oct 2026, 18:30), seeded random sources and fixed attempts.
 /// No weapon is ever drawn and no text says "oficial" (spec §8).
+///
+/// Every PNG is written **without alpha channel** (RGB, color type 2): App
+/// Store and Google Play ask for opaque images, so nothing has to be
+/// converted by hand before uploading.
 
 /// Logical size of the app inside the frame; the real pixel size follows the
 /// target (device pixel ratio = screen width / [_logicalWidth]).
@@ -57,9 +61,12 @@ class _Target {
 }
 
 const _play = _Target('play', 1080, 1920);
+// iPhone con Dynamic Island, pantalla mediana: 1206 × 2622, el tamaño que
+// App Store Connect pide por defecto (oct-2026).
+const _ios63 = _Target('ios63', 1206, 2622);
 const _ios69 = _Target('ios69', 1320, 2868);
 const _ios65 = _Target('ios65', 1284, 2778);
-const _targets = [_play, _ios69, _ios65];
+const _targets = [_play, _ios63, _ios69, _ios65];
 
 class _Shot {
   const _Shot(
@@ -330,12 +337,14 @@ Future<GlobalKey> _pumpApp(
   return key;
 }
 
-/// Draws the brand composition around [screen] and returns it as a PNG.
+/// Draws the brand composition around [screen] and returns it as a PNG
+/// without alpha channel (RGB), the format both stores ask for.
 Future<Uint8List> _compose({
   required ui.Image screen,
   required _Layout layout,
   required AptoColors colors,
   required String caption,
+  required String name,
   String? sub,
 }) async {
   final w = layout.target.width.toDouble();
@@ -445,10 +454,13 @@ Future<Uint8List> _compose({
     layout.target.width,
     layout.target.height,
   );
-  final bytes = await image.toByteData(format: ui.ImageByteFormat.png);
-  image.dispose();
-  picture.dispose();
-  return bytes!.buffer.asUint8List();
+  try {
+    // PNG opaco (color type 2): ni App Store ni Google Play admiten alfa.
+    return await encodePng(image, name: name);
+  } finally {
+    image.dispose();
+    picture.dispose();
+  }
 }
 
 void main() {
@@ -479,9 +491,13 @@ void main() {
                 layout: layout,
                 colors: colors,
                 caption: shot.caption,
+                name: '${target.dir}/${shot.file}.png',
                 sub: shot.sub,
               );
               screen.dispose();
+              // IHDR: 8 bits por canal y color type 2 (RGB, sin canal alfa).
+              expect(bytes[24], 8, reason: '8 bits por canal');
+              expect(bytes[25], 2, reason: 'PNG RGB sin canal alfa');
               final codec = await ui.instantiateImageCodec(bytes);
               final frame = await codec.getNextFrame();
               expect(frame.image.width, target.width);

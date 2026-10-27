@@ -3,11 +3,15 @@ import 'dart:typed_data';
 import 'dart:ui' as ui;
 
 /// PNG sin metadatos, comprimido con zlib de Dart: sin herramientas externas.
-/// RGB para el gráfico de Play; RGBA para el icono de Play.
-Future<void> writeReadmePng(
-  ui.Image image,
-  String name, {
+/// RGB para el gráfico de Play y las capturas de las tiendas; RGBA para el
+/// icono de Play.
+///
+/// Con [alpha] en false el PNG sale **sin canal alfa** (color type 2), que es
+/// lo que piden App Store y Google Play, y falla si algún píxel no es opaco.
+Future<Uint8List> encodePng(
+  ui.Image image, {
   bool alpha = false,
+  String name = 'imagen',
 }) async {
   final data = await image.toByteData(
     format: ui.ImageByteFormat.rawStraightRgba,
@@ -40,9 +44,19 @@ Future<void> writeReadmePng(
     ..add(_chunk('IHDR', header.buffer.asUint8List()))
     ..add(_chunk('IDAT', ZLibEncoder(level: 9).convert(rows)))
     ..add(_chunk('IEND', []));
+  return png.takeBytes();
+}
+
+/// Escribe el PNG de [image] en `docs/readme/`.
+Future<void> writeReadmePng(
+  ui.Image image,
+  String name, {
+  bool alpha = false,
+}) async {
+  final png = await encodePng(image, alpha: alpha, name: name);
   final out = File('../docs/readme/$name');
   out.parent.createSync(recursive: true);
-  out.writeAsBytesSync(png.takeBytes());
+  out.writeAsBytesSync(png);
 }
 
 List<int> _chunk(String type, List<int> data) {
