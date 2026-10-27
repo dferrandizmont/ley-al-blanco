@@ -19,14 +19,26 @@ están abiertos. Para Android (iOS, próximamente), con modo claro y oscuro.
 ## Descargas
 
 <p>
+  <a href="https://play.google.com/apps/testing/es.leyalblanco.app"><img src="https://img.shields.io/badge/Google_Play-Beta-414141?logo=googleplay&amp;style=for-the-badge" alt="Beta en Google Play"></a>
   <a href="https://github.com/dferrandizmont/ley-al-blanco/releases"><img src="https://img.shields.io/badge/Disponible_en-GitHub-181717?logo=github&amp;style=for-the-badge" alt="Disponible en GitHub"></a>
   <!--
-  <a href="[ENLACE_BETA_PLAY]"><img src="https://img.shields.io/badge/Google_Play-Descargar-414141?logo=googleplay&amp;style=for-the-badge" alt="Disponible en Google Play"></a>
   <a href="[ENLACE_APP_STORE]"><img src="https://img.shields.io/badge/App_Store-Descargar-0D96F6?logo=appstore&amp;style=for-the-badge" alt="Disponible en App Store"></a>
   -->
 </p>
 
-Próximamente en Google Play y App Store.
+### Beta en Google Play
+
+La app está en prueba cerrada en Google Play y cualquiera puede apuntarse:
+
+> **Ahora mismo Google está revisando la primera versión.** Ya puedes unirte al grupo (paso 1); el enlace del paso 2 funcionará en cuanto la aprueben, normalmente en pocos días.
+
+1. Únete al grupo de testers: [ley-al-blanco-testers](https://groups.google.com/g/ley-al-blanco-testers). Con tu cuenta de Google, pulsa «Unirse al grupo».
+2. Acepta la prueba desde el móvil o el ordenador: [play.google.com/apps/testing/es.leyalblanco.app](https://play.google.com/apps/testing/es.leyalblanco.app).
+3. Instala la app desde Google Play. Se actualizará sola.
+
+Si puedes, quédate en la prueba al menos 14 días y úsala de vez en cuando (por ejemplo, la pregunta del día): Google exige 12 testers durante 14 días para publicarla para todo el mundo. Los comentarios, a dev@mainshai.com.
+
+Próximamente en App Store.
 
 ## Capturas
 
