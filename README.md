@@ -107,6 +107,10 @@ no edites los JSON generados a mano. El banco se comprueba con SHA-256 al import
 [Regenerar gráficos y capturas](tool/store/LEEME.md) ·
 [Especificación](licencia-armas-spec.md) · [Diseño](docs/design-sereno.md).
 
+## Novedades
+
+Lo que cambia en cada versión está en [CHANGELOG.md](CHANGELOG.md).
+
 ## Licencias y fuentes
 
 Código [MIT](LICENSE), Copyright (c) 2026 Daniel Mont Ferrandiz.
