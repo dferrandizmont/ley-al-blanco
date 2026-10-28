@@ -9,6 +9,8 @@ y en TestFlight sale cada versión; Google Play y la App Store reciben varias ju
 
 ## Sin publicar
 
+## 0.9.2 · 28-oct-2026
+
 - La pregunta sobre las multas de las infracciones graves (tema 5) muestra ya el símbolo «€» en sus tres opciones: el
   cuestionario oficial lo traía como «_» por un fallo tipográfico.
 - iOS (en preparación): la app declara a Apple que no recoge datos ni rastrea, y ya no pregunta por el cifrado en
