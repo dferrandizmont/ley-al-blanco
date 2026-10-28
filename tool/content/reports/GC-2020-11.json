@@ -615,6 +615,12 @@
           "codepoint": "U+2026",
           "nombre": "HORIZONTAL ELLIPSIS",
           "apariciones": 1
+        },
+        {
+          "caracter": "€",
+          "codepoint": "U+20AC",
+          "nombre": "EURO SIGN",
+          "apariciones": 3
         }
       ]
     },

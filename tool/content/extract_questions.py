@@ -84,6 +84,32 @@ MIN_CONT_INDENT = 3
 
 FORM_FEED = "\x0c"
 
+# Erratas tipográficas del PDF oficial que se corrigen a propósito (decisión del
+# dueño, 28-oct-2026; excepción documentada en CLAUDE.md). En t5-052 la DGGC
+# escribe el euro con la fuente Symbol, que no tiene ese glifo: el PDF dibuja «_»
+# (comprobado renderizando tema5.pdf, pág. 7). Las cantidades son la conversión
+# exacta de pesetas a euros (300,51 / 30.050,61 / 601.012,10) y el mismo PDF las
+# escribe con «euros» en otra pregunta. Solo se tocan los ids listados.
+TYPOGRAPHIC_ERRATA: dict[str, tuple[tuple[str, str], ...]] = {
+    "t5-052": ((" _.", " €."),),
+}
+TYPO_ERRATA_FLAG = "errata_tipografica"
+
+
+def apply_typographic_errata(qid_: str, options: list[str]) -> tuple[list[str], bool]:
+    """Devuelve las opciones corregidas y si se aplicó alguna errata."""
+    fixes = TYPOGRAPHIC_ERRATA.get(qid_)
+    if not fixes:
+        return options, False
+    out = []
+    for option in options:
+        new = option
+        for old, repl in fixes:
+            if new.endswith(old):
+                new = new[: -len(old)] + repl
+        out.append(new)
+    return out, out != options
+
 
 # --------------------------------------------------------------------------
 # Utilidades de texto
@@ -738,8 +764,14 @@ def build_questions(tdata: list[TemaData]) -> list[Q]:
                     if rb.options[answer].is_partial:
                         flags.append("answer_partial_bold")
                         partial = rb.options[answer].classification
-            out.append(Q(t.tema, q.number, q.stem, list(q.options), q.section, answer, flags,
-                         rt.stem if rt else None, list(rt.options) if rt else None, partial))
+            options, fixed = apply_typographic_errata(qid(t.tema, q.number), list(q.options))
+            r_options = list(rt.options) if rt else None
+            if fixed:
+                flags.append(TYPO_ERRATA_FLAG)
+                if r_options is not None:
+                    r_options, _ = apply_typographic_errata(qid(t.tema, q.number), r_options)
+            out.append(Q(t.tema, q.number, q.stem, options, q.section, answer, flags,
+                         rt.stem if rt else None, r_options, partial))
     return out
 
 

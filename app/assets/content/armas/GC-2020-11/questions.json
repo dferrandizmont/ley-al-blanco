@@ -9636,13 +9636,13 @@
     "section": "Sanciones previstas para las infracciones administrativas graves.",
     "stem": "¿Qué sanción pecuniaria puede imponer la autoridad competente por una infracción grave al Reglamento de Armas?",
     "options": [
-      "Multa de 30050´61 a 601012´10 _.",
-      "Multa de 300´51 a 30050´61 _.",
-      "Multa de hasta 300´51 _."
+      "Multa de 30050´61 a 601012´10 €.",
+      "Multa de 300´51 a 30050´61 €.",
+      "Multa de hasta 300´51 €."
     ],
     "answer": 1,
     "explanation": {
-      "es": "En el Reglamento de Armas, la multa general de las infracciones graves va de 300,51 a 30.050,61 euros; la horquilla más alta es la de las muy graves y la de hasta 300,51 euros, la de las leves. En el cuestionario publicado, cada cantidad aparece seguida de «_», que corresponde a euros."
+      "es": "En el Reglamento de Armas, la multa general de las infracciones graves va de 300,51 a 30.050,61 euros; la horquilla más alta es la de las muy graves y la de hasta 300,51 euros, la de las leves. En el PDF publicado el símbolo del euro sale como «_» por un fallo tipográfico; aquí se muestra «€»."
     },
     "article": "Art. 156.a RD 137/1993",
     "notice": {
@@ -9657,6 +9657,7 @@
       "answers_sha256": "188e13e6a096a8f466507aea5b82fd859ab2b844db2226d3930022776452e641"
     },
     "flags": [
+      "errata_tipografica",
       "discrepancia_norma",
       "cifras"
     ],

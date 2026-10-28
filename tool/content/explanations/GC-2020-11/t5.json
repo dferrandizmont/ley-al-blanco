@@ -1139,7 +1139,7 @@
   },
   {
     "id": "t5-052",
-    "explanation": "En el Reglamento de Armas, la multa general de las infracciones graves va de 300,51 a 30.050,61 euros; la horquilla más alta es la de las muy graves y la de hasta 300,51 euros, la de las leves. En el cuestionario publicado, cada cantidad aparece seguida de «_», que corresponde a euros.",
+    "explanation": "En el Reglamento de Armas, la multa general de las infracciones graves va de 300,51 a 30.050,61 euros; la horquilla más alta es la de las muy graves y la de hasta 300,51 euros, la de las leves. En el PDF publicado el símbolo del euro sale como «_» por un fallo tipográfico; aquí se muestra «€».",
     "article": "Art. 156.a RD 137/1993",
     "notice": "Ojo: el cuestionario da por buena la horquilla del Reglamento de Armas (300,51 a 30.050,61 euros), heredada de la Ley Orgánica 1/1992, ya derogada. La Ley Orgánica 4/2015 vigente, en su art. 39.1, fija para las graves de 601 a 30.000 euros.",
     "flags": [

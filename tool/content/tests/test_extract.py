@@ -450,3 +450,26 @@ def test_integration_deterministic(tmp_path):
         assert ex.run(SRC, "GC-2020-11", "2026-10-18", tmp_path / name / "o", tmp_path / name / "r" / "x") == 0
     for rel in ("o/questions.json", "o/manifest.json", "r/x.md", "r/x.json"):
         assert (tmp_path / "a" / rel).read_bytes() == (tmp_path / "b" / rel).read_bytes()
+
+
+def test_typographic_errata_only_listed_ids():
+    opts = ["Multa de 300´51 a 30050´61 _.", "Multa de hasta 300´51 _."]
+    fixed, changed = ex.apply_typographic_errata("t5-052", opts)
+    assert changed
+    assert fixed == ["Multa de 300´51 a 30050´61 €.", "Multa de hasta 300´51 €."]
+    same, changed_other = ex.apply_typographic_errata("t5-051", opts)
+    assert not changed_other and same == opts
+
+
+def test_typographic_errata_in_generated_bank():
+    import json
+    bank = Path(__file__).resolve().parents[3] / "app/assets/content/armas/GC-2020-11/questions.json"
+    data = json.loads(bank.read_text(encoding="utf-8"))
+    items = data["questions"] if isinstance(data, dict) else data
+    by_id = {q["id"]: q for q in items}
+    q = by_id["t5-052"]
+    texts = [o if isinstance(o, str) else o["text"] for o in q["options"]]
+    assert all(t.endswith(" €.") for t in texts)
+    assert ex.TYPO_ERRATA_FLAG in q["flags"]
+    flagged = [i for i, x in by_id.items() if ex.TYPO_ERRATA_FLAG in x.get("flags", [])]
+    assert flagged == ["t5-052"]
