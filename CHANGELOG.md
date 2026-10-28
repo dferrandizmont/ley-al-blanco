@@ -11,6 +11,8 @@ y en TestFlight sale cada versión; Google Play y la App Store reciben varias ju
 
 - iOS (en preparación): la app declara a Apple que no recoge datos ni rastrea, y ya no pregunta por el cifrado en
   cada subida.
+- iOS (en preparación): la primera versión será solo para iPhone. Se declara a Apple el uso de la comprobación de
+  espacio en disco que hace la base de datos.
 
 ## 0.9.1 · 26-oct-2026
 
