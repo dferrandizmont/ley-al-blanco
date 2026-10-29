@@ -1,127 +1,110 @@
+**English** · [Español](README.es.md)
+
 <p align="center">
-  <img src="docs/readme/header.png" alt="Ley al Blanco — Prepara el examen teórico de la licencia de armas D, E y AEM" width="1024">
+  <img src="docs/readme/header.png" alt="Ley al Blanco: prepare for the theory exam for the D and E firearms licences and the AEM authorisation for minors" width="1024">
 </p>
 
 # Ley al Blanco
 
-[![Código: MIT](https://img.shields.io/badge/C%C3%B3digo-MIT-2F5D50)](LICENSE)
-[![Contenido: CC BY-SA 4.0](https://img.shields.io/badge/Contenido-CC_BY--SA_4.0-2F5D50)](LICENSE-CONTENT.md)
-[![Última versión](https://img.shields.io/github/v/release/dferrandizmont/ley-al-blanco?label=versi%C3%B3n)](https://github.com/dferrandizmont/ley-al-blanco/releases/latest)
-[![Descargas](https://img.shields.io/github/downloads/dferrandizmont/ley-al-blanco/total?label=descargas)](https://github.com/dferrandizmont/ley-al-blanco/releases)
+[![Code: MIT](https://img.shields.io/badge/Code-MIT-2F5D50)](LICENSE)
+[![Content: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC_BY--SA_4.0-2F5D50)](LICENSE-CONTENT.md)
+[![Version](https://img.shields.io/github/v/release/dferrandizmont/ley-al-blanco?include_prereleases&label=version&color=2F5D50)](https://github.com/dferrandizmont/ley-al-blanco/releases)
+[![Downloads](https://img.shields.io/github/downloads/dferrandizmont/ley-al-blanco/total?label=downloads&color=2F5D50)](https://github.com/dferrandizmont/ley-al-blanco/releases)
 
-Prepara el examen teórico de las licencias de armas D y E y la autorización
-especial para menores (AEM) en España. Las **423 preguntas del cuestionario**,
-con explicaciones, teoría y simulacros para estudiar a tu ritmo.
+Ley al Blanco helps you prepare for the Spanish firearms licence theory exam
+(D and E) and for the special authorisation for minors (AEM). It includes the
+423 official questions, with explanations, theory and mock exams to study at
+your own pace. The app is in Spanish.
 
-**Gratis, sin anuncios, sin cuenta y sin conexión.** Todos los temas y modos
-están abiertos. Para Android (iOS, próximamente), con modo claro y oscuro.
+**Free · No ads · No account · Works offline · Open source**
 
-## Descargas
+## Download
 
 <p>
-  <a href="https://play.google.com/apps/testing/es.leyalblanco.app"><img src="https://img.shields.io/badge/Google_Play-Beta-414141?logo=googleplay&amp;style=for-the-badge" alt="Beta en Google Play"></a>
-  <a href="https://github.com/dferrandizmont/ley-al-blanco/releases"><img src="https://img.shields.io/badge/Disponible_en-GitHub-181717?logo=github&amp;style=for-the-badge" alt="Disponible en GitHub"></a>
+  <a href="https://play.google.com/apps/testing/es.leyalblanco.app"><img src="https://img.shields.io/badge/Google_Play-Beta-414141?logo=googleplay&style=for-the-badge" alt="Beta on Google Play"></a>
+  <a href="https://github.com/dferrandizmont/ley-al-blanco/releases/latest"><img src="https://img.shields.io/badge/Available_on-GitHub-181717?logo=github&style=for-the-badge" alt="Available on GitHub"></a>
   <!--
-  <a href="[ENLACE_APP_STORE]"><img src="https://img.shields.io/badge/App_Store-Descargar-0D96F6?logo=appstore&amp;style=for-the-badge" alt="Disponible en App Store"></a>
+  <a href="[APP_STORE_LINK]"><img src="https://img.shields.io/badge/App_Store-Download-0D96F6?logo=appstore&style=for-the-badge" alt="Available on the App Store"></a>
   -->
 </p>
 
-### Beta en Google Play
+Android now, iOS coming soon. Every topic and mode is open, with a light and a
+dark theme.
 
-La app está en prueba cerrada en Google Play y cualquiera puede apuntarse:
+<details>
+<summary>Join the beta on Google Play</summary>
 
-1. Únete al grupo de testers: [ley-al-blanco-testers](https://groups.google.com/g/ley-al-blanco-testers). Con tu cuenta de Google, pulsa «Unirse al grupo».
-2. Acepta la prueba desde el móvil o el ordenador: [play.google.com/apps/testing/es.leyalblanco.app](https://play.google.com/apps/testing/es.leyalblanco.app).
-3. Instala la app desde Google Play. Se actualizará sola.
+The app is in closed testing on Google Play and anyone can join:
 
-Si puedes, quédate en la prueba al menos 14 días y úsala de vez en cuando (por ejemplo, la pregunta del día): Google exige 12 testers durante 14 días para publicarla para todo el mundo. Los comentarios, a dev@mainshai.com.
+1. Join the testers group: [ley-al-blanco-testers](https://groups.google.com/g/ley-al-blanco-testers). Sign in with your Google account and press «Join group».
+2. Accept the test from your phone or computer: [play.google.com/apps/testing/es.leyalblanco.app](https://play.google.com/apps/testing/es.leyalblanco.app).
+3. Install the app from Google Play. It updates itself.
 
-Próximamente en App Store.
+If you can, stay in the test for at least 14 days and use it from time to time (for example, the daily question): Google requires 12 testers for 14 days to publish it for everyone. Send comments to dev@mainshai.com.
 
-## Capturas
+</details>
+
+<details>
+<summary>Install the APK from GitHub</summary>
+
+1. Download the APK for your phone from the [latest release](https://github.com/dferrandizmont/ley-al-blanco/releases/latest):
+   - `Ley-al-Blanco-vX.Y.Z-arm64-v8a.apk`: for almost all current phones.
+   - `Ley-al-Blanco-vX.Y.Z-armeabi-v7a.apk`: for older 32-bit phones.
+2. When you open the APK, allow «install apps from unknown sources».
+3. Check the integrity with the `SHA256SUMS.txt` file published on the same release page.
+
+</details>
+
+## Screenshots
 
 <p>
-  <a href="docs/readme/01-preguntas-explicadas.png"><img src="docs/readme/01-preguntas-explicadas.png" width="160" alt="Práctica con explicación y referencia al BOE"></a>
-  <a href="docs/readme/02-simulacro.png"><img src="docs/readme/02-simulacro.png" width="160" alt="Resultado de un simulacro de 20 preguntas"></a>
-  <a href="docs/readme/03-probabilidad.png"><img src="docs/readme/03-probabilidad.png" width="160" alt="Inicio con progreso y probabilidad de aprobar"></a>
-  <a href="docs/readme/04-fallos.png"><img src="docs/readme/04-fallos.png" width="160" alt="Lista de fallos para repasar"></a>
-  <a href="docs/readme/05-gratis.png"><img src="docs/readme/05-gratis.png" width="160" alt="Teoría y resúmenes por tema"></a>
+  <a href="docs/readme/01-preguntas-explicadas.png"><img src="docs/readme/01-preguntas-explicadas.png" width="19%" alt="Practice with an explanation and a reference to the BOE"></a>
+  <a href="docs/readme/02-simulacro.png"><img src="docs/readme/02-simulacro.png" width="19%" alt="Result of a 20-question mock exam"></a>
+  <a href="docs/readme/03-probabilidad.png"><img src="docs/readme/03-probabilidad.png" width="19%" alt="Home with your progress and the chance of passing"></a>
+  <a href="docs/readme/04-fallos.png"><img src="docs/readme/04-fallos.png" width="19%" alt="List of mistakes to review"></a>
+  <a href="docs/readme/05-gratis.png"><img src="docs/readme/05-gratis.png" width="19%" alt="Theory and summaries by topic"></a>
 </p>
 
-Pulsa una captura para ampliarla.
+Tap a screenshot to open it full size.
 
-## Funciones
+## Features
 
-- Práctica por temas con explicaciones y referencias a la normativa.
-- Simulacros ilimitados de 20 preguntas: aprobado con 16 aciertos, historial y revisión.
-- Repaso de fallos y repetición espaciada, pregunta del día y racha de estudio.
-- Teoría, glosario, buscador y tarjetas de cifras y plazos.
-- Progreso local que puedes exportar e importar con el selector de archivos del sistema.
+- **Practice by topic.** Explanations and references to the rules.
+- **Unlimited mock exams.** 20 questions, pass with 16 correct answers, history and review.
+- **Review your mistakes.** Spaced repetition, daily question and study streak.
+- **Theory and glossary.** Theory, glossary, search and cards with figures and deadlines.
+- **Local progress.** Export and import your progress with the system file picker.
 
-## Privacidad
+## Privacy
 
-Nada sale del móvil y la app no pide permisos. Sin servidor, analítica ni
-servicios de terceros. El progreso se guarda en el dispositivo; los enlaces
-externos, el correo y la exportación solo se abren por acción del usuario.
+Nothing leaves your phone and the app asks for no permissions. No server, no
+analytics and no third-party services. Your progress is stored on the device;
+external links, email and export only open when you ask for them.
 
-[Política de privacidad](https://dferrandizmont.github.io/ley-al-blanco/privacidad/).
+[Privacy policy](https://dferrandizmont.github.io/ley-al-blanco/privacidad/).
 
-## Compilar y probar
+## What's new
 
-Requisitos: Flutter **3.47.7**, Android SDK para Android o macOS con Xcode para
-iOS. La app usa Riverpod, go_router y Drift para el estado, la navegación y la
-base de datos local.
+See [CHANGELOG.md](CHANGELOG.md) or the [releases](https://github.com/dferrandizmont/ley-al-blanco/releases).
 
-Desde la raíz:
+## Contributing
 
-```bash
-cd app
-flutter pub get
-flutter analyze
-flutter test
-flutter run
-```
+Bug reports, ideas and translations are welcome. How to build, test and
+contribute: [CONTRIBUTING.md](CONTRIBUTING.md).
 
-APK de pruebas locales, sin `app/android/key.properties`:
+## License
 
-```bash
-flutter build apk --release -PallowDebugSigning=true
-```
+Code [MIT](LICENSE), Copyright (c) 2026 Daniel Mont Ferrandiz. Our original explanations,
+theory and glossary: [CC BY-SA 4.0](LICENSE-CONTENT.md).
 
-Usa la clave de depuración de la máquina. Los APK públicos requieren una clave
-del dueño fuera del repositorio: [firma de release](docs/release-signing.md).
-Los ficheros generados se versionan; si cambias sus fuentes:
+The questions, options and answers come from the **Dirección General de la
+Guardia Civil** and are reused under **Ley 37/2007**, outside MIT and CC. The
+[PDFs, dates and checksums](fuentes/guardia-civil/LEEME.md) are kept. The legal
+texts of the [BOE](fuentes/boe/LEEME.md) have no copyright (art. 13 LPI).
+Third-party materials keep their own licences.
 
-```bash
-dart run build_runner build -d
-flutter gen-l10n
-```
+For security reports: [SECURITY.md](SECURITY.md).
 
-Para regenerar el contenido hacen falta Python **3.11 o superior** y `pdftotext`
-(Poppler o Xpdf). Sigue el [pipeline de contenido](tool/content/README.md);
-no edites los JSON generados a mano. El banco se comprueba con SHA-256 al importarlo.
-
-[Pruebas en dispositivo](docs/qa.md) ·
-[Regenerar gráficos y capturas](tool/store/LEEME.md) ·
-[Especificación](licencia-armas-spec.md) · [Diseño](docs/design-sereno.md).
-
-## Novedades
-
-Lo que cambia en cada versión está en [CHANGELOG.md](CHANGELOG.md).
-
-## Licencias y fuentes
-
-Código [MIT](LICENSE), Copyright (c) 2026 Daniel Mont Ferrandiz.
-Explicaciones, teoría y glosario propios: [CC BY-SA 4.0](LICENSE-CONTENT.md).
-
-Las preguntas, opciones y respuestas proceden de la **Dirección General de la
-Guardia Civil** y se reutilizan conforme a la **Ley 37/2007**, fuera de MIT y CC.
-Se conservan los [PDF, fechas y checksums](fuentes/guardia-civil/LEEME.md).
-Los textos normativos del [BOE](fuentes/boe/LEEME.md) no tienen derechos de autor
-(art. 13 LPI). Los materiales de terceros conservan sus licencias.
-
-Para avisos de seguridad: [SECURITY.md](SECURITY.md).
-
-App independiente y no oficial, sin afiliación con la Guardia Civil ni con
-ninguna administración. El material ayuda a estudiar y no sustituye la normativa
-vigente ni las indicaciones del órgano examinador.
+Independent and unofficial app, with no affiliation with the Guardia Civil or
+with any administration. The material helps you study and does not replace the
+rules in force or the instructions of the examining body.
