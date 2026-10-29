@@ -51,6 +51,28 @@ class AppLocalizationsEs extends AppLocalizations {
   }
 
   @override
+  String progressPendingCount(int index, int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count pendientes',
+      one: '1 pendiente',
+    );
+    return '$index de $_temp0';
+  }
+
+  @override
+  String progressPendingSemantics(int index, int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count pendientes',
+      one: '1 pendiente',
+    );
+    return 'Pregunta $index de $_temp0';
+  }
+
+  @override
   String correctOfSemantics(int correct, int total) {
     String _temp0 = intl.Intl.pluralLogic(
       correct,
@@ -156,6 +178,9 @@ class AppLocalizationsEs extends AppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get temaCardBelowChance => 'Por debajo del azar: repasa la teoría';
 
   @override
   String bankEdition(String edition) {
@@ -306,6 +331,22 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get mockReplaceBody =>
       'El simulacro sin entregar se descartará y no podrás retomarlo.';
+
+  @override
+  String get mockHistoryEmpty => 'Aún no has entregado ninguno.';
+
+  @override
+  String mockHistoryDateTime(String date, String time) {
+    return '$date · $time';
+  }
+
+  @override
+  String get settingsImportErrorDateTime =>
+      'El archivo contiene una fecha u hora no válida. No se ha cambiado nada.';
+
+  @override
+  String get settingsImportErrorTooDeep =>
+      'El archivo está demasiado anidado o dañado. No se ha cambiado nada.';
 
   @override
   String get mockHistoryTitle => 'Tus simulacros';
@@ -805,7 +846,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get theoryGlosarioOverline => 'Teoría · Glosario';
 
   @override
-  String get theoryGlossarySearchHint => 'Buscar un término';
+  String get theoryGlossarySearchHint => 'Buscar en el glosario';
 
   @override
   String get theoryGlossarySearchClear => 'Borrar la búsqueda';
@@ -1045,6 +1086,9 @@ class AppLocalizationsEs extends AppLocalizations {
   String homeFiguresCardsSubtitle(int count) {
     return '$count tarjetas: piensa la respuesta y dale la vuelta';
   }
+
+  @override
+  String get figuresCardAnswerLabel => 'La respuesta';
 
   @override
   String get figuresCardsReveal => 'Ver respuesta';

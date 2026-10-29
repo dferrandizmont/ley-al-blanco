@@ -8,6 +8,7 @@ import '../../../core/widgets/apto_app_bar.dart';
 import '../../../core/widgets/article_chip.dart';
 import '../../../core/widgets/buttons.dart';
 import '../../../core/widgets/empty_state.dart';
+import '../../../core/widgets/fitted_text.dart';
 import '../../../core/widgets/overline.dart';
 import '../../../core/widgets/page_body.dart';
 import '../../../core/widgets/raised_card.dart';
@@ -88,6 +89,8 @@ class _ReaderState extends State<_Reader> {
     final l10n = context.l10n;
     final typo = context.typo;
     final doc = widget.doc;
+    // Some summaries repeat the title of the exam-key boxes below.
+    final summary = doc.hasExamKey ? doc.summaryWithoutExamKey : doc.summary;
     final tema = doc.tema;
     final query = _search.text.trim();
     final searching = _isGlossary && query.isNotEmpty;
@@ -116,10 +119,13 @@ class _ReaderState extends State<_Reader> {
                       const SizedBox(height: Sp.s),
                       Semantics(
                         header: true,
-                        child: Text(doc.displayTitle(l10n), style: typo.title),
+                        child: FittedText(
+                          doc.displayTitle(l10n),
+                          style: typo.title,
+                        ),
                       ),
                       const SizedBox(height: Sp.m),
-                      Text(doc.summary, style: typo.body),
+                      Text(summary, style: typo.body),
                     ],
                   ),
                 ),
@@ -173,10 +179,13 @@ class _ReaderState extends State<_Reader> {
             left: Sp.page,
             right: Sp.page,
             bottom: Sp.floatingMargin,
-            child: PrimaryButton(
-              label: l10n.theoryPracticeThisTema,
-              floating: true,
-              onPressed: () => context.push('/tema/$tema'),
+            child: MediaQuery.withClampedTextScaling(
+              maxScaleFactor: 1.5,
+              child: PrimaryButton(
+                label: l10n.theoryPracticeThisTema,
+                floating: true,
+                onPressed: () => context.push('/tema/$tema'),
+              ),
             ),
           ),
       ],

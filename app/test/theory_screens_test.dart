@@ -184,6 +184,56 @@ void main() {
   });
 
   group('reader', () {
+    for (final id in ['t3', 't4', 't5', 'aem']) {
+      testScreen('$id summary omits the repeated exam-key title', (
+        tester,
+      ) async {
+        final json =
+            jsonDecode(utf8.decode(realTheoryBytes())) as Map<String, dynamic>;
+        final doc = TheoryBank.fromJson(json).byId(id)!;
+        expect(doc.summary, contains('Clave para el examen: '));
+        _phone(tester);
+        await pumpFullApp(tester, bundle: theoryBundle(theory: json));
+        await openRoute(tester, '/teoria/$id');
+        expect(find.text(doc.summaryWithoutExamKey), findsOneWidget);
+        expect(find.textContaining('Clave para el examen:'), findsNothing);
+        expect(find.text('Clave para el examen'), findsWidgets);
+      });
+    }
+
+    for (final hasExamKey in [false, true]) {
+      testScreen('leading exam-key title, box present: $hasExamKey', (
+        tester,
+      ) async {
+        final json = theoryFixtureJson();
+        final doc = (json['docs'] as List).first as Map<String, dynamic>;
+        doc['summary'] = 'Clave para el examen: Resumen de prueba.';
+        doc['sections'] = [
+          {
+            'title': 'Sección de prueba',
+            'blocks': [
+              {'type': hasExamKey ? 'key' : 'p', 'text': 'Texto de prueba.'},
+            ],
+          },
+        ];
+        _phone(tester);
+        await pumpFullApp(tester, bundle: theoryBundle(theory: json));
+        await openRoute(tester, '/teoria/t1');
+        expect(
+          find.text(
+            hasExamKey
+                ? 'Resumen de prueba.'
+                : 'Clave para el examen: Resumen de prueba.',
+          ),
+          findsOneWidget,
+        );
+        expect(
+          find.text('Clave para el examen'),
+          hasExamKey ? findsOneWidget : findsNothing,
+        );
+      });
+    }
+
     testScreen('renders the header and every kind of block', (tester) async {
       await _pump(tester);
       await openRoute(tester, '/teoria/t1');
@@ -203,7 +253,7 @@ void main() {
       expect(find.text('Tipo'), findsOneWidget);
       expect(find.text('Se recarga sola; ráfaga'), findsOneWidget);
       expect(find.text('Clave para el examen'), findsOneWidget);
-      expect(find.text('la definición de arma.'), findsOneWidget);
+      expect(find.text('La definición de arma.'), findsOneWidget);
       expect(find.byType(NoticeCallout), findsOneWidget);
       expect(find.text('Aviso: cambio en la norma'), findsOneWidget);
       // Two chips in the first section, one in the last; the folded one hides its.

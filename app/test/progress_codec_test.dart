@@ -110,7 +110,7 @@ void main() {
     for (final offset in ['+24:00', '-24:00', '+01:60', '+9960']) {
       test('refuses an invalid offset $offset instead of normalizing it', () {
         final json = _json()..['exported_at'] = '2026-10-15T10:00:00$offset';
-        expect(_failure(json).error, ProgressImportError.invalid);
+        expect(_failure(json).error, ProgressImportError.invalidDateTime);
       });
     }
     for (final offset in ['+02:00', '+0200']) {
@@ -341,8 +341,8 @@ void main() {
       }
     });
 
-    /// Each case edits a valid file; the error must be `invalid` and name the
-    /// field.
+    // Each case edits a valid file; malformed dates must yield
+    // `invalidDateTime`, other fields `invalid`. Both errors name the field.
     final cases = <String, (void Function(Map<String, dynamic>), String)>{
       'edition missing': ((j) => j.remove('edition'), 'edition'),
       'edition not text': ((j) => j['edition'] = 5, 'edition'),
@@ -455,7 +455,12 @@ void main() {
         final json = _json();
         entry.value.$1(json);
         final e = _failure(json);
-        expect(e.error, ProgressImportError.invalid);
+        expect(
+          e.error,
+          entry.value.$2.contains('_at')
+              ? ProgressImportError.invalidDateTime
+              : ProgressImportError.invalid,
+        );
         expect(e.detail, contains(entry.value.$2));
       });
     }
@@ -477,7 +482,7 @@ void main() {
     test('nesting deeper than 8 levels, before decoding', () {
       final deep = '${'[' * 9}${']' * 9}';
       final e = _failure({}, bytes: Uint8List.fromList(utf8.encode(deep)));
-      expect(e.error, ProgressImportError.invalid);
+      expect(e.error, ProgressImportError.tooDeep);
       expect(e.detail, contains('nested'));
       // Brackets inside strings do not count, and 8 levels are fine.
       final shallow = _json()..['app_version'] = '[[[[[[[[[[[[{{{{{{{{{';

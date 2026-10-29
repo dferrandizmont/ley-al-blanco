@@ -226,6 +226,9 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                                 title: l10n.temaTitle(summary.tema),
                                 mastery: displayMastery(summary.mastery),
                                 mistakes: summary.mistakesCount,
+                                // Coverage > 0: the tema has been answered at
+                                // least once.
+                                hasAttempts: summary.coverage > 0,
                                 onTap: () =>
                                     context.push('/tema/${summary.tema}'),
                               ),

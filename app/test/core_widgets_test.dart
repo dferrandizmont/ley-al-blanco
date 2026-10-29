@@ -282,6 +282,313 @@ void main() {
     expect(find.text('3 fallos'), findsOneWidget);
   });
 
+  testWidgets('TemaCard: below-chance line with attempts and 0 % mastery', (
+    tester,
+  ) async {
+    Widget card({required bool hasAttempts, double mastery = 0}) => Scaffold(
+      body: TemaCard(
+        tema: 2,
+        title: 'Categorías de armas',
+        mastery: mastery,
+        mistakes: 0,
+        hasAttempts: hasAttempts,
+      ),
+    );
+
+    // Without attempts the tema was never answered: no line.
+    await pumpApp(tester, card(hasAttempts: false));
+    expect(find.text('Dominio 0 %'), findsOneWidget);
+    expect(find.text('Por debajo del azar: repasa la teoría'), findsNothing);
+
+    // With attempts and 0 %: the line shows under the bar.
+    await pumpApp(tester, card(hasAttempts: true));
+    expect(find.text('Dominio 0 %'), findsOneWidget);
+    expect(find.text('Por debajo del azar: repasa la teoría'), findsOneWidget);
+
+    // With attempts and a real mastery: no line.
+    await pumpApp(tester, card(hasAttempts: true, mastery: 0.45));
+    expect(find.text('Dominio 45 %'), findsOneWidget);
+    expect(find.text('Por debajo del azar: repasa la teoría'), findsNothing);
+  });
+
+  testWidgets('TemaCard: the below-chance line follows the rounding', (
+    tester,
+  ) async {
+    Widget card(double mastery) => Scaffold(
+      body: TemaCard(
+        tema: 2,
+        title: 'Categorías de armas',
+        mastery: mastery,
+        mistakes: 0,
+        hasAttempts: true,
+      ),
+    );
+
+    // 0.4 % is shown as 0 %: the warning shows.
+    await pumpApp(tester, card(0.004));
+    expect(find.text('Dominio 0 %'), findsOneWidget);
+    expect(find.text('Por debajo del azar: repasa la teoría'), findsOneWidget);
+
+    // 0.5 % is shown as 1 %: it does not.
+    await pumpApp(tester, card(0.005));
+    expect(find.text('Dominio 1 %'), findsOneWidget);
+    expect(find.text('Por debajo del azar: repasa la teoría'), findsNothing);
+  });
+
+  testWidgets('TemaCard speaks the below-chance line with the mastery', (
+    tester,
+  ) async {
+    final handle = tester.ensureSemantics();
+    try {
+      await pumpApp(
+        tester,
+        const Scaffold(
+          body: TemaCard(
+            tema: 2,
+            title: 'Categorías de armas',
+            mastery: 0,
+            mistakes: 0,
+            hasAttempts: true,
+          ),
+        ),
+      );
+      final label = tester.getSemantics(find.byType(TemaCard)).label;
+      expect(label, contains('Dominio 0 %'));
+      expect(label, contains('Por debajo del azar: repasa la teoría'));
+    } finally {
+      handle.dispose();
+    }
+  });
+
+  testWidgets('TemaCard: the below-chance line fits at 320 dp with large text', (
+    tester,
+  ) async {
+    tester.view.physicalSize = const Size(320, 568);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.reset);
+    await pumpApp(
+      tester,
+      const Scaffold(
+        body: Padding(
+          padding: Sp.pageInsets,
+          child: TemaCard(
+            tema: 1,
+            title: 'Funcionamiento y seguridad',
+            mastery: 0,
+            mistakes: 2,
+            hasAttempts: true,
+          ),
+        ),
+      ),
+      textScale: 2,
+    );
+    const line = 'Por debajo del azar: repasa la teoría';
+    expect(find.text(line), findsOneWidget);
+    expect(tester.takeException(), isNull);
+    // The line stays inside the screen, wrapped in more than one line.
+    final rect = tester.getRect(find.text(line));
+    expect(rect.left, greaterThanOrEqualTo(0));
+    expect(rect.right, lessThanOrEqualTo(320));
+  });
+
+  testWidgets('ProgressHeader: the pending counter counts the session', (
+    tester,
+  ) async {
+    await pumpApp(
+      tester,
+      const Scaffold(
+        body: ProgressHeader(current: 1, total: 67, pending: true),
+      ),
+    );
+    expect(find.text('1 de 67 pendientes'), findsOneWidget);
+    expect(find.text('1 / 67'), findsNothing);
+    // One pending question: singular.
+    await pumpApp(
+      tester,
+      const Scaffold(body: ProgressHeader(current: 1, total: 1, pending: true)),
+    );
+    expect(find.text('1 de 1 pendiente'), findsOneWidget);
+  });
+
+  testWidgets('ProgressHeader speaks the pending counter', (tester) async {
+    final handle = tester.ensureSemantics();
+    try {
+      await pumpApp(
+        tester,
+        const Scaffold(
+          body: ProgressHeader(current: 2, total: 67, pending: true),
+        ),
+      );
+      expect(
+        find.bySemanticsLabel('Pregunta 2 de 67 pendientes'),
+        findsOneWidget,
+      );
+    } finally {
+      handle.dispose();
+    }
+  });
+
+  testWidgets('ProgressHeader: the pending counter fits at 320 dp x2', (
+    tester,
+  ) async {
+    tester.view.physicalSize = const Size(320, 568);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.reset);
+    await pumpApp(
+      tester,
+      const Scaffold(
+        body: Padding(
+          padding: Sp.pageInsets,
+          child: ProgressHeader(current: 1, total: 67, pending: true),
+        ),
+      ),
+      textScale: 2,
+    );
+    expect(find.text('1 de 67 pendientes'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+
+  group('ProgressHeader: the layout is decided for the whole session', () {
+    /// Width of [text] in the counter style, at the text scale of the app.
+    double counterWidth(BuildContext context, String text, TextStyle style) {
+      final painter = TextPainter(
+        text: TextSpan(text: text, style: style),
+        textDirection: Directionality.of(context),
+        textScaler: MediaQuery.textScalerOf(context),
+        maxLines: 1,
+      )..layout();
+      final width = painter.width;
+      painter.dispose();
+      return width;
+    }
+
+    /// The style of the counter, read from the rendered one.
+    TextStyle counterStyle(WidgetTester tester, String counter) =>
+        tester.widget<Text>(find.text(counter)).style!;
+
+    /// Whether the counter sits on the same row as the bar.
+    bool besideBar(WidgetTester tester, String counter) {
+      final bar = tester.getRect(find.byType(PillBar));
+      final text = tester.getRect(find.text(counter));
+      return (bar.center.dy - text.center.dy).abs() < 0.5;
+    }
+
+    /// Pumps the header at a fixed width, with or without the close button.
+    Future<void> pumpHeader(
+      WidgetTester tester, {
+      required double width,
+      required int current,
+      int total = 67,
+      bool pending = true,
+      bool close = false,
+      double textScale = 1,
+    }) async {
+      await pumpApp(
+        tester,
+        Scaffold(
+          body: SizedBox(
+            width: width,
+            child: ProgressHeader(
+              current: current,
+              total: total,
+              pending: pending,
+              leading: close
+                  ? RoundIconButton(
+                      icon: Icons.close_rounded,
+                      tooltip: 'Cerrar',
+                      onPressed: () {},
+                    )
+                  : null,
+            ),
+          ),
+        ),
+        textScale: textScale,
+      );
+    }
+
+    testWidgets('the counter goes on its own line below the 96 dp bar', (
+      tester,
+    ) async {
+      // The practice by tema ("67 de 67 pendientes") and the plain ratio
+      // ("67 / 67") decide the layout the same way.
+      for (final (pending, counter) in [
+        (true, '67 de 67 pendientes'),
+        (false, '67 / 67'),
+      ]) {
+        await pumpHeader(tester, width: 320, current: 67, pending: pending);
+        final context = tester.element(find.byType(ProgressHeader));
+        final style = counterStyle(tester, counter);
+        // The width that leaves exactly 96 dp to the bar.
+        final fits =
+            ProgressHeader.minBarWidth +
+            Sp.m +
+            counterWidth(context, counter, style);
+
+        // Enough room: the counter stays next to the bar, which keeps 96 dp.
+        await pumpHeader(
+          tester,
+          width: fits.ceil().toDouble(),
+          current: 67,
+          pending: pending,
+        );
+        expect(besideBar(tester, counter), isTrue, reason: counter);
+        expect(
+          tester.getSize(find.byType(PillBar)).width,
+          greaterThanOrEqualTo(ProgressHeader.minBarWidth),
+          reason: counter,
+        );
+
+        // One dp less: the counter goes on its own line.
+        await pumpHeader(
+          tester,
+          width: fits.floor().toDouble() - 1,
+          current: 67,
+          pending: pending,
+        );
+        expect(besideBar(tester, counter), isFalse, reason: counter);
+        expect(tester.takeException(), isNull, reason: counter);
+      }
+    });
+
+    testWidgets('the layout does not change from question 9 to 10', (
+      tester,
+    ) async {
+      await pumpHeader(tester, width: 320, current: 67);
+      final context = tester.element(find.byType(ProgressHeader));
+      final style = counterStyle(tester, '67 de 67 pendientes');
+      final nine = counterWidth(context, '9 de 67 pendientes', style);
+      final ten = counterWidth(context, '10 de 67 pendientes', style);
+      final widest = counterWidth(context, '67 de 67 pendientes', style);
+      // The index goes from one digit to two: the counter gets wider.
+      expect(ten - nine, greaterThanOrEqualTo(1));
+
+      // The width where "9 de 67 pendientes" fits next to the bar but
+      // "10 de 67 pendientes" does not: the layout used to change here, in
+      // the middle of a session.
+      final width = (Sp.touch + Sp.m + Sp.m + ProgressHeader.minBarWidth + nine)
+          .ceil()
+          .toDouble();
+      expect(
+        width,
+        lessThan(Sp.touch + Sp.m + Sp.m + ProgressHeader.minBarWidth + widest),
+      );
+
+      await pumpHeader(tester, width: width, current: 9, close: true);
+      final atNine = besideBar(tester, '9 de 67 pendientes');
+      expect(tester.takeException(), isNull);
+
+      await pumpHeader(tester, width: width, current: 10, close: true);
+      final atTen = besideBar(tester, '10 de 67 pendientes');
+      expect(tester.takeException(), isNull);
+
+      // The arrangement is the same in both questions, and it is the one of
+      // the widest counter of the session, which does not fit next to the
+      // bar at this width.
+      expect(atNine, atTen);
+      expect(atNine, isFalse);
+    });
+  });
+
   group('OptionCard', () {
     Future<void> pump(
       WidgetTester tester,

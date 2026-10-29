@@ -2,7 +2,12 @@
     <application
         android:label="Ley al Blanco"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true">
+        <!-- El progreso entra en la copia del sistema del usuario y se
+             restaura al cambiar de móvil. Ver docs/privacy.md
+             ("Copias y acciones externas"): la copia la gestiona su cuenta,
+             fuera de la app. -->
         <activity
             android:name=".MainActivity"
             android:exported="true"

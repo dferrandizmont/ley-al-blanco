@@ -5,7 +5,12 @@ const String _nbsp = ' ';
 /// non-breaking space before the sign (RAE / Fundéu style). Rounds half away
 /// from zero, clamps out-of-range values and treats NaN as 0 so a bad number
 /// never reaches the screen as "NaN %".
-String formatPercent(double ratio) {
+String formatPercent(double ratio) => '${percentValue(ratio)}$_nbsp%';
+
+/// The percentage of [ratio] as a whole number (0..100): the number
+/// [formatPercent] shows, without the sign. Rounds half away from zero,
+/// clamps out-of-range values and treats NaN as 0.
+int percentValue(double ratio) {
   final safe = ratio.isNaN ? 0.0 : ratio.clamp(0.0, 1.0);
-  return '${(safe * 100).round()}$_nbsp%';
+  return (safe * 100).round();
 }

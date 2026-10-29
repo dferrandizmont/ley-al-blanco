@@ -148,7 +148,9 @@ void _expectAnswer(Question question) {
     find.text('$letter. ${question.options[question.answer]}'),
     findsOneWidget,
   );
-  expect(find.byIcon(Icons.check_circle_rounded), findsOneWidget);
+  expect(find.byIcon(Icons.check_circle_rounded), findsNothing);
+  expect(find.text('La respuesta'), findsOneWidget);
+  expect(find.text('Correcto'), findsNothing);
   expect(find.text(question.notice!), findsOneWidget);
   expect(find.text(question.explanation!), findsOneWidget);
   expect(find.byType(ArticleChip), findsOneWidget);
@@ -169,7 +171,7 @@ void main() {
       _expectVisibleButton(tester, find.widgetWithText(FilledButton, _reveal));
     }, bundle: one);
 
-    // The back of the card: the official answer with our verdict.
+    // The back of the card: the official answer before assessing recall.
     _golden('cifras_tarjetas_reverso_${variant.name}', variant, (tester) async {
       await pushRoute(tester, '/cifras/tarjetas');
       await _tap(tester, _reveal);

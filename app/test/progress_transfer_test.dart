@@ -316,7 +316,7 @@ void main() {
       final json = _decode(await _export(c));
       ((json['mocks'] as List).first as Map)['started_at'] =
           'ayer por la tarde';
-      await expectRefused(_encode(json), ProgressImportError.invalid);
+      await expectRefused(_encode(json), ProgressImportError.invalidDateTime);
     });
 
     test('another bank edition', () async {
@@ -327,7 +327,7 @@ void main() {
     test('nesting beyond 8 levels', () async {
       await expectRefused(
         Uint8List.fromList(utf8.encode('${'[' * 9}${']' * 9}')),
-        ProgressImportError.invalid,
+        ProgressImportError.tooDeep,
       );
     });
 

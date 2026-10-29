@@ -748,7 +748,9 @@
     "explanation": "El Reglamento no regula este caso: Defensa fija qué calibres son de guerra y las armas automáticas siempre lo son. El cuestionario admite estos calibres en caza mayor si el rifle es de repetición (no automático) y usa bala expansiva, munición de caza que no está entre las prohibidas.",
     "article": null,
     "notice": null,
-    "flags": [],
+    "flags": [
+      "sin_articulo"
+    ],
     "confidence": "baja",
     "sources": [
       {
@@ -761,7 +763,7 @@
       }
     ],
     "reviewed": false,
-    "review_notes": "Sin base en el corpus para la condición «bala expansiva y rifle de repetición» ni para la mención a .308 Win / 7,62x39. Arts. 6.1.b y 6.1.c y 2.33 (definición de bala expansiva) solo la cubren de forma indirecta. Necesita fuente (resolución o criterio de la DGGC/Defensa) o revisión experta. | Corregido tras verificación (Fable): Sin artículo y sin flag sin_articulo (el borrador lleva flags vacío).; La explicación no explica el porqué: solo dice «el cuestionario admite». Conviene apoyar la lógica en lo que sí dice el corpus: automáticas = guerra (art. 6.1.c), calibres de guerra los fija Defensa (art. 6.1.b), y la bala expansiva no está entre las municiones prohibidas (art. 5.1.l), a diferencia de perforantes/explosivas/incendiarias, de uso militar (art. 2.30-32).; El corpus no contiene ninguna norma que diga que esos calibres se puedan usar en caza mayor con bala expansiva y arma de repetición; article null es correcto."
+    "review_notes": "Sin base en el corpus para la condición «bala expansiva y rifle de repetición» ni para la mención a .308 Win / 7,62x39. Arts. 6.1.b y 6.1.c y 2.33 (definición de bala expansiva) solo la cubren de forma indirecta. Necesita fuente (resolución o criterio de la DGGC/Defensa) o revisión experta. | Corregido tras verificación (Fable): Sin artículo, con el flag sin_articulo.; La explicación no explica el porqué: solo dice «el cuestionario admite». Conviene apoyar la lógica en lo que sí dice el corpus: automáticas = guerra (art. 6.1.c), calibres de guerra los fija Defensa (art. 6.1.b), y la bala expansiva no está entre las municiones prohibidas (art. 5.1.l), a diferencia de perforantes/explosivas/incendiarias, de uso militar (art. 2.30-32).; El corpus no contiene ninguna norma que diga que esos calibres se puedan usar en caza mayor con bala expansiva y arma de repetición; article null es correcto."
   },
   {
     "id": "t2-047",

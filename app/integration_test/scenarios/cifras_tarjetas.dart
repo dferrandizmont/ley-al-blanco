@@ -29,20 +29,22 @@ String? _stemOnScreen(QaApp app, List<Question> figures) {
   return null;
 }
 
-/// The revealed answer ("A. text") is the official one of the card.
+/// The revealed answer ("A. text") is the official one of the card. Cards
+/// whose answer refers to the others ("Las dos anteriores…") show all three
+/// options, so the official line only has to be among the visible ones.
 void _expectOfficialAnswer(QaApp app, List<Question> figures, String stem) {
-  final line = app.tester.visibleTexts().firstWhere(
-    (text) => RegExp(r'^[A-C]\. ').hasMatch(text),
-    orElse: () => '',
-  );
-  expect(line, isNotEmpty, reason: 'the answer is revealed behind the card');
+  final lines = app.tester
+      .visibleTexts()
+      .where((text) => RegExp(r'^[A-C]\. ').hasMatch(text))
+      .toList();
+  expect(lines, isNotEmpty, reason: 'the answer is revealed behind the card');
   final candidates = figures.where((q) => q.stem == stem).toList();
   expect(candidates, isNotEmpty, reason: 'the stem on screen is a figures one');
   expect(
     candidates.any(
-      (q) =>
-          line ==
-          '${String.fromCharCode(65 + q.answer)}. ${q.options[q.answer]}',
+      (q) => lines.contains(
+        '${String.fromCharCode(65 + q.answer)}. ${q.options[q.answer]}',
+      ),
     ),
     isTrue,
     reason: 'the revealed answer is the official one of "$stem"',
@@ -113,10 +115,11 @@ void registerCifrasTarjetas() {
       expect(figures.map((q) => q.stem), contains(firstStem));
       await tester.tapText(T.verRespuesta, wait: _tapWait);
       await tester.waitFor(
-        find.text(T.respuestaCorrecta),
+        find.text(T.laRespuesta),
         reason: 'the revealed answer',
       );
-      expect(find.text(T.correcto), findsOneWidget);
+      // Neutral: the user has not said yet whether they knew it.
+      expect(find.text(T.correcto), findsNothing);
       expect(find.text(T.explicacion), findsOneWidget);
       expect(find.text(T.laSabia), findsOneWidget);
       expect(find.text(T.repasarOtraVez), findsOneWidget);

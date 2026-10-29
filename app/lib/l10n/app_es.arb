@@ -64,6 +64,30 @@
       }
     }
   },
+  "progressPendingCount": "{index} de {count, plural, =1{1 pendiente} other{{count} pendientes}}",
+  "@progressPendingCount": {
+    "description": "Contador de la práctica por tema: la posición dentro de la sesión y cuántas preguntas quedan por responder (\"1 de 67 pendientes\").",
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "progressPendingSemantics": "Pregunta {index} de {count, plural, =1{1 pendiente} other{{count} pendientes}}",
+  "@progressPendingSemantics": {
+    "description": "Lo que lee el lector de pantalla en la barra de progreso de la práctica por tema (el texto visible es \"1 de 67 pendientes\").",
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "correctOfSemantics": "{correct, plural, =1{1 acierto} other{{correct} aciertos}} de {total}",
   "@correctOfSemantics": {
     "description": "Lo que lee el lector de pantalla en lugar de \"16 / 20\" (anillo del resultado, fila de un tema, resumen de la sesión).",
@@ -192,6 +216,10 @@
         "type": "int"
       }
     }
+  },
+  "temaCardBelowChance": "Por debajo del azar: repasa la teoría",
+  "@temaCardBelowChance": {
+    "description": "Línea bajo la barra de dominio de la tarjeta de tema: el dominio es 0 % y el tema ya tiene intentos, así que el usuario está por debajo del azar."
   },
   "bankEdition": "Cuestionario {edition}",
   "@bankEdition": {
@@ -425,6 +453,16 @@
   "@mockReplaceBody": {
     "description": "Cuerpo del diálogo de empezar otro simulacro."
   },
+  "mockHistoryEmpty": "Aún no has entregado ninguno.",
+  "mockHistoryDateTime": "{date} · {time}",
+  "@mockHistoryDateTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+  "settingsImportErrorDateTime": "El archivo contiene una fecha u hora no válida. No se ha cambiado nada.",
+  "settingsImportErrorTooDeep": "El archivo está demasiado anidado o dañado. No se ha cambiado nada.",
   "mockHistoryTitle": "Tus simulacros",
   "@mockHistoryTitle": {
     "description": "Encabezado de la lista de simulacros entregados en la introducción del simulacro."
@@ -1126,7 +1164,7 @@
   "@theoryGlosarioOverline": {
     "description": "Etiqueta sobre el título del glosario."
   },
-  "theoryGlossarySearchHint": "Buscar un término",
+  "theoryGlossarySearchHint": "Buscar en el glosario",
   "@theoryGlossarySearchHint": {
     "description": "Texto de ayuda del campo de búsqueda del glosario."
   },
@@ -1434,6 +1472,10 @@
         "type": "int"
       }
     }
+  },
+  "figuresCardAnswerLabel": "La respuesta",
+  "@figuresCardAnswerLabel": {
+    "description": "Rótulo neutro del reverso de una tarjeta, antes de valorar si se sabía la respuesta."
   },
   "figuresCardsReveal": "Ver respuesta",
   "@figuresCardsReveal": {

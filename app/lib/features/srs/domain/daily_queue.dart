@@ -16,6 +16,9 @@ const kDefaultNewPerDay = 15;
 ///    from the map counts as 0, i.e. unknown comes first), then tema, then
 ///    the order in [questions].
 ///
+/// Finally, due cards answered in the last 10 minutes move behind the new
+/// questions, preserving their relative order and the selected set.
+///
 /// Cards whose id is not in [questions] (retired questions) are ignored, as
 /// are retired ids in general. [now] is injected; nothing reads the clock.
 List<String> dailyQueue({
@@ -63,9 +66,18 @@ List<String> dailyQueue({
     return byTema != 0 ? byTema : a.$1.compareTo(b.$1);
   });
 
+  final recent = {
+    for (final card in due)
+      if (!card.lastAnsweredAt.isAfter(now) &&
+          now.difference(card.lastAnsweredAt) < const Duration(minutes: 10))
+        card.questionId,
+  };
   return [
-    for (final card in due) card.questionId,
+    for (final card in due)
+      if (!recent.contains(card.questionId)) card.questionId,
     if (newSlots > 0)
       for (final entry in fresh.take(newSlots)) entry.$2.id,
+    for (final card in due)
+      if (recent.contains(card.questionId)) card.questionId,
   ];
 }

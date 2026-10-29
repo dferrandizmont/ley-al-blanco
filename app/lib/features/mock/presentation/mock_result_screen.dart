@@ -126,6 +126,15 @@ class _ResultState extends ConsumerState<_Result> {
     final outcome = widget.outcome;
     final finishedAt = outcome.record.finishedAt;
     final result = outcome.result;
+    final ratioStyle = AptoTypography.tabular(context.typo.subtitle);
+    final ratioWidth = result.perTema.values.fold<double>(0, (width, score) {
+      final measured = textWidth(
+        context,
+        l10n.ratio(score.correct, score.total),
+        ratioStyle,
+      );
+      return measured > width ? measured : width;
+    });
     final passed = result.passed;
     final failed = outcome.failedIndices;
     final shown = _onlyFailed
@@ -158,6 +167,7 @@ class _ResultState extends ConsumerState<_Result> {
                       tema: entry.key,
                       correct: entry.value.correct,
                       total: entry.value.total,
+                      ratioWidth: ratioWidth,
                     ),
                   ],
                 ],
@@ -351,11 +361,13 @@ class _TemaRow extends StatelessWidget {
     required this.tema,
     required this.correct,
     required this.total,
+    required this.ratioWidth,
   });
 
   final int tema;
   final int correct;
   final int total;
+  final double ratioWidth;
 
   /// Width of the thin bar when it sits beside the title.
   static const double barWidth = 64;
@@ -389,18 +401,22 @@ class _TemaRow extends StatelessWidget {
           builder: (context, constraints) {
             final numberWidth = Sp.xxl + Sp.s;
             final fixed = numberWidth + 2 * Sp.m + barWidth;
-            final titleRoom =
-                constraints.maxWidth -
-                fixed -
-                textWidth(context, ratio, ratioStyle);
+            final titleRoom = constraints.maxWidth - fixed - ratioWidth;
             // Side by side only when the longest word of the title fits on
             // one line (it would be split in the middle otherwise).
-            final longestWord = titleText
-                .split(' ')
-                .reduce((a, b) => a.length >= b.length ? a : b);
+            // Every row uses the same breakpoint, including the longest
+            // word across all tema titles, and the same score column.
+            final longestWordWidth = [
+              for (var t = 1; t <= 7; t++)
+                for (final word in l10n.temaTitle(t).split(' '))
+                  textWidth(context, word, typo.rowTitle),
+            ].reduce((a, b) => a > b ? a : b);
+            final score = SizedBox(
+              width: ratioWidth,
+              child: Text(ratio, style: ratioStyle, textAlign: TextAlign.end),
+            );
             final stacked =
-                titleRoom < minTitleWidth ||
-                textWidth(context, longestWord, typo.rowTitle) + 1 > titleRoom;
+                titleRoom < minTitleWidth || longestWordWidth + 1 > titleRoom;
             final title = Text(titleText, style: typo.rowTitle);
             final number = SizedBox(
               width: Sp.xxl,
@@ -429,7 +445,7 @@ class _TemaRow extends StatelessWidget {
                           children: [
                             Expanded(child: bar),
                             const SizedBox(width: Sp.m),
-                            Text(ratio, style: ratioStyle),
+                            score,
                           ],
                         ),
                       ],
@@ -446,7 +462,7 @@ class _TemaRow extends StatelessWidget {
                 const SizedBox(width: Sp.m),
                 SizedBox(width: barWidth, child: bar),
                 const SizedBox(width: Sp.m),
-                Text(ratio, style: ratioStyle),
+                score,
               ],
             );
           },

@@ -49,6 +49,49 @@ void main() {
     expect(tables.length, greaterThan(10));
   });
 
+  testWidgets('a wide table keeps its horizontal scrollbar visible at x2', (
+    tester,
+  ) async {
+    await pumpApp(
+      tester,
+      const Scaffold(
+        body: SizedBox(
+          width: 250,
+          child: TheoryTable(
+            table: TableBlock(
+              headers: ['Documentación', 'Características'],
+              rows: [
+                ['Semiautomática', 'Autorizaciones'],
+              ],
+            ),
+          ),
+        ),
+      ),
+      textScale: 2,
+    );
+    final bar = tester.widget<Scrollbar>(find.byType(Scrollbar));
+    final scroll = tester.widget<SingleChildScrollView>(
+      find.byType(SingleChildScrollView),
+    );
+    expect(bar.thumbVisibility, isTrue);
+    expect(bar.controller, isNotNull);
+    expect(scroll.controller, same(bar.controller));
+    expect(scroll.scrollDirection, Axis.horizontal);
+    expect(bar.controller!.position.maxScrollExtent, greaterThan(0));
+    await tester.pump(const Duration(seconds: 3));
+    expect(
+      tester.widget<Scrollbar>(find.byType(Scrollbar)).thumbVisibility,
+      isTrue,
+    );
+    await tester.drag(
+      find.byType(SingleChildScrollView),
+      const Offset(-120, 0),
+    );
+    await tester.pumpAndSettle();
+    expect(bar.controller!.offset, greaterThan(0));
+    expect(tester.takeException(), isNull);
+  });
+
   group('no word of any published table is split', () {
     // 320 is the iPhone SE; 411 a common Android phone. The inset is what the
     // reader leaves around a table: none (the widest it can get) and the real

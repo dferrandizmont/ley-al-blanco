@@ -3434,6 +3434,7 @@
       "answers_sha256": "72add823daa91a76e1db488ca10c5994445797c99decca3b1e8107995e96e975"
     },
     "flags": [
+      "sin_articulo",
       "cifras"
     ],
     "edition": "GC-2020-11",

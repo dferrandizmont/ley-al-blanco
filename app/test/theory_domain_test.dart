@@ -176,17 +176,81 @@ void main() {
     String body(String text) => KeyBlock(text).body;
     expect(
       body('Lo que más cae en el examen: la definición.'),
-      'la definición.',
+      'La definición.',
     );
-    expect(body('Lo que más cae: la definición.'), 'la definición.');
-    expect(body('lo que más cae - la definición.'), 'la definición.');
+    expect(body('Lo que más cae: la definición.'), 'La definición.');
+    expect(body('lo que más cae - la definición.'), 'La definición.');
     expect(
       body('La definición es lo que más cae.'),
       'La definición es lo que más cae.',
     );
     expect(body('Lo que más cae:'), 'Lo que más cae:');
-    expect(body('Clave para el examen: la definición.'), 'la definición.');
+    expect(body('Clave para el examen: la definición.'), 'La definición.');
     expect(body('clave para el examen - 16 años.'), '16 años.');
+  });
+
+  test(
+    'the key body capitalizes Spanish initials after opening punctuation',
+    () {
+      for (final (text, expected) in [
+        ('árbol.', 'Árbol.'),
+        ('él.', 'Él.'),
+        ('índice.', 'Índice.'),
+        ('órgano.', 'Órgano.'),
+        ('útil.', 'Útil.'),
+        ('ñandú.', 'Ñandú.'),
+        ('«¿qué es?»', '«¿Qué es?»'),
+        ('"¡atención!"', '"¡Atención!"'),
+        ('14 y 16 años.', '14 y 16 años.'),
+      ]) {
+        expect(KeyBlock('Clave para el examen: $text').body, expected);
+      }
+    },
+  );
+
+  test('the shared capitalisation is the one of the key box', () {
+    for (final (text, expected) in [
+      ('árbol.', 'Árbol.'),
+      ('él.', 'Él.'),
+      ('índice.', 'Índice.'),
+      ('órgano.', 'Órgano.'),
+      ('útil.', 'Útil.'),
+      ('ñandú.', 'Ñandú.'),
+      ('«¿qué es?»', '«¿Qué es?»'),
+      ('"¡atención!"', '"¡Atención!"'),
+      ('14 y 16 años.', '14 y 16 años.'),
+      ('Árbol.', 'Árbol.'),
+      ('', ''),
+    ]) {
+      expect(upperCaseFirstLetter(text), expected, reason: text);
+    }
+  });
+
+  test('a summary that repeats the exam-key title loses it, and the sentence '
+      'that follows starts in upper case', () {
+    final bank = TheoryBank.fromJson(
+      jsonDecode(utf8.decode(realTheoryBytes())) as Map<String, dynamic>,
+    );
+    final prefix = RegExp(r'\bclave para el examen:\s*', caseSensitive: false);
+    for (final id in ['t3', 't4', 't5', 'aem']) {
+      final doc = bank.byId(id)!;
+      expect(doc.hasExamKey, isTrue, reason: id);
+      expect(doc.summary, contains('Clave para el examen: '), reason: id);
+      final trimmed = doc.summaryWithoutExamKey;
+      expect(trimmed, isNot(contains('Clave para el examen')), reason: id);
+      // The word that followed the removed title is now in upper case (a
+      // number is left as it is).
+      final match = prefix.firstMatch(doc.summary)!;
+      final word = RegExp(r'\S+')
+          .firstMatch(doc.summary.substring(match.end))!
+          .group(0)!;
+      final capitalised = word[0].toUpperCase() + word.substring(1);
+      expect(trimmed, contains(capitalised), reason: '$id: "$word"');
+    }
+    // A summary without that title is left as it is.
+    final t1 = bank.byId('t1')!;
+    expect(t1.summary, isNot(contains('Clave para el examen')));
+    expect(t1.summaryWithoutExamKey, t1.summary);
   });
 
   test('reading time is at least a minute and grows with the text', () {

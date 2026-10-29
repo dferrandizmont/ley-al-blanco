@@ -6,6 +6,7 @@ import '../../../core/l10n/l10n.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../core/widgets/apto_app_bar.dart';
 import '../../../core/widgets/empty_state.dart';
+import '../../../core/widgets/fitted_text.dart';
 import '../../../core/widgets/overline.dart';
 import '../../../core/widgets/page_body.dart';
 import '../../../core/widgets/raised_card.dart';
@@ -280,7 +281,7 @@ class _DocRow extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(title, style: typo.rowTitle),
+                      FittedText(title, style: typo.rowTitle),
                       const SizedBox(height: Sp.xs),
                       Text(subtitle, style: typo.subtitle),
                     ],

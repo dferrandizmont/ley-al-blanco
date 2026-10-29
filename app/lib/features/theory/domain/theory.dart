@@ -145,7 +145,30 @@ class TheoryDoc {
     return (chars / _charsPerMinute).ceil().clamp(1, 99);
   }
 
+  /// True when the document has a «Clave para el examen» box.
+  bool get hasExamKey => sections.any(
+    (section) => section.blocks.any((block) => block is KeyBlock),
+  );
+
+  /// The summary without its own «Clave para el examen:» prefix (the box
+  /// below already carries that title), with the sentence that follows in
+  /// upper case: «…se presta. la guía…» reads «…se presta. La guía…».
+  String get summaryWithoutExamKey {
+    final match = _examKeyPrefix.firstMatch(summary);
+    if (match == null) return summary;
+    final rest = summary.substring(match.end).trimLeft();
+    if (rest.isEmpty) return summary;
+    return '${summary.substring(0, match.start)}'
+        '${upperCaseFirstLetter(rest)}';
+  }
+
   static const int _charsPerMinute = 900;
+
+  /// The «Clave para el examen:» a summary may repeat before its own box.
+  static final RegExp _examKeyPrefix = RegExp(
+    r'\bclave para el examen:\s*',
+    caseSensitive: false,
+  );
 }
 
 /// A titled group of blocks, foldable in the reader.
@@ -326,7 +349,8 @@ class KeyBlock extends TheoryBlock {
   /// content sources); the box already carries that title.
   String get body {
     final stripped = text.replaceFirst(_titlePrefix, '').trimLeft();
-    return stripped.isEmpty ? text : stripped;
+    if (stripped.isEmpty) return text;
+    return upperCaseFirstLetter(stripped);
   }
 
   static final RegExp _titlePrefix = RegExp(
@@ -337,6 +361,22 @@ class KeyBlock extends TheoryBlock {
   @override
   int get characters => text.length;
 }
+
+/// The first letter of [text] in upper case, the rest of the text as it is.
+///
+/// It respects the Spanish letters with an accent and the ñ, and it leaves
+/// the opening punctuation in front of the letter («¿», «¡», ««», «"», «'»,
+/// «(», «[»).
+String upperCaseFirstLetter(String text) => text.replaceFirstMapped(
+  _initialLetter,
+  (match) => '${match[1]}${match[2]!.toUpperCase()}',
+);
+
+/// The first letter of a text and the punctuation that may come before it.
+final RegExp _initialLetter = RegExp(
+  r'''^([\s"'«“‘¿¡(\[]*)([a-záéíóúüñ])''',
+  caseSensitive: false,
+);
 
 /// A reform notice (the current law differs from the questionnaire).
 @immutable

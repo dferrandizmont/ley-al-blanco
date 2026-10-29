@@ -21,11 +21,13 @@ Las respuestas para los formularios de Play Console se preparan aparte, junto a 
 ## 2. Descripción larga para Google Play y App Store
 
 ```text
-Ley al Blanco te ayuda a preparar la prueba teórica de las licencias D y E y de la autorización especial para menores (AEM) con el cuestionario publicado y explicaciones propias.
+AVISO: Ley al Blanco es una app independiente y no oficial. No pertenece a la Guardia Civil ni a ninguna administración pública, no las representa y no ofrece trámites oficiales. Para cualquier trámite, acude a las fuentes oficiales que se enlazan más abajo.
+
+Ley al Blanco te ayuda a preparar la prueba teórica de las licencias D y E y de la autorización especial para menores (AEM) con el cuestionario público de la Guardia Civil y explicaciones propias.
 
 Es una app gratuita y de código abierto, sin anuncios, sin cuentas y sin servicios de terceros. Todo el contenido se consulta sin conexión.
 
-Cada pregunta incluye una explicación de redacción propia y, cuando corresponde, una referencia normativa. Las preguntas con discrepancias normativas identificadas incluyen un aviso. Estos avisos forman parte del contenido de la app; no son alertas automáticas de nuevas reformas.
+Cada pregunta incluye una explicación de redacción propia y, cuando corresponde, la referencia a la norma en que se apoya. Las preguntas en las que la normativa vigente ha cambiado incluyen un aviso; la respuesta del cuestionario oficial no se modifica.
 
 QUÉ INCLUYE
 • Los 7 temas completos, con preguntas y resúmenes de teoría.
@@ -42,16 +44,24 @@ FUNCIONES PARA REPASAR
 • Tarjetas de cifras para pensar la respuesta y darle la vuelta a la tarjeta.
 • Modo oscuro y exportación e importación del progreso mediante un archivo.
 
+FUENTES OFICIALES
+• Cuestionario y programa de la prueba teórica de las licencias D, E y AEM (Guardia Civil, consultado el 18/10/2026): https://web.guardiacivil.es/es/tramites/autorizaciones-de-armas-y-explosivos/controldearmas/pruebas_licenciasarmas/Programa_prueba_teorica_D__E_y_AEM/index.html
+• Reglamento de Armas, Real Decreto 137/1993 (BOE): https://www.boe.es/buscar/act.php?id=BOE-A-1993-6202
+• Ley Orgánica 4/2015 de protección de la seguridad ciudadana (BOE): https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442
+• Reglamento de Explosivos, Real Decreto 130/2017 (BOE): https://www.boe.es/buscar/act.php?id=BOE-A-2017-2313
+• El resto de normas citadas en las explicaciones, en el BOE: https://www.boe.es
+Dentro de la app, Ajustes enlaza también la fuente original del cuestionario.
+
 SIN COSTE Y DE CÓDIGO ABIERTO
 Todo lo anterior está abierto para todo el mundo: sin compras, sin suscripciones y sin anuncios. El código de la app se publica con licencia libre y el contenido propio con Creative Commons.
 
 PRIVACIDAD
-No necesitas una cuenta. El progreso y los ajustes se guardan en el dispositivo, sin sincronización. La app no envía datos ni informes de errores y no usa servicios de terceros. Puedes exportar tu progreso y elegir dónde guardarlo; las copias del sistema operativo dependen de tu configuración. Soporte: dev@mainshai.com.
+No necesitas una cuenta. El progreso y los ajustes se guardan en el dispositivo, sin sincronización. La app no envía datos ni informes de errores y no usa servicios de terceros. Soporte: dev@mainshai.com.
 
-App independiente y no oficial. Preguntas basadas en el cuestionario publicado por la Dirección General de la Guardia Civil (consultado el 18/10/2026). Las explicaciones son de redacción propia y no constituyen asesoramiento jurídico.
+Las explicaciones son de redacción propia y no constituyen asesoramiento jurídico. Esta app no representa a la Guardia Civil ni a ninguna entidad gubernamental.
 ```
 
-**Longitud:** **2.242 caracteres** (máximo 4.000).
+**Longitud:** **3.096 caracteres** (máximo 4.000).
 
 ## 3. Palabras clave de App Store
 

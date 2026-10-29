@@ -142,6 +142,8 @@ class _DataTransferCardState extends ConsumerState<DataTransferCard> {
       ProgressImportError.wrongFormat => l10n.settingsImportErrorWrongFormat,
       ProgressImportError.newerVersion => l10n.settingsImportErrorNewerVersion,
       ProgressImportError.wrongEdition => l10n.settingsImportErrorWrongEdition,
+      ProgressImportError.invalidDateTime => l10n.settingsImportErrorDateTime,
+      ProgressImportError.tooDeep => l10n.settingsImportErrorTooDeep,
       ProgressImportError.invalid => l10n.settingsImportErrorInvalid,
     };
   }
@@ -152,7 +154,10 @@ class _DataTransferCardState extends ConsumerState<DataTransferCard> {
       context: context,
       builder: (dialogContext) => AlertDialog(
         title: Text(l10n.settingsImportErrorTitle),
-        content: SingleChildScrollView(child: Text(message)),
+        content: Text(message),
+        // The dialog scrolls: with very large text on a small screen the
+        // message does not fit and the last line would be cut.
+        scrollable: true,
         actions: [
           FilledButton(
             onPressed: () => Navigator.of(dialogContext).pop(),
@@ -287,28 +292,29 @@ class _ConfirmImportDialog extends StatelessWidget {
     ];
     return AlertDialog(
       title: Text(l10n.settingsImportConfirmTitle),
-      content: SingleChildScrollView(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(l10n.settingsImportConfirmBody),
-            const SizedBox(height: Sp.m),
-            for (final line in lines) ...[
-              Padding(
-                padding: const EdgeInsets.only(bottom: Sp.xs),
-                child: Text(line, style: AptoTypography.tabular(typo.label)),
-              ),
-            ],
-            if (plan.discardedTotal > 0) ...[
-              const SizedBox(height: Sp.s),
-              Text(
-                l10n.settingsImportDiscarded(plan.discardedTotal),
-                style: typo.subtitle,
-              ),
-            ],
+      // The dialog scrolls: with very large text on a small screen the
+      // summary does not fit and the last line would be cut.
+      scrollable: true,
+      content: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(l10n.settingsImportConfirmBody),
+          const SizedBox(height: Sp.m),
+          for (final line in lines) ...[
+            Padding(
+              padding: const EdgeInsets.only(bottom: Sp.xs),
+              child: Text(line, style: AptoTypography.tabular(typo.label)),
+            ),
           ],
-        ),
+          if (plan.discardedTotal > 0) ...[
+            const SizedBox(height: Sp.s),
+            Text(
+              l10n.settingsImportDiscarded(plan.discardedTotal),
+              style: typo.subtitle,
+            ),
+          ],
+        ],
       ),
       actions: [
         TextButton(

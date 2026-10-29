@@ -9,9 +9,11 @@ import '../../../core/theme/app_theme.dart';
 import '../../../core/widgets/apto_app_bar.dart';
 import '../../../core/widgets/buttons.dart';
 import '../../../core/widgets/error_state.dart';
+import '../../../core/widgets/fitted_text.dart';
 import '../../../core/widgets/overline.dart';
 import '../../../core/widgets/page_body.dart';
 import '../../../core/widgets/raised_card.dart';
+import '../../../core/widgets/text_width.dart';
 import '../application/mock_providers.dart';
 import '../data/mock_repository.dart' show MockRecord;
 import '../domain/mock_timer.dart';
@@ -69,6 +71,9 @@ class _MockIntroScreenState extends ConsumerState<MockIntroScreen> {
       builder: (dialogContext) => AlertDialog(
         title: Text(l10n.mockReplaceTitle),
         content: Text(l10n.mockReplaceBody),
+        // With very large text on a small screen the body does not fit: the
+        // dialog scrolls so the last line is never cut.
+        scrollable: true,
         actions: [
           TextButton(
             onPressed: () => Navigator.of(dialogContext).pop(false),
@@ -208,28 +213,37 @@ class _MockIntroScreenState extends ConsumerState<MockIntroScreen> {
                     loading: _starting,
                     onPressed: config == null ? null : _start,
                   ),
-                if (history != null && history.isNotEmpty) ...[
+                if (history != null) ...[
                   const SizedBox(height: Sp.section),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: Sp.xs),
                     child: Overline(l10n.mockHistoryTitle),
                   ),
                   const SizedBox(height: Sp.s),
-                  RaisedCard(
-                    child: Column(
-                      children: [
-                        for (final (i, record) in history.indexed) ...[
-                          if (i > 0) const CardDivider(),
-                          _HistoryRow(
-                            record: record,
-                            onTap: () => context.push(
-                              '/simulacro/${record.id}/resultado',
+                  if (history.isEmpty)
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: Sp.xs),
+                      child: Text(
+                        l10n.mockHistoryEmpty,
+                        style: context.typo.body,
+                      ),
+                    )
+                  else
+                    RaisedCard(
+                      child: Column(
+                        children: [
+                          for (final (i, record) in history.indexed) ...[
+                            if (i > 0) const CardDivider(),
+                            _HistoryRow(
+                              record: record,
+                              onTap: () => context.push(
+                                '/simulacro/${record.id}/resultado',
+                              ),
                             ),
-                          ),
+                          ],
                         ],
-                      ],
+                      ),
                     ),
-                  ),
                 ],
               ],
             ),
@@ -281,11 +295,20 @@ class _ResumeCard extends StatelessWidget {
 
 /// A finished mock in "Tus simulacros": date, "16 de 20" and APTO / NO APTO
 /// (an icon besides the colour); tapping opens its result.
+///
+/// With very large text on a small screen the date and the hour do not fit
+/// next to the verdict: the row is then stacked, with the date and the hour
+/// on a line of their own (never split) and the score and the verdict under
+/// it.
 class _HistoryRow extends StatelessWidget {
   const _HistoryRow({required this.record, required this.onTap});
 
   final MockRecord record;
   final VoidCallback onTap;
+
+  /// What the row always takes: the circle with the check, the gaps and the
+  /// chevron.
+  static const double _fixed = Sp.xxl + Sp.m + Sp.s + Sp.s + IconSize.base;
 
   @override
   Widget build(BuildContext context) {
@@ -299,10 +322,34 @@ class _HistoryRow extends StatelessWidget {
         ? colors.correctContainer
         : colors.incorrectContainer;
     final verdict = passed ? l10n.mockResultPassed : l10n.mockResultFailed;
-    final date = const AppDateFormat().dayMonthYear(record.finishedAt!);
+    final local = record.finishedAt!.toLocal();
+    const format = AppDateFormat();
+    final date = l10n.mockHistoryDateTime(
+      format.dayMonthYear(local),
+      format.time(local),
+    );
     final score = l10n.mockHistoryScore(
       record.correct ?? 0,
       record.questionIds.length,
+    );
+    final dateStyle = typo.rowTitle;
+    final scoreStyle = AptoTypography.tabular(typo.subtitle);
+    final verdictStyle = typo.label.copyWith(color: toneText);
+    final badge = DecoratedBox(
+      decoration: BoxDecoration(color: toneFill, shape: BoxShape.circle),
+      child: SizedBox.square(
+        dimension: Sp.xxl,
+        child: Icon(
+          passed ? Icons.check_rounded : Icons.close_rounded,
+          size: IconSize.inline,
+          color: tone,
+        ),
+      ),
+    );
+    final chevron = Icon(
+      Icons.chevron_right_rounded,
+      size: IconSize.base,
+      color: colors.outlineStrong,
     );
     return Semantics(
       button: true,
@@ -318,43 +365,61 @@ class _HistoryRow extends StatelessWidget {
               horizontal: Sp.l,
               vertical: Sp.m,
             ),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                DecoratedBox(
-                  decoration: BoxDecoration(
-                    color: toneFill,
-                    shape: BoxShape.circle,
-                  ),
-                  child: SizedBox.square(
-                    dimension: Sp.xxl,
-                    child: Icon(
-                      passed ? Icons.check_rounded : Icons.close_rounded,
-                      size: IconSize.inline,
-                      color: tone,
-                    ),
-                  ),
-                ),
-                const SizedBox(width: Sp.m),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(date, style: typo.rowTitle),
-                      const SizedBox(height: Sp.xs),
-                      Text(score, style: AptoTypography.tabular(typo.subtitle)),
+            child: LayoutBuilder(
+              builder: (context, constraints) {
+                // Side by side (the verdict at the right of the date) only
+                // when the date and the hour fit on one line next to it.
+                final dateWidth = textWidth(context, date, dateStyle);
+                final scoreWidth = textWidth(context, score, scoreStyle);
+                final verdictWidth = textWidth(context, verdict, verdictStyle);
+                final column = dateWidth > scoreWidth ? dateWidth : scoreWidth;
+                final sideBySide =
+                    column + verdictWidth + 1 <= constraints.maxWidth - _fixed;
+                final details = sideBySide
+                    ? Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(date, style: dateStyle),
+                          const SizedBox(height: Sp.xs),
+                          Text(score, style: scoreStyle),
+                        ],
+                      )
+                    : Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          // The date and the hour on a line of their own,
+                          // never split in the middle of the hour.
+                          FittedText(
+                            date,
+                            style: dateStyle,
+                            fit: FittedTextFit.line,
+                          ),
+                          const SizedBox(height: Sp.xs),
+                          Wrap(
+                            spacing: Sp.s,
+                            runSpacing: Sp.xs,
+                            children: [
+                              Text(score, style: scoreStyle),
+                              Text(verdict, style: verdictStyle),
+                            ],
+                          ),
+                        ],
+                      );
+                return Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    badge,
+                    const SizedBox(width: Sp.m),
+                    Expanded(child: details),
+                    const SizedBox(width: Sp.s),
+                    if (sideBySide) ...[
+                      Text(verdict, style: verdictStyle),
+                      const SizedBox(width: Sp.s),
                     ],
-                  ),
-                ),
-                const SizedBox(width: Sp.s),
-                Text(verdict, style: typo.label.copyWith(color: toneText)),
-                const SizedBox(width: Sp.s),
-                Icon(
-                  Icons.chevron_right_rounded,
-                  size: IconSize.base,
-                  color: colors.outlineStrong,
-                ),
-              ],
+                    chevron,
+                  ],
+                );
+              },
             ),
           ),
         ),

@@ -151,6 +151,10 @@ void main() {
       await tester.tap(find.byTooltip('Borrar la búsqueda'));
       await tester.pumpAndSettle();
       expect(find.text('Busca en el banco de preguntas'), findsOneWidget);
+      final field = tester.widget<TextField>(find.byType(TextField));
+      expect(field.controller!.text, isEmpty);
+      expect(field.focusNode!.hasFocus, isTrue);
+      expect(tester.testTextInput.isVisible, isTrue);
     });
 
     testScreen('no matches says so', (tester) async {

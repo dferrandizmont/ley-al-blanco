@@ -241,6 +241,43 @@ void main() {
   });
 
   group('glossary reader', () {
+    testScreen('the AEM summary omits the inline key title', (tester) async {
+      final json = theoryFixtureJson(extras: true);
+      final doc = (json['docs'] as List).firstWhere(
+        (doc) => doc['id'] == 'aem',
+      ) as Map<String, dynamic>;
+      doc['summary'] = 'Resumen de AEM. Clave para el examen: 14 y 16 años.';
+      doc['sections'] = [
+        {
+          'title': 'Edades',
+          'blocks': [
+            {'type': 'key', 'text': 'Clave para el examen: las edades.'},
+          ],
+        },
+      ];
+      await pumpFullApp(tester, bundle: theoryBundle(theory: json));
+      await openRoute(tester, '/teoria/aem');
+      expect(find.text('Resumen de AEM. 14 y 16 años.'), findsOneWidget);
+      expect(find.text('Clave para el examen'), findsOneWidget);
+      expect(find.textContaining('Clave para el examen:'), findsNothing);
+      expect(find.text('Las edades.'), findsOneWidget);
+    });
+
+    testScreen('the empty glossary field has an explicit spoken label', (
+      tester,
+    ) async {
+      await _pump(tester);
+      await openRoute(tester, '/teoria/glosario');
+      final handle = tester.ensureSemantics();
+      try {
+        final semantics = tester.getSemantics(find.byType(TextField));
+        expect(semantics.label, 'Buscar en el glosario');
+        expect(semantics.value, isEmpty);
+      } finally {
+        handle.dispose();
+      }
+    });
+
     testScreen('a new query unfolds a previously folded result', (
       tester,
     ) async {
@@ -365,6 +402,10 @@ void main() {
 
       await tester.tap(find.byTooltip('Borrar la búsqueda'));
       await tester.pumpAndSettle();
+      final field = tester.widget<TextField>(find.byType(TextField));
+      expect(field.controller!.text, isEmpty);
+      expect(field.focusNode!.hasFocus, isTrue);
+      expect(tester.testTextInput.isVisible, isTrue);
       expect(find.byTooltip('Borrar la búsqueda'), findsNothing);
       expect(find.text('Ningún término coincide'), findsNothing);
       expect(find.text('Guía de pertenencia'), findsOneWidget);

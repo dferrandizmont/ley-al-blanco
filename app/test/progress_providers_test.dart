@@ -133,7 +133,13 @@ void main() {
 
         await c.read(studyServiceProvider).recordAnswers([
           for (var i = 0; i < first5.length; i++)
-            attemptOn(byId[first5[i]]!, correct: i != 0),
+            // Answered over 10 minutes ago: a miss from the last 10 minutes
+            // would go behind the new ones (daily_queue.dart).
+            attemptOn(
+              byId[first5[i]]!,
+              correct: i != 0,
+              at: kStudyNow.subtract(const Duration(minutes: 15)),
+            ),
         ]);
         await settle();
 

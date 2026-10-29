@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../format/percent.dart';
 import '../l10n/l10n.dart';
 import '../theme/app_theme.dart';
+import 'fitted_text.dart';
 import 'score_ring.dart';
 
 /// One row of the "Temas" card on Inicio: a 40 dp mini ring (stroke 4) with
@@ -19,6 +20,7 @@ class TemaCard extends StatelessWidget {
     required this.title,
     required this.mastery,
     required this.mistakes,
+    this.hasAttempts = false,
     this.onTap,
   });
 
@@ -31,6 +33,10 @@ class TemaCard extends StatelessWidget {
 
   /// Questions of the tema currently in Fallos; shown only when > 0.
   final int mistakes;
+
+  /// Whether the tema has already been answered at least once. With attempts
+  /// and a 0 % mastery the user is below the chance level and the card says so.
+  final bool hasAttempts;
 
   final VoidCallback? onTap;
 
@@ -45,11 +51,15 @@ class TemaCard extends StatelessWidget {
     final safe = mastery.isNaN ? 0.0 : mastery.clamp(0.0, 1.0);
     final masteryText = l10n.temaCardMastery(formatPercent(mastery));
     final mistakesText = mistakes > 0 ? l10n.temaCardMistakes(mistakes) : null;
+    // 0 % with attempts: the tema is answered, but worse than chance.
+    final belowChance = hasAttempts && percentValue(safe) == 0;
+    final belowChanceText = belowChance ? l10n.temaCardBelowChance : null;
     final spoken = [
       l10n.temaLabel(tema),
       title,
       masteryText,
       ?mistakesText,
+      ?belowChanceText,
     ].join('. ');
 
     return Semantics(
@@ -94,7 +104,7 @@ class TemaCard extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(title, style: typo.rowTitle),
+                      FittedText(title, style: typo.rowTitle),
                       const SizedBox(height: Sp.xs),
                       Wrap(
                         spacing: Sp.m,
@@ -120,6 +130,10 @@ class TemaCard extends StatelessWidget {
                             ),
                         ],
                       ),
+                      if (belowChanceText != null) ...[
+                        const SizedBox(height: Sp.xs),
+                        Text(belowChanceText, style: typo.caption),
+                      ],
                     ],
                   ),
                 ),

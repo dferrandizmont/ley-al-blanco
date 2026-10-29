@@ -56,6 +56,9 @@ class _MockScreenState extends ConsumerState<MockScreen> {
       builder: (dialogContext) => AlertDialog(
         title: Text(title),
         content: Text(body),
+        // With very large text on a small screen the body does not fit: the
+        // dialog scrolls so the last line is never cut.
+        scrollable: true,
         actions: [
           TextButton(
             onPressed: () => Navigator.of(dialogContext).pop(false),

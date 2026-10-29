@@ -166,6 +166,18 @@ abstract class AppLocalizations {
   /// **'Pregunta {current} de {total}'**
   String progressSemantics(int current, int total);
 
+  /// Contador de la práctica por tema: la posición dentro de la sesión y cuántas preguntas quedan por responder ("1 de 67 pendientes").
+  ///
+  /// In es, this message translates to:
+  /// **'{index} de {count, plural, =1{1 pendiente} other{{count} pendientes}}'**
+  String progressPendingCount(int index, int count);
+
+  /// Lo que lee el lector de pantalla en la barra de progreso de la práctica por tema (el texto visible es "1 de 67 pendientes").
+  ///
+  /// In es, this message translates to:
+  /// **'Pregunta {index} de {count, plural, =1{1 pendiente} other{{count} pendientes}}'**
+  String progressPendingSemantics(int index, int count);
+
   /// Lo que lee el lector de pantalla en lugar de "16 / 20" (anillo del resultado, fila de un tema, resumen de la sesión).
   ///
   /// In es, this message translates to:
@@ -297,6 +309,12 @@ abstract class AppLocalizations {
   /// In es, this message translates to:
   /// **'{count, plural, =1{1 fallo} other{{count} fallos}}'**
   String temaCardMistakes(int count);
+
+  /// Línea bajo la barra de dominio de la tarjeta de tema: el dominio es 0 % y el tema ya tiene intentos, así que el usuario está por debajo del azar.
+  ///
+  /// In es, this message translates to:
+  /// **'Por debajo del azar: repasa la teoría'**
+  String get temaCardBelowChance;
 
   /// Pie de Inicio con la edición del banco de preguntas, por ejemplo "Cuestionario GC nov-2020".
   ///
@@ -543,6 +561,30 @@ abstract class AppLocalizations {
   /// In es, this message translates to:
   /// **'El simulacro sin entregar se descartará y no podrás retomarlo.'**
   String get mockReplaceBody;
+
+  /// No description provided for @mockHistoryEmpty.
+  ///
+  /// In es, this message translates to:
+  /// **'Aún no has entregado ninguno.'**
+  String get mockHistoryEmpty;
+
+  /// No description provided for @mockHistoryDateTime.
+  ///
+  /// In es, this message translates to:
+  /// **'{date} · {time}'**
+  String mockHistoryDateTime(String date, String time);
+
+  /// No description provided for @settingsImportErrorDateTime.
+  ///
+  /// In es, this message translates to:
+  /// **'El archivo contiene una fecha u hora no válida. No se ha cambiado nada.'**
+  String get settingsImportErrorDateTime;
+
+  /// No description provided for @settingsImportErrorTooDeep.
+  ///
+  /// In es, this message translates to:
+  /// **'El archivo está demasiado anidado o dañado. No se ha cambiado nada.'**
+  String get settingsImportErrorTooDeep;
 
   /// Encabezado de la lista de simulacros entregados en la introducción del simulacro.
   ///
@@ -1252,7 +1294,7 @@ abstract class AppLocalizations {
   /// Texto de ayuda del campo de búsqueda del glosario.
   ///
   /// In es, this message translates to:
-  /// **'Buscar un término'**
+  /// **'Buscar en el glosario'**
   String get theoryGlossarySearchHint;
 
   /// Etiqueta del botón que borra el texto del campo de búsqueda del glosario.
@@ -1572,6 +1614,12 @@ abstract class AppLocalizations {
   /// In es, this message translates to:
   /// **'{count} tarjetas: piensa la respuesta y dale la vuelta'**
   String homeFiguresCardsSubtitle(int count);
+
+  /// Rótulo neutro del reverso de una tarjeta, antes de valorar si se sabía la respuesta.
+  ///
+  /// In es, this message translates to:
+  /// **'La respuesta'**
+  String get figuresCardAnswerLabel;
 
   /// Botón que revela el reverso de una tarjeta de cifras.
   ///

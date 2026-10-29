@@ -1,9 +1,12 @@
+import 'package:apto_armas/core/l10n/tema_title.dart';
+import 'package:apto_armas/core/theme/app_theme.dart';
 import 'package:apto_armas/core/widgets/mock_navigator.dart';
 import 'package:apto_armas/core/widgets/option_card.dart';
 import 'package:apto_armas/core/widgets/tema_card.dart';
 import 'package:apto_armas/features/content/domain/question.dart';
 import 'package:apto_armas/features/mock/application/mock_controller.dart';
 import 'package:apto_armas/features/mock/application/mock_providers.dart';
+import 'package:apto_armas/l10n/app_localizations_es.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -122,6 +125,104 @@ void main() {
     expect(find.text('Cuestionario GC nov-2020'), findsOneWidget);
   });
 
+  testScreen('the titles of Inicio are not split at 320x568 with text x2', (
+    tester,
+  ) async {
+    useSmallScreen(tester, scale: 2.0);
+    await pumpFullApp(tester);
+    expect(tester.takeException(), isNull);
+    final l10n = AppLocalizationsEs();
+    for (var tema = 1; tema <= 7; tema++) {
+      final title = l10n.temaTitle(tema);
+      final card = find.text(title);
+      expect(card, findsOneWidget, reason: title);
+      expectWordsNotSplit(tester, card, title);
+    }
+  });
+
+  testScreen('the titles of the theory list are not split at 320x568 with '
+      'text x2', (tester) async {
+    useSmallScreen(tester, scale: 2.0);
+    await pumpFullApp(tester);
+    await openRoute(tester, '/teoria');
+    expect(tester.takeException(), isNull);
+    final l10n = AppLocalizationsEs();
+    for (var tema = 1; tema <= 7; tema++) {
+      final title = l10n.temaTitle(tema);
+      final row = find.text(title);
+      expect(row, findsOneWidget, reason: title);
+      expectWordsNotSplit(tester, row, title);
+    }
+  });
+
+  testScreen('the titles of the theory reader are not split at 320x568 with '
+      'text x2', (tester) async {
+    useSmallScreen(tester, scale: 2.0);
+    await pumpFullApp(tester);
+    final l10n = AppLocalizationsEs();
+    for (var tema = 1; tema <= 7; tema++) {
+      await openRoute(tester, '/teoria/t$tema');
+      expect(tester.takeException(), isNull, reason: 'tema $tema');
+      final title = l10n.temaTitle(tema);
+      final reader = find.text(title);
+      expect(reader, findsOneWidget, reason: 'tema $tema');
+      expectWordsNotSplit(tester, reader, title);
+      expectWordsInside(tester, reader, title);
+    }
+    // The AEM has a reader too.
+    await openRoute(tester, '/teoria/aem');
+    expect(tester.takeException(), isNull);
+    const aem = 'Autorización especial para menores (AEM)';
+    expect(find.text(aem), findsOneWidget);
+    expectWordsNotSplit(tester, find.text(aem), aem);
+    expectWordsInside(tester, find.text(aem), aem);
+  });
+
+  group('the titles keep their size while they fit', () {
+    // The size of the style of a row title, with the scale of the user.
+    double rowTitleSize(double scale) =>
+        AppTheme.light().extension<AptoTypography>()!.rowTitle.fontSize! * scale;
+
+    for (final scale in [1.0, 1.3]) {
+      testScreen('the titles of Inicio are not shrunk at 320x568 with text '
+          'x$scale', (tester) async {
+        useSmallScreen(tester, scale: scale);
+        await pumpFullApp(tester);
+        expect(tester.takeException(), isNull);
+        final l10n = AppLocalizationsEs();
+        for (var tema = 1; tema <= 7; tema++) {
+          final title = l10n.temaTitle(tema);
+          final card = find.text(title);
+          expect(card, findsOneWidget, reason: title);
+          expect(
+            effectiveFontSize(tester, card),
+            closeTo(rowTitleSize(scale), 0.01),
+            reason: title,
+          );
+        }
+      });
+
+      testScreen('the titles of the theory list are not shrunk at 320x568 '
+          'with text x$scale', (tester) async {
+        useSmallScreen(tester, scale: scale);
+        await pumpFullApp(tester);
+        await openRoute(tester, '/teoria');
+        expect(tester.takeException(), isNull);
+        final l10n = AppLocalizationsEs();
+        for (var tema = 1; tema <= 7; tema++) {
+          final title = l10n.temaTitle(tema);
+          final row = find.text(title);
+          expect(row, findsOneWidget, reason: title);
+          expect(
+            effectiveFontSize(tester, row),
+            closeTo(rowTitleSize(scale), 0.01),
+            reason: title,
+          );
+        }
+      });
+    }
+  });
+
   group('practice screen with the longest stem', () {
     for (final scale in [1.3, 2.0]) {
       testScreen('options A, B and C are tappable at text x$scale', (
@@ -184,7 +285,7 @@ void main() {
 
       await tester.tap(next);
       await tester.pumpAndSettle();
-      expect(find.text('2 / 64'), findsOneWidget);
+      expect(find.text('2 de 64 pendientes'), findsOneWidget);
     });
 
     for (final scale in [1.3, 2.0]) {
@@ -246,7 +347,7 @@ void main() {
 
         await tester.tap(next);
         await tester.pumpAndSettle();
-        expect(find.text('2 / 64'), findsOneWidget);
+        expect(find.text('2 de 64 pendientes'), findsOneWidget);
         // The next question has no notice.
         expect(find.text('Aviso: cambio en la norma'), findsNothing);
       });
@@ -264,7 +365,7 @@ void main() {
         tester,
         find.widgetWithText(FilledButton, 'Siguiente'),
       );
-      expect(find.text('2 / 64'), findsOneWidget);
+      expect(find.text('2 de 64 pendientes'), findsOneWidget);
     });
   });
 

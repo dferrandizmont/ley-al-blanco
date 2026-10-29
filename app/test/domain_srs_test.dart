@@ -31,13 +31,14 @@ SrsCard card(
   required DateTime dueAt,
   int reps = 1,
   int lapses = 0,
+  DateTime? lastAnsweredAt,
 }) => SrsCard(
   questionId: id,
   box: box,
   dueAt: dueAt,
   reps: reps,
   lapses: lapses,
-  lastAnsweredAt: DateTime(2026, 10, 1),
+  lastAnsweredAt: lastAnsweredAt ?? DateTime(2026, 10, 1),
 );
 
 Question q(String id, int tema) => Question(
@@ -351,6 +352,53 @@ void main() {
         mastery: {1: 0.1, 2: 0.5, 3: 0.9},
       );
       expect(result, ['t3-4', 't1-1', 't1-2']);
+    });
+
+    test('recent answers move to the end without changing selection', () {
+      final cards = [
+        card('t1-1', dueAt: yesterday, lastAnsweredAt: now),
+        card(
+          't1-2',
+          dueAt: today,
+          lastAnsweredAt: now.subtract(const Duration(minutes: 9, seconds: 59)),
+        ),
+        card(
+          't1-3',
+          dueAt: today,
+          lastAnsweredAt: now.subtract(const Duration(minutes: 10)),
+        ),
+        card('t1-4', dueAt: tomorrow, lastAnsweredAt: now),
+      ];
+      expect(queue(cards: cards, newPerDay: 2), [
+        't1-3',
+        't2-1',
+        't2-2',
+        't1-1',
+        't1-2',
+      ]);
+      expect(queue(cards: cards, introduced: 15), ['t1-3', 't1-1', 't1-2']);
+      expect(
+        queue(cards: cards.reversed, newPerDay: 2),
+        queue(cards: cards, newPerDay: 2),
+      );
+    });
+
+    test('a just failed question returns to due order after ten minutes', () {
+      final failed = review(null, questionId: 't1-1', correct: false, now: now);
+      final cards = [failed, card('t1-2', dueAt: today)];
+      expect(queue(cards: cards, newPerDay: 1), ['t1-2', 't1-3', 't1-1']);
+      expect(
+        dailyQueue(
+          cards: cards,
+          questions: questions,
+          now: now.add(const Duration(minutes: 10)),
+          masteryByTema: const {},
+          newPerDay: 1,
+        ),
+        ['t1-1', 't1-2', 't1-3'],
+      );
+      expect(failed.box, 1);
+      expect(failed.dueAt, today);
     });
 
     test('cards for retired questions are ignored', () {

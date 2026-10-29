@@ -102,6 +102,40 @@ void main() {
     expect(find.text('2 fallos'), findsOneWidget); // on the tema 2 card
   });
 
+  testScreen('a tema answered below the chance says so on Inicio', (
+    tester,
+  ) async {
+    await pumpFullApp(tester);
+    final container = containerOf(tester);
+    final bank = await bankOf(tester);
+    await container.read(studyServiceProvider).recordAnswers([
+      for (final q in bank.where((q) => q.tema == 2).take(2))
+        attemptOn(q, correct: false),
+    ]);
+    await tester.pumpAndSettle();
+
+    const line = 'Por debajo del azar: repasa la teoría';
+    // The card of tema 2: 0 % of mastery with attempts, so it says so.
+    final answered = find.byType(TemaCard).at(1);
+    expect(
+      find.descendant(of: answered, matching: find.text('Dominio 0 %')),
+      findsOneWidget,
+    );
+    expect(
+      find.descendant(of: answered, matching: find.text(line)),
+      findsOneWidget,
+    );
+    // The untouched temas: no attempts, so no line.
+    expect(
+      find.descendant(
+        of: find.byType(TemaCard).at(0),
+        matching: find.text(line),
+      ),
+      findsNothing,
+    );
+    expect(find.text(line), findsOneWidget);
+  });
+
   testScreen('the ring keeps its value while recomputing (no loader flash)', (
     tester,
   ) async {

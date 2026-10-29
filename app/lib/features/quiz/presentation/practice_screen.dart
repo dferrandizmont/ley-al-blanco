@@ -25,8 +25,8 @@ import '../domain/quiz_session.dart';
 /// six sources (see [PracticeSource]).
 ///
 /// Flow: pick an option (it locks, shows check / cross, the attempt is saved),
-/// the explanation opens inside the question card and a floating "Siguiente"
-/// pill appears over the scrolling content ("Terminar" on the last question);
+/// the explanation opens inside the question card and a pinned "Siguiente"
+/// pill appears below the scrolling content ("Terminar" on the last question);
 /// after the last question a summary with the hit count.
 class PracticeScreen extends ConsumerWidget {
   const PracticeScreen({super.key, required this.source});
@@ -167,49 +167,58 @@ class PracticeScreen extends ConsumerWidget {
       FiguresPractice() => l10n.practiceFiguresTitle,
       DailyQuestionPractice() => l10n.practiceDailyQuestionTitle,
     };
-    return Stack(
+    return Column(
       children: [
-        Column(
-          children: [
-            Padding(
-              padding: Sp.headerInsets,
-              child: ProgressHeader(
-                current: index + 1,
-                total: session.length,
-                completed: session.answeredCount,
-                leading: RoundIconButton(
-                  icon: Icons.close_rounded,
-                  tooltip: l10n.close,
-                  onPressed: () => _close(context),
-                ),
-              ),
-            ),
-            Expanded(
-              child: ScrollEdgeFade(
-                key: ValueKey('question-fade-$index'),
-                child: SingleChildScrollView(
-                  key: ValueKey('question-$index'),
-                  padding: EdgeInsets.fromLTRB(
-                    Sp.page,
-                    Sp.s,
-                    Sp.page,
-                    showNext ? Sp.floatingClearance : Sp.section,
-                  ),
-                  child: _QuestionCard(
-                    title: title,
-                    session: session,
-                    onPick: state.saving ? null : controller.answer,
+        Expanded(
+          child: Column(
+            children: [
+              Padding(
+                padding: Sp.headerInsets,
+                child: ProgressHeader(
+                  current: index + 1,
+                  total: session.length,
+                  completed: session.answeredCount,
+                  // Only the practice by tema counts the pending questions of
+                  // the session; the other modes keep the plain ratio.
+                  pending: source is TemaPractice,
+                  leading: RoundIconButton(
+                    icon: Icons.close_rounded,
+                    tooltip: l10n.close,
+                    onPressed: () => _close(context),
                   ),
                 ),
               ),
-            ),
-          ],
+              Expanded(
+                child: ScrollEdgeFade(
+                  key: ValueKey('question-fade-$index'),
+                  child: SingleChildScrollView(
+                    key: ValueKey('question-$index'),
+                    padding: EdgeInsets.fromLTRB(
+                      Sp.page,
+                      Sp.s,
+                      Sp.page,
+                      Sp.section,
+                    ),
+                    child: _QuestionCard(
+                      title: title,
+                      session: session,
+                      onPick: state.saving ? null : controller.answer,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
         if (showNext)
-          Positioned(
-            left: Sp.page,
-            right: Sp.page,
-            bottom: Sp.floatingMargin,
+          Padding(
+            // Reserve the button's full touch area outside the scroll view.
+            padding: const EdgeInsets.fromLTRB(
+              Sp.page,
+              Sp.m,
+              Sp.page,
+              Sp.floatingMargin,
+            ),
             child: PrimaryButton(
               label: session.isLastQuestion ? l10n.practiceFinish : l10n.next,
               floating: true,

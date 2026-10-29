@@ -1,5 +1,6 @@
 import 'package:apto_armas/core/theme/app_theme.dart';
 import 'package:apto_armas/core/widgets/option_card.dart';
+import 'package:apto_armas/core/widgets/pill_bar.dart';
 import 'package:apto_armas/core/widgets/tema_card.dart';
 import 'package:apto_armas/features/theory/domain/theory.dart';
 import 'package:apto_armas/features/theory/presentation/theory_diagrams.dart';
@@ -10,6 +11,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'helpers.dart';
 import 'support/play_mock_support.dart';
 import 'support/screen_support.dart';
+import 'support/settings_support.dart';
 
 /// Layout and screen-reader fixes of the manual tests of 0.6.0
 /// (manual review of 0.6.0, batch 1: R-03 to R-12).
@@ -22,7 +24,78 @@ void _small(WidgetTester tester, {required double scale}) {
   addTearDown(tester.platformDispatcher.clearAllTestValues);
 }
 
+/// Taps a widget after scrolling it into view: on a small screen with very
+/// large text the target is often out of sight.
+Future<void> _tapVisible(WidgetTester tester, Finder finder) async {
+  await tester.ensureVisible(finder);
+  await tester.pumpAndSettle();
+  await tester.tap(finder);
+  await tester.pumpAndSettle();
+}
+
 void main() {
+  for (final scale in [1.0, 2.0]) {
+    testScreen('practice touch targets stay separate at 320 dp x$scale', (
+      tester,
+    ) async {
+      _small(tester, scale: scale);
+      await pumpFullApp(
+        tester,
+        overrides: settingsOverrides(launcher: FakeUrlLauncher()),
+      );
+      await pushRoute(tester, '/tema/1');
+      await tapOption(tester, 0);
+      final report = find.widgetWithText(TextButton, '¿Ves un error? Avísanos');
+      await tester.ensureVisible(report);
+      await tester.pumpAndSettle();
+      final next = find.widgetWithText(FilledButton, 'Siguiente');
+      final reportRect = tester.getRect(report);
+      final nextRect = tester.getRect(next);
+      expect(reportRect.height, greaterThanOrEqualTo(48));
+      expect(nextRect.height, greaterThanOrEqualTo(48));
+      expect(reportRect.bottom + Sp.m, lessThanOrEqualTo(nextRect.top));
+      expect(report.hitTestable(), findsOneWidget);
+      expect(next.hitTestable(), findsOneWidget);
+      expect(tester.takeException(), isNull);
+    });
+
+    for (final width in [320.0, 411.0, 800.0]) {
+      testScreen('result bars align at $width dp x$scale', (tester) async {
+        _small(tester, scale: scale);
+        tester.view.physicalSize = Size(width, 800);
+        await pumpFullApp(tester);
+        final mock = await playMock(tester, right: 12, wrong: 8, submit: true);
+        await pushRoute(tester, '/simulacro/${mock.id}/resultado');
+        final bars = find.byWidgetPredicate(
+          (w) => w is PillBar && w.height == PillBar.thin,
+        );
+        expect(bars, findsNWidgets(7));
+        final first = tester.getRect(bars.first);
+        for (var i = 0; i < 7; i++) {
+          final rect = tester.getRect(bars.at(i));
+          expect(rect.left, closeTo(first.left, 0.01));
+          expect(rect.right, closeTo(first.right, 0.01));
+          expect(rect.width, greaterThan(0));
+        }
+        expect(tester.takeException(), isNull);
+      });
+    }
+  }
+
+  testScreen('the theory button stays compact at 320 dp x2', (tester) async {
+    _small(tester, scale: 2);
+    await pumpFullApp(tester);
+    await pushRoute(tester, '/teoria/t1');
+    final button = find.widgetWithText(FilledButton, 'Practicar este tema');
+    expect(tester.getSize(button).height, lessThanOrEqualTo(60));
+    expect(
+      MediaQuery.textScalerOf(tester.element(find.text('Practicar este tema')))
+          .scale(10),
+      15,
+    );
+    expect(tester.takeException(), isNull);
+  });
+
   group('R-03 the caption of a sequence is drawn', () {
     const caption = 'Cada vez que coges un arma';
     const steps = DiagramBlock(
@@ -200,12 +273,17 @@ void main() {
   });
 
   group('R-11 spoken labels', () {
-    testScreen('the progress bar says «Pregunta 1 de N»', (tester) async {
+    testScreen('the progress bar says «Pregunta 1 de N pendientes»', (
+      tester,
+    ) async {
       final handle = tester.ensureSemantics();
       _small(tester, scale: 1);
       await pumpFullApp(tester);
       await pushRoute(tester, '/tema/1');
-      expect(find.bySemanticsLabel(RegExp(r'^Pregunta 1 de \d+$')), findsOne);
+      expect(
+        find.bySemanticsLabel(RegExp(r'^Pregunta 1 de \d+ pendientes?$')),
+        findsOne,
+      );
       handle.dispose();
     });
 
@@ -241,6 +319,59 @@ void main() {
       );
       expect(find.bySemanticsLabel(RegExp(r'\.\.')), findsNothing);
       handle.dispose();
+    });
+  });
+
+  group('J-03 the dialogs do not cut their text', () {
+    testScreen('«Entregar» scrolls at 320 dp and x2', (tester) async {
+      _small(tester, scale: 2);
+      await pumpFullApp(tester);
+      await pushRoute(tester, '/simulacro');
+
+      // Start a mock.
+      await _tapVisible(tester, find.text('Empezar'));
+
+      // Question 1 doubtful and the other 19 unanswered: the longest body
+      // the dialog has.
+      await _tapVisible(tester, find.byKey(const ValueKey('mock-flag-toggle')));
+      await _tapVisible(tester, find.widgetWithText(FilledButton, 'Entregar'));
+
+      expect(find.byType(AlertDialog), findsOneWidget);
+      final body = find.text(
+        'Tienes 1 dudosa y 20 sin responder. '
+        'Las preguntas sin responder contarán como fallo.',
+      );
+      expect(body, findsOneWidget);
+      expect(tester.takeException(), isNull);
+
+      // The body does not fit: it is inside a scroll view that can reach
+      // its end.
+      final scroll = find.descendant(
+        of: find.byType(AlertDialog),
+        matching: find.byType(Scrollable),
+      );
+      expect(scroll, findsWidgets);
+      final state = tester.state<ScrollableState>(scroll.first);
+      expect(state.position.maxScrollExtent, greaterThan(0));
+
+      // Scrolled to the end, the last word is on screen: nothing is cut.
+      state.position.jumpTo(state.position.maxScrollExtent);
+      await tester.pumpAndSettle();
+      final paragraph = tester.renderObject<RenderParagraph>(body);
+      final word = RegExp(r'fallo\.').firstMatch(paragraph.text.toPlainText())!;
+      final boxes = paragraph.getBoxesForSelection(
+        TextSelection(baseOffset: word.start, extentOffset: word.end),
+      );
+      expect(boxes, isNotEmpty);
+      final viewport = tester.getRect(scroll.first);
+      for (final box in boxes) {
+        expect(
+          viewport.contains(paragraph.localToGlobal(Offset(box.left, box.top))),
+          isTrue,
+          reason: 'the last word of the body is visible',
+        );
+      }
+      expect(tester.takeException(), isNull);
     });
   });
 }

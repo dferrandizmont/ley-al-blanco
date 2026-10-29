@@ -9,6 +9,26 @@ y en TestFlight sale cada versión; Google Play y la App Store reciben varias ju
 
 ## Sin publicar
 
+## 0.9.3 · 29-oct-2026
+
+- Con la letra muy grande en una pantalla pequeña, los títulos de los temas (en Inicio, en la lista y en el lector de
+  teoría) y la fecha y la hora de «Tus simulacros» ya no se parten a mitad de palabra.
+- La tarjeta de un tema ya practicado avisa cuando el dominio es 0 %: «Por debajo del azar: repasa la teoría».
+- El contador de la práctica por tema dice cuántas preguntas quedan («1 de 67 pendientes»).
+- Las tarjetas de cifras cuya respuesta remite a las anteriores («Las dos anteriores…», «Ambas…») muestran las tres
+  opciones. Al girar una tarjeta se lee «La respuesta», sin dar por hecho que la sabías.
+- Las claves de teoría empiezan en mayúscula y los resúmenes de los temas 3, 4 y 5 y de AEM ya no repiten «Clave para
+  el examen»: la frase que le sigue empieza en mayúscula.
+- El buscador del glosario se anuncia con el lector de pantalla, y al borrar una búsqueda el teclado sigue abierto.
+- «Siguiente» y «¿Ves un error? Avísanos» quedan separados en la práctica.
+- «Practicar este tema» ocupa menos espacio con letra grande, y las barras de aciertos por tema del resultado quedan
+  alineadas.
+- «Tus simulacros» aparece también sin entregas, y cada simulacro muestra la fecha y la hora.
+- Al importar el progreso, el aviso distingue una fecha u hora no válida de un archivo dañado.
+- «Continuar» deja para el final las preguntas que acabas de responder.
+- Con la letra muy grande en pantallas pequeñas, los avisos (entregar o salir del simulacro, importar el progreso…) se
+  pueden desplazar y ya no cortan la última línea.
+
 ## 0.9.2 · 28-oct-2026
 
 - La pregunta sobre las multas de las infracciones graves (tema 5) muestra ya el símbolo «€» en sus tres opciones: el

@@ -31,13 +31,17 @@ class QaClock {
 
   final DateTime base;
   final Stopwatch _elapsed = Stopwatch()..start();
+  Duration _skipped = Duration.zero;
 
   static DateTime _tenToday() {
     final now = DateTime.now();
     return DateTime(now.year, now.month, now.day, 10);
   }
 
-  DateTime call() => base.add(_elapsed.elapsed);
+  DateTime call() => base.add(_elapsed.elapsed + _skipped);
+
+  /// Jumps forward, as if the user came back later (stays before midnight).
+  void advance(Duration by) => _skipped += by;
 }
 
 /// A running app plus the handles a scenario needs.

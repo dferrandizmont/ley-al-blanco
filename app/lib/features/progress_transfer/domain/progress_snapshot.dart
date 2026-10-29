@@ -149,7 +149,13 @@ enum ProgressImportError {
   /// other questions.
   wrongEdition,
 
-  /// A field with the wrong type or out of range, an impossible date...
+  /// A malformed date, time or UTC offset.
+  invalidDateTime,
+
+  /// Nested beyond the safe decoding limit.
+  tooDeep,
+
+  /// A field with the wrong type or out of range.
   invalid,
 }
 

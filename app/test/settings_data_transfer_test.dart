@@ -407,6 +407,31 @@ void main() {
       );
     });
 
+    for (final date in ['2026-02-30T10:00:00Z', '2026-10-15T10:00:00+24:00']) {
+      testScreen('invalid date/time has a specific message: $date', (
+        tester,
+      ) async {
+        await expectRefused(
+          tester,
+          PickedBytes(
+            progressFileBytes(
+              edit: (j) =>
+                  ((j['attempts'] as List).first as Map)['answered_at'] = date,
+            ),
+          ),
+          'fecha u hora no válida',
+        );
+      });
+    }
+
+    testScreen('excessive nesting has a specific message', (tester) async {
+      await expectRefused(
+        tester,
+        PickedBytes(Uint8List.fromList(utf8.encode('${'[' * 9}0${']' * 9}'))),
+        'demasiado anidado o dañado',
+      );
+    });
+
     testScreen('a newer version is refused and says to update', (tester) async {
       await expectRefused(
         tester,

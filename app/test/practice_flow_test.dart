@@ -1,3 +1,4 @@
+import 'package:apto_armas/core/theme/app_theme.dart';
 import 'package:apto_armas/core/widgets/explanation_body.dart';
 import 'package:apto_armas/core/widgets/option_card.dart';
 import 'package:apto_armas/core/widgets/progress_header.dart';
@@ -34,7 +35,7 @@ void main() {
     await pumpFullApp(tester);
     await openRoute(tester, '/tema/1');
     expect(find.byType(OptionCard), findsNWidgets(3));
-    expect(find.text('1 / 68'), findsOneWidget);
+    expect(find.text('1 de 68 pendientes'), findsOneWidget);
     expect(find.byType(ProgressHeader), findsOneWidget);
 
     final q = _current(tester, tema1);
@@ -52,7 +53,7 @@ void main() {
     );
     // The explanation opened inside the question card (no modal sheet) with
     // the verdict, the bank's own explanation / article / notice, and
-    // "Siguiente" floats over it.
+    // "Siguiente" stays below the scrolling content.
     expect(find.byType(BottomSheet), findsNothing);
     expect(
       find.descendant(
@@ -77,7 +78,7 @@ void main() {
     await tapNext(tester);
     expect(find.byType(ExplanationBody), findsNothing);
     expect(find.widgetWithText(FilledButton, 'Siguiente'), findsNothing);
-    expect(find.text('2 / 68'), findsOneWidget);
+    expect(find.text('2 de 68 pendientes'), findsOneWidget);
     expect(optionStates(tester), everyElement(OptionState.idle));
     semantics.dispose();
   });
@@ -172,21 +173,23 @@ void main() {
     expect(find.byType(ExplanationBody), findsOneWidget);
     expect(find.text('Correcto'), findsOneWidget);
 
-    // The pill hovers 24 dp above the bottom edge, 56 dp tall.
+    // The pinned pill sits 24 dp above the bottom edge, 56 dp tall.
     final next = find.widgetWithText(FilledButton, 'Siguiente');
     final rect = tester.getRect(next);
     final screen = tester.getRect(find.byType(Scaffold));
     expect(rect.height, 56);
     expect(screen.bottom - rect.bottom, 24);
-    // The scroll view leaves room under it, so the content can scroll clear.
+    // The button has its own area below the scroll; only section spacing
+    // remains at the bottom of the scrolling content.
     final scroll = tester.widget<SingleChildScrollView>(
       find.byKey(const ValueKey('question-0')),
     );
-    expect(scroll.padding!.resolve(TextDirection.ltr).bottom, 104);
+    expect(scroll.padding!.resolve(TextDirection.ltr).bottom, Sp.section);
+    expect(tester.getRect(find.byWidget(scroll)).bottom, lessThan(rect.top));
 
     await tester.tap(next);
     await tester.pumpAndSettle();
-    expect(find.text('2 / 68'), findsOneWidget);
+    expect(find.text('2 de 68 pendientes'), findsOneWidget);
     expect(find.widgetWithText(FilledButton, 'Siguiente'), findsNothing);
   });
 
@@ -209,7 +212,7 @@ void main() {
     await pumpFullApp(tester);
     await pushRoute(tester, '/tema/7');
     const source = TemaPractice(7);
-    expect(find.text('1 / 22'), findsOneWidget);
+    expect(find.text('1 de 22 pendientes'), findsOneWidget);
 
     for (var i = 0; i < 22; i++) {
       final q = _current(tester, source);
@@ -249,7 +252,7 @@ void main() {
       tema3[5].id,
       reason: 'questions 1-5 were answered, so it resumes at the sixth',
     );
-    expect(find.text('1 / 61'), findsOneWidget);
+    expect(find.text('1 de 61 pendientes'), findsOneWidget);
   });
 
   testScreen('daily queue runs in srs mode and shows the 15 questions', (
@@ -258,7 +261,10 @@ void main() {
     await pumpFullApp(tester);
     await openRoute(tester, '/repaso');
     expect(find.text('REPASO DEL DÍA'), findsOneWidget);
+    // The daily queue keeps the plain ratio: "pendientes" is for the
+    // practice by tema.
     expect(find.text('1 / 15'), findsOneWidget);
+    expect(find.text('1 de 15 pendientes'), findsNothing);
     final q = _current(tester, const DailyPractice());
     await tapOption(tester, q.answer);
     final attempts = await containerOf(tester).read(attemptsProvider.future);
@@ -305,6 +311,7 @@ void main() {
     await openRoute(tester, '/fallos/repasar?tema=5');
     expect(find.text('REPASAR FALLOS'), findsOneWidget);
     expect(find.text('1 / 1'), findsOneWidget);
+    expect(find.text('1 de 1 pendiente'), findsNothing);
     final q = _current(tester, const MistakesPractice(5));
     expect(q.id, failed[1].id);
     await tapOption(tester, q.answer);

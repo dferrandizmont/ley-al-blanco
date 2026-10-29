@@ -85,7 +85,10 @@ void registerInicioYPractica() {
         ],
       );
       await openTema(app, 1);
-      await tester.waitFor(find.text(T.ratio(1, 68)), reason: 'question 1/68');
+      await tester.waitFor(
+        find.text(T.pendientes(1, 68)),
+        reason: 'question 1 de 68 pendientes',
+      );
       // Not before answering.
       expect(find.text('¿Ves un error? Avísanos'), findsNothing);
 
@@ -149,7 +152,10 @@ void registerInicioYPractica() {
     (tester) async {
       final app = await launchApp(tester);
       await openTema(app, 1);
-      await tester.waitFor(find.text(T.ratio(1, 68)), reason: 'question 1/68');
+      await tester.waitFor(
+        find.text(T.pendientes(1, 68)),
+        reason: 'question 1 de 68 pendientes',
+      );
 
       // 1) wrong.
       final q1 = await answerPractice(app, correct: false);
@@ -170,7 +176,7 @@ void registerInicioYPractica() {
       // 2) right.
       await tester.tapText(T.siguiente);
       await currentQuestion(app, notId: q1.id);
-      await tester.waitFor(find.text(T.ratio(2, 68)));
+      await tester.waitFor(find.text(T.pendientes(2, 68)));
       final q2 = await answerPractice(app, correct: true);
       expect(find.text(T.correcto), findsOneWidget);
       expect(find.byIcon(Icons.check_circle_rounded), findsWidgets);
@@ -359,6 +365,12 @@ void registerInicioYPractica() {
       final app = await launchApp(tester);
       await openTema(app, 1);
       final run = await practiceRun(app, [false, true, true]);
+      // Back a quarter of an hour later: answers from the last ten minutes
+      // go behind the new ones (daily_queue.dart), so the miss would not lead.
+      // The queue was cached when the answers were stored; Inicio only
+      // rebuilds it on a new day or a new answer.
+      app.clock.advance(const Duration(minutes: 15));
+      app.container.invalidate(dailyQueueProvider);
       await closePracticeToHome(app);
 
       // 1 due (the miss, box 1 = today) + 15 - 3 new questions.

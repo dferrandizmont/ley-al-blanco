@@ -28,10 +28,17 @@ abstract final class T {
   static const correcto = 'Correcto';
   static const incorrecto = 'Incorrecto';
   static const respuestaCorrecta = 'Respuesta correcta';
+
+  /// The neutral label on the back of a figures card.
+  static const laRespuesta = 'La respuesta';
   static const explicacion = 'Explicación';
   static const sesionTerminada = 'Sesión terminada';
   static const volverAlInicio = 'Volver al inicio';
   static String ratio(int a, int b) => '$a / $b';
+
+  /// The counter of the practice by tema: "1 de 67 pendientes".
+  static String pendientes(int index, int count) =>
+      '$index de $count ${count == 1 ? 'pendiente' : 'pendientes'}';
 
   // Simulacro
   static const empezar = 'Empezar';

@@ -2,11 +2,13 @@ import 'dart:math';
 
 import 'package:apto_armas/app.dart';
 import 'package:apto_armas/core/database/app_database.dart';
+import 'package:apto_armas/core/format/app_date_format.dart';
 import 'package:apto_armas/core/providers.dart';
 import 'package:apto_armas/core/widgets/option_card.dart';
 import 'package:apto_armas/features/mock/application/mock_controller.dart';
 import 'package:apto_armas/features/mock/application/mock_providers.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart' show RenderParagraph;
 import 'package:flutter/semantics.dart' show SemanticsAction;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -378,7 +380,7 @@ void main() {
       expect(find.text('12 de 20'), findsOneWidget);
       expect(find.text('APTO'), findsOneWidget);
       expect(find.text('NO APTO'), findsOneWidget);
-      expect(find.text('15 oct 2026'), findsNWidgets(2));
+      expect(find.text('15 oct 2026 · 18:30'), findsNWidgets(2));
 
       await _tap(tester, find.text('12 de 20'));
       expect(locationOf(tester), '/simulacro/$failed/resultado');
@@ -392,10 +394,158 @@ void main() {
       expect(locationOf(tester), '/simulacro/$passed/resultado');
     });
 
-    testScreen('no finished mock: no list', (tester) async {
+    testScreen('no finished mock: heading and empty message', (tester) async {
       await pumpFullApp(tester);
       await openRoute(tester, '/simulacro');
-      expect(find.text('TUS SIMULACROS'), findsNothing);
+      expect(find.text('TUS SIMULACROS'), findsOneWidget);
+      expect(find.text('Aún no has entregado ninguno.'), findsOneWidget);
+    });
+
+    testScreen('history shows distinct local times at 320 dp and x2', (
+      tester,
+    ) async {
+      tester.view.physicalSize = const Size(320, 568);
+      tester.view.devicePixelRatio = 1;
+      tester.platformDispatcher.textScaleFactorTestValue = 2;
+      addTearDown(tester.view.reset);
+      addTearDown(tester.platformDispatcher.clearAllTestValues);
+      var now = DateTime.utc(2026, 10, 15, 10, 5);
+      await pumpFullApp(tester, clock: () => now);
+      final first = now.toLocal();
+      await _finishedMock(containerOf(tester), right: 17, wrong: 3);
+      now = now.add(const Duration(minutes: 37));
+      final second = now.toLocal();
+      await _finishedMock(containerOf(tester), right: 12, wrong: 8);
+      await openRoute(tester, '/simulacro');
+      const format = AppDateFormat();
+      for (final local in [first, second]) {
+        final date = find.text(
+          '${format.dayMonthYear(local)} · ${format.time(local)}',
+        );
+        expect(date, findsOneWidget);
+        await tester.ensureVisible(date);
+        await tester.pumpAndSettle();
+        expect(tester.takeException(), isNull);
+      }
+      final firstDate = find.text(
+        '${format.dayMonthYear(first)} · ${format.time(first)}',
+      );
+      final secondDate = find.text(
+        '${format.dayMonthYear(second)} · ${format.time(second)}',
+      );
+      expect(
+        tester.getTopLeft(secondDate).dy,
+        lessThan(tester.getTopLeft(firstDate).dy),
+      );
+      expect(find.text('Aún no has entregado ninguno.'), findsNothing);
+    });
+
+    testScreen('the date and the hour of a mock stay on one line at 320 dp '
+        'and x2', (tester) async {
+      tester.view.physicalSize = const Size(320, 568);
+      tester.view.devicePixelRatio = 1;
+      tester.platformDispatcher.textScaleFactorTestValue = 2;
+      addTearDown(tester.view.reset);
+      addTearDown(tester.platformDispatcher.clearAllTestValues);
+      await pumpFullApp(tester);
+      await _finishedMock(containerOf(tester), right: 17, wrong: 3);
+      await openRoute(tester, '/simulacro');
+
+      // The date and the hour, with the dot that joins them.
+      final date = find.byWidgetPredicate(
+        (w) => w is Text && (w.data ?? '').contains('·'),
+      );
+      expect(date, findsOneWidget);
+      await tester.ensureVisible(date);
+      await tester.pumpAndSettle();
+      expect(tester.takeException(), isNull);
+
+      final text = tester.widget<Text>(date).data!;
+      final paragraph = tester.renderObject<RenderParagraph>(date);
+      // The whole of it is on one line: neither the date nor the hour is
+      // split in the middle.
+      final boxes = paragraph.getBoxesForSelection(
+        TextSelection(baseOffset: 0, extentOffset: text.length),
+      );
+      expect(boxes, hasLength(1), reason: 'the date is split');
+      for (final word in RegExp(r'\S+').allMatches(text)) {
+        expect(
+          paragraph.getBoxesForSelection(
+            TextSelection(baseOffset: word.start, extentOffset: word.end),
+          ),
+          hasLength(1),
+          reason: '"${word.group(0)}" is split',
+        );
+      }
+      // The verdict and the score are on the row too, and nothing overflows.
+      expect(find.text('17 de 20'), findsOneWidget);
+      expect(find.text('APTO'), findsOneWidget);
+      expect(tester.takeException(), isNull);
+    });
+
+    testScreen('the history keeps the verdict on the same row at 390 dp and '
+        'x1', (tester) async {
+      tester.view.physicalSize = const Size(390, 844);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.reset);
+      await pumpFullApp(tester);
+      await _finishedMock(containerOf(tester), right: 17, wrong: 3);
+      await _finishedMock(containerOf(tester), right: 12, wrong: 8);
+      await openRoute(tester, '/simulacro');
+
+      const date = '15 oct 2026 · 18:30';
+      for (final (verdict, score) in [
+        ('APTO', '17 de 20'),
+        ('NO APTO', '12 de 20'),
+      ]) {
+        expect(find.text(verdict), findsOneWidget, reason: verdict);
+        expect(find.text(score), findsOneWidget, reason: score);
+        // The verdict is at the right of the date, on the same row: it is
+        // above the score, which is on the second line of the row.
+        expect(
+          tester.getCenter(find.text(verdict)).dy,
+          lessThan(tester.getCenter(find.text(score)).dy),
+          reason: '$verdict is not on the same row as the date',
+        );
+      }
+      expect(find.text(date), findsNWidgets(2));
+      expect(tester.takeException(), isNull);
+    });
+
+    testScreen('the NO APTO row is reorganized at 320 dp and x2, without '
+        'splitting any word', (tester) async {
+      tester.view.physicalSize = const Size(320, 568);
+      tester.view.devicePixelRatio = 1;
+      tester.platformDispatcher.textScaleFactorTestValue = 2;
+      addTearDown(tester.view.reset);
+      addTearDown(tester.platformDispatcher.clearAllTestValues);
+      await pumpFullApp(tester);
+      await _finishedMock(containerOf(tester), right: 12, wrong: 8);
+      await openRoute(tester, '/simulacro');
+
+      final verdict = find.text('NO APTO');
+      final score = find.text('12 de 20');
+      const date = '15 oct 2026 · 18:30';
+      expect(verdict, findsOneWidget);
+      expect(score, findsOneWidget);
+      await tester.ensureVisible(verdict);
+      await tester.pumpAndSettle();
+      expect(tester.takeException(), isNull);
+
+      // The row was reorganized: the verdict is under the date.
+      expect(
+        tester.getTopLeft(verdict).dy,
+        greaterThan(tester.getBottomLeft(find.text(date)).dy),
+      );
+      // The score and the verdict are whole, and no word is split.
+      for (final (finder, text) in [
+        (verdict, 'NO APTO'),
+        (score, '12 de 20'),
+        (find.text(date), date),
+      ]) {
+        expectWordsNotSplit(tester, finder, text);
+        expectWordsInside(tester, finder, text);
+      }
     });
 
     testScreen('result: the 20 questions with "Solo falladas" on by default, '

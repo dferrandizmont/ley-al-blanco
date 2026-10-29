@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:apto_armas/core/widgets/action_card.dart';
 import 'package:apto_armas/core/widgets/article_chip.dart';
-import 'package:apto_armas/core/widgets/explanation_body.dart';
+import 'package:apto_armas/core/theme/app_theme.dart';
 import 'package:apto_armas/core/widgets/notice_callout.dart';
 import 'package:apto_armas/features/content/application/content_providers.dart';
 import 'package:apto_armas/features/content/domain/question.dart';
@@ -236,17 +236,37 @@ void main() {
         tester.widget<Text>(find.text(question.stem)).style!.fontSize,
         inInclusiveRange(18, 20),
       );
-      expect(find.byType(ExplanationBody), findsNothing);
+      expect(find.text('La respuesta'), findsNothing);
       expect(find.text(_known), findsNothing);
       expect(find.text(_again), findsNothing);
       await _tap(tester, _reveal);
-      expect(find.byIcon(Icons.check_circle_rounded), findsOneWidget);
-      expect(find.text('Correcto'), findsOneWidget);
+      expect(find.byIcon(Icons.check_circle_rounded), findsNothing);
+      expect(find.text('Correcto'), findsNothing);
+      expect(find.text('La respuesta'), findsOneWidget);
+      expect(find.text('Respuesta correcta'), findsNothing);
+      final semantics = tester.ensureSemantics();
+      expect(
+        tester.getSemantics(find.text('La respuesta')),
+        matchesSemantics(label: 'La respuesta', isHeader: true),
+      );
+      semantics.dispose();
+      final label = tester.widget<Text>(find.text('La respuesta'));
+      final context = tester.element(find.text('La respuesta'));
+      expect(label.style?.color, isNot(context.colors.correctText));
+      expect(label.style?.color, isNot(context.colors.incorrectText));
       final letter = String.fromCharCode(0x41 + question.answer);
       expect(
         find.text('$letter. ${question.options[question.answer]}'),
         findsOneWidget,
       );
+      for (final (i, option) in question.options.indexed) {
+        if (i != question.answer) {
+          expect(
+            find.text('${String.fromCharCode(0x41 + i)}. $option'),
+            findsNothing,
+          );
+        }
+      }
       expect(find.text(question.explanation!), findsOneWidget);
       expect(
         tester.widget<ArticleChip>(find.byType(ArticleChip)).article,
@@ -258,7 +278,7 @@ void main() {
       );
       await _tap(tester, _again);
       expect(find.text(_reveal), findsOneWidget);
-      expect(find.byType(ExplanationBody), findsNothing);
+      expect(find.text('La respuesta'), findsNothing);
       await _tap(tester, _reveal);
       await _tap(tester, _known);
       expect(find.text('Sabías 0 de 1 a la primera'), findsOneWidget);
@@ -267,6 +287,88 @@ void main() {
       expect(find.text('1 / 1'), findsOneWidget);
       expect(find.text(_reveal), findsOneWidget);
     });
+
+    testScreen('t7-003 reveals only its answer about an earlier date', (
+      tester,
+    ) async {
+      await pumpFullApp(tester, bundle: _bankFlaggedOnly({'t7-003'}));
+      await pushRoute(tester, '/cifras/tarjetas');
+      final question = _state(containerOf(tester)).current;
+      await _tap(tester, _reveal);
+      for (final (i, option) in question.options.indexed) {
+        expect(
+          find.text('${String.fromCharCode(0x41 + i)}. $option'),
+          i == question.answer ? findsOneWidget : findsNothing,
+        );
+      }
+      expect(find.text('La respuesta'), findsOneWidget);
+      expect(find.text('Respuesta correcta'), findsNothing);
+      expect(find.byIcon(Icons.check_rounded), findsNothing);
+    });
+
+    for (final id in ['t2-020', 't5-066']) {
+      testScreen('$id reveals all options referenced by the answer', (
+        tester,
+      ) async {
+        await pumpFullApp(tester, bundle: _bankFlaggedOnly({id}));
+        await pushRoute(tester, '/cifras/tarjetas');
+        final question = _state(containerOf(tester)).current;
+        await _tap(tester, _reveal);
+        for (final (i, option) in question.options.indexed) {
+          final text = find.text('${String.fromCharCode(0x41 + i)}. $option');
+          expect(text, findsOneWidget);
+          final context = tester.element(text);
+          expect(
+            tester.widget<Text>(text).style?.color,
+            i == question.answer
+                ? context.colors.correctText
+                : context.colors.textPrimary,
+          );
+        }
+        expect(find.byIcon(Icons.check_rounded), findsOneWidget);
+        expect(find.text('Correcto'), findsNothing);
+        expect(find.text('Respuesta correcta'), findsNothing);
+      });
+    }
+
+    for (final (answer, showOptions) in [
+      ('Las dos anteriores son correctas.', true),
+      ('Las tres anteriores son correctas.', true),
+      ('Las respuestas anteriores son correctas.', true),
+      ('Ninguna de las anteriores.', true),
+      ('Ambas son correctas.', true),
+      ('Son correctas las dos respuestas anteriores.', true),
+      ('  ÁMBAS son correctas.', true),
+      ('La fecha es anterior a 1890.', false),
+      ('Se aplican ambas condiciones.', false),
+      ('Ambasador.', false),
+    ]) {
+      testScreen('cross-reference prefix: $answer', (tester) async {
+        final question = Question(
+          id: 'test-reference',
+          tema: 1,
+          stem: 'Pregunta de prueba',
+          options: ['Primera opción.', 'Segunda opción.', answer],
+          answer: 2,
+          edition: 'test',
+          flags: [kFiguresFlag],
+        );
+        await pumpApp(
+          tester,
+          const FiguresCardsScreen(),
+          overrides: [
+            questionsProvider.overrideWith((ref) async => [question]),
+          ],
+        );
+        await _tap(tester, _reveal);
+        for (final (i, option) in question.options.indexed) {
+          expect(
+            find.text('${String.fromCharCode(0x41 + i)}. $option'),
+            showOptions || i == question.answer ? findsOneWidget : findsNothing,
+          );
+        }
+      });
+    }
 
     testScreen('all known: score is first-try and restart is hidden', (
       tester,

@@ -180,7 +180,7 @@ class ProgressCodec {
     }
     if (_nestingDepth(bytes) > kMaxProgressNesting) {
       throw const ProgressImportException(
-        ProgressImportError.invalid,
+        ProgressImportError.tooDeep,
         'nested more than $kMaxProgressNesting levels',
       );
     }
@@ -467,8 +467,10 @@ class _OutOfRange implements Exception {
   const _OutOfRange();
 }
 
-/// Field readers with strict types; every failure is a
-/// [ProgressImportError.invalid] that names the field.
+/// Field readers with strict types; malformed dates fail with
+/// [ProgressImportError.invalidDateTime], other invalid fields with
+/// [ProgressImportError.invalid]. Both errors name the field; well-formed
+/// dates outside the allowed range throw [_OutOfRange].
 class _Reader {
   _Reader(this.now);
 
@@ -481,10 +483,11 @@ class _Reader {
     r'(Z|[+-](?:[01]\d|2[0-3]):?[0-5]\d)?$',
   );
 
-  Never _fail(String where, String why) => throw ProgressImportException(
-    ProgressImportError.invalid,
-    '$where: $why',
-  );
+  Never _fail(
+    String where,
+    String why, [
+    ProgressImportError error = ProgressImportError.invalid,
+  ]) => throw ProgressImportException(error, '$where: $why');
 
   Map<String, dynamic> object(Object? raw, String where) {
     if (raw is! Map<String, dynamic>) _fail(where, 'expected an object');
@@ -583,7 +586,11 @@ class _Reader {
     final raw = map[key];
     final match = raw is String ? _isoDateTime.firstMatch(raw) : null;
     if (raw is! String || match == null) {
-      _fail(where, 'expected an ISO 8601 date and time');
+      _fail(
+        where,
+        'expected an ISO 8601 date and time',
+        ProgressImportError.invalidDateTime,
+      );
     }
     // DateTime.parse rolls 30 February over to March: check the calendar.
     final year = int.parse(match.group(1)!);
@@ -591,10 +598,12 @@ class _Reader {
     final day = int.parse(match.group(3)!);
     final inMonth = DateTime.utc(year, month + 1, 0).day;
     if (month < 1 || month > 12 || day < 1 || day > inMonth) {
-      _fail(where, 'not a valid date');
+      _fail(where, 'not a valid date', ProgressImportError.invalidDateTime);
     }
     final parsed = DateTime.tryParse(raw);
-    if (parsed == null) _fail(where, 'not a valid date');
+    if (parsed == null) {
+      _fail(where, 'not a valid date', ProgressImportError.invalidDateTime);
+    }
     final utc = parsed.toUtc();
     if (utc.isBefore(ProgressCodec.earliest) ||
         utc.isAfter(latest ?? ProgressCodec.latestPast(now))) {
