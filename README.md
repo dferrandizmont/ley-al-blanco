@@ -30,8 +30,6 @@ están abiertos. Para Android (iOS, próximamente), con modo claro y oscuro.
 
 La app está en prueba cerrada en Google Play y cualquiera puede apuntarse:
 
-> **Ahora mismo Google está revisando la primera versión.** Ya puedes unirte al grupo (paso 1); el enlace del paso 2 funcionará en cuanto la aprueben, normalmente en pocos días.
-
 1. Únete al grupo de testers: [ley-al-blanco-testers](https://groups.google.com/g/ley-al-blanco-testers). Con tu cuenta de Google, pulsa «Unirse al grupo».
 2. Acepta la prueba desde el móvil o el ordenador: [play.google.com/apps/testing/es.leyalblanco.app](https://play.google.com/apps/testing/es.leyalblanco.app).
 3. Instala la app desde Google Play. Se actualizará sola.
