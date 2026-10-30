@@ -5,7 +5,7 @@ publish_to: 'none'
 
 # version: build-name+build-number (Android versionName/versionCode, iOS
 # CFBundleShortVersionString/CFBundleVersion).
-version: 0.9.3+18
+version: 0.9.4+19
 
 environment:
   sdk: ^3.13.0

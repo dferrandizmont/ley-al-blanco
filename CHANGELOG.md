@@ -9,6 +9,8 @@ y en TestFlight sale cada versión; Google Play y la App Store reciben varias ju
 
 ## Sin publicar
 
+## 0.9.4 · 31-oct-2026
+
 - Nueva web: https://leyalblanco.mainshai.com, con descargas, capturas, preguntas frecuentes y la política de
   privacidad completa en https://leyalblanco.mainshai.com/privacy/. Las direcciones antiguas de GitHub Pages llevan
   a la nueva.

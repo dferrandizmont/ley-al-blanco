@@ -57,7 +57,8 @@
     "08-ajustes": "Ajustes con importación de progreso y aviso de app no oficial",
     "09-probabilidad-oscuro": "Inicio en modo oscuro"
   },
-  "testers_group": "Grupo de testers",
+  "testers_hint": "Prueba de Google Play: primero únete al grupo de testers con tu cuenta de Google, después acepta la prueba e instala la app desde Google Play.",
+  "testers_group": "Únete al grupo de testers",
   "testers_group_url": "https://groups.google.com/g/ley-al-blanco-testers",
   "privacy_date": "2026-10-30",
   "nav_label": "Secciones",

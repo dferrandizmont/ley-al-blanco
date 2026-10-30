@@ -155,6 +155,7 @@ h1 { font-size: 60px; line-height: 1.04; font-weight: 700; letter-spacing: -.025
 .band .btn-line:hover { background: var(--band); }
 .band .btn-off { color: var(--onband2); border: 1.5px dashed var(--bandline); cursor: default; }
 .sub { display: inline-flex; align-items: center; justify-content: center; gap: 6px; font-size: 14px; font-weight: 600; min-height: 44px; }
+.hint { margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: var(--onband2); }
 .sep { height: 1px; background: var(--bandline); margin: 20px 0; }
 
 /* Hover y active mínimos */

@@ -24,9 +24,9 @@
 {% for kind in ['apk', 'play', 'fdroid'] %}{% for item in site.downloads if item.kind == kind %}
 {% if item.state == 'soon' %}<span class="btn btn-off">{{ t[item.kind] }} <span class="dot">·</span> {{ t[item.state] }}</span>
 {% elif item.kind == 'apk' %}<a class="btn btn-primary" href="{{ item.url }}">{{ icon('download') }}<span class="btn-text">{{ t[item.kind] }} <span class="st">{{ t[item.state] }}</span></span></a>
-{% else %}<a class="btn btn-line" href="{{ item.url }}">{{ t[item.kind] }} <span class="dot">·</span> {{ t[item.state] }}</a>
-{% endif %}
-{% if item.kind == 'play' %}<a class="sub" href="{{ c.testers_group_url }}">{{ icon('group', 's') }}{{ c.testers_group }}</a>
+{% else %}{% if item.kind == 'play' %}<p class="hint">{{ c.testers_hint }}</p>
+<a class="sub" href="{{ c.testers_group_url }}">{{ icon('group', 's') }}{{ c.testers_group }}</a>
+{% endif %}<a class="btn btn-line" href="{{ item.url }}">{{ t[item.kind] }} <span class="dot">·</span> {{ t[item.state] }}</a>
 {% endif %}
 {% endfor %}{% endfor %}
 </div>
