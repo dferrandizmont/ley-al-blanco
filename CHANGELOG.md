@@ -9,6 +9,8 @@ y en TestFlight sale cada versión; Google Play y la App Store reciben varias ju
 
 ## Sin publicar
 
+- El README pasa a la plantilla común: versión en inglés (`README.md`) y en español (`README.es.md`), y las instrucciones de compilar y probar salen a `CONTRIBUTING.md` y `CONTRIBUTING.es.md`.
+
 ## 0.9.3 · 29-oct-2026
 
 - Con la letra muy grande en una pantalla pequeña, los títulos de los temas (en Inicio, en la lista y en el lector de

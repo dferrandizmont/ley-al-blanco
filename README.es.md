@@ -1,7 +1,7 @@
 [English](README.md) · **Español**
 
 <p align="center">
-  <img src="docs/readme/header.png" alt="Ley al Blanco: prepara el examen teórico de las licencias de armas D y E y de la autorización especial para menores (AEM)" width="1024">
+  <img src="docs/readme/es/header.png" alt="Ley al Blanco: prepara el examen teórico de las licencias de armas D y E y de la autorización especial para menores (AEM)" width="1024">
 </p>
 
 # Ley al Blanco
@@ -58,12 +58,24 @@ Si puedes, quédate en la prueba al menos 14 días y úsala de vez en cuando (po
 ## Capturas
 
 <p>
-  <a href="docs/readme/01-preguntas-explicadas.png"><img src="docs/readme/01-preguntas-explicadas.png" width="19%" alt="Práctica con explicación y referencia al BOE"></a>
-  <a href="docs/readme/02-simulacro.png"><img src="docs/readme/02-simulacro.png" width="19%" alt="Resultado de un simulacro de 20 preguntas"></a>
-  <a href="docs/readme/03-probabilidad.png"><img src="docs/readme/03-probabilidad.png" width="19%" alt="Inicio con progreso y probabilidad de aprobar"></a>
-  <a href="docs/readme/04-fallos.png"><img src="docs/readme/04-fallos.png" width="19%" alt="Lista de fallos para repasar"></a>
-  <a href="docs/readme/05-gratis.png"><img src="docs/readme/05-gratis.png" width="19%" alt="Teoría y resúmenes por tema"></a>
+  <a href="docs/readme/es/01-probabilidad.png"><img src="docs/readme/es/01-probabilidad.png" width="19%" alt="Inicio con progreso y probabilidad de aprobar"></a>
+  <a href="docs/readme/es/02-simulacro.png"><img src="docs/readme/es/02-simulacro.png" width="19%" alt="Resultado de un simulacro de 20 preguntas"></a>
+  <a href="docs/readme/es/03-fallos.png"><img src="docs/readme/es/03-fallos.png" width="19%" alt="Lista de fallos para repasar"></a>
+  <a href="docs/readme/es/04-tarjetas-cifras.png"><img src="docs/readme/es/04-tarjetas-cifras.png" width="19%" alt="Tarjeta de cifras con la respuesta y su artículo"></a>
+  <a href="docs/readme/es/05-glosario.png"><img src="docs/readme/es/05-glosario.png" width="19%" alt="Glosario de términos del examen"></a>
 </p>
+
+<details>
+<summary>Más capturas</summary>
+
+<p>
+  <a href="docs/readme/es/06-preguntas-explicadas.png"><img src="docs/readme/es/06-preguntas-explicadas.png" width="19%" alt="Pregunta repasada con su explicación y referencia legal"></a>
+  <a href="docs/readme/es/07-teoria.png"><img src="docs/readme/es/07-teoria.png" width="19%" alt="Teoría por tema y prueba práctica"></a>
+  <a href="docs/readme/es/08-ajustes.png"><img src="docs/readme/es/08-ajustes.png" width="19%" alt="Ajustes con importación de progreso y aviso de app no oficial"></a>
+  <a href="docs/readme/es/09-probabilidad-oscuro.png"><img src="docs/readme/es/09-probabilidad-oscuro.png" width="19%" alt="Inicio en tema oscuro"></a>
+</p>
+
+</details>
 
 Pulsa una captura para ampliarla.
 

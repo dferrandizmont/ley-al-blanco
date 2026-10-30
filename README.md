@@ -1,7 +1,7 @@
 **English** · [Español](README.es.md)
 
 <p align="center">
-  <img src="docs/readme/header.png" alt="Ley al Blanco: prepare for the theory exam for the D and E firearms licences and the AEM authorisation for minors" width="1024">
+  <img src="docs/readme/en/header.png" alt="Ley al Blanco: prepare for the theory exam for the D and E firearms licences and the AEM authorisation for minors" width="1024">
 </p>
 
 # Ley al Blanco
@@ -59,14 +59,26 @@ If you can, stay in the test for at least 14 days and use it from time to time (
 ## Screenshots
 
 <p>
-  <a href="docs/readme/01-preguntas-explicadas.png"><img src="docs/readme/01-preguntas-explicadas.png" width="19%" alt="Practice with an explanation and a reference to the BOE"></a>
-  <a href="docs/readme/02-simulacro.png"><img src="docs/readme/02-simulacro.png" width="19%" alt="Result of a 20-question mock exam"></a>
-  <a href="docs/readme/03-probabilidad.png"><img src="docs/readme/03-probabilidad.png" width="19%" alt="Home with your progress and the chance of passing"></a>
-  <a href="docs/readme/04-fallos.png"><img src="docs/readme/04-fallos.png" width="19%" alt="List of mistakes to review"></a>
-  <a href="docs/readme/05-gratis.png"><img src="docs/readme/05-gratis.png" width="19%" alt="Theory and summaries by topic"></a>
+  <a href="docs/readme/es/01-probabilidad.png"><img src="docs/readme/es/01-probabilidad.png" width="19%" alt="Home with your progress and the chance of passing"></a>
+  <a href="docs/readme/es/02-simulacro.png"><img src="docs/readme/es/02-simulacro.png" width="19%" alt="Result of a 20-question mock exam"></a>
+  <a href="docs/readme/es/03-fallos.png"><img src="docs/readme/es/03-fallos.png" width="19%" alt="List of mistakes to review"></a>
+  <a href="docs/readme/es/04-tarjetas-cifras.png"><img src="docs/readme/es/04-tarjetas-cifras.png" width="19%" alt="Figures card with the answer and its article"></a>
+  <a href="docs/readme/es/05-glosario.png"><img src="docs/readme/es/05-glosario.png" width="19%" alt="Glossary of exam terms"></a>
 </p>
 
-Tap a screenshot to open it full size.
+<details>
+<summary>More screenshots</summary>
+
+<p>
+  <a href="docs/readme/es/06-preguntas-explicadas.png"><img src="docs/readme/es/06-preguntas-explicadas.png" width="19%" alt="A reviewed question with its explanation and legal reference"></a>
+  <a href="docs/readme/es/07-teoria.png"><img src="docs/readme/es/07-teoria.png" width="19%" alt="Theory by topic and the practical test"></a>
+  <a href="docs/readme/es/08-ajustes.png"><img src="docs/readme/es/08-ajustes.png" width="19%" alt="Settings with progress import and the unofficial-app notice"></a>
+  <a href="docs/readme/es/09-probabilidad-oscuro.png"><img src="docs/readme/es/09-probabilidad-oscuro.png" width="19%" alt="Home in the dark theme"></a>
+</p>
+
+</details>
+
+Tap a screenshot to enlarge it.
 
 ## Features
 

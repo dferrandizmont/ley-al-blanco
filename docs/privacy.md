@@ -4,7 +4,7 @@ No es asesoramiento jurídico. Resume qué hace la app con los datos; revisar co
 
 ## Flujo de datos (decisión del dueño, 26-oct-2026)
 - **Nada sale del móvil desde la app.** Progreso, fallos, repaso espaciado, simulacros y ajustes viven en Drift; la racha de la pregunta del día también es local y no se exporta.
-- App 100 % gratuita y de código abierto: código MIT y contenido propio CC BY-SA 4.0; la publicación del repositorio está pendiente. Banco y teoría incluidos, disponibles sin conexión y sin cuentas.
+- App 100 % gratuita y de código abierto: código MIT y contenido propio CC BY-SA 4.0; el repositorio está publicado en https://github.com/dferrandizmont/ley-al-blanco. Banco y teoría incluidos, disponibles sin conexión y sin cuentas.
 - Sin compras, anuncios, analítica, identificadores de instalación ni servicios de terceros. No se transmiten informes de errores; el manejo de fallos usa únicamente el registro local del sistema.
 - Las claves antiguas de compras e informes de errores se conservan sin uso por compatibilidad; no se consultan ni se exportan.
 
@@ -34,10 +34,10 @@ La fuente y la política de privacidad se abren en el navegador externo solo al 
 - Las explicaciones son de redacción propia.
 
 ## Pendiente antes del lanzamiento
-- [ ] Publicar la política de privacidad (URL) y enlazarla desde Ajustes y las dos tiendas.
-- [ ] Pasar `--dart-define=PRIVACY_URL=https://...` (política publicada) en el build de release: sin él, Ajustes no muestra «Política de privacidad».
-- [ ] Configurar el buzón dev@mainshai.com y pasar `--dart-define=SUPPORT_EMAIL=dev@mainshai.com` en el build de release: sin él, Ajustes no muestra «Escribir a soporte».
+- [x] Publicar la política de privacidad (URL) y enlazarla desde Ajustes y las dos tiendas.
+- [x] Pasar `--dart-define=PRIVACY_URL=https://...` (política publicada) en el build de release: sin él, Ajustes no muestra «Política de privacidad».
+- [x] Configurar el buzón dev@mainshai.com y pasar `--dart-define=SUPPORT_EMAIL=dev@mainshai.com` en el build de release: sin él, Ajustes no muestra «Escribir a soporte».
 - [ ] Comprobar en un build de release de cada tienda que «Escribir a soporte», «Política de privacidad» y «Ver la fuente original» abren la app externa correcta.
 - [ ] Escribir a la Intervención Central de Armas pidiendo confirmación de reutilización; guardar la respuesta.
-- [ ] Rellenar App Privacy (Apple) y Seguridad de los datos (Play).
+- [ ] Seguridad de los datos (Play): hecho. App Privacy (Apple): pendiente de crear la app.
 - [ ] Revisar este documento cada vez que cambie el flujo de datos.

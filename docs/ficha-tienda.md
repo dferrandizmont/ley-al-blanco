@@ -135,7 +135,7 @@ Estas notas recogen los requisitos que deben comprobarse en las directrices vige
 - **Directriz 4.3 (apps clonadas o spam):** el contenido propio —explicaciones, teoría, avisos normativos incluidos, estimación de la probabilidad de aprobar y material de repaso— diferencia la app. La ficha no nombra ni compara otras apps o webs.
 - **Directriz 5.2 (derechos de terceros):** se cita la fuente y la fecha del cuestionario y no se alteran enunciados, opciones ni respuestas. El aviso de la descripción larga debe conservarse.
 - **Comprobación antes de enviar:** el análisis de mercado advierte de que las referencias a las directrices 4.3 y 5.2 deben contrastarse con la versión vigente de las directrices de Apple.
-- **Clasificación por edades:** el análisis propone **12+**; confirmar la clasificación aplicable con el cuestionario vigente de App Store Connect.
+- **Clasificación por edades:** el análisis de mercado hablaba de 12+, pero la escala de Apple desde 2025 es 4+, 9+, 13+, 16+ y 18+: con «armas: frecuente» se espera **13+**. Confirmar con el cuestionario vigente de App Store Connect.
 
 ### Requisitos comunes
 
