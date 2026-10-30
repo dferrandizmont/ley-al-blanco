@@ -18,7 +18,7 @@ El selector puede crear archivos temporales. Android limpia la caché del plugin
 ## Copias y acciones externas
 Las copias del sistema operativo, si el usuario las habilita, las gestiona su cuenta de Google o Apple fuera de la app. La app no implementa sincronización ni copias remotas.
 
-«Escribir a soporte» y «¿Ves un error? Avísanos» abren el correo del usuario, que puede revisar y enviar el mensaje. Soporte: **dev@mainshai.com**. El soporte incluye versión de app y sistema; el aviso de una pregunta añade el contenido de esa pregunta, nunca progreso ni identificadores.
+«Escribir a soporte» y «¿Ves un error? Avísanos» abren el correo del usuario, que puede revisar y enviar el mensaje. Soporte: **leyalblanco@mainshai.com** (hasta el 30-oct-2026, dev@mainshai.com). El soporte incluye versión de app y sistema; el aviso de una pregunta añade el contenido de esa pregunta, nunca progreso ni identificadores.
 
 La fuente y la política de privacidad se abren en el navegador externo solo al pulsar sus enlaces. `SUPPORT_EMAIL` y `PRIVACY_URL` se mantienen como opciones del build; vacíos ocultan esas filas. «Licencias de código abierto» está siempre disponible y se abre sin conexión.
 

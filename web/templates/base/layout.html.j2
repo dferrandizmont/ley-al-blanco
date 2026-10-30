@@ -1,0 +1,35 @@
+{%- from 'icons.html.j2' import icon -%}
+<!doctype html>
+<html lang="{{ lang }}">
+<head>{% include 'base/head.html.j2' %}</head>
+<body>
+{% include 'base/skip_link.html.j2' %}
+{% block header %}<header class="band">
+<div class="wrap bar">
+<a class="brand" href="{{ route(lang) }}"><img src="{{ 'icon.png' | asset }}" alt="" width="36" height="36">{{ c.name }}</a>
+<nav class="navbox" aria-label="{{ c.nav_label }}">
+<ul class="nav">
+<li><a href="{{ route(lang) }}#download">{{ t.download }}</a></li>
+<li><a href="{{ route(lang) }}#screenshots">{{ t.screenshots }}</a></li>
+<li><a href="{{ route(lang) }}#features">{{ t.features }}</a></li>
+<li><a href="{{ route(lang) }}#privacy">{{ t.privacy }}</a></li>
+<li><a href="{{ route(lang) }}#support">{{ t.support }}</a></li>
+</ul>
+</nav>
+{% if site.languages | length > 1 %}{% include 'base/lang_switcher.html.j2' %}{% endif %}
+</div>
+</header>{% endblock %}
+<main id="content">{% block content %}{% endblock %}</main>
+{% block footer %}{% set author_parts = t.author.split('DanielMF') %}<footer>
+<div class="wrap foot">
+<p class="made"><img src="{{ 'icon.png' | asset }}" alt="" width="36" height="36"><span>{{ author_parts[0].format(app=c.name) }}<a href="https://mainshai.com">DanielMF</a>{{ author_parts[1] }}</span></p>
+<ul class="flinks">
+{% if site.open_source %}<li><a href="{{ site.repo_url }}">{{ icon('code', 's') }}{{ t.code }}</a> <span class="lic">· {{ c.licence_text }}</span></li>
+{% endif %}{% if site.free %}<li><a href="https://ko-fi.com/danielmfdev">{{ icon('local_cafe', 's') }}{{ t.coffee }}</a></li>
+{% endif %}<li><a href="mailto:{{ contact_email }}">{{ icon('mail', 's') }}{{ t.contact }}</a></li>
+<li><span class="quiet">{{ icon('verified_user', 's') }}{{ t.no_tracking }}</span></li>
+</ul>
+</div>
+</footer>{% endblock %}
+</body>
+</html>

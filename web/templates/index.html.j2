@@ -1,0 +1,108 @@
+{% extends 'base/layout.html.j2' %}
+{% from 'base/screenshots.html.j2' import picture %}
+{% from 'icons.html.j2' import icon %}
+{% block content %}
+{% set total = shots | length %}
+{% set feature_icons = ['checklist', 'quiz', 'autorenew', 'menu_book', 'pin', 'sync_alt', 'contrast'] %}
+{% set privacy_icons = ['smartphone', 'block', 'link'] %}
+<div class="band">
+<div class="wrap hero">
+<section id="about">
+<span class="mark"><img src="{{ 'icon.png' | asset }}" alt="" width="72" height="72"></span>
+<h1>{{ c.name }}</h1>
+<p class="intro">{{ c.intro }}</p>
+<ul class="facts">
+{% for fact in c.key_facts.split(' · ') %}<li>{{ icon('check', 's') }}{{ fact }}{% if not loop.last %}<span class="vh" aria-hidden="true"> · </span>{% endif %}</li>
+{% endfor %}</ul>
+<p class="notice">{{ icon('info') }}<span>{{ c.disclaimer }}</span></p>
+</section>
+
+<section id="download" class="dlp">
+<h2>{{ t.download }}</h2>
+<p class="plat">{{ t.android }}</p>
+<div class="stack">
+{% for kind in ['apk', 'play', 'fdroid'] %}{% for item in site.downloads if item.kind == kind %}
+{% if item.state == 'soon' %}<span class="btn btn-off">{{ t[item.kind] }} <span class="dot">·</span> {{ t[item.state] }}</span>
+{% elif item.kind == 'apk' %}<a class="btn btn-primary" href="{{ item.url }}">{{ icon('download') }}<span class="btn-text">{{ t[item.kind] }} <span class="st">{{ t[item.state] }}</span></span></a>
+{% else %}<a class="btn btn-line" href="{{ item.url }}">{{ t[item.kind] }} <span class="dot">·</span> {{ t[item.state] }}</a>
+{% endif %}
+{% if item.kind == 'play' %}<a class="sub" href="{{ c.testers_group_url }}">{{ icon('group', 's') }}{{ c.testers_group }}</a>
+{% endif %}
+{% endfor %}{% endfor %}
+</div>
+<div class="sep"></div>
+<p class="plat">{{ t.ios }}</p>
+<div class="stack">
+{% for kind in ['testflight', 'app_store'] %}{% for item in site.downloads if item.kind == kind %}
+{% if item.state == 'soon' %}<span class="btn btn-off">{{ t[item.kind] }} <span class="dot">·</span> {{ t[item.state] }}</span>
+{% else %}<a class="btn btn-line" href="{{ item.url }}">{{ t[item.kind] }} <span class="dot">·</span> {{ t[item.state] }}</a>
+{% endif %}
+{% endfor %}{% endfor %}
+</div>
+</section>
+</div>
+</div>
+
+<section id="screenshots" class="wrap">
+<div class="float car">
+<h2>{{ t.screenshots }}</h2>
+<div class="pnavs">
+{% for page in shots | batch(3) %}
+{% set number = loop.index %}
+{% set start = (number - 1) * 3 + 1 %}
+{% set end = start + (page | length) - 1 %}
+<div class="pnav">
+<span class="count tab">{{ c.shots_count.format(start=start, end=end, total=total) }}</span>
+<span class="arrows">
+{% if loop.first %}<span class="arr off" aria-hidden="true">{{ icon('chevron_left') }}</span>{% else %}<a class="arr" href="#shots-p{{ number - 1 }}" aria-label="{{ c.shots_prev }}">{{ icon('chevron_left') }}</a>{% endif %}
+{% if loop.last %}<span class="arr off" aria-hidden="true">{{ icon('chevron_right') }}</span>{% else %}<a class="arr" href="#shots-p{{ number + 1 }}" aria-label="{{ c.shots_next }}">{{ icon('chevron_right') }}</a>{% endif %}
+</span>
+</div>
+{% endfor %}</div>
+<div class="track" tabindex="0" role="region" aria-label="{{ c.shots_label }}">
+{% for page in shots | batch(3) %}
+{% set number = loop.index %}
+{% set first_page = loop.first %}
+{% set start = (number - 1) * 3 + 1 %}
+<div class="page" id="shots-p{{ number }}">
+<ul class="trio">
+{% for shot in page %}<li>{{ picture(shot, first_page and loop.first, '(min-width: 1024px) 300px, (min-width: 601px) 36vw, 82vw') }}<span class="idx tab">{{ c.shot_of.format(n=start + loop.index0, total=total) }}</span></li>
+{% endfor %}</ul>
+</div>
+{% endfor %}
+</div>
+<nav class="dots" aria-label="{{ c.shots_pages }}">
+{% for page in shots | batch(3) %}<a href="#shots-p{{ loop.index }}" aria-label="{{ c.shots_page_label.format(start=(loop.index - 1) * 3 + 1, end=(loop.index - 1) * 3 + (page | length)) }}"></a>
+{% endfor %}</nav>
+</div>
+</section>
+
+<section id="features" class="wrap sec">
+<h2>{{ t.features }}</h2>
+<ul class="feat">
+{% for feature in c.features %}<li data-feature><span class="ic">{{ icon(feature_icons[loop.index0 % (feature_icons | length)]) }}</span><span>{{ feature }}</span></li>
+{% endfor %}</ul>
+</section>
+
+<section id="privacy" class="wrap sec">
+<h2>{{ t.privacy }}</h2>
+<ul class="trio-cards">
+{% for sentence in c.privacy_summary %}<li><span class="ic">{{ icon(privacy_icons[loop.index0 % (privacy_icons | length)]) }}</span><span>{{ sentence }}</span></li>
+{% endfor %}</ul>
+<a class="more" href="{{ route(lang, true) }}">{{ t.privacy_full }}{{ icon('arrow_forward') }}</a>
+</section>
+
+<section id="support" class="wrap sec split">
+<div>
+<h2>{{ t.support }}</h2>
+<a class="btn btn-sec" href="mailto:{{ contact_email }}">{{ icon('mail') }}{{ t.contact }}</a>
+<span class="mail">{{ contact_email }}</span>
+</div>
+<div>
+<h3 class="over">{{ t.faq }}</h3>
+<div class="faq">
+{% for item in c.faq %}<details{% if loop.first %} open{% endif %}><summary>{{ item.question }}{{ icon('expand_more') }}</summary><p>{{ item.answer }}</p></details>
+{% endfor %}</div>
+</div>
+</section>
+{% endblock %}

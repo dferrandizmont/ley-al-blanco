@@ -56,7 +56,7 @@ SIN COSTE Y DE CÓDIGO ABIERTO
 Todo lo anterior está abierto para todo el mundo: sin compras, sin suscripciones y sin anuncios. El código de la app se publica con licencia libre y el contenido propio con Creative Commons.
 
 PRIVACIDAD
-No necesitas una cuenta. El progreso y los ajustes se guardan en el dispositivo, sin sincronización. La app no envía datos ni informes de errores y no usa servicios de terceros. Soporte: dev@mainshai.com.
+No necesitas una cuenta. El progreso y los ajustes se guardan en el dispositivo, sin sincronización. La app no envía datos ni informes de errores y no usa servicios de terceros. Soporte: leyalblanco@mainshai.com.
 
 Las explicaciones son de redacción propia y no constituyen asesoramiento jurídico. Esta app no representa a la Guardia Civil ni a ninguna entidad gubernamental.
 ```

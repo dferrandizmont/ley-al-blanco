@@ -4,7 +4,7 @@
 
 Son bienvenidos los informes de errores, las ideas y las traducciones. En la app,
 el botón «¿Ves un error? Avísanos», bajo cada explicación, abre tu aplicación de
-correo con el contenido de la pregunta, y el soporte es dev@mainshai.com.
+correo con el contenido de la pregunta, y el soporte es leyalblanco@mainshai.com.
 
 ## Compilar y probar
 

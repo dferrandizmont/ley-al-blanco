@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#2F5D50">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1F3B34">
+<title>{% if page_kind == 'privacy' %}{{ t.privacy_full }} · {% elif page_kind == '404' %}{{ t.not_found }} · {% endif %}{{ c.title }}</title>
+<meta name="description" content="{{ c.description }}">
+<link rel="canonical" href="{{ absolute(page_url) }}">
+{% for code, href in alternatives(page_kind == 'privacy').items() %}<link rel="alternate" hreflang="{{ code }}" href="{{ href }}">
+{% endfor %}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ c.title }}">
+<meta property="og:description" content="{{ c.description }}">
+<meta property="og:url" content="{{ absolute(page_url) }}">
+<meta property="og:locale" content="{{ og_locale }}">
+<meta property="og:image" content="{{ absolute('/og/' ~ lang ~ '.png') }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ c.title }}">
+<meta name="twitter:description" content="{{ c.description }}">
+<meta name="twitter:image" content="{{ absolute('/og/' ~ lang ~ '.png') }}">
+<link rel="stylesheet" href="{{ 'styles.css' | asset }}">
+<link rel="stylesheet" href="{{ brand_css }}">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/icon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">

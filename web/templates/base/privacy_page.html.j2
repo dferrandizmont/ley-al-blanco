@@ -1,0 +1,17 @@
+{% extends 'base/layout.html.j2' %}
+{% block content %}
+<div class="band">
+<div class="wrap narrow">
+<div class="doc-head">
+<h1>{{ t.privacy_full }}</h1>
+<p class="ver tab">{{ t.privacy_version }} <time datetime="{{ c.privacy_date }}">{{ c.privacy_date }}</time></p>
+{% if policy_lang != lang %}<p class="privacy-fallback">{{ t.privacy_fallback.format(language=t.languages[policy_lang]) }}</p>{% endif %}
+</div>
+</div>
+</div>
+<div class="wrap narrow">
+<div class="paper">
+<article class="article" lang="{{ policy_lang }}">{{ policy_html }}</article>
+</div>
+</div>
+{% endblock %}

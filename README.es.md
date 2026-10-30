@@ -40,7 +40,7 @@ La app está en prueba cerrada en Google Play y cualquiera puede apuntarse:
 2. Acepta la prueba desde el móvil o el ordenador: [play.google.com/apps/testing/es.leyalblanco.app](https://play.google.com/apps/testing/es.leyalblanco.app).
 3. Instala la app desde Google Play. Se actualizará sola.
 
-Si puedes, quédate en la prueba al menos 14 días y úsala de vez en cuando (por ejemplo, la pregunta del día): Google exige 12 testers durante 14 días para publicarla para todo el mundo. Los comentarios, a dev@mainshai.com.
+Si puedes, quédate en la prueba al menos 14 días y úsala de vez en cuando (por ejemplo, la pregunta del día): Google exige 12 testers durante 14 días para publicarla para todo el mundo. Los comentarios, a leyalblanco@mainshai.com.
 
 </details>
 
@@ -93,7 +93,7 @@ Nada sale del móvil y la app no pide permisos. Sin servidor, analítica ni
 servicios de terceros. El progreso se guarda en el dispositivo; los enlaces
 externos, el correo y la exportación solo se abren por acción del usuario.
 
-[Política de privacidad](https://dferrandizmont.github.io/ley-al-blanco/privacidad/).
+[Web](https://leyalblanco.mainshai.com) · [Política de privacidad](https://leyalblanco.mainshai.com/privacy/) · Soporte: **leyalblanco@mainshai.com**.
 
 ## Novedades
 

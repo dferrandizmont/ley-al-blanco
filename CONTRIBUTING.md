@@ -4,7 +4,7 @@
 
 Bug reports, ideas and translations are welcome. In the app, the «¿Ves un error?
 Avísanos» button under every explanation opens your email app with the question
-details, and support is dev@mainshai.com.
+details, and support is leyalblanco@mainshai.com.
 
 ## Build and test
 

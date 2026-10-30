@@ -1,0 +1,19 @@
+{% extends 'base/layout.html.j2' %}
+{% from 'icons.html.j2' import icon %}
+{% block content %}
+<div class="band">
+<div class="wrap narrow">
+<div class="doc-head">
+<h1>{{ t.not_found }}</h1>
+<p class="ver">{{ t.not_found_text }}</p>
+</div>
+</div>
+</div>
+<div class="wrap narrow">
+<div class="paper">
+<ul class="home-links">
+{% for code in site.languages %}<li><a class="btn btn-sec" href="{{ route(code) }}" lang="{{ code }}" hreflang="{{ code }}">{{ t.home }}{% if site.languages | length > 1 %} · {{ t.languages[code] }}{% endif %}{{ icon('arrow_forward') }}</a></li>
+{% endfor %}</ul>
+</div>
+</div>
+{% endblock %}

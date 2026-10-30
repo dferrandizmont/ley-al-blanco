@@ -1,0 +1,71 @@
+{
+  "name": "Ley al Blanco",
+  "title": "Ley al Blanco · Prepara el examen teórico de la licencia de armas D y E",
+  "description": "App gratuita y de código abierto para preparar el examen teórico de las licencias de armas D y E y de la autorización especial para menores (AEM) en España. Sin cuenta, sin anuncios y sin conexión.",
+  "intro": "Prepara el examen teórico de las licencias de armas D y E y de la autorización especial para menores (AEM) en España: las 423 preguntas del cuestionario, con explicaciones, teoría y simulacros para estudiar a tu ritmo.",
+  "key_facts": "Gratis · Sin anuncios · Sin cuenta · Funciona sin conexión · Código abierto",
+  "disclaimer": "App independiente y no oficial: no está creada, revisada ni respaldada por ningún organismo público.",
+  "features": [
+    "Práctica por temas: los siete temas del programa, cada pregunta con su explicación y el artículo de la norma cuando lo hay.",
+    "Simulacros ilimitados de 20 preguntas, como en el examen: apto con 16 aciertos, con historial y revisión de cada respuesta.",
+    "Repaso de fallos con repetición espaciada, pregunta del día y racha de estudio.",
+    "Teoría de los siete temas, la prueba práctica y la AEM, con glosario y buscador.",
+    "Cifras y plazos: tarjetas para las edades, plazos e importes que más se preguntan.",
+    "Tu progreso en el móvil: expórtalo a un archivo e impórtalo en otro dispositivo cuando quieras.",
+    "Modo claro y oscuro, letra grande y respuestas marcadas siempre con icono además de color."
+  ],
+  "privacy_summary": [
+    "Tu progreso se queda en tu móvil: no hay cuenta, ni servidor, ni sincronización.",
+    "La app no pide permisos y no usa analítica, anuncios ni servicios de terceros.",
+    "Los enlaces, el correo de soporte y la exportación del progreso solo se abren cuando tú lo pides."
+  ],
+  "faq": [
+    {
+      "question": "¿Cuánto cuesta?",
+      "answer": "Nada. Es gratis y de código abierto: sin anuncios, sin compras y sin suscripción. Todos los temas y modos están abiertos."
+    },
+    {
+      "question": "¿Cómo entro en la prueba de Google Play?",
+      "answer": "Únete al grupo ley-al-blanco-testers con tu cuenta de Google, acepta la prueba desde el enlace de Google Play e instala la app desde la tienda. Se actualizará sola."
+    },
+    {
+      "question": "¿De dónde salen las preguntas?",
+      "answer": "Del cuestionario público de la Guardia Civil: sus 423 preguntas, con enunciados, opciones y respuestas tal cual. Las explicaciones son de redacción propia y, si la norma vigente ha cambiado, la pregunta lleva un aviso."
+    },
+    {
+      "question": "¿Es una app oficial?",
+      "answer": "No. Es una app independiente y no oficial, hecha por un desarrollador particular. No está creada, revisada ni respaldada por la Guardia Civil ni por ningún organismo público."
+    },
+    {
+      "question": "¿Funciona sin conexión?",
+      "answer": "Sí. El banco de preguntas va dentro de la app y todo funciona sin internet."
+    },
+    {
+      "question": "¿Y en iPhone?",
+      "answer": "La versión de iOS está en preparación. De momento puedes usarla en Android, desde Google Play o con el APK de GitHub."
+    }
+  ],
+  "licence_text": "Código MIT · Contenido CC BY-SA 4.0",
+  "screenshot_alts": {
+    "01-probabilidad": "Inicio con el progreso y la probabilidad de aprobar",
+    "02-simulacro": "Resultado de un simulacro de 20 preguntas",
+    "03-fallos": "Lista de fallos para repasar",
+    "04-tarjetas-cifras": "Tarjeta de cifras con la respuesta y su artículo",
+    "05-glosario": "Glosario de términos del examen",
+    "06-preguntas-explicadas": "Pregunta repasada con su explicación y referencia legal",
+    "07-teoria": "Teoría por tema y prueba práctica",
+    "08-ajustes": "Ajustes con importación de progreso y aviso de app no oficial",
+    "09-probabilidad-oscuro": "Inicio en modo oscuro"
+  },
+  "testers_group": "Grupo de testers",
+  "testers_group_url": "https://groups.google.com/g/ley-al-blanco-testers",
+  "privacy_date": "2026-10-30",
+  "nav_label": "Secciones",
+  "shots_label": "Capturas de la app",
+  "shots_prev": "Capturas anteriores",
+  "shots_next": "Capturas siguientes",
+  "shots_pages": "Páginas de capturas",
+  "shots_page_label": "Capturas {start}–{end}",
+  "shots_count": "{start}–{end} de {total}",
+  "shot_of": "{n} de {total}"
+}

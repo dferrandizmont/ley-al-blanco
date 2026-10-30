@@ -9,6 +9,11 @@ y en TestFlight sale cada versión; Google Play y la App Store reciben varias ju
 
 ## Sin publicar
 
+- Nueva web: https://leyalblanco.mainshai.com, con descargas, capturas, preguntas frecuentes y la política de
+  privacidad completa en https://leyalblanco.mainshai.com/privacy/. Las direcciones antiguas de GitHub Pages llevan
+  a la nueva.
+- El correo de soporte pasa a ser leyalblanco@mainshai.com, también en «Escribir a soporte» y «¿Ves un error?
+  Avísanos» desde la próxima versión.
 - El README pasa a la plantilla común: versión en inglés (`README.md`) y en español (`README.es.md`), y las instrucciones de compilar y probar salen a `CONTRIBUTING.md` y `CONTRIBUTING.es.md`.
 
 ## 0.9.3 · 29-oct-2026

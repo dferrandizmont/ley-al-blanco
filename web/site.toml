@@ -1,0 +1,27 @@
+id = "ley-al-blanco"
+domain = "leyalblanco.mainshai.com"
+languages = ["es"]
+default_language = "es"
+brand = "#2F5D50"
+open_source = true
+free = true
+repo_url = "https://github.com/dferrandizmont/ley-al-blanco"
+contact_email = "leyalblanco@mainshai.com"
+screenshots = [
+  "01-probabilidad",
+  "02-simulacro",
+  "03-fallos",
+  "04-tarjetas-cifras",
+  "05-glosario",
+  "06-preguntas-explicadas",
+  "07-teoria",
+  "08-ajustes",
+  "09-probabilidad-oscuro",
+]
+privacy = { es = "docs/legal/politica-privacidad.md" }
+privacy_omit_headings = ["Notas para el titular (no publicar)"]
+downloads = [
+  { kind = "play", state = "closed_test", url = "https://play.google.com/apps/testing/es.leyalblanco.app" },
+  { kind = "apk", state = "available", url = "https://github.com/dferrandizmont/ley-al-blanco/releases/latest" },
+  { kind = "app_store", state = "soon" },
+]

@@ -1,6 +1,6 @@
 # Política de privacidad de Ley al Blanco
 
-Última actualización: [FECHA]
+Última actualización: 2026-10-30
 
 Ley al Blanco es una app para preparar la prueba teórica de la licencia de armas D, E y de la autorización especial para menores (AEM). Es una app independiente y no oficial: no está creada, revisada ni respaldada por la Guardia Civil ni por ningún organismo público.
 
@@ -8,8 +8,8 @@ Resumen: **no tienes cuenta, no hay servidor propio y tu progreso se queda en tu
 
 ## 1. Responsable del tratamiento
 
-- Titular: [TITULAR]
-- Correo de contacto: [CORREO_SOPORTE]
+- Titular: Daniel Mont Ferrandiz
+- Correo de contacto: <leyalblanco@mainshai.com>
 
 ## 2. Qué datos se tratan
 
@@ -23,7 +23,7 @@ Estos datos pueden entrar en las copias de seguridad que hace tu sistema (copia 
 ### Comunicaciones
 La app no transmite progreso, identificadores ni informes de errores. No utiliza compras, anuncios, analítica ni servicios de terceros. Los errores se manejan solo en el dispositivo.
 
-Si pulsas un enlace se abre tu navegador; si escribes a soporte se abre tu aplicación de correo. Solo se envía el mensaje que tú decidas enviar a [CORREO_SOPORTE].
+Si pulsas un enlace se abre tu navegador; si escribes a soporte se abre tu aplicación de correo. Solo se envía el mensaje que tú decidas enviar a <leyalblanco@mainshai.com>.
 
 ### Datos que NO se tratan
 - No pedimos ni guardamos nombre, correo, teléfono, DNI ni fecha de nacimiento.
@@ -47,7 +47,7 @@ Si pulsas un enlace se abre tu navegador; si escribes a soporte se abre tu aplic
 No tomamos decisiones automatizadas ni elaboramos perfiles sobre ti.
 
 ## 4. Quién recibe los datos
-La app no transmite datos a terceros. Si envías un correo de soporte, lo recibe el titular en [CORREO_SOPORTE] mediante el servicio de correo que elijas.
+La app no transmite datos a terceros. Si envías un correo de soporte, lo recibe el titular en <leyalblanco@mainshai.com> mediante el servicio de correo que elijas.
 
 ## 5. Transferencias internacionales
 La app no realiza transferencias de datos. Los servicios externos que decidas utilizar (correo, navegador o destino de una exportación) se rigen por sus propias condiciones.
@@ -55,11 +55,11 @@ La app no realiza transferencias de datos. Los servicios externos que decidas ut
 ## 6. Cuánto tiempo se conservan
 
 - **Datos en tu móvil:** hasta que desinstales la app o borres sus datos desde los ajustes del sistema (y, en su caso, de las copias de seguridad que tengas).
-- **Correos de soporte:** el tiempo necesario para atender tu consulta y, como máximo, [PLAZO_CORREOS].
+- **Correos de soporte:** el tiempo necesario para atender tu consulta y, como máximo, un año desde la última respuesta.
 
 ## 7. Tus derechos
 
-Puedes ejercer tus derechos de **acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad** escribiendo a [CORREO_SOPORTE]. Te responderemos en el plazo de un mes.
+Puedes ejercer tus derechos de **acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad** escribiendo a <leyalblanco@mainshai.com>. Te responderemos en el plazo de un mes.
 
 No recibimos el progreso guardado en tu móvil. Puedes borrarlo desinstalando la app o borrando sus datos desde los ajustes del sistema.
 
@@ -78,11 +78,9 @@ Si cambia lo que hace la app con los datos, actualizaremos esta página y la fec
 
 ## 11. Contacto
 
-[CORREO_SOPORTE]
-
----
+<leyalblanco@mainshai.com>
 
 ## Notas para el titular (no publicar)
 Borra esta sección antes de publicar (la página generada ya la omite). Texto revisado por Claude el 26-oct-2026 tras la decisión de hacer la app gratuita y de código abierto (sin compras ni Crashlytics): revísalo con una persona antes del lanzamiento.
 
-Pendientes: rellenar `[TITULAR]`, `[FECHA]` y `[PLAZO_CORREOS]` con `web/legal/rellenar.py` (titular: Daniel Mont Ferrandiz; correo: `dev@mainshai.com`). No se publica el NIF: el RGPD pide identificar al responsable y un contacto, y una app gratuita sin actividad económica no está obligada a dar el NIF por la LSSI, publicar la URL en `PRIVACY_URL` y en las fichas de las tiendas, y comprobar que coincide con «Seguridad de los datos» (Play) y «Privacidad de la app» (Apple): no se recopilan datos.
+Desde el 30-oct-2026 la política se publica completa en https://leyalblanco.mainshai.com/privacy/ (la genera mainshai-web desde este fichero, sin esta sección) y el correo de contacto es `leyalblanco@mainshai.com`. No se publica el NIF: el RGPD pide identificar al responsable y un contacto, y una app gratuita sin actividad económica no está obligada a dar el NIF por la LSSI, publicar la URL en `PRIVACY_URL` y en las fichas de las tiendas, y comprobar que coincide con «Seguridad de los datos» (Play) y «Privacidad de la app» (Apple): no se recopilan datos.

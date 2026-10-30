@@ -41,7 +41,7 @@ The app is in closed testing on Google Play and anyone can join:
 2. Accept the test from your phone or computer: [play.google.com/apps/testing/es.leyalblanco.app](https://play.google.com/apps/testing/es.leyalblanco.app).
 3. Install the app from Google Play. It updates itself.
 
-If you can, stay in the test for at least 14 days and use it from time to time (for example, the daily question): Google requires 12 testers for 14 days to publish it for everyone. Send comments to dev@mainshai.com.
+If you can, stay in the test for at least 14 days and use it from time to time (for example, the daily question): Google requires 12 testers for 14 days to publish it for everyone. Send comments to leyalblanco@mainshai.com.
 
 </details>
 
@@ -94,7 +94,7 @@ Nothing leaves your phone and the app asks for no permissions. No server, no
 analytics and no third-party services. Your progress is stored on the device;
 external links, email and export only open when you ask for them.
 
-[Privacy policy](https://dferrandizmont.github.io/ley-al-blanco/privacidad/).
+[Website](https://leyalblanco.mainshai.com) · [Privacy policy](https://leyalblanco.mainshai.com/privacy/) · Support: **leyalblanco@mainshai.com**.
 
 ## What's new
 
