@@ -10,6 +10,7 @@
 [![Contenido: CC BY-SA 4.0](https://img.shields.io/badge/Contenido-CC_BY--SA_4.0-2F5D50)](LICENSE-CONTENT.md)
 [![Versión](https://img.shields.io/github/v/release/dferrandizmont/ley-al-blanco?include_prereleases&label=versi%C3%B3n&color=2F5D50)](https://github.com/dferrandizmont/ley-al-blanco/releases)
 [![Descargas](https://img.shields.io/github/downloads/dferrandizmont/ley-al-blanco/total?label=descargas&color=2F5D50)](https://github.com/dferrandizmont/ley-al-blanco/releases)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Inv%C3%ADtame_a_un_caf%C3%A9-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/danielmfdev)
 
 Prepara el examen teórico de las licencias de armas D y E y la autorización
 especial para menores (AEM) en España. Las **423 preguntas del cuestionario**,

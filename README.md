@@ -10,6 +10,7 @@
 [![Content: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC_BY--SA_4.0-2F5D50)](LICENSE-CONTENT.md)
 [![Version](https://img.shields.io/github/v/release/dferrandizmont/ley-al-blanco?include_prereleases&label=version&color=2F5D50)](https://github.com/dferrandizmont/ley-al-blanco/releases)
 [![Downloads](https://img.shields.io/github/downloads/dferrandizmont/ley-al-blanco/total?label=downloads&color=2F5D50)](https://github.com/dferrandizmont/ley-al-blanco/releases)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy_me_a_coffee-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/danielmfdev)
 
 Ley al Blanco helps you prepare for the Spanish firearms licence theory exam
 (D and E) and for the special authorisation for minors (AEM). It includes the
