@@ -1,6 +1,6 @@
 # Avisos de seguridad
 
-Si encuentras una vulnerabilidad, escribe a **dev@mainshai.com**.
+Si encuentras una vulnerabilidad, escribe a **leyalblanco@mainshai.com**.
 
 Incluye la versión afectada, los pasos para reproducir el problema y su posible
 impacto. Si adjuntas un archivo de progreso, usa datos de prueba y elimina

@@ -29,6 +29,10 @@
       "answer": "Únete al grupo ley-al-blanco-testers con tu cuenta de Google, acepta la prueba desde el enlace de Google Play e instala la app desde la tienda. Se actualizará sola."
     },
     {
+      "question": "¿Puedo pasar de Google Play al APK de GitHub, o al revés?",
+      "answer": "Desde la 0.9.5, sí: las dos llevan la misma firma y una se instala encima de la otra sin perder el progreso. Si tienes una versión de Google Play anterior a la 0.9.5, exporta antes tu progreso (Ajustes, Tus datos) y desinstálala una vez."
+    },
+    {
       "question": "¿De dónde salen las preguntas?",
       "answer": "Del cuestionario público de la Guardia Civil: sus 423 preguntas, con enunciados, opciones y respuestas tal cual. Las explicaciones son de redacción propia y, si la norma vigente ha cambiado, la pregunta lleva un aviso."
     },

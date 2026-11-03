@@ -53,6 +53,7 @@ If you can, stay in the test for at least 14 days and use it from time to time (
    - `Ley-al-Blanco-vX.Y.Z-armeabi-v7a.apk`: for older 32-bit phones.
 2. When you open the APK, allow «install apps from unknown sources».
 3. Check the integrity with the `SHA256SUMS.txt` file published on the same release page.
+4. Since 0.9.5 the APK and the Google Play version share the same signature, so one installs over the other and keeps your progress. If you have a Google Play version older than 0.9.5, export your progress first (Settings, Your data) and uninstall it once.
 
 </details>
 

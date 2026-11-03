@@ -9,6 +9,12 @@ y en TestFlight sale cada versión; Google Play y la App Store reciben varias ju
 
 ## Sin publicar
 
+## 0.9.5 · 03-nov-2026
+
+- La versión de Google Play y el APK de GitHub llevan ahora la misma firma, así que se puede pasar de una a otra
+  sin desinstalar y sin perder el progreso. Quien tenga una versión de Google Play anterior a esta tiene que
+  desinstalarla una vez (antes, exportar el progreso en Ajustes, Tus datos).
+
 ## 0.9.4 · 31-oct-2026
 
 - Nueva web: https://leyalblanco.mainshai.com, con descargas, capturas, preguntas frecuentes y la política de

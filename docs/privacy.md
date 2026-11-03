@@ -36,7 +36,7 @@ La fuente y la política de privacidad se abren en el navegador externo solo al 
 ## Pendiente antes del lanzamiento
 - [x] Publicar la política de privacidad (URL) y enlazarla desde Ajustes y las dos tiendas.
 - [x] Pasar `--dart-define=PRIVACY_URL=https://...` (política publicada) en el build de release: sin él, Ajustes no muestra «Política de privacidad».
-- [x] Configurar el buzón dev@mainshai.com y pasar `--dart-define=SUPPORT_EMAIL=dev@mainshai.com` en el build de release: sin él, Ajustes no muestra «Escribir a soporte».
+- [x] Configurar el buzón leyalblanco@mainshai.com y pasar `--dart-define=SUPPORT_EMAIL=leyalblanco@mainshai.com` en el build de release: sin él, Ajustes no muestra «Escribir a soporte».
 - [ ] Comprobar en un build de release de cada tienda que «Escribir a soporte», «Política de privacidad» y «Ver la fuente original» abren la app externa correcta.
 - [ ] Escribir a la Intervención Central de Armas pidiendo confirmación de reutilización; guardar la respuesta.
 - [ ] Seguridad de los datos (Play): hecho. App Privacy (Apple): pendiente de crear la app.

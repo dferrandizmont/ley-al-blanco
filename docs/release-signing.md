@@ -32,6 +32,7 @@ keyPassword=<del gestor de contraseñas>
 ## 3. Play App Signing
 
 - [ ] Dar de alta la app en Play Console con Play App Signing (Google guarda la clave de firma; la de arriba es solo de subida).
+- **Decidido el 3-nov-2026:** para que el APK de GitHub y la versión de Play lleven la misma firma, la clave de firma de aplicación de Play es **la misma `.jks`** que la de subida (Play Console, Protegida con Play, Firma de aplicaciones, «Cambiar clave», «Exportar y subir una clave del almacén de claves de Java»). Se cifra con `pepk.jar` y la clave pública que da el propio diálogo; la contraseña la escribe solo el dueño. Tras el cambio, Play no admite ningún build subido antes: hay que subir uno con `versionCode` mayor. Comprobar después que la huella de la clave de firma en Play coincide con la del APK (`apksigner verify --print-certs`).
 - [ ] Subir un AAB (`flutter build appbundle`), no un APK.
 
 ## 4. Build de release
