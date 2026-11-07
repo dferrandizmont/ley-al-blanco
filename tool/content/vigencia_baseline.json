@@ -1,0 +1,36 @@
+{
+  "gc_programa": {
+    "boe": [
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-1998-27988",
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-12249",
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-2015-3779"
+    ],
+    "pdfs": [
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema1_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema1r_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema2_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema2r_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema3_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema3r_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema4_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema4r_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema5_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema5r_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema6_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema6r_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema7_es.pdf",
+      "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/iarmas/temarios/tema7r_es.pdf"
+    ]
+  },
+  "interior": {
+    "audiencia": [
+      "Audiencia e información pública del proyecto de Orden Ministerial por la que se aprueban las instrucciones para la aplicación del Reglamento de Armas, aprobado por el Real Decreto 137/1993, de 29 de enero, en el Cuerpo de la Guardia Civil.",
+      "Audiencia e información pública del proyecto de Real Decreto por el que se modifica el Reglamento de Armas."
+    ],
+    "consulta": [
+      "Consulta pública previa del Proyecto de Real Decreto por el que se modifica el Reglamento de Armas.",
+      "Consulta pública previa del proyecto de Orden Ministerial por la que se aprueban las instrucciones para la aplicación en el Cuerpo de la Guardia Civil del Reglamento de Armas.",
+      "Consulta pública previa del proyecto de Real Decreto por el que se transpone la Directiva de Ejecución (UE) 2024/325 de la Comisión, de 19 de enero de 2024, por la que se modifica la Directiva de Ejecución (UE) 2019/68 en lo que respecta a la profundidad mínima de los marcados en las armas de fuego y sus componentes esenciales."
+    ]
+  }
+}

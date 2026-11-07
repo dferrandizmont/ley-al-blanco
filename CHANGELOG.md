@@ -9,10 +9,19 @@ y en TestFlight sale cada versión; Google Play y la App Store reciben varias ju
 
 ## Sin publicar
 
+## 0.9.6 · 07-nov-2026
+
+- Primera versión para iPhone, ya en la App Store (España):
+  https://apps.apple.com/es/app/ley-al-blanco-armas-d-y-e/id6831621176
+- En iPhone vuelve a funcionar el gesto de deslizar desde el borde izquierdo para volver atrás, y las pantallas
+  se abren con su animación en iPhone y en Android (antes cambiaban de golpe).
+- El APK de GitHub y la versión de Google Play llevan el mismo número de compilación, así que también se puede
+  volver del APK a Google Play sin desinstalar. En la 0.9.5 solo funcionaba de Google Play al APK.
+
 ## 0.9.5 · 03-nov-2026
 
-- La versión de Google Play y el APK de GitHub llevan ahora la misma firma, así que se puede pasar de una a otra
-  sin desinstalar y sin perder el progreso. Quien tenga una versión de Google Play anterior a esta tiene que
+- La versión de Google Play y el APK de GitHub llevan ahora la misma firma, así que se puede pasar de Google Play
+  al APK sin desinstalar y sin perder el progreso (del APK a Google Play, desde la versión siguiente). Quien tenga una versión de Google Play anterior a esta tiene que
   desinstalarla una vez (antes, exportar el progreso en Ajustes, Tus datos).
 
 ## 0.9.4 · 31-oct-2026

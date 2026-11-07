@@ -4,7 +4,38 @@
   "description": "App gratuita y de código abierto para preparar el examen teórico de las licencias de armas D y E y de la autorización especial para menores (AEM) en España. Sin cuenta, sin anuncios y sin conexión.",
   "intro": "Prepara el examen teórico de las licencias de armas D y E y de la autorización especial para menores (AEM) en España: las 423 preguntas del cuestionario, con explicaciones, teoría y simulacros para estudiar a tu ritmo.",
   "key_facts": "Gratis · Sin anuncios · Sin cuenta · Funciona sin conexión · Código abierto",
+  "theme_toggle": "Cambiar entre tema claro y oscuro",
   "disclaimer": "App independiente y no oficial: no está creada, revisada ni respaldada por ningún organismo público.",
+  "specs_label": "En cifras",
+  "specs": [
+    {
+      "label": "Preguntas",
+      "value": "423"
+    },
+    {
+      "label": "Temas",
+      "value": "7"
+    },
+    {
+      "label": "Simulacro",
+      "value": "20",
+      "unit": "preguntas"
+    },
+    {
+      "label": "Apto",
+      "value": "16",
+      "unit": "aciertos"
+    },
+    {
+      "label": "Precio",
+      "value": "0",
+      "unit": "€"
+    },
+    {
+      "label": "Conexión",
+      "unit": "No hace falta"
+    }
+  ],
   "features": [
     "Práctica por temas: los siete temas del programa, cada pregunta con su explicación y el artículo de la norma cuando lo hay.",
     "Simulacros ilimitados de 20 preguntas, como en el examen: apto con 16 aciertos, con historial y revisión de cada respuesta.",
@@ -30,7 +61,7 @@
     },
     {
       "question": "¿Puedo pasar de Google Play al APK de GitHub, o al revés?",
-      "answer": "Desde la 0.9.5, sí: las dos llevan la misma firma y una se instala encima de la otra sin perder el progreso. Si tienes una versión de Google Play anterior a la 0.9.5, exporta antes tu progreso (Ajustes, Tus datos) y desinstálala una vez."
+      "answer": "De Google Play al APK, sí, desde la 0.9.5: las dos llevan la misma firma y el APK se instala encima sin perder el progreso. Del APK a Google Play podrás pasar a partir de la próxima versión, cuando llegue a Google Play. Si tienes una versión de Google Play anterior a la 0.9.5, exporta antes tu progreso (Ajustes, Tus datos) y desinstálala una vez."
     },
     {
       "question": "¿De dónde salen las preguntas?",
@@ -46,7 +77,7 @@
     },
     {
       "question": "¿Y en iPhone?",
-      "answer": "La versión de iOS está en preparación. De momento puedes usarla en Android, desde Google Play o con el APK de GitHub."
+      "answer": "Sí. Está en la App Store para iPhone con iOS 15 o posterior, gratis y con todo el contenido, igual que en Android."
     }
   ],
   "licence_text": "Código MIT · Contenido CC BY-SA 4.0",
@@ -67,10 +98,7 @@
   "privacy_date": "2026-10-30",
   "nav_label": "Secciones",
   "shots_label": "Capturas de la app",
-  "shots_prev": "Capturas anteriores",
-  "shots_next": "Capturas siguientes",
-  "shots_pages": "Páginas de capturas",
-  "shots_page_label": "Capturas {start}–{end}",
-  "shots_count": "{start}–{end} de {total}",
-  "shot_of": "{n} de {total}"
+  "mail_label": "Correo",
+  "owner_label": "Responsable",
+  "owner_name": "Daniel Mont Ferrandiz"
 }

@@ -75,6 +75,25 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
+  testWidgets('on iOS an edge swipe goes back to the previous screen', (
+    tester,
+  ) async {
+    final router = await pumpRouter(tester);
+    router.push('/ajustes');
+    await tester.pumpAndSettle();
+    expect(find.text('APARIENCIA'), findsOneWidget);
+
+    final gesture = await tester.startGesture(const Offset(5, 300));
+    for (var i = 0; i < 20; i++) {
+      await gesture.moveBy(const Offset(20, 0));
+      await tester.pump(const Duration(milliseconds: 16));
+    }
+    await gesture.up();
+    await tester.pumpAndSettle();
+    expect(find.text('APARIENCIA'), findsNothing);
+    expect(find.text('PROBABILIDAD DE APROBAR'), findsOneWidget);
+  }, variant: TargetPlatformVariant.only(TargetPlatform.iOS));
+
   testWidgets('every study route builds its screen', (tester) async {
     final router = await pumpRouter(tester);
     // Secondary screens keep an app bar with the title; the question screens

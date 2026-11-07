@@ -4,30 +4,27 @@
 <head>{% include 'base/head.html.j2' %}</head>
 <body>
 {% include 'base/skip_link.html.j2' %}
-{% block header %}<header class="band">
+{% block header %}<header class="hd">
 <div class="wrap bar">
-<a class="brand" href="{{ route(lang) }}"><img src="{{ 'icon.png' | asset }}" alt="" width="36" height="36">{{ c.name }}</a>
+<a class="brand" href="{{ route(lang) }}"><img src="{{ 'icon.png' | asset }}" alt="" width="32" height="32">{{ c.name }}</a>
 <nav class="navbox" aria-label="{{ c.nav_label }}">
 <ul class="nav">
-<li><a href="{{ route(lang) }}#download">{{ t.download }}</a></li>
-<li><a href="{{ route(lang) }}#screenshots">{{ t.screenshots }}</a></li>
-<li><a href="{{ route(lang) }}#features">{{ t.features }}</a></li>
-<li><a href="{{ route(lang) }}#privacy">{{ t.privacy }}</a></li>
-<li><a href="{{ route(lang) }}#support">{{ t.support }}</a></li>
-</ul>
+{% for anchor in ['download', 'screenshots', 'features', 'privacy', 'support'] %}<li><a href="{{ route(lang) }}#{{ anchor }}"><span class="tab" aria-hidden="true">{{ '%02d' | format(loop.index) }}</span>{{ t[anchor] }}</a></li>
+{% endfor %}</ul>
 </nav>
 {% if site.languages | length > 1 %}{% include 'base/lang_switcher.html.j2' %}{% endif %}
+<button class="theme" type="button" data-theme-toggle aria-label="{{ c.theme_toggle }}" title="{{ c.theme_toggle }}" hidden><svg class="ic-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg><svg class="ic-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><path stroke="currentColor" stroke-width="2" stroke-linecap="square" d="M12 1.5v2.5M12 20v2.5M1.5 12H4M20 12h2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg></button>
 </div>
 </header>{% endblock %}
 <main id="content">{% block content %}{% endblock %}</main>
-{% block footer %}{% set author_parts = t.author.split('DanielMF') %}<footer>
-<div class="wrap foot">
-<p class="made"><img src="{{ 'icon.png' | asset }}" alt="" width="36" height="36"><span>{{ author_parts[0].format(app=c.name) }}<a href="https://mainshai.com">DanielMF</a>{{ author_parts[1] }}</span></p>
+{% block footer %}{% set author_parts = t.author.split('DanielMF') %}<footer class="wrap">
+<div class="foot">
+<p class="made">{{ author_parts[0].format(app=c.name) }}<a href="https://mainshai.com">DanielMF</a>{{ author_parts[1] }}</p>
 <ul class="flinks">
-{% if site.open_source %}<li><a href="{{ site.repo_url }}">{{ icon('code', 's') }}{{ t.code }}</a> <span class="lic">· {{ c.licence_text }}</span></li>
+{% if site.open_source %}<li><a href="{{ site.repo_url }}">{{ icon('code', 's') }}{{ t.code }}</a><span class="lic"><span class="sep" aria-hidden="true">· </span>{{ c.licence_text }}</span></li>
 {% endif %}{% if site.free %}<li><a href="https://ko-fi.com/danielmfdev">{{ icon('local_cafe', 's') }}{{ t.coffee }}</a></li>
-{% endif %}<li><a href="mailto:{{ contact_email }}">{{ icon('mail', 's') }}{{ t.contact }}</a></li>
-<li><span class="quiet">{{ icon('verified_user', 's') }}{{ t.no_tracking }}</span></li>
+{% endif %}<li><a href="mailto:{{ contact_email }}">{{ icon('mail', 's') }}{{ contact_email }}</a></li>
+<li><span class="q">{{ icon('verified_user', 's') }}{{ t.no_tracking }}</span></li>
 </ul>
 </div>
 </footer>{% endblock %}

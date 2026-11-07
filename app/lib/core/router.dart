@@ -1,4 +1,4 @@
-import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
@@ -53,14 +53,37 @@ int? _parseId(String? raw) {
   return value != null && value >= 0 ? value : null;
 }
 
+/// A route whose page is always a [MaterialPage].
+///
+/// go_router only picks [MaterialPage] when it finds a `MaterialApp` above its
+/// own context; otherwise it falls back to `NoTransitionPage`, which drops the
+/// page transitions and the iOS edge-swipe back gesture. Building the page here
+/// keeps both regardless of how go_router detects the app type.
+GoRoute _route({
+  required String path,
+  required GoRouterWidgetBuilder builder,
+  GoRouterRedirect? redirect,
+  List<RouteBase> routes = const <RouteBase>[],
+}) => GoRoute(
+  path: path,
+  redirect: redirect,
+  routes: routes,
+  pageBuilder: (context, state) => MaterialPage<void>(
+    key: state.pageKey,
+    name: state.name ?? state.path,
+    restorationId: state.pageKey.value,
+    child: builder(context, state),
+  ),
+);
+
 /// Offline routes: every study mode and all seven temas are open.
 GoRouter createRouter({String initialLocation = '/'}) {
   return GoRouter(
     initialLocation: initialLocation,
     onException: unknownLocationFallback,
     routes: [
-      GoRoute(path: '/', builder: (context, state) => const HomeScreen()),
-      GoRoute(
+      _route(path: '/', builder: (context, state) => const HomeScreen()),
+      _route(
         path: '/tema/:n',
         redirect: (context, state) async {
           final tema = _parseTema(state.pathParameters['n']);
@@ -72,11 +95,11 @@ GoRouter createRouter({String initialLocation = '/'}) {
           source: TemaPractice(_parseTema(state.pathParameters['n'])!),
         ),
       ),
-      GoRoute(
+      _route(
         path: '/teoria',
         builder: (context, state) => const TheoryListScreen(),
         routes: [
-          GoRoute(
+          _route(
             path: ':id',
             redirect: (context, state) async {
               final id = state.pathParameters['id'] ?? '';
@@ -93,29 +116,29 @@ GoRouter createRouter({String initialLocation = '/'}) {
           ),
         ],
       ),
-      GoRoute(
+      _route(
         path: '/repaso',
         builder: (context, state) =>
             const PracticeScreen(source: DailyPractice()),
       ),
-      GoRoute(
+      _route(
         path: '/cifras',
         builder: (context, state) =>
             const PracticeScreen(source: FiguresPractice()),
       ),
-      GoRoute(
+      _route(
         path: '/cifras/tarjetas',
         builder: (context, state) => const FiguresCardsScreen(),
       ),
-      GoRoute(
+      _route(
         path: '/pregunta-del-dia',
         builder: (context, state) => const DailyQuestionScreen(),
       ),
-      GoRoute(
+      _route(
         path: '/fallos',
         builder: (context, state) => const MistakesScreen(),
         routes: [
-          GoRoute(
+          _route(
             path: 'repasar',
             builder: (context, state) => PracticeScreen(
               key: ValueKey(state.uri.toString()),
@@ -127,11 +150,11 @@ GoRouter createRouter({String initialLocation = '/'}) {
           ),
         ],
       ),
-      GoRoute(
+      _route(
         path: '/simulacro',
         builder: (context, state) => const MockIntroScreen(),
         routes: [
-          GoRoute(
+          _route(
             path: ':id',
             redirect: (context, state) async {
               final id = _parseId(state.pathParameters['id']);
@@ -141,13 +164,13 @@ GoRouter createRouter({String initialLocation = '/'}) {
             builder: (context, state) =>
                 MockScreen(mockId: _parseId(state.pathParameters['id'])!),
             routes: [
-              GoRoute(
+              _route(
                 path: 'resultado',
                 builder: (context, state) => MockResultScreen(
                   mockId: _parseId(state.pathParameters['id'])!,
                 ),
               ),
-              GoRoute(
+              _route(
                 path: 'repasar',
                 builder: (context, state) => PracticeScreen(
                   key: ValueKey(state.uri.toString()),
@@ -156,7 +179,7 @@ GoRouter createRouter({String initialLocation = '/'}) {
                   ),
                 ),
               ),
-              GoRoute(
+              _route(
                 path: 'revision/:index',
                 redirect: (context, state) =>
                     _parseId(state.pathParameters['index']) == null
@@ -172,11 +195,11 @@ GoRouter createRouter({String initialLocation = '/'}) {
           ),
         ],
       ),
-      GoRoute(
+      _route(
         path: '/buscar',
         builder: (context, state) => const SearchScreen(),
       ),
-      GoRoute(
+      _route(
         path: '/ajustes',
         builder: (context, state) => const SettingsScreen(),
       ),

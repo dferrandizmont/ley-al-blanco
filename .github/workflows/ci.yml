@@ -1,8 +1,13 @@
 name: ci
 
+# Las versiones se compilan, prueban y firman en local (tool/publish/release.sh);
+# la CI solo comprueba. El repositorio público (exportación) la pasa en cada push
+# y PR, que ahí es gratis. El privado gasta minutos de pago: solo con cada
+# etiqueta de versión v* (la sube release.sh) o a mano. Mismo fichero en los dos.
 on:
   push:
     branches: [main]
+    tags: ["v*"]
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -16,6 +21,10 @@ concurrency:
 
 jobs:
   app:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.repository.private && github.ref_type == 'tag') ||
+      (!github.event.repository.private && github.ref_type != 'tag')
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
@@ -39,6 +48,10 @@ jobs:
       - run: flutter test
 
   content:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.repository.private && github.ref_type == 'tag') ||
+      (!github.event.repository.private && github.ref_type != 'tag')
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:

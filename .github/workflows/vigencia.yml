@@ -1,0 +1,67 @@
+name: vigencia
+
+# Comprueba el día 1 de cada mes que las fuentes de Ley al Blanco siguen
+# vigentes: los PDF de la Guardia Civil, la página del programa, las normas del
+# BOE, los listados de Interior, la web y la caducidad de mainshai.com. Si algo
+# cambia (o toca la revisión trimestral), abre una issue con el informe; si ya
+# existe una abierta con el mismo título, añade un comentario.
+#
+# Solo se ejecuta en el repositorio privado: el mismo .github/ se exporta al
+# público y allí no debe abrir issues ni gastar minutos de Actions. No toca la
+# app ni las fuentes: es una herramienta de mantenimiento que solo lee.
+
+on:
+  schedule:
+    - cron: "0 7 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  vigencia:
+    if: github.event.repository.private
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TZ: Europe/Madrid
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.12"
+      - name: Comprobar vigencia
+        id: check
+        run: |
+          # El código 1 (cambios) y 2 (errores) no deben marcar el job en rojo:
+          # el aviso se da con la issue.
+          set +e
+          python tool/content/check_vigencia.py --out vigencia.md
+          code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          echo "year=$(date +%Y)" >> "$GITHUB_OUTPUT"
+          echo "month=$(date +%m)" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Abrir o actualizar la issue
+        if: >-
+          steps.check.outputs.code != '0' ||
+          contains(fromJSON('["01","04","07","10"]'), steps.check.outputs.month)
+        run: |
+          kind="revisión trimestral"
+          if [ "${{ steps.check.outputs.code }}" = "1" ]; then
+            kind="cambios"
+          elif [ "${{ steps.check.outputs.code }}" = "2" ]; then
+            kind="errores"
+          fi
+          title="Vigencia ${{ steps.check.outputs.year }}-${{ steps.check.outputs.month }}: $kind"
+          existing=$(gh issue list --state open --limit 100 --json number,title \
+            --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file vigencia.md
+          else
+            gh issue create --title "$title" --body-file vigencia.md
+          fi

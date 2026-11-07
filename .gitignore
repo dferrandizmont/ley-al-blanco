@@ -26,3 +26,6 @@ app/test/goldens/failures/
 # Sitio legal: copia rellenada (se genera con web/legal/rellenar.py)
 web/legal/dist/
 store/status.html
+
+# Restos de Playwright MCP
+.playwright-mcp/

@@ -1,17 +1,15 @@
 {% extends 'base/layout.html.j2' %}
 {% block content %}
-<div class="band">
-<div class="wrap narrow">
-<div class="doc-head">
-<h1>{{ t.privacy_full }}</h1>
-<p class="ver tab">{{ t.privacy_version }} <time datetime="{{ c.privacy_date }}">{{ c.privacy_date }}</time></p>
+<div class="wrap">
+<div class="doc">
+<p class="crumb"><a href="{{ route(lang) }}">{{ t.home }}</a><span aria-hidden="true">/</span>{{ t.privacy }}</p>
+<h1 class="ph">{{ t.privacy_full }}</h1>
+<dl class="meta">
+<div><dt>{{ t.privacy_version }}</dt><dd class="tab"><time datetime="{{ c.privacy_date }}">{{ c.privacy_date }}</time></dd></div>
+<div><dt>{{ c.owner_label }}</dt><dd>{{ c.owner_name }}</dd></div>
+</dl>
 {% if policy_lang != lang %}<p class="privacy-fallback">{{ t.privacy_fallback.format(language=t.languages[policy_lang]) }}</p>{% endif %}
-</div>
-</div>
-</div>
-<div class="wrap narrow">
-<div class="paper">
-<article class="article" lang="{{ policy_lang }}">{{ policy_html }}</article>
+<article class="prose" lang="{{ policy_lang }}">{{ policy_html }}</article>
 </div>
 </div>
 {% endblock %}

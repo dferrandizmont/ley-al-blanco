@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" media="(prefers-color-scheme: light)" content="#2F5D50">
-<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1F3B34">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFDF8">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141A17">
 <title>{% if page_kind == 'privacy' %}{{ t.privacy_full }} · {% elif page_kind == '404' %}{{ t.not_found }} · {% endif %}{{ c.title }}</title>
 <meta name="description" content="{{ c.description }}">
 <link rel="canonical" href="{{ absolute(page_url) }}">
@@ -17,6 +17,7 @@
 <meta name="twitter:title" content="{{ c.title }}">
 <meta name="twitter:description" content="{{ c.description }}">
 <meta name="twitter:image" content="{{ absolute('/og/' ~ lang ~ '.png') }}">
+<script src="{{ 'theme.js' | asset }}"></script>
 <link rel="stylesheet" href="{{ 'styles.css' | asset }}">
 <link rel="stylesheet" href="{{ brand_css }}">
 <link rel="icon" href="/favicon.ico">

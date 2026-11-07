@@ -23,5 +23,5 @@ privacy_omit_headings = ["Notas para el titular (no publicar)"]
 downloads = [
   { kind = "play", state = "closed_test", url = "https://play.google.com/apps/testing/es.leyalblanco.app" },
   { kind = "apk", state = "available", url = "https://github.com/dferrandizmont/ley-al-blanco/releases/latest" },
-  { kind = "app_store", state = "soon" },
+  { kind = "app_store", state = "available", url = "https://apps.apple.com/es/app/ley-al-blanco-armas-d-y-e/id6831621176" },
 ]

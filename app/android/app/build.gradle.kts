@@ -65,6 +65,22 @@ android {
         versionName = flutter.versionName
     }
 
+    // One APK per ABI for GitHub (tool/publish/release.py): built with
+    // --target-platform and WITHOUT --split-per-abi, so the APK keeps the same
+    // versionCode as the Play AAB. `-PabiFilter=<abi>` drops the other ABIs'
+    // plugin libraries; without it, an arm64 phone would pick a half-empty
+    // lib/arm64-v8a folder (no libflutter.so) in the armv7 APK and crash.
+    // (ndk.abiFilters is not enough: the Flutter plugin sets its own.)
+    (project.findProperty("abiFilter") as String?)?.takeIf { it.isNotBlank() }?.let { keep ->
+        packaging {
+            jniLibs {
+                listOf("arm64-v8a", "armeabi-v7a", "x86_64", "x86")
+                    .filter { it != keep }
+                    .forEach { excludes += "lib/$it/**" }
+            }
+        }
+    }
+
     // `android/key.properties` is gitignored and holds the upload keystore.
     signingConfigs {
         if (hasReleaseKey) {
