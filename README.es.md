@@ -23,13 +23,11 @@ con explicaciones, teoría y simulacros para estudiar a tu ritmo.
 <p>
   <a href="https://play.google.com/apps/testing/es.leyalblanco.app"><img src="https://img.shields.io/badge/Google_Play-Beta-414141?logo=googleplay&style=for-the-badge" alt="Beta en Google Play"></a>
   <a href="https://github.com/dferrandizmont/ley-al-blanco/releases/latest"><img src="https://img.shields.io/badge/Disponible_en-GitHub-181717?logo=github&style=for-the-badge" alt="Disponible en GitHub"></a>
-  <!--
-  <a href="[ENLACE_APP_STORE]"><img src="https://img.shields.io/badge/App_Store-Descargar-0D96F6?logo=appstore&style=for-the-badge" alt="Disponible en App Store"></a>
-  -->
+  <a href="https://apps.apple.com/es/app/ley-al-blanco-armas-d-y-e/id6831621176"><img src="https://img.shields.io/badge/App_Store-Descargar-0D96F6?logo=appstore&style=for-the-badge" alt="Disponible en App Store"></a>
 </p>
 
-Android ya; iOS próximamente. Todos los temas y modos están abiertos, con modo
-claro y oscuro.
+En la App Store para iPhone (España) y en Android, con la beta de Google Play o el
+APK. Todos los temas y modos están abiertos, con modo claro y oscuro.
 
 <details>
 <summary>Únete a la beta de Google Play</summary>
@@ -52,7 +50,7 @@ Si puedes, quédate en la prueba al menos 14 días y úsala de vez en cuando (po
    - `Ley-al-Blanco-vX.Y.Z-armeabi-v7a.apk`: para móviles antiguos de 32 bits.
 2. Al abrir el APK hay que permitir «instalar aplicaciones de origen desconocido».
 3. Comprobación de integridad: el fichero `SHA256SUMS.txt` publicado en la misma página de la versión.
-4. Desde la 0.9.5, el APK y la versión de Google Play llevan la misma firma: una se instala encima de la otra y conserva tu progreso. Si tienes una versión de Google Play anterior a la 0.9.5, exporta antes tu progreso (Ajustes, Tus datos) y desinstálala una vez.
+4. Desde la 0.9.5, el APK y la versión de Google Play llevan la misma firma: el APK se instala encima de la de Google Play y conserva tu progreso. Volver del APK a Google Play funciona a partir de la próxima versión, cuando llegue a Google Play. Si tienes una versión de Google Play anterior a la 0.9.5, exporta antes tu progreso (Ajustes, Tus datos) y desinstálala una vez.
 
 </details>
 

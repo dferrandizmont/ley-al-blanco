@@ -24,13 +24,11 @@ your own pace. The app is in Spanish.
 <p>
   <a href="https://play.google.com/apps/testing/es.leyalblanco.app"><img src="https://img.shields.io/badge/Google_Play-Beta-414141?logo=googleplay&style=for-the-badge" alt="Beta on Google Play"></a>
   <a href="https://github.com/dferrandizmont/ley-al-blanco/releases/latest"><img src="https://img.shields.io/badge/Available_on-GitHub-181717?logo=github&style=for-the-badge" alt="Available on GitHub"></a>
-  <!--
-  <a href="[APP_STORE_LINK]"><img src="https://img.shields.io/badge/App_Store-Download-0D96F6?logo=appstore&style=for-the-badge" alt="Available on the App Store"></a>
-  -->
+  <a href="https://apps.apple.com/es/app/ley-al-blanco-armas-d-y-e/id6831621176"><img src="https://img.shields.io/badge/App_Store-Download-0D96F6?logo=appstore&style=for-the-badge" alt="Available on the App Store"></a>
 </p>
 
-Android now, iOS coming soon. Every topic and mode is open, with a light and a
-dark theme.
+On the App Store for iPhone (Spain), and on Android through the Google Play beta
+or the APK. Every topic and mode is open, with a light and a dark theme.
 
 <details>
 <summary>Join the beta on Google Play</summary>
@@ -53,7 +51,7 @@ If you can, stay in the test for at least 14 days and use it from time to time (
    - `Ley-al-Blanco-vX.Y.Z-armeabi-v7a.apk`: for older 32-bit phones.
 2. When you open the APK, allow «install apps from unknown sources».
 3. Check the integrity with the `SHA256SUMS.txt` file published on the same release page.
-4. Since 0.9.5 the APK and the Google Play version share the same signature, so one installs over the other and keeps your progress. If you have a Google Play version older than 0.9.5, export your progress first (Settings, Your data) and uninstall it once.
+4. Since 0.9.5 the APK and the Google Play version share the same signature: the APK installs over the Google Play version and keeps your progress. Going back from the APK to Google Play works from the next version on, once Google Play has it. If you have a Google Play version older than 0.9.5, export your progress first (Settings, Your data) and uninstall it once.
 
 </details>
 
