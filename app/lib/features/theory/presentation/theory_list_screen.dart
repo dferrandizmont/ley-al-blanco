@@ -5,7 +5,6 @@ import 'package:go_router/go_router.dart';
 import '../../../core/l10n/l10n.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../core/widgets/apto_app_bar.dart';
-import '../../../core/widgets/empty_state.dart';
 import '../../../core/widgets/fitted_text.dart';
 import '../../../core/widgets/overline.dart';
 import '../../../core/widgets/page_body.dart';
@@ -15,6 +14,7 @@ import '../../../core/widgets/scroll_edge_fade.dart';
 import '../application/theory_providers.dart';
 import '../domain/theory.dart';
 import 'theory_titles.dart';
+import 'theory_unavailable.dart';
 
 /// Teoría: all seven summaries, practical exam, AEM and glossary.
 /// Hidden from Inicio, and empty here, when the build has no theory.
@@ -31,11 +31,7 @@ class TheoryListScreen extends ConsumerWidget {
     if (bank == null && async.isLoading) {
       body = const Center(child: CircularProgressIndicator());
     } else if (bank == null) {
-      body = EmptyState(
-        icon: Icons.menu_book_rounded,
-        title: l10n.theoryUnavailableTitle,
-        message: l10n.theoryUnavailableMessage,
-      );
+      body = const TheoryUnavailable();
     } else {
       body = ScrollEdgeFade(
         child: SingleChildScrollView(

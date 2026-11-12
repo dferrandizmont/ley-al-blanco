@@ -283,6 +283,93 @@ void main() {
     });
   });
 
+  group('review: the day a card is due', () {
+    // The zones the tests travel through, in minutes.
+    const madrid = 60; // Europe/Madrid in winter.
+    const canarias = 0; // Europe/Canary Islands in winter.
+    const mexico = -360; // Mexico City.
+
+    test('the due day is the day of the answer plus the interval', () {
+      // 23:30 on the 27th in Mexico: the 28th there.
+      final inMexico = review(
+        null,
+        questionId: 'q',
+        correct: true,
+        now: DateTime.utc(2026, 10, 28, 5, 30),
+        offsetMinutes: mexico,
+      );
+      // Box 2: the next review is the next day.
+      expect(inMexico.dueDay, '2026-10-28');
+      // The same instant in Madrid is the 28th: the next day is the 29th.
+      final inMadrid = review(
+        null,
+        questionId: 'q',
+        correct: true,
+        now: DateTime.utc(2026, 10, 28, 5, 30),
+        offsetMinutes: madrid,
+      );
+      expect(inMadrid.dueDay, '2026-10-29');
+      // `due_at` keeps being the local midnight of the day.
+      expect(
+        inMadrid.dueAt,
+        startOfLocalDay(DateTime.utc(2026, 10, 28, 5, 30), plusDays: 1),
+      );
+    });
+
+    test('the same instant is due on another day in another zone', () {
+      // 23:30 in Canarias: the 27th there.
+      final inCanarias = review(
+        null,
+        questionId: 'q',
+        correct: true,
+        now: DateTime.utc(2026, 10, 27, 23, 30),
+        offsetMinutes: canarias,
+      );
+      expect(inCanarias.dueDay, '2026-10-28');
+      // In Madrid it is already the 28th.
+      final inMadrid = review(
+        null,
+        questionId: 'q',
+        correct: true,
+        now: DateTime.utc(2026, 10, 27, 23, 30),
+        offsetMinutes: madrid,
+      );
+      expect(inMadrid.dueDay, '2026-10-29');
+    });
+
+    test('a card answered wrong is due again the same day', () {
+      final c = review(
+        null,
+        questionId: 'q',
+        correct: false,
+        now: DateTime.utc(2026, 10, 28, 5, 30),
+        offsetMinutes: mexico,
+      );
+      expect(c.box, 1);
+      expect(c.dueDay, '2026-10-27');
+    });
+
+    test('the day of the card is kept when it is reviewed again', () {
+      final first = review(
+        null,
+        questionId: 'q',
+        correct: true,
+        now: DateTime.utc(2026, 10, 28, 5, 30),
+        offsetMinutes: mexico,
+      );
+      final second = review(
+        first,
+        questionId: 'q',
+        correct: true,
+        now: DateTime.utc(2026, 10, 29, 5, 30),
+        offsetMinutes: mexico,
+      );
+      expect(second.box, 3);
+      // Box 3: three days later (the 28th of October plus three).
+      expect(second.dueDay, '2026-10-31');
+    });
+  });
+
   group('dailyQueue', () {
     final now = DateTime(2026, 10, 19, 15);
     final today = DateTime(2026, 10, 19);
@@ -472,6 +559,87 @@ void main() {
     test('is deterministic', () {
       final cards = [card('t2-2', dueAt: today), card('t1-2', dueAt: today)];
       expect(queue(cards: cards), queue(cards: cards.reversed));
+    });
+  });
+
+  group('dailyQueue: the day a card is due', () {
+    // The zones the tests travel through, in minutes.
+    const canarias = 0; // Europe/Canary Islands in winter.
+    final questions = [
+      for (var t = 1; t <= 3; t++)
+        for (var n = 1; n <= 4; n++) q('t$t-$n', t),
+    ];
+
+    SrsCard cardOf(String id, {String? dueDay, DateTime? dueAt}) => SrsCard(
+      questionId: id,
+      box: 2,
+      dueAt: dueAt ?? DateTime.utc(2026, 10, 27),
+      reps: 1,
+      lapses: 0,
+      lastAnsweredAt: DateTime.utc(2026, 10, 20),
+      dueDay: dueDay,
+    );
+
+    List<String> queueAt(
+      DateTime now, {
+      required Iterable<SrsCard> cards,
+      int offsetMinutes = canarias,
+    }) => dailyQueue(
+      cards: cards,
+      questions: questions,
+      now: now,
+      masteryByTema: const {},
+      newPerDay: 0,
+      offsetMinutes: offsetMinutes,
+    );
+
+    test('a card due on the 27th is not pending on the 26th', () {
+      final card = cardOf('t1-1', dueDay: '2026-10-27');
+      // The 26th at 23:30 in Canarias.
+      expect(
+        queueAt(DateTime.utc(2026, 10, 26, 23, 30), cards: [card]),
+        isEmpty,
+      );
+      // The 27th: it is due.
+      expect(queueAt(DateTime.utc(2026, 10, 27), cards: [card]), ['t1-1']);
+      expect(queueAt(DateTime.utc(2026, 10, 27, 12), cards: [card]), ['t1-1']);
+      // The 28th: it was overdue.
+      expect(queueAt(DateTime.utc(2026, 10, 28, 12), cards: [card]), ['t1-1']);
+    });
+
+    test('a card without a due day keeps the old rule', () {
+      final card = cardOf('t1-1');
+      // The 26th at 23:30 in Canarias: it is due at midnight of the 27th.
+      expect(
+        queueAt(DateTime.utc(2026, 10, 26, 23, 30), cards: [card]),
+        isEmpty,
+      );
+      // The 27th: it is due.
+      expect(queueAt(DateTime.utc(2026, 10, 27, 12), cards: [card]), ['t1-1']);
+    });
+
+    test('the cards are ordered by the day they are due', () {
+      final cards = [
+        cardOf('t1-1', dueDay: '2026-10-29'),
+        cardOf('t2-2', dueDay: '2026-10-27'),
+        cardOf('t3-3', dueDay: '2026-10-28'),
+      ];
+      expect(queueAt(DateTime.utc(2026, 10, 29, 12), cards: cards), [
+        't2-2',
+        't3-3',
+        't1-1',
+      ]);
+    });
+
+    test('a card with a day and one without are ordered together', () {
+      final cards = [
+        cardOf('t2-2', dueDay: '2026-10-27'),
+        cardOf('t1-1', dueAt: DateTime.utc(2026, 10, 26)),
+      ];
+      expect(queueAt(DateTime.utc(2026, 10, 29, 12), cards: cards), [
+        't1-1',
+        't2-2',
+      ]);
     });
   });
 }

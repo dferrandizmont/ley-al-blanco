@@ -26,6 +26,13 @@ class AppLocalizationsEs extends AppLocalizations {
   String get bootstrapFailed => 'No se ha podido preparar la app';
 
   @override
+  String get startupFailedTitle => 'No se ha podido iniciar la app';
+
+  @override
+  String get startupFailedMessage =>
+      'Tus datos siguen en el móvil: no se ha borrado nada. Vuelve a intentarlo; si sigue igual, cierra la app del todo y ábrela de nuevo.';
+
+  @override
   String get genericError => 'Algo ha fallado. Inténtalo de nuevo.';
 
   @override
@@ -585,7 +592,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get settingsExportSubtitle =>
-      'Guarda tus respuestas, fallos y simulacros en un archivo para cambiar de móvil. Tú eliges dónde.';
+      'Guarda tus respuestas, fallos, simulacros y tu racha diaria en un archivo para cambiar de móvil. Tú eliges dónde.';
 
   @override
   String get settingsImportTitle => 'Importar progreso';
@@ -933,6 +940,13 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get theoryUnavailableMessage =>
       'Esta versión de la app no incluye los resúmenes. Actualiza la app para verlos.';
+
+  @override
+  String get theoryLoadErrorTitle => 'No se ha podido cargar la teoría';
+
+  @override
+  String get theoryLoadErrorMessage =>
+      'Tu progreso no se ha visto afectado. Vuelve a intentarlo; si sigue igual, actualiza la app.';
 
   @override
   String get mockFlagAction => 'Marcar como dudosa';

@@ -149,6 +149,275 @@ void main() {
     });
   });
 
+  group('the streak and the time zone', () {
+    // The zones the trips go through, in minutes.
+    const madrid = 60; // Europe/Madrid in winter.
+    const madridSummer = 120; // Europe/Madrid in summer.
+    const canarias = 0; // Europe/Canary Islands in winter.
+    const mexico = -360; // Mexico City.
+
+    test('Madrid to Mexico: the day goes back and the streak does not', () {
+      // 00:30 on the 28th in Madrid.
+      final answered = DailyProgress.none.afterAnswer(
+        DateTime.utc(2026, 10, 27, 23, 30),
+        't1-001',
+        offsetMinutes: madrid,
+      );
+      expect(answered.lastDay, '2026-10-28');
+      expect(answered.streak, 1);
+      expect(answered.lastAt, DateTime.utc(2026, 10, 27, 23, 30));
+      expect(answered.lastOffsetMinutes, madrid);
+
+      // Mexico, the 27th at 20:00: the day before the one of the answer.
+      final inMexico = DateTime.utc(2026, 10, 28, 2);
+      expect(answered.answeredOn(inMexico, offsetMinutes: mexico), isTrue);
+      expect(answered.streakOn(inMexico, offsetMinutes: mexico), 1);
+      // The day is never credited twice.
+      expect(
+        answered.afterAnswer(inMexico, 't1-002', offsetMinutes: mexico),
+        answered,
+      );
+
+      // The 28th in Mexico: still the answered day.
+      final sameDay = DateTime.utc(2026, 10, 28, 16);
+      expect(answered.answeredOn(sameDay, offsetMinutes: mexico), isTrue);
+      expect(answered.streakOn(sameDay, offsetMinutes: mexico), 1);
+
+      // The 29th in Mexico: a new day, the streak adds one.
+      final nextDay = DateTime.utc(2026, 10, 29, 16);
+      expect(answered.answeredOn(nextDay, offsetMinutes: mexico), isFalse);
+      expect(answered.streakOn(nextDay, offsetMinutes: mexico), 1);
+      final after = answered.afterAnswer(
+        nextDay,
+        't1-002',
+        offsetMinutes: mexico,
+      );
+      expect(after.streak, 2);
+      expect(after.lastDay, '2026-10-29');
+      expect(after.lastOffsetMinutes, mexico);
+    });
+
+    test('Mexico to Madrid: the streak survives the flight', () {
+      // 23:30 on the 27th in Mexico.
+      final answered = DailyProgress.none.afterAnswer(
+        DateTime.utc(2026, 10, 28, 5, 30),
+        't1-001',
+        offsetMinutes: mexico,
+      );
+      expect(answered.lastDay, '2026-10-27');
+      expect(answered.streak, 1);
+
+      // Madrid, the 29th at 08:00: two calendar days ahead, 25.5 h later.
+      final arrived = DateTime.utc(2026, 10, 29, 7);
+      expect(answered.answeredOn(arrived, offsetMinutes: madrid), isFalse);
+      expect(answered.streakOn(arrived, offsetMinutes: madrid), 1);
+      final after = answered.afterAnswer(
+        arrived,
+        't1-002',
+        offsetMinutes: madrid,
+      );
+      expect(after.streak, 2);
+      expect(after.lastDay, '2026-10-29');
+      expect(after.lastOffsetMinutes, madrid);
+    });
+
+    test('a flight east that takes more than 48 h: the streak is over', () {
+      // 08:00 on the 27th in Mexico.
+      final answered = DailyProgress.none.afterAnswer(
+        DateTime.utc(2026, 10, 27, 14),
+        't1-001',
+        offsetMinutes: mexico,
+      );
+      expect(answered.lastDay, '2026-10-27');
+      // Madrid, the 29th at 23:30: two calendar days ahead (also in Mexico),
+      // the offset changed 7 h, but 56.5 h went by.
+      final late = DateTime.utc(2026, 10, 29, 22, 30);
+      expect(answered.streakOn(late, offsetMinutes: madrid), 0);
+      expect(
+        answered.afterAnswer(late, 't1-002', offsetMinutes: madrid).streak,
+        1,
+      );
+    });
+
+    test('a one-hour change does not forgive a skipped day', () {
+      // Saturday 23:30 in Canarias.
+      final answered = DailyProgress.none.afterAnswer(
+        DateTime.utc(2026, 10, 24, 23, 30),
+        't1-001',
+        offsetMinutes: canarias,
+      );
+      expect(answered.lastDay, '2026-10-24');
+      // Monday 08:00 in Madrid: Sunday was skipped in both zones; only 31.5 h
+      // went by, but a 1 h change never explains a jump of a calendar day.
+      final monday = DateTime.utc(2026, 10, 26, 7);
+      expect(answered.streakOn(monday, offsetMinutes: madrid), 0);
+    });
+
+    test('the day of the last answer, read in the old zone, keeps it', () {
+      // Saturday 23:30 in Madrid (winter).
+      final answered = DailyProgress.none.afterAnswer(
+        DateTime.utc(2026, 10, 24, 22, 30),
+        't1-001',
+        offsetMinutes: madrid,
+      );
+      expect(answered.lastDay, '2026-10-24');
+      // Monday 00:30 in Madrid (summer): in the old zone it is still Sunday.
+      final later = DateTime.utc(2026, 10, 25, 22, 30);
+      expect(answered.streakOn(later, offsetMinutes: madridSummer), 1);
+      // The 48 h tolerance does not apply to a change of 60 minutes.
+      expect(
+        answered.streakOn(
+          DateTime.utc(2026, 10, 27, 22, 30),
+          offsetMinutes: madridSummer,
+        ),
+        0,
+      );
+    });
+
+    test('without travelling, a skipped day ends the streak', () {
+      // The 27th at 10:00 in Madrid.
+      final answered = DailyProgress.none.afterAnswer(
+        DateTime.utc(2026, 10, 27, 9),
+        't1-001',
+        offsetMinutes: madrid,
+      );
+      // The 29th at 11:00: two days later, but only 25 h.
+      final skipped = DateTime.utc(2026, 10, 29, 10);
+      expect(answered.streakOn(skipped, offsetMinutes: madrid), 0);
+      expect(
+        answered.afterAnswer(skipped, 't1-002', offsetMinutes: madrid).streak,
+        1,
+      );
+    });
+
+    test('the change of the hour in spring ends the streak', () {
+      // Saturday 00:05 in Madrid (the change is on the 28th of March 2027).
+      final answered = DailyProgress.none.afterAnswer(
+        DateTime.utc(2027, 3, 26, 23, 5),
+        't1-001',
+        offsetMinutes: madrid,
+      );
+      expect(answered.lastDay, '2027-03-27');
+      // Monday 23:55 in Madrid (summer): two days and 71 h later.
+      final later = DateTime.utc(2027, 3, 29, 21, 55);
+      expect(answered.streakOn(later, offsetMinutes: madridSummer), 0);
+    });
+
+    test('Madrid and Canarias, both ways', () {
+      // Madrid (winter) to Canarias: the day of the answer is still today.
+      final madridToCanarias = DailyProgress.none.afterAnswer(
+        DateTime.utc(2026, 10, 27, 22, 30),
+        't1-001',
+        offsetMinutes: madrid,
+      );
+      expect(madridToCanarias.lastDay, '2026-10-27');
+      final sameEvening = DateTime.utc(2026, 10, 27, 23);
+      expect(
+        madridToCanarias.answeredOn(sameEvening, offsetMinutes: canarias),
+        isTrue,
+      );
+      // The next day in Canarias: the streak adds one.
+      final canariasNight = DateTime.utc(2026, 10, 28, 23, 30);
+      expect(
+        madridToCanarias.streakOn(canariasNight, offsetMinutes: canarias),
+        1,
+      );
+      expect(
+        madridToCanarias
+            .afterAnswer(canariasNight, 't1-002', offsetMinutes: canarias)
+            .streak,
+        2,
+      );
+
+      // Canarias to Madrid: the calendar day goes forward.
+      final canariasToMadrid = DailyProgress.none.afterAnswer(
+        DateTime.utc(2026, 10, 27, 23, 30),
+        't1-001',
+        offsetMinutes: canarias,
+      );
+      expect(canariasToMadrid.lastDay, '2026-10-27');
+      final madridNight = DateTime.utc(2026, 10, 28, 23, 30);
+      expect(
+        canariasToMadrid.answeredOn(madridNight, offsetMinutes: madrid),
+        isFalse,
+      );
+      expect(canariasToMadrid.streakOn(madridNight, offsetMinutes: madrid), 1);
+      expect(
+        canariasToMadrid
+            .afterAnswer(madridNight, 't1-002', offsetMinutes: madrid)
+            .streak,
+        2,
+      );
+    });
+
+    test('a clock moved back by hand: the streak starts again', () {
+      // The 30th at 10:00.
+      final answered = DailyProgress.none.afterAnswer(
+        DateTime.utc(2026, 10, 30, 9),
+        't1-001',
+        offsetMinutes: madrid,
+      );
+      // Three days back: not a trip, the clock was moved.
+      final back = DateTime.utc(2026, 10, 27, 9);
+      expect(answered.answeredOn(back, offsetMinutes: madrid), isFalse);
+      expect(answered.streakOn(back, offsetMinutes: madrid), 0);
+      final after = answered.afterAnswer(back, 't1-002', offsetMinutes: madrid);
+      expect(after.streak, 1);
+      expect(after.lastDay, '2026-10-27');
+    });
+
+    test('the progress of the old versions keeps the old rules', () {
+      // Written before the instant of the last answer was stored.
+      const old = DailyProgress(lastDay: '2026-10-20', streak: 4);
+      final sameDay = DateTime.utc(2026, 10, 20, 12);
+      final yesterday = DateTime.utc(2026, 10, 19, 12);
+      final tomorrow = DateTime.utc(2026, 10, 21, 12);
+      expect(old.answeredOn(sameDay, offsetMinutes: madrid), isTrue);
+      // A day back is still the answered day (it cannot be told from a trip).
+      expect(old.answeredOn(yesterday, offsetMinutes: madrid), isTrue);
+      expect(old.streakOn(yesterday, offsetMinutes: madrid), 4);
+      expect(old.streakOn(sameDay, offsetMinutes: madrid), 4);
+      expect(old.streakOn(tomorrow, offsetMinutes: madrid), 4);
+      // Two days later the streak is over.
+      final tooLate = DateTime.utc(2026, 10, 22, 12);
+      expect(old.streakOn(tooLate, offsetMinutes: madrid), 0);
+      // Answering the next day adds one.
+      final after = old.afterAnswer(tomorrow, 't1-002', offsetMinutes: madrid);
+      expect(after.streak, 5);
+      expect(after.lastDay, '2026-10-21');
+      expect(after.lastAt, DateTime.utc(2026, 10, 21, 12));
+      expect(after.lastOffsetMinutes, madrid);
+    });
+
+    test('the civil day of an instant is the calendar day of its zone', () {
+      expect(
+        civilDay(DateTime.utc(2026, 10, 27, 23, 30), madrid),
+        DateTime.utc(2026, 10, 28),
+      );
+      expect(
+        civilDay(DateTime.utc(2026, 10, 28, 5, 30), mexico),
+        DateTime.utc(2026, 10, 27),
+      );
+      expect(
+        civilDay(DateTime.utc(2026, 10, 28, 5, 30), canarias),
+        DateTime.utc(2026, 10, 28),
+      );
+      expect(
+        isoDayOf(civilDay(DateTime.utc(2026, 10, 28, 5, 30), mexico)),
+        '2026-10-27',
+      );
+      // A day is always 24 h of calendar days, never 23 or 25.
+      expect(
+        addCivilDays(DateTime.utc(2026, 10, 24), 4),
+        DateTime.utc(2026, 10, 28),
+      );
+      expect(
+        addCivilDays(DateTime.utc(2026, 12, 31), 1),
+        DateTime.utc(2027, 1, 1),
+      );
+    });
+  });
+
   group('persistence', () {
     test('the repository round-trips and ignores garbage', () async {
       final db = openTestDatabase();
@@ -170,6 +439,74 @@ void main() {
       await db.settingsDao.set(DailySettingKeys.lastDay, '2026-10-15');
       await db.settingsDao.set(DailySettingKeys.streak, '-3');
       expect(await repo.load(), DailyProgress.none);
+    });
+
+    test('clear() takes the five keys away', () async {
+      final db = openTestDatabase();
+      addTearDown(db.close);
+      final repo = DailyRepository(db.settingsDao);
+      await repo.save(
+        const DailyProgress(
+          lastDay: '2026-10-15',
+          streak: 4,
+          lastQuestionId: 't2-010',
+        ),
+      );
+      expect(await db.settingsDao.get(DailySettingKeys.lastDay), '2026-10-15');
+
+      await repo.clear();
+
+      expect(await repo.load(), DailyProgress.none);
+      for (final key in [
+        DailySettingKeys.lastDay,
+        DailySettingKeys.streak,
+        DailySettingKeys.lastQuestion,
+        DailySettingKeys.lastAt,
+        DailySettingKeys.lastOffset,
+      ]) {
+        expect(await db.settingsDao.get(key), isNull, reason: key);
+      }
+    });
+
+    test('the instant and the offset of the last answer are kept', () async {
+      final db = openTestDatabase();
+      addTearDown(db.close);
+      final repo = DailyRepository(db.settingsDao);
+      final saved = DailyProgress(
+        lastDay: '2026-10-15',
+        streak: 4,
+        lastQuestionId: 't2-010',
+        lastAt: DateTime.utc(2026, 10, 14, 22, 30),
+        lastOffsetMinutes: 60,
+      );
+      await repo.save(saved);
+      expect(await repo.load(), saved);
+      expect(
+        await db.settingsDao.get(DailySettingKeys.lastAt),
+        '2026-10-14T22:30:00.000Z',
+      );
+      expect(await db.settingsDao.get(DailySettingKeys.lastOffset), '60');
+    });
+
+    test('unreadable values of the new keys do not break the streak', () async {
+      final db = openTestDatabase();
+      addTearDown(db.close);
+      final repo = DailyRepository(db.settingsDao);
+      await repo.save(
+        const DailyProgress(
+          lastDay: '2026-10-15',
+          streak: 4,
+          lastQuestionId: 't2-010',
+        ),
+      );
+      await db.settingsDao.set(DailySettingKeys.lastAt, 'ayer');
+      await db.settingsDao.set(DailySettingKeys.lastOffset, 'sesenta');
+
+      final loaded = await repo.load();
+      expect(loaded.streak, 4);
+      expect(loaded.lastDay, '2026-10-15');
+      expect(loaded.lastAt, isNull);
+      expect(loaded.lastOffsetMinutes, isNull);
     });
 
     test('the streak survives reopening the app (same database)', () async {

@@ -18,6 +18,7 @@ class SrsCard {
     required this.reps,
     required this.lapses,
     required this.lastAnsweredAt,
+    this.dueDay,
   }) : assert(box >= 1 && box <= kMaxBox);
 
   final String questionId;
@@ -35,6 +36,11 @@ class SrsCard {
   final int lapses;
   final DateTime lastAnsweredAt;
 
+  /// The calendar day the card is due (`YYYY-MM-DD`): a review planned for a
+  /// day stays on that day when the phone changes its zone. Null in the cards
+  /// written before this field existed: they keep using [dueAt].
+  final String? dueDay;
+
   @override
   bool operator ==(Object other) =>
       other is SrsCard &&
@@ -43,12 +49,14 @@ class SrsCard {
       other.dueAt == dueAt &&
       other.reps == reps &&
       other.lapses == lapses &&
-      other.lastAnsweredAt == lastAnsweredAt;
+      other.lastAnsweredAt == lastAnsweredAt &&
+      other.dueDay == dueDay;
 
   @override
   int get hashCode =>
-      Object.hash(questionId, box, dueAt, reps, lapses, lastAnsweredAt);
+      Object.hash(questionId, box, dueAt, reps, lapses, lastAnsweredAt, dueDay);
 
   @override
-  String toString() => 'SrsCard($questionId, box: $box, due: $dueAt)';
+  String toString() =>
+      'SrsCard($questionId, box: $box, due: $dueAt, dueDay: $dueDay)';
 }

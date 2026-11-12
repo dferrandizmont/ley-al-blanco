@@ -824,10 +824,162 @@ i1.GeneratedColumn<String> _column_36(String aliasedName) =>
       $customConstraints: 'NOT NULL DEFAULT \'[]\'',
       defaultValue: const i1.CustomExpression('\'[]\''),
     );
+
+final class Schema5 extends i0.VersionedSchema {
+  Schema5({required super.database}) : super(version: 5);
+  @override
+  late final List<i1.DatabaseSchemaEntity> entities = [
+    questions,
+    attempts,
+    srsState,
+    mocks,
+    settings,
+    questionsTema,
+    attemptsQuestionAnswered,
+    attemptsMock,
+  ];
+  late final Shape5 questions = Shape5(
+    source: i0.VersionedTable(
+      entityName: 'questions',
+      withoutRowId: false,
+      isStrict: false,
+      tableConstraints: ['PRIMARY KEY(id)'],
+      columns: [
+        _column_0,
+        _column_1,
+        _column_2,
+        _column_3,
+        _column_4,
+        _column_5,
+        _column_6,
+        _column_7,
+        _column_8,
+        _column_9,
+        _column_10,
+        _column_11,
+        _column_35,
+      ],
+      attachedDatabase: database,
+    ),
+    alias: null,
+  );
+  late final Shape1 attempts = Shape1(
+    source: i0.VersionedTable(
+      entityName: 'attempts',
+      withoutRowId: false,
+      isStrict: false,
+      tableConstraints: [],
+      columns: [
+        _column_12,
+        _column_13,
+        _column_14,
+        _column_15,
+        _column_16,
+        _column_17,
+        _column_18,
+        _column_19,
+      ],
+      attachedDatabase: database,
+    ),
+    alias: null,
+  );
+  late final Shape7 srsState = Shape7(
+    source: i0.VersionedTable(
+      entityName: 'srs_state',
+      withoutRowId: false,
+      isStrict: false,
+      tableConstraints: ['PRIMARY KEY(question_id)'],
+      columns: [
+        _column_13,
+        _column_20,
+        _column_21,
+        _column_22,
+        _column_23,
+        _column_24,
+        _column_37,
+      ],
+      attachedDatabase: database,
+    ),
+    alias: null,
+  );
+  late final Shape6 mocks = Shape6(
+    source: i0.VersionedTable(
+      entityName: 'mocks',
+      withoutRowId: false,
+      isStrict: false,
+      tableConstraints: [],
+      columns: [
+        _column_12,
+        _column_25,
+        _column_26,
+        _column_27,
+        _column_28,
+        _column_29,
+        _column_30,
+        _column_31,
+        _column_32,
+        _column_36,
+      ],
+      attachedDatabase: database,
+    ),
+    alias: null,
+  );
+  late final Shape4 settings = Shape4(
+    source: i0.VersionedTable(
+      entityName: 'settings',
+      withoutRowId: false,
+      isStrict: false,
+      tableConstraints: ['PRIMARY KEY("key")'],
+      columns: [_column_33, _column_34],
+      attachedDatabase: database,
+    ),
+    alias: null,
+  );
+  final i1.Index questionsTema = i1.Index(
+    'questions_tema',
+    'CREATE INDEX questions_tema ON questions (tema)',
+  );
+  final i1.Index attemptsQuestionAnswered = i1.Index(
+    'attempts_question_answered',
+    'CREATE INDEX attempts_question_answered ON attempts (question_id, answered_at)',
+  );
+  final i1.Index attemptsMock = i1.Index(
+    'attempts_mock',
+    'CREATE INDEX attempts_mock ON attempts (mock_id)',
+  );
+}
+
+class Shape7 extends i0.VersionedTable {
+  Shape7({required super.source, required super.alias}) : super.aliased();
+  i1.GeneratedColumn<String> get questionId =>
+      columnsByName['question_id']! as i1.GeneratedColumn<String>;
+  i1.GeneratedColumn<int> get box =>
+      columnsByName['box']! as i1.GeneratedColumn<int>;
+  i1.GeneratedColumn<String> get dueAt =>
+      columnsByName['due_at']! as i1.GeneratedColumn<String>;
+  i1.GeneratedColumn<int> get reps =>
+      columnsByName['reps']! as i1.GeneratedColumn<int>;
+  i1.GeneratedColumn<int> get lapses =>
+      columnsByName['lapses']! as i1.GeneratedColumn<int>;
+  i1.GeneratedColumn<String> get lastAnsweredAt =>
+      columnsByName['last_answered_at']! as i1.GeneratedColumn<String>;
+  i1.GeneratedColumn<String> get dueDay =>
+      columnsByName['due_day']! as i1.GeneratedColumn<String>;
+}
+
+i1.GeneratedColumn<String> _column_37(String aliasedName) =>
+    i1.GeneratedColumn<String>(
+      'due_day',
+      aliasedName,
+      true,
+      type: i1.DriftSqlType.string,
+      $customConstraints: 'NULL',
+    );
 i0.MigrationStepWithVersion migrationSteps({
   required Future<void> Function(i1.Migrator m, Schema2 schema) from1To2,
   required Future<void> Function(i1.Migrator m, Schema3 schema) from2To3,
   required Future<void> Function(i1.Migrator m, Schema4 schema) from3To4,
+  required Future<void> Function(i1.Migrator m, Schema5 schema) from4To5,
 }) {
   return (currentVersion, database) async {
     switch (currentVersion) {
@@ -846,6 +998,11 @@ i0.MigrationStepWithVersion migrationSteps({
         final migrator = i1.Migrator(database, schema);
         await from3To4(migrator, schema);
         return 4;
+      case 4:
+        final schema = Schema5(database: database);
+        final migrator = i1.Migrator(database, schema);
+        await from4To5(migrator, schema);
+        return 5;
       default:
         throw ArgumentError.value('Unknown migration from $currentVersion');
     }
@@ -856,10 +1013,12 @@ i1.OnUpgrade stepByStep({
   required Future<void> Function(i1.Migrator m, Schema2 schema) from1To2,
   required Future<void> Function(i1.Migrator m, Schema3 schema) from2To3,
   required Future<void> Function(i1.Migrator m, Schema4 schema) from3To4,
+  required Future<void> Function(i1.Migrator m, Schema5 schema) from4To5,
 }) => i0.VersionedSchema.stepByStepHelper(
   step: migrationSteps(
     from1To2: from1To2,
     from2To3: from2To3,
     from3To4: from3To4,
+    from4To5: from4To5,
   ),
 );

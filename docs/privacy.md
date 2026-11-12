@@ -3,15 +3,19 @@
 No es asesoramiento jurídico. Resume qué hace la app con los datos; revisar con un profesional antes del lanzamiento.
 
 ## Flujo de datos (decisión del dueño, 26-oct-2026)
-- **Nada sale del móvil desde la app.** Progreso, fallos, repaso espaciado, simulacros y ajustes viven en Drift; la racha de la pregunta del día también es local y no se exporta.
+- **Nada sale del móvil desde la app.** Progreso, fallos, repaso espaciado, simulacros y ajustes viven en Drift; la racha de la pregunta del día también es local y solo sale en el archivo de progreso que el usuario exporta.
 - App 100 % gratuita y de código abierto: código MIT y contenido propio CC BY-SA 4.0; el repositorio está publicado en https://github.com/dferrandizmont/ley-al-blanco. Banco y teoría incluidos, disponibles sin conexión y sin cuentas.
 - Sin compras, anuncios, analítica, identificadores de instalación ni servicios de terceros. No se transmiten informes de errores; el manejo de fallos usa únicamente el registro local del sistema.
 - Las claves antiguas de compras e informes de errores se conservan sin uso por compatibilidad; no se consultan ni se exportan.
 
 ## Exportar e importar progreso
-El usuario elige el archivo con el diálogo del sistema. La app no solicita permisos generales de almacenamiento ni envía el archivo a ningún servidor. El JSON contiene respuestas, repaso, simulacros y apariencia; no está cifrado. El destino y lo que el usuario haga después con ese archivo quedan bajo su control.
+El usuario elige el archivo con el diálogo del sistema. La app no solicita permisos generales de almacenamiento ni envía el archivo a ningún servidor. El JSON contiene respuestas, repaso, simulacros, apariencia y la racha de la pregunta del día; no está cifrado. El destino y lo que el usuario haga después con ese archivo quedan bajo su control.
+
+El archivo lleva además, cuando se conocen, la hora (en UTC) de la última respuesta acreditada de la pregunta del día, la diferencia horaria del móvil en ese momento y el día de vencimiento de cada repaso. Son datos del propio dispositivo, no identifican a nadie y solo salen en el archivo que el usuario exporta a propósito.
 
 La importación valida tamaño (10 MB), profundidad (8 niveles), formato, versión, edición, tipos, rangos y fechas antes de sustituir el progreso en una sola transacción. Recalcula aciertos y notas con el banco. Los campos antiguos de compra, ofertas y simulacro gratuito se ignoran sin error. Todos los temas y simulacros importados se pueden abrir.
+
+Importar reemplaza todo el progreso del móvil, la racha de la pregunta del día incluida: si el archivo la trae, se aplica; si no la trae (un archivo exportado antes de que la racha viajara), se borra la del móvil.
 
 El selector puede crear archivos temporales. Android limpia la caché del plugin; iOS elimina solo la copia concreta que acaba de leer dentro del directorio temporal. Los mensajes técnicos de validación quedan en el registro local.
 

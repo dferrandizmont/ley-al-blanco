@@ -10,22 +10,23 @@ import 'database_migrations/schema.dart';
 import 'support/db_support.dart';
 
 // drift_schemas/app_database/drift_schema_vN.json are the committed schemas
-// (written by `dart run drift_dev make-migrations`); the current one is v4
-// (v2 added `mocks.pass_mark`, v3 `questions.notice`, v4 `mocks.flagged`).
+// (written by `dart run drift_dev make-migrations`); the current one is v5
+// (v2 added `mocks.pass_mark`, v3 `questions.notice`, v4 `mocks.flagged`,
+// v5 `srs_state.due_day`).
 // If a table changes,
 // bump schemaVersion, dump the new version and add a migration step.
 void main() {
-  final schemaFile = File('drift_schemas/app_database/drift_schema_v4.json');
+  final schemaFile = File('drift_schemas/app_database/drift_schema_v5.json');
 
-  test('the app database is at schema v4', () async {
+  test('the app database is at schema v5', () async {
     final db = openTestDatabase();
     addTearDown(db.close);
-    expect(db.schemaVersion, 4);
+    expect(db.schemaVersion, 5);
     final row = await db.customSelect('PRAGMA user_version').getSingle();
-    expect(row.read<int>('user_version'), 4);
+    expect(row.read<int>('user_version'), 5);
   });
 
-  test('the created database matches the committed v4 schema', () async {
+  test('the created database matches the committed v5 schema', () async {
     final db = openTestDatabase();
     addTearDown(db.close);
     final dump = jsonDecode(schemaFile.readAsStringSync()) as Map;
@@ -132,6 +133,18 @@ void main() {
     // Dates are ISO 8601 text.
     expect((await types('attempts'))['answered_at'], 'TEXT');
     expect((await types('srs_state'))['due_at'], 'TEXT');
+    // The day a review is due is a plain date, and it may be absent.
+    expect((await types('srs_state'))['due_day'], 'TEXT');
+    final srsColumns = await db
+        .customSelect('PRAGMA table_info(srs_state)')
+        .get();
+    expect(
+      srsColumns
+          .firstWhere((r) => r.read<String>('name') == 'due_day')
+          .read<int>('notnull'),
+      0,
+      reason: 'due_day is nullable',
+    );
   });
 
   // Drift's own verifier: builds each version from its dump and checks the
@@ -140,11 +153,11 @@ void main() {
     late SchemaVerifier verifier;
     setUpAll(() => verifier = SchemaVerifier(GeneratedHelper()));
 
-    test('a fresh v4 database validates against the dump', () async {
-      final connection = await verifier.startAt(4);
+    test('a fresh v5 database validates against the dump', () async {
+      final connection = await verifier.startAt(5);
       final db = AppDatabase(connection);
       addTearDown(db.close);
-      await verifier.migrateAndValidate(db, 4);
+      await verifier.migrateAndValidate(db, 5);
     });
 
     test('v1 -> v2 adds mocks.pass_mark and keeps the data', () async {
@@ -162,7 +175,7 @@ void main() {
       );
       final db = AppDatabase(schema.newConnection());
       addTearDown(db.close);
-      await verifier.migrateAndValidate(db, 4);
+      await verifier.migrateAndValidate(db, 5);
 
       final row = (await db.mocksDao.byId(1))!;
       expect((row.correctCount, row.passed, row.timed), (1, true, false));
@@ -204,7 +217,7 @@ void main() {
       );
       final db = AppDatabase(schema.newConnection());
       addTearDown(db.close);
-      await verifier.migrateAndValidate(db, 4);
+      await verifier.migrateAndValidate(db, 5);
 
       final q = (await db.questionsDao.byIds(['t1-001'])).single;
       expect(q.stem, 'Enunciado');
@@ -255,7 +268,7 @@ void main() {
       );
       final db = AppDatabase(schema.newConnection());
       addTearDown(db.close);
-      await verifier.migrateAndValidate(db, 4);
+      await verifier.migrateAndValidate(db, 5);
 
       final open = (await db.mocksDao.byId(1))!;
       expect(open.questionIds, ['t1-001', 't1-002']);
@@ -272,5 +285,44 @@ void main() {
       await db.mocksDao.saveFlagged(1, const []);
       expect((await db.mocksDao.byId(1))!.flagged, isEmpty);
     });
+
+    test(
+      'v4 -> v5 adds srs_state.due_day (null) and keeps the cards',
+      () async {
+        final schema = await verifier.schemaAt(4);
+        // Two review cards written by a v4 app.
+        schema.rawDatabase.execute(
+          'INSERT INTO srs_state (question_id, box, due_at, reps, lapses, '
+          'last_answered_at) VALUES (?, 2, ?, 3, 1, ?)',
+          ['t1-001', '2026-10-20T22:00:00.000Z', '2026-10-17T20:00:00.000Z'],
+        );
+        schema.rawDatabase.execute(
+          'INSERT INTO srs_state (question_id, box, due_at, reps, lapses, '
+          'last_answered_at) VALUES (?, 5, ?, 8, 0, ?)',
+          ['t2-002', '2026-11-05T23:00:00.000Z', '2026-10-19T19:00:00.000Z'],
+        );
+        final db = AppDatabase(schema.newConnection());
+        addTearDown(db.close);
+        await verifier.migrateAndValidate(db, 5);
+
+        final rows = await db.srsDao.all();
+        expect(rows, hasLength(2));
+        final first = (await db.srsDao.get('t1-001'))!;
+        expect(first.box, 2);
+        expect(first.reps, 3);
+        expect(first.lapses, 1);
+        // The old cards have no day: they keep using `due_at`.
+        expect(first.dueDay, isNull);
+        expect(first.dueAt.toUtc(), DateTime.utc(2026, 10, 20, 22));
+        expect((await db.srsDao.get('t2-002'))!.dueDay, isNull);
+
+        // The new column is usable: the next review writes the day.
+        await db.customStatement(
+          'UPDATE srs_state SET due_day = ? WHERE question_id = ?',
+          ['2026-10-21', 't1-001'],
+        );
+        expect((await db.srsDao.get('t1-001'))!.dueDay, '2026-10-21');
+      },
+    );
   });
 }

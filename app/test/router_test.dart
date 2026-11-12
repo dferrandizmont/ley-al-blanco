@@ -186,17 +186,68 @@ void main() {
     router.go('/simulacro/2/resultado');
     await tester.pumpAndSettle();
     expect(location(router), '/simulacro/2/resultado');
-    // Where each one ends up, exactly: the review of a question reached by
-    // hand hands over to the result; the failures review stays put.
+    // Where each one ends up, exactly: the review of a question keeps its own
+    // destination (the question asked for), and so does the failures review.
+    // Only /simulacro/<id> hands over to the result.
     for (final (open, lands) in [
-      ('/simulacro/2/revision/0', '/simulacro/2/resultado'),
+      ('/simulacro/2/revision/0', '/simulacro/2/revision/0'),
       ('/simulacro/2/repasar', '/simulacro/2/repasar'),
     ]) {
       router.go(open);
       await tester.pumpAndSettle();
       expect(location(router), lands, reason: open);
+      if (open.endsWith('/revision/0')) {
+        expect(find.text('Pregunta 1 de 20'), findsOneWidget);
+      }
     }
   });
+
+  testWidgets('a review opened from the result shows the question asked for', (
+    tester,
+  ) async {
+    final router = await pumpRouter(tester);
+    await seedTwoMocks();
+    router.go('/simulacro/2/resultado');
+    await tester.pumpAndSettle();
+    expect(location(router), '/simulacro/2/resultado');
+
+    router.go('/simulacro/2/revision/3');
+    await tester.pumpAndSettle();
+    expect(location(router), '/simulacro/2/revision/3');
+    expect(find.text('Pregunta 4 de 20'), findsOneWidget);
+  });
+
+  testWidgets(
+    'a cold link to a review of a handed-in mock shows that question',
+    (tester) async {
+      final router = await pumpRouter(tester);
+      await seedTwoMocks();
+      expect(location(router), '/');
+
+      // Straight from Inicio (or an external link): no result in between.
+      router.go('/simulacro/2/revision/3');
+      await tester.pumpAndSettle();
+      expect(location(router), '/simulacro/2/revision/3');
+      expect(find.text('Pregunta 4 de 20'), findsOneWidget);
+    },
+  );
+
+  for (final query in ['', '?falladas=1']) {
+    testWidgets('back from a cold-linked review$query lands on the result', (
+      tester,
+    ) async {
+      final router = await pumpRouter(tester);
+      await seedTwoMocks();
+      router.go('/simulacro/2/revision/3$query');
+      await tester.pumpAndSettle();
+      expect(location(router), '/simulacro/2/revision/3$query');
+
+      // The exam of a handed-in mock is never left on screen.
+      router.pop();
+      await tester.pumpAndSettle();
+      expect(location(router), '/simulacro/2/resultado');
+    });
+  }
 
   testWidgets('/teoria builds its screen (empty state without theory)', (
     tester,

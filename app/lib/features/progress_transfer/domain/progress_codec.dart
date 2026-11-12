@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import '../../content/content_constants.dart';
+import '../../daily/domain/daily_question.dart';
 import '../../mock/domain/mock_config.dart';
 import '../../quiz/domain/attempt.dart';
 import 'progress_snapshot.dart';
@@ -17,12 +18,15 @@ import 'progress_snapshot.dart';
 ///                 "correct": true, "answered_at": "...Z", "mock_id": null,
 ///                 "elapsed_ms": 4200}],
 ///   "srs": [{"question_id": "t1-001", "box": 2, "due_at": "...Z", "reps": 1,
-///            "lapses": 0, "last_answered_at": "...Z"}],
+///            "lapses": 0, "last_answered_at": "...Z",
+///            "due_day": "2026-10-21"}],
 ///   "mocks": [{"id": 1, "started_at": "...Z", "finished_at": "...Z",
 ///              "question_ids": ["t1-001", ...], "answers": [2, null, ...],
 ///              "correct_count": 17, "passed": true, "timed": false,
 ///              "pass_mark": 16, "flagged": ["t1-004"]}],
-///   "settings": {"theme_mode": "dark"}
+///   "settings": {"theme_mode": "dark"},
+///   "daily": {"last_day": "2026-10-19", "streak": 4, "last_question": "t1-001",
+///             "last_at": "2026-10-19T20:30:00.000Z", "last_offset": 60}
 /// }
 /// ```
 ///
@@ -30,6 +34,18 @@ import 'progress_snapshot.dart';
 /// answer per question. All dates are ISO 8601 in UTC with milliseconds.
 /// There is no entitlement,
 /// store, account or device data in it, by design.
+///
+/// The `daily` block (the state of the question of the day) is optional: the
+/// files written before it existed are still valid, and a file without it
+/// means "no daily state" (the streak of the phone that imports it is
+/// cleared).
+///
+/// `due_day` (the calendar day a review is due), `last_at` (the instant of
+/// the last answer of the day) and `last_offset` (the offset of the phone's
+/// zone at that moment) are optional too: they are written only when they are
+/// known, and a file without them means "the old rules" (a review follows the
+/// phone's zone and a change of zone breaks the streak). A reader that does
+/// not know them ignores them.
 ///
 /// A phone with a wrong clock must still be able to migrate: an impossible
 /// duration becomes `null`, a mock "finished before it started" finishes when
@@ -64,6 +80,16 @@ class ProgressCodec {
   static const int maxReps = 1000000;
   static const int maxBox = 5;
 
+  /// Longest streak of the daily question a file may carry (a streak of one
+  /// day per day since the app existed).
+  static const int maxDailyStreak = 100000;
+
+  /// Smallest offset of a time zone (in minutes).
+  static const int minOffset = -720;
+
+  /// Largest offset of a time zone (in minutes).
+  static const int maxOffset = 840;
+
   // ------------------------------------------------------------------ encode
 
   /// The file bytes (UTF-8 JSON, one line and a final newline).
@@ -81,6 +107,10 @@ class ProgressCodec {
         d == null ? null : date(d, max);
     int? elapsed(int? ms) =>
         ms != null && ms >= 0 && ms <= maxElapsedMs ? ms : null;
+    // Only when there is a daily state: the files without it are still valid.
+    final daily = _dailyToWrite(s);
+    final dailyLastAt = daily?.lastAt;
+    final dailyOffset = daily?.lastOffsetMinutes;
 
     final map = <String, Object?>{
       'format': kProgressFormat,
@@ -109,6 +139,9 @@ class ProgressCodec {
             'reps': c.reps,
             'lapses': c.lapses,
             'last_answered_at': dateOrNull(c.lastAnsweredAt),
+            // Only when it is known: the cards of the old files keep using
+            // `due_at`.
+            'due_day': ?c.dueDay,
           },
       ],
       'mocks': [
@@ -127,8 +160,31 @@ class ProgressCodec {
           },
       ],
       'settings': {'theme_mode': s.settings.themeMode},
+      if (daily != null)
+        'daily': {
+          'last_day': daily.lastDay,
+          'streak': daily.streak,
+          'last_question': daily.lastQuestionId,
+          // The instant of the last answer and the offset of the phone's
+          // zone then: only when they are known.
+          'last_at': ?dateOrNull(dailyLastAt),
+          'last_offset': ?dailyOffset,
+        },
     };
     return Uint8List.fromList(utf8.encode('${jsonEncode(map)}\n'));
+  }
+
+  /// The daily state to write, or null when there is none: the file must
+  /// always be importable back, and a state without a day or with a streak of
+  /// zero (or an impossible one) is not one.
+  static DailyProgress? _dailyToWrite(ProgressSnapshot s) {
+    final daily = s.daily;
+    if (daily == null) return null;
+    final lastDay = daily.lastDay;
+    if (lastDay == null) return null;
+    if (daily.streak < 1 || daily.streak > maxDailyStreak) return null;
+    if (parseIsoDay(lastDay) == null) return null;
+    return daily;
   }
 
   /// [d] as ISO 8601 in UTC with exactly milliseconds (`...:00.123Z`): a
@@ -169,6 +225,11 @@ class ProgressCodec {
   ///
   /// Unknown extra fields are ignored (never read, so they cannot do
   /// anything). This does not look at the question bank: see [reconcile].
+  ///
+  /// The `daily` block (the state of the question of the day) is optional:
+  /// the files written before it existed are still valid and mean "no daily
+  /// state". When it is there it is checked in full: a real ISO 8601 day, a
+  /// streak of one day or more and a question id (or none).
   static ProgressSnapshot parse(
     Uint8List bytes, {
     required DateTime now,
@@ -301,6 +362,9 @@ class ProgressCodec {
       keptAttempts.add(a);
     }
     final settings = p.settings(root['settings']);
+    // Optional: the files written before the daily question travelled do not
+    // have it (they mean "no daily state").
+    final daily = p.daily(root['daily']);
 
     return ProgressSnapshot(
       edition: fileEdition,
@@ -310,6 +374,7 @@ class ProgressCodec {
       srs: srs,
       mocks: mocks,
       settings: settings,
+      daily: daily,
       skippedAttempts: skippedAttempts,
       skippedSrs: skippedSrs,
       skippedMocks: skippedMockIds.length,
@@ -356,6 +421,10 @@ class ProgressCodec {
   /// drops what refers to a question that does not exist: its answers, its
   /// review card, and any mock that includes it (with the answers given in
   /// that mock).
+  ///
+  /// The daily question of the file is checked like a review card: if the
+  /// bank does not have it, its id is left out (the day and the streak are
+  /// kept) and it is counted in [ProgressImportPlan.discardedDaily].
   ///
   /// What the file *claims* about correctness is never trusted: each
   /// attempt's `correct` is recomputed from `selected` and the official
@@ -444,6 +513,22 @@ class ProgressCodec {
         if (bank.containsKey(c.questionId)) c,
     ];
 
+    // The daily question of the file: if the bank does not have it, its id is
+    // left out (the day and the streak are kept: they are what the user
+    // cares about).
+    var discardedDaily = 0;
+    var keptDaily = snapshot.daily;
+    final dailyQuestion = snapshot.daily?.lastQuestionId;
+    if (dailyQuestion != null && !bank.containsKey(dailyQuestion)) {
+      discardedDaily = 1;
+      keptDaily = DailyProgress(
+        lastDay: snapshot.daily!.lastDay,
+        streak: snapshot.daily!.streak,
+        lastAt: snapshot.daily!.lastAt,
+        lastOffsetMinutes: snapshot.daily!.lastOffsetMinutes,
+      );
+    }
+
     return ProgressImportPlan(
       snapshot: ProgressSnapshot(
         edition: snapshot.edition,
@@ -453,10 +538,12 @@ class ProgressCodec {
         srs: keptSrs,
         mocks: keptMocks,
         settings: snapshot.settings,
+        daily: keptDaily,
       ),
       discardedAttempts: discardedAttempts,
       discardedSrs: snapshot.skippedSrs + snapshot.srs.length - keptSrs.length,
       discardedMocks: snapshot.skippedMocks + droppedMockIds.length,
+      discardedDaily: discardedDaily,
     );
   }
 }
@@ -619,6 +706,47 @@ class _Reader {
     DateTime? latest,
   }) => map[key] == null ? null : date(map, key, where, latest: latest);
 
+  /// An optional instant, in UTC: missing, of the wrong type, malformed or
+  /// outside 2020..tomorrow (a wrong phone clock) means "not known", never an
+  /// error: the file is still valid.
+  DateTime? optionalInstant(Map<String, dynamic> map, String key) {
+    final raw = map[key];
+    if (raw is! String || !_isoDateTime.hasMatch(raw)) return null;
+    final parsed = DateTime.tryParse(raw);
+    if (parsed == null) return null;
+    final utc = parsed.toUtc();
+    if (utc.isBefore(ProgressCodec.earliest) ||
+        utc.isAfter(ProgressCodec.latestPast(now))) {
+      return null;
+    }
+    return utc;
+  }
+
+  /// An optional offset of a time zone (in minutes): missing, of the wrong
+  /// type or out of range means "not known", never an error.
+  int? optionalOffset(Map<String, dynamic> map, String key) {
+    final raw = map[key];
+    if (raw is! int) return null;
+    if (raw < ProgressCodec.minOffset || raw > ProgressCodec.maxOffset) {
+      return null;
+    }
+    return raw;
+  }
+
+  /// An optional calendar day (`YYYY-MM-DD`): missing, of the wrong type or
+  /// not a real date inside 2020..2100 means "not known", never an error.
+  String? optionalDay(Map<String, dynamic> map, String key) {
+    final raw = map[key];
+    if (raw is! String) return null;
+    final day = parseIsoDay(raw);
+    if (day == null) return null;
+    if (day.isBefore(ProgressCodec.earliest) ||
+        day.isAfter(ProgressCodec.latestDue)) {
+      return null;
+    }
+    return raw;
+  }
+
   Attempt attempt(Object? raw, int index) {
     final where = 'attempts[$index]';
     final m = object(raw, where);
@@ -695,6 +823,7 @@ class _Reader {
         'last_answered_at',
         '$where.last_answered_at',
       ),
+      dueDay: optionalDay(m, 'due_day'),
     );
   }
 
@@ -817,5 +946,43 @@ class _Reader {
     }
     // Purchase/free-mock fields from older exports are intentionally ignored.
     return ProgressSettings(themeMode: theme as String?);
+  }
+
+  /// The state of the question of the day; null when the file has none (the
+  /// files written before it travelled).
+  DailyProgress? daily(Object? raw) {
+    if (raw == null) return null;
+    final m = object(raw, 'daily');
+    final lastDay = m['last_day'];
+    if (lastDay is! String || parseIsoDay(lastDay) == null) {
+      _fail(
+        'daily.last_day',
+        'expected a date (YYYY-MM-DD)',
+        ProgressImportError.invalidDateTime,
+      );
+    }
+    final streak = integer(
+      m,
+      'streak',
+      'daily.streak',
+      min: 1,
+      max: ProgressCodec.maxDailyStreak,
+    );
+    final question = m['last_question'];
+    if (question != null &&
+        (question is! String ||
+            question.isEmpty ||
+            question.length > ProgressCodec.maxQuestionIdLength)) {
+      _fail('daily.last_question', 'expected a question id');
+    }
+    return DailyProgress(
+      lastDay: lastDay,
+      streak: streak,
+      lastQuestionId: question as String?,
+      // The context of the last answer (the files written before it existed
+      // do not have it): ignored when it is not usable.
+      lastAt: optionalInstant(m, 'last_at'),
+      lastOffsetMinutes: optionalOffset(m, 'last_offset'),
+    );
   }
 }

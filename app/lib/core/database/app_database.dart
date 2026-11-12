@@ -35,7 +35,7 @@ class AppDatabase extends _$AppDatabase {
     : super(executor ?? driftDatabase(name: 'apto_armas'));
 
   @override
-  int get schemaVersion => 4;
+  int get schemaVersion => 5;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -51,6 +51,9 @@ class AppDatabase extends _$AppDatabase {
     // next content import fills it).
     // v3 -> v4: `mocks.flagged` (the questions the user marked as doubtful;
     // empty for every existing mock).
+    // v4 -> v5: `srs_state.due_day` (the calendar day a review is due, so it
+    // stays on that day when the phone changes its zone; null for the
+    // existing cards, which keep using `due_at`).
     // To change the schema: bump
     // [schemaVersion], run `dart run drift_dev make-migrations` (dumps
     // drift_schemas/app_database/drift_schema_vN.json), regenerate the test
@@ -67,6 +70,9 @@ class AppDatabase extends _$AppDatabase {
       },
       from3To4: (m, schema) async {
         await m.addColumn(schema.mocks, schema.mocks.flagged);
+      },
+      from4To5: (m, schema) async {
+        await m.addColumn(schema.srsState, schema.srsState.dueDay);
       },
     ),
   );

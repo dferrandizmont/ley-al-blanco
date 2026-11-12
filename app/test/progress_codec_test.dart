@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
+import 'package:apto_armas/features/daily/domain/daily_question.dart';
 import 'package:apto_armas/features/progress_transfer/domain/progress_codec.dart';
 import 'package:apto_armas/features/progress_transfer/domain/progress_snapshot.dart';
 import 'package:apto_armas/features/quiz/domain/attempt.dart';
@@ -22,6 +23,7 @@ ProgressSnapshot _snapshot({
   List<SrsEntry>? srs,
   List<MockEntry>? mocks,
   ProgressSettings settings = const ProgressSettings(themeMode: 'dark'),
+  DailyProgress? daily,
 }) => ProgressSnapshot(
   edition: 'GC-2020-11',
   exportedAt: DateTime(2026, 10, 20, 9, 30, 15, 250),
@@ -74,6 +76,7 @@ ProgressSnapshot _snapshot({
         ),
       ],
   settings: settings,
+  daily: daily,
 );
 
 Map<String, dynamic> _json([ProgressSnapshot? s]) =>
@@ -82,6 +85,13 @@ Map<String, dynamic> _json([ProgressSnapshot? s]) =>
 
 Uint8List _bytes(Map<String, dynamic> json) =>
     Uint8List.fromList(utf8.encode(jsonEncode(json)));
+
+/// The `daily` block of a file, as it is written.
+Map<String, dynamic> _dailyJson() => {
+  'last_day': '2026-10-19',
+  'streak': 4,
+  'last_question': 't1-001',
+};
 
 /// The fixtures here are 2-question mocks on a tiny bank, so the "exam size"
 /// they parse with is 2 (the real one, 20, is tested on its own below).
@@ -281,8 +291,256 @@ void main() {
         ..['entitlement'] = 'full'
         ..['whatever'] = {'a': 1};
       (json['settings'] as Map<String, dynamic>)['entitlement'] = 'full';
+      // Inside the records too: a file written by a newer version of the app
+      // is still read.
+      ((json['srs'] as List).first as Map<String, dynamic>)['inventado'] = 3;
+      ((json['attempts'] as List).first as Map<String, dynamic>)['inventado'] =
+          3;
       final back = _parse(json);
       expect(back.attempts, hasLength(2));
+      expect(back.srs.single.dueDay, isNull);
+    });
+  });
+
+  group('the daily question', () {
+    const daily = DailyProgress(
+      lastDay: '2026-10-19',
+      streak: 4,
+      lastQuestionId: 't1-001',
+    );
+
+    test('round trip keeps the day, the streak and the question', () {
+      final original = _snapshot(daily: daily);
+      final json = _json(original);
+      expect(json['daily'], {
+        'last_day': '2026-10-19',
+        'streak': 4,
+        'last_question': 't1-001',
+      });
+
+      final back = _parse(json);
+      expect(back.daily, isNotNull);
+      expect(back.daily!.lastDay, '2026-10-19');
+      expect(back.daily!.streak, 4);
+      expect(back.daily!.lastQuestionId, 't1-001');
+      // And the same bytes again.
+      expect(ProgressCodec.encode(back), ProgressCodec.encode(original));
+    });
+
+    test('without a daily state the file has no daily key', () {
+      final json = _json();
+      expect(json.containsKey('daily'), isFalse);
+      expect(_parse(json).daily, isNull);
+    });
+
+    test('a file without the daily key is still valid (the old ones)', () {
+      final json = _json()..remove('daily');
+      final back = _parse(json);
+      expect(back.daily, isNull);
+      expect(back.attempts, hasLength(2));
+    });
+
+    test('a daily state without a question is valid', () {
+      final json = _json(
+        _snapshot(daily: const DailyProgress(lastDay: '2026-10-19', streak: 2)),
+      );
+      expect(json['daily'], {
+        'last_day': '2026-10-19',
+        'streak': 2,
+        'last_question': null,
+      });
+      expect(_parse(json).daily!.lastQuestionId, isNull);
+    });
+
+    test('an invalid daily state is refused', () {
+      final cases = <String, (String, Object?, ProgressImportError)>{
+        'day that does not exist': (
+          'last_day',
+          '2026-02-30',
+          ProgressImportError.invalidDateTime,
+        ),
+        'day that is not a date': (
+          'last_day',
+          'ayer',
+          ProgressImportError.invalidDateTime,
+        ),
+        'day with a time': (
+          'last_day',
+          '2026-10-19T10:00:00Z',
+          ProgressImportError.invalidDateTime,
+        ),
+        'streak of zero': ('streak', 0, ProgressImportError.invalid),
+        'negative streak': ('streak', -3, ProgressImportError.invalid),
+        'streak as text': ('streak', 'cuatro', ProgressImportError.invalid),
+        'question id not a text': (
+          'last_question',
+          5,
+          ProgressImportError.invalid,
+        ),
+        'question id empty': ('last_question', '', ProgressImportError.invalid),
+      };
+      for (final entry in cases.entries) {
+        final (key, value, error) = entry.value;
+        final json = _json();
+        final dailyJson = <String, dynamic>{
+          'last_day': '2026-10-19',
+          'streak': 4,
+          'last_question': 't1-001',
+        };
+        dailyJson[key] = value;
+        json['daily'] = dailyJson;
+
+        final e = _failure(json);
+        expect(e.error, error, reason: entry.key);
+        expect(e.detail, contains('daily.$key'), reason: entry.key);
+      }
+    });
+
+    test('a daily state without a day or a streak is refused', () {
+      final noDay = _json()..['daily'] = {'streak': 4};
+      expect(
+        _failure(noDay).error,
+        ProgressImportError.invalidDateTime,
+        reason: 'the day is what says when the streak ended',
+      );
+      final noStreak = _json()..['daily'] = {'last_day': '2026-10-19'};
+      expect(_failure(noStreak).error, ProgressImportError.invalid);
+      final notAnObject = _json()..['daily'] = ['2026-10-19'];
+      expect(_failure(notAnObject).error, ProgressImportError.invalid);
+    });
+
+    test('reconcile drops a daily question the bank does not have', () {
+      final plan = ProgressCodec.reconcile(
+        _snapshot(
+          daily: const DailyProgress(
+            lastDay: '2026-10-19',
+            streak: 4,
+            lastQuestionId: 't9-999',
+          ),
+        ),
+        _bank,
+      );
+      expect(plan.snapshot.daily, isNotNull);
+      expect(plan.snapshot.daily!.lastDay, '2026-10-19');
+      expect(plan.snapshot.daily!.streak, 4);
+      expect(plan.snapshot.daily!.lastQuestionId, isNull);
+      expect(plan.discardedDaily, 1);
+      expect(plan.discardedTotal, 1);
+    });
+
+    test('reconcile keeps a daily question the bank has', () {
+      final plan = ProgressCodec.reconcile(_snapshot(daily: daily), _bank);
+      expect(plan.snapshot.daily!.lastQuestionId, 't1-001');
+      expect(plan.discardedTotal, 0);
+    });
+  });
+
+  group('the day and the zone', () {
+    test('the new fields travel: due_day, last_at and last_offset', () {
+      final original = _snapshot(
+        srs: [
+          SrsEntry(
+            questionId: 't1-001',
+            box: 2,
+            dueAt: DateTime(2026, 10, 16, 10),
+            reps: 1,
+            lapses: 0,
+            lastAnsweredAt: DateTime(2026, 10, 14, 18),
+            dueDay: '2026-10-17',
+          ),
+        ],
+        daily: DailyProgress(
+          lastDay: '2026-10-19',
+          streak: 4,
+          lastQuestionId: 't1-001',
+          lastAt: DateTime.utc(2026, 10, 19, 20, 30),
+          lastOffsetMinutes: 60,
+        ),
+      );
+      final json = _json(original);
+      expect(
+        (json['srs'] as List).first,
+        containsPair('due_day', '2026-10-17'),
+      );
+      expect(json['daily'], {
+        'last_day': '2026-10-19',
+        'streak': 4,
+        'last_question': 't1-001',
+        'last_at': '2026-10-19T20:30:00.000Z',
+        'last_offset': 60,
+      });
+
+      final back = _parse(json);
+      expect(back.srs.single.dueDay, '2026-10-17');
+      expect(back.daily!.lastAt, DateTime.utc(2026, 10, 19, 20, 30));
+      expect(back.daily!.lastOffsetMinutes, 60);
+      // And the same bytes again.
+      expect(ProgressCodec.encode(back), ProgressCodec.encode(original));
+    });
+
+    test('a file without the new fields is written as before', () {
+      final json = _json();
+      expect(
+        (json['srs'] as List).first.containsKey('due_day'),
+        isFalse,
+        reason: 'the cards of the old files keep their shape',
+      );
+      expect(json['daily'], isNull);
+    });
+
+    test('unusable values are ignored, not refused', () {
+      final cases = <String, Object?>{
+        'a day that is not a date': 'ayer',
+        'a day of the wrong type': 5,
+        'a day before 2020': '2019-12-31',
+        'a day after 2100': '2101-01-01',
+      };
+      for (final entry in cases.entries) {
+        final json = _json();
+        ((json['srs'] as List).first as Map<String, dynamic>)['due_day'] =
+            entry.value;
+        final back = _parse(json);
+        expect(back.srs.single.dueDay, isNull, reason: entry.key);
+        expect(back.attempts, hasLength(2), reason: entry.key);
+      }
+    });
+
+    test('unusable instants and offsets are ignored too', () {
+      final cases = <String, Object?>{
+        'an instant that is not a date': 'ayer',
+        'an instant of the wrong type': 5,
+        'an instant before 2020': '2019-12-31T00:00:00.000Z',
+        'an instant after tomorrow': '2999-01-01T00:00:00.000Z',
+      };
+      for (final entry in cases.entries) {
+        final json = _json()..['daily'] = _dailyJson();
+        (json['daily'] as Map<String, dynamic>)['last_at'] = entry.value;
+        final back = _parse(json);
+        expect(back.daily!.lastAt, isNull, reason: entry.key);
+        expect(back.daily!.lastDay, '2026-10-19', reason: entry.key);
+        expect(back.daily!.streak, 4, reason: entry.key);
+      }
+
+      final offsets = <String, Object?>{
+        'an offset of the wrong type': 'sesenta',
+        'an offset below the range': -1000,
+        'an offset above the range': 1000,
+      };
+      for (final entry in offsets.entries) {
+        final json = _json()..['daily'] = _dailyJson();
+        (json['daily'] as Map<String, dynamic>)['last_offset'] = entry.value;
+        final back = _parse(json);
+        expect(back.daily!.lastOffsetMinutes, isNull, reason: entry.key);
+        expect(back.daily!.streak, 4, reason: entry.key);
+      }
+    });
+
+    test('the offsets of the zones of the world are accepted', () {
+      for (final offset in [-720, -360, 0, 60, 540, 840]) {
+        final json = _json()..['daily'] = _dailyJson();
+        (json['daily'] as Map<String, dynamic>)['last_offset'] = offset;
+        expect(_parse(json).daily!.lastOffsetMinutes, offset);
+      }
     });
   });
 

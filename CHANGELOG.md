@@ -9,6 +9,15 @@ y en TestFlight sale cada versión; Google Play y la App Store reciben varias ju
 
 ## Sin publicar
 
+## 1.0.0 · 09-nov-2026
+
+- Viajar o cambiar de zona horaria ya no rompe la racha de la pregunta del día ni adelanta los repasos: cada repaso se queda en el día que le tocaba y la racha sobrevive al viaje.
+- Abrir una pregunta de la revisión de un simulacro lleva siempre a esa pregunta, también desde el resultado, el historial, Inicio o un enlace directo.
+- La exportación de progreso conserva también la racha de la pregunta del día: al cambiar de móvil no se pierde, y al importar se reemplaza la del móvil (un archivo sin racha la borra).
+- «PROBABILIDAD DE APROBAR» en Inicio ya no se parte a mitad de palabra con la letra al máximo en iPhone, ni con negrita.
+- Si la teoría no se puede cargar, Inicio sigue mostrando «Teoría» y la pantalla explica qué ha pasado, con un botón «Reintentar». Tu progreso no se ve afectado, y un contenido que no supera la comprobación nunca se muestra.
+- Si la app no puede arrancar porque falla la lectura de los ajustes del móvil, ahora lo explica, recuerda que tus datos siguen ahí y ofrece «Reintentar», en vez de quedarse en negro.
+
 ## 0.9.6 · 07-nov-2026
 
 - Primera versión para iPhone, ya en la App Store (España):

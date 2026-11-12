@@ -4,16 +4,10 @@ import 'dart:math';
 import 'package:apto_armas/app.dart';
 import 'package:apto_armas/core/database/app_database.dart';
 import 'package:apto_armas/core/providers.dart';
-import 'package:apto_armas/core/widgets/article_chip.dart';
 import 'package:apto_armas/core/widgets/tema_card.dart';
 import 'package:apto_armas/features/mock/application/mock_controller.dart';
 import 'package:apto_armas/features/mock/application/mock_providers.dart';
-import 'package:apto_armas/features/mock/application/mock_service.dart'
-    show StartedMock;
-import 'package:apto_armas/features/quiz/application/practice_controller.dart';
 import 'package:apto_armas/features/quiz/application/quiz_providers.dart';
-import 'package:apto_armas/features/quiz/domain/attempt.dart';
-import 'package:apto_armas/features/quiz/domain/practice_source.dart';
 import 'package:drift_flutter/drift_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -24,8 +18,10 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../test/helpers.dart' show kTestNow;
 import '../test/support/screen_support.dart';
-import '../test/support/study_support.dart' show attemptOn, wrongOption;
+import '../test/support/study_support.dart' show wrongOption;
 import 'support/qa_harness.dart' show QaTester;
+import 'support/qa_texts.dart' show T;
+import 'support/store_demo.dart';
 
 /// Driver of the App Store screenshots taken on a REAL iOS simulator.
 ///
@@ -37,8 +33,11 @@ import 'support/qa_harness.dart' show QaTester;
 /// test POSTs `capture/<name>` and answers only after saving it; the test
 /// stays on the screen until then.
 ///
-/// The five scenes are the ones of `test/store/store_screenshots_test.dart`
-/// (same demo data, same fixed clock of Thu 15 Oct 2026 18:30, same seeds).
+/// The five scenes are the five screens of `docs/readme/es/` (home with the
+/// chance of passing, mock result, Fallos, a figures card and the glossary),
+/// light theme, text scale 1, with the demo data of `support/store_demo.dart`
+/// and the fixed clock of Thu 15 Oct 2026 18:30. The pictures are the raw app
+/// screen: the shared styler (`store_shots.py`) adds the frame and the title.
 /// What is real: the app, the bundled bank and its import, a Drift file in the
 /// cache directory (deleted afterwards), the router and every screen. What is
 /// replaced (as in the QA battery): the clock, the random source and the
@@ -49,11 +48,11 @@ const String _bridge = String.fromEnvironment('SCREENSHOT_BRIDGE');
 typedef _Scene = Future<void> Function(WidgetTester tester);
 
 const _scenes = <(String, _Scene)>[
-  ('01-preguntas-explicadas', _scenePractice),
+  ('01-probabilidad', _sceneHome),
   ('02-simulacro', _sceneMockApto),
-  ('03-probabilidad', _seedProgress),
-  ('04-fallos', _sceneMistakes),
-  ('05-gratis', _sceneTheory),
+  ('03-fallos', _sceneMistakes),
+  ('04-tarjetas-cifras', _sceneFiguresCard),
+  ('05-glosario', _sceneGlossary),
 ];
 
 void main() {
@@ -62,7 +61,11 @@ void main() {
   testWidgets(
     'App Store screenshots in the real iOS simulator',
     (tester) async {
-      expect(Platform.isIOS, isTrue, reason: 'Use tool/screenshots/auto_ios.py');
+      expect(
+        Platform.isIOS,
+        isTrue,
+        reason: 'Use tool/screenshots/auto_ios.py',
+      );
       expect(_bridge, startsWith('http://127.0.0.1:'));
       final base = Uri.parse(_bridge);
       final client = HttpClient()
@@ -79,7 +82,10 @@ void main() {
       }
 
       for (final (name, scene) in _scenes) {
-        final app = await _launch(tester);
+        final app = await _launch(
+          tester,
+          figuresDeck: name == '04-tarjetas-cifras',
+        );
         try {
           await scene(tester);
           await tester.pumpAndSettle();
@@ -119,9 +125,17 @@ class _Running {
   }
 }
 
+/// The clock of the scene under test: fixed, moved only by the mock scene.
+DateTime _now = kTestNow;
+
 /// Boots the real app over a fresh database file, empty preferences, the
 /// fixed clock and the seed of the store scenes, light theme, text scale 1.
-Future<_Running> _launch(WidgetTester tester) async {
+/// [figuresDeck] picks the seed with which the figures deck starts on t4-032.
+Future<_Running> _launch(
+  WidgetTester tester, {
+  bool figuresDeck = false,
+}) async {
+  _now = kTestNow;
   tester.platformDispatcher.textScaleFactorTestValue = 1;
   tester.platformDispatcher.platformBrightnessTestValue = Brightness.light;
   addTearDown(tester.platformDispatcher.clearAllTestValues);
@@ -140,8 +154,10 @@ Future<_Running> _launch(WidgetTester tester) async {
       retry: (count, error) => null,
       overrides: [
         sharedPreferencesProvider.overrideWithValue(prefs),
-        clockProvider.overrideWithValue(() => kTestNow),
-        randomProvider.overrideWithValue(Random(7)),
+        clockProvider.overrideWithValue(() => _now),
+        randomProvider.overrideWithValue(
+          Random(figuresDeck ? kDemoFiguresSeed : 7),
+        ),
         appDatabaseProvider.overrideWith((ref) {
           final db = AppDatabase(
             driftDatabase(
@@ -167,127 +183,57 @@ Future<_Running> _launch(WidgetTester tester) async {
 }
 
 // ---------------------------------------------------------------------------
-// Scenes (the same as test/store/store_screenshots_test.dart)
+// Scenes (the five screens of docs/readme/es/)
 // ---------------------------------------------------------------------------
 
-/// Practice screen on t2-010 answered right: verdict, explanation and the
-/// article chip in view. The student has done the first 9 questions of tema 2.
-Future<void> _scenePractice(WidgetTester tester) async {
+/// Records the demo student's attempts (see `support/store_demo.dart`).
+Future<void> _seedProgress(WidgetTester tester) async {
   final bank = await bankOf(tester);
-  final done = bank
-      .where((q) => q.tema == 2)
-      .takeWhile((q) => q.id != 't2-010');
-  await containerOf(tester).read(studyServiceProvider).recordAnswers([
-    for (final q in done)
-      attemptOn(
-        q,
-        correct: true,
-        at: kTestNow.subtract(const Duration(days: 3)),
-      ),
-  ]);
-  await tester.pumpAndSettle();
-  await pushRoute(tester, '/tema/2');
-  final q = containerOf(tester)
-      .read(practiceControllerProvider(const TemaPractice(2)))
-      .requireValue
-      .session!
-      .currentQuestion;
-  expect(q.id, 't2-010', reason: 'the practice scene is built on t2-010');
-  expect(q.explanation, isNotEmpty);
-  expect(q.article, isNotNull);
-  await tapOption(tester, q.answer);
-  await tester.ensureVisible(find.byType(ArticleChip));
+  await containerOf(tester)
+      .read(studyServiceProvider)
+      .recordAnswers(demoProgress(bank));
   await tester.pumpAndSettle();
 }
 
-/// A mock handed in with 18 right and 2 wrong: APTO.
+/// Home: chance of passing, daily question, Simulacro and Fallos.
+Future<void> _sceneHome(WidgetTester tester) => _seedProgress(tester);
+
+/// A mock handed in with 17 right and 3 wrong (questions 4, 10 and 17) in
+/// 20 min 31 s: APTO.
 Future<void> _sceneMockApto(WidgetTester tester) async {
   final container = containerOf(tester);
   final started = await container
       .read(mockServiceProvider)
       .startMock(timed: false, rng: Random(3));
-  await _answerMock(tester, started, right: 18, wrong: 2);
-  await pushRoute(tester, '/simulacro/${started.id}/resultado');
-}
-
-Future<void> _answerMock(
-  WidgetTester tester,
-  StartedMock started, {
-  required int right,
-  required int wrong,
-}) async {
-  final container = containerOf(tester);
   final provider = mockControllerProvider(started.id);
   container.listen(provider, (previous, next) {});
   await container.read(provider.future);
   final controller = container.read(provider.notifier);
-  for (var i = 0; i < right + wrong; i++) {
+  for (var i = 0; i < 20; i++) {
     controller.goTo(i);
     final q = started.questions[i];
-    controller.select(i < right ? q.answer : wrongOption(q));
+    controller.select(const {3, 9, 16}.contains(i) ? wrongOption(q) : q.answer);
   }
   controller.goTo(0);
+  _now = _now.add(kDemoMockTime);
   await controller.submit();
   await controller.pendingSaves;
+  await pushRoute(tester, '/simulacro/${started.id}/resultado');
 }
 
-/// A student well on the way: every tema started, none finished, each seen
-/// question answered five times over the last five days. Seeded `Random(11)`.
-Future<void> _seedProgress(WidgetTester tester) async {
-  final bank = await bankOf(tester);
-  const coverage = {1: .97, 2: .95, 3: .93, 4: .90, 5: .88, 6: .85, 7: .82};
-  final rng = Random(11);
-  final attempts = <Attempt>[];
-  for (var tema = 1; tema <= 7; tema++) {
-    final all = bank.where((q) => q.tema == tema).toList();
-    final seen = all.take((all.length * coverage[tema]!).ceil());
-    for (final q in seen) {
-      final missedEarly = rng.nextDouble() < .04;
-      final missedLast = rng.nextDouble() < .025;
-      for (final daysAgo in [5, 4, 3, 2, 1]) {
-        final correct =
-            !((daysAgo == 5 && missedEarly) || (daysAgo == 1 && missedLast));
-        attempts.add(
-          attemptOn(
-            q,
-            correct: correct,
-            at: kTestNow.subtract(Duration(days: daysAgo)),
-          ),
-        );
-      }
-    }
-  }
-  await containerOf(tester).read(studyServiceProvider).recordAnswers(attempts);
-  await tester.pumpAndSettle();
-}
-
-/// Fallos: eight failed questions across the seven temas (two in tema 2).
+/// Fallos: the twenty failed questions of the demo student.
 Future<void> _sceneMistakes(WidgetTester tester) async {
-  final bank = await bankOf(tester);
-  final picks = const [
-    (1, 3),
-    (2, 8),
-    (2, 14),
-    (3, 5),
-    (4, 9),
-    (5, 4),
-    (6, 11),
-    (7, 6),
-  ];
-  final attempts = <Attempt>[];
-  for (final (tema, n) in picks) {
-    final q = bank.where((q) => q.tema == tema).toList()[n];
-    attempts.add(
-      attemptOn(
-        q,
-        correct: false,
-        at: kTestNow.subtract(Duration(hours: tema)),
-      ),
-    );
-  }
-  await containerOf(tester).read(studyServiceProvider).recordAnswers(attempts);
-  await tester.pumpAndSettle();
+  await _seedProgress(tester);
   await pushRoute(tester, '/fallos');
 }
 
-Future<void> _sceneTheory(WidgetTester tester) => pushRoute(tester, '/teoria');
+/// A figures card with the answer revealed (t4-032, first of 76).
+Future<void> _sceneFiguresCard(WidgetTester tester) async {
+  await pushRoute(tester, '/cifras/tarjetas');
+  await tester.tapText(T.verRespuesta);
+  await tester.pumpAndSettle();
+}
+
+/// Theory, glossary.
+Future<void> _sceneGlossary(WidgetTester tester) =>
+    pushRoute(tester, '/teoria/glosario');

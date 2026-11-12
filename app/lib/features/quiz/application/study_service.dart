@@ -1,4 +1,5 @@
 import '../../../core/database/app_database.dart';
+import '../../../core/format/civil_day.dart';
 import '../../srs/data/srs_repository.dart';
 import '../../srs/domain/srs_card.dart';
 import '../../srs/domain/srs_review.dart';
@@ -42,6 +43,9 @@ class StudyService {
           questionId: id,
           correct: attempt.correct,
           now: attempt.answeredAt,
+          // The zone of the phone when the answer was given: the civil day
+          // of the next review follows it.
+          offsetMinutes: deviceOffsetMinutes(attempt.answeredAt),
         );
       }
       for (final card in cards.values) {

@@ -73,6 +73,11 @@ class SrsState extends Table {
   DateTimeColumn get lastAnsweredAt =>
       dateTime().map(const LocalUtcDateTimeConverter()).nullable()();
 
+  /// The calendar day the card is due (`YYYY-MM-DD`), so a review planned
+  /// for a day stays on that day when the phone changes its zone (schema v5).
+  /// Null for the cards written before: they keep using `due_at`.
+  TextColumn get dueDay => text().nullable()();
+
   @override
   Set<Column> get primaryKey => {questionId};
 }

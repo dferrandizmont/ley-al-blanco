@@ -1,13 +1,13 @@
-#!/usr/bin/env python3
 """Capturas de App Store de Ley al Blanco en un simulador iOS real.
 
 Ejecutar con `python3 -I` (Pillow disponible, p. ej. en un venv fuera del repo).
 `app/integration_test/store_ios_test.dart` navega por la app real; este script
 crea su propio simulador, hace cada captura con `simctl io screenshot` cuando el
-test la pide por un puente HTTP local, la enmarca en un iPhone (Dynamic Island,
-barra de estado 09:41) bajo el título, y escribe PNG opacos (RGB, sin alfa) en
-app/build/store/ios69, ios65 e ios63. No añade nada al punto de entrada ni a
-los assets de producción. Ver tool/screenshots/LEEME.md.
+test la pide por un puente HTTP local y guarda la pantalla **tal cual**, sin
+marco ni título (PNG RGB, sin alfa), en docs/store/ios/es/. El marco, el titular
+y el tamaño de App Store (1290 x 2796) los pone el generador compartido
+`store_shots.py` (ver docs/store/shots.json). No añade nada al punto de entrada
+ni a los assets de producción. Ver tool/screenshots/LEEME.md.
 """
 
 import argparse
@@ -21,49 +21,24 @@ import sys
 import threading
 import uuid
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[2]
 APP = ROOT / "app"
 DEVICE_NAME = "LAB-Shots"
 DEVICE_TYPE = "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro-Max"
 RUNTIME = "com.apple.CoreSimulator.SimRuntime.iOS-26-5"
-RAW_SIZE = (1320, 2868)  # iPhone 17 Pro Max: 440 x 956 pt a 3x
-BUILD = APP / "build/store"
-RAW_DIR = BUILD / "ios-raw"  # capturas sin marco, para --reframe
-FONT = APP / "assets/fonts/PublicSans-Variable.ttf"
+RAW_SIZE = (1320, 2868)  # iPhone 17 Pro Max (6,9"): 440 x 956 pt a 3x
+OUT_DIR = ROOT / "docs/store/ios/es"
 
-# Destinos de App Store: carpeta -> tamaño.
-TARGETS = {
-    "ios69": (1320, 2868),
-    "ios65": (1284, 2778),
-    "ios63": (1206, 2622),
-}
-
-# Esquema de color del test store_screenshots_test.dart (tema claro, tokens de
-# lib/core/theme/apto_colors.dart): arena, texto principal y secundario, verde.
-BACKGROUND = (0xEF, 0xE9, 0xDD)
-TEXT_PRIMARY = (0x1D, 0x24, 0x20)
-TEXT_SECONDARY = (0x4F, 0x5A, 0x54)
-PRIMARY = (0x2F, 0x5D, 0x50)
-FRAME = (0x11, 0x11, 0x11)
-WASH = False  # True: velo verde suave bajo el título, como en las capturas de Play
-
-# (nombre, título con \n donde cambia de línea, subtítulo opcional). Mismos que
-# test/store/store_screenshots_test.dart.
-SHOTS = (
-    ("01-preguntas-explicadas", "Las 423 preguntas,\nexplicadas", "Con su artículo del BOE"),
-    ("02-simulacro", "Simulacro real:\n20 preguntas,\napto con 16", None),
-    ("03-probabilidad", "Tu probabilidad\nde aprobar", None),
-    ("04-fallos", "Repasa tus fallos", None),
-    ("05-gratis", "Gratis.\nSin anuncios.", None),
+# Las cinco pantallas de docs/readme/es/, en el orden de docs/store/shots.json.
+NAMES = (
+    "01-probabilidad",
+    "02-simulacro",
+    "03-fallos",
+    "04-tarjetas-cifras",
+    "05-glosario",
 )
-NAMES = tuple(name for name, _, _ in SHOTS)
-
-# Forma del iPhone, como fracción del ancho de pantalla (Ink Lab / iPhone 17 Pro).
-BEZEL, RADIUS = 0.022, 0.14
-ISLAND = (126 / 440, 37 / 440, 11 / 440)  # ancho, alto, distancia al borde
-LINE = 1.12
 
 
 def simctl(*args, timeout=120):
@@ -80,100 +55,18 @@ def status_bar(udid):
            "--wifiMode", "active", "--wifiBars", "3")
 
 
-def font(size):
-    f = ImageFont.truetype(str(FONT), size)
-    f.set_variation_by_axes([700])  # Public Sans bold, como AptoTypography
-    return f
-
-
-def centered(draw, y, text, fnt, fill, width):
-    draw.text(((width - draw.textlength(text, font=fnt)) / 2, y), text,
-              font=fnt, fill=fill)
-
-
-def compose(raw, title, sub, size):
-    """Título + iPhone con la captura real. Mismo reparto que el test de Flutter."""
-    w, h = size
-    canvas = Image.new("RGB", size, BACKGROUND)
-    draw = ImageDraw.Draw(canvas)
-    cap_size = round(w * .078)
-    sub_size = round(cap_size * .5)
-    bezel = round(w * .016)  # estimación; se ajusta con el ancho final
-    top_pad = h * .04
-    caption_block = cap_size * LINE * 3 + 20 + sub_size * 1.3
-    gap = h * .02
-    top_zone = top_pad + caption_block + gap
-    bottom = h * .035
-    avail_h = h - top_zone - bottom - 2 * bezel
-    avail_w = w * .78 - 2 * bezel
-    aspect = raw.height / raw.width
-    sw = min(avail_h / aspect, avail_w)
-    sw = int(sw // 2 * 2)
-    sh = round(sw * aspect)
-    bezel = round(BEZEL * sw)
-    room = h - top_zone - bottom
-    frame_top = round(top_zone + (room - (sh + 2 * bezel)) / 2)
-
-    if WASH:
-        wash_h = round(top_zone + sh * .18)
-        for y in range(wash_h):
-            alpha = .20 * (1 - y / wash_h)
-            colour = tuple(round(p * alpha + b * (1 - alpha)) for p, b in zip(PRIMARY, BACKGROUND))
-            draw.line((0, y, w, y), fill=colour)
-
-    cap_font, sub_font = font(cap_size), font(sub_size)
-    lines = title.split("\n")
-    text_h = len(lines) * cap_size * LINE + (20 + sub_size if sub else 0)
-    y = top_pad + (top_zone - top_pad - gap - text_h) / 2
-    for line in lines:
-        centered(draw, y, line, cap_font, TEXT_PRIMARY, w)
-        y += cap_size * LINE
-    if sub:
-        centered(draw, y + 20 - 6, sub, sub_font, TEXT_SECONDARY, w)
-
-    x = (w - sw - 2 * bezel) // 2
-    radius = round(RADIUS * sw)
-    draw.rounded_rectangle((x, frame_top, x + sw + 2 * bezel, frame_top + sh + 2 * bezel),
-                           radius=radius + bezel, fill=FRAME)
-    screen = raw.convert("RGB").resize((sw, sh), Image.Resampling.LANCZOS)
-    mask = Image.new("L", screen.size, 0)
-    ImageDraw.Draw(mask).rounded_rectangle((0, 0, *screen.size), radius=radius, fill=255)
-    canvas.paste(screen, (x + bezel, frame_top + bezel), mask)
-    iw, ih, it = (round(v * sw) for v in ISLAND)
-    ix, iy = x + bezel + (sw - iw) // 2, frame_top + bezel + it
-    draw.rounded_rectangle((ix, iy, ix + iw, iy + ih), radius=ih // 2, fill=(0, 0, 0))
-    return canvas
-
-
-def check_png(path, size):
+def check_png(path):
     with Image.open(path) as image:
-        if image.format != "PNG" or image.size != size or image.mode != "RGB":
-            raise RuntimeError(f"{path}: se esperaba PNG RGB {size}, hay "
+        if image.format != "PNG" or image.size != RAW_SIZE or image.mode != "RGB":
+            raise RuntimeError(f"{path}: se esperaba PNG RGB {RAW_SIZE}, hay "
                                f"{image.format} {image.mode} {image.size}")
         image.load()
 
 
-def frame_all(only=NAMES):
-    """Enmarca las capturas crudas de RAW_DIR en todos los destinos."""
-    for target, size in TARGETS.items():
-        for name, title, sub in SHOTS:
-            if name not in only:
-                continue
-            with Image.open(RAW_DIR / f"{name}.png") as raw:
-                if raw.size != RAW_SIZE:
-                    raise RuntimeError(f"{name}: captura de {raw.size}, se esperaba {RAW_SIZE}")
-                out = BUILD / target / f"{name}.png"
-                out.parent.mkdir(parents=True, exist_ok=True)
-                compose(raw, title, sub, size).save(out, optimize=True)
-            check_png(out, size)
-
-
 def validate():
-    for target, size in TARGETS.items():
-        for name in NAMES:
-            check_png(BUILD / target / f"{name}.png", size)
-    print(f"OK: {len(TARGETS)} juegos x {len(NAMES)} PNG, RGB sin alfa "
-          f"({', '.join(f'{t} {w}x{h}' for t, (w, h) in TARGETS.items())})")
+    for name in NAMES:
+        check_png(OUT_DIR / f"{name}.png")
+    print(f"OK: {len(NAMES)} PNG RGB sin alfa de {RAW_SIZE[0]}x{RAW_SIZE[1]} en {OUT_DIR}")
 
 
 class Session:
@@ -186,13 +79,19 @@ class Session:
         if not self.pending or name != self.pending[0]:
             raise RuntimeError(f"Captura inesperada {name}; se esperaba {self.pending[:1]}")
         status_bar(self.udid)
-        RAW_DIR.mkdir(parents=True, exist_ok=True)
-        raw = RAW_DIR / f"{name}.png"
-        simctl("io", self.udid, "screenshot", "--type=png", str(raw))
-        with Image.open(raw) as image:
-            if image.size != RAW_SIZE:
-                raise RuntimeError(f"El simulador devolvió {image.size}, se esperaba {RAW_SIZE}")
-        frame_all([name])
+        OUT_DIR.mkdir(parents=True, exist_ok=True)
+        tmp = OUT_DIR / f".{name}.simctl.png"
+        simctl("io", self.udid, "screenshot", "--type=png", str(tmp))
+        try:
+            with Image.open(tmp) as image:
+                if image.size != RAW_SIZE:
+                    raise RuntimeError(f"El simulador devolvió {image.size}, se esperaba {RAW_SIZE}")
+                # Las esquinas del simulador son transparentes: se guarda RGB
+                # (el generador recorta la pantalla con sus propias esquinas).
+                image.convert("RGB").save(OUT_DIR / f"{name}.png", optimize=True)
+        finally:
+            tmp.unlink(missing_ok=True)
+        check_png(OUT_DIR / f"{name}.png")
         self.pending.pop(0)
         print(f"Capturada {name}", flush=True)
 
@@ -294,8 +193,6 @@ def capture_all(timeout, udid=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--validate", action="store_true", help="Comprueba los PNG; sin simulador")
-    parser.add_argument("--reframe", action="store_true",
-                        help="Reenmarca las capturas crudas de app/build/store/ios-raw; sin simulador")
     parser.add_argument("--udid", help="Usar este simulador ya existente en vez de crear LAB-Shots (no se borra)")
     parser.add_argument("--timeout", type=int, default=7200,
                         help="Segundos para Flutter, incluida la cola de heavy.sh")
@@ -303,10 +200,7 @@ def main():
     if args.timeout <= 0:
         parser.error("El tiempo límite debe ser positivo")
     try:
-        if args.reframe:
-            frame_all()
-            validate()
-        elif args.validate:
+        if args.validate:
             validate()
         else:
             capture_all(args.timeout, args.udid)

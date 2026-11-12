@@ -88,10 +88,15 @@ void main() {
       expect(tester.takeException(), isNull);
     });
 
-    testScreen('is hidden when the checksum does not match', (tester) async {
+    testScreen('stays when the checksum does not match, never showing the '
+        'content', (tester) async {
       _phone(tester);
       await pumpFullApp(tester, bundle: theoryBundle(wrongSha: 'b' * 64));
-      expect(find.text('Teoría'), findsNothing);
+      expect(find.widgetWithText(ActionCard, 'Teoría'), findsOneWidget);
+      await _tap(tester, find.widgetWithText(ActionCard, 'Teoría'));
+      expect(locationOf(tester), '/teoria');
+      expect(find.text('No se ha podido cargar la teoría'), findsOneWidget);
+      expect(find.text('La prueba práctica'), findsNothing);
       expect(tester.takeException(), isNull);
     });
   });

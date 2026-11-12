@@ -5,6 +5,9 @@ import 'package:apto_armas/core/database/app_database.dart';
 import 'package:apto_armas/core/providers.dart';
 import 'package:apto_armas/core/theme/theme_mode_setting.dart';
 import 'package:apto_armas/features/content/application/content_providers.dart';
+import 'package:apto_armas/features/daily/application/daily_providers.dart';
+import 'package:apto_armas/features/daily/data/daily_repository.dart';
+import 'package:apto_armas/features/daily/domain/daily_question.dart';
 import 'package:apto_armas/features/mock/application/mock_providers.dart';
 import 'package:apto_armas/features/progress_transfer/application/progress_transfer_providers.dart';
 import 'package:apto_armas/features/progress_transfer/data/progress_codec_runner.dart';
@@ -549,6 +552,153 @@ void main() {
       expect(b.read(themeModeProvider), ThemeMode.light);
       expect(seen, isEmpty);
       expect(await _setting(b, ThemeModeSetting.key), 'light');
+    });
+  });
+
+  group('the daily question', () {
+    /// A streak of [streak] days that ended on [day].
+    DailyProgress dailyState({
+      String day = '2026-10-14',
+      int streak = 4,
+      String? questionId = 't1-001',
+    }) =>
+        DailyProgress(lastDay: day, streak: streak, lastQuestionId: questionId);
+
+    Future<void> saveDaily(ProviderContainer c, DailyProgress daily) =>
+        DailyRepository(_db(c).settingsDao).save(daily);
+
+    Future<DailyProgress> dailyOf(ProviderContainer c) =>
+        DailyRepository(_db(c).settingsDao).load();
+
+    test('the export carries the streak and the import writes it', () async {
+      final a = await _app();
+      await _seed(a);
+      await saveDaily(a, dailyState());
+      final json = _decode(await _export(a));
+      expect(json['daily'], {
+        'last_day': '2026-10-14',
+        'streak': 4,
+        'last_question': 't1-001',
+      });
+
+      final b = await _app();
+      await _import(b, await _export(a));
+      expect(await dailyOf(b), dailyState());
+    });
+
+    test(
+      'a file without the daily state clears the streak of the phone',
+      () async {
+        // A file written before the daily question travelled.
+        final a = await _app();
+        await _seed(a);
+        final old = _encode(_decode(await _export(a))..remove('daily'));
+
+        final b = await _app();
+        await saveDaily(b, dailyState(streak: 9));
+        await _import(b, old);
+        expect(await dailyOf(b), DailyProgress.none);
+      },
+    );
+
+    test(
+      'the streak of the phone is replaced by the one of the file',
+      () async {
+        final a = await _app();
+        await _seed(a);
+        await saveDaily(a, dailyState(streak: 2));
+
+        final b = await _app();
+        await saveDaily(b, dailyState(streak: 9));
+        await _import(b, await _export(a));
+        expect((await dailyOf(b)).streak, 2);
+      },
+    );
+
+    test('the daily providers refresh after the import', () async {
+      final a = await _app();
+      await _seed(a);
+      await saveDaily(a, dailyState(streak: 3));
+
+      final b = await _app();
+      // Listen so the provider is alive, as the screens do.
+      b.listen(dailyProgressProvider, (p, n) {});
+      expect((await b.read(dailyProgressProvider.future)).streak, 0);
+
+      await _import(b, await _export(a));
+      await settle();
+      expect((await b.read(dailyProgressProvider.future)).streak, 3);
+    });
+
+    test('a failed import leaves the streak as it was', () async {
+      final a = await _app();
+      await _seed(a);
+      await saveDaily(a, dailyState(streak: 3));
+      final json = _decode(await _export(a));
+      // A streak of zero is not a state: the file is refused.
+      (json['daily'] as Map)['streak'] = 0;
+
+      final b = await _app();
+      await saveDaily(b, dailyState(streak: 9));
+      final transfer = b.read(progressTransferProvider);
+      await expectLater(
+        transfer.preview(_encode(json)),
+        throwsA(isA<ProgressImportException>()),
+      );
+      expect((await dailyOf(b)).streak, 9);
+    });
+
+    test('the instant and the offset of the last answer travel too', () async {
+      final a = await _app();
+      await _seed(a);
+      await saveDaily(
+        a,
+        DailyProgress(
+          lastDay: '2026-10-14',
+          streak: 4,
+          lastQuestionId: 't1-001',
+          lastAt: DateTime.utc(2026, 10, 13, 22, 30),
+          lastOffsetMinutes: 60,
+        ),
+      );
+      final json = _decode(await _export(a));
+      expect((json['daily'] as Map)['last_at'], '2026-10-13T22:30:00.000Z');
+      expect((json['daily'] as Map)['last_offset'], 60);
+
+      final b = await _app();
+      await _import(b, await _export(a));
+      final daily = await dailyOf(b);
+      expect(daily.streak, 4);
+      expect(daily.lastAt, DateTime.utc(2026, 10, 13, 22, 30));
+      expect(daily.lastOffsetMinutes, 60);
+    });
+
+    test('the day a review is due travels with its card', () async {
+      final a = await _app();
+      await _seed(a);
+      final bank = await a.read(questionsProvider.future);
+      await a
+          .read(srsRepositoryProvider)
+          .upsert(
+            SrsCard(
+              questionId: bank[0].id,
+              box: 2,
+              dueAt: DateTime(2026, 10, 20),
+              reps: 2,
+              lapses: 0,
+              lastAnsweredAt: DateTime(2026, 10, 15),
+              dueDay: '2026-10-20',
+            ),
+          );
+      final json = _decode(await _export(a));
+      final srs = (json['srs'] as List).cast<Map<String, dynamic>>();
+      expect(srs.first['due_day'], '2026-10-20');
+
+      final b = await _app();
+      await _import(b, await _export(a));
+      final card = await b.read(srsRepositoryProvider).get(bank[0].id);
+      expect(card, isNotNull);
+      expect(card!.dueDay, '2026-10-20');
     });
   });
 

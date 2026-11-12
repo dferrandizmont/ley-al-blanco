@@ -2,6 +2,7 @@ import 'package:drift/drift.dart';
 
 import '../../../core/database/app_database.dart';
 import '../../../core/theme/theme_mode_setting.dart';
+import '../../daily/data/daily_repository.dart';
 import '../domain/progress_snapshot.dart';
 
 /// Reads the user's progress out of the Drift database and writes an imported
@@ -12,6 +13,10 @@ class ProgressTransferRepository {
   ProgressTransferRepository(this._db);
 
   final AppDatabase _db;
+
+  /// The daily question state (the streak), read and written like the rest of
+  /// the progress.
+  DailyRepository get _daily => DailyRepository(_db.settingsDao);
 
   /// Question id -> number of options and official answer, retired questions
   /// included (history keeps pointing at them).
@@ -37,6 +42,7 @@ class ProgressTransferRepository {
       )..orderBy([(t) => OrderingTerm.asc(t.id)])).get();
       final settings = _db.settingsDao;
       final theme = await settings.get(ThemeModeSetting.key);
+      final daily = await _daily.load();
       return ProgressSnapshot(
         edition: edition,
         exportedAt: exportedAt,
@@ -51,6 +57,7 @@ class ProgressTransferRepository {
               reps: r.reps,
               lapses: r.lapses,
               lastAnsweredAt: r.lastAnsweredAt,
+              dueDay: r.dueDay,
             ),
         ],
         mocks: [
@@ -71,6 +78,9 @@ class ProgressTransferRepository {
         settings: ProgressSettings(
           themeMode: ProgressSettings.themeModes.contains(theme) ? theme : null,
         ),
+        // The daily state travels too (the streak of the question of the
+        // day); without it there is nothing to export.
+        daily: daily.lastDay == null ? null : daily,
       );
     });
   }
@@ -84,6 +94,9 @@ class ProgressTransferRepository {
   ///   inserted in the order of the snapshot (oldest first).
   /// The theme comes from the file when present. Old purchase keys remain
   /// untouched in existing databases and are never read or written.
+  /// The daily state comes from the file when it has one; a file without it
+  /// (written before the daily question travelled) **clears** the streak of
+  /// the device: importing replaces the whole progress.
   Future<void> replaceWith(ProgressSnapshot snapshot) {
     return _db.transaction(() async {
       final settings = _db.settingsDao;
@@ -130,12 +143,22 @@ class ProgressTransferRepository {
               reps: c.reps,
               lapses: c.lapses,
               lastAnsweredAt: Value(c.lastAnsweredAt),
+              dueDay: Value(c.dueDay),
             ),
         ]);
       });
 
       final theme = snapshot.settings.themeMode;
       if (theme != null) await settings.set(ThemeModeSetting.key, theme);
+
+      // The daily state: the file's, or none at all (a file without it clears
+      // the streak of the device).
+      final daily = snapshot.daily;
+      if (daily != null && daily.lastDay != null) {
+        await _daily.write(daily);
+      } else {
+        await _daily.remove();
+      }
     });
   }
 }

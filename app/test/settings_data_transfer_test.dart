@@ -280,6 +280,27 @@ void main() {
       expect(await _attemptCount(tester), 0);
     });
 
+    testScreen('the confirmation says the streak the file brings', (
+      tester,
+    ) async {
+      final store = FakeProgressFileStore(
+        pickResult: PickedBytes(
+          progressFileBytes(
+            edit: (json) => json['daily'] = {
+              'last_day': '2026-10-12',
+              'streak': 4,
+              'last_question': null,
+            },
+          ),
+        ),
+      );
+      await _pump(tester, store);
+      await _tap(tester, find.text(_importTitle));
+
+      expect(find.text('¿Reemplazar tu progreso?'), findsOneWidget);
+      expect(find.text('Racha de 4 días'), findsOneWidget);
+    });
+
     testScreen('"Cancelar" leaves everything as it was', (tester) async {
       final store = FakeProgressFileStore(
         pickResult: PickedBytes(progressFileBytes()),

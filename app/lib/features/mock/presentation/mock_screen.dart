@@ -189,7 +189,15 @@ class _MockScreenState extends ConsumerState<MockScreen> {
     final l10n = context.l10n;
 
     final state = async.value;
-    if (state != null && state.isSubmitted && !_redirecting) {
+    // Only the exam itself, as the page on top, hands over to the result. Its
+    // child routes (the result, the failures review and a question review)
+    // are built above it and keep their own destination: opening
+    // /simulacro/<id>/revision/<n> always shows that question, whatever the
+    // way in. `ModalRoute.of` rebuilds this screen when it becomes the top
+    // page again (back from a review opened by a cold link), so it then
+    // hands over to the result too.
+    final onTop = ModalRoute.of(context)?.isCurrent ?? true;
+    if (state != null && state.isSubmitted && !_redirecting && onTop) {
       // Opened already handed in (a stale link): show the result instead.
       _redirecting = true;
       WidgetsBinding.instance.addPostFrameCallback((_) {

@@ -61,7 +61,7 @@
     },
     {
       "question": "¿Puedo pasar de Google Play al APK de GitHub, o al revés?",
-      "answer": "De Google Play al APK, sí, desde la 0.9.5: las dos llevan la misma firma y el APK se instala encima sin perder el progreso. Del APK a Google Play podrás pasar a partir de la próxima versión, cuando llegue a Google Play. Si tienes una versión de Google Play anterior a la 0.9.5, exporta antes tu progreso (Ajustes, Tus datos) y desinstálala una vez."
+      "answer": "De Google Play al APK, sí, desde la 0.9.5: las dos llevan la misma firma y el APK se instala encima sin perder el progreso. Del APK a Google Play, desde la 0.9.6, en cuanto esté en Google Play: las dos llevan el mismo número de compilación. Si tienes una versión de Google Play anterior a la 0.9.5, exporta antes tu progreso (Ajustes, Tus datos) y desinstálala una vez."
     },
     {
       "question": "¿De dónde salen las preguntas?",

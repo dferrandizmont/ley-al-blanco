@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../theme/app_theme.dart';
+import 'fitted_text.dart';
 
 /// A section label ("TEMAS", "POR TEMA"): 13 / 600, upper case, tracking 6 %.
 /// Pass the text as written in the ARB; it is upper-cased here and read to
@@ -14,6 +15,7 @@ class Overline extends StatelessWidget {
     this.color,
     this.maxLines,
     this.textAlign,
+    this.fitWords = false,
   });
 
   final String text;
@@ -25,16 +27,25 @@ class Overline extends StatelessWidget {
   final int? maxLines;
   final TextAlign? textAlign;
 
+  /// True for a label that must never be split in the middle of a word (the
+  /// main label of a screen): the text may take several lines, and when its
+  /// longest word does not fit the room, only this label's text scale is
+  /// capped just enough to fit it. Ignores [maxLines].
+  final bool fitWords;
+
   @override
   Widget build(BuildContext context) {
     final style = context.typo.overline;
-    final label = Text(
-      text.toUpperCase(),
-      style: color == null ? style : style.copyWith(color: color),
-      maxLines: maxLines,
-      textAlign: textAlign,
-      overflow: maxLines == null ? null : TextOverflow.ellipsis,
-    );
+    final drawn = color == null ? style : style.copyWith(color: color);
+    final label = fitWords
+        ? FittedText(text.toUpperCase(), style: drawn, textAlign: textAlign)
+        : Text(
+            text.toUpperCase(),
+            style: drawn,
+            maxLines: maxLines,
+            textAlign: textAlign,
+            overflow: maxLines == null ? null : TextOverflow.ellipsis,
+          );
     if (!spoken) return ExcludeSemantics(child: label);
     return Semantics(
       header: header,

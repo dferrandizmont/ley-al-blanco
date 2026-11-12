@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart' show immutable;
 
+import '../../daily/domain/daily_question.dart';
 import '../../quiz/domain/attempt.dart';
 
 /// `format` of an exported progress file.
@@ -27,6 +28,7 @@ class SrsEntry {
     required this.reps,
     required this.lapses,
     this.lastAnsweredAt,
+    this.dueDay,
   });
 
   final String questionId;
@@ -37,6 +39,10 @@ class SrsEntry {
   final int reps;
   final int lapses;
   final DateTime? lastAnsweredAt;
+
+  /// The calendar day the card is due (`YYYY-MM-DD`); null in the files
+  /// written before it existed (they keep using [dueAt]).
+  final String? dueDay;
 }
 
 /// A mock exam (a row of `mocks`), in progress or finished.
@@ -98,6 +104,7 @@ class ProgressSnapshot {
     required this.srs,
     required this.mocks,
     required this.settings,
+    this.daily,
     this.skippedAttempts = 0,
     this.skippedSrs = 0,
     this.skippedMocks = 0,
@@ -115,6 +122,11 @@ class ProgressSnapshot {
   final List<SrsEntry> srs;
   final List<MockEntry> mocks;
   final ProgressSettings settings;
+
+  /// The state of the question of the day (the streak); null when there is
+  /// none (never answered, or a file written before the daily question was
+  /// exported).
+  final DailyProgress? daily;
 
   /// Records the parser left out because their dates make no sense (a phone
   /// whose clock was wrong): they do not block the import, they are counted
@@ -186,6 +198,7 @@ class ProgressImportPlan {
     this.discardedAttempts = 0,
     this.discardedSrs = 0,
     this.discardedMocks = 0,
+    this.discardedDaily = 0,
   });
 
   /// Only data about questions that exist.
@@ -194,7 +207,12 @@ class ProgressImportPlan {
   final int discardedSrs;
   final int discardedMocks;
 
+  /// The daily question of the file was not in the bank: its id was left out
+  /// (the streak was kept).
+  final int discardedDaily;
+
   /// Items dropped because their question is not in the bank or their dates
   /// are impossible.
-  int get discardedTotal => discardedAttempts + discardedSrs + discardedMocks;
+  int get discardedTotal =>
+      discardedAttempts + discardedSrs + discardedMocks + discardedDaily;
 }

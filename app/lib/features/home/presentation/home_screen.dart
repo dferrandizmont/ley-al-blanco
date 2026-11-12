@@ -42,7 +42,8 @@ import '../../theory/application/theory_providers.dart';
 /// The daily queue, the question of the day and the mastery use the clock when
 /// they are built, so this
 /// screen refreshes them when the app returns to the foreground on another
-/// day and at midnight while it stays open.
+/// day (or in another zone, after a trip) and at midnight while it stays
+/// open.
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});
 
@@ -53,12 +54,15 @@ class HomeScreen extends ConsumerStatefulWidget {
 class _HomeScreenState extends ConsumerState<HomeScreen> {
   late final AppLifecycleListener _lifecycle;
   late DateTime _day;
+  late Duration _offset;
   Timer? _midnight;
 
   @override
   void initState() {
     super.initState();
-    _day = startOfLocalDay(ref.read(clockProvider)());
+    final now = ref.read(clockProvider)();
+    _day = startOfLocalDay(now);
+    _offset = now.toLocal().timeZoneOffset;
     _lifecycle = AppLifecycleListener(onResume: _refreshIfNewDay);
     _scheduleMidnight();
   }
@@ -70,11 +74,17 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     super.dispose();
   }
 
+  /// Refreshes the day when the date changes and also when the zone of the
+  /// clock changes (a trip: the day of the question and the reviews of the
+  /// day are the ones of the new zone).
   void _refreshIfNewDay() {
     if (!mounted) return;
-    final today = startOfLocalDay(ref.read(clockProvider)());
-    if (today != _day) {
+    final now = ref.read(clockProvider)();
+    final today = startOfLocalDay(now);
+    final offset = now.toLocal().timeZoneOffset;
+    if (today != _day || offset != _offset) {
       _day = today;
+      _offset = offset;
       ref
         ..invalidate(dailyQueueProvider)
         ..invalidate(dailyStatusProvider)
@@ -105,7 +115,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     final summaries = ref.watch(temaSummaryProvider);
     final edition = ref.watch(bootstrapProvider).value?.manifest.edition;
     final resumable = ref.watch(resumableMockProvider);
-    final theoryAvailable = ref.watch(theoryAvailableProvider);
+    final theoryAvailable = ref.watch(theoryEntryVisibleProvider);
     final dailyStatus = ref.watch(dailyStatusProvider).value;
     final figures = ref.watch(figuresCountProvider).value;
 
@@ -339,6 +349,7 @@ class _Probability extends StatelessWidget {
               l10n.homePassProbability,
               header: false,
               spoken: false,
+              fitWords: true,
               textAlign: sideBySide ? TextAlign.start : TextAlign.center,
             ),
             const SizedBox(height: Sp.xs),

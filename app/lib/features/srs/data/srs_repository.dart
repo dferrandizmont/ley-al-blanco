@@ -1,4 +1,5 @@
 import '../../../core/database/app_database.dart';
+import '../../../core/format/civil_day.dart';
 import '../domain/srs_card.dart';
 
 /// Leitner cards (`srs_state`) as domain [SrsCard]s.
@@ -27,7 +28,8 @@ class SrsRepository {
   Future<void> upsert(SrsCard card) => _db.srsDao.upsert(rowFromCard(card));
 
   /// Row -> domain. A row without `lastAnsweredAt` (never written by the app)
-  /// falls back to its due date.
+  /// falls back to its due date. A `dueDay` that is not a date is ignored:
+  /// the card falls back to its `dueAt`.
   static SrsCard cardFromRow(SrsStateRow row) => SrsCard(
     questionId: row.questionId,
     box: row.box,
@@ -35,6 +37,7 @@ class SrsRepository {
     reps: row.reps,
     lapses: row.lapses,
     lastAnsweredAt: row.lastAnsweredAt ?? row.dueAt,
+    dueDay: parseIsoDay(row.dueDay) == null ? null : row.dueDay,
   );
 
   static SrsStateRow rowFromCard(SrsCard card) => SrsStateRow(
@@ -44,5 +47,6 @@ class SrsRepository {
     reps: card.reps,
     lapses: card.lapses,
     lastAnsweredAt: card.lastAnsweredAt,
+    dueDay: card.dueDay,
   );
 }

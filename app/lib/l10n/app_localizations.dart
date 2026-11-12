@@ -124,6 +124,18 @@ abstract class AppLocalizations {
   /// **'No se ha podido preparar la app'**
   String get bootstrapFailed;
 
+  /// Pantalla de recuperación cuando falla el arranque antes de Inicio (lectura de los ajustes del dispositivo).
+  ///
+  /// In es, this message translates to:
+  /// **'No se ha podido iniciar la app'**
+  String get startupFailedTitle;
+
+  /// Pantalla de recuperación del arranque: tranquiliza sobre los datos y explica qué hacer.
+  ///
+  /// In es, this message translates to:
+  /// **'Tus datos siguen en el móvil: no se ha borrado nada. Vuelve a intentarlo; si sigue igual, cierra la app del todo y ábrela de nuevo.'**
+  String get startupFailedMessage;
+
   /// Mensaje de error genérico, sin detalles técnicos.
   ///
   /// In es, this message translates to:
@@ -933,10 +945,10 @@ abstract class AppLocalizations {
   /// **'Exportar progreso'**
   String get settingsExportTitle;
 
-  /// Subtítulo de la fila de exportar.
+  /// Subtítulo de la fila de exportar: lo que lleva el archivo (respuestas, fallos, simulacros y racha de la pregunta del día).
   ///
   /// In es, this message translates to:
-  /// **'Guarda tus respuestas, fallos y simulacros en un archivo para cambiar de móvil. Tú eliges dónde.'**
+  /// **'Guarda tus respuestas, fallos, simulacros y tu racha diaria en un archivo para cambiar de móvil. Tú eliges dónde.'**
   String get settingsExportSubtitle;
 
   /// Título de la fila que recupera el progreso de un archivo.
@@ -1429,6 +1441,18 @@ abstract class AppLocalizations {
   /// **'Esta versión de la app no incluye los resúmenes. Actualiza la app para verlos.'**
   String get theoryUnavailableMessage;
 
+  /// Teoría: título cuando el contenido de teoría falla al cargarse o no supera la comprobación, y se puede reintentar.
+  ///
+  /// In es, this message translates to:
+  /// **'No se ha podido cargar la teoría'**
+  String get theoryLoadErrorTitle;
+
+  /// Teoría: mensaje bajo el título de error de carga, junto al botón Reintentar.
+  ///
+  /// In es, this message translates to:
+  /// **'Tu progreso no se ha visto afectado. Vuelve a intentarlo; si sigue igual, actualiza la app.'**
+  String get theoryLoadErrorMessage;
+
   /// Simulacro: botón que marca la pregunta actual como dudosa para revisarla antes de entregar.
   ///
   /// In es, this message translates to:
@@ -1663,7 +1687,7 @@ abstract class AppLocalizations {
   /// **'Pregunta del día'**
   String get dailyTitle;
 
-  /// Días seguidos respondiendo la pregunta del día (insignia de la tarjeta).
+  /// Días seguidos respondiendo la pregunta del día (insignia de la tarjeta y racha que trae el archivo de progreso importado).
   ///
   /// In es, this message translates to:
   /// **'{count, plural, =1{Racha de 1 día} other{Racha de {count} días}}'**

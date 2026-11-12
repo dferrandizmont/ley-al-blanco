@@ -18,6 +18,7 @@ import '../application/theory_providers.dart';
 import '../domain/theory.dart';
 import 'theory_blocks.dart';
 import 'theory_titles.dart';
+import 'theory_unavailable.dart';
 
 /// The reader of one summary (`t1`..`t7`), of «La prueba práctica», of the AEM
 /// or of the glossary: label, title and summary, then the sections as foldable
@@ -41,11 +42,7 @@ class TheoryDocScreen extends ConsumerWidget {
     } else if (async.isLoading) {
       body = const Center(child: CircularProgressIndicator());
     } else {
-      body = EmptyState(
-        icon: Icons.menu_book_rounded,
-        title: l10n.theoryUnavailableTitle,
-        message: l10n.theoryUnavailableMessage,
-      );
+      body = const TheoryUnavailable();
     }
     return Scaffold(
       appBar: AptoAppBar(title: l10n.theoryTitle),

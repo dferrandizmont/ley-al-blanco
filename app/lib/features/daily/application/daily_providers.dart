@@ -24,6 +24,19 @@ class DailyProgressController extends AsyncNotifier<DailyProgress> {
     await ref.read(dailyRepositoryProvider).save(next);
     if (ref.mounted) state = AsyncData(next);
   }
+
+  /// Reads the stored state again: the import replaced it.
+  ///
+  /// The state is written instead of invalidating the provider: an
+  /// invalidated provider is rebuilt in the middle of the next build of
+  /// Inicio (the screen is underneath Ajustes while the import happens) and
+  /// that is a "setState() called during build".
+  Future<void> reload() async {
+    // The first read builds the provider (and waits for it).
+    await future;
+    final progress = await ref.read(dailyRepositoryProvider).load();
+    if (ref.mounted) state = AsyncData(progress);
+  }
 }
 
 final dailyProgressProvider =

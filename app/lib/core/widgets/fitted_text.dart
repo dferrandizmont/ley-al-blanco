@@ -52,13 +52,21 @@ class FittedText extends StatelessWidget {
       builder: (context, constraints) {
         final room = constraints.maxWidth;
         if (!room.isFinite) return child;
-        final measured = _measured(context, effective, locale);
+        final (measured, widest) = _measured(context, effective, locale);
         if (measured <= 0) return child;
         // The size the text is drawn at, before the scale of the user.
         final fontSize = effective.fontSize ?? 14;
         final factor = data.textScaler.scale(fontSize) / fontSize;
+        // The tracking (letter spacing) is in dp and does not grow with the
+        // text size: only the rest of the width scales.
+        final tracking = (effective.letterSpacing ?? 0) * widest.runes.length;
+        final glyphs = measured - tracking;
+        if (glyphs <= 0) return child;
         // The scale that makes the text fit, with a margin of a pixel.
-        final cap = ((room - 1) * factor / measured).clamp(0.0, factor);
+        final cap = ((room - 1 - tracking) * factor / glyphs).clamp(
+          0.0,
+          factor,
+        );
         if (cap >= factor) return child;
         return MediaQuery(
           data: data.copyWith(
@@ -82,17 +90,26 @@ class FittedText extends StatelessWidget {
     return effective.merge(const TextStyle(fontWeight: FontWeight.bold));
   }
 
-  /// The width of the text (or of its widest word) at the user's text size.
-  double _measured(BuildContext context, TextStyle style, Locale? locale) {
+  /// The width of the text (or of its widest word) at the user's text size,
+  /// and that text.
+  (double, String) _measured(
+    BuildContext context,
+    TextStyle style,
+    Locale? locale,
+  ) {
     if (fit == FittedTextFit.line) {
-      return textWidth(context, text, style, locale: locale);
+      return (textWidth(context, text, style, locale: locale), text);
     }
     var widest = 0.0;
+    var widestWord = '';
     for (final word in text.split(' ')) {
       if (word.isEmpty) continue;
       final width = textWidth(context, word, style, locale: locale);
-      if (width > widest) widest = width;
+      if (width > widest) {
+        widest = width;
+        widestWord = word;
+      }
     }
-    return widest;
+    return (widest, widestWord);
   }
 }

@@ -20,6 +20,14 @@
   "@bootstrapFailed": {
     "description": "Título del error de arranque (base de datos o banco de preguntas)."
   },
+  "startupFailedTitle": "No se ha podido iniciar la app",
+  "@startupFailedTitle": {
+    "description": "Pantalla de recuperación cuando falla el arranque antes de Inicio (lectura de los ajustes del dispositivo)."
+  },
+  "startupFailedMessage": "Tus datos siguen en el móvil: no se ha borrado nada. Vuelve a intentarlo; si sigue igual, cierra la app del todo y ábrela de nuevo.",
+  "@startupFailedMessage": {
+    "description": "Pantalla de recuperación del arranque: tranquiliza sobre los datos y explica qué hacer."
+  },
   "genericError": "Algo ha fallado. Inténtalo de nuevo.",
   "@genericError": {
     "description": "Mensaje de error genérico, sin detalles técnicos."
@@ -819,9 +827,9 @@
   "@settingsExportTitle": {
     "description": "Título de la fila que guarda el progreso en un archivo."
   },
-  "settingsExportSubtitle": "Guarda tus respuestas, fallos y simulacros en un archivo para cambiar de móvil. Tú eliges dónde.",
+  "settingsExportSubtitle": "Guarda tus respuestas, fallos, simulacros y tu racha diaria en un archivo para cambiar de móvil. Tú eliges dónde.",
   "@settingsExportSubtitle": {
-    "description": "Subtítulo de la fila de exportar."
+    "description": "Subtítulo de la fila de exportar: lo que lleva el archivo (respuestas, fallos, simulacros y racha de la pregunta del día)."
   },
   "settingsImportTitle": "Importar progreso",
   "@settingsImportTitle": {
@@ -1290,6 +1298,14 @@
   "@theoryUnavailableMessage": {
     "description": "Mensaje cuando los resúmenes de teoría no se han podido cargar."
   },
+  "theoryLoadErrorTitle": "No se ha podido cargar la teoría",
+  "@theoryLoadErrorTitle": {
+    "description": "Teoría: título cuando el contenido de teoría falla al cargarse o no supera la comprobación, y se puede reintentar."
+  },
+  "theoryLoadErrorMessage": "Tu progreso no se ha visto afectado. Vuelve a intentarlo; si sigue igual, actualiza la app.",
+  "@theoryLoadErrorMessage": {
+    "description": "Teoría: mensaje bajo el título de error de carga, junto al botón Reintentar."
+  },
   "mockFlagAction": "Marcar como dudosa",
   "@mockFlagAction": {
     "description": "Simulacro: botón que marca la pregunta actual como dudosa para revisarla antes de entregar."
@@ -1515,7 +1531,7 @@
   },
   "dailyStreak": "{count, plural, =1{Racha de 1 día} other{Racha de {count} días}}",
   "@dailyStreak": {
-    "description": "Días seguidos respondiendo la pregunta del día (insignia de la tarjeta).",
+    "description": "Días seguidos respondiendo la pregunta del día (insignia de la tarjeta y racha que trae el archivo de progreso importado).",
     "placeholders": {
       "count": {
         "type": "int"

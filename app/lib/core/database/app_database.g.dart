@@ -1349,6 +1349,15 @@ class $SrsStateTable extends SrsState
     type: DriftSqlType.dateTime,
     requiredDuringInsert: false,
   ).withConverter<DateTime?>($SrsStateTable.$converterlastAnsweredAtn);
+  static const VerificationMeta _dueDayMeta = const VerificationMeta('dueDay');
+  @override
+  late final GeneratedColumn<String> dueDay = GeneratedColumn<String>(
+    'due_day',
+    aliasedName,
+    true,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+  );
   @override
   List<GeneratedColumn> get $columns => [
     questionId,
@@ -1357,6 +1366,7 @@ class $SrsStateTable extends SrsState
     reps,
     lapses,
     lastAnsweredAt,
+    dueDay,
   ];
   @override
   String get aliasedName => _alias ?? actualTableName;
@@ -1402,6 +1412,12 @@ class $SrsStateTable extends SrsState
     } else if (isInserting) {
       context.missing(_lapsesMeta);
     }
+    if (data.containsKey('due_day')) {
+      context.handle(
+        _dueDayMeta,
+        dueDay.isAcceptableOrUnknown(data['due_day']!, _dueDayMeta),
+      );
+    }
     return context;
   }
 
@@ -1439,6 +1455,10 @@ class $SrsStateTable extends SrsState
           data['${effectivePrefix}last_answered_at'],
         ),
       ),
+      dueDay: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}due_day'],
+      ),
     );
   }
 
@@ -1462,6 +1482,11 @@ class SrsStateRow extends DataClass implements Insertable<SrsStateRow> {
   final int reps;
   final int lapses;
   final DateTime? lastAnsweredAt;
+
+  /// The calendar day the card is due (`YYYY-MM-DD`), so a review planned
+  /// for a day stays on that day when the phone changes its zone (schema v5).
+  /// Null for the cards written before: they keep using `due_at`.
+  final String? dueDay;
   const SrsStateRow({
     required this.questionId,
     required this.box,
@@ -1469,6 +1494,7 @@ class SrsStateRow extends DataClass implements Insertable<SrsStateRow> {
     required this.reps,
     required this.lapses,
     this.lastAnsweredAt,
+    this.dueDay,
   });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
@@ -1487,6 +1513,9 @@ class SrsStateRow extends DataClass implements Insertable<SrsStateRow> {
         $SrsStateTable.$converterlastAnsweredAtn.toSql(lastAnsweredAt),
       );
     }
+    if (!nullToAbsent || dueDay != null) {
+      map['due_day'] = Variable<String>(dueDay);
+    }
     return map;
   }
 
@@ -1500,6 +1529,9 @@ class SrsStateRow extends DataClass implements Insertable<SrsStateRow> {
       lastAnsweredAt: lastAnsweredAt == null && nullToAbsent
           ? const Value.absent()
           : Value(lastAnsweredAt),
+      dueDay: dueDay == null && nullToAbsent
+          ? const Value.absent()
+          : Value(dueDay),
     );
   }
 
@@ -1515,6 +1547,7 @@ class SrsStateRow extends DataClass implements Insertable<SrsStateRow> {
       reps: serializer.fromJson<int>(json['reps']),
       lapses: serializer.fromJson<int>(json['lapses']),
       lastAnsweredAt: serializer.fromJson<DateTime?>(json['lastAnsweredAt']),
+      dueDay: serializer.fromJson<String?>(json['dueDay']),
     );
   }
   @override
@@ -1527,6 +1560,7 @@ class SrsStateRow extends DataClass implements Insertable<SrsStateRow> {
       'reps': serializer.toJson<int>(reps),
       'lapses': serializer.toJson<int>(lapses),
       'lastAnsweredAt': serializer.toJson<DateTime?>(lastAnsweredAt),
+      'dueDay': serializer.toJson<String?>(dueDay),
     };
   }
 
@@ -1537,6 +1571,7 @@ class SrsStateRow extends DataClass implements Insertable<SrsStateRow> {
     int? reps,
     int? lapses,
     Value<DateTime?> lastAnsweredAt = const Value.absent(),
+    Value<String?> dueDay = const Value.absent(),
   }) => SrsStateRow(
     questionId: questionId ?? this.questionId,
     box: box ?? this.box,
@@ -1546,6 +1581,7 @@ class SrsStateRow extends DataClass implements Insertable<SrsStateRow> {
     lastAnsweredAt: lastAnsweredAt.present
         ? lastAnsweredAt.value
         : this.lastAnsweredAt,
+    dueDay: dueDay.present ? dueDay.value : this.dueDay,
   );
   SrsStateRow copyWithCompanion(SrsStateCompanion data) {
     return SrsStateRow(
@@ -1559,6 +1595,7 @@ class SrsStateRow extends DataClass implements Insertable<SrsStateRow> {
       lastAnsweredAt: data.lastAnsweredAt.present
           ? data.lastAnsweredAt.value
           : this.lastAnsweredAt,
+      dueDay: data.dueDay.present ? data.dueDay.value : this.dueDay,
     );
   }
 
@@ -1570,14 +1607,15 @@ class SrsStateRow extends DataClass implements Insertable<SrsStateRow> {
           ..write('dueAt: $dueAt, ')
           ..write('reps: $reps, ')
           ..write('lapses: $lapses, ')
-          ..write('lastAnsweredAt: $lastAnsweredAt')
+          ..write('lastAnsweredAt: $lastAnsweredAt, ')
+          ..write('dueDay: $dueDay')
           ..write(')'))
         .toString();
   }
 
   @override
   int get hashCode =>
-      Object.hash(questionId, box, dueAt, reps, lapses, lastAnsweredAt);
+      Object.hash(questionId, box, dueAt, reps, lapses, lastAnsweredAt, dueDay);
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
@@ -1587,7 +1625,8 @@ class SrsStateRow extends DataClass implements Insertable<SrsStateRow> {
           other.dueAt == this.dueAt &&
           other.reps == this.reps &&
           other.lapses == this.lapses &&
-          other.lastAnsweredAt == this.lastAnsweredAt);
+          other.lastAnsweredAt == this.lastAnsweredAt &&
+          other.dueDay == this.dueDay);
 }
 
 class SrsStateCompanion extends UpdateCompanion<SrsStateRow> {
@@ -1597,6 +1636,7 @@ class SrsStateCompanion extends UpdateCompanion<SrsStateRow> {
   final Value<int> reps;
   final Value<int> lapses;
   final Value<DateTime?> lastAnsweredAt;
+  final Value<String?> dueDay;
   final Value<int> rowid;
   const SrsStateCompanion({
     this.questionId = const Value.absent(),
@@ -1605,6 +1645,7 @@ class SrsStateCompanion extends UpdateCompanion<SrsStateRow> {
     this.reps = const Value.absent(),
     this.lapses = const Value.absent(),
     this.lastAnsweredAt = const Value.absent(),
+    this.dueDay = const Value.absent(),
     this.rowid = const Value.absent(),
   });
   SrsStateCompanion.insert({
@@ -1614,6 +1655,7 @@ class SrsStateCompanion extends UpdateCompanion<SrsStateRow> {
     required int reps,
     required int lapses,
     this.lastAnsweredAt = const Value.absent(),
+    this.dueDay = const Value.absent(),
     this.rowid = const Value.absent(),
   }) : questionId = Value(questionId),
        box = Value(box),
@@ -1627,6 +1669,7 @@ class SrsStateCompanion extends UpdateCompanion<SrsStateRow> {
     Expression<int>? reps,
     Expression<int>? lapses,
     Expression<DateTime>? lastAnsweredAt,
+    Expression<String>? dueDay,
     Expression<int>? rowid,
   }) {
     return RawValuesInsertable({
@@ -1636,6 +1679,7 @@ class SrsStateCompanion extends UpdateCompanion<SrsStateRow> {
       if (reps != null) 'reps': reps,
       if (lapses != null) 'lapses': lapses,
       if (lastAnsweredAt != null) 'last_answered_at': lastAnsweredAt,
+      if (dueDay != null) 'due_day': dueDay,
       if (rowid != null) 'rowid': rowid,
     });
   }
@@ -1647,6 +1691,7 @@ class SrsStateCompanion extends UpdateCompanion<SrsStateRow> {
     Value<int>? reps,
     Value<int>? lapses,
     Value<DateTime?>? lastAnsweredAt,
+    Value<String?>? dueDay,
     Value<int>? rowid,
   }) {
     return SrsStateCompanion(
@@ -1656,6 +1701,7 @@ class SrsStateCompanion extends UpdateCompanion<SrsStateRow> {
       reps: reps ?? this.reps,
       lapses: lapses ?? this.lapses,
       lastAnsweredAt: lastAnsweredAt ?? this.lastAnsweredAt,
+      dueDay: dueDay ?? this.dueDay,
       rowid: rowid ?? this.rowid,
     );
   }
@@ -1685,6 +1731,9 @@ class SrsStateCompanion extends UpdateCompanion<SrsStateRow> {
         $SrsStateTable.$converterlastAnsweredAtn.toSql(lastAnsweredAt.value),
       );
     }
+    if (dueDay.present) {
+      map['due_day'] = Variable<String>(dueDay.value);
+    }
     if (rowid.present) {
       map['rowid'] = Variable<int>(rowid.value);
     }
@@ -1700,6 +1749,7 @@ class SrsStateCompanion extends UpdateCompanion<SrsStateRow> {
           ..write('reps: $reps, ')
           ..write('lapses: $lapses, ')
           ..write('lastAnsweredAt: $lastAnsweredAt, ')
+          ..write('dueDay: $dueDay, ')
           ..write('rowid: $rowid')
           ..write(')'))
         .toString();
@@ -3217,6 +3267,7 @@ typedef $$SrsStateTableCreateCompanionBuilder = SrsStateCompanion Function({
   required int reps,
   required int lapses,
   Value<DateTime?> lastAnsweredAt,
+  Value<String?> dueDay,
   Value<int> rowid,
 });
 typedef $$SrsStateTableUpdateCompanionBuilder = SrsStateCompanion Function({
@@ -3226,6 +3277,7 @@ typedef $$SrsStateTableUpdateCompanionBuilder = SrsStateCompanion Function({
   Value<int> reps,
   Value<int> lapses,
   Value<DateTime?> lastAnsweredAt,
+  Value<String?> dueDay,
   Value<int> rowid,
 });
 
@@ -3269,6 +3321,11 @@ class $$SrsStateTableFilterComposer
     column: $table.lastAnsweredAt,
     builder: (column) => ColumnWithTypeConverterFilters(column),
   );
+
+  ColumnFilters<String> get dueDay => $composableBuilder(
+    column: $table.dueDay,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
 class $$SrsStateTableOrderingComposer
@@ -3309,6 +3366,11 @@ class $$SrsStateTableOrderingComposer
     column: $table.lastAnsweredAt,
     builder: (column) => ColumnOrderings(column),
   );
+
+  ColumnOrderings<String> get dueDay => $composableBuilder(
+    column: $table.dueDay,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
 class $$SrsStateTableAnnotationComposer
@@ -3342,6 +3404,9 @@ class $$SrsStateTableAnnotationComposer
         column: $table.lastAnsweredAt,
         builder: (column) => column,
       );
+
+  GeneratedColumn<String> get dueDay =>
+      $composableBuilder(column: $table.dueDay, builder: (column) => column);
 }
 
 class $$SrsStateTableTableManager
@@ -3381,6 +3446,7 @@ class $$SrsStateTableTableManager
                 Value<int> reps = const Value.absent(),
                 Value<int> lapses = const Value.absent(),
                 Value<DateTime?> lastAnsweredAt = const Value.absent(),
+                Value<String?> dueDay = const Value.absent(),
                 Value<int> rowid = const Value.absent(),
               }) => SrsStateCompanion(
                 questionId: questionId,
@@ -3389,6 +3455,7 @@ class $$SrsStateTableTableManager
                 reps: reps,
                 lapses: lapses,
                 lastAnsweredAt: lastAnsweredAt,
+                dueDay: dueDay,
                 rowid: rowid,
               ),
           createCompanionCallback:
@@ -3399,6 +3466,7 @@ class $$SrsStateTableTableManager
                 required int reps,
                 required int lapses,
                 Value<DateTime?> lastAnsweredAt = const Value.absent(),
+                Value<String?> dueDay = const Value.absent(),
                 Value<int> rowid = const Value.absent(),
               }) => SrsStateCompanion.insert(
                 questionId: questionId,
@@ -3407,6 +3475,7 @@ class $$SrsStateTableTableManager
                 reps: reps,
                 lapses: lapses,
                 lastAnsweredAt: lastAnsweredAt,
+                dueDay: dueDay,
                 rowid: rowid,
               ),
           withReferenceMapper: (p0) => p0

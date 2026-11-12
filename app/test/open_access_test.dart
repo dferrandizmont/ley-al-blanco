@@ -183,6 +183,6 @@ void main() {
     expect(exported['settings'], {'theme_mode': 'dark'});
     final mock = await c.read(mockServiceProvider).startMock(timed: false);
     expect(mock.questions, hasLength(20));
-    expect(db.schemaVersion, 4);
+    expect(db.schemaVersion, 5);
   });
 }

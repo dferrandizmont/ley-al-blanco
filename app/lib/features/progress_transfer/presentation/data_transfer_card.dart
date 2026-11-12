@@ -286,6 +286,9 @@ class _ConfirmImportDialog extends StatelessWidget {
       ),
       l10n.settingsImportSummaryMocks(s.mocks.length),
       l10n.settingsImportSummaryReview(s.srs.length),
+      // The streak of the question of the day, when the file has one (the
+      // files written before it travelled do not).
+      if (s.daily != null) l10n.dailyStreak(s.daily!.streak),
       l10n.settingsImportSummaryDate(
         const AppDateFormat().dayMonthYear(s.exportedAt),
       ),
