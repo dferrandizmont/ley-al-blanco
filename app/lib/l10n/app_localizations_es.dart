@@ -1164,4 +1164,11 @@ class AppLocalizationsEs extends AppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get settingsRateTitle => 'Valorar Ley al Blanco';
+
+  @override
+  String get settingsRateSubtitle =>
+      'Una reseña ayuda a que otros la encuentren';
 }

@@ -10,6 +10,7 @@ import 'core/theme/app_theme.dart';
 import 'core/theme/theme_mode_setting.dart';
 import 'core/widgets/error_state.dart';
 import 'features/progress/presentation/progress_warmup.dart';
+import 'features/review/application/review_startup.dart';
 
 class LeyAlBlancoApp extends ConsumerWidget {
   const LeyAlBlancoApp({super.key});
@@ -37,7 +38,9 @@ class LeyAlBlancoApp extends ConsumerWidget {
       debugShowCheckedModeBanner: false,
       builder: (context, child) => AnnotatedRegion<SystemUiOverlayStyle>(
         value: AppTheme.overlayStyle(Theme.of(context).brightness),
-        child: BootstrapGate(child: child ?? const SizedBox.shrink()),
+        child: ReviewStartup(
+          child: BootstrapGate(child: child ?? const SizedBox.shrink()),
+        ),
       ),
     );
   }

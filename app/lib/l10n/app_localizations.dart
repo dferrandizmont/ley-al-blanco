@@ -1728,6 +1728,18 @@ abstract class AppLocalizations {
   /// In es, this message translates to:
   /// **'{count, plural, =1{1 término explicado} other{{count} términos explicados}}'**
   String theoryGlossarySubtitle(int count);
+
+  /// Fila de Ayuda que abre la ficha de la app en la tienda.
+  ///
+  /// In es, this message translates to:
+  /// **'Valorar Ley al Blanco'**
+  String get settingsRateTitle;
+
+  /// Subtítulo de la fila para valorar la app en la tienda.
+  ///
+  /// In es, this message translates to:
+  /// **'Una reseña ayuda a que otros la encuentren'**
+  String get settingsRateSubtitle;
 }
 
 class _AppLocalizationsDelegate

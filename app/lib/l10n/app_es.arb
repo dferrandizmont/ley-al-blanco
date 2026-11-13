@@ -1566,5 +1566,13 @@
         "type": "int"
       }
     }
+  },
+  "settingsRateTitle": "Valorar Ley al Blanco",
+  "@settingsRateTitle": {
+    "description": "Fila de Ayuda que abre la ficha de la app en la tienda."
+  },
+  "settingsRateSubtitle": "Una reseña ayuda a que otros la encuentren",
+  "@settingsRateSubtitle": {
+    "description": "Subtítulo de la fila para valorar la app en la tienda."
   }
 }

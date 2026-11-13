@@ -9,6 +9,14 @@ y en TestFlight sale cada versión; Google Play y la App Store reciben varias ju
 
 ## Sin publicar
 
+## 1.1.0 · 13-nov-2026
+
+- La app también puede pedir una valoración en Google Play tras aprobar simulacros; en Ajustes › Ayuda tienes la nueva fila «Valorar Ley al Blanco».
+
+## 1.0.1 · 12-nov-2026
+
+- En iPhone, después de aprobar tu primer simulacro de cada versión, puede aparecer el aviso de Apple para valorar la app. Es el diálogo del sistema: la app no envía nada y Apple decide si se muestra.
+
 ## 1.0.0 · 09-nov-2026
 
 - Viajar o cambiar de zona horaria ya no rompe la racha de la pregunta del día ni adelanta los repasos: cada repaso se queda en el día que le tocaba y la racha sobrevive al viaje.

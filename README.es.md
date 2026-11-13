@@ -88,8 +88,10 @@ Pulsa una captura para ampliarla.
 
 ## Privacidad
 
-Nada sale del móvil y la app no pide permisos. Sin servidor, analítica ni
-servicios de terceros. El progreso se guarda en el dispositivo; los enlaces
+Tus datos no salen del móvil y la app no pide permisos. No hay servidor ni
+analítica. El único componente de terceros es la biblioteca de valoraciones de
+la tienda; en Android es la de Google Play y también va en el APK de GitHub,
+donde no muestra ninguna ventana. El progreso se guarda en el dispositivo; los enlaces
 externos, el correo y la exportación solo se abren por acción del usuario.
 
 [Web](https://leyalblanco.mainshai.com) · [Política de privacidad](https://leyalblanco.mainshai.com/privacy/) · Soporte: **leyalblanco@mainshai.com**.

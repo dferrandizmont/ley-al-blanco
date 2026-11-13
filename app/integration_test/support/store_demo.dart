@@ -6,9 +6,9 @@ import 'package:apto_armas/features/quiz/domain/attempt.dart';
 import '../../test/helpers.dart' show kTestNow;
 import '../../test/support/study_support.dart' show attemptOn;
 
-// Demo data of the App Store screenshots (the same five screens as
-// `docs/readme/es/`). Pure functions of the bank and the fixed clock, so the
-// pictures are reproducible. No personal data: a made-up student.
+// Demo data of the App Store screenshots. Pure functions of the bank and the
+// fixed clock, so the pictures are reproducible. No personal data: a made-up
+// student.
 
 /// Share of each tema's questions the made-up student has seen.
 const Map<int, double> kDemoCoverage = {
@@ -77,6 +77,10 @@ List<Attempt> demoProgress(List<Question> bank, {DateTime? now}) {
 /// Elapsed time of the mock of the result screen.
 const Duration kDemoMockTime = Duration(minutes: 20, seconds: 31);
 
-/// Random seed with which the figures deck starts on t4-032 (the licence
-/// question), found by trying seeds against the bank of GC-2020-11.
-const int kDemoFiguresSeed = 170;
+/// Practice question of the "explained" shot: answered, with the verdict, our
+/// explanation and its article; no reform flag.
+const String kDemoExplainedId = 't2-010';
+
+/// Practice question of the "reform" shot: its official answer comes from a
+/// repealed law, so the reform notice shows above the explanation.
+const String kDemoReformId = 't5-010';

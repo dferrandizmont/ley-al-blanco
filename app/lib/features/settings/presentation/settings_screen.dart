@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/semantics.dart' show SemanticsRole;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -14,6 +16,7 @@ import '../../../core/widgets/page_body.dart';
 import '../../../core/widgets/raised_card.dart';
 import '../../content/data/content_manifest.dart';
 import '../../progress_transfer/presentation/data_transfer_card.dart';
+import '../../review/application/review_providers.dart';
 import '../application/settings_providers.dart';
 
 /// Appearance, progress transfer, bank details, help and licenses.
@@ -434,6 +437,14 @@ class _HelpCard extends ConsumerWidget {
             applicationName: l10n.appTitle,
             applicationVersion: version,
           ),
+        ),
+        const CardDivider(),
+        _LinkRow(
+          title: l10n.settingsRateTitle,
+          subtitle: l10n.settingsRateSubtitle,
+          icon: Icons.open_in_new_rounded,
+          onTap: () =>
+              unawaited(ref.read(reviewServiceProvider).openStoreListing()),
         ),
       ],
     );

@@ -89,8 +89,10 @@ Tap a screenshot to enlarge it.
 
 ## Privacy
 
-Nothing leaves your phone and the app asks for no permissions. No server, no
-analytics and no third-party services. Your progress is stored on the device;
+Your data does not leave your phone and the app asks for no permissions. There
+is no server and no analytics. The only third-party component is the store's
+rating library; on Android it is Google Play's, and it also ships in the GitHub
+APK, where it shows nothing. Your progress is stored on the device;
 external links, email and export only open when you ask for them.
 
 [Website](https://leyalblanco.mainshai.com) · [Privacy policy](https://leyalblanco.mainshai.com/privacy/) · Support: **leyalblanco@mainshai.com**.

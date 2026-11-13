@@ -18,9 +18,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../test/helpers.dart' show kTestNow;
 import '../test/support/screen_support.dart';
-import '../test/support/study_support.dart' show wrongOption;
+import '../test/support/study_support.dart' show attemptOn, wrongOption;
 import 'support/qa_harness.dart' show QaTester;
-import 'support/qa_texts.dart' show T;
 import 'support/store_demo.dart';
 
 /// Driver of the App Store screenshots taken on a REAL iOS simulator.
@@ -33,9 +32,9 @@ import 'support/store_demo.dart';
 /// test POSTs `capture/<name>` and answers only after saving it; the test
 /// stays on the screen until then.
 ///
-/// The five scenes are the five screens of `docs/readme/es/` (home with the
-/// chance of passing, mock result, Fallos, a figures card and the glossary),
-/// light theme, text scale 1, with the demo data of `support/store_demo.dart`
+/// The six scenes are the screens of the App Store listing (a practice
+/// question explained, mock result, Teoria, a question with its reform notice,
+/// home with the chance of passing and Fallos), light theme, text scale 1, with the demo data of `support/store_demo.dart`
 /// and the fixed clock of Thu 15 Oct 2026 18:30. The pictures are the raw app
 /// screen: the shared styler (`store_shots.py`) adds the frame and the title.
 /// What is real: the app, the bundled bank and its import, a Drift file in the
@@ -48,11 +47,12 @@ const String _bridge = String.fromEnvironment('SCREENSHOT_BRIDGE');
 typedef _Scene = Future<void> Function(WidgetTester tester);
 
 const _scenes = <(String, _Scene)>[
-  ('01-probabilidad', _sceneHome),
+  ('01-explicada', _sceneExplained),
   ('02-simulacro', _sceneMockApto),
-  ('03-fallos', _sceneMistakes),
-  ('04-tarjetas-cifras', _sceneFiguresCard),
-  ('05-glosario', _sceneGlossary),
+  ('03-teoria', _sceneTheory),
+  ('04-reforma', _sceneReformNotice),
+  ('05-probabilidad', _sceneHome),
+  ('06-fallos', _sceneMistakes),
 ];
 
 void main() {
@@ -82,10 +82,7 @@ void main() {
       }
 
       for (final (name, scene) in _scenes) {
-        final app = await _launch(
-          tester,
-          figuresDeck: name == '04-tarjetas-cifras',
-        );
+        final app = await _launch(tester);
         try {
           await scene(tester);
           await tester.pumpAndSettle();
@@ -130,11 +127,7 @@ DateTime _now = kTestNow;
 
 /// Boots the real app over a fresh database file, empty preferences, the
 /// fixed clock and the seed of the store scenes, light theme, text scale 1.
-/// [figuresDeck] picks the seed with which the figures deck starts on t4-032.
-Future<_Running> _launch(
-  WidgetTester tester, {
-  bool figuresDeck = false,
-}) async {
+Future<_Running> _launch(WidgetTester tester) async {
   _now = kTestNow;
   tester.platformDispatcher.textScaleFactorTestValue = 1;
   tester.platformDispatcher.platformBrightnessTestValue = Brightness.light;
@@ -155,9 +148,7 @@ Future<_Running> _launch(
       overrides: [
         sharedPreferencesProvider.overrideWithValue(prefs),
         clockProvider.overrideWithValue(() => _now),
-        randomProvider.overrideWithValue(
-          Random(figuresDeck ? kDemoFiguresSeed : 7),
-        ),
+        randomProvider.overrideWithValue(Random(7)),
         appDatabaseProvider.overrideWith((ref) {
           final db = AppDatabase(
             driftDatabase(
@@ -183,7 +174,7 @@ Future<_Running> _launch(
 }
 
 // ---------------------------------------------------------------------------
-// Scenes (the five screens of docs/readme/es/)
+// Scenes (the six screens of the App Store listing)
 // ---------------------------------------------------------------------------
 
 /// Records the demo student's attempts (see `support/store_demo.dart`).
@@ -227,13 +218,48 @@ Future<void> _sceneMistakes(WidgetTester tester) async {
   await pushRoute(tester, '/fallos');
 }
 
-/// A figures card with the answer revealed (t4-032, first of 76).
-Future<void> _sceneFiguresCard(WidgetTester tester) async {
-  await pushRoute(tester, '/cifras/tarjetas');
-  await tester.tapText(T.verRespuesta);
+/// Teoria: the seven temas, practical exam, AEM and glossary.
+Future<void> _sceneTheory(WidgetTester tester) => pushRoute(tester, '/teoria');
+
+/// A tema practice that starts on question [id]: the questions of its tema
+/// that come before it are recorded as answered (the practice resumes at the
+/// first one never answered), then the official answer is picked. With
+/// [showArticle] the card is scrolled down to the cited article; without it
+/// the screen stays on top, with the stem and the options in view.
+Future<void> _practiceAnswered(
+  WidgetTester tester,
+  String id, {
+  required bool showArticle,
+}) async {
+  final bank = await bankOf(tester);
+  final question = bank.firstWhere((q) => q.id == id);
+  final before = bank
+      .where((q) => q.tema == question.tema)
+      .takeWhile((q) => q.id != id);
+  await containerOf(tester).read(studyServiceProvider).recordAnswers([
+    for (final q in before)
+      attemptOn(
+        q,
+        correct: true,
+        at: kTestNow.subtract(const Duration(days: 1)),
+      ),
+  ]);
+  await pushRoute(tester, '/tema/${question.tema}');
+  await tapOption(tester, question.answer);
   await tester.pumpAndSettle();
+  final article = find.text(question.article!);
+  if (showArticle && article.evaluate().isNotEmpty) {
+    await tester.ensureVisible(article.first);
+    await tester.pumpAndSettle();
+  }
 }
 
-/// Theory, glossary.
-Future<void> _sceneGlossary(WidgetTester tester) =>
-    pushRoute(tester, '/teoria/glosario');
+/// A practice question answered right, with the verdict, our explanation and
+/// its article (t2-010, no reform flag).
+Future<void> _sceneExplained(WidgetTester tester) =>
+    _practiceAnswered(tester, kDemoExplainedId, showArticle: true);
+
+/// A practice question answered right whose official answer comes from a
+/// repealed law: the reform notice shows above the explanation (t5-010).
+Future<void> _sceneReformNotice(WidgetTester tester) =>
+    _practiceAnswered(tester, kDemoReformId, showArticle: false);

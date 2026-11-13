@@ -19,6 +19,7 @@ import '../../../core/widgets/scroll_edge_fade.dart';
 import '../../../core/widgets/text_width.dart';
 import '../../quiz/domain/quiz_session.dart';
 import '../../quiz/presentation/practice_screen.dart' show optionLetter;
+import '../../review/application/review_providers.dart';
 import '../application/mock_controller.dart';
 import '../application/mock_providers.dart' show mockRepositoryProvider;
 import '../domain/mock_timer.dart';
@@ -90,8 +91,12 @@ class _MockScreenState extends ConsumerState<MockScreen> {
       cancel: l10n.mockSubmitKeep,
     );
     if (!ok || !mounted) return;
+    // Read before the hand-in: the screen is replaced by the result.
+    final review = ref.read(reviewServiceProvider);
     try {
-      await _controller.submit();
+      final result = await _controller.submit();
+      // The store decides whether to show its sheet over the result.
+      unawaited(review.afterMock(passed: result.passed));
     } catch (_) {
       // "Already finished" (handed in elsewhere, or by an earlier attempt whose
       // answer got lost) is not a failure: the result is there.

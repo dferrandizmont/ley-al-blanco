@@ -5,7 +5,7 @@ No es asesoramiento jurídico. Resume qué hace la app con los datos; revisar co
 ## Flujo de datos (decisión del dueño, 26-oct-2026)
 - **Nada sale del móvil desde la app.** Progreso, fallos, repaso espaciado, simulacros y ajustes viven en Drift; la racha de la pregunta del día también es local y solo sale en el archivo de progreso que el usuario exporta.
 - App 100 % gratuita y de código abierto: código MIT y contenido propio CC BY-SA 4.0; el repositorio está publicado en https://github.com/dferrandizmont/ley-al-blanco. Banco y teoría incluidos, disponibles sin conexión y sin cuentas.
-- Sin compras, anuncios, analítica, identificadores de instalación ni servicios de terceros. No se transmiten informes de errores; el manejo de fallos usa únicamente el registro local del sistema.
+- Sin compras, anuncios, analítica ni identificadores de instalación. Único componente de terceros: la biblioteca de valoraciones de Google Play (`in_app_review`, con Play Review y play-services-base) en Android; en iOS, StoreKit del sistema. No se transmiten informes de errores; el manejo de fallos usa únicamente el registro local del sistema.
 - Las claves antiguas de compras e informes de errores se conservan sin uso por compatibilidad; no se consultan ni se exportan.
 
 ## Exportar e importar progreso
@@ -24,11 +24,15 @@ Las copias del sistema operativo, si el usuario las habilita, las gestiona su cu
 
 «Escribir a soporte» y «¿Ves un error? Avísanos» abren el correo del usuario, que puede revisar y enviar el mensaje. Soporte: **leyalblanco@mainshai.com** (hasta el 30-oct-2026, dev@mainshai.com). El soporte incluye versión de app y sistema; el aviso de una pregunta añade el contenido de esa pregunta, nunca progreso ni identificadores.
 
+**Valoración en iPhone (1.0.1, 12-nov-2026; sustituido por el párrafo siguiente):** tras el primer simulacro apto de cada versión, la app pide a iOS el diálogo de valoración del sistema (StoreKit, `AppStore.requestReview`). Es el diálogo de Apple: la app no envía ningún dato, no sabe si el usuario valora ni qué pone, y Apple decide si se muestra (como mucho tres veces al año; en TestFlight nunca). En el móvil solo se guarda la versión en la que se pidió, para no repetirlo. En Android no hace nada.
+
+**Valoración en Android e iOS con `in_app_review` (desde la versión siguiente a la 1.0.1, 13-nov-2026, decisión del dueño):** sustituye al canal nativo de iOS. Tras un simulacro apto, la app pide a la tienda su ventana de valoración (Play In-App Review en Android, StoreKit en iOS) solo si han pasado 7 días desde la primera apertura, se ha abierto 5 días distintos, hay al menos un simulacro terminado, no se ha importado progreso en los últimos 7 días, y como mucho 3 veces, una por versión y con 90 días entre ellas. Ajustes > Ayuda > «Valorar Ley al Blanco» abre la ficha de la tienda. La app solo pasa a la tienda el identificador de la app (nombre de paquete), nunca uno del usuario o del dispositivo; las reseñas son públicas y el dueño las ve en Play Console y App Store Connect. Se guarda en `SharedPreferences` (`review.state`): primera apertura, días de apertura, última importación, fechas y versiones de las peticiones; no va en la exportación de progreso, pero sí en la copia del sistema si está activada. Data safety de Play: «no se recogen ni comparten datos» (decisión del dueño, 13-nov-2026; razonamiento en `docs/play-console.md` §10). El dueño acepta que el APK de GitHub lleve estas bibliotecas propietarias de Google; fuera de Play no se muestra ninguna ventana.
+
 La fuente y la política de privacidad se abren en el navegador externo solo al pulsar sus enlaces. `SUPPORT_EMAIL` y `PRIVACY_URL` se mantienen como opciones del build; vacíos ocultan esas filas. «Licencias de código abierto» está siempre disponible y se abre sin conexión.
 
 ## Declaraciones en tiendas
 - App Store, App Privacy: **no se recogen datos**, sin seguimiento ni compras dentro de la app.
-- Google Play, Seguridad de los datos: **no se recogen ni comparten datos** desde la app; sin anuncios ni compras. No hay cuentas que borrar; el progreso se elimina desde el sistema o desinstalando.
+- Google Play, Seguridad de los datos: **no se recogen ni comparten datos** desde la app (también con la valoración en la tienda, ver arriba); sin anuncios ni compras. No hay cuentas que borrar; el progreso se elimina desde el sistema o desinstalando.
 - Revisar los formularios definitivos y publicar una URL de política coherente con estos hechos.
 
 ## Atribución del cuestionario

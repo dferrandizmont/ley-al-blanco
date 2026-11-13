@@ -5,7 +5,7 @@ publish_to: 'none'
 
 # version: build-name+build-number (Android versionName/versionCode, iOS
 # CFBundleShortVersionString/CFBundleVersion).
-version: 1.0.0+2101
+version: 1.1.0+2102
 
 environment:
   sdk: ^3.13.0
@@ -25,6 +25,7 @@ dependencies:
   shared_preferences: ^2.5.6
   crypto: ^3.0.7
   package_info_plus: ^10.2.2
+  in_app_review: ^2.0.12
   url_launcher: ^6.3.3
   drift: ^2.35.2
   drift_flutter: ^0.3.1

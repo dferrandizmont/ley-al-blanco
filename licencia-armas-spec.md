@@ -100,7 +100,7 @@ App para aprobar a la primera el examen teórico de la licencia de armas D, E y 
 3. **Simulacro real:** 20 preguntas con reparto por tema, aprobado con 16, cronómetro opcional, revisión al final.
 4. **Repaso de fallos** que reúna los errores de **todos** los modos (es una queja concreta contra la competencia).
 5. **Repetición espaciada** y **«probabilidad de aprobar»**. Como el examen sale de un banco cerrado, la probabilidad se calcula simulando miles de exámenes con el dominio que tiene el usuario de cada pregunta.
-6. **Gratis y de código abierto (decisión del dueño, 26-oct-2026):** los siete temas, teoría, simulacros ilimitados, cifras y tarjetas están abiertos para todos. Sin compras, anuncios, suscripción ni servicios de terceros.
+6. **Gratis y de código abierto (decisión del dueño, 26-oct-2026):** los siete temas, teoría, simulacros ilimitados, cifras y tarjetas están abiertos para todos. Sin compras, anuncios, suscripción ni servicios de terceros. Única excepción (decisión del dueño, 13-nov-2026): la petición de valoración en la tienda con `in_app_review`, que solo indica a la tienda de qué app se trata.
 7. Sin conexión, sin cuenta, modo oscuro y textos grandes.
 
 ### P1
@@ -173,7 +173,7 @@ Pila: **Flutter + Riverpod + go_router + Drift**, sin servidor.
 Decisión del dueño del **26-oct-2026**, que sustituye cualquier propuesta anterior de pago:
 - App 100 % gratuita en Google Play, App Store y GitHub Releases (F-Droid descartado por el dueño el 26-oct-2026).
 - Los siete temas, toda la teoría, cifras, tarjetas, repaso y simulacros ilimitados abiertos para todos.
-- Sin compras, suscripciones, anuncios ni servicios de terceros. Nada se envía desde la app.
+- Sin compras, suscripciones, anuncios ni servicios de terceros. Nada se envía desde la app. Única excepción (decisión del dueño, 13-nov-2026): la petición de valoración en la tienda con `in_app_review`, que solo indica a la tienda de qué app se trata.
 - Código [MIT](LICENSE); contenido propio [CC BY-SA 4.0](LICENSE-CONTENT.md). La atribución del cuestionario de la Guardia Civil se conserva; no está cubierto por esas licencias.
 - Sin dependencias privativas (sin SDK de terceros).
 

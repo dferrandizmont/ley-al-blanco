@@ -1,4 +1,5 @@
 id = "ley-al-blanco"
+version = "1.0.0"
 domain = "leyalblanco.mainshai.com"
 languages = ["es"]
 default_language = "es"

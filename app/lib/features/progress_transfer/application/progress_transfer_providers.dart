@@ -8,6 +8,7 @@ import '../../../core/theme/theme_mode_setting.dart';
 import '../../content/content_constants.dart';
 import '../../daily/application/daily_providers.dart';
 import '../../mock/application/mock_providers.dart';
+import '../../review/application/review_providers.dart';
 import '../../settings/application/settings_providers.dart';
 import '../data/progress_codec_runner.dart';
 import '../data/progress_file_store.dart';
@@ -112,21 +113,27 @@ class ProgressTransfer {
   /// Writes [plan] (all or nothing) and refreshes everything that shows
   /// progress, so no restart is needed.
   Future<void> apply(ProgressImportPlan plan) async {
-    await _ref
-        .read(progressTransferRepositoryProvider)
-        .replaceWith(plan.snapshot);
-    refreshProgressProviders();
-    // The daily state was replaced (or cleared): the streak of Inicio must
-    // be the new one. It is reloaded, not invalidated: see
-    // [DailyProgressController.reload].
-    await _ref.read(dailyProgressProvider.notifier).reload();
-    // The theme is set through its notifier (no flash back to the old one);
-    // a file without a theme leaves the current one alone.
-    final theme = plan.snapshot.settings.themeMode;
-    if (theme != null) {
+    final review = _ref.read(reviewServiceProvider);
+    await review.beginImport();
+    try {
       await _ref
-          .read(themeModeProvider.notifier)
-          .set(ThemeModeSetting.parse(theme));
+          .read(progressTransferRepositoryProvider)
+          .replaceWith(plan.snapshot);
+      refreshProgressProviders();
+      // The daily state was replaced (or cleared): the streak of Inicio must
+      // be the new one. It is reloaded, not invalidated: see
+      // [DailyProgressController.reload].
+      await _ref.read(dailyProgressProvider.notifier).reload();
+      // The theme is set through its notifier (no flash back to the old one);
+      // a file without a theme leaves the current one alone.
+      final theme = plan.snapshot.settings.themeMode;
+      if (theme != null) {
+        await _ref
+            .read(themeModeProvider.notifier)
+            .set(ThemeModeSetting.parse(theme));
+      }
+    } finally {
+      await review.endImport();
     }
   }
 
