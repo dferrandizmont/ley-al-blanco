@@ -21,26 +21,13 @@ con explicaciones, teoría y simulacros para estudiar a tu ritmo.
 ## Descargas
 
 <p>
-  <a href="https://play.google.com/apps/testing/es.leyalblanco.app"><img src="https://img.shields.io/badge/Google_Play-Beta-414141?logo=googleplay&style=for-the-badge" alt="Beta en Google Play"></a>
+  <a href="https://play.google.com/store/apps/details?id=es.leyalblanco.app"><img src="https://img.shields.io/badge/Google_Play-Disponible_en_Google_Play-414141?logo=googleplay&style=for-the-badge" alt="Disponible en Google Play"></a>
   <a href="https://github.com/dferrandizmont/ley-al-blanco/releases/latest"><img src="https://img.shields.io/badge/Disponible_en-GitHub-181717?logo=github&style=for-the-badge" alt="Disponible en GitHub"></a>
   <a href="https://apps.apple.com/es/app/ley-al-blanco-armas-d-y-e/id6831621176"><img src="https://img.shields.io/badge/App_Store-Descargar-0D96F6?logo=appstore&style=for-the-badge" alt="Disponible en App Store"></a>
 </p>
 
-En la App Store para iPhone (España) y en Android, con la beta de Google Play o el
-APK. Todos los temas y modos están abiertos, con modo claro y oscuro.
-
-<details>
-<summary>Únete a la beta de Google Play</summary>
-
-La app está en prueba cerrada en Google Play y cualquiera puede apuntarse:
-
-1. Únete al grupo de testers: [ley-al-blanco-testers](https://groups.google.com/g/ley-al-blanco-testers). Con tu cuenta de Google, pulsa «Unirse al grupo».
-2. Acepta la prueba desde el móvil o el ordenador: [play.google.com/apps/testing/es.leyalblanco.app](https://play.google.com/apps/testing/es.leyalblanco.app).
-3. Instala la app desde Google Play. Se actualizará sola.
-
-Si puedes, quédate en la prueba al menos 14 días y úsala de vez en cuando (por ejemplo, la pregunta del día): Google exige 12 testers durante 14 días para publicarla para todo el mundo. Los comentarios, a leyalblanco@mainshai.com.
-
-</details>
+Disponible en la App Store y en Google Play en España, o como APK desde GitHub.
+Todos los temas y modos están abiertos, con modo claro y oscuro.
 
 <details>
 <summary>Instala el APK desde GitHub</summary>
@@ -50,7 +37,7 @@ Si puedes, quédate en la prueba al menos 14 días y úsala de vez en cuando (po
    - `Ley-al-Blanco-vX.Y.Z-armeabi-v7a.apk`: para móviles antiguos de 32 bits.
 2. Al abrir el APK hay que permitir «instalar aplicaciones de origen desconocido».
 3. Comprobación de integridad: el fichero `SHA256SUMS.txt` publicado en la misma página de la versión.
-4. El APK y la versión de Google Play llevan la misma firma: el APK se instala encima de la de Google Play y conserva tu progreso (desde la 0.9.5). Desde la 0.9.6 llevan también el mismo número de compilación, así que se puede volver del APK a Google Play sin desinstalar, en cuanto la 0.9.6 esté en Google Play. Si tienes una versión de Google Play anterior a la 0.9.5, exporta antes tu progreso (Ajustes, Tus datos) y desinstálala una vez.
+4. El APK y la versión de Google Play llevan la misma firma: el APK se instala encima de la de Google Play y conserva tu progreso. Si tienes una versión de Google Play anterior a la 0.9.5, exporta antes tu progreso (Ajustes, Tus datos) y desinstálala una vez.
 
 </details>
 

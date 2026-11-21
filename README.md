@@ -22,26 +22,13 @@ your own pace. The app is in Spanish.
 ## Download
 
 <p>
-  <a href="https://play.google.com/apps/testing/es.leyalblanco.app"><img src="https://img.shields.io/badge/Google_Play-Beta-414141?logo=googleplay&style=for-the-badge" alt="Beta on Google Play"></a>
+  <a href="https://play.google.com/store/apps/details?id=es.leyalblanco.app"><img src="https://img.shields.io/badge/Google_Play-Get_it_on_Google_Play-414141?logo=googleplay&style=for-the-badge" alt="Get it on Google Play"></a>
   <a href="https://github.com/dferrandizmont/ley-al-blanco/releases/latest"><img src="https://img.shields.io/badge/Available_on-GitHub-181717?logo=github&style=for-the-badge" alt="Available on GitHub"></a>
   <a href="https://apps.apple.com/es/app/ley-al-blanco-armas-d-y-e/id6831621176"><img src="https://img.shields.io/badge/App_Store-Download-0D96F6?logo=appstore&style=for-the-badge" alt="Available on the App Store"></a>
 </p>
 
-On the App Store for iPhone (Spain), and on Android through the Google Play beta
-or the APK. Every topic and mode is open, with a light and a dark theme.
-
-<details>
-<summary>Join the beta on Google Play</summary>
-
-The app is in closed testing on Google Play and anyone can join:
-
-1. Join the testers group: [ley-al-blanco-testers](https://groups.google.com/g/ley-al-blanco-testers). Sign in with your Google account and press «Join group».
-2. Accept the test from your phone or computer: [play.google.com/apps/testing/es.leyalblanco.app](https://play.google.com/apps/testing/es.leyalblanco.app).
-3. Install the app from Google Play. It updates itself.
-
-If you can, stay in the test for at least 14 days and use it from time to time (for example, the daily question): Google requires 12 testers for 14 days to publish it for everyone. Send comments to leyalblanco@mainshai.com.
-
-</details>
+Available on the App Store and Google Play in Spain, or as an APK from GitHub.
+Every topic and mode is open, with a light and a dark theme.
 
 <details>
 <summary>Install the APK from GitHub</summary>
@@ -51,7 +38,7 @@ If you can, stay in the test for at least 14 days and use it from time to time (
    - `Ley-al-Blanco-vX.Y.Z-armeabi-v7a.apk`: for older 32-bit phones.
 2. When you open the APK, allow «install apps from unknown sources».
 3. Check the integrity with the `SHA256SUMS.txt` file published on the same release page.
-4. The APK and the Google Play version share the same signature: the APK installs over the Google Play version and keeps your progress (since 0.9.5). Since 0.9.6 they also share the same build number, so you can go back from the APK to Google Play without uninstalling, as soon as 0.9.6 is on Google Play. If you have a Google Play version older than 0.9.5, export your progress first (Settings, Your data) and uninstall it once.
+4. The APK and the Google Play version share the same signature: the APK installs over the Google Play version and keeps your progress. If you have a Google Play version older than 0.9.5, export your progress first (Settings, Your data) and uninstall it once.
 
 </details>
 
